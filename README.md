@@ -23,7 +23,7 @@ The raw data, manuscript images, and transcriptions used to conduct this researc
 * **Yale University Library (Beinecke Rare Book and Manuscript Library):** High-resolution scans and official catalog metadata of the Cipher manuscript (Beinecke MS 408).
   * Image Archive: [https://collections.library.yale.edu/catalog/2002046?child_oid=1006094](https://collections.library.yale.edu/catalog/2002046?child_oid=1006094)
 * **Voynich.nu:** IVTFF transcription files, folio reference layouts, and extensive transliteration work compiled by René Zandbergen, Gabriel Landini, Takeshi Takahashi, Jorge Stolfi, and other contributors.
-  * Folios & Transcriptions: [https://www.voynich.nu/folios.html](https://www.voynich.nu/folios.html)
+  * Folios & Transcriptions: [https://www.voynich.nu/folios.html](https://www.voynich.nu/)
 
 ## Data & Methodology
 To prevent confirmation bias and overfitting ("Tabula Rasa" methodology), all analyses are triangulated across three independent IVTFF transcription baselines:
