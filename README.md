@@ -1,6 +1,6 @@
 # Voynich Manuscript Ontological Cipher Replication Study
 
-**Principal Investigator:** Vytautas Giedraitis.
+**Principal Investigator:** Vytautas Giedraitis.  
 **Research Period:** 2025–2026.
 
 ## About the Project
@@ -16,6 +16,14 @@ Instead, the manuscript functions as a **Pasigraphic Instruction Engine**—a co
 * **Spatial Polymorphism & Edge Bias:** The text layout dynamically interacts with the illustrations. Specific "Gallows" characters (`p`, `t`) appear almost exclusively at the start of lines (functioning as valve indices or structural markers), while dosage terminations (`-am`, `-iin`) show extreme "Edge Bias" at line endings.
 * **Currier A and B are Code Versions, Not Dialects:** The shift from Currier A to Currier B represents a technical code update. Version B introduces new procedural operators (e.g., `lk-`, `lc-`) and a new dosage/state suffix (`-dy` replacing `-in`) needed for more complex pharmaceutical processing.
 * **The Rosettes Foldout (Macro-Reactor):** The famous 6-page Rosettes foldout (f85/f86) is decoded as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory (an *Athanor*), with text directions matching fluid and vapour flow.
+
+## Data Sources & Acknowledgements
+The raw data, manuscript images, and transcriptions used to conduct this research were obtained from the following original sources:
+
+* **Yale University Library (Beinecke Rare Book and Manuscript Library):** High-resolution scans and official catalog metadata of the Cipher manuscript (Beinecke MS 408).
+  * Image Archive: [https://collections.library.yale.edu/catalog/2002046?child_oid=1006094](https://collections.library.yale.edu/catalog/2002046?child_oid=1006094)
+* **Voynich.nu:** IVTFF transcription files, folio reference layouts, and extensive transliteration work compiled by René Zandbergen, Gabriel Landini, Takeshi Takahashi, Jorge Stolfi, and other contributors.
+  * Folios & Transcriptions: [https://www.voynich.nu/folios.html](https://www.voynich.nu/folios.html)
 
 ## Data & Methodology
 To prevent confirmation bias and overfitting ("Tabula Rasa" methodology), all analyses are triangulated across three independent IVTFF transcription baselines:
