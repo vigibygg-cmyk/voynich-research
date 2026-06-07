@@ -23,19 +23,18 @@ Instead, the manuscript functions as a **Pasigraphic Instruction Engine**—a co
 * **Cross-Cultural Synthesis:** The cipher integrates Arabic astromedicine (e.g., 28 Lunar Mansions mapping to specific roots like *sharatain* and *baldah*), Northern Italian hydraulic engineering (visually and topologically inspired by Francesco di Giorgio Martini), and European botany.
 * **Spatial Polymorphism & Edge Bias:** The text layout dynamically interacts with the illustrations. Specific "Gallows" characters (`p`, `t`) appear almost exclusively at the start of lines (functioning as valve indices or structural markers), while dosage terminations (`-am`, `-iin`) show extreme "Edge Bias" at line endings.
 * **Currier A and B are Code Versions, Not Dialects:** The shift from Currier A to Currier B represents a technical code update. Version B introduces new procedural operators (e.g., `lk-`, `lc-`) and a new dosage/state suffix (`-dy` replacing `-in`) needed for more complex pharmaceutical processing.
-* **The Rosettes Foldout (Macro-Reactor):** The famous 6-page Rosettes foldout (f85/f86) is decoded as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory (an *Athanor*), with text directions matching fluid and vapour flow.
-
+*Fig 1. The Rosettes foldout (computationally designated as fRos, physically spanning f85/f86), analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
 ---
 
 ## 🚀 Quick Start: Verify the Data
-This project is built for complete transparency and easy reproducibility. You do not need a local Python environment to test the core computational findings.
+This project is built for complete transparency and easy reproducibility. All necessary scripts, historical texts, and transcriptions are provided in this repository.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) 
-*(Note: Replace this link with your specific Colab Notebook URL once uploaded)*
+You do not need a local Python environment to test the core computational findings. You can independently verify the data using a personal Google Colab session:
 
-1. Click the **Open in Colab** button above.
-2. The notebook will automatically fetch the cleaned IVTFF transcriptions (`RF1b-er`, `ZL3b-n`, `IT2a-n`) directly from this repository.
-3. Run the cells sequentially to reproduce the Pointwise Mutual Information (PMI) clustering, Truncated SVD, and entropy calculations.
+1. Open a new, blank [Google Colab Notebook](https://colab.research.google.com/).
+2. Download the specific Python scripts (from `/scripts/`) and the cleaned IVTFF transcriptions (`RF1b-er`, `ZL3b-n`, `IT2a-n` from `/voynich_clean_data/`) from this GitHub repository.
+3. Upload these downloaded files directly into your temporary Colab session workspace.
+4. Run the scripts sequentially to independently reproduce the Pointwise Mutual Information (PMI) clustering, Truncated SVD, and entropy calculations.
 
 ---
 
