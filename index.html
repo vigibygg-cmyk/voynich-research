@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ═══════════════════════════════════════════
+       SEO — Primary
+  ════════════════════════════════════════════ -->
+  <title>Voynich Manuscript: Computational Research by Vytautas Giedraitis</title>
+  <meta name="description" content="Independent computational analysis of the Voynich Manuscript (Beinecke MS 408). 35+ research phases using statistical NLP, machine learning and pixel-mapping to decode the manuscript's internal structure. Proposes an alchemical-botanical Ontological Cipher hypothesis.">
+  <meta name="keywords" content="Voynich Manuscript, Beinecke MS 408, computational linguistics, ontological cipher, alchemical manuscript, EVA transcription, bigram perplexity, morphological valency, edge bias, NLP, machine learning, Vytautas Giedraitis, Voynich analysis, manuscript decipherment">
+  <meta name="author" content="Vytautas Giedraitis">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://username.github.io/voynich-research/">
+
+  <!-- ═══════════════════════════════════════════
+       SEO — Open Graph (Facebook, LinkedIn)
+  ════════════════════════════════════════════ -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://username.github.io/voynich-research/">
+  <meta property="og:title" content="Voynich Manuscript: Computational Research">
+  <meta property="og:description" content="35+ research phases, 38,000+ word corpus, statistical proof of internal structure. An independent researcher's computational deep-dive into the world's most mysterious manuscript.">
+  <meta property="og:image" content="https://username.github.io/voynich-research/images/og-cover.jpg">
+  <meta property="og:site_name" content="Voynich Computational Research">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ═══════════════════════════════════════════
+       SEO — Twitter Card
+  ════════════════════════════════════════════ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Voynich Manuscript: Computational Research">
+  <meta name="twitter:description" content="Independent statistical analysis of Beinecke MS 408. Bigram perplexity ~4.44 proves non-random structure. 35+ phases of computational research.">
+  <meta name="twitter:image" content="https://username.github.io/voynich-research/images/og-cover.jpg">
+
+  <!-- ═══════════════════════════════════════════
+       Schema.org Structured Data
+  ════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "name": "Voynich Manuscript Ontological Cipher Replication Study",
+    "author": {
+      "@type": "Person",
+      "name": "Vytautas Giedraitis"
+    },
+    "description": "Computational statistical analysis of the Voynich Manuscript proposing an alchemical-botanical ontological cipher structure.",
+    "keywords": "Voynich Manuscript, computational linguistics, ontological cipher, EVA transcription, bigram perplexity",
+    "url": "https://username.github.io/voynich-research/",
+    "datePublished": "2026",
+    "inLanguage": "en"
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════
+       Fonts
+  ════════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ══════════════════════════════════════
+       DESIGN TOKENS
+    ══════════════════════════════════════ */
+    :root {
+      --ink:        #1a1410;
+      --ink-soft:   #3d3228;
+      --ink-muted:  #7a6a5a;
+      --parchment:  #f5f0e8;
+      --parchment2: #ede5d4;
+      --parchment3: #e2d8c3;
+      --gold:       #c8a44a;
+      --gold-light: #e8c97a;
+      --gold-dim:   #8a6f30;
+      --rust:       #8b3a2a;
+      --rust-light: #c0503c;
+      --teal:       #2a6b6a;
+      --teal-light: #3d9190;
+      --border:     rgba(90,70,40,0.18);
+      --border-strong: rgba(90,70,40,0.35);
+
+      --font-display: 'IM Fell English', serif;
+      --font-body:    'Crimson Pro', serif;
+      --font-mono:    'JetBrains Mono', monospace;
+    }
+
+    /* ══════════════════════════════════════
+       RESET & BASE
+    ══════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 18px; }
+    body {
+      background: var(--parchment);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* Grain texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.4;
+    }
+
+    /* ══════════════════════════════════════
+       NAVIGATION
+    ══════════════════════════════════════ */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(245,240,232,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .nav-logo span {
+      color: var(--gold);
+      font-style: italic;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: var(--ink-muted);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ══════════════════════════════════════
+       HERO
+    ══════════════════════════════════════ */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Left: manuscript image panel */
+    .hero-image-panel {
+      position: relative;
+      background: var(--ink);
+      overflow: hidden;
+    }
+    .hero-image-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.75;
+      filter: sepia(30%) contrast(1.1);
+      display: block;
+    }
+    /* Placeholder shown until real image is added */
+    .hero-image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(160deg, #1a1410 0%, #2e2418 50%, #1a1410 100%);
+      gap: 1rem;
+    }
+    .placeholder-symbol {
+      font-family: var(--font-display);
+      font-size: 6rem;
+      color: var(--gold-dim);
+      opacity: 0.5;
+      line-height: 1;
+    }
+    .placeholder-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--gold-dim);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      opacity: 0.6;
+      text-align: center;
+      padding: 0 2rem;
+    }
+
+    /* Decorative vertical rule on panel edge */
+    .hero-image-panel::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 1px; height: 100%;
+      background: linear-gradient(to bottom, transparent, var(--gold-dim), transparent);
+    }
+
+    /* Right: text content */
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 6rem 4rem 4rem 4rem;
+      position: relative;
+    }
+    /* Subtle decorative lines in background */
+    .hero-content::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 31px,
+          rgba(90,70,40,0.06) 31px,
+          rgba(90,70,40,0.06) 32px
+        );
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 2rem;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      line-height: 1.15;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      font-weight: normal;
+    }
+    .hero-title em {
+      color: var(--rust);
+      font-style: italic;
+    }
+    .hero-subtitle {
+      font-family: var(--font-display);
+      font-size: clamp(1rem, 1.8vw, 1.4rem);
+      color: var(--ink-muted);
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      color: var(--ink-soft);
+      max-width: 42ch;
+      margin-bottom: 2.5rem;
+      line-height: 1.8;
+    }
+
+    /* Key stats row */
+    .hero-stats {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 3rem;
+      padding: 1.25rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .stat-num {
+      font-family: var(--font-mono);
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+
+    /* CTA buttons */
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.8rem;
+      background: var(--ink);
+      color: var(--gold-light);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid var(--ink);
+      transition: all 0.2s;
+    }
+    .btn-primary:hover {
+      background: var(--gold);
+      color: var(--ink);
+      border-color: var(--gold);
+    }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.8rem;
+      background: transparent;
+      color: var(--ink-soft);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid var(--border-strong);
+      transition: all 0.2s;
+    }
+    .btn-secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* ══════════════════════════════════════
+       SECTION WRAPPER
+    ══════════════════════════════════════ */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 6rem 2rem;
+    }
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0;
+    }
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+    .section-num {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: normal;
+      line-height: 1.2;
+    }
+    .section-title em { color: var(--rust); }
+
+    /* ══════════════════════════════════════
+       ABOUT / INTRO SECTION
+    ══════════════════════════════════════ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    .about-text p {
+      font-size: 1.05rem;
+      line-height: 1.85;
+      color: var(--ink-soft);
+      margin-bottom: 1.2rem;
+    }
+    .about-text p:first-child::first-letter {
+      font-family: var(--font-display);
+      font-size: 3.5rem;
+      float: left;
+      line-height: 0.85;
+      margin-right: 0.1em;
+      margin-top: 0.1em;
+      color: var(--gold);
+    }
+    .pull-quote {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-style: italic;
+      color: var(--ink-soft);
+      border-left: 3px solid var(--gold);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+      line-height: 1.6;
+    }
+
+    /* Manuscript image — right side */
+    .about-image-wrap {
+      position: relative;
+    }
+    .about-image-frame {
+      position: relative;
+      border: 1px solid var(--border-strong);
+    }
+    .about-image-frame::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border: 1px solid var(--border);
+      z-index: 1;
+      pointer-events: none;
+    }
+    .about-image-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      filter: sepia(20%) contrast(1.05);
+    }
+    /* Placeholder for about image */
+    .about-img-placeholder {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--parchment3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+    .about-img-placeholder .ph-icon {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      color: var(--ink-muted);
+      opacity: 0.4;
+    }
+    .about-img-placeholder .ph-text {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+    }
+    .image-caption {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      text-align: center;
+      margin-top: 0.75rem;
+    }
+
+    /* ══════════════════════════════════════
+       HYPOTHESIS SECTION
+    ══════════════════════════════════════ */
+    .hypothesis-section {
+      background: var(--parchment2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 6rem 0;
+    }
+    .hyp-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .hypothesis-card {
+      background: var(--ink);
+      color: var(--parchment);
+      padding: 3rem 3.5rem;
+      margin: 2.5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .hypothesis-card::before {
+      content: '❧';
+      position: absolute;
+      top: -2rem;
+      right: 2rem;
+      font-size: 10rem;
+      color: var(--gold-dim);
+      opacity: 0.12;
+      line-height: 1;
+      pointer-events: none;
+    }
+    .hypothesis-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: var(--gold-light);
+      margin-bottom: 1rem;
+    }
+    .hypothesis-card p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: rgba(245,240,232,0.85);
+      max-width: 70ch;
+    }
+
+    /* Three-column pillars */
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 3rem;
+    }
+    .pillar {
+      background: var(--parchment);
+      padding: 2rem 1.75rem;
+      border: 1px solid var(--border);
+      transition: border-color 0.2s;
+    }
+    .pillar:hover { border-color: var(--gold-dim); }
+    .pillar-num {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .pillar h4 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: normal;
+      margin-bottom: 0.75rem;
+      color: var(--ink);
+    }
+    .pillar p {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: var(--ink-soft);
+    }
+
+    /* ══════════════════════════════════════
+       STATS BANNER
+    ══════════════════════════════════════ */
+    .stats-banner {
+      background: var(--ink);
+      padding: 4rem 2rem;
+    }
+    .stats-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .stat-block {
+      padding: 2rem;
+      border-right: 1px solid rgba(200,164,74,0.2);
+      text-align: center;
+    }
+    .stat-block:last-child { border-right: none; }
+    .stat-big {
+      font-family: var(--font-mono);
+      font-size: 2.6rem;
+      font-weight: 500;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .stat-desc {
+      font-size: 0.8rem;
+      color: rgba(245,240,232,0.55);
+      letter-spacing: 0.06em;
+      line-height: 1.5;
+    }
+    .stat-compare {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      color: rgba(200,164,74,0.5);
+      margin-top: 0.4rem;
+      display: block;
+    }
+
+    /* ══════════════════════════════════════
+       RESEARCH PHASES TIMELINE
+    ══════════════════════════════════════ */
+    .phases-section { background: var(--parchment); }
+
+    .timeline {
+      position: relative;
+      padding-left: 3rem;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0.65rem;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: linear-gradient(to bottom, var(--gold-dim), transparent);
+    }
+    .phase-group {
+      margin-bottom: 3.5rem;
+    }
+    .phase-group-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+      position: relative;
+    }
+    .phase-group-label::before {
+      content: '';
+      position: absolute;
+      left: -2.35rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0.7rem;
+      height: 0.7rem;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+    .phase-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+    }
+    .phase-card {
+      background: var(--parchment2);
+      padding: 1.4rem 1.25rem;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      cursor: default;
+    }
+    .phase-card:hover {
+      background: var(--parchment);
+      border-color: var(--gold-dim);
+      transform: translateY(-2px);
+    }
+    .phase-card-num {
+      font-family: var(--font-mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.15em;
+      color: var(--rust);
+      margin-bottom: 0.5rem;
+    }
+    .phase-card-title {
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+    .phase-card-desc {
+      font-size: 0.82rem;
+      color: var(--ink-muted);
+      line-height: 1.6;
+    }
+    .phase-result {
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      color: var(--teal);
+      letter-spacing: 0.05em;
+    }
+
+    /* ══════════════════════════════════════
+       FOLIO SECTION
+    ══════════════════════════════════════ */
+    .folio-section {
+      background: var(--parchment2);
+      border-top: 1px solid var(--border);
+    }
+    .folio-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .folio-item {
+      border: 1px solid var(--border);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .folio-item:hover { border-color: var(--gold-dim); }
+    .folio-img-placeholder {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--parchment3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .folio-img-placeholder span {
+      font-family: var(--font-mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+    }
+    .folio-img-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: sepia(15%);
+      display: block;
+    }
+    .folio-label {
+      padding: 0.5rem 0.6rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      border-top: 1px solid var(--border);
+    }
+    .folio-label strong {
+      display: block;
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* ══════════════════════════════════════
+       ABOUT AUTHOR SECTION
+    ══════════════════════════════════════ */
+    .author-section {
+      background: var(--ink);
+      padding: 6rem 2rem;
+    }
+    .author-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+    .author-portrait {
+      border: 1px solid rgba(200,164,74,0.3);
+    }
+    .author-portrait img {
+      display: block;
+      width: 100%;
+      filter: sepia(20%) grayscale(30%);
+    }
+    .author-portrait-placeholder {
+      aspect-ratio: 1;
+      background: rgba(200,164,74,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    .author-portrait-placeholder span {
+      font-family: var(--font-mono);
+      font-size: 0.55rem;
+      letter-spacing: 0.12em;
+      color: var(--gold-dim);
+      text-align: center;
+    }
+    .author-content .section-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .author-content h2 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: normal;
+      color: var(--parchment);
+      margin-bottom: 1.5rem;
+    }
+    .author-content p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: rgba(245,240,232,0.7);
+      max-width: 65ch;
+      margin-bottom: 1rem;
+    }
+
+    /* ══════════════════════════════════════
+       OPEN SCIENCE BOX
+    ══════════════════════════════════════ */
+    .openscience {
+      margin-top: 2.5rem;
+      padding: 1.5rem 2rem;
+      border: 1px solid rgba(200,164,74,0.25);
+      background: rgba(200,164,74,0.05);
+    }
+    .openscience p {
+      font-size: 0.9rem !important;
+      color: rgba(245,240,232,0.6) !important;
+      margin-bottom: 0.5rem !important;
+    }
+    .openscience code {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--gold);
+      background: rgba(200,164,74,0.1);
+      padding: 0.1em 0.4em;
+    }
+
+    /* ══════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════ */
+    footer {
+      background: #0f0c09;
+      padding: 3rem 2rem 2rem;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .footer-logo {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--gold-dim);
+    }
+    .footer-meta {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: rgba(200,164,74,0.3);
+      text-align: right;
+      line-height: 1.8;
+    }
+    .footer-nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(200,164,74,0.1);
+      justify-content: center;
+    }
+    .footer-nav a {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(200,164,74,0.4);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .footer-nav a:hover { color: var(--gold); }
+
+    /* ══════════════════════════════════════
+       ANIMATIONS
+    ══════════════════════════════════════ */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up {
+      opacity: 0;
+      animation: fadeUp 0.7s ease forwards;
+    }
+    .fade-up:nth-child(1) { animation-delay: 0.1s; }
+    .fade-up:nth-child(2) { animation-delay: 0.25s; }
+    .fade-up:nth-child(3) { animation-delay: 0.4s; }
+    .fade-up:nth-child(4) { animation-delay: 0.55s; }
+    .fade-up:nth-child(5) { animation-delay: 0.7s; }
+    .fade-up:nth-child(6) { animation-delay: 0.85s; }
+
+    /* ══════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-image-panel { height: 50vw; max-height: 400px; }
+      .hero-content { padding: 4rem 2rem 3rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .about-image-wrap { order: -1; }
+      .pillars { grid-template-columns: 1fr; gap: 0.5rem; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .phase-cards { grid-template-columns: 1fr 1fr; }
+      .folio-grid { grid-template-columns: repeat(3, 1fr); }
+      .author-inner { grid-template-columns: 1fr; }
+      .author-portrait { max-width: 200px; }
+      .footer-inner { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
+    }
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .phase-cards { grid-template-columns: 1fr; }
+      .folio-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-stats { gap: 1rem; flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════ -->
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Voynich <span>∴</span> Research</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#hypothesis">Hypothesis</a></li>
+        <li><a href="#phases">Phases</a></li>
+        <li><a href="#folios">Folios</a></li>
+        <li><a href="data.html">Data &amp; Code</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <header class="hero" role="banner">
+
+    <!-- Left image panel -->
+    <!-- IMAGE SLOT 1: Replace the placeholder below with:
+         <img src="images/hero-folio.jpg" alt="Voynich Manuscript folio f67r2 — astronomical diagram">
+         Recommended: a dramatic high-contrast scan of an astronomical or herbal page.
+         Filename: images/hero-folio.jpg
+    -->
+    <div class="hero-image-panel" aria-hidden="true">
+      <div class="hero-image-placeholder">
+        <div class="placeholder-symbol">✦</div>
+        <div class="placeholder-label">
+          IMAGE SLOT 1<br>
+          images/hero-folio.jpg<br>
+          <br>
+          Recommended: Voynich MS folio<br>
+          (astronomical or herbal page scan)
+        </div>
+      </div>
+    </div>
+
+    <!-- Right content -->
+    <div class="hero-content">
+      <div class="hero-eyebrow fade-up">Beinecke MS 408 · Independent Research · 2025–2026</div>
+
+      <h1 class="hero-title fade-up">
+        The Voynich<br>
+        Manuscript<br>
+        <em>Decoded in Structure</em>
+      </h1>
+
+      <p class="hero-subtitle fade-up">An Ontological Cipher Hypothesis</p>
+
+      <p class="hero-description fade-up">
+        Over 35 computational research phases, statistical analysis of 38,000+ words
+        across three transcriptions reveals a non-random, algorithmically structured
+        system — not a natural language, not a hoax, but a Renaissance-era
+        botanical-alchemical instruction engine.
+      </p>
+
+      <div class="hero-stats fade-up">
+        <div class="stat">
+          <span class="stat-num">35+</span>
+          <span class="stat-label">Research phases</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">~4.44</span>
+          <span class="stat-label">Bigram perplexity</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">1.8×</span>
+          <span class="stat-label">Edge bias factor</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Folios mapped</span>
+        </div>
+      </div>
+
+      <div class="hero-actions fade-up">
+        <a href="#hypothesis" class="btn-primary">Read the hypothesis →</a>
+        <a href="data.html" class="btn-secondary">↓ Download data &amp; scripts</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════
+       ABOUT SECTION
+  ══════════════════════════════════════ -->
+  <hr class="section-divider">
+  <main>
+  <section id="about" aria-labelledby="about-heading">
+    <div class="section">
+      <div class="section-header">
+        <span class="section-num">§ 01</span>
+        <h2 class="section-title" id="about-heading">The World's Most<br><em>Mysterious Manuscript</em></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            The Voynich Manuscript is a 240-page illustrated codex written in an entirely unknown script, 
+            carbon-dated to the early 15th century. Since its rediscovery in 1912, professional cryptanalysts, 
+            linguists, and computer scientists have failed to decode it. Most theories either claim it is 
+            an elaborate hoax or a phonetic cipher of an unknown language.
+          </p>
+          <blockquote class="pull-quote">
+            "The numbers do not lie: the text is too structured to be random noise,
+            and too alien to be any known natural language."
+          </blockquote>
+          <p>
+            This project takes a different approach — not attempting to read the manuscript word-by-word, 
+            but to mathematically characterise its <em>structure</em> from the outside in. Using statistical 
+            NLP methods — bigram perplexity, byte-pair encoding, pointwise mutual information, 
+            dependency graphs, and pixel-level folio mapping — it builds a case that the manuscript 
+            encodes procedural alchemical-botanical instructions through a constructed ontological system.
+          </p>
+          <p>
+            I am not an academic. I am an independent researcher driven by curiosity, 
+            open-source tools, and the conviction that the question of this manuscript 
+            deserves more than speculation. All data, scripts and findings are published here 
+            so anyone can verify, challenge, or build upon this work.
+          </p>
+        </div>
+
+        <div class="about-image-wrap">
+          <!-- IMAGE SLOT 2: Replace below with:
+               <div class="about-image-frame">
+                 <img src="images/manuscript-detail.jpg" alt="Detail of Voynich Manuscript folio showing botanical illustration and surrounding text">
+               </div>
+               Recommended: close-up of herbal section folio (roots, botanical glyphs visible).
+               Filename: images/manuscript-detail.jpg
+          -->
+          <div class="about-image-frame">
+            <div class="about-img-placeholder">
+              <span class="ph-icon">☙</span>
+              <span class="ph-text">
+                IMAGE SLOT 2<br>
+                images/manuscript-detail.jpg<br>
+                Close-up of botanical folio
+              </span>
+            </div>
+          </div>
+          <p class="image-caption">BEINECKE MS 408 · YALE UNIVERSITY LIBRARY · c. 1404–1438</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       HYPOTHESIS SECTION
+  ══════════════════════════════════════ -->
+  <section id="hypothesis" class="hypothesis-section" aria-labelledby="hyp-heading">
+    <div class="hyp-inner">
+      <div class="section-header">
+        <span class="section-num">§ 02</span>
+        <h2 class="section-title" id="hyp-heading">The <em>Ontological Cipher</em><br>Hypothesis</h2>
+      </div>
+
+      <div class="hypothesis-card">
+        <h3>Core Proposition</h3>
+        <p>
+          The Voynich Manuscript is a <strong>Pasigraphic Instruction Engine</strong> — a constructed, 
+          script-independent coding system designed to encode Renaissance-era spagyric 
+          (alchemical-pharmaceutical) laboratory procedures. Its vocabulary does not represent sounds 
+          or words in any natural language; instead, every token encodes an <em>ontological category</em>: 
+          object, state, dose, action, or quantity. The text is a recipe database, not a narrative.
+        </p>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-num">PILLAR I · ENTROPY</div>
+          <h4>Non-Natural Language Structure</h4>
+          <p>
+            Bigram perplexity ~4.44 places the manuscript near Latin (~4.38) — 
+            but morphological valency ~86 far exceeds any known natural language (typically 6–10). 
+            This combination is impossible for natural speech; it proves a synthetic, 
+            algorithmically-generated lexicon.
+          </p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">PILLAR II · SYNTAX</div>
+          <h4>Hard Syntactic Chains</h4>
+          <p>
+            PMI analysis across three independent transcriptions reveals rigid 3- and 4-word 
+            formulaic sequences (e.g. <em>ol → s → aiin</em>) repeating across hundreds of folios — 
+            consistent with procedural recipe syntax, not conversational text.
+          </p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-num">PILLAR III · LAYOUT</div>
+          <h4>Edge Bias &amp; Visual Coupling</h4>
+          <p>
+            Terminal word tokens (-iin, -am) appear 1.8× more frequently at line edges than 
+            mid-line — exactly where text meets illustrations. The text was <em>formatted 
+            around the images</em>, suggesting the illustrations are functional, not decorative.
+          </p>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top: 3rem;">
+        <a href="hypothesis.html" class="btn-primary">Read the full hypothesis →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       STATS BANNER
+  ══════════════════════════════════════ -->
+  <div class="stats-banner" role="region" aria-label="Key research statistics">
+    <div class="stats-grid">
+      <div class="stat-block">
+        <span class="stat-big">4.44</span>
+        <span class="stat-desc">Bigram Perplexity<br>(triangulated, 3 transcriptions)</span>
+        <span class="stat-compare">Latin ≈ 4.38 · Random noise → 14.19</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-big">86.5</span>
+        <span class="stat-desc">Morphological Valency<br>(BPE 500 iterations)</span>
+        <span class="stat-compare">Natural languages: 6–10 · German: ~18</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-big">1.80×</span>
+        <span class="stat-desc">Edge Bias Multiplier<br>(terminal vs. internal tokens)</span>
+        <span class="stat-compare">Random baseline: 1.00× (flat)</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-big">38 506</span>
+        <span class="stat-desc">Corpus Words Analysed<br>(RF1b-er consensus transcription)</span>
+        <span class="stat-compare">Also: ZL3b-n · IT2a-n triangulated</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       RESEARCH PHASES
+  ══════════════════════════════════════ -->
+  <section id="phases" class="phases-section" aria-labelledby="phases-heading">
+    <div class="section">
+      <div class="section-header">
+        <span class="section-num">§ 03</span>
+        <h2 class="section-title" id="phases-heading">35 Phases of<br><em>Computational Research</em></h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="phase-group">
+          <div class="phase-group-label">Stage I · Structural Validation · Phases I–X</div>
+          <div class="phase-cards">
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE I</div>
+              <div class="phase-card-title">Data Extraction &amp; Standardisation</div>
+              <p class="phase-card-desc">Downloaded RF1b-er, ZL3b-n, IT2a-n transcriptions. Cleaned IVTFF metadata. Built unified word corpus.</p>
+              <div class="phase-result">✓ Corpus of 38,506 words established</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE II</div>
+              <div class="phase-card-title">Entropy &amp; Morphological Valency</div>
+              <p class="phase-card-desc">Bigram perplexity + BPE valency triangulated. Hoax null hypothesis tested vs. random baseline.</p>
+              <div class="phase-result">✓ Hoax hypothesis rejected (p ≪ 0.001)</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE III</div>
+              <div class="phase-card-title">PMI Matrix &amp; Syntactic Chains</div>
+              <p class="phase-card-desc">Pointwise Mutual Information for all 15+ occurrence word pairs. Rigid chains identified across all transcriptions.</p>
+              <div class="phase-result">✓ 129–174 hard syntactic chains found</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE IV</div>
+              <div class="phase-card-title">Edge Bias &amp; Visual Triangulation</div>
+              <p class="phase-card-desc">Terminal token frequency at line-edges vs. mid-line. Section-specific anchor distribution vs. random baseline.</p>
+              <div class="phase-result">✓ 1.8× edge concentration confirmed</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE V</div>
+              <div class="phase-card-title">Historical Corpus Comparison</div>
+              <p class="phase-card-desc">Bootstrapped perplexity &amp; valency vs. 13 historical corpora (Latin, German, Finnish, Polish, Dutch, Hungarian…).</p>
+              <div class="phase-result">✓ Manuscript is structurally unique</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASE VI</div>
+              <div class="phase-card-title">Phylogenetic Profiling</div>
+              <p class="phase-card-desc">Standardised Euclidean distance ranking. Multi-partite (3- and 4-word) chain extraction. Structural lineage mapping.</p>
+              <div class="phase-result">✓ Closest: Finnish Astrology, Latin Alchemy</div>
+            </article>
+          </div>
+        </div>
+
+        <div class="phase-group">
+          <div class="phase-group-label">Stage I cont. · Semantic Decoding · Phases VII–XVI</div>
+          <div class="phase-cards">
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES VII–VIII</div>
+              <div class="phase-card-title">TF-IDF Signal Extraction</div>
+              <p class="phase-card-desc">Section-specific high-value tokens extracted blind. Botanical, astronomical, pharmaceutical anchors identified without prior knowledge.</p>
+              <div class="phase-result">✓ Blind anchor identification validated</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES IX–X</div>
+              <div class="phase-card-title">Cipher Matrix Construction</div>
+              <p class="phase-card-desc">Object → State → Dose token logic mapped. Prefix taxonomy (qo-, so-, ot-, sa-) categorised as ontological operators.</p>
+              <div class="phase-result">✓ 3-tier cipher matrix established</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES XI–XVI</div>
+              <div class="phase-card-title">Garbage Barrier &amp; Skeleton</div>
+              <p class="phase-card-desc">High-frequency noise tokens filtered (Naibbe model). ~80% skeleton vs. ~20% padding ratio confirmed across sections.</p>
+              <div class="phase-result">✓ Scaffold structure isolated</div>
+            </article>
+          </div>
+        </div>
+
+        <div class="phase-group">
+          <div class="phase-group-label">Stage II · Semantic Grounding &amp; ML · Phases XVII–XXXV</div>
+          <div class="phase-cards">
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES XVII–XX</div>
+              <div class="phase-card-title">Dependency Graph Analysis</div>
+              <p class="phase-card-desc">NetworkX DiGraph construction. Modularity scoring. Graph-level evidence for Algorithmic Loop hypothesis (Paper Computer model).</p>
+              <div class="phase-result">✓ Loop structure confirmed in graph topology</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES XXI–XXV</div>
+              <div class="phase-card-title">Masked Language Modelling</div>
+              <p class="phase-card-desc">MLM fine-tuning on Voynich corpus. Bootstrap confidence intervals. JS divergence testing. BPE valency stress-testing.</p>
+              <div class="phase-result">✓ Predictive model built; limitations noted</div>
+            </article>
+            <article class="phase-card">
+              <div class="phase-card-num">PHASES XXVI–XXXV</div>
+              <div class="phase-card-title">Folio Pixel Mapping</div>
+              <p class="phase-card-desc">JSON-structured coordinate mapping of 10+ folios. Locus types, bisection markers, pipe/flow codes, visual anchor inventories with colour data.</p>
+              <div class="phase-result">✓ ot- prefix identified as conduit code</div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top: 3rem;">
+        <a href="phases.html" class="btn-primary">Full phase-by-phase reports →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOLIOS SECTION
+  ══════════════════════════════════════ -->
+  <section id="folios" class="folio-section" aria-labelledby="folios-heading">
+    <div class="section">
+      <div class="section-header">
+        <span class="section-num">§ 04</span>
+        <h2 class="section-title" id="folios-heading">Folio <em>Pixel Maps</em></h2>
+      </div>
+
+      <p style="color: var(--ink-soft); max-width: 65ch; margin-bottom: 2rem; font-size: 1rem; line-height: 1.8;">
+        Each analysed folio has been mapped at pixel level — transcription loci linked to 
+        normalised coordinates, visual anchors catalogued with colour data, bisection markers 
+        traced, and pipe/flow systems diagrammed. Below are the ten primary mapped folios.
+      </p>
+
+      <!-- IMAGE SLOT GROUP 3–12: 10 folio thumbnails
+           For each folio, replace the placeholder div with:
+           <img src="images/folio-f68v3.jpg" alt="Voynich Manuscript folio f68v3 — astronomical diagram">
+           Use small cropped thumbnails (approx 200×280px each).
+           Filenames: images/folio-f68v3.jpg, folio-f75v.jpg, folio-f75r.jpg,
+           folio-f8r.jpg, folio-f103r.jpg, folio-f67r2.jpg,
+           folio-f76r.jpg, folio-f85r2.jpg, folio-f71r.jpg, folio-f77r.jpg
+      -->
+      <div class="folio-grid" role="list">
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f68v3.jpg</span></div>
+          <div class="folio-label"><strong>f68v3</strong> Astronomical</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f75v.jpg</span></div>
+          <div class="folio-label"><strong>f75v</strong> Balneological</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f75r.jpg</span></div>
+          <div class="folio-label"><strong>f75r</strong> Balneological</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f8r.jpg</span></div>
+          <div class="folio-label"><strong>f8r</strong> Herbal</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f103r.jpg</span></div>
+          <div class="folio-label"><strong>f103r</strong> Pharmaceutical</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f67r2.jpg</span></div>
+          <div class="folio-label"><strong>f67r2</strong> Astronomical</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f76r.jpg</span></div>
+          <div class="folio-label"><strong>f76r</strong> Balneological</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f85r2.jpg</span></div>
+          <div class="folio-label"><strong>f85r2</strong> Cosmological</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f71r.jpg</span></div>
+          <div class="folio-label"><strong>f71r</strong> Balneological</div>
+        </div>
+
+        <div class="folio-item" role="listitem">
+          <div class="folio-img-placeholder"><span>images/<br>folio-f77r.jpg</span></div>
+          <div class="folio-label"><strong>f77r</strong> Balneological</div>
+        </div>
+
+      </div>
+
+      <p style="margin-top: 1.5rem; font-family: var(--font-mono); font-size: 0.65rem; color: var(--ink-muted); letter-spacing: 0.08em;">
+        Folio scans: Beinecke Rare Book &amp; Manuscript Library, Yale University (CC BY-NC-SA). 
+        Coordinate data and JSON mappings available in the <a href="data.html" style="color: var(--gold-dim);">data repository</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       AUTHOR SECTION
+  ══════════════════════════════════════ -->
+  <section id="author" class="author-section" aria-labelledby="author-heading">
+    <div class="author-inner">
+
+      <div class="author-portrait">
+        <!-- IMAGE SLOT 13: Author photo
+             Replace below with:
+             <img src="images/author-portrait.jpg" alt="Vytautas Giedraitis">
+             Filename: images/author-portrait.jpg
+             Square or portrait crop, grayscale or muted colour works well.
+        -->
+        <div class="author-portrait-placeholder">
+          <span style="font-size:2.5rem; color: var(--gold-dim); opacity:0.3; font-family: var(--font-display);">V.G.</span>
+          <span>images/<br>author-portrait.jpg</span>
+        </div>
+      </div>
+
+      <div class="author-content">
+        <p class="section-eyebrow">About the researcher</p>
+        <h2 id="author-heading">Vytautas Giedraitis</h2>
+        <p>
+          I am an independent researcher and enthusiast, not an academic. My background combines 
+          a deep interest in historical mysteries with a methodical approach to statistical analysis 
+          and computational methods.
+        </p>
+        <p>
+          This project began as a personal curiosity and grew into a structured multi-phase research 
+          program spanning over a year of evenings and weekends. Every tool used is open-source, 
+          every method is documented, and every finding is reproducible.
+        </p>
+        <p>
+          I believe the Voynich Manuscript deserves rigorous, transparent, citizen-science 
+          investigation — and that keeping such research open is more valuable than any single 
+          conclusion it might produce.
+        </p>
+
+        <div class="openscience">
+          <p>All research materials are publicly available:</p>
+          <p>
+            <code>github.com/username/voynich-research</code> — Python scripts, JSON folio maps, 
+            full phase reports, and raw data files. MIT licensed. Contributions welcome.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Voynich ∴ Research</div>
+      <div class="footer-meta">
+        Vytautas Giedraitis · Independent Research · 2025–2026<br>
+        Beinecke MS 408 · Yale University Library<br>
+        All analysis code: MIT License
+      </div>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index.html">Home</a>
+      <a href="hypothesis.html">Hypothesis</a>
+      <a href="phases.html">Phases</a>
+      <a href="results.html">Results</a>
+      <a href="data.html">Data &amp; Code</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
