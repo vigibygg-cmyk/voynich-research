@@ -9,7 +9,7 @@
 🌐 **Interactive Research Dashboard:** [Visit the live project website](https://vigibygg-cmyk.github.io/voynich-research/) for full phase breakdowns, interactive data visualizations (Perplexity, Edge Bias), and detailed manuscript mappings.
 
 ![Voynich Rosettes Foldout](https://vigibygg-cmyk.github.io/voynich-research/images/hero-folio.jpg)
-*Fig 1. The Rosettes foldout (f85/f86), analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
+*Fig 1. The Rosettes foldout, analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
 
 ## About the Project
 This repository contains the data, computational scripts, and research protocols for an exhaustive replication study of the Voynich Manuscript (Beinecke MS 408). By statistically analysing over 38,000 words across multiple independent transcriptions, this research mathematically proves that the manuscript is neither a natural language nor a random hoax. 
@@ -23,7 +23,7 @@ Instead, the manuscript functions as a **Pasigraphic Instruction Engine**—a co
 * **Cross-Cultural Synthesis:** The cipher integrates Arabic astromedicine (e.g., 28 Lunar Mansions mapping to specific roots like *sharatain* and *baldah*), Northern Italian hydraulic engineering (visually and topologically inspired by Francesco di Giorgio Martini), and European botany.
 * **Spatial Polymorphism & Edge Bias:** The text layout dynamically interacts with the illustrations. Specific "Gallows" characters (`p`, `t`) appear almost exclusively at the start of lines (functioning as valve indices or structural markers), while dosage terminations (`-am`, `-iin`) show extreme "Edge Bias" at line endings.
 * **Currier A and B are Code Versions, Not Dialects:** The shift from Currier A to Currier B represents a technical code update. Version B introduces new procedural operators (e.g., `lk-`, `lc-`) and a new dosage/state suffix (`-dy` replacing `-in`) needed for more complex pharmaceutical processing.
-*Fig 1. The Rosettes foldout (computationally designated as fRos, physically spanning f85/f86), analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
+* **The Rosettes Foldout (Macro-Reactor):** The famous 6-page foldout (physically located at f85/f86 and universally designated as **`fRos`** in transcription databases) is decoded as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory (an *Athanor*), with text directions matching fluid and vapour flow.
 ---
 
 ## 🚀 Quick Start: Verify the Data
