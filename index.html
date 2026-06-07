@@ -100,6 +100,7 @@
       overflow-x: hidden;
     }
 
+    /* Placeholder CSS removed — using real <img> tags */
     /* Grain texture overlay */
     body::before {
       content: '';
@@ -960,22 +961,8 @@
   <header class="hero" role="banner">
 
     <!-- Left image panel -->
-    <!-- IMAGE SLOT 1: Replace the placeholder below with:
-         <img src="images/hero-folio.jpg" alt="Voynich Manuscript folio f67r2 — astronomical diagram">
-         Recommended: a dramatic high-contrast scan of an astronomical or herbal page.
-         Filename: images/hero-folio.jpg
-    -->
     <div class="hero-image-panel" aria-hidden="true">
-      <div class="hero-image-placeholder">
-        <div class="placeholder-symbol">✦</div>
-        <div class="placeholder-label">
-          IMAGE SLOT 1<br>
-          images/hero-folio.jpg<br>
-          <br>
-          Recommended: Voynich MS folio<br>
-          (astronomical or herbal page scan)
-        </div>
-      </div>
+      <img src="images/hero-folio.jpg" alt="Voynich Manuscript folio — astronomical diagram">
     </div>
 
     <!-- Right content -->
@@ -1063,22 +1050,8 @@
         </div>
 
         <div class="about-image-wrap">
-          <!-- IMAGE SLOT 2: Replace below with:
-               <div class="about-image-frame">
-                 <img src="images/manuscript-detail.jpg" alt="Detail of Voynich Manuscript folio showing botanical illustration and surrounding text">
-               </div>
-               Recommended: close-up of herbal section folio (roots, botanical glyphs visible).
-               Filename: images/manuscript-detail.jpg
-          -->
           <div class="about-image-frame">
-            <div class="about-img-placeholder">
-              <span class="ph-icon">☙</span>
-              <span class="ph-text">
-                IMAGE SLOT 2<br>
-                images/manuscript-detail.jpg<br>
-                Close-up of botanical folio
-              </span>
-            </div>
+            <img src="images/manuscript-detail.jpg" alt="Detail of Voynich Manuscript folio showing botanical illustration and surrounding text">
           </div>
           <p class="image-caption">BEINECKE MS 408 · YALE UNIVERSITY LIBRARY · c. 1404–1438</p>
         </div>
@@ -1298,63 +1271,55 @@
         traced, and pipe/flow systems diagrammed. Below are the ten primary mapped folios.
       </p>
 
-      <!-- IMAGE SLOT GROUP 3–12: 10 folio thumbnails
-           For each folio, replace the placeholder div with:
-           <img src="images/folio-f68v3.jpg" alt="Voynich Manuscript folio f68v3 — astronomical diagram">
-           Use small cropped thumbnails (approx 200×280px each).
-           Filenames: images/folio-f68v3.jpg, folio-f75v.jpg, folio-f75r.jpg,
-           folio-f8r.jpg, folio-f103r.jpg, folio-f67r2.jpg,
-           folio-f76r.jpg, folio-f85r2.jpg, folio-f71r.jpg, folio-f77r.jpg
-      -->
       <div class="folio-grid" role="list">
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f68v3.jpg</span></div>
+          <img src="images/folio-f68v3.jpg" alt="Voynich Manuscript folio f68v3" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f68v3</strong> Astronomical</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f75v.jpg</span></div>
+          <img src="images/folio-f75v.jpg" alt="Voynich Manuscript folio f75v" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f75v</strong> Balneological</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f75r.jpg</span></div>
+          <img src="images/folio-f75r.jpg" alt="Voynich Manuscript folio f75r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f75r</strong> Balneological</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f8r.jpg</span></div>
+          <img src="images/folio-f8r.jpg" alt="Voynich Manuscript folio f8r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f8r</strong> Herbal</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f103r.jpg</span></div>
+          <img src="images/folio-f103r.jpg" alt="Voynich Manuscript folio f103r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f103r</strong> Pharmaceutical</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f67r2.jpg</span></div>
+          <img src="images/folio-f67r2.jpg" alt="Voynich Manuscript folio f67r2" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f67r2</strong> Astronomical</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f76r.jpg</span></div>
+          <img src="images/folio-f76r.jpg" alt="Voynich Manuscript folio f76r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f76r</strong> Balneological</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f85r2.jpg</span></div>
+          <img src="images/folio-f85r2.jpg" alt="Voynich Manuscript folio f85r2" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f85r2</strong> Cosmological</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f71r.jpg</span></div>
+          <img src="images/folio-f71r.jpg" alt="Voynich Manuscript folio f71r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f71r</strong> Balneological</div>
         </div>
 
         <div class="folio-item" role="listitem">
-          <div class="folio-img-placeholder"><span>images/<br>folio-f77r.jpg</span></div>
+          <img src="images/folio-f77r.jpg" alt="Voynich Manuscript folio f77r" style="width:100%;display:block;filter:sepia(15%);">
           <div class="folio-label"><strong>f77r</strong> Balneological</div>
         </div>
 
@@ -1374,16 +1339,7 @@
     <div class="author-inner">
 
       <div class="author-portrait">
-        <!-- IMAGE SLOT 13: Author photo
-             Replace below with:
-             <img src="images/author-portrait.jpg" alt="Vytautas Giedraitis">
-             Filename: images/author-portrait.jpg
-             Square or portrait crop, grayscale or muted colour works well.
-        -->
-        <div class="author-portrait-placeholder">
-          <span style="font-size:2.5rem; color: var(--gold-dim); opacity:0.3; font-family: var(--font-display);">V.G.</span>
-          <span>images/<br>author-portrait.jpg</span>
-        </div>
+        <img src="images/author-portrait.jpg" alt="Vytautas Giedraitis">
       </div>
 
       <div class="author-content">
