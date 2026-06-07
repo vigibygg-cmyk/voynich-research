@@ -1,7 +1,15 @@
 # Voynich Manuscript Ontological Cipher Replication Study
 
+[![Website](https://img.shields.io/badge/Website-Live_Project_Page-blue?style=for-the-badge)](https://vigibygg-cmyk.github.io/voynich-research/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **Principal Investigator:** Vytautas Giedraitis.  
 **Research Period:** 2025–2026.
+
+🌐 **Interactive Research Dashboard:** [Visit the live project website](https://vigibygg-cmyk.github.io/voynich-research/) for full phase breakdowns, interactive data visualizations (Perplexity, Edge Bias), and detailed manuscript mappings.
+
+![Voynich Rosettes Foldout](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Voynich_Manuscript_%28167%29.jpg/800px-Voynich_Manuscript_%28167%29.jpg)
+*Fig 1. The Rosettes foldout (f85/f86), analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
 
 ## About the Project
 This repository contains the data, computational scripts, and research protocols for an exhaustive replication study of the Voynich Manuscript (Beinecke MS 408). By statistically analysing over 38,000 words across multiple independent transcriptions, this research mathematically proves that the manuscript is neither a natural language nor a random hoax. 
@@ -17,13 +25,27 @@ Instead, the manuscript functions as a **Pasigraphic Instruction Engine**—a co
 * **Currier A and B are Code Versions, Not Dialects:** The shift from Currier A to Currier B represents a technical code update. Version B introduces new procedural operators (e.g., `lk-`, `lc-`) and a new dosage/state suffix (`-dy` replacing `-in`) needed for more complex pharmaceutical processing.
 * **The Rosettes Foldout (Macro-Reactor):** The famous 6-page Rosettes foldout (f85/f86) is decoded as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory (an *Athanor*), with text directions matching fluid and vapour flow.
 
+---
+
+## 🚀 Quick Start: Verify the Data
+This project is built for complete transparency and easy reproducibility. You do not need a local Python environment to test the core computational findings.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) 
+*(Note: Replace this link with your specific Colab Notebook URL once uploaded)*
+
+1. Click the **Open in Colab** button above.
+2. The notebook will automatically fetch the cleaned IVTFF transcriptions (`RF1b-er`, `ZL3b-n`, `IT2a-n`) directly from this repository.
+3. Run the cells sequentially to reproduce the Pointwise Mutual Information (PMI) clustering, Truncated SVD, and entropy calculations.
+
+---
+
 ## Data Sources & Acknowledgements
 The raw data, manuscript images, and transcriptions used to conduct this research were obtained from the following original sources:
 
 * **Yale University Library (Beinecke Rare Book and Manuscript Library):** High-resolution scans and official catalog metadata of the Cipher manuscript (Beinecke MS 408).
-  * Image Archive: [https://collections.library.yale.edu/catalog/2002046?child_oid=1006094](https://collections.library.yale.edu/catalog/2002046?child_oid=1006094)
+  * Image Archive: [Yale Digital Collections](https://collections.library.yale.edu/catalog/2002046?child_oid=1006094)
 * **Voynich.nu:** IVTFF transcription files, folio reference layouts, and extensive transliteration work compiled by René Zandbergen, Gabriel Landini, Takeshi Takahashi, Jorge Stolfi, and other contributors.
-  * Folios & Transcriptions: [https://www.voynich.nu/folios.html](https://www.voynich.nu/)
+  * Folios & Transcriptions: [voynich.nu](https://www.voynich.nu/)
 
 ## Data & Methodology
 To prevent confirmation bias and overfitting ("Tabula Rasa" methodology), all analyses are triangulated across three independent IVTFF transcription baselines:
@@ -40,6 +62,10 @@ To prevent confirmation bias and overfitting ("Tabula Rasa" methodology), all an
 * `/scripts/` - Python scripts for executing Byte-Pair Encoding (BPE), SVD clustering, entropy calculations, and cross-domain semantic alignment.
 * `/reports/` - Detailed research protocols, empirical tests, and scientific findings (Phases I–XXXV+).
 
+## Community & Feedback
+Constructive critique and rigorous testing of this hypothesis are highly encouraged. If you are a researcher, cryptographer, or part of the Voynich community (e.g., *Voynich Ninja*, *r/voynich*):
+* Please feel free to open an **Issue** in this repository to discuss specific data points, suggest alternative morphological interpretations, or report bugs in the transcription mapping.
+* Reach out via the [project website](https://vigibygg-cmyk.github.io/voynich-research/) for direct collaboration.
+
 ## Usage & License
 This project is conducted under the principles of open, citizen-science. All data, code, and findings are provided under the **MIT License**. Researchers, cryptographers, and data scientists are encouraged to freely verify, reproduce, challenge, and build upon this ontological framework.
-```
