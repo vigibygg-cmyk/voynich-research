@@ -1,0 +1,197 @@
+{
+  "folio": "f87r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f87r",
+    "total_loci_count": 16,
+    "unique_loci_found": [
+      "f87r.1,@P0",
+      "f87r.2,+P0",
+      "f87r.3,+P0",
+      "f87r.4,+P0",
+      "f87r.5,+P0",
+      "f87r.6,+P0",
+      "f87r.7,+P0",
+      "f87r.8,+P0",
+      "f87r.9,+P0",
+      "f87r.10,+P0",
+      "f87r.11,+P0",
+      "f87r.12,+P0",
+      "f87r.13,+P0",
+      "f87r.14,+P0",
+      "f87r.15,+P0",
+      "f87r.16,+P0"
+    ],
+    "syntax_clues_detected": [
+      "No <-> bisection markers detected in f87r",
+      "All loci are @P0 / +P0 paragraph type — no isolated @Lp, @Ls, @Cc labels present",
+      "f87r.1 is @P0 (paragraph start); f87r.16 is +P0 (continuation, paragraph appears truncated — no *P0 close tag)"
+    ],
+    "visual_anchor_inventory": [
+      "upper_flower_cluster — dense red-tipped floral umbel occupying upper-center and upper-right of folio",
+      "left_small_plant — smaller plant with round white flower, positioned left-center",
+      "main_plant_left_stem — tall central-left stem with pinnate green leaves",
+      "main_plant_right_stem — tall central-right stem with pinnate/serrated green leaves",
+      "intertwined_root_system — large entangled reddish-brown root mass at bottom-center",
+      "left_margin_text_strip — vertical marginal text along left binding edge",
+      "page_number_top_right — absent or off-image on this recto"
+    ]
+  },
+  "visual_anchors": {
+    "upper_flower_cluster": {
+      "description": "A wide dense umbel of white bell-shaped or cup-shaped flowers with vivid red interiors/tips, rendered with fine pen strokes. The cluster fans broadly across the upper half of the folio from approximately center to right edge. Multiple individual florets on thin stems branch from two main upward stalks. The red coloring is distinctive and consistent across all florets.",
+      "bounding_box": {"x_min": 320, "y_min": 30, "x_max": 980, "y_max": 420}
+    },
+    "left_small_plant": {
+      "description": "A smaller secondary plant on the left side, with broad rounded basal leaves rendered in a pale green wash and a single upright stem bearing one white daisy-like flower. Noticeably smaller scale than the main plant. Roots not clearly shown.",
+      "bounding_box": {"x_min": 90, "y_min": 360, "x_max": 310, "y_max": 640}
+    },
+    "main_plant_left_stem": {
+      "description": "The left of the two primary plant stems. Rises from the intertwined root mass at bottom-center. Bears large pinnately-lobed or deeply-serrated bright green leaves arranged alternately. The stem is pale tan/ivory. Leaves are broad with rounded lobes painted in medium green.",
+      "bounding_box": {"x_min": 230, "y_min": 280, "x_max": 520, "y_max": 870}
+    },
+    "main_plant_right_stem": {
+      "description": "The right of the two primary stems. Rises parallel to the left stem, also from the common root mass. Bears similar pinnate green foliage. At the apex it connects to the upper flower cluster. Slightly taller and more dominant than the left stem.",
+      "bounding_box": {"x_min": 480, "y_min": 200, "x_max": 780, "y_max": 870}
+    },
+    "intertwined_root_system": {
+      "description": "A large and dramatically rendered entangled root mass in reddish-brown. The roots of both main stems and the small left plant merge and loop around each other in a complex knot at the base of the folio. Multiple thick and thin tendrils extend outward and downward. Occupies the lower-center of the folio.",
+      "bounding_box": {"x_min": 100, "y_min": 780, "x_max": 820, "y_max": 1000}
+    },
+    "left_margin_text_strip": {
+      "description": "A vertical column of Voynich text written perpendicular to the main text, running along the extreme left gutter/binding margin. Appears to be several lines of continuous script rotated 90 degrees, likely continuation text from a facing page or marginalia annotation.",
+      "bounding_box": {"x_min": 0, "y_min": 200, "x_max": 60, "y_max": 700}
+    },
+    "mid_folio_text_block": {
+      "description": "A secondary embedded paragraph block positioned in the middle zone of the folio, between the two large plant stems and surrounded by foliage on both sides. Text wraps around the root/stem forms of both plants.",
+      "bounding_box": {"x_min": 195, "y_min": 590, "x_max": 820, "y_max": 790}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_block",
+      "description": "The primary paragraph block occupying the upper portion of the folio, above and partially overlapping the upper flower cluster. Lines 1–16 form a continuous paragraph starting with @P0 at top-left and running across the full text width, wrapping around and below the floral umbel on the right.",
+      "lines": [
+        {
+          "locus": "<f87r.1,@P0>",
+          "raw_text": "foalshsal.shocphor.ypcho,cpheo,saiin.oteodal.saiin",
+          "bounding_box": {"x_min": 75, "y_min": 82, "x_max": 620, "y_max": 118},
+          "interaction": "Opening line of the paragraph. Begins at left margin with a decorated 'f' gallows character. Right terminus at approximately x=620, stopping well before the right plant stem. The right portion of this line and lines 1–8 are flanked by the upper flower cluster which fills x=650–980; text avoids this zone entirely."
+        },
+        {
+          "locus": "<f87r.2,+P0>",
+          "raw_text": "dcheeckhos.chety.cthodal.yteodam.cphecthy.syty",
+          "bounding_box": {"x_min": 75, "y_min": 122, "x_max": 590, "y_max": 158},
+          "interaction": "Continuation line. Full left-justified run. Right edge constrained by the presence of the flower cluster in right column. No bisection. Text stays within left half of folio at this vertical level."
+        },
+        {
+          "locus": "<f87r.3,+P0>",
+          "raw_text": "tchos.oteedy.yteey.cthhody.keos.sheekchey.saiidy",
+          "bounding_box": {"x_min": 75, "y_min": 162, "x_max": 600, "y_max": 198},
+          "interaction": "Continuation. Slightly longer run extends toward center. Right column still dominated by flower cluster. No bisection marker."
+        },
+        {
+          "locus": "<f87r.4,+P0>",
+          "raw_text": "soraiin.qockhos.cheodor.ckheokey.chcthody.s.odar",
+          "bounding_box": {"x_min": 75, "y_min": 202, "x_max": 595, "y_max": 238},
+          "interaction": "Continuation. Similar width to previous lines. The right side of the folio at this level is occupied by the right edge of the upper flower umbel, forcing right margin of text inward to approximately x=595."
+        },
+        {
+          "locus": "<f87r.5,+P0>",
+          "raw_text": "daiin.ctheey.ckheckhy.cthody.chor.sal.dar.chor",
+          "bounding_box": {"x_min": 75, "y_min": 242, "x_max": 590, "y_max": 278},
+          "interaction": "Continuation. Text block remains left-aligned. Flower cluster begins to taper on right side — slight rightward expansion possible but scribe maintains consistent left-block margin."
+        },
+        {
+          "locus": "<f87r.6,+P0>",
+          "raw_text": "tos.she.keodaiin.fcheos.sheo.so.shkeody.soraiin",
+          "bounding_box": {"x_min": 75, "y_min": 282, "x_max": 585, "y_max": 318},
+          "interaction": "Continuation. Note the 'f' gallows character on 'fcheos' mid-line — decorative elevated glyph. No bisection. Right margin consistent."
+        },
+        {
+          "locus": "<f87r.7,+P0>",
+          "raw_text": "yteeodal.cho,keeody.shy.koo.s,als.chekol",
+          "bounding_box": {"x_min": 75, "y_min": 322, "x_max": 560, "y_max": 358},
+          "interaction": "Continuation. Slightly shorter line. Flower cluster has largely ended by this vertical zone; however the main right plant stem begins intruding at approximately x=580 from y=330 downward, naturally limiting text width."
+        },
+        {
+          "locus": "<f87r.8,+P0>",
+          "raw_text": "solsheyr.ysaiin.chor.cheory.kchody",
+          "bounding_box": {"x_min": 75, "y_min": 362, "x_max": 520, "y_max": 398},
+          "interaction": "Continuation. Noticeably shorter. The left small plant's foliage (x=90–310, y=360–450) encroaches from the left side; the right plant stem is at right. Text occupies a narrowing corridor between these two visual anchors."
+        },
+        {
+          "locus": "<f87r.9,+P0>",
+          "raw_text": "sor.shocthey.oteody.dchol.saraiin",
+          "bounding_box": {"x_min": 75, "y_min": 402, "x_max": 510, "y_max": 438},
+          "interaction": "Continuation. Short line. Text corridor between left small plant and right main stem continues to narrow."
+        },
+        {
+          "locus": "<f87r.10,+P0>",
+          "raw_text": "sho.cthos.cheodal.ctheody.qoty",
+          "bounding_box": {"x_min": 75, "y_min": 442, "x_max": 490, "y_max": 478},
+          "interaction": "Continuation. Very short. Left small plant foliage still at left. This is approximately the vertical midpoint of the folio. The text block begins transitioning toward the mid-folio embedded block."
+        },
+        {
+          "locus": "<f87r.11,+P0>",
+          "raw_text": "psheodshy.dal.shee.saldal.shol.aldy",
+          "bounding_box": {"x_min": 75, "y_min": 482, "x_max": 530, "y_max": 518},
+          "interaction": "Continuation with 'p' gallows initial character. Slight gap below line 10 may indicate visual break or sub-paragraph transition. Both plant stems flank this zone."
+        },
+        {
+          "locus": "<f87r.12,+P0>",
+          "raw_text": "ysheees.chetchy.teodar.otcheol.tockhy",
+          "bounding_box": {"x_min": 75, "y_min": 522, "x_max": 545, "y_max": 558},
+          "interaction": "Continuation. Text width recovering slightly as left small plant foliage has ended and right plant stem provides fixed right boundary."
+        },
+        {
+          "locus": "<f87r.13,+P0>",
+          "raw_text": "keor.ckheey.shody.qoeeeety.s.chody.daiin",
+          "bounding_box": {"x_min": 75, "y_min": 562, "x_max": 565, "y_max": 598},
+          "interaction": "Continuation. Normal width. The embedded mid-folio text block begins at approximately y=590; this line may be the last of the upper block or transitional."
+        },
+        {
+          "locus": "<f87r.14,+P0>",
+          "raw_text": "daiin.shol.cthey.okeol.cheor.okeeo.daiim",
+          "bounding_box": {"x_min": 195, "y_min": 610, "x_max": 640, "y_max": 646},
+          "interaction": "Continuation. Now positioned within the mid-folio embedded zone — indented from left due to the main left plant stem at x=230–520. Right boundary defined by the right main stem at approximately x=640–680. Text is clearly squeezed between the two large plant bodies."
+        },
+        {
+          "locus": "<f87r.15,+P0>",
+          "raw_text": "shos.cheol.cheos.ckhey.s,aiin.qo,ckheo.ldaiin",
+          "bounding_box": {"x_min": 195, "y_min": 650, "x_max": 650, "y_max": 686},
+          "interaction": "Continuation. Similar indented corridor between stems. Right portion extended slightly as right stem tapers."
+        },
+        {
+          "locus": "<f87r.16,+P0>",
+          "raw_text": "yteeos.cheol.dcheeol",
+          "bounding_box": {"x_min": 195, "y_min": 690, "x_max": 450, "y_max": 726},
+          "interaction": "Final recorded line — very short. No closing *P0 tag present in source data, suggesting text continues beyond the captured transcription boundary or the scribe ended abruptly. Positioned in the narrow inter-stem corridor above the root mass."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "upper_flower_cluster",
+      "status": "Completely text-free interior",
+      "description": "The dense floral umbel occupying x=320–980, y=30–420 is entirely free of main text. The paragraph text block hugs the left and center of the folio, never entering the flower zone. The flower cluster acts as a hard right-column exclusion zone for lines 1–7."
+    },
+    {
+      "anchor_id": "intertwined_root_system",
+      "status": "Completely text-free",
+      "description": "The large entangled root mass at the bottom of the folio (y=780–1000) contains no text whatsoever. The final text lines stop at approximately y=726, leaving a clear negative space of ~270 normalized units above the bottom edge occupied entirely by the illustrated roots."
+    },
+    {
+      "anchor_id": "left_margin_text_strip",
+      "status": "Intentional marginal annotation — perpendicular orientation",
+      "description": "The left-margin text (x=0–60) runs vertically and is clearly separate from the main paragraph block. It is written perpendicular to the folio baseline and occupies space that the main text block intentionally avoids. Possibly a reader's annotation or continuation from the facing verso page."
+    },
+    {
+      "anchor_id": "left_small_plant",
+      "status": "Partially encircled by text",
+      "description": "The small secondary plant at left-center (x=90–310, y=360–640) is surrounded by text on its right side (lines 8–11 skirt its right edge) but the plant interior and left side are text-free. The text block shifts slightly rightward to accommodate the plant's foliage extent."
+    }
+  ]
+}

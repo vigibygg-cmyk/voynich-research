@@ -1,0 +1,336 @@
+{
+  "folio": "f70r2",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f70r2",
+    "total_loci_count": 19,
+    "unique_loci_found": [
+      "<f70r2.1,@P1>",
+      "<f70r2.2,+P1>",
+      "<f70r2.3,+P1>",
+      "<f70r2.4,+P1>",
+      "<f70r2.5,+P1>",
+      "<f70r2.6,+P1>",
+      "<f70r2.7,+P1>",
+      "<f70r2.8,+P1>",
+      "<f70r2.9,+P1>",
+      "<f70r2.10,+P1>",
+      "<f70r2.11,+P1>",
+      "<f70r2.12,+P1>",
+      "<f70r2.13,+P1>",
+      "<f70r2.14,+P1>",
+      "<f70r2.15,@Cc>",
+      "<f70r2.16,+Cc>",
+      "<f70r2.17,+Cc>",
+      "<f70r2.18,+Cc>",
+      "<f70r2.19,@Cc>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers found in any locus of f70r2 — the right-side paragraph (f70r2.1–f70r2.14) is not split by any visual element",
+      "f70r2.1 is @P1 (paragraph type 1, opening line): distinct from @P0 folios, suggesting a secondary or column paragraph layout",
+      "f70r2.15 is @Cc (Central Circle inscription, opening): very long text of 35 glyph-words written around the circle ring",
+      "f70r2.16 is +Cc (continuation of circle ring inscription): 30 glyph-words, second arc segment",
+      "f70r2.17 is +Cc (continuation): 34 glyph-words, third arc segment",
+      "f70r2.18 is +Cc (continuation): 30 glyph-words, fourth arc segment",
+      "f70r2.19 is @Cc (second/inner @Cc opening): shorter inscription 'otchsy.olchy.oteo.sal.ol.keey.oteol.choky.otchoshy' — 9 glyph-words, written around or inside the inner sun-face circle",
+      "No @Ls star labels present — this folio has no individually labeled stars",
+      "No @Lp, @L0, @La, @Ri labels present — text is organized into two zones only: the right-column paragraph and the circular ring inscriptions"
+    ],
+    "visual_anchor_inventory": [
+      "outer_circle_ring: large circular boundary rendered in brown/tan ink; carries the four-segment @Cc inscription (f70r2.15–f70r2.18) written along its inner rim",
+      "inner_face_medallion: small central circular medallion with a human face (sun-face), rendered in brown ink with pale golden/tan coloring; carries the shorter @Cc inscription (f70r2.19)",
+      "wind_rose_spokes: eight golden/tan radiating spokes extending from the inner face circle to the outer ring boundary, dividing the interior into 8 sectors",
+      "cloud_petal_NW: upper-left petal/cloud shape — large billowing cloud-form filled with deep cobalt-blue paint with white hatching lines, occupying the NW sector",
+      "cloud_petal_N: top-center petal/cloud — medium cloud-form, pale blue-grey with lighter hatching, occupying the N sector between spokes",
+      "cloud_petal_NE: upper-right petal/cloud — large cobalt-blue cloud-form with white hatching, NE sector",
+      "cloud_petal_E: right petal/cloud — large deep blue cloud-form with dense white hatching lines, occupying the E sector",
+      "cloud_petal_SE: lower-right petal/cloud — medium-large blue cloud-form, SE sector",
+      "cloud_petal_S: bottom petal/cloud — medium blue cloud-form, pale blue-grey, S sector",
+      "cloud_petal_SW: lower-left petal/cloud — large cobalt-blue cloud-form with dense hatching, SW sector",
+      "cloud_petal_W: left petal/cloud — partial/incomplete blue cloud-form, W sector (partly cut off by gutter margin)",
+      "right_side_paragraph_zone: the verso half of the spread — a separate parchment page (right leaf) carrying the 14-line @P1 paragraph block in brown ink, no illustrations",
+      "gutter_fold: the physical binding fold running vertically at approximately x:490–520 on the left leaf, dividing the two pages of the spread"
+    ]
+  },
+  "visual_anchors": {
+    "outer_circle_ring": {
+      "description": "The primary structural boundary of the wind-rose diagram. A large circle drawn in medium brown ink on the left leaf of the spread. The ring carries the four-part @Cc inscription (f70r2.15–18) running continuously along its inner rim, clockwise. The ring is approximately 430 normalized units in diameter. Its stroke is a single clean brown pen line. The exterior of the ring is completely bare parchment (cream/ivory). Interior contains the wind-rose illustration.",
+      "color": "Brown ink outline on cream/ivory parchment background; no fill color on the ring itself",
+      "bounding_box": {"x_min": 50, "y_min": 115, "x_max": 490, "y_max": 700}
+    },
+    "inner_face_medallion": {
+      "description": "A small circular medallion at the geometric center of the wind-rose, approximately 90×90 normalized units. Contains a carefully rendered human face: almond-shaped eyes with pupils, a straight nose, and slightly parted lips. The face has a calm, neutral expression. Rendered in brown ink with pale golden-tan wash suggesting a sun identity. The shorter @Cc inscription (f70r2.19) wraps around this circle's perimeter. Eight spoke lines converge at this medallion's center.",
+      "color": "Face rendered in brown ink; skin area filled with pale golden-yellow/ochre wash; eye pupils dark brown; overall warm golden-tan tones",
+      "bounding_box": {"x_min": 225, "y_min": 355, "x_max": 315, "y_max": 440}
+    },
+    "wind_rose_spokes": {
+      "description": "Eight straight lines radiating from the inner face medallion outward to the outer circle ring boundary. The spokes are rendered in golden-ochre/tan ink, slightly thicker than the cloud outlines. They divide the circle into 8 equal sectors of approximately 45 degrees each (N, NE, E, SE, S, SW, W, NW). The @Cc ring text flows around the spokes' endpoints at the outer ring.",
+      "color": "Golden-ochre / tan-yellow ink; slightly warmer tone than the outer circle brown",
+      "bounding_box": {"x_min": 50, "y_min": 115, "x_max": 490, "y_max": 700}
+    },
+    "cloud_petal_NW": {
+      "description": "The upper-left cloud petal of the wind-rose, occupying the NW sector between the NW and N spokes. A large billowing cloud shape with two or three rounded lobes at its outer edge. This is one of the most fully painted petals on the page.",
+      "color": "Deep cobalt-blue / ultramarine paint with dense parallel white hatching lines running across the surface; the lobed outline is in dark brown ink; interior blue is the darkest in the folio",
+      "bounding_box": {"x_min": 90, "y_min": 130, "x_max": 270, "y_max": 310}
+    },
+    "cloud_petal_N": {
+      "description": "The top-center cloud petal in the N sector between the NW and NE spokes. A medium-sized cloud form with rounded lobes at its top edge, slightly smaller than the NW and NE petals.",
+      "color": "Pale blue-grey / light cobalt wash, noticeably lighter than the NW petal; white hatching is lighter and more sparse; outline in brown ink",
+      "bounding_box": {"x_min": 200, "y_min": 115, "x_max": 330, "y_max": 250}
+    },
+    "cloud_petal_NE": {
+      "description": "The upper-right cloud petal in the NE sector. Large, prominent petal with 2–3 rounded lobes at its outer edge. Comparable in size to the NW petal.",
+      "color": "Deep cobalt-blue paint with dense white parallel hatching lines; outline in brown ink; similar intensity to NW petal",
+      "bounding_box": {"x_min": 300, "y_min": 130, "x_max": 460, "y_max": 290}
+    },
+    "cloud_petal_E": {
+      "description": "The right-side cloud petal in the E sector. The largest and most visually dominant petal on the visible portion of the page, with prominent multi-lobed outer edge. Extends to the right inner edge of the outer ring.",
+      "color": "Deep cobalt-blue / ultramarine, the most saturated blue on the page; very dense white hatching lines giving a textured appearance; dark brown ink outline; partially overlaps with the @Cc text arc on the right side",
+      "bounding_box": {"x_min": 340, "y_min": 290, "x_max": 490, "y_max": 500}
+    },
+    "cloud_petal_SE": {
+      "description": "The lower-right cloud petal in the SE sector. Medium-large petal with rounded lobes.",
+      "color": "Medium cobalt-blue paint with white hatching; slightly less saturated than E petal; brown ink outline",
+      "bounding_box": {"x_min": 300, "y_min": 470, "x_max": 470, "y_max": 620}
+    },
+    "cloud_petal_S": {
+      "description": "The bottom-center cloud petal in the S sector. Medium petal, similar in size to the N petal.",
+      "color": "Pale blue-grey, lightest blue among all petals; sparse hatching; brown ink outline",
+      "bounding_box": {"x_min": 185, "y_min": 550, "x_max": 330, "y_max": 700}
+    },
+    "cloud_petal_SW": {
+      "description": "The lower-left cloud petal in the SW sector. Large petal, comparable to NW and NE.",
+      "color": "Deep cobalt-blue with dense white hatching lines; brown ink outline; one of the more saturated petals",
+      "bounding_box": {"x_min": 65, "y_min": 480, "x_max": 260, "y_max": 660}
+    },
+    "cloud_petal_W": {
+      "description": "The left-side cloud petal in the W sector. Partially obscured by the page gutter and binding fold. Only the right portion of this petal is visible on the left leaf; the remainder disappears into the binding. Its @Cc arc text wraps this sector.",
+      "color": "Deep cobalt-blue with white hatching visible in the exposed portion; brown ink outline partially visible",
+      "bounding_box": {"x_min": 50, "y_min": 290, "x_max": 145, "y_max": 490}
+    },
+    "right_side_paragraph_zone": {
+      "description": "The right leaf of the two-page spread. Carries a 14-line running paragraph (@P1, loci f70r2.1–f70r2.14) written in standard Voynich script, top-aligned, running from approximately y:155 to y:510. No illustrations on this leaf. The parchment surface is cream/ivory with mild age staining.",
+      "color": "Brown/iron-gall ink text on cream-ivory parchment; no color illustrations",
+      "bounding_box": {"x_min": 530, "y_min": 155, "x_max": 970, "y_max": 515}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "right_column_paragraph_P1",
+      "description": "A 14-line running paragraph of type @P1, positioned on the right leaf of the spread. This paragraph sits entirely outside the circular diagram on the left leaf. No bisections occur. Text runs left-to-right in standard horizontal lines, tightly spaced. The block occupies the upper half of the right page. Word count per line ranges from 5 to 10 glyph-words. Total word-count for the block: approximately 97 glyph-words across 14 lines. All text is in brown iron-gall ink.",
+      "lines": [
+        {
+          "locus": "<f70r2.1,@P1>",
+          "raw_text": "otchey.sheol.chkey.shep.al.r.ar.chly.sheteal.aram",
+          "word_count": 10,
+          "bounding_box": {"x_min": 537, "y_min": 155, "x_max": 965, "y_max": 183},
+          "interaction": "Opening line (@P1) of the right-page paragraph. 10 glyph-words. Full-width single run, no bisection. Begins immediately after the page spine (~x:537). Ink color: warm brown. No illustration interaction."
+        },
+        {
+          "locus": "<f70r2.2,+P1>",
+          "raw_text": "dair.cheey.seeeotey.dshy.dam.chchet.al.ykesy",
+          "word_count": 8,
+          "bounding_box": {"x_min": 537, "y_min": 187, "x_max": 920, "y_max": 215},
+          "interaction": "8 glyph-words. Slightly shorter than line 1; ends at x:920 rather than the full right margin, indicating a natural line end."
+        },
+        {
+          "locus": "<f70r2.3,+P1>",
+          "raw_text": "ykeeo.y.s.ald,eey.cthy.shekey.qokal.aiir.oteog",
+          "word_count": 9,
+          "bounding_box": {"x_min": 537, "y_min": 219, "x_max": 940, "y_max": 247},
+          "interaction": "9 glyph-words. Comma in 'ald,eey' is a transcription variant marker, not a word break. Consistent width with surrounding lines."
+        },
+        {
+          "locus": "<f70r2.4,+P1>",
+          "raw_text": "daiin.okeey.shoaiin.ckhhey.otal.shshy.tal.dam",
+          "word_count": 8,
+          "bounding_box": {"x_min": 537, "y_min": 251, "x_max": 930, "y_max": 279},
+          "interaction": "8 glyph-words."
+        },
+        {
+          "locus": "<f70r2.5,+P1>",
+          "raw_text": "tal.cheeog.dal.chcthy.qotal.ddlar.chal.dal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 537, "y_min": 283, "x_max": 910, "y_max": 311},
+          "interaction": "8 glyph-words."
+        },
+        {
+          "locus": "<f70r2.6,+P1>",
+          "raw_text": "ytar.ar.s.yol.al.aloees.ytaiir.otal,dal",
+          "word_count": 9,
+          "bounding_box": {"x_min": 537, "y_min": 315, "x_max": 900, "y_max": 343},
+          "interaction": "9 glyph-words. Comma in 'otal,dal' is a variant marker. Note the high frequency of short 2-3 character words ('ar', 's', 'al') — characteristic of this paragraph's style."
+        },
+        {
+          "locus": "<f70r2.7,+P1>",
+          "raw_text": "daiin.daiin.she.tal.qokal.cholckhhy.dy",
+          "word_count": 7,
+          "bounding_box": {"x_min": 537, "y_min": 347, "x_max": 880, "y_max": 375},
+          "interaction": "7 glyph-words. Notable repetition of 'daiin.daiin' (identical consecutive words) at the line opening."
+        },
+        {
+          "locus": "<f70r2.8,+P1>",
+          "raw_text": "ytals.alal.dalam.dal.cthol.oparam",
+          "word_count": 6,
+          "bounding_box": {"x_min": 537, "y_min": 379, "x_max": 840, "y_max": 407},
+          "interaction": "6 glyph-words. Shorter line; the paragraph is beginning to compress toward its lower boundary."
+        },
+        {
+          "locus": "<f70r2.9,+P1>",
+          "raw_text": "dylshol.shol.shol.shocthhy.dalaly",
+          "word_count": 5,
+          "bounding_box": {"x_min": 537, "y_min": 411, "x_max": 820, "y_max": 439},
+          "interaction": "5 glyph-words. Notable triple repetition of 'shol.shol.shol' — three consecutive identical words in the middle of the line."
+        },
+        {
+          "locus": "<f70r2.10,+P1>",
+          "raw_text": "shokal.chol.kshody.tol.cheey.akal",
+          "word_count": 6,
+          "bounding_box": {"x_min": 537, "y_min": 443, "x_max": 820, "y_max": 471},
+          "interaction": "6 glyph-words."
+        },
+        {
+          "locus": "<f70r2.11,+P1>",
+          "raw_text": "daiin.chotal.qokal.chol.chotals",
+          "word_count": 5,
+          "bounding_box": {"x_min": 537, "y_min": 475, "x_max": 790, "y_max": 503},
+          "interaction": "5 glyph-words."
+        },
+        {
+          "locus": "<f70r2.12,+P1>",
+          "raw_text": "qokal.shkal.dal.shy.qokal.chdy",
+          "word_count": 6,
+          "bounding_box": {"x_min": 537, "y_min": 479, "x_max": 780, "y_max": 507},
+          "interaction": "6 glyph-words. 'qokal' appears twice in this line (first and fifth words) — a recurring glyph-word across many lines of this paragraph."
+        },
+        {
+          "locus": "<f70r2.13,+P1>",
+          "raw_text": "qotal.chey.key.okechy.chdy.cham",
+          "word_count": 6,
+          "bounding_box": {"x_min": 537, "y_min": 483, "x_max": 780, "y_max": 511},
+          "interaction": "6 glyph-words."
+        },
+        {
+          "locus": "<f70r2.14,+P1>",
+          "raw_text": "okaiin.chcthhy.s.or.ary",
+          "word_count": 5,
+          "bounding_box": {"x_min": 537, "y_min": 487, "x_max": 710, "y_max": 515},
+          "interaction": "5 glyph-words. Terminal line of the paragraph — notably shorter than preceding lines. The paragraph narrows to this short closing coda. Below this line the right page is bare parchment."
+        }
+      ]
+    },
+    {
+      "block_id": "outer_circle_ring_Cc_inscription",
+      "description": "The primary @Cc inscription of f70r2, consisting of four continuous arc segments (f70r2.15–f70r2.18) that together form a single long text ring running clockwise around the inside of the outer circle boundary. Total word count across all four segments: approximately 129 glyph-words. This is one of the longest single circular inscriptions in the Voynich manuscript. The text is written in brown ink, angled to follow the circular arc, and flows continuously from segment to segment without visible interruption. The text wraps around all 8 cloud petals and passes between the spoke endpoints at the rim.",
+      "lines": [
+        {
+          "locus": "<f70r2.15,@Cc>",
+          "raw_text": "sal.air.am.shedy.chokal.chockhy.shokeey.choky.chol.dy.okeeal.oteedy.dmr.dair.aiin.okees.okeear.ar.alekeey.arkam.oteoodalsy.chekeoar.chokey.dar.dcheoky.otai.docthy.dair.otchetchas.okear.okeeo.lal.kchm.okar.ar.dar",
+          "word_count": 35,
+          "bounding_box": {"x_min": 165, "y_min": 115, "x_max": 490, "y_max": 415},
+          "interaction": "Opening arc segment (@Cc). 35 glyph-words. This segment covers approximately the top-right quadrant of the ring, running clockwise from approximately the 12 o'clock position (top) through 3 o'clock (right). Text is angled to follow the circular arc — individual letters are rotated to remain tangential to the ring. The text arc passes over the N, NE, and E cloud petals. Radial spokes terminate at the outer ring within this arc zone, creating minor visual interruptions but no formal <-> bisections in the transcription."
+        },
+        {
+          "locus": "<f70r2.16,+Cc>",
+          "raw_text": "otar.ar.chedal.oar,al.aldaiin.ykeeedaiir.sheo.ldar.chal.ykees.aiir.dl.cheey.skeeo,d.oteeodar.aiin.aral.daiir.sheedyl.sheodaiin.choar.chal.choteoly.cho.oteey.chotey.choeky.chedy.choteos,am.oteodar.ockhh",
+          "word_count": 30,
+          "bounding_box": {"x_min": 50, "y_min": 415, "x_max": 490, "y_max": 700},
+          "interaction": "Second arc segment (+Cc). 30 glyph-words. Covers approximately the bottom-right quadrant: from 3 o'clock clockwise through 6 o'clock (bottom). Text continues the clockwise arc below the E and SE cloud petals, bending through the S sector and toward the bottom of the ring. Commas in 'oar,al' and 'skeeo,d' and 'choteos,am' are transcription variant markers within words."
+        },
+        {
+          "locus": "<f70r2.17,+Cc>",
+          "raw_text": "oches.air.chese.ctheey.sheeody.shopcha.yteody.ykaldy.ateeos.aiin.shey.shee.farar.aim.cheoteeadal.sho.choetchaldy.dal.aiirches.otes,ar.dalol.chtam.opaiir.chokeo.oteedy.oteeo.okol.chotal.otol.al.dl",
+          "word_count": 31,
+          "bounding_box": {"x_min": 50, "y_min": 115, "x_max": 200, "y_max": 700},
+          "interaction": "Third arc segment (+Cc). 31 glyph-words. Covers approximately the bottom-left quadrant and left side: from 6 o'clock clockwise through 9 o'clock (left). Text bends through the SW, W cloud petal zone — the W petal is partially cut off by the page gutter, and correspondingly this arc segment's left portion may be partially obscured in the physical manuscript. The comma in 'otes,ar' is a variant marker."
+        },
+        {
+          "locus": "<f70r2.18,+Cc>",
+          "raw_text": "otoy.ar.arodchedy.cheocphey.oteeos.ees.cheol.sheeey.okeedaly.cheeoekey.ykeedcr.oteey.s.al.s.air.oteody.oteody.dar.aiir.ody.cheeoschey.daiin.otoeeseor.air.chedy.oko,dar.al.sho.chotol.daldy",
+          "word_count": 31,
+          "bounding_box": {"x_min": 50, "y_min": 115, "x_max": 490, "y_max": 280},
+          "interaction": "Fourth arc segment (+Cc). 31 glyph-words. Covers the top-left quadrant: from 9 o'clock clockwise back to 12 o'clock, completing the ring. Text arcs through the NW and N cloud petal zones, rejoining the start of f70r2.15 at the top of the circle. This segment closes the continuous ring inscription. The comma in 'oko,dar' is a variant marker. Note the very short single-character words ('s', 'al', 's') midway through this segment — typical compressed interstitial glyphs."
+        }
+      ]
+    },
+    {
+      "block_id": "inner_circle_Cc_inscription",
+      "description": "The secondary, shorter @Cc inscription (f70r2.19) written around the inner face medallion at the center of the wind-rose. 9 glyph-words total. Text follows the perimeter of the small central circle, likely clockwise. This inscription is much shorter than the outer ring text and wraps just once around the small medallion.",
+      "lines": [
+        {
+          "locus": "<f70r2.19,@Cc>",
+          "raw_text": "otchsy.olchy.oteo.sal.ol.keey.oteol.choky.otchoshy",
+          "word_count": 9,
+          "bounding_box": {"x_min": 200, "y_min": 338, "x_max": 340, "y_max": 460},
+          "interaction": "Inner @Cc inscription around the sun-face medallion. 9 glyph-words written following the circular perimeter of the face circle (bounding_box approx x:225–315, y:355–440). Text is written at a smaller scale than the outer ring inscription, tightly hugging the face circle's outline. The face drawing itself (eyes, nose, mouth) remains completely text-free — the inscription occupies only the immediate ring area around the medallion. Words are evenly distributed around the ~280-unit circumference of the inner circle."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "inner_face_medallion",
+      "status": "Encircled by @Cc inscription / Face interior completely text-free",
+      "description": "The sun-face medallion at the center of the wind-rose is text-free in its interior. The @Cc inscription f70r2.19 runs immediately around its perimeter. The face — with its almond eyes, straight nose, and calm mouth — is rendered in brown ink with a golden-ochre wash and contains no text overlay whatsoever. The eight golden spokes visually converge on this medallion, making it the geometric and symbolic focal point of the entire composition."
+    },
+    {
+      "anchor_id": "cloud_petal_NW",
+      "status": "Completely text-free / Bounded by outer @Cc arc above",
+      "description": "The NW blue cloud petal is text-free in its interior. The outer @Cc ring text (part of f70r2.18 segment) arcs over this sector just outside the petal's outer lobed edge. No text is written inside the cloud form itself. The deep cobalt-blue paint fills the petal area bounded by the spoke lines and the outer ring."
+    },
+    {
+      "anchor_id": "cloud_petal_N",
+      "status": "Completely text-free / Bounded by outer @Cc arc above",
+      "description": "The N pale-blue cloud petal is text-free. Its outer edge contacts the inner side of the outer ring where the @Cc arc transitions between segments f70r2.18 and f70r2.15. The lighter blue wash of this petal distinguishes it from the darker NW and NE petals."
+    },
+    {
+      "anchor_id": "cloud_petal_NE",
+      "status": "Completely text-free / Bounded by outer @Cc arc",
+      "description": "The NE deep cobalt-blue cloud petal is text-free. The f70r2.15 arc segment runs along the outer ring at this sector. Dense white hatching lines within the petal create a cloud-texture effect."
+    },
+    {
+      "anchor_id": "cloud_petal_E",
+      "status": "Completely text-free / Most visually dominant petal",
+      "description": "The E cloud petal — the largest and most saturated blue — is text-free in its interior. The f70r2.15 and f70r2.16 arc segments border this sector on the outer ring. This petal's prominent size and deep ultramarine color make it the visually dominant element of the wind-rose."
+    },
+    {
+      "anchor_id": "cloud_petal_SE",
+      "status": "Completely text-free",
+      "description": "The SE medium-blue cloud petal is text-free. Part of the f70r2.16 arc segment runs along the outer ring at this sector."
+    },
+    {
+      "anchor_id": "cloud_petal_S",
+      "status": "Completely text-free / Lightest blue",
+      "description": "The S pale blue-grey cloud petal is text-free. The f70r2.16 arc segment curves along its outer boundary. The noticeably lighter blue pigmentation of this petal contrasts with the saturated N, NW, NE, and E petals."
+    },
+    {
+      "anchor_id": "cloud_petal_SW",
+      "status": "Completely text-free",
+      "description": "The SW deep cobalt-blue cloud petal is text-free. The f70r2.17 arc segment runs along the outer ring at this sector."
+    },
+    {
+      "anchor_id": "cloud_petal_W",
+      "status": "Partially obscured by binding gutter / Interior text-free",
+      "description": "The W cloud petal is partially visible — only its right portion appears on the page surface, as the left side disappears into the gutter fold. The visible portion is text-free. The f70r2.17 arc segment corresponds to this zone on the outer ring."
+    },
+    {
+      "anchor_id": "right_side_paragraph_zone",
+      "status": "Completely illustration-free / Pure text page",
+      "description": "The right leaf of the spread carries only the @P1 paragraph (f70r2.1–f70r2.14) with no drawings, circles, or ornamentation. The lower half of the right leaf (below y:515) is bare parchment. This two-zone structure — diagram on left, text on right — is characteristic of the astronomical section layout."
+    },
+    {
+      "anchor_id": "outer_circle_ring",
+      "status": "Text-bearing rim / Exterior completely bare",
+      "description": "Outside the outer circle ring's boundary the parchment is entirely bare cream/ivory — no text, no drawings. All content is contained within or on the circle. The four @Cc arc segments together completely cover the ring's circumference with no apparent gap in the inscription."
+    }
+  ],
+  "color_palette_summary": {
+    "blue_deep_cobalt": "Used for NW, NE, E, SW cloud petals — a saturated ultramarine/cobalt-blue pigment, likely azurite or a plant-based blue. Densest application. White hatching lines applied over the wet paint to suggest cloud texture.",
+    "blue_pale_grey": "Used for N and S cloud petals — a diluted or degraded version of the same blue pigment, resulting in a pale blue-grey wash. Significantly less saturated than the cobalt petals.",
+    "golden_ochre": "Used for the wind-rose spokes and the inner face medallion wash — a warm tan-yellow pigment, possibly iron oxide ochre. Also visible in the face's skin tones.",
+    "brown_ink": "All text in this folio — both the @P1 paragraph and all @Cc inscriptions — is written in warm brown iron-gall ink. The outer circle ring outline and spoke lines are also drawn in brown (slightly thicker stroke for structural elements).",
+    "cream_ivory": "The parchment background color. Visible in text-free zones outside the circle and in the lower right leaf.",
+    "white_hatching": "Applied over the blue petals as dense parallel lines to create volume/cloud texture. Appears to be applied with a fine pen or quill in white pigment or reserved unpainted parchment lines."
+  }
+}

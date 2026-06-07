@@ -1,0 +1,244 @@
+{
+  "folio": "f67r1",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+
+  "audit_log": {
+    "extracted_folio_id": "f67r1",
+    "total_loci_count": 19,
+    "unique_loci_found": [
+      "f67r1.1,@P0","f67r1.2,+P0","f67r1.3,+P0","f67r1.4,+P0",
+      "f67r1.5,@Cc","f67r1.6,+Cc","f67r1.7,+Cc",
+      "f67r1.8,@Ri","f67r1.9,@Ri","f67r1.10,@Ri","f67r1.11,@Ri",
+      "f67r1.12,@Ri","f67r1.13,@Ri","f67r1.14,@Ri","f67r1.15,@Ri",
+      "f67r1.16,@Ri","f67r1.17,@Ri","f67r1.18,@Ri","f67r1.19,@Ri"
+    ],
+    "syntax_clues_detected": [
+      "f67r1.5 is @Cc — text written INSIDE a central circle element; very long run-on line indicating the central circle band carries extensive continuous text",
+      "f67r1.6 is +Cc — continuation of central circle text",
+      "f67r1.7 is +Cc — further continuation of central circle text; no closing *Cc — circle text may wrap continuously",
+      "f67r1.8 through f67r1.19 are ALL @Ri — 12 radial inscription labels; each is written along a radial line or sector of the diagram",
+      "NO <-> bisection markers present in any line of f67r1",
+      "f67r1.1–f67r1.4 are standard @P0/+P0 paragraph lines above the diagram"
+    ],
+    "visual_anchor_inventory": [
+      "outer_boundary_circle — thin ink outer ring defining the full diagram perimeter",
+      "outer_text_ring — annular text band immediately inside the outer circle, written in curved script following the circumference; gold/brown ink",
+      "radial_dividers — 12 thin lines radiating from center to outer ring, dividing the diagram into 12 sectors",
+      "sector_star_markers — gold/yellow 6-pointed or 8-pointed stars within each sector, one per sector",
+      "sector_radial_labels — text (@Ri) written along or beside each radial line, in gold/brown ink",
+      "inner_blue_ray_petals — 8 broad pointed petal/ray shapes alternating blue, filling inner ring",
+      "inner_red_ray_petals — 8 narrow pointed ray shapes in red/dark red alternating with blue petals",
+      "central_face_medallion — central oval with a drawn human face (sun or moon face), cream/pale background",
+      "upper_paragraph_block — 4 lines of standard black/dark ink text above the diagram",
+      "bottom_label_text — gold ink text at the very bottom of the folio",
+      "page_number_67 — top right corner dark ink numeral"
+    ]
+  },
+
+  "visual_anchors": {
+    "outer_boundary_circle": {
+      "description": "The outermost drawn circle that defines the full extent of the astronomical/cosmological diagram. A single clean ink line describes the full circumference. The circle's diameter spans nearly the full width of the usable parchment area.",
+      "color": "Uncolored — single dark brown ink line on cream parchment. No fill.",
+      "bounding_box": {"x_min": 60, "y_min": 215, "x_max": 940, "y_max": 985}
+    },
+    "outer_text_ring": {
+      "description": "An annular band immediately inside the outer boundary circle, carrying the primary circular text inscription. The text follows the curve of the circle, written concentrically. This is where the @Ri (radial inscription) texts are mapped. The text runs clockwise or counter-clockwise around the ring. The ink color of this text is notably different from the upper paragraph — it appears in a warmer golden-brown tone, suggesting either a different ink or aged brown.",
+      "color": "Text ink: warm golden-brown (possibly iron gall ink in a different oxidation state than the upper paragraph ink). Parchment background within the band: cream. No fill color in the band itself.",
+      "bounding_box": {"x_min": 75, "y_min": 225, "x_max": 930, "y_max": 975}
+    },
+    "radial_dividers": {
+      "description": "12 thin straight lines radiating from the center point of the diagram outward to the outer text ring. They divide the circle into 12 equal sectors, suggesting a zodiac or calendar wheel structure. The lines pass through the blue/red ray petal zone and the outer text ring.",
+      "color": "Thin dark brown/black ink lines. No fill. They intersect both the colored petal zone and the outer text ring.",
+      "bounding_box": {"x_min": 75, "y_min": 225, "x_max": 930, "y_max": 975}
+    },
+    "sector_star_markers": {
+      "description": "One gold-yellow star marker per sector, positioned in the outer text ring area between the inner petal zone and the outer circle. Each star has 6 or 8 points, rendered in warm gold/yellow paint with dark ink detail lines. These stars serve as visual anchors for each of the 12 sectors.",
+      "color": "Gold-yellow (warm ochre/gold paint, not metallic leaf but pigment). Dark brown ink outlines. One star per sector, approximately 12 total.",
+      "bounding_box": {"x_min": 90, "y_min": 240, "x_max": 915, "y_max": 960}
+    },
+    "inner_blue_ray_petals": {
+      "description": "8 large broad triangular or petal-shaped rays radiating from the center, painted in solid blue. They alternate with the red rays, creating the dominant visual element of the diagram. The blue petals are filled with small gold star clusters — multiple tiny 4-pointed or 6-pointed stars painted in gold within each blue petal. This inner star-field within the blue petals is extremely decorative.",
+      "color": "Primary fill: solid deep blue (azurite or lapis lazuli blue). Interior decoration: multiple gold/yellow small stars within each petal. Outline: dark ink. The blue is the dominant color of the entire folio.",
+      "bounding_box": {"x_min": 195, "y_min": 325, "x_max": 810, "y_max": 890}
+    },
+    "inner_red_ray_petals": {
+      "description": "8 narrower, sharper pointed rays alternating with the blue petals, painted in dark red or brownish-red. These red rays create the 'sun' or 'compass rose' pattern. They are solid-filled without interior decoration, contrasting with the star-filled blue petals.",
+      "color": "Solid dark red (vermilion or iron red). No interior decoration. Alternates with blue petals in a regular pattern. Slightly narrower in angle than the blue petals.",
+      "bounding_box": {"x_min": 230, "y_min": 345, "x_max": 780, "y_max": 870}
+    },
+    "central_face_medallion": {
+      "description": "The absolute center of the diagram features an oval or circular medallion containing a drawn human face — either a sun-face or moon-face, consistent with medieval cosmological imagery. The face has simple but clear features: two eyes, a nose, and a mouth, drawn with dark ink lines. The face oval has a decorative pearl-like or dot border. This face is the focal origin point of all 16 radiating elements.",
+      "color": "Face background: cream/pale parchment (uncolored). Face features: dark brown-black ink. Oval border: dark ink dots or pearl-chain border. The face itself contains no paint — only ink on parchment.",
+      "bounding_box": {"x_min": 375, "y_min": 510, "x_max": 625, "y_max": 700}
+    },
+    "upper_paragraph_block_zone": {
+      "description": "A rectangular text zone above the circular diagram containing 4 lines of Voynich text (f67r1.1–4). This text is written in standard dark ink, same as most Voynich manuscript text. The lines are full-width and terminate where the diagram's outer circle begins.",
+      "color": "Text ink: dark brown-black (standard Voynich iron gall ink). Background: cream parchment. No illustration or color in this zone — pure text field.",
+      "bounding_box": {"x_min": 65, "y_min": 148, "x_max": 940, "y_max": 215}
+    },
+    "bottom_label_zone": {
+      "description": "A small text zone at the very bottom of the folio below the outer circle, containing the final portion of the circular inscription or a separate label. Written in the same warm golden-brown ink as the outer ring text.",
+      "color": "Warm golden-brown ink. Cream parchment background. Located below the outer circle boundary.",
+      "bounding_box": {"x_min": 65, "y_min": 985, "x_max": 940, "y_max": 1000}
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_above_diagram",
+      "description": "Four standard paragraph lines above the circular diagram. Written in dark brown-black ink. Full-width lines. This block is visually distinct from the diagram text by both position (above the outer circle) and ink color (darker, cooler tone versus the golden-brown of the circular inscriptions).",
+      "lines": [
+        {
+          "locus": "<f67r1.1,@P0>",
+          "raw_text": "teeodaiin.shey.epairody.osaiin.yteeoey.shey.epaiin.o.aiin",
+          "bounding_box": {"x_min": 65, "y_min": 148, "x_max": 920, "y_max": 170},
+          "interaction": "Opening paragraph line above the diagram. 't' gallows opening. Dark brown-black ink on cream parchment. Full width. No visual anchors interact with this line — pure text zone above the outer_boundary_circle (which begins at y=215)."
+        },
+        {
+          "locus": "<f67r1.2,+P0>",
+          "raw_text": "daiir.okeody.qoekeee?.sar.oeteody.oteey.keey.keo.keeodal",
+          "bounding_box": {"x_min": 65, "y_min": 174, "x_max": 920, "y_max": 196},
+          "interaction": "Continuation. The uncertainty marker '?' in 'qoekeee?' is retained exactly. Dark ink. Full width."
+        },
+        {
+          "locus": "<f67r1.3,+P0>",
+          "raw_text": "ycheo.s.aiim.cheos.aiin.okesoe.ar.am.shees.dalaiin.dam",
+          "bounding_box": {"x_min": 65, "y_min": 200, "x_max": 920, "y_max": 222},
+          "interaction": "Continuation. Full width."
+        },
+        {
+          "locus": "<f67r1.4,+P0>",
+          "raw_text": "cheodaiin.chekeey.s.ar.air.soar.cheey.dair.cthey",
+          "bounding_box": {"x_min": 65, "y_min": 226, "x_max": 870, "y_max": 248},
+          "interaction": "Final line of upper paragraph, immediately above the outer_boundary_circle. Slightly shorter than previous lines. Below this line the outer ink circle of the diagram begins at y=~250."
+        }
+      ]
+    },
+    {
+      "block_id": "central_circle_text_Cc",
+      "description": "Three entries tagged @Cc/+Cc represent text written INSIDE or along the inner circular area of the diagram. Given the extraordinary length of f67r1.5 in particular, this text likely runs along the inner boundary of the outer_text_ring or wraps continuously around the circle. The text is written in the warm golden-brown ink characteristic of the diagram's inscription band, not the darker ink of the upper paragraph. The physical substrate behind this text is the pale parchment of the outer ring between the sector stars and the radial lines.",
+      "lines": [
+        {
+          "locus": "<f67r1.5,@Cc>",
+          "raw_text": "soairol.shdy.chokeody.ykeedal.ol.oteodaiin.chockhedy.ot.chteokaiin.choteedy.otor.epchy.chpar.ar.sheees.deedy.soeteed.octhchy.s.o.eekeot.y.choteoky.chockhy.okees.sor.aiin.daram.schdes.chdar.dar.deeschdy.dar.dar.ar.otardar.ykaros",
+          "bounding_box": {"x_min": 75, "y_min": 310, "x_max": 930, "y_max": 900},
+          "interaction": "Extremely long @Cc opening text — runs around the full circumference of the inner circle band. The text follows the circular path of the outer_text_ring, written concentrically. Individual words/glyph groups fall within each sector, separated by the radial_dividers. The warm golden-brown ink of this text sits against the cream parchment, with blue petal zones and red petal zones as the inner background visible through the text band. The sector_star_markers (gold-yellow) are interspersed among the text words as visual separators between sectors. Bounding box represents the full annular zone the text traverses."
+        },
+        {
+          "locus": "<f67r1.6,+Cc>",
+          "raw_text": "dair.al.cheol.dal.oekaiin.sol.daiin.chtees.saiin.ykeos.l.chy.otodaiin.chetedy.otar.dair.ar.chedar.okeedy.oteodaiin.y,chsy.cheteey.ot.dol.al.cheor.okeor.oiin.cheeky.ary.okeokeds.oshey.shchey.chol.dair.dain.cho.dar.aldy",
+          "bounding_box": {"x_min": 75, "y_min": 310, "x_max": 930, "y_max": 900},
+          "interaction": "Continuation of the circular text run. Still following the circumference of the outer_text_ring. The 'y,chsy' form contains an intra-word comma (transcriber uncertainty). Text continues around the ring in the same golden-brown ink, with gold star markers punctuating the band between sectors."
+        },
+        {
+          "locus": "<f67r1.7,+Cc>",
+          "raw_text": "archeo.r.qoikeey.oteeos.cheockhey.oteochedy.okechdar.dar,aral.okeosar.sotey.dair.yteey.oteo,s.oteees.oteo.oteesy.sheokeey.oteodal.chokeed.sar.ain,y.oto.keedais.deeety.okeey.teodain.chekchy.dair.chparam",
+          "bounding_box": {"x_min": 75, "y_min": 310, "x_max": 930, "y_max": 900},
+          "interaction": "Final Cc continuation. Contains multiple intra-word commas: 'dar,aral', 'oteo,s', 'ain,y'. The terminal word 'chparam' may complete the circular inscription. No *Cc closing tag — the ring text apparently terminates without formal close. This entire three-line Cc block represents a single continuous inscription running around the diagram ring, with golden-brown ink on cream parchment, punctuated by gold stars and bisected by radial lines."
+        }
+      ]
+    },
+    {
+      "block_id": "radial_sector_inscriptions",
+      "description": "12 individual radial inscriptions (@Ri, loci 8–19), each written along or beside one radial divider line within the diagram. The @Ri type indicates text oriented radially (reading outward from center or inward from circumference). Each label sits within one of the 12 sectors, likely aligned with or adjacent to the gold star marker in that sector. Written in the same warm golden-brown ink as the Cc circular text. The background context for each is: cream parchment of the outer ring, with the blue-or-red colored inner petal zones visible inward.",
+      "lines": [
+        {
+          "locus": "<f67r1.8,@Ri>",
+          "raw_text": "otaldy",
+          "bounding_box": {"x_min": 490, "y_min": 225, "x_max": 700, "y_max": 310},
+          "interaction": "Radial label, sector 1 (top sector, approximately 12 o'clock position). Written along the uppermost radial line. Text reads outward from center. Adjacent to the topmost gold star marker. Warm golden-brown ink. The blue petal tip of the nearest inner_blue_ray_petal is visible inward of this label position."
+        },
+        {
+          "locus": "<f67r1.9,@Ri>",
+          "raw_text": "otoky",
+          "bounding_box": {"x_min": 680, "y_min": 255, "x_max": 900, "y_max": 340},
+          "interaction": "Radial label, sector 2 (approximately 1–2 o'clock position). Along the radial line in the upper-right quadrant. Adjacent to gold star in that sector."
+        },
+        {
+          "locus": "<f67r1.10,@Ri>",
+          "raw_text": "seeaiir",
+          "bounding_box": {"x_min": 790, "y_min": 355, "x_max": 935, "y_max": 465},
+          "interaction": "Radial label, sector 3 (approximately 2–3 o'clock position). Right side of diagram. Text oriented vertically or at angle following radial direction."
+        },
+        {
+          "locus": "<f67r1.11,@Ri>",
+          "raw_text": "ykees.ary",
+          "bounding_box": {"x_min": 810, "y_min": 475, "x_max": 940, "y_max": 580},
+          "interaction": "Radial label, sector 4 (approximately 3–4 o'clock). Right mid-zone. Two-word label."
+        },
+        {
+          "locus": "<f67r1.12,@Ri>",
+          "raw_text": "sosaiir",
+          "bounding_box": {"x_min": 790, "y_min": 595, "x_max": 935, "y_max": 690},
+          "interaction": "Radial label, sector 5 (approximately 4–5 o'clock). Lower right quadrant."
+        },
+        {
+          "locus": "<f67r1.13,@Ri>",
+          "raw_text": "oteey.dar",
+          "bounding_box": {"x_min": 680, "y_min": 700, "x_max": 900, "y_max": 800},
+          "interaction": "Radial label, sector 6 (approximately 5–6 o'clock). Lower right, descending toward bottom."
+        },
+        {
+          "locus": "<f67r1.14,@Ri>",
+          "raw_text": "ytodaiir",
+          "bounding_box": {"x_min": 420, "y_min": 880, "x_max": 680, "y_max": 975},
+          "interaction": "Radial label, sector 7 (approximately 6 o'clock / bottom). The text is written near the bottom of the circle, reading along the lowest radial. Adjacent to the bottommost gold star. Below this, the bottom_label_zone begins."
+        },
+        {
+          "locus": "<f67r1.15,@Ri>",
+          "raw_text": "sheosam",
+          "bounding_box": {"x_min": 100, "y_min": 820, "x_max": 340, "y_max": 920},
+          "interaction": "Radial label, sector 8 (approximately 7–8 o'clock). Lower left quadrant, mirroring sector 6 position."
+        },
+        {
+          "locus": "<f67r1.16,@Ri>",
+          "raw_text": "ykeeody",
+          "bounding_box": {"x_min": 62, "y_min": 690, "x_max": 215, "y_max": 800},
+          "interaction": "Radial label, sector 9 (approximately 8–9 o'clock). Left-center zone."
+        },
+        {
+          "locus": "<f67r1.17,@Ri>",
+          "raw_text": "okeol.sal",
+          "bounding_box": {"x_min": 62, "y_min": 565, "x_max": 220, "y_max": 670},
+          "interaction": "Radial label, sector 10 (approximately 9–10 o'clock). Left mid-zone. Two-word label."
+        },
+        {
+          "locus": "<f67r1.18,@Ri>",
+          "raw_text": "okeey.sar",
+          "bounding_box": {"x_min": 62, "y_min": 440, "x_max": 220, "y_max": 545},
+          "interaction": "Radial label, sector 11 (approximately 10–11 o'clock). Upper left quadrant."
+        },
+        {
+          "locus": "<f67r1.19,@Ri>",
+          "raw_text": "dalary",
+          "bounding_box": {"x_min": 100, "y_min": 310, "x_max": 310, "y_max": 405},
+          "interaction": "Final radial label, sector 12 (approximately 11–12 o'clock). Completes the 12-sector cycle. Upper left, adjacent to the topmost-left gold star. The 12 @Ri labels collectively form a complete clockwise ring of sector identifiers around the diagram, all in warm golden-brown ink on cream parchment, each adjacent to one gold-yellow star marker."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "central_face_medallion",
+      "status": "Completely text-free — pure illustration",
+      "description": "The central oval face (x=375–625, y=510–700) contains no text whatsoever. It is the origin point of all radial lines and the visual center of the diagram. The face is rendered in dark ink on uncolored parchment. The blue and red ray petals radiate outward from its perimeter. This zone is the most visually protected space in the entire folio."
+    },
+    {
+      "anchor_id": "inner_blue_ray_petals",
+      "status": "Text-free interior — only gold star decoration within petals",
+      "description": "The 8 blue petals (x=195–810, y=325–890) contain no Voynich text. They carry only the painted gold star clusters as internal decoration. The blue fill is solid and opaque, the most prominent color mass on the folio. The outer text ring's @Ri and @Cc inscriptions surround but never enter the blue petal zone."
+    },
+    {
+      "anchor_id": "inner_red_ray_petals",
+      "status": "Completely text-free — solid color fill only",
+      "description": "The 8 red/dark-red rays (x=230–780, y=345–870) are completely devoid of text. They alternate with the blue petals and carry no decoration — pure solid dark red fill. The contrast between the text-bearing outer ring and the text-free colored inner zone is absolute."
+    },
+    {
+      "anchor_id": "outer_text_ring",
+      "status": "Primary text carrier — @Cc and @Ri inscriptions follow circumference",
+      "description": "The annular outer ring (between inner petals and outer circle) is the sole text-bearing zone of the diagram. Its background color is cream parchment punctuated by 12 gold star markers. The @Cc circular text and @Ri radial labels are written in warm golden-brown ink within this ring. The color contrast — warm golden-brown ink against cream parchment, with gold stars as dividers and blue/red inner zone as inner boundary — is one of the most sophisticated text-layout designs in the Voynich Manuscript."
+    }
+  ]
+}

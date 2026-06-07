@@ -1,0 +1,83 @@
+**Task:** You are an expert Voynich Manuscript structural analyst and text-to-image mapping AI. Your task is to generate an ultra-detailed, pixel-level JSON mapping for a specific folio of the Voynich Manuscript. Also describe colors, it is very importatnt.
+
+**Input Mechanism & Auto-Extraction:**
+1. Look at the attached image filename (e.g., `f2r.jpg`, `f10v.jpg`). Extract the Folio ID (e.g., `f2r`, `f10v`).
+2. Open the attached raw transcription text file (e.g., `RF1b-er.txt`).
+3. Search the file and extract ONLY the lines that belong to this specific Folio ID (e.g., lines starting with `<f2r.`).
+4. **CRITICAL DATA FIDELITY:** You MUST ONLY use the exact raw text lines extracted from the attached document. Do NOT hallucinate text from your memory.
+
+---
+
+### 1. RAW TRANSCRIPTION SYNTAX LEGEND
+The raw transcription contains specific syntax markers that dictate the spatial layout. You MUST use these as explicit clues for your structural mapping:
+
+* **Locus Tags `<folio.line,type>`:** Marks the start of a line and its layout type.
+  * `@P0`, `+P0`, `*P0`: Main paragraph lines (Start, Continuation, End).
+  * `@L0`, `@Lp`, `@Ls`, `@Cc`: Isolated Labels. `@Lp` = near plant/illustration; `@Ls` = near a Star; `@Cc` = inside a Central Circle. You must map these labels exactly to the corresponding visual drawing element.
+* **Bisection Marker `<->`:** **CRITICAL!** If you see `<->` in the raw text, it means the text is physically bisected by a drawn object (a stem, a root, a figure). You MUST identify the visual anchor causing this split and describe the exact pixel-gap and interaction (e.g., "Left segment ends at x_max: 420 due to stem, right segment resumes at x_min: 510").
+* **Word Separator `.` (dot):** Represents spacing between words/glyphs. Retain these in your text output.
+* **Uncertainty Markers `[a:o]`, `???`:** Retain them exactly as written.
+
+---
+
+### 2. COORDINATE SYSTEM SPECIFICATIONS
+You must map everything using a strict normalized grid from 0 to 1000.
+* **X-Axis:** 0 = Left edge of parchment, 1000 = Right edge.
+* **Y-Axis:** 0 = Top edge of parchment, 1000 = Bottom edge.
+* If you estimate in raw pixels, mathematically project to 1000x1000:
+  `X_norm = floor((X_pixel / Width) * 1000)`
+
+---
+
+### 3. MANDATORY EXECUTION STEP (Chain-of-Thought / Audit Log)
+Before mapping, you MUST output an `audit_log` inside the JSON containing:
+1. `extracted_folio_id`: The ID found from the image.
+2. `unique_loci_found`: A list of all Locus IDs found in the `.txt` file for this folio.
+3. `syntax_clues_detected`: Explicitly list any loci containing `<->` (bisections) or `@L`/`@C`/`@S` (labels).
+4. `visual_anchor_inventory`: A list of the main illustration parts you identified.
+
+---
+
+### 4. STANDARDIZED OUTPUT SCHEMA
+Your final output must be STRICTLY valid JSON matching the structure below. Output ONLY the JSON block.
+
+```json
+{
+  "folio": "[Extracted Folio ID]",
+  "source_dataset": "[Name of the attached txt file]",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "",
+    "total_loci_count": 0,
+    "unique_loci_found": [],
+    "syntax_clues_detected": ["[e.g., f2r.8 has <-> indicating stem bisection]", "[e.g., f2r.14 is @Lp indicating plant label]"],
+    "visual_anchor_inventory": []
+  },
+  "visual_anchors": {
+    "anchor_id_or_name": {
+      "description": "[Detailed anatomical/structural description of this illustration component]",
+      "bounding_box": {"x_min": 0, "y_min": 0, "x_max": 0, "y_max": 0}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "[e.g., upper_paragraph, bisected_lower_paragraph, marginalia_labels]",
+      "description": "[Overview of where this block sits relative to the drawing]",
+      "lines": [
+        {
+          "locus": "[e.g., <f2r.8,+P0>]",
+          "raw_text": "[Insert the EXACT raw text line, retaining dots and <-> markers]",
+          "bounding_box": {"x_min": 0, "y_min": 0, "x_max": 0, "y_max": 0},
+          "interaction": "[Micro-level description. If <-> is present, explicitly state the left and right coordinates of the gap and what visual anchor sits in that gap. Describe contour wrapping around leaves/stars/circles.]"
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "[Reference to a visual anchor]",
+      "status": "[e.g., Completely text-free / Intentionally bisected / Encircled by text]",
+      "description": "[Analysis of the negative space around this element]"
+    }
+  ]
+}

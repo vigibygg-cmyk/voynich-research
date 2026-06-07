@@ -1,0 +1,310 @@
+{
+  "folio": "f105v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+
+  "audit_log": {
+    "extracted_folio_id": "f105v",
+    "total_loci_count": 38,
+    "unique_loci_found": [
+      "f105v.1,@P0","f105v.2,+P0","f105v.3,+P0","f105v.4,+P0","f105v.5,+P0",
+      "f105v.6,+P0","f105v.7,+P0","f105v.8,+P0","f105v.9,+P0","f105v.10,+P0",
+      "f105v.11,+P0","f105v.12,+P0","f105v.13,+P0","f105v.14,+P0","f105v.15,+P0",
+      "f105v.16,+P0","f105v.17,+P0","f105v.18,+P0","f105v.19,+P0","f105v.20,+P0",
+      "f105v.21,+P0","f105v.22,+P0","f105v.23,+P0","f105v.24,+P0","f105v.25,+P0",
+      "f105v.26,+P0","f105v.27,+P0","f105v.28,+P0","f105v.29,+P0","f105v.30,+P0",
+      "f105v.31,+P0","f105v.32,+P0","f105v.33,+P0","f105v.34,+P0","f105v.35,+P0",
+      "f105v.36,+P0","f105v.37,+P0","f105v.38,+P0"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers in any line of f105v",
+      "NO @Lp, @Ls, @Lc, @Lf, @Cc, @Ri labels — pure paragraph text only",
+      "f105v.1 is @P0 (paragraph open); all subsequent 37 lines are +P0 continuation",
+      "No *P0 paragraph close — the paragraph continues beyond the last recorded line",
+      "f105v.6 contains 'g' terminal glyph: 'ytaiin.g' — unusual isolated terminal letter",
+      "f105v.10 contains 'j' glyph: 'oral.odaj' — rare 'j' form",
+      "f105v.17 contains extended 'diiinolkaiin' — triple-i form, very unusual",
+      "f105v.25 contains 'f' glyphs: 'alfo.lfcheedy.ofaiir.opchey.fchedy' — high density of 'f' forms in one line"
+    ],
+    "visual_anchor_inventory": [
+      "left_margin_red_stars — 8-pointed red star markers in the left margin, one per paragraph section, functioning as paragraph/section dividers",
+      "right_margin_red_star — smaller red star marker at right margin, mid-folio",
+      "top_green_smear — faint green wash at very top edge (bleeding from facing page or prior illustration)",
+      "page_number_top_left — folio number visible top left, dark ink",
+      "ruled_line_bottom — a horizontal ruled line near the bottom of the text block separating main text from final lines"
+    ]
+  },
+
+  "visual_anchors": {
+    "left_margin_red_stars": {
+      "description": "A series of red 8-pointed stars positioned in the left margin, each marking the beginning of a new text section or paragraph grouping. Approximately 8 stars are visible, evenly spaced vertically down the left margin. Each star has a central red dot or circle with 8 points radiating outward. They function as visual paragraph markers or section flags, equivalent to illuminated capitals in other manuscripts.",
+      "color": "Deep red (vermilion or red lead). The stars are the ONLY color element on this otherwise monochrome text page — making them extremely visually prominent against the cream parchment. No fill color other than red; the points and body are solidly red-painted.",
+      "bounding_box": {"x_min": 28, "y_min": 45, "x_max": 95, "y_max": 960}
+    },
+    "right_margin_red_star": {
+      "description": "A smaller red star or asterisk mark at the right margin, approximately mid-folio. Possibly an annotation or correction marker added by a reader. Similar red pigment to the left stars but smaller and less formal.",
+      "color": "Same deep red as left margin stars. Smaller scale.",
+      "bounding_box": {"x_min": 900, "y_min": 420, "x_max": 960, "y_max": 470}
+    },
+    "top_green_smear": {
+      "description": "A faint green wash visible at the very top edge of the folio. This is likely bleed-through or offset from a painted illustration on an adjacent page, not an intentional element of f105v itself.",
+      "color": "Pale/faded medium green. Very faint — probably transferred pigment.",
+      "bounding_box": {"x_min": 0, "y_min": 0, "x_max": 700, "y_max": 38}
+    },
+    "ruled_line_bottom": {
+      "description": "A light horizontal ruled line visible beneath the dense text block, approximately at y=940. This line may mark the boundary of the writing area or separate a final sub-section.",
+      "color": "Pale brown/lead point ruling line. Very faint.",
+      "bounding_box": {"x_min": 65, "y_min": 935, "x_max": 900, "y_max": 942}
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "single_continuous_paragraph",
+      "description": "f105v is one of the most text-dense folios in the Voynich Manuscript. It contains a single uninterrupted paragraph of 38 lines (loci 1–38) covering virtually the entire parchment surface from top to bottom. There are NO illustrations, NO label zones, NO bisections. The only decorative elements are the red star markers in the left margin. The text is written in dark brown-black ink throughout, with a consistent baseline and x-height. Left margin is approximately x=100 (after the star markers); right margin extends to approximately x=920. The red stars appear to divide the text visually into approximately 8 sections of 4–6 lines each, though the transcription treats the entire block as one continuous paragraph.",
+      "lines": [
+        {
+          "locus": "<f105v.1,@P0>",
+          "raw_text": "polairy.oair.olpcheey.ykaiin.olpchedy.opchedaiin.dairody.ypcheddy.sairy",
+          "bounding_box": {"x_min": 100, "y_min": 45, "x_max": 920, "y_max": 72},
+          "interaction": "Paragraph opening. 'p' gallows initial. Full width. The first left-margin red star is positioned at x=28–65, y=45–72, beside this line. Dark brown-black ink. High density of 'p' + 'ch' compounds: 'olpcheey', 'olpchedy', 'opchedaiin', 'ypcheddy' — characteristic of the f105 section."
+        },
+        {
+          "locus": "<f105v.2,+P0>",
+          "raw_text": "ysheod.ykeeedy.keshed.qodaiin.oteodair.or.chkar.otaiin.chpor.or.otchy.otor",
+          "bounding_box": {"x_min": 100, "y_min": 76, "x_max": 920, "y_max": 103},
+          "interaction": "Continuation. One of the longer lines. 'ykeeedy' triple-e form. Full width."
+        },
+        {
+          "locus": "<f105v.3,+P0>",
+          "raw_text": "dshedy.qoedaiin.ytaiin.okair.qotal.dol.okoldy.qokedy.opched.oteedy.qotaiin",
+          "bounding_box": {"x_min": 100, "y_min": 107, "x_max": 915, "y_max": 134},
+          "interaction": "Continuation. Full width."
+        },
+        {
+          "locus": "<f105v.4,+P0>",
+          "raw_text": "olkeeol.orchsey.qokeedy.chdor.olar.ol.keeol.chedaiin",
+          "bounding_box": {"x_min": 100, "y_min": 138, "x_max": 780, "y_max": 165},
+          "interaction": "Slightly shorter line — second red star marker appears at left margin here, marking a section transition."
+        },
+        {
+          "locus": "<f105v.5,+P0>",
+          "raw_text": "pchedal.qopchdy.daiin.chedy.daiin.okaildy.opchedaiin.apcheo.olkeedy.sairom",
+          "bounding_box": {"x_min": 100, "y_min": 169, "x_max": 920, "y_max": 196},
+          "interaction": "Full width. 'apcheo' contains rare 'a' initial before 'pch' compound."
+        },
+        {
+          "locus": "<f105v.6,+P0>",
+          "raw_text": "dcheo.fcheeojy.ckheey.dar.aiin.al.dar.ar.daiiidy.otedy.oteody.ytaiin.g",
+          "bounding_box": {"x_min": 100, "y_min": 200, "x_max": 915, "y_max": 227},
+          "interaction": "Full width. 'fcheeojy' contains both 'f' and 'j' rare glyphs. Terminal isolated 'g' is exceptional — a single letter at line end, possibly a section marker or scribal note."
+        },
+        {
+          "locus": "<f105v.7,+P0>",
+          "raw_text": "ycheeo.lkaiin.otair.ol.olkaiin.okairody.lchedr",
+          "bounding_box": {"x_min": 100, "y_min": 231, "x_max": 730, "y_max": 258},
+          "interaction": "Shorter line. Third red star at left margin. 'lchedr' unusual terminal cluster."
+        },
+        {
+          "locus": "<f105v.8,+P0>",
+          "raw_text": "fadal.kedar.olpchesd.ar,aiin.ksheeol.opchedy.pchedy.opcheddl.pchdar.air.odar",
+          "bounding_box": {"x_min": 100, "y_min": 262, "x_max": 920, "y_max": 289},
+          "interaction": "Full width. 'fadal' opens with 'f'. 'ar,aiin' intra-word comma. 'opcheddl' double-d unusual."
+        },
+        {
+          "locus": "<f105v.9,+P0>",
+          "raw_text": "lcheey.qoeees.y.daiin.okairy.otchedy.ockhedy.otchey.daiin.or.r.ail.l.okam",
+          "bounding_box": {"x_min": 100, "y_min": 293, "x_max": 915, "y_max": 320},
+          "interaction": "Full width. Isolated single-glyph words 'y', 'r', 'l' mid-line unusual."
+        },
+        {
+          "locus": "<f105v.10,+P0>",
+          "raw_text": "ykeey.ky.che.oiiin.dal.kaiin.otairo.l.kair.chedy.s.odar.air.al.oral.odaj",
+          "bounding_box": {"x_min": 100, "y_min": 324, "x_max": 915, "y_max": 351},
+          "interaction": "Full width. 'oiiin' triple-i form. 'odaj' terminal contains rare 'j'. Fourth red star at left."
+        },
+        {
+          "locus": "<f105v.11,+P0>",
+          "raw_text": "roees.aiiin.ol.okaiin.os.aiin.chckhodu.qoteedy.ckhddl.aiir.apar.kaiishdy",
+          "bounding_box": {"x_min": 100, "y_min": 355, "x_max": 915, "y_max": 382},
+          "interaction": "Full width. 'aiiin' triple-i. 'chckhodu' rare 'u' terminal. 'ckhddl' double-d."
+        },
+        {
+          "locus": "<f105v.12,+P0>",
+          "raw_text": "ysheedy.aiin.okeol.ykedor.ar.ar.alkair.otor.otaiin.otal.kair.am",
+          "bounding_box": {"x_min": 100, "y_min": 386, "x_max": 880, "y_max": 413},
+          "interaction": "Continuation."
+        },
+        {
+          "locus": "<f105v.13,+P0>",
+          "raw_text": "saiin.opchedy.qokchdy.otar.al.kair.okees.lkeedal",
+          "bounding_box": {"x_min": 100, "y_min": 417, "x_max": 770, "y_max": 444},
+          "interaction": "Shorter line. Fifth red star at left."
+        },
+        {
+          "locus": "<f105v.14,+P0>",
+          "raw_text": "pchedaiin.chckhdy.qokaiir.olpchedy.olord.aiiin.tail.odar.kard.chtchy",
+          "bounding_box": {"x_min": 100, "y_min": 448, "x_max": 890, "y_max": 475},
+          "interaction": "Full width. 'aiiin' triple-i again."
+        },
+        {
+          "locus": "<f105v.15,+P0>",
+          "raw_text": "ycheey.kar.ykeey.otaiin.otal.dar.chdos.kalchedy.opchdy.daiin.oraiin.r",
+          "bounding_box": {"x_min": 100, "y_min": 479, "x_max": 910, "y_max": 506},
+          "interaction": "Full width. Terminal isolated 'r' at line end."
+        },
+        {
+          "locus": "<f105v.16,+P0>",
+          "raw_text": "daiin.cheey.dal.chl.okair.aiin.cpheor.aiin.okal.chodaiin.otaiin.opaiim",
+          "bounding_box": {"x_min": 100, "y_min": 510, "x_max": 910, "y_max": 537},
+          "interaction": "Continuation. 'chl' isolated short form."
+        },
+        {
+          "locus": "<f105v.17,+P0>",
+          "raw_text": "alr.aiin.chey.lraiin.lkl.dl.lklor.diiinolkaiin",
+          "bounding_box": {"x_min": 100, "y_min": 541, "x_max": 730, "y_max": 568},
+          "interaction": "Shorter line. Sixth red star. 'diiinolkaiin' — remarkable triple-i compound. 'lkl' isolated consonant cluster."
+        },
+        {
+          "locus": "<f105v.18,+P0>",
+          "raw_text": "pchor.chedaiin.okaiin.cholkal.qolkaiin.oltchdy.qopchsd.opair.orair.karaim",
+          "bounding_box": {"x_min": 100, "y_min": 572, "x_max": 910, "y_max": 599},
+          "interaction": "Full width."
+        },
+        {
+          "locus": "<f105v.19,+P0>",
+          "raw_text": "ycheey.aiin.otleey.lkaiir.cheeo.taiin.ok,eed.ail.kchey.rokaix.am",
+          "bounding_box": {"x_min": 100, "y_min": 603, "x_max": 880, "y_max": 630},
+          "interaction": "'ok,eed' intra-word comma. 'rokaix' contains rare 'x' glyph."
+        },
+        {
+          "locus": "<f105v.20,+P0>",
+          "raw_text": "porair.chopchdy.chedain.otair.otchod.aiin.alol.cheo.ypchedy.kair,odl.lpaim",
+          "bounding_box": {"x_min": 100, "y_min": 634, "x_max": 915, "y_max": 661},
+          "interaction": "Full width. 'kair,odl' intra-word comma."
+        },
+        {
+          "locus": "<f105v.21,+P0>",
+          "raw_text": "ykeeo.daiim.sheey.qokaiin.cheot.daiin.qoek.eeykeody.qopaiin.or.aiikam",
+          "bounding_box": {"x_min": 100, "y_min": 665, "x_max": 900, "y_max": 692},
+          "interaction": "Seventh red star. 'eeykeody' unusual compound."
+        },
+        {
+          "locus": "<f105v.22,+P0>",
+          "raw_text": "daiin.cheodaiin.chedal.air.okaiin.cheey",
+          "bounding_box": {"x_min": 100, "y_min": 696, "x_max": 640, "y_max": 723},
+          "interaction": "Short line."
+        },
+        {
+          "locus": "<f105v.23,+P0>",
+          "raw_text": "tcholtaiin.odal.kl.chees.aiiin.shees.qopdaiin.chods.alkeey.paradam",
+          "bounding_box": {"x_min": 100, "y_min": 727, "x_max": 890, "y_max": 754},
+          "interaction": "'aiiin' triple-i. 'kl' isolated consonant pair."
+        },
+        {
+          "locus": "<f105v.24,+P0>",
+          "raw_text": "alcheey.okaiin.otar.oto.daiin.ckheol.lkol.pchedypaiin",
+          "bounding_box": {"x_min": 100, "y_min": 758, "x_max": 800, "y_max": 785},
+          "interaction": "Shorter line."
+        },
+        {
+          "locus": "<f105v.25,+P0>",
+          "raw_text": "kchdaldy.alfo.lfcheedy.ofaiir.opchey.fchedy.qotor.oeeeodr.qopar.acfhhy.dl",
+          "bounding_box": {"x_min": 100, "y_min": 789, "x_max": 915, "y_max": 816},
+          "interaction": "Eighth red star. High density of 'f' glyphs: 'alfo', 'lfcheedy', 'ofaiir', 'fchedy', 'acfhhy'. Also 'oeeeodr' triple-e. Unusual density of rare glyphs in a single line."
+        },
+        {
+          "locus": "<f105v.26,+P0>",
+          "raw_text": "lkl.sheeodees.otaiin.otar.otal.or.aiin.chedor.alkaiin.chs.alkaiin.ry",
+          "bounding_box": {"x_min": 100, "y_min": 820, "x_max": 900, "y_max": 847},
+          "interaction": "Full width. 'lkl' isolated again. 'sheeodees' with 'ee' doubled."
+        },
+        {
+          "locus": "<f105v.27,+P0>",
+          "raw_text": "sheoe.arxor.eesy.qopchea.ain.orkchdy.daiin.oteedy.kolkair.otaiilody",
+          "bounding_box": {"x_min": 100, "y_min": 851, "x_max": 895, "y_max": 878},
+          "interaction": "'arxor' rare 'x' form. 'otaiilody' double-i + 'l' compound."
+        },
+        {
+          "locus": "<f105v.28,+P0>",
+          "raw_text": "oeoar.ar.al.odor.aiil.otaiin",
+          "bounding_box": {"x_min": 100, "y_min": 882, "x_max": 560, "y_max": 909},
+          "interaction": "Very short line. Near the ruled_line_bottom. May mark a sub-paragraph end."
+        },
+        {
+          "locus": "<f105v.29,+P0>",
+          "raw_text": "tdol.toroaldar.aiir.okokeedy.karodyqoeedy.sho.qopchedy.daiin.opairam",
+          "bounding_box": {"x_min": 100, "y_min": 913, "x_max": 895, "y_max": 940},
+          "interaction": "Below the ruled line. 'karodyqoeedy' — two words run together without separator dot, unusual."
+        },
+        {
+          "locus": "<f105v.30,+P0>",
+          "raw_text": "dchedy.cheey.qokor.otaiin.otair.otair.okeedy.taiin.aiin.s.aiin.sy",
+          "bounding_box": {"x_min": 100, "y_min": 944, "x_max": 895, "y_max": 971},
+          "interaction": "Continuation."
+        },
+        {
+          "locus": "<f105v.31,+P0>",
+          "raw_text": "ychtaiir.aiichy.dol.aiin.otaiin.aiidy.okchd.otar.daiin",
+          "bounding_box": {"x_min": 100, "y_min": 975, "x_max": 800, "y_max": 1002},
+          "interaction": "'aiichy' — unusual 'ch' following triple-i."
+        },
+        {
+          "locus": "<f105v.32,+P0>",
+          "raw_text": "poar.keeodaiin.qoair.ar.acfhhey.qoeedeody.qokaiin.qotedair.apo.rair,apy",
+          "bounding_box": {"x_min": 100, "y_min": 1006, "x_max": 905, "y_max": 1033},
+          "interaction": "'acfhhey' rare 'f' in middle. 'qoeedeody' unusual e-d-e sequence. 'rair,apy' comma."
+        },
+        {
+          "locus": "<f105v.33,+P0>",
+          "raw_text": "lsheody.tair.oteey.oteeo.o.l.otaiin.okeey.qokaiin.or.aiir.al.dar",
+          "bounding_box": {"x_min": 100, "y_min": 1037, "x_max": 895, "y_max": 1064},
+          "interaction": "Isolated single-glyph words 'o', 'l' mid-line."
+        },
+        {
+          "locus": "<f105v.34,+P0>",
+          "raw_text": "sheeo.daiin.chsd.qokeeey.dair.okaiin.otaiin.chedaiin.olkal.lkl,dain",
+          "bounding_box": {"x_min": 100, "y_min": 1068, "x_max": 895, "y_max": 1095},
+          "interaction": "'lkl,dain' — comma within isolated consonant cluster."
+        },
+        {
+          "locus": "<f105v.35,+P0>",
+          "raw_text": "doee.otcheeo.l.taiin.atcheedy.chor.aiin.odaiin.chedy.otaiin.al.kaishd",
+          "bounding_box": {"x_min": 100, "y_min": 1099, "x_max": 895, "y_max": 1126},
+          "interaction": "Full width."
+        },
+        {
+          "locus": "<f105v.36,+P0>",
+          "raw_text": "laiin.sheod.okeeody.qoaiin.ytaiin.otair.chdal.dydaim.chdaiin.ockhhy",
+          "bounding_box": {"x_min": 100, "y_min": 1130, "x_max": 890, "y_max": 1157},
+          "interaction": "'dydaim' unusual 'dy' + 'daim'."
+        },
+        {
+          "locus": "<f105v.37,+P0>",
+          "raw_text": "yshey.ckhy.sheo.qoeeo.lkaiin.chs.okol.tchdy.sheeey.okaiin.ar.aildy",
+          "bounding_box": {"x_min": 100, "y_min": 1161, "x_max": 890, "y_max": 1188},
+          "interaction": "'sheeey' triple-e. Near end of folio."
+        },
+        {
+          "locus": "<f105v.38,+P0>",
+          "raw_text": "cheody.oaiir.ain.okshey",
+          "bounding_box": {"x_min": 100, "y_min": 1192, "x_max": 480, "y_max": 1219},
+          "interaction": "Final recorded line. Very short — 4 words only. No *P0 close tag. The paragraph ends abruptly at the bottom of the parchment. This is the last line before the folio edge."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "left_margin_red_stars",
+      "status": "Non-text decorative markers — exclusive red color on otherwise monochrome folio",
+      "description": "The 8 red stars occupy x=28–95, distributed across y=45–960. They are the SOLE color element on this text-only folio. No text overlaps them; the paragraph text begins at x=100, leaving a clear gutter for the stars. Their deep red color is visually identical to the red pigment used for vessels in f88r and other balneological illustrations, suggesting the same pigment source."
+    },
+    {
+      "anchor_id": "top_green_smear",
+      "status": "Incidental transfer — not part of f105v composition",
+      "description": "The pale green at top (y=0–38) is likely pigment transfer from an adjacent illustrated page. The medium-green color matches Voynich botanical leaf illustrations. It does not affect any text lines."
+    }
+  ]
+}

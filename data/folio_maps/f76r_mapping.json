@@ -1,0 +1,463 @@
+{
+  "folio": "f76r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f76r",
+    "total_loci_count": 56,
+    "unique_loci_found": [
+      "<f76r.1,@P0>","<f76r.2,+P0>","<f76r.3,+P0>",
+      "<f76r.4,*L0>","<f76r.5,=P0>","<f76r.6,+P0>",
+      "<f76r.7,*L0>","<f76r.8,=P0>","<f76r.9,+P0>",
+      "<f76r.10,*L0>","<f76r.11,=P0>","<f76r.12,+P0>","<f76r.13,+P0>",
+      "<f76r.14,*L0>","<f76r.15,=P0>","<f76r.16,+P0>","<f76r.17,+P0>",
+      "<f76r.18,*L0>","<f76r.19,=P0>","<f76r.20,+P0>","<f76r.21,+P0>",
+      "<f76r.22,*L0>","<f76r.23,=P0>","<f76r.24,+P0>","<f76r.25,+P0>","<f76r.26,+P0>",
+      "<f76r.27,*L0>","<f76r.28,=P0>","<f76r.29,+P0>","<f76r.30,+P0>",
+      "<f76r.31,*L0>","<f76r.32,=P0>","<f76r.33,+P0>","<f76r.34,+P0>","<f76r.35,+P0>","<f76r.36,+P0>",
+      "<f76r.37,*L0>","<f76r.38,=P0>","<f76r.39,+P0>","<f76r.40,+P0>","<f76r.41,+P0>","<f76r.42,+P0>",
+      "<f76r.43,+P0>","<f76r.44,+P0>","<f76r.45,+P0>","<f76r.46,+P0>","<f76r.47,+P0>",
+      "<f76r.48,+P0>","<f76r.49,+P0>","<f76r.50,+P0>","<f76r.51,+P0>","<f76r.52,+P0>",
+      "<f76r.53,+P0>","<f76r.54,+P0>","<f76r.55,+P0>","<f76r.56,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "f76r.4  is *L0 (single char 's') — paragraph-initiating left-margin marker",
+      "f76r.7  is *L0 (single char 'd') — paragraph-initiating left-margin marker",
+      "f76r.10 is *L0 (single char 'q') — paragraph-initiating left-margin marker",
+      "f76r.14 is *L0 (single char 's') — paragraph-initiating left-margin marker",
+      "f76r.18 is *L0 (single char 'o') — paragraph-initiating left-margin marker",
+      "f76r.22 is *L0 (single char 'l') — paragraph-initiating left-margin marker",
+      "f76r.27 is *L0 (single char 'k') — paragraph-initiating left-margin marker",
+      "f76r.31 is *L0 (single char 'r') — paragraph-initiating left-margin marker",
+      "f76r.37 is *L0 (single char 's') — paragraph-initiating left-margin marker",
+      "All =P0 loci immediately follow a *L0 — the =P0 is the paragraph start line paired with the left-margin initial character",
+      "NO <-> bisection markers detected — pure text folio",
+      "NO @Lp/@Ls/@Cc label loci — this is the balneological/recipe text section, no illustrations"
+    ],
+    "visual_anchor_inventory": [
+      "folio_number_76 — '76' written at top-right corner",
+      "left_margin_initials — column of single-character *L0 paragraph initials in the left margin (9 total)",
+      "paragraph_initial_flourish — decorative curved calligraphic stroke above f76r.1, typical of section-start ornamentation",
+      "brown_damage_patch — minor staining in upper-right area (visible in image, does not affect text)"
+    ]
+  },
+  "visual_anchors": {
+    "folio_number": {
+      "description": "'76' written in a later hand at the top-right corner of the folio.",
+      "bounding_box": {"x_min": 845, "y_min": 28, "x_max": 910, "y_max": 58}
+    },
+    "left_margin_initials": {
+      "description": "A column of single-character *L0 paragraph initials in the left margin. Each is a single Voynichese glyph (s, d, q, s, o, l, k, r, s) that precedes a paragraph block. They are positioned approximately x≈55–90, staggered vertically through the folio. Each aligns with the =P0 line that begins its paragraph. These are not bisecting elements — they sit in the margin gutter.",
+      "bounding_box": {"x_min": 55, "y_min": 155, "x_max": 95, "y_max": 840}
+    },
+    "paragraph_initial_flourish": {
+      "description": "A decorative calligraphic curl/loop above the first line of text, typical of section or chapter openers in the Voynich manuscript. Located at the very top-left of the text area.",
+      "bounding_box": {"x_min": 55, "y_min": 45, "x_max": 130, "y_max": 78}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "opening_paragraph_lines1to3",
+      "description": "The opening 3-line @P0 paragraph before the first *L0 marker. Full-width lines. This is the header paragraph of the folio.",
+      "lines": [
+        {
+          "locus": "<f76r.1,@P0>",
+          "raw_text": "potchokor.chcfhdy.opshdy.qolp.chcphy.chcphdy.opshey.qopshy.opchdy.sain.asy",
+          "bounding_box": {"x_min": 55, "y_min": 55, "x_max": 940, "y_max": 88},
+          "interaction": "First line, paragraph start. Full-width. Preceded by decorative calligraphic flourish. No bisection."
+        },
+        {
+          "locus": "<f76r.2,+P0>",
+          "raw_text": "dshedy.qotddyar.cthar.chep.dain.okain.qokeor.shedy.qol.ain.sheals.qokeey",
+          "bounding_box": {"x_min": 55, "y_min": 90, "x_max": 930, "y_max": 123},
+          "interaction": "Full-width continuation line."
+        },
+        {
+          "locus": "<f76r.3,+P0>",
+          "raw_text": "yshey.qokeey.qokey.qokeed.okedy.shky.qotedy.otedy.shol.qoty.ol.chedy.aiiny",
+          "bounding_box": {"x_min": 55, "y_min": 125, "x_max": 940, "y_max": 158},
+          "interaction": "Full-width line. Final line before first *L0 paragraph marker."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_2_L0_s_lines4to6",
+      "description": "*L0 'S' initial + =P0 start + 1 continuation. Left-margin initial 's' (f76r.4) precedes the paragraph body starting at f76r.5.",
+      "lines": [
+        {
+          "locus": "<f76r.4,*L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 58, "y_min": 162, "x_max": 72, "y_max": 188},
+          "interaction": "Single-character paragraph initial 's' in left margin. No text interaction — purely a paragraph marker."
+        },
+        {
+          "locus": "<f76r.5,=P0>",
+          "raw_text": "qokedy.qokeey.or.ar.or.chkarol.otey.qokedy.lkedy.chdy.qokchdy.qokal.chdam",
+          "bounding_box": {"x_min": 95, "y_min": 162, "x_max": 940, "y_max": 195},
+          "interaction": "=P0 paragraph start line, beginning at x≈95 (after the *L0 initial). Full-width continuation."
+        },
+        {
+          "locus": "<f76r.6,+P0>",
+          "raw_text": "solchedy.qokeedy.qopchedy.qokeeo.sol.shedy.qokedy.sheey.okees.al.al.chedain.dar",
+          "bounding_box": {"x_min": 55, "y_min": 197, "x_max": 945, "y_max": 230},
+          "interaction": "Full-width continuation line."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_3_L0_d_lines7to9",
+      "description": "*L0 'd' initial + =P0 + 1 continuation.",
+      "lines": [
+        {
+          "locus": "<f76r.7,*L0>",
+          "raw_text": "d",
+          "bounding_box": {"x_min": 58, "y_min": 234, "x_max": 72, "y_max": 260},
+          "interaction": "Single-char 'd' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.8,=P0>",
+          "raw_text": "qoaiin.ches.okeedal.qoked.qokeey.shedy.chey.lkeedy.akey.dar.aiin.chekain.aldy",
+          "bounding_box": {"x_min": 95, "y_min": 234, "x_max": 940, "y_max": 267},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.9,+P0>",
+          "raw_text": "shed.al.shckhy.sain.chcphedy.ain.olkeey.lkar.ain.oteey.lkain.chedy.dar.daly",
+          "bounding_box": {"x_min": 55, "y_min": 269, "x_max": 940, "y_max": 302},
+          "interaction": "Full-width continuation line."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_4_L0_q_lines10to13",
+      "description": "*L0 'q' initial + =P0 + 2 continuations.",
+      "lines": [
+        {
+          "locus": "<f76r.10,*L0>",
+          "raw_text": "q",
+          "bounding_box": {"x_min": 58, "y_min": 306, "x_max": 72, "y_max": 332},
+          "interaction": "Single-char 'q' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.11,=P0>",
+          "raw_text": "qotedshedy.qorain.oteedy.chedy.ol.chdy.r,aiiin.chekain.dain.chckhy.sal.oty",
+          "bounding_box": {"x_min": 95, "y_min": 306, "x_max": 935, "y_max": 339},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.12,+P0>",
+          "raw_text": "solshedy.qool.qctheed.shdy.qa.ol.teey.dain.saiin.s.ar.shedy.qokeor.okeedy",
+          "bounding_box": {"x_min": 55, "y_min": 341, "x_max": 935, "y_max": 374},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.13,+P0>",
+          "raw_text": "qokeedy.checthy.chckhey.okal.okaiin.sheckhey.okeedy.otey.dal.ykal.chedy.sar",
+          "bounding_box": {"x_min": 55, "y_min": 376, "x_max": 930, "y_max": 409},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_5_L0_s_lines14to17",
+      "description": "*L0 's' initial + =P0 + 2 continuations.",
+      "lines": [
+        {
+          "locus": "<f76r.14,*L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 58, "y_min": 413, "x_max": 72, "y_max": 439},
+          "interaction": "Single-char 's' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.15,=P0>",
+          "raw_text": "chorshedy.qoked.okees.al.ar.aiin.ar.ain.chckheedlchedy.shedy.qolair.chedy",
+          "bounding_box": {"x_min": 95, "y_min": 413, "x_max": 930, "y_max": 446},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.16,+P0>",
+          "raw_text": "qotes.chedy.shckhy.qokeey.okeey.kain.checkhy.qokeedy.qotey.qotain.chekear",
+          "bounding_box": {"x_min": 55, "y_min": 448, "x_max": 925, "y_max": 481},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.17,+P0>",
+          "raw_text": "chey.chckh.shey.qeeey.chol.lkain.shedy.qokeedy.okain.chedy.okeed.qokaloro",
+          "bounding_box": {"x_min": 55, "y_min": 483, "x_max": 925, "y_max": 516},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_6_L0_o_lines18to21",
+      "description": "*L0 'o' initial + =P0 + 2 continuations.",
+      "lines": [
+        {
+          "locus": "<f76r.18,*L0>",
+          "raw_text": "o",
+          "bounding_box": {"x_min": 58, "y_min": 520, "x_max": 72, "y_max": 546},
+          "interaction": "Single-char 'o' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.19,=P0>",
+          "raw_text": "dcheedy.qolchey.qokeey.qokeey.chedy.qokar.shedy.shedy.lshedy.qolchedy.otedyl",
+          "bounding_box": {"x_min": 95, "y_min": 520, "x_max": 935, "y_max": 553},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.20,+P0>",
+          "raw_text": "dshedy.qo.chedy.lchedy.qokey.qolchey.qotain.chckhy.shckhy.lchar.okar.alchdy",
+          "bounding_box": {"x_min": 55, "y_min": 555, "x_max": 930, "y_max": 588},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.21,+P0>",
+          "raw_text": "qokchrdy.okeey.lchedy.qo.olain.ot.shedy.qotaly.dar.sain.shedy.oleeed",
+          "bounding_box": {"x_min": 55, "y_min": 590, "x_max": 915, "y_max": 623},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_7_L0_l_lines22to26",
+      "description": "*L0 'l' initial + =P0 + 3 continuations.",
+      "lines": [
+        {
+          "locus": "<f76r.22,*L0>",
+          "raw_text": "l",
+          "bounding_box": {"x_min": 58, "y_min": 627, "x_max": 72, "y_max": 653},
+          "interaction": "Single-char 'l' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.23,=P0>",
+          "raw_text": "sheedy.qokedy.chedy.chedy.qokain.chckhy.olchy.l.ain.shedy.olaiin.chedy.qokey",
+          "bounding_box": {"x_min": 95, "y_min": 627, "x_max": 935, "y_max": 660},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.24,+P0>",
+          "raw_text": "dalshedy.qolsheedy.qokaldy.chepy.dain.alolor.olain.chedy.shecthy.qokey.lar",
+          "bounding_box": {"x_min": 55, "y_min": 662, "x_max": 925, "y_max": 695},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.25,+P0>",
+          "raw_text": "qalain.chey.qokeey.lchedy.chcthy.cheyky.chey.qolal.lkl,chey.lchedy.chey.llaiiry",
+          "bounding_box": {"x_min": 55, "y_min": 697, "x_max": 940, "y_max": 730},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.26,+P0>",
+          "raw_text": "shedal.shey.qokey.qolchedy.qolain.ain.chey.qotaiin.okain.cheedy.lcheyloly.dy",
+          "bounding_box": {"x_min": 55, "y_min": 732, "x_max": 935, "y_max": 765},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_8_L0_k_lines27to30",
+      "description": "*L0 'k' initial + =P0 + 2 continuations.",
+      "lines": [
+        {
+          "locus": "<f76r.27,*L0>",
+          "raw_text": "k",
+          "bounding_box": {"x_min": 58, "y_min": 769, "x_max": 72, "y_max": 795},
+          "interaction": "Single-char 'k' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.28,=P0>",
+          "raw_text": "sain.sheey.chear.ol.aiin.chodaiin.qokaiin.chey.qokalchey.dal.chdy.dal.ytal",
+          "bounding_box": {"x_min": 95, "y_min": 769, "x_max": 930, "y_max": 802},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.29,+P0>",
+          "raw_text": "qokar.shedy.shedy.qokar.shedy.qokain.dar.shey.lshcthy.okar.okain.ylaiiny",
+          "bounding_box": {"x_min": 55, "y_min": 804, "x_max": 925, "y_max": 837},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.30,+P0>",
+          "raw_text": "darchey.cheolchey.shcthy.chedy.qo.qokey.dalaiin.sheeky.qokain.olky.sain.chy",
+          "bounding_box": {"x_min": 55, "y_min": 839, "x_max": 925, "y_max": 872},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_9_L0_r_lines31to36",
+      "description": "*L0 'r' initial + =P0 + 4 continuations. Longest multi-line block.",
+      "lines": [
+        {
+          "locus": "<f76r.31,*L0>",
+          "raw_text": "r",
+          "bounding_box": {"x_min": 58, "y_min": 568, "x_max": 72, "y_max": 594},
+          "interaction": "Single-char 'r' paragraph initial in left margin."
+        },
+        {
+          "locus": "<f76r.32,=P0>",
+          "raw_text": "chear.ain.okaiin.dain.chey.dalshedy.qokaiin.cheal.shy.chedy.rain.chedy.shy",
+          "bounding_box": {"x_min": 95, "y_min": 568, "x_max": 925, "y_max": 601},
+          "interaction": "=P0 paragraph start. Full-width."
+        },
+        {
+          "locus": "<f76r.33,+P0>",
+          "raw_text": "qokedy.lkey.kal.shedy.qopchey.qol.pchedy.okchy.chckhy.shey.lol.r.al.sheey.dar",
+          "bounding_box": {"x_min": 55, "y_min": 603, "x_max": 940, "y_max": 636},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.34,+P0>",
+          "raw_text": "chear.shey.qoalkal.shedy.shedy.shey.shedy.ollchy.shlches.shcthy.sain.oly",
+          "bounding_box": {"x_min": 55, "y_min": 638, "x_max": 918, "y_max": 671},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.35,+P0>",
+          "raw_text": "sain.shedy.lshey.qokal.chcthy.okeolor.cheol.otar.chedy.qol.chcthy.chckhy",
+          "bounding_box": {"x_min": 55, "y_min": 673, "x_max": 912, "y_max": 706},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.36,+P0>",
+          "raw_text": "qokal.shedy.sheol.cheal.alshy.cholchdy.talor.ol.alor.chol.okear.ar.o.oly",
+          "bounding_box": {"x_min": 55, "y_min": 708, "x_max": 918, "y_max": 741},
+          "interaction": "Full-width continuation."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_10_L0_s_lines37to56",
+      "description": "*L0 's' initial (f76r.37) + =P0 (f76r.38) + 18 continuations (f76r.39–56). This is by far the longest paragraph block on the folio, running from approximately y=745 to y=980 and covering the entire lower portion of the folio.",
+      "lines": [
+        {
+          "locus": "<f76r.37,*L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 58, "y_min": 745, "x_max": 72, "y_max": 771},
+          "interaction": "Single-char 's' paragraph initial in left margin. Final *L0 marker on the folio."
+        },
+        {
+          "locus": "<f76r.38,=P0>",
+          "raw_text": "oteey.lchey.chey.olsheol.qokal.chal",
+          "bounding_box": {"x_min": 95, "y_min": 745, "x_max": 600, "y_max": 778},
+          "interaction": "=P0 paragraph start. Notably short — only 6 words, terminating at ~x=600."
+        },
+        {
+          "locus": "<f76r.39,+P0>",
+          "raw_text": "polalchdy.pshedy.opchedy.qokar.yksheol.qokeedy.oty.lshed.chpsheedy.ytal",
+          "bounding_box": {"x_min": 55, "y_min": 780, "x_max": 915, "y_max": 813},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.40,+P0>",
+          "raw_text": "qolchey.shckhy.qokey.lchy.opchey.dain.shdy.qokedar.olchdy.sar.oty.dy.lchedy",
+          "bounding_box": {"x_min": 55, "y_min": 815, "x_max": 930, "y_max": 848},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.41,+P0>",
+          "raw_text": "sain.ar.okedy.lcheey.qokey.shckhy.otedy.qokal.shey.qoky.dain.chedy.qokchdyl",
+          "bounding_box": {"x_min": 55, "y_min": 850, "x_max": 930, "y_max": 883},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.42,+P0>",
+          "raw_text": "dain.chey.lsh.daiin.chey.lchedy.qolain.qotal.shedy.dy.shecthy.otalam",
+          "bounding_box": {"x_min": 55, "y_min": 885, "x_max": 910, "y_max": 918},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.43,+P0>",
+          "raw_text": "sor.shey.qokey.qokar.sheealdy.chol.oly.chaly.lol.chdy",
+          "bounding_box": {"x_min": 55, "y_min": 530, "x_max": 780, "y_max": 563},
+          "interaction": "Medium-length continuation line."
+        },
+        {
+          "locus": "<f76r.44,+P0>",
+          "raw_text": "poleedaran.shckhy.qoty.ykar.alol.lkaiin.olshedy.otain.okar.opar.kolpy",
+          "bounding_box": {"x_min": 55, "y_min": 565, "x_max": 895, "y_max": 598},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.45,+P0>",
+          "raw_text": "yshedy.qo.or.okain.shey.qokaiin.okeedy.qochy.as.ain.sheey.chckhy",
+          "bounding_box": {"x_min": 55, "y_min": 600, "x_max": 875, "y_max": 633},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.46,+P0>",
+          "raw_text": "dain.shear.okedy.otedy.okedy.lchedy.chedy.okar.chedy.otar,ain",
+          "bounding_box": {"x_min": 55, "y_min": 635, "x_max": 860, "y_max": 668},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.47,+P0>",
+          "raw_text": "dain.chckhy.or.aiin.sheey.qockhey.olchdar.sheey.otedy.olain.oky",
+          "bounding_box": {"x_min": 55, "y_min": 670, "x_max": 860, "y_max": 703},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.48,+P0>",
+          "raw_text": "saiin.shckhy.lkeedy.qoky.okain.ytain.oteedy.okedor.shedy.qokal",
+          "bounding_box": {"x_min": 55, "y_min": 705, "x_max": 848, "y_max": 738},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.49,+P0>",
+          "raw_text": "saiin.olaiin.oky.shol.sain.oky.lkar.chedy.lkar.al.loral",
+          "bounding_box": {"x_min": 55, "y_min": 740, "x_max": 820, "y_max": 773},
+          "interaction": "Medium-length continuation."
+        },
+        {
+          "locus": "<f76r.50,+P0>",
+          "raw_text": "pchedy.m.sal.dol.shdy.olkedy.qokaiin.otal.rory",
+          "bounding_box": {"x_min": 55, "y_min": 775, "x_max": 730, "y_max": 808},
+          "interaction": "Contains 'm' — unusual single-character word, possibly an abbreviation."
+        },
+        {
+          "locus": "<f76r.51,+P0>",
+          "raw_text": "qkor.shedy.shey.keedy.sal.raiin.opchdy.dar.chedy.qopchedy.rorol",
+          "bounding_box": {"x_min": 55, "y_min": 810, "x_max": 858, "y_max": 843},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.52,+P0>",
+          "raw_text": "alsheed.qokedy.qokeedy.qokedy.lkedy.lsheedy.okar.shedy.otain",
+          "bounding_box": {"x_min": 55, "y_min": 845, "x_max": 845, "y_max": 878},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.53,+P0>",
+          "raw_text": "saiin.qol.shedy.ol.chedor.chal.shed.qoteedy.dshedy.okal.chedyl",
+          "bounding_box": {"x_min": 55, "y_min": 880, "x_max": 852, "y_max": 913},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.54,+P0>",
+          "raw_text": "dal.or.chedy.qolaiin.okedal.olchedy.chdal.olchedy.choly.aiiny",
+          "bounding_box": {"x_min": 55, "y_min": 915, "x_max": 850, "y_max": 948},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.55,+P0>",
+          "raw_text": "sain.sheey.or.or.al.solshey.okeedy.ldaiin.checthey.okedalor",
+          "bounding_box": {"x_min": 55, "y_min": 950, "x_max": 845, "y_max": 983},
+          "interaction": "Full-width continuation."
+        },
+        {
+          "locus": "<f76r.56,+P0>",
+          "raw_text": "qokaiin.ol.shedy.qokeey.or.shdy",
+          "bounding_box": {"x_min": 55, "y_min": 985, "x_max": 510, "y_max": 1000},
+          "interaction": "Final line of the folio. Very short — 6 words. Near the lower edge of the parchment."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "left_margin_initials",
+      "status": "Completely text-free border — single-char markers in margin gutter",
+      "description": "The 9 *L0 single-character initials (s, d, q, s, o, l, k, r, s) occupy the left margin strip x≈55–90. The paragraph text consistently begins at x≈95 for =P0 lines and x≈55 for +P0 lines. The initials themselves are small, isolated glyphs acting as section markers — they are never overlapped by the paragraph text."
+    }
+  ]
+}

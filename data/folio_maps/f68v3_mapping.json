@@ -1,0 +1,267 @@
+{
+  "folio": "f68v3",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f68v3",
+    "total_loci_count": 19,
+    "unique_loci_found": [
+      "<f68v3.1,@P0>",
+      "<f68v3.2,+P0>",
+      "<f68v3.3,+P0>",
+      "<f68v3.4,+P0>",
+      "<f68v3.5,@Cc>",
+      "<f68v3.6,@Ri>",
+      "<f68v3.7,@Ri>",
+      "<f68v3.8,@Ri>",
+      "<f68v3.9,@Ri>",
+      "<f68v3.10,@Ri>",
+      "<f68v3.11,@Ri>",
+      "<f68v3.12,@Ri>",
+      "<f68v3.13,@Ri>",
+      "<f68v3.14,@Cc>",
+      "<f68v3.15,@L0>",
+      "<f68v3.16,=L0>",
+      "<f68v3.17,@Pb>",
+      "<f68v3.18,+Pb>",
+      "<f68v3.19,+Pb>"
+    ],
+    "syntax_clues_detected": [
+      "f68v3.3 contains <-> indicating bisection by a drawn object (likely inner ring boundary or spoke)",
+      "f68v3.5 is @Cc — label text inscribed INSIDE the central circle of the cosmological diagram",
+      "f68v3.6–f68v3.13 are @Ri — radial inscription lines following the inner ring arc",
+      "f68v3.14 is @Cc — second block of label text inside the central circle",
+      "f68v3.15 is @L0 — isolated label",
+      "f68v3.16 is =L0 — continuation of isolated label",
+      "f68v3.17–f68v3.19 are @Pb — bottom paragraph block below the main diagram"
+    ],
+    "visual_anchor_inventory": [
+      "outer_ring — large outermost concentric ring bearing radial text along its perimeter",
+      "inner_ring — second concentric ring inward, hosting @Ri inscription lines along its arc",
+      "central_nebula_body — the central elliptical/organic blue-spotted form with lobed protrusions",
+      "lobed_protrusions — scalloped/tongue-like appendages radiating from the central body edge",
+      "golden_stars — 6-pointed star glyphs scattered across the central nebula body interior",
+      "blue_pigment_patches — irregular clusters of blue wash pigment within the central body",
+      "central_circle_zone — the innermost white/light zone containing @Cc text blocks",
+      "fold_crease — vertical binding fold running approximately x=490–510 through the center of the folio",
+      "outer_ring_text_band — the annular text channel between outer_ring outer and inner edges"
+    ]
+  },
+  "visual_anchors": {
+    "outer_ring": {
+      "description": "The largest concentric circle drawn in ink, enclosing the entire cosmological diagram. Text runs along its inner perimeter in a continuous arc. The ring itself has a stroke width of approximately 8–12 normalized units. The outer edge defines the outer boundary of the readable composition.",
+      "bounding_box": {"x_min": 95, "y_min": 150, "x_max": 980, "y_max": 990}
+    },
+    "inner_ring": {
+      "description": "A second concentric ring positioned inside the outer ring, creating an annular channel. The @Ri locus lines are inscribed within this inner ring's arc, following its curvature. The ring separates the outer text band from the central nebula body.",
+      "bounding_box": {"x_min": 195, "y_min": 230, "x_max": 880, "y_max": 900}
+    },
+    "central_nebula_body": {
+      "description": "The large organic elliptical illustration filling the interior of the inner ring. It features blue-pigmented spotting, golden 6-pointed stars (approximately 12–15 visible), and irregular lobed protrusions around its perimeter. The body has a roughly circular outline with bulging scalloped edges. A vertical fold crease bisects it near the horizontal center.",
+      "bounding_box": {"x_min": 245, "y_min": 265, "x_max": 840, "y_max": 870}
+    },
+    "lobed_protrusions": {
+      "description": "Tongue- or petal-shaped lobes extending outward from the central nebula body's perimeter. They appear at regular intervals, resembling petals or scalloped edges. Each lobe is approximately 30–50 normalized units in extent. Some contain blue pigment dots.",
+      "bounding_box": {"x_min": 230, "y_min": 250, "x_max": 855, "y_max": 885}
+    },
+    "golden_stars": {
+      "description": "Six-pointed star glyphs drawn with golden/brown ink scattered throughout the interior of the central nebula body. Approximately 12–15 stars are visible, clustered more densely in the upper-center and lower-center zones.",
+      "bounding_box": {"x_min": 300, "y_min": 300, "x_max": 780, "y_max": 830}
+    },
+    "central_circle_zone": {
+      "description": "The inner-most light-colored zone at the geometric center of the diagram, containing the densest concentration of text (@Cc loci). This is an approximately circular region where two distinct @Cc text blocks are inscribed.",
+      "bounding_box": {"x_min": 370, "y_min": 380, "x_max": 680, "y_max": 680}
+    },
+    "fold_crease": {
+      "description": "The vertical parchment fold from the binding. Runs vertically at approximately x=490–510 normalized, from y=0 to y=1000. It creates slight misalignment in drawings and text crossing this boundary, and causes the bisection in f68v3.3.",
+      "bounding_box": {"x_min": 488, "y_min": 0, "x_max": 512, "y_max": 1000}
+    },
+    "label_zone_15_16": {
+      "description": "A small isolated label zone, likely adjacent to a specific feature within or near the central body. Contains the two @L0 loci (f68v3.15: 'otodal' and f68v3.16: 'opcholdg'). Estimated to be a small rectangular label area near a distinctive star or structural feature.",
+      "bounding_box": {"x_min": 480, "y_min": 430, "x_max": 620, "y_max": 480}
+    },
+    "bottom_paragraph_zone": {
+      "description": "A short paragraph block (@Pb) located below the main circular diagram, in the lower margin of the folio. Contains three lines (f68v3.17–19). This area is outside the outer ring.",
+      "bounding_box": {"x_min": 130, "y_min": 920, "x_max": 600, "y_max": 990}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_block",
+      "description": "Three lines of main paragraph text (@P0) located at the top of the folio, above the outer ring. These lines appear to be introductory text running in horizontal bands across the upper margin.",
+      "lines": [
+        {
+          "locus": "<f68v3.1,@P0>",
+          "raw_text": "tchedy.chepchy.daiidy.shol.kcheoly.choteol.shol.s.chey.shodaiin.chetshedy.otsho.qooto.seeey",
+          "bounding_box": {"x_min": 90, "y_min": 95, "x_max": 940, "y_max": 135},
+          "interaction": "This is the first line of the upper paragraph, running horizontally across the full width of the folio above the outer ring. No bisection. Text flows uninterrupted from left margin (x≈90) to right margin (x≈940). Baseline at y≈115."
+        },
+        {
+          "locus": "<f68v3.2,+P0>",
+          "raw_text": "sshey.kcheol.sheey.qety.sheey.otchol.chalsheey.daiin.sheody.qokol.aiir.chor.cheoty.oty",
+          "bounding_box": {"x_min": 90, "y_min": 138, "x_max": 920, "y_max": 178},
+          "interaction": "Second line of upper paragraph. Continuation of @P0 block. Runs horizontally across the folio, slightly shorter on the right side. No bisection detected."
+        },
+        {
+          "locus": "<f68v3.3,+P0>",
+          "raw_text": "sho.chokar.scr.chor.cheky.daiin.dar.aiiin<->ytey.tol.cheeetchol.sam",
+          "bounding_box": {"x_min": 90, "y_min": 180, "x_max": 920, "y_max": 220},
+          "interaction": "BISECTED LINE. The <-> marker indicates this line is physically split by the vertical fold crease or an edge of the outer ring arc beginning to intrude. Left segment 'sho.chokar.scr.chor.cheky.daiin.dar.aiiin' runs x_min:90 → x_max:~488. The gap corresponds to the fold_crease at x≈490–510. Right segment 'ytey.tol.cheeetchol.sam' resumes at x_min:~512 → x_max:~750. The visual anchor causing the bisection is the fold_crease or the uppermost arc of the outer ring entering the text field."
+        },
+        {
+          "locus": "<f68v3.4,+P0>",
+          "raw_text": "dcheey.qockhhy.chydy",
+          "bounding_box": {"x_min": 90, "y_min": 222, "x_max": 380, "y_max": 255},
+          "interaction": "Short final line of the upper paragraph block. Only three words, terminating well before the right margin. Located in the left portion of the folio, immediately before the outer ring's upper arc begins to dominate. No bisection."
+        }
+      ]
+    },
+    {
+      "block_id": "central_circle_text_cc_block_1",
+      "description": "Dense @Cc label block inscribed inside the central circle zone of the cosmological diagram. This is a long, continuous text stream inscribed within the interior of the central_circle_zone, wrapping around and filling the available space between the golden stars and blue pigment patches.",
+      "lines": [
+        {
+          "locus": "<f68v3.5,@Cc>",
+          "raw_text": "oky.otal.ees.choty.chedas.otchdy.s.ar.oekaiin.oteol.dar.cheo.dair.qoeeokaiin.otchey.dal.cheky.ykos.yokeg.s.ol.oy.ykoees.yty.dy.dy.chody.otol.olees.oty.dar.qotay.otoy.chey.kodar.dar.sheody.shees.daiin.oteeoaly.oteeosol.ol.okol.olsey.tol.cheol.okeey.choekcheey.okchy.qokchshy.dchol.chshek",
+          "bounding_box": {"x_min": 375, "y_min": 385, "x_max": 675, "y_max": 675},
+          "interaction": "This is a long, densely packed @Cc inscription filling the central circle zone. The text wraps in a roughly circular or spiral pattern around the interior of the central_circle_zone. Individual word-groups are separated by dots. The text contours around the golden_stars and blue_pigment_patches within the zone, leaving small negative spaces around each star. The bounding box defines the outer extent of the inscription field; text density is highest between y=420 and y=640."
+        }
+      ]
+    },
+    {
+      "block_id": "inner_ring_radial_inscriptions",
+      "description": "Eight @Ri locus lines inscribed along the arc of the inner_ring. These lines follow the curvature of the ring, reading outward from the ring's inner edge. They are distributed around the ring's circumference — likely one segment per arc sector.",
+      "lines": [
+        {
+          "locus": "<f68v3.6,@Ri>",
+          "raw_text": "ocheol.qoeey.keody.cheoky.okchy.chody.dy.oteal",
+          "bounding_box": {"x_min": 420, "y_min": 235, "x_max": 730, "y_max": 275},
+          "interaction": "Radial arc inscription in the upper sector of the inner ring. Text curves along the inner_ring's upper arc, oriented to be read from the outer edge inward. Contours follow the ring curvature, baseline arcing slightly downward from left to right in this sector."
+        },
+        {
+          "locus": "<f68v3.7,@Ri>",
+          "raw_text": "r.al.chdail.schekol.okeody",
+          "bounding_box": {"x_min": 680, "y_min": 265, "x_max": 870, "y_max": 390},
+          "interaction": "Radial arc inscription in the upper-right sector of the inner ring. Short text segment curving along the right arc, baseline angled to follow ring geometry. Text reads from upper-right toward lower-right."
+        },
+        {
+          "locus": "<f68v3.8,@Ri>",
+          "raw_text": "okeol.cheody.qoekeey.ocheky.chody.okchdy.oko.okos",
+          "bounding_box": {"x_min": 740, "y_min": 400, "x_max": 870, "y_max": 560},
+          "interaction": "Radial arc inscription in the right sector of the inner ring. Text follows the right vertical arc of the ring, baseline curving from upper-right to lower-right."
+        },
+        {
+          "locus": "<f68v3.9,@Ri>",
+          "raw_text": "shoekechy.sheky.okolchey.okoldom",
+          "bounding_box": {"x_min": 680, "y_min": 590, "x_max": 860, "y_max": 710},
+          "interaction": "Radial arc inscription in the lower-right sector of the inner ring. Follows the ring arc from the right side downward toward the bottom-right."
+        },
+        {
+          "locus": "<f68v3.10,@Ri>",
+          "raw_text": "qokeody.okeey.chekchy.chckhy.okalody.chedy",
+          "bounding_box": {"x_min": 440, "y_min": 740, "x_max": 730, "y_max": 780},
+          "interaction": "Radial arc inscription in the lower sector of the inner ring. Text curves along the lower arc, baseline arcing slightly upward from left to right in this inverted arc sector."
+        },
+        {
+          "locus": "<f68v3.11,@Ri>",
+          "raw_text": "ycheeo.key.qokal.okeeg",
+          "bounding_box": {"x_min": 205, "y_min": 680, "x_max": 430, "y_max": 770},
+          "interaction": "Radial arc inscription in the lower-left sector of the inner ring. Short text following the lower-left arc of the ring."
+        },
+        {
+          "locus": "<f68v3.12,@Ri>",
+          "raw_text": "ochey.chekchy.dkeeeg.cheekey.tchekechey.saiir",
+          "bounding_box": {"x_min": 200, "y_min": 490, "x_max": 320, "y_max": 650},
+          "interaction": "Radial arc inscription in the left sector of the inner ring. Text follows the left vertical arc of the ring, reading from top to bottom along the left side."
+        },
+        {
+          "locus": "<f68v3.13,@Ri>",
+          "raw_text": "ydaiil.ol.chek.okchyd",
+          "bounding_box": {"x_min": 210, "y_min": 310, "x_max": 380, "y_max": 460},
+          "interaction": "Radial arc inscription in the upper-left sector of the inner ring. Short text following the upper-left arc of the ring, curving from left down toward the top of the ring."
+        }
+      ]
+    },
+    {
+      "block_id": "central_circle_text_cc_block_2",
+      "description": "Second @Cc inscription block inside the central circle zone, a shorter label complementing the first @Cc block (f68v3.5). Likely occupies a distinct sub-region of the central_circle_zone.",
+      "lines": [
+        {
+          "locus": "<f68v3.14,@Cc>",
+          "raw_text": "okosy.okchy.okol.choekey.okeoeeey.ol.ykor.otair,or.orol.orkeeey.olkeeoly.ykeeol",
+          "bounding_box": {"x_min": 380, "y_min": 530, "x_max": 670, "y_max": 600},
+          "interaction": "Second @Cc text block in the central circle zone, positioned in the lower half of the central_circle_zone, below the midpoint. Wraps within the available white space, navigating around golden_stars. No bisection marker."
+        }
+      ]
+    },
+    {
+      "block_id": "isolated_labels_15_16",
+      "description": "Two @L0 / =L0 isolated labels positioned near a specific visual feature within or adjacent to the central zone. These short labels ('otodal' and 'opcholdg') function as identifiers for a particular drawn element.",
+      "lines": [
+        {
+          "locus": "<f68v3.15,@L0>",
+          "raw_text": "otodal",
+          "bounding_box": {"x_min": 485, "y_min": 430, "x_max": 570, "y_max": 455},
+          "interaction": "Short isolated label. Positioned near a specific feature inside the diagram — likely labeling a star or a distinctive structural element. Single word, horizontally oriented."
+        },
+        {
+          "locus": "<f68v3.16,=L0>",
+          "raw_text": "opcholdg",
+          "bounding_box": {"x_min": 485, "y_min": 458, "x_max": 590, "y_max": 483},
+          "interaction": "Continuation/secondary isolated label directly below f68v3.15. Forms a two-line label pair. Together 'otodal' / 'opcholdg' label a specific visual anchor in the central zone."
+        }
+      ]
+    },
+    {
+      "block_id": "bottom_paragraph_pb",
+      "description": "Short bottom paragraph (@Pb) block located below the outer ring, in the lower margin of the folio. Three lines of text positioned outside the circular diagram.",
+      "lines": [
+        {
+          "locus": "<f68v3.17,@Pb>",
+          "raw_text": "roar.ykeol.darol.daly",
+          "bounding_box": {"x_min": 130, "y_min": 920, "x_max": 440, "y_max": 950},
+          "interaction": "First line of bottom paragraph block. Positioned below the outer_ring's lower arc, in the lower-left margin area. Short line of four words."
+        },
+        {
+          "locus": "<f68v3.18,+Pb>",
+          "raw_text": "rolaiin.ckhhy.olekeey.dy",
+          "bounding_box": {"x_min": 130, "y_min": 953, "x_max": 420, "y_max": 975},
+          "interaction": "Second line of bottom paragraph block. Continuation of @Pb. Aligned below f68v3.17, similar left margin alignment."
+        },
+        {
+          "locus": "<f68v3.19,+Pb>",
+          "raw_text": "ykeol.ctheepchy.dar",
+          "bounding_box": {"x_min": 130, "y_min": 977, "x_max": 340, "y_max": 998},
+          "interaction": "Third and final line of bottom paragraph block. Short, three-word line. Terminates near y=998 — very close to the lower edge of the parchment."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "outer_ring_text_band",
+      "status": "Encircled by text — outer perimeter carries continuous arc text",
+      "description": "The annular band between the outer and inner rings contains no mapped locus lines in this dataset — the @Ri lines are on the inner ring. The outer ring's inner perimeter is the primary text-bearing surface for arc text visible in the image (the long cursive text running around the outer circle). This zone has dense text along its curvature."
+    },
+    {
+      "anchor_id": "lobed_protrusions",
+      "status": "Completely text-free",
+      "description": "The scalloped lobed protrusions extending from the central nebula body contain no text inscriptions. They represent purely illustrative elements. Each lobe is a negative-space bubble relative to the radial inscription channels."
+    },
+    {
+      "anchor_id": "golden_stars",
+      "status": "Completely text-free — text contours around them",
+      "description": "Individual golden star glyphs within the central nebula body are each surrounded by a small text-free halo. The @Cc text wraps around them, leaving approximately 10–20 normalized units of clear space around each star."
+    },
+    {
+      "anchor_id": "fold_crease",
+      "status": "Intentionally bisected — physical parchment feature",
+      "description": "The binding fold at x≈490–510 causes the bisection in f68v3.3. The scribe appears to have written through this crease, with the fold creating a physical gap in the text line. The <-> marker in f68v3.3 records this split."
+    },
+    {
+      "anchor_id": "central_circle_zone",
+      "status": "Encircled by text — densely inscribed interior",
+      "description": "The central circle zone is the most densely text-filled region of the folio, containing two @Cc blocks (f68v3.5 and f68v3.14) plus the isolated labels (f68v3.15–16). The text fills virtually the entire available white space within the central body, interrupted only by the golden stars and blue pigment patches."
+    }
+  ]
+}

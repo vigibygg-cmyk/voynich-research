@@ -1,0 +1,483 @@
+{
+  "folio": "f99v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+
+  "audit_log": {
+    "extracted_folio_id": "f99v",
+    "total_loci_count": 44,
+    "unique_loci_found": [
+      "f99v.1,@Lc",
+      "f99v.2,@Lf","f99v.3,@Lf","f99v.4,@Lf","f99v.5,@Lf",
+      "f99v.6,@Lf","f99v.7,@Lf","f99v.8,@Lf","f99v.9,@Lf",
+      "f99v.10,@P0","f99v.11,+P0","f99v.12,+P0","f99v.13,+P0",
+      "f99v.14,@Lc",
+      "f99v.15,@Lf","f99v.16,@Lf","f99v.17,@Lf","f99v.18,@Lf","f99v.19,@Lf","f99v.20,@Lf",
+      "f99v.21,@P0","f99v.22,+P0","f99v.23,+P0","f99v.24,+P0",
+      "f99v.25,@Lc",
+      "f99v.26,@Lf","f99v.27,@Lf","f99v.28,@Lf","f99v.29,@Lf","f99v.30,@Lf","f99v.31,@Lf",
+      "f99v.32,@P0","f99v.33,+P0","f99v.34,+P0","f99v.35,+P0",
+      "f99v.36,@Lc",
+      "f99v.37,@P0","f99v.38,+P0","f99v.39,+P0","f99v.40,+P0",
+      "f99v.41,+P0","f99v.42,+P0","f99v.43,+P0",
+      "f99v.44,@Lf"
+    ],
+    "syntax_clues_detected": [
+      "f99v.3 is @Lf WITH <->: 'otar<->chy' — RARE: a plant LABEL (not paragraph) bisected by a visual element",
+      "f99v.5 is @Lf WITH <->: 'das<->ary' — second bisected LABEL — both bisected labels are in the upper plant zone, split by a plant stem crossing horizontally",
+      "f99v.10,@P0 contains <->: 'sol.cheols.ockhey.qockhhy.qkoldy.s<->ok.ol,eees.oteey.dain'",
+      "f99v.11,+P0 contains <->: 'okoiin.choty.qokchol.qokeol.okoldy<->qkhaldy.taly.daiin'",
+      "f99v.12,+P0 contains <->: 'qokeo.qokeol.chockhy.otol.daiin.oty<->otockey.da.chosaiin'",
+      "f99v.13,+P0 contains <->: 'okaraiin.okol.shocthy<->qokor.oloiram'",
+      "f99v.21–24 are @P0/+P0 with NO <-> — second paragraph block is uninterrupted",
+      "f99v.32,@P0 contains <->: 'qoteeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy<->okolol'",
+      "f99v.33–35 have NO <->",
+      "f99v.37,@P0 contains <->: 'cpeol.socfhey.qokol.olkeol.daiin<->okaly'",
+      "f99v.38,+P0 contains <->: 'ol.cheey.qokeol.okeol.okeol.shokol<->ykey'",
+      "f99v.39,+P0 contains <->: 'dar.shol.akchey.ckhey.qokol,olal<->okeol'",
+      "f99v.40,+P0 contains <->: 'or.aiin.okeody.okol.odaiin.qoky<->olaldy'",
+      "f99v.41,+P0 contains <->: 'qockhol.aiin.shody.qokol.aiidal<->aiidaiim'",
+      "f99v.42,+P0 contains <->: 'ol.sheol.olkeol.okol.or.oraloly<->ykeol.okal.okoldaly'",
+      "f99v.43,+P0 has NO <->: 'ychol.olkeeoldy' — very short final line, too short to reach bisector",
+      "Total <-> bisections: 13 (including 2 in @Lf labels) — one of the highest bisection counts in the corpus",
+      "4 @Lc vessel labels corresponding to 4 distinct vessels in the left tower column",
+      "f99v.10 contains 'ol,eees' intra-word comma; f99v.24 contains 'sho,keeey'; f99v.39 contains 'qokol,olal'"
+    ],
+    "visual_anchor_inventory": [
+      "left_vessel_tower — 4 stacked ornate vessels/jars along entire left margin, red and teal/blue-banded",
+      "upper_red_root_specimens — approximately 6 red/crimson root or tuber specimens suspended across upper zone",
+      "upper_center_green_leaf — single large green leaf or cap structure at top center",
+      "upper_right_vessel_form — a vase or vessel-like form at top right with red interior color",
+      "upper_dark_seed_drop — a single dark brown ovoid seed or droplet mid-upper zone",
+      "second_zone_pink_root_specimens — approximately 5 pinkish-salmon root/bulb specimens in second row",
+      "second_zone_black_star_flower — a single black-ink star-shaped flower or asterisk form mid-second-zone",
+      "third_zone_brown_bulb_specimens — approximately 6 brown/reddish-brown bulb specimens with root tails in third row",
+      "third_zone_right_blue_ribbon_plant — distinctive plant at right of third zone with blue ribbon-like curling tendrils",
+      "lower_right_green_creature — large green amorphous blob/creature form at lower right of folio",
+      "bottom_blue_green_vine — sweeping blue-green vine or aquatic plant at very bottom of folio",
+      "page_number_none — no visible folio number in image"
+    ]
+  },
+
+  "visual_anchors": {
+    "left_vessel_tower": {
+      "description": "A continuous vertical column of 4 stacked ornate vessels/urns occupying the entire left margin of the folio from top to near the bottom. Each vessel is distinct in size and detail: the topmost is smallest and most compact; the second is the tallest with elaborate banding; the third is mid-sized; the bottommost is the widest with a broad footed base. All share a family resemblance in form — rounded body, narrow neck, pedestal base — and color scheme. The column acts as a permanent left-margin illustration blocking text from x<215 throughout the folio. The @Lc labels (f99v.1, 14, 25, 36) correspond one-to-one with each vessel from top to bottom.",
+      "color": "Primary body: deep red (vermilion/red lead pigment), consistent across all 4 vessels. Decorative bands and rims: teal-blue (verdigris or azurite-based pigment), forming alternating horizontal stripes and ring details. Top cap of uppermost vessel: bright blue (more intense than the bands — possibly a second blue pigment or thicker application). Bead/dot decorations on banding: cream-white. Interior of vessel openings: blue-teal wash visible from above. Pedestal bases: warm tan/cream ink. The red-and-teal combination is visually identical to the vessel towers on f88r and f82r — same pigment source likely.",
+      "bounding_box": {"x_min": 48, "y_min": 30, "x_max": 215, "y_max": 965}
+    },
+    "upper_red_root_specimens": {
+      "description": "A horizontal row of approximately 6 plant root or tuber specimens displayed across the upper zone of the folio. Each specimen consists of a compact root-head or bulb with multiple long fibrous roots hanging downward, and small sprig-like stems projecting upward. They are arranged in a loose row, as if hung or displayed for examination. The two leftmost specimens are darkest; the central ones are medium-toned; the rightmost are slightly lighter. All share the same basic morphology — compact root head + hanging fibrous tendrils. The @Lf labels f99v.2–9 annotate these specimens (8 labels for 6 specimens suggests some specimens have multiple labels or the labels annotate parts).",
+      "color": "Root heads and bulb bodies: deep crimson-red to vermilion (same red family as the vessel pigment but less orange — more a carmine or red lead applied thinly). Root tendrils: warm reddish-brown to dark brown (thinner application of the same red pigment mixed with iron gall ink). The overall tone is a warm red-brown spectrum. Sprig tips: very faint greenish or unpainted (parchment color). Background: cream parchment. These are the most vividly red plant specimens in the analyzed corpus.",
+      "bounding_box": {"x_min": 185, "y_min": 32, "x_max": 820, "y_max": 230}
+    },
+    "upper_center_green_leaf": {
+      "description": "A single large, rounded leaf or cap-shaped green structure at the top-center of the folio, positioned above and between the red root specimens. It has a smooth, slightly lobed outline. The green pigment is flat and solid. This isolated green element provides the only green color in the upper zone, creating a strong visual contrast with the surrounding red specimens.",
+      "color": "Medium flat green (same malachite-like botanical green seen throughout the Voynich balneological and botanical sections). No shading or tonal variation — purely flat wash. Outline in dark ink.",
+      "bounding_box": {"x_min": 310, "y_min": 30, "x_max": 500, "y_max": 140}
+    },
+    "upper_right_vessel_form": {
+      "description": "At the top-right corner of the folio, a vessel or vase-like form — possibly a container or stylized flower calyx. It has a narrow base widening into a cupped or flared form at the top. The interior of the vessel is colored red. This element is visually analogous to the left vessel tower but much smaller and without the stacking.",
+      "color": "Exterior: cream/parchment with dark ink outline. Interior/fill: red (vermilion). The red interior makes it echo the left vessel tower's color language despite its different position and scale.",
+      "bounding_box": {"x_min": 820, "y_min": 32, "x_max": 940, "y_max": 215}
+    },
+    "upper_dark_seed_drop": {
+      "description": "A single dark brown-black ovoid or teardrop-shaped element in the upper zone, positioned center-right. It appears to be an isolated seed, pod, or fruit — a compact solid mass approximately 20×30 pixels in the original. It sits in the text-label zone as a visual punctuation mark among the labels and plant specimens.",
+      "color": "Deep dark brown-black (iron gall ink or dark brown pigment, solid application). No fill — purely ink. The darkest single element in the upper zone.",
+      "bounding_box": {"x_min": 550, "y_min": 188, "x_max": 600, "y_max": 235}
+    },
+    "second_zone_pink_root_specimens": {
+      "description": "A second horizontal row of plant specimens at mid-folio, approximately 5 individual root/bulb forms. These are notably paler and softer in color than the upper red specimens — a pinkish-salmon tone rather than deep crimson. Each has the same general morphology: bulb or root head with hanging fibrous roots. One central specimen appears larger and more dramatically rendered with sweeping root tendrils. The @Lf labels f99v.15–20 and @Lc label f99v.14 annotate this zone.",
+      "color": "Salmon-pink to light reddish-brown (a distinctly lighter application of the red pigment, possibly mixed with more white lead, or a thinner wash). The palette shift from the deep-red upper specimens to these lighter pink ones is deliberate — possibly distinguishing plant species or stages. Root tendrils: warm light brown. Background: cream parchment.",
+      "bounding_box": {"x_min": 185, "y_min": 345, "x_max": 850, "y_max": 500}
+    },
+    "second_zone_black_star_flower": {
+      "description": "Embedded within the second specimen zone, a single flower or asterisk-like form rendered entirely in deep black ink. It has multiple pointed petals radiating from a center, creating a star or spiky flower appearance. This is the only purely black-filled illustration element on this folio (vs. the dark-ink outlines elsewhere). It sits between two of the pink root specimens.",
+      "color": "Solid deep black (concentrated iron gall ink). No pigment wash — purely ink drawing. The stark black creates extreme contrast with the salmon-pink specimens flanking it. This is one of the more unusual illustration elements in the balneological/pharmaceutical Voynich sections.",
+      "bounding_box": {"x_min": 440, "y_min": 362, "x_max": 510, "y_max": 425}
+    },
+    "third_zone_brown_bulb_specimens": {
+      "description": "A third horizontal row of plant specimens in the lower-middle zone of the folio, approximately 6 bulb or root specimens. These are intermediate in color between the upper crimson and the second-zone pink — a warm reddish-brown to tan. They include forms that appear to be: tulip-like bulbs with curling root tendrils, fan-shaped roots, and pendant forms. The specimens show more morphological variety than the upper zones. The rightmost specimen in this group has distinctive blue ribbon-like curling tendrils (see separate anchor). Labels f99v.26–31 and @Lc f99v.25 annotate this zone.",
+      "color": "Warm medium brown to reddish-brown (raw umber range). Some specimens are lighter tan/beige; others are deeper reddish-brown closer to the second-zone pink. Root tendrils: darker brown ink. Background: cream parchment.",
+      "bounding_box": {"x_min": 185, "y_min": 640, "x_max": 820, "y_max": 790}
+    },
+    "third_zone_right_blue_ribbon_plant": {
+      "description": "At the rightmost position of the third specimen zone, a distinctive plant form unlike any other on the folio. It features long, curling, ribbon-like tendrils rendered in blue-teal pigment — the same blue used for the vessel tower decorations. The ribbons curl and loop organically, resembling a marine organism or decorative vine. This is the only specimen in the third row rendered in blue rather than brown/red pigment.",
+      "color": "Primary color: blue-teal (same verdigris or azurite blue as the vessel tower banding). The blue is applied as a wash over ink outlines. The ribbon forms are translucent and fluid-looking. The presence of this blue specimen among the otherwise brown-toned third row creates a strong visual anomaly — possibly indicating a different plant family or a deliberate scribal color-coding system.",
+      "bounding_box": {"x_min": 790, "y_min": 630, "x_max": 965, "y_max": 790}
+    },
+    "lower_right_green_creature": {
+      "description": "In the lower-right quadrant of the folio, a large and visually dramatic amorphous green form — one of the most striking illustrations in the analyzed corpus. It resembles a large marine creature, anemone, or stylized exotic plant with multiple rounded lobes or tentacle-like extensions emerging from a central mass. The form is broad and organic, occupying a substantial portion of the lower-right folio area. It has no obvious botanical analog — possibly a sea creature (jellyfish, anemone), an exotic plant bud, or a fantastical illustration. The label f99v.44 (@Lf) 'koleearol' appears at its lower edge.",
+      "color": "Deep rich green (the deepest, most saturated green on this folio — darker and more opaque than the flat botanical greens of f49v or f87r). The green has clear tonal variation: darker at edges/lobes, slightly lighter in the body center, suggesting shading or layered pigment application. This is the most three-dimensionally rendered green element in all analyzed folios. Outline: dark ink. No other pigment — pure green and ink.",
+      "bounding_box": {"x_min": 530, "y_min": 840, "x_max": 970, "y_max": 1000}
+    },
+    "bottom_blue_green_vine": {
+      "description": "At the very bottom of the folio, sweeping across the full width, a large flowing vine, root, or aquatic plant form. It consists of multiple thick curving stems that cross and loop, creating an organic lattice or wave. Small rounded leaf or bud forms are distributed along the stems. The form spans nearly the full folio width and rises from below the composition into the lower text zone. It is rendered in a distinctive blue-green (teal) that differs from both the vessel blue and the leaf green seen elsewhere.",
+      "color": "Blue-green teal (a unique pigment mixture or the blue-teal verdigris applied more thinly over a green base — the resulting hue is distinctly aquamarine/teal, unlike any other element on this folio). Stem outlines: dark ink, visible beneath the wash. The teal color and aquatic/vine quality of this element strongly suggests it represents a water plant or marine organism rather than a terrestrial botanical specimen.",
+      "bounding_box": {"x_min": 85, "y_min": 950, "x_max": 870, "y_max": 1000}
+    },
+    "paragraph_zone_bisector_upper": {
+      "description": "The visual element causing the <-> bisections in paragraph block 1 (lines 10–13). Based on image analysis, this appears to be a plant stem or horizontal root element crossing the text band between the upper red specimens and second pink zone. A dark/brown stem or root form crosses horizontally at approximately y=240–350, splitting each paragraph line into left and right segments.",
+      "color": "Dark warm brown (same ink/pigment as root tendrils). The bisecting element is a natural extension of one of the upper plant specimens' root systems crossing into the text zone.",
+      "bounding_box": {"x_min": 485, "y_min": 230, "x_max": 560, "y_max": 360}
+    },
+    "paragraph_zone_bisector_lower": {
+      "description": "The visual element causing the systematic <-> bisections in paragraph block 4 (lines 37–42). This is most likely the stem connecting the third-zone specimens to the lower right green creature — a long descending stem or the beginning of the lower_right_green_creature's body, positioned at approximately x=530–570 and running from y=760 down to y=850.",
+      "color": "Dark ink stem or the edge of the deep green lower creature. The bisection gap is narrower than those caused by the vessel tower, suggesting a thinner organic element.",
+      "bounding_box": {"x_min": 520, "y_min": 760, "x_max": 580, "y_max": 880}
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "vessel_and_upper_plant_labels_group_1",
+      "description": "The first label cluster: @Lc (f99v.1) labeling the topmost vessel of the left_vessel_tower, followed by eight @Lf labels (f99v.2–9) for the upper_red_root_specimens. Critically, TWO of these @Lf labels (f99v.3 and f99v.5) contain <-> bisections — an exceptional situation where labels themselves are split by a visual element. This indicates that two of the upper plant specimens have a stem or root crossing through the label space, splitting the label text. Written in warm golden-brown ink, slightly lighter than the paragraph ink.",
+      "lines": [
+        {
+          "locus": "<f99v.1,@Lc>",
+          "raw_text": "akaramy",
+          "bounding_box": {"x_min": 55, "y_min": 32, "x_max": 215, "y_max": 58},
+          "interaction": "Container label (@Lc) for the topmost vessel. Positioned directly beside or above the top vessel's blue cap. The vessel's blue-teal cap is the adjacent color reference — this label sits at the junction of the blue cap and the red body. Warm golden-brown ink on cream parchment."
+        },
+        {
+          "locus": "<f99v.2,@Lf>",
+          "raw_text": "otoldy",
+          "bounding_box": {"x_min": 185, "y_min": 35, "x_max": 330, "y_max": 60},
+          "interaction": "Plant label for the leftmost upper red root specimen. Adjacent to the darkest crimson root head in the row. No bisection. Label sits immediately above or beside the deep crimson bulb body."
+        },
+        {
+          "locus": "<f99v.3,@Lf>",
+          "raw_text": "otar<->chy",
+          "bounding_box": {"x_min": 330, "y_min": 35, "x_max": 590, "y_max": 60},
+          "interaction": "BISECTED LABEL — exceptional. LEFT SEGMENT: 'otar' — x_min=330, x_max=~430. <-> GAP: a vertical stem or root element from one of the upper specimens passes through the label space at approximately x=435–510. RIGHT SEGMENT: 'chy' — x_min=~515, x_max=~590. The bisecting element is likely the upward stem of the upper_center_green_leaf or the hanging root tendrils of the central specimen crossing the label zone."
+        },
+        {
+          "locus": "<f99v.4,@Lf>",
+          "raw_text": "oldy",
+          "bounding_box": {"x_min": 400, "y_min": 62, "x_max": 490, "y_max": 87},
+          "interaction": "Plant label. No bisection. Adjacent to a central upper specimen's root head — deep crimson color. Short 4-glyph label."
+        },
+        {
+          "locus": "<f99v.5,@Lf>",
+          "raw_text": "das<->ary",
+          "bounding_box": {"x_min": 500, "y_min": 35, "x_max": 750, "y_max": 60},
+          "interaction": "SECOND BISECTED LABEL. LEFT SEGMENT: 'das' — x_min=500, x_max=~590. <-> GAP: a root tendril or stem from one of the right-side red specimens crosses at approximately x=595–650. RIGHT SEGMENT: 'ary' — x_min=~655, x_max=~750. Together, f99v.3 and f99v.5 represent the only @Lf labels in the corpus that carry <-> bisection markers — a unique feature of the dense upper specimen zone."
+        },
+        {
+          "locus": "<f99v.6,@Lf>",
+          "raw_text": "otaly",
+          "bounding_box": {"x_min": 560, "y_min": 62, "x_max": 650, "y_max": 87},
+          "interaction": "Plant label. No bisection. Adjacent to one of the mid-row upper red specimens."
+        },
+        {
+          "locus": "<f99v.7,@Lf>",
+          "raw_text": "olsy",
+          "bounding_box": {"x_min": 665, "y_min": 62, "x_max": 745, "y_max": 87},
+          "interaction": "Plant label. No bisection. Short form."
+        },
+        {
+          "locus": "<f99v.8,@Lf>",
+          "raw_text": "arol",
+          "bounding_box": {"x_min": 755, "y_min": 35, "x_max": 835, "y_max": 60},
+          "interaction": "Plant label for one of the right-side upper specimens. Adjacent to reddish-brown root form."
+        },
+        {
+          "locus": "<f99v.9,@Lf>",
+          "raw_text": "otoky",
+          "bounding_box": {"x_min": 755, "y_min": 62, "x_max": 855, "y_max": 87},
+          "interaction": "Final label in the upper group. Rightmost specimen label. Adjacent to the upper_right_vessel_form whose red interior is the adjacent color reference."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_1_bisected",
+      "description": "Lines 10–13: First main paragraph block, located between the upper red root zone and the second pink root zone. ALL FOUR lines are bisected — 100% bisection rate for this block. The bisecting visual anchor is a plant stem or root element (the paragraph_zone_bisector_upper) crossing the text band at approximately x=485–560. Text in dark brown-black ink, noticeably darker than the golden-brown label ink. Left margin constrained to x=220 by the second vessel of the left tower.",
+      "lines": [
+        {
+          "locus": "<f99v.10,@P0>",
+          "raw_text": "sol.cheols.ockhey.qockhhy.qkoldy.s<->ok.ol,eees.oteey.dain",
+          "bounding_box": {"x_min": 220, "y_min": 233, "x_max": 920, "y_max": 265},
+          "interaction": "Paragraph opening. 's' initial (non-gallows). LEFT SEGMENT: 'sol.cheols.ockhey.qockhhy.qkoldy.s' — x_min=220, x_max=~480. Note the single isolated 's' immediately before the <->: a word-break falls precisely at the bisection. <-> GAP: the dark root/stem bisector at x=~485–555. RIGHT SEGMENT: 'ok.ol,eees.oteey.dain' — x_min=~560, x_max=~920. 'ol,eees' contains an intra-word comma. The right segment is noticeably shorter than the left, suggesting the bisecting element sits slightly left of center."
+        },
+        {
+          "locus": "<f99v.11,+P0>",
+          "raw_text": "okoiin.choty.qokchol.qokeol.okoldy<->qkhaldy.taly.daiin",
+          "bounding_box": {"x_min": 220, "y_min": 269, "x_max": 910, "y_max": 301},
+          "interaction": "Continuation. LEFT SEGMENT: 'okoiin.choty.qokchol.qokeol.okoldy' — x_min=220, x_max=~478. <-> GAP: same bisector at x=~483–553. RIGHT SEGMENT: 'qkhaldy.taly.daiin' — x_min=~558, x_max=~910. 'qkhaldy' unusual 'kh' cluster following 'q'."
+        },
+        {
+          "locus": "<f99v.12,+P0>",
+          "raw_text": "qokeo.qokeol.chockhy.otol.daiin.oty<->otockey.da.chosaiin",
+          "bounding_box": {"x_min": 220, "y_min": 305, "x_max": 910, "y_max": 337},
+          "interaction": "Continuation. LEFT SEGMENT: 'qokeo.qokeol.chockhy.otol.daiin.oty' — x_min=220, x_max=~476. <-> GAP: x=~481–552. RIGHT SEGMENT: 'otockey.da.chosaiin' — x_min=~557, x_max=~910. Isolated short word 'da' in the right segment."
+        },
+        {
+          "locus": "<f99v.13,+P0>",
+          "raw_text": "okaraiin.okol.shocthy<->qokor.oloiram",
+          "bounding_box": {"x_min": 220, "y_min": 341, "x_max": 830, "y_max": 373},
+          "interaction": "Final line of block 1. Notably SHORTER than the preceding lines. LEFT SEGMENT: 'okaraiin.okol.shocthy' — x_min=220, x_max=~470. <-> GAP: x=~475–550. RIGHT SEGMENT: 'qokor.oloiram' — x_min=~555, x_max=~830. The abbreviated total width signals the paragraph is drawing to a close. 'oloiram' unusual terminal form."
+        }
+      ]
+    },
+    {
+      "block_id": "vessel_and_second_zone_labels_group_2",
+      "description": "Second label cluster: @Lc (f99v.14) labeling the second vessel, plus six @Lf (f99v.15–20) labeling the second_zone_pink_root_specimens and second_zone_black_star_flower. No bisections in any of these labels. Written in warm golden-brown ink. The salmon-pink specimens provide the color backdrop for these labels.",
+      "lines": [
+        {
+          "locus": "<f99v.14,@Lc>",
+          "raw_text": "akaldody",
+          "bounding_box": {"x_min": 55, "y_min": 355, "x_max": 215, "y_max": 380},
+          "interaction": "Container label for the second vessel. The second vessel has red body and teal-blue horizontal bands with white bead details. This label sits beside it in the mid-left margin. Note the structural similarity to f99v.1 'akaramy' — both begin with 'aka-', suggesting a naming pattern for vessel pairs."
+        },
+        {
+          "locus": "<f99v.15,@Lf>",
+          "raw_text": "oeeesary",
+          "bounding_box": {"x_min": 215, "y_min": 347, "x_max": 370, "y_max": 372},
+          "interaction": "Plant label. 'oeeesary' contains a triple-e cluster 'eee' — unusual in labels. Adjacent to the leftmost salmon-pink specimen."
+        },
+        {
+          "locus": "<f99v.16,@Lf>",
+          "raw_text": "daiiine",
+          "bounding_box": {"x_min": 260, "y_min": 375, "x_max": 380, "y_max": 400},
+          "interaction": "Plant label. 'daiiine' contains triple-i cluster — unusual in labels. May reference an inner or upper part of a specimen."
+        },
+        {
+          "locus": "<f99v.17,@Lf>",
+          "raw_text": "sary",
+          "bounding_box": {"x_min": 390, "y_min": 347, "x_max": 470, "y_max": 372},
+          "interaction": "Short plant label. Adjacent to the central large salmon-pink specimen with sweeping tendrils."
+        },
+        {
+          "locus": "<f99v.18,@Lf>",
+          "raw_text": "saiiro",
+          "bounding_box": {"x_min": 490, "y_min": 347, "x_max": 590, "y_max": 372},
+          "interaction": "Plant label. Adjacent to the second_zone_black_star_flower — the dark black asterisk-form sits immediately to the right or below this label. The contrast between the golden-brown ink label and the solid-black star element is dramatic."
+        },
+        {
+          "locus": "<f99v.19,@Lf>",
+          "raw_text": "otolsar",
+          "bounding_box": {"x_min": 610, "y_min": 347, "x_max": 730, "y_max": 372},
+          "interaction": "Plant label for a right-side second-zone specimen. Salmon-pink color context."
+        },
+        {
+          "locus": "<f99v.20,@Lf>",
+          "raw_text": "osary",
+          "bounding_box": {"x_min": 750, "y_min": 347, "x_max": 840, "y_max": 372},
+          "interaction": "Final label of this group. Rightmost second-zone specimen label."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_2_uninterrupted",
+      "description": "Lines 21–24: Second main paragraph block. ZERO bisections — this block runs full width without any <-> splits, making it the most unobstructed paragraph block on the folio. Located between the second pink zone and the third brown zone. Dark brown-black ink. This block's clear zone suggests the folio layout was planned with text placed in open corridors between illustration rows.",
+      "lines": [
+        {
+          "locus": "<f99v.21,@P0>",
+          "raw_text": "doror.okeeody.opar.okor.eosaiin.otoraiin.shey.ols.aiiin.qoetal",
+          "bounding_box": {"x_min": 220, "y_min": 502, "x_max": 910, "y_max": 534},
+          "interaction": "Paragraph opening. 'd' initial. Full width — no bisection. 'aiiin' triple-i. The full right margin extension (to x=910) marks this as a wider text corridor than the bisected blocks above. The second-zone illustrations have ended above and the third-zone specimens begin below."
+        },
+        {
+          "locus": "<f99v.22,+P0>",
+          "raw_text": "daiin.otey.o.keeol.s.aiin.okeol.qokeol.ctheol.qokeol.dy.qokaiin",
+          "bounding_box": {"x_min": 220, "y_min": 538, "x_max": 910, "y_max": 570},
+          "interaction": "Continuation. Full width. Isolated single-glyph words 'o' and 's' mid-line. Notable for the repetition of 'qokeol' and 'okeol' forms."
+        },
+        {
+          "locus": "<f99v.23,+P0>",
+          "raw_text": "qokeey.chol.okeoldy.qokol.qokeolo.lchol.okeol.sheodol.qokeechom",
+          "bounding_box": {"x_min": 220, "y_min": 574, "x_max": 910, "y_max": 606},
+          "interaction": "Continuation. Full width. 'qokeolo' unusual extended form with extra 'o'. 'qokeechom' terminal 'm' form unusual."
+        },
+        {
+          "locus": "<f99v.24,+P0>",
+          "raw_text": "sho,keeey.cholshey.okol.qokey.okeodal.oldy",
+          "bounding_box": {"x_min": 220, "y_min": 610, "x_max": 760, "y_max": 642},
+          "interaction": "Final line of block 2. Shorter — paragraph end. 'sho,keeey' intra-word comma + triple-e. No *P0 close tag."
+        }
+      ]
+    },
+    {
+      "block_id": "vessel_and_third_zone_labels_group_3",
+      "description": "Third label cluster: @Lc (f99v.25) for the third vessel, plus six @Lf (f99v.26–31) for the third_zone_brown_bulb_specimens including the blue ribbon plant. No bisections in any labels. The warm brown specimen color and the distinctive blue ribbon plant provide the color context for these labels.",
+      "lines": [
+        {
+          "locus": "<f99v.25,@Lc>",
+          "raw_text": "darolaly",
+          "bounding_box": {"x_min": 55, "y_min": 640, "x_max": 215, "y_max": 665},
+          "interaction": "Container label for the third vessel. This vessel has a deep red body with teal banding, similar to the others. 'darolaly' is the longest vessel label in this folio."
+        },
+        {
+          "locus": "<f99v.26,@Lf>",
+          "raw_text": "okechy",
+          "bounding_box": {"x_min": 215, "y_min": 640, "x_max": 310, "y_max": 665},
+          "interaction": "Plant label for leftmost third-zone specimen. Adjacent to warm brown bulb form."
+        },
+        {
+          "locus": "<f99v.27,@Lf>",
+          "raw_text": "otal",
+          "bounding_box": {"x_min": 320, "y_min": 640, "x_max": 385, "y_max": 665},
+          "interaction": "Short plant label. Adjacent to a fan-shaped brown root form."
+        },
+        {
+          "locus": "<f99v.28,@Lf>",
+          "raw_text": "chor.olekor",
+          "bounding_box": {"x_min": 395, "y_min": 640, "x_max": 580, "y_max": 665},
+          "interaction": "Two-word plant label — the only two-word @Lf label in this folio. 'olekor' is an unusual compound. Adjacent to a central third-zone specimen."
+        },
+        {
+          "locus": "<f99v.29,@Lf>",
+          "raw_text": "okeodor",
+          "bounding_box": {"x_min": 595, "y_min": 640, "x_max": 710, "y_max": 665},
+          "interaction": "Plant label."
+        },
+        {
+          "locus": "<f99v.30,@Lf>",
+          "raw_text": "olky",
+          "bounding_box": {"x_min": 720, "y_min": 640, "x_max": 790, "y_max": 665},
+          "interaction": "Short plant label adjacent to one of the reddish-brown specimens."
+        },
+        {
+          "locus": "<f99v.31,@Lf>",
+          "raw_text": "doldam",
+          "bounding_box": {"x_min": 800, "y_min": 640, "x_max": 905, "y_max": 665},
+          "interaction": "Plant label for the rightmost third-zone element. This label is adjacent to the third_zone_right_blue_ribbon_plant — the distinctive blue-teal curling ribbons are the color context. The golden-brown label ink sits beside the vivid blue-teal ribbon forms."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_3_one_bisection",
+      "description": "Lines 32–35: Third main paragraph block. Only line 32 (the opening @P0) is bisected; lines 33–35 run uninterrupted. The bisecting element for line 32 is likely the edge of the third-zone specimen row or the beginning of the lower-right green creature's presence at the right margin. Dark brown-black ink.",
+      "lines": [
+        {
+          "locus": "<f99v.32,@P0>",
+          "raw_text": "qoteeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy<->okolol",
+          "bounding_box": {"x_min": 220, "y_min": 800, "x_max": 910, "y_max": 832},
+          "interaction": "Paragraph opening with SINGLE BISECTION. 'q' gallows initial. LEFT SEGMENT: 'qoteeoy.chokol.qokeeo.dy.qokeeol.olpchey.daiir.okeedy' — x_min=220, x_max=~730. This is a long left segment. <-> GAP: an element at x=~735–810, possibly the left edge of the lower_right_green_creature which begins to intrude at this y-level. RIGHT SEGMENT: 'okolol' — x_min=~815, x_max=~910. Very short right segment — just one word."
+        },
+        {
+          "locus": "<f99v.33,+P0>",
+          "raw_text": "dol.okeeol.okeor.okol.okaiin.ckheol.okalaiin.okolaiin.cheoldy",
+          "bounding_box": {"x_min": 220, "y_min": 836, "x_max": 880, "y_max": 868},
+          "interaction": "Continuation. No bisection. Full width. The green creature is at right but text avoids it or runs just to its left edge."
+        },
+        {
+          "locus": "<f99v.34,+P0>",
+          "raw_text": "yaiin.ol.ol.olaiin.qockhey.qokol.olshy.qokeeor.or.aiin.doldam",
+          "bounding_box": {"x_min": 220, "y_min": 872, "x_max": 880, "y_max": 904},
+          "interaction": "Continuation. No bisection. Repeated 'ol.ol' pair unusual. 'doldam' terminal repeats f99v.31's label text."
+        },
+        {
+          "locus": "<f99v.35,+P0>",
+          "raw_text": "ol.okeeey.oqoeeol.cheol.chody.okaiin",
+          "bounding_box": {"x_min": 220, "y_min": 908, "x_max": 680, "y_max": 940},
+          "interaction": "Final line of block 3. Shorter. 'oqoeeol' contains a rare 'oq' opening sequence. No *P0 close."
+        }
+      ]
+    },
+    {
+      "block_id": "vessel_label_4_isolated",
+      "description": "The fourth and final @Lc vessel label, positioned beside the bottommost (fourth) vessel of the left tower. Single isolated label entry in the transcription, then immediately followed by paragraph block 4.",
+      "lines": [
+        {
+          "locus": "<f99v.36,@Lc>",
+          "raw_text": "oralas",
+          "bounding_box": {"x_min": 55, "y_min": 852, "x_max": 215, "y_max": 877},
+          "interaction": "Container label for the fourth (bottommost) vessel. The fourth vessel is the widest and most elaborate — red body, teal bands, wide footed base. This label 'oralas' is the shortest vessel label (6 glyphs). Positioned at the mid-level of the vessel's body height."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_4_heavily_bisected",
+      "description": "Lines 37–43: The final and most bisected paragraph block. Six of seven lines are bisected (86% bisection rate), second only to f87v in bisection density. The bisecting element (paragraph_zone_bisector_lower) is a plant stem or the edge of the lower_right_green_creature entering the text zone. Only the final very short line f99v.43 avoids bisection. This block sits in the lower portion of the folio, with the blue-green bottom vine and the green creature dominating the visual field around the text. Written in dark brown-black ink, with labels in golden-brown.",
+      "lines": [
+        {
+          "locus": "<f99v.37,@P0>",
+          "raw_text": "cpeol.socfhey.qokol.olkeol.daiin<->okaly",
+          "bounding_box": {"x_min": 75, "y_min": 870, "x_max": 780, "y_max": 900},
+          "interaction": "Paragraph opening. 'c' initial (non-gallows, rare opening). LEFT SEGMENT: 'cpeol.socfhey.qokol.olkeol.daiin' — x_min=75, x_max=~525. 'socfhey' contains rare 'f' mid-compound. <-> GAP: bisecting stem/creature edge at x=~530–600. RIGHT SEGMENT: 'okaly' — x_min=~605, x_max=~780. Very short right segment. The text in this block starts further left (x=75 vs x=220 for blocks 1–3), suggesting the left vessel tower has ended or the scribe shifted the text block."
+        },
+        {
+          "locus": "<f99v.38,+P0>",
+          "raw_text": "ol.cheey.qokeol.okeol.okeol.shokol<->ykey",
+          "bounding_box": {"x_min": 75, "y_min": 904, "x_max": 780, "y_max": 934},
+          "interaction": "Bisected. LEFT SEGMENT: 'ol.cheey.qokeol.okeol.okeol.shokol' — x_min=75, x_max=~523. Notable triple repetition of 'okeol' forms. <-> GAP: x=~528–598. RIGHT SEGMENT: 'ykey' — x_min=~603, x_max=~780. Very short right segment — 4 glyphs."
+        },
+        {
+          "locus": "<f99v.39,+P0>",
+          "raw_text": "dar.shol.akchey.ckhey.qokol,olal<->okeol",
+          "bounding_box": {"x_min": 75, "y_min": 938, "x_max": 760, "y_max": 968},
+          "interaction": "Bisected. LEFT SEGMENT: 'dar.shol.akchey.ckhey.qokol,olal' — x_min=75, x_max=~518. 'qokol,olal' intra-word comma. <-> GAP: x=~523–595. RIGHT SEGMENT: 'okeol' — x_min=~600, x_max=~760. Extremely short right segment — single word."
+        },
+        {
+          "locus": "<f99v.40,+P0>",
+          "raw_text": "or.aiin.okeody.okol.odaiin.qoky<->olaldy",
+          "bounding_box": {"x_min": 75, "y_min": 972, "x_max": 760, "y_max": 1002},
+          "interaction": "Bisected. LEFT SEGMENT: 'or.aiin.okeody.okol.odaiin.qoky' — x_min=75, x_max=~516. <-> GAP: x=~521–593. RIGHT SEGMENT: 'olaldy' — x_min=~598, x_max=~760."
+        },
+        {
+          "locus": "<f99v.41,+P0>",
+          "raw_text": "qockhol.aiin.shody.qokol.aiidal<->aiidaiim",
+          "bounding_box": {"x_min": 75, "y_min": 1006, "x_max": 760, "y_max": 1036},
+          "interaction": "Bisected. LEFT SEGMENT: 'qockhol.aiin.shody.qokol.aiidal' — x_min=75, x_max=~514. 'aiidal' terminal form. <-> GAP: x=~519–590. RIGHT SEGMENT: 'aiidaiim' — x_min=~595, x_max=~760. 'aiidaiim' contains double-i twice — 'aiid' + 'aiim', very unusual terminal. Note that both left-segment ending 'aiidal' and right segment 'aiidaiim' share 'aiid' — possible scribal word-play or continuation across the bisection."
+        },
+        {
+          "locus": "<f99v.42,+P0>",
+          "raw_text": "ol.sheol.olkeol.okol.or.oraloly<->ykeol.okal.okoldaly",
+          "bounding_box": {"x_min": 75, "y_min": 1040, "x_max": 760, "y_max": 1070},
+          "interaction": "Bisected. LEFT SEGMENT: 'ol.sheol.olkeol.okol.or.oraloly' — x_min=75, x_max=~513. <-> GAP: x=~518–588. RIGHT SEGMENT: 'ykeol.okal.okoldaly' — x_min=~593, x_max=~760. The right segment here is notably longer than in previous lines — three words — suggesting the bisecting element narrows or tapers at this y-level."
+        },
+        {
+          "locus": "<f99v.43,+P0>",
+          "raw_text": "ychol.olkeeoldy",
+          "bounding_box": {"x_min": 75, "y_min": 1074, "x_max": 330, "y_max": 1104},
+          "interaction": "Final paragraph line. NO bisection — the very short text (only 2 words) ends at x=~330, well before the bisecting element at x=~518. The paragraph closes naturally without reaching the bisector. No *P0 close tag. This is the last text line of the folio before the bottom_blue_green_vine takes over."
+        }
+      ]
+    },
+    {
+      "block_id": "final_isolated_label",
+      "description": "A single @Lf label at the very end of the folio, positioned near the lower_right_green_creature. This label annotates the green creature or an element at the lower right.",
+      "lines": [
+        {
+          "locus": "<f99v.44,@Lf>",
+          "raw_text": "koleearol",
+          "bounding_box": {"x_min": 620, "y_min": 990, "x_max": 820, "y_max": 1018},
+          "interaction": "Final label of the folio. 'koleearol' — 9 glyphs, longer than most @Lf labels. Contains 'eear' unusual cluster. Positioned at the lower edge of or immediately below the lower_right_green_creature. The deep green color of the creature is the immediate visual context. The label is the sole text element in the lower-right zone otherwise dominated by the green amorphous form."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "left_vessel_tower",
+      "status": "Completely text-free — systematic left-margin boundary element",
+      "description": "The four stacked red-and-teal vessels (x=48–215, y=30–965) are entirely text-free internally. They define the left text boundary for all paragraph blocks at x=220. Each vessel is labeled by one @Lc label (f99v.1, 14, 25, 36) positioned beside it, never within it. The alternating red body + teal bands represent the most systematic color-coded structure on this folio."
+    },
+    {
+      "anchor_id": "upper_red_root_specimens",
+      "status": "Partially penetrated by label bisections — two @Lf labels split by specimen elements",
+      "description": "The upper red specimen zone (x=185–820, y=32–230) has its labels bisected by plant elements, creating the unique situation where even the annotation layer is disrupted by the illustration. The deep crimson-red of the specimens is the dominant hue of the upper half of this folio."
+    },
+    {
+      "anchor_id": "second_zone_black_star_flower",
+      "status": "Completely text-free — isolated black punctuation element",
+      "description": "The solid-black star/asterisk (x=440–510, y=362–425) is entirely text-free. No label directly names it separately — it falls within the range of the second-zone group labels but is visually distinct from the pink specimens. Its pure black color is the single most extreme tonal contrast point on the entire folio."
+    },
+    {
+      "anchor_id": "lower_right_green_creature",
+      "status": "Text-free body — one peripheral label only",
+      "description": "The large green amorphous creature/form (x=530–970, y=840–1000) is entirely text-free internally. It acts as the right-side boundary element causing bisections in paragraph block 4, forcing text to split at approximately x=518–590. The single label 'koleearol' (f99v.44) is positioned at its periphery. The deep saturated green is the most visually powerful single color element on this folio."
+    },
+    {
+      "anchor_id": "bottom_blue_green_vine",
+      "status": "Completely text-free — base decoration",
+      "description": "The sweeping blue-green teal vine at the very bottom (y=950–1000) carries no text. The unique aquamarine/teal tone — distinct from both the vessel blue and the leaf green — marks this as a specialized pigment application, possibly representing a water or marine environment."
+    },
+    {
+      "anchor_id": "third_zone_right_blue_ribbon_plant",
+      "status": "Text-free body — one peripheral label (f99v.31 'doldam') at left edge only",
+      "description": "The blue-teal ribbon plant at the right of the third zone (x=790–965, y=630–790) is entirely text-free. The blue-teal pigment here matches the vessel tower banding exactly, representing a deliberate color connection between these two elements — possibly the artist's way of indicating the vessel contains the extract of this specific plant."
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "folio": "f68r3",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f68r3",
+    "total_loci_count": 22,
+    "unique_loci_found": [
+      "<f68r3.1,@Cc>",
+      "<f68r3.2,@Ri>", "<f68r3.3,@Ri>", "<f68r3.4,@Ri>", "<f68r3.5,@Ri>",
+      "<f68r3.6,@Ri>", "<f68r3.7,@Ri>", "<f68r3.8,@Ri>", "<f68r3.9,@Ri>",
+      "<f68r3.10,@Ls>", "<f68r3.11,@Ls>", "<f68r3.12,@La>",
+      "<f68r3.13,@Ls>", "<f68r3.14,=Ls>", "<f68r3.15,@Ls>", "<f68r3.16,+Ls>",
+      "<f68r3.17,+Ls>", "<f68r3.18,@Ls>", "<f68r3.19,+Ls>", "<f68r3.20,=Ls>",
+      "<f68r3.21,*Ls>", "<f68r3.22,@Cc>"
+    ],
+    "syntax_clues_detected": [
+      "f68r3.1 is @Cc: very long text 'odeed.oteedy.cheoteey...okeeaiin' — written around the OUTER circumference ring of the large central circle; this is the outer ring inscription",
+      "f68r3.2 through f68r3.9 are ALL @Ri (Radial inscriptions): text written along radial lines or spokes within the circular diagram, each reading outward from center",
+      "f68r3.10 and f68r3.11 are @Ls (isolated star labels): label individual stars within or near the circle",
+      "f68r3.12 is @La: a general area label (not star-specific, not central circle) — positioned in a specific zone of the diagram",
+      "f68r3.13 is @Ls: isolated star label",
+      "f68r3.14 is =Ls (continuation of a label sequence), f68r3.15 is @Ls (new label), f68r3.16 is +Ls, f68r3.17 is +Ls — a multi-line label group: a star with a 3-part label entry (f68r3.15/16/17)",
+      "f68r3.18 is @Ls, f68r3.19 is +Ls, f68r3.20 is =Ls, f68r3.21 is *Ls — another multi-line label group spanning 4 lines, indicating a star with an extended label",
+      "f68r3.22 is @Cc: 'otcheody.chokchy.okol.cheal.dar.cho.keol.dolaiin.okeol.oly' — a SECOND @Cc inscription, written around a second circle (the inner circle or the central face circle)"
+    ],
+    "visual_anchor_inventory": [
+      "large_outer_circle: the main large circular boundary of the diagram, encompassing nearly the full page; the @Cc text (f68r3.1) runs along its inner rim",
+      "central_sun_face: a small circular medallion at the geometric center of the large circle, containing a human face; the second @Cc (f68r3.22) encircles this",
+      "radial_spokes: lines or text bands radiating from the center outward toward the circumference, dividing the circle into sectors; each @Ri label runs along one spoke",
+      "inner_star_field: dense field of individual gold/tan star drawings filling the interior of the large circle between the radial spokes",
+      "outer_star_ring: stars positioned along the outer band near the circumference of the large circle",
+      "left_margin_annotation_zone: a zone to the left of the main circle containing @Ls and @La labels for stars that extend slightly outside or near the circle's left edge"
+    ]
+  },
+  "visual_anchors": {
+    "large_outer_circle": {
+      "description": "The primary structural element of f68r3. A large near-full-page circle drawn in brown ink, encompassing the entire star diagram. The outer circumference carries the long @Cc inscription (f68r3.1) running around its inner rim. The circle's diameter occupies approximately 85% of the page width and 85% of the page height.",
+      "bounding_box": {"x_min": 55, "y_min": 45, "x_max": 970, "y_max": 980}
+    },
+    "central_sun_face": {
+      "description": "A small circular medallion at the exact geometric center of the large circle. Contains a rendered human face (eyes, nose, mouth) in brown ink, similar in style to f68r1's sun face but smaller and simpler. The second @Cc inscription (f68r3.22) wraps around this inner circle.",
+      "bounding_box": {"x_min": 380, "y_min": 420, "x_max": 570, "y_max": 580}
+    },
+    "radial_spokes": {
+      "description": "Eight radial text bands or lines extending from near the central face outward toward the circumference, dividing the circle into sectors like pie slices. Each @Ri locus (f68r3.2–f68r3.9) is written along one spoke. The spokes are visible as text-bearing channels between the star clusters.",
+      "bounding_box": {"x_min": 55, "y_min": 45, "x_max": 970, "y_max": 980}
+    },
+    "inner_star_field": {
+      "description": "A dense field of individual 6–8 pointed gold/tan star drawings filling the interior space of the large circle, distributed between the radial spoke zones. Stars vary slightly in size. Each star in labeled zones has associated @Ls text.",
+      "bounding_box": {"x_min": 100, "y_min": 80, "x_max": 930, "y_max": 940}
+    },
+    "left_margin_annotation_zone": {
+      "description": "An area to the left of the main circle's visual center containing @La and @Ls label groups (f68r3.10–f68r3.21). These labels correspond to stars that are either near the left boundary of the circle or in a specific labeled sector. Some multi-line label groups (f68r3.15/16/17 and f68r3.18/19/20/21) are clustered here.",
+      "bounding_box": {"x_min": 55, "y_min": 400, "x_max": 370, "y_max": 720}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "outer_ring_Cc_inscription",
+      "description": "The primary @Cc inscription (f68r3.1) — an extremely long single text line written around the inside of the large outer circle's circumference. This is the longest single locus in the three folios, containing approximately 35+ glyph-words. The text runs continuously around the circular rim, likely clockwise.",
+      "lines": [
+        {
+          "locus": "<f68r3.1,@Cc>",
+          "raw_text": "odeed.oteedy.cheoteey.oshchey.chokol.cheody.chedy.oteodaiin.otchodal.sol.cheor.oteo.choteey.oeteody.opcheody.dchedy.daiin.oteeody.darcheedy.oteeody.qoeeeecthim.dcheeo.okeodly.do.ls.oschaiin.cheockhedchy.chodal.cheody.cholal.oteodched.okedy.qokeey.shoky.dol.daleeeg.okeeaiin",
+          "bounding_box": {"x_min": 55, "y_min": 45, "x_max": 970, "y_max": 980},
+          "interaction": "Circular inscription following the inner rim of the large outer circle. The text begins at an indeterminate point on the circle (likely top or top-right) and runs continuously clockwise for the full circumference. The 35 glyph-words are evenly distributed around the ~2700-normalized-unit circumference arc. Individual word positions track with the circle: top arc words at y:45–120, right arc words at x:900–970, bottom arc words at y:900–980, left arc words at x:55–130. The text never enters the circle's interior — it is strictly a rim annotation."
+        }
+      ]
+    },
+    {
+      "block_id": "radial_spoke_inscriptions_Ri",
+      "description": "Eight @Ri (radial) text lines, each written along one of the radial spokes dividing the circle's interior into sectors. @Ri text reads outward from the central face toward the circumference. Each spoke contains one @Ri locus with 4–5 glyph-words. The spokes divide the circle into 8 sectors of approximately 45 degrees each.",
+      "lines": [
+        {
+          "locus": "<f68r3.2,@Ri>",
+          "raw_text": "toees.ykeoshe.qokolchey.qokchdy",
+          "bounding_box": {"x_min": 400, "y_min": 80, "x_max": 560, "y_max": 420},
+          "interaction": "Radial inscription on the NORTH spoke (top, approximately 12 o'clock). Text reads from center (y:420, x:480) northward toward the top circumference (y:80). Words are stacked or angled along the vertical axis of this spoke sector, between star clusters above the central face."
+        },
+        {
+          "locus": "<f68r3.3,@Ri>",
+          "raw_text": "tochedy.chocphy.qokchdy.dol.okald",
+          "bounding_box": {"x_min": 600, "y_min": 100, "x_max": 940, "y_max": 420},
+          "interaction": "Radial inscription on the NE spoke (approximately 1:30–2 o'clock). Text angles from center upper-right toward the NE circumference arc."
+        },
+        {
+          "locus": "<f68r3.4,@Ri>",
+          "raw_text": "dchykchy.daiir.chok.ockhydar",
+          "bounding_box": {"x_min": 590, "y_min": 400, "x_max": 960, "y_max": 590},
+          "interaction": "Radial inscription on the EAST spoke (approximately 3 o'clock). Text runs horizontally left-to-right from center to the right circumference boundary."
+        },
+        {
+          "locus": "<f68r3.5,@Ri>",
+          "raw_text": "qokol.chdchol.qoteey.chekechy.okchdy",
+          "bounding_box": {"x_min": 590, "y_min": 570, "x_max": 950, "y_max": 800},
+          "interaction": "Radial inscription on the SE spoke (approximately 4:30–5 o'clock). Text angles from center toward the SE arc."
+        },
+        {
+          "locus": "<f68r3.6,@Ri>",
+          "raw_text": "dchokchy.shhy.okey.oteos.okolshy",
+          "bounding_box": {"x_min": 370, "y_min": 590, "x_max": 600, "y_max": 950},
+          "interaction": "Radial inscription on the SOUTH spoke (approximately 6 o'clock). Text runs from center downward toward the bottom circumference."
+        },
+        {
+          "locus": "<f68r3.7,@Ri>",
+          "raw_text": "pchody.qokchy.dshol.dsyotdoldl",
+          "bounding_box": {"x_min": 90, "y_min": 590, "x_max": 430, "y_max": 890},
+          "interaction": "Radial inscription on the SW spoke (approximately 7:30–8 o'clock). Text angles from center toward the SW arc."
+        },
+        {
+          "locus": "<f68r3.8,@Ri>",
+          "raw_text": "kchoty.oteey.daiin.dcheeody.oteey",
+          "bounding_box": {"x_min": 70, "y_min": 390, "x_max": 390, "y_max": 590},
+          "interaction": "Radial inscription on the WEST spoke (approximately 9 o'clock). Text runs right-to-left from center leftward toward the left circumference."
+        },
+        {
+          "locus": "<f68r3.9,@Ri>",
+          "raw_text": "dchey.qokeey.dcheey.daiir.otchal",
+          "bounding_box": {"x_min": 90, "y_min": 120, "x_max": 400, "y_max": 410},
+          "interaction": "Radial inscription on the NW spoke (approximately 10:30–11 o'clock). Text angles from center toward the NW arc."
+        }
+      ]
+    },
+    {
+      "block_id": "star_labels_and_area_labels",
+      "description": "A cluster of @Ls (star labels), @La (area label), and multi-line label groups positioned in the left-interior zone of the circle and the left margin area. Includes two extended multi-line label groups: f68r3.15–17 (a 3-line @Ls entry) and f68r3.18–21 (a 4-line @Ls entry), indicating stars with longer descriptive labels.",
+      "lines": [
+        {
+          "locus": "<f68r3.10,@Ls>",
+          "raw_text": "dcholday",
+          "bounding_box": {"x_min": 130, "y_min": 415, "x_max": 270, "y_max": 440},
+          "interaction": "Isolated star label in the left-interior zone of the circle. Labels a star to its right at approximately x:100–130."
+        },
+        {
+          "locus": "<f68r3.11,@Ls>",
+          "raw_text": "doary",
+          "bounding_box": {"x_min": 135, "y_min": 455, "x_max": 225, "y_max": 480},
+          "interaction": "Short isolated star label below f68r3.10, labeling a star in the left zone."
+        },
+        {
+          "locus": "<f68r3.12,@La>",
+          "raw_text": "oalcheol",
+          "bounding_box": {"x_min": 110, "y_min": 490, "x_max": 255, "y_max": 515},
+          "interaction": "Area label (@La) — labels a broader zone or cluster of stars rather than a single star. Positioned in the left interior sector. This is the only @La in this folio, indicating a named region of the star field rather than a single celestial body."
+        },
+        {
+          "locus": "<f68r3.13,@Ls>",
+          "raw_text": "okos",
+          "bounding_box": {"x_min": 175, "y_min": 525, "x_max": 240, "y_max": 550},
+          "interaction": "Short isolated star label in the left zone."
+        },
+        {
+          "locus": "<f68r3.14,=Ls>",
+          "raw_text": "otory",
+          "bounding_box": {"x_min": 175, "y_min": 555, "x_max": 255, "y_max": 580},
+          "interaction": "Continuation label (=Ls) — part of the same label sequence as f68r3.13. Two-part label for one star: 'okos' + 'otory'."
+        },
+        {
+          "locus": "<f68r3.15,@Ls>",
+          "raw_text": "chky.yky",
+          "bounding_box": {"x_min": 120, "y_min": 590, "x_max": 255, "y_max": 615},
+          "interaction": "Opening line of a 3-line star label group (@Ls). The star being labeled is nearby in the left interior zone."
+        },
+        {
+          "locus": "<f68r3.16,+Ls>",
+          "raw_text": "e,cphy",
+          "bounding_box": {"x_min": 120, "y_min": 618, "x_max": 210, "y_max": 643},
+          "interaction": "Second line of the 3-line label group (+Ls). Continuation of the label for the same star. The comma in 'e,cphy' is a transcription variant marker."
+        },
+        {
+          "locus": "<f68r3.17,+Ls>",
+          "raw_text": "okolchy",
+          "bounding_box": {"x_min": 120, "y_min": 646, "x_max": 230, "y_max": 671},
+          "interaction": "Third line of the 3-line label group (+Ls). Final component of the multi-line label for this star."
+        },
+        {
+          "locus": "<f68r3.18,@Ls>",
+          "raw_text": "o,cthyd",
+          "bounding_box": {"x_min": 120, "y_min": 685, "x_max": 225, "y_max": 710},
+          "interaction": "Opening line of a 4-line star label group (@Ls). This is a notably extended label, suggesting a more prominent or specifically described star."
+        },
+        {
+          "locus": "<f68r3.19,+Ls>",
+          "raw_text": "otydg",
+          "bounding_box": {"x_min": 120, "y_min": 713, "x_max": 210, "y_max": 738},
+          "interaction": "Second line of the 4-line label group (+Ls)."
+        },
+        {
+          "locus": "<f68r3.20,=Ls>",
+          "raw_text": "darall",
+          "bounding_box": {"x_min": 120, "y_min": 741, "x_max": 220, "y_max": 766},
+          "interaction": "Third line of the 4-line label group (=Ls — alternate continuation marker)."
+        },
+        {
+          "locus": "<f68r3.21,*Ls>",
+          "raw_text": "okchody",
+          "bounding_box": {"x_min": 120, "y_min": 769, "x_max": 230, "y_max": 794},
+          "interaction": "Fourth and final line of the extended label group (*Ls — end marker). Completes the 4-part label 'o,cthyd / otydg / darall / okchody' for the same star."
+        }
+      ]
+    },
+    {
+      "block_id": "inner_circle_Cc_inscription",
+      "description": "The second @Cc inscription (f68r3.22), written around the inner central sun-face medallion. A shorter circular inscription of 10 glyph-words following the perimeter of the small central circle.",
+      "lines": [
+        {
+          "locus": "<f68r3.22,@Cc>",
+          "raw_text": "otcheody.chokchy.okol.cheal.dar.cho.keol.dolaiin.okeol.oly",
+          "bounding_box": {"x_min": 380, "y_min": 420, "x_max": 570, "y_max": 580},
+          "interaction": "Circular inscription around the central sun-face medallion. The 10 glyph-words follow the perimeter of the small face circle (bounding_box x:380–570, y:420–580). Text runs clockwise around the face, with dot-separated words spaced evenly across the ~600-unit circumference of this inner circle. The face drawing inside (eyes, nose, mouth) remains text-free."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "large_outer_circle",
+      "status": "Text-bearing rim / Text-free exterior",
+      "description": "The large circle's exterior (outside the circumference line) is completely text-free. All text is contained within or on the circle. The outer @Cc inscription runs along the rim, and all @Ri, @Ls, and @La labels are interior."
+    },
+    {
+      "anchor_id": "central_sun_face",
+      "status": "Encircled by second @Cc inscription / Face interior text-free",
+      "description": "The small central face medallion's interior (the actual face drawing) is text-free. The @Cc inscription f68r3.22 runs around its perimeter ring. The face sits at the convergence point of all 8 radial spokes."
+    },
+    {
+      "anchor_id": "radial_spokes",
+      "status": "Text-bearing channels / Stars flanking each spoke",
+      "description": "Each of the 8 radial spokes carries one @Ri inscription. The stars of the inner field cluster in the sectors between spokes, leaving the spoke lines as text-defined paths. The @Ri text essentially functions as sector dividers, labeling each octant of the circle."
+    },
+    {
+      "anchor_id": "inner_star_field",
+      "status": "Stars labeled by @Ls and @La / Star bodies text-free",
+      "description": "Individual star drawings within the circle are text-free. Their labels (@Ls) are placed adjacent, not on top of, each star. The multi-line label groups (f68r3.15–17 and f68r3.18–21) in the left zone indicate that some stars in that sector have notably more complex identifications."
+    }
+  ]
+}

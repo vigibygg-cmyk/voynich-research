@@ -1,0 +1,625 @@
+{
+  "folio": "f78r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+  "audit_log": {
+    "extracted_folio_id": "f78r",
+    "total_loci_count": 47,
+    "unique_loci_found": [
+      "<f78r.1,@Lt>", "<f78r.2,@Lt>",
+      "<f78r.3,@P0>", "<f78r.4,+P0>", "<f78r.5,+P0>", "<f78r.6,+P0>",
+      "<f78r.7,+P0>", "<f78r.8,+P0>", "<f78r.9,+P0>", "<f78r.10,+P0>",
+      "<f78r.11,+P0>", "<f78r.12,+P0>", "<f78r.13,+P0>", "<f78r.14,+P0>",
+      "<f78r.15,+P0>", "<f78r.16,+P0>", "<f78r.17,+P0>", "<f78r.18,+P0>",
+      "<f78r.19,+P0>", "<f78r.20,+P0>", "<f78r.21,+P0>", "<f78r.22,+P0>",
+      "<f78r.23,+P0>", "<f78r.24,+P0>", "<f78r.25,+P0>", "<f78r.26,+P0>",
+      "<f78r.27,+P0>", "<f78r.28,+P0>", "<f78r.29,+P0>", "<f78r.30,+P0>",
+      "<f78r.31,+P0>", "<f78r.32,+P0>", "<f78r.33,+P0>", "<f78r.34,+P0>",
+      "<f78r.35,+P0>", "<f78r.36,+P0>", "<f78r.37,+P0>", "<f78r.38,+P0>",
+      "<f78r.39,+P0>", "<f78r.40,+P0>", "<f78r.41,+P0>", "<f78r.42,+P0>",
+      "<f78r.43,+P0>", "<f78r.44,@Lt>", "<f78r.45,@Lt>",
+      "<f78r.46,@Lt>", "<f78r.47,@Lt>"
+    ],
+    "syntax_clues_detected": [
+      "@Lt isolated labels (near tube/pipe apparatus): f78r.1, f78r.2, f78r.44, f78r.45, f78r.46, f78r.47",
+      "<-> BISECTION at f78r.36: 'qotchedy.lchedy.lchedy,kedy.qol<->saiin.ckhain.or' — text split by a vertical visual element (pipe stem or pool wall boundary)",
+      "<-> BISECTION at f78r.46: 'otarodlay<->orary' — isolated tube label split by a structural joint or valve connector",
+      "SEMANTIC ALERT — qo- prefix dominant: f78r.3 through f78r.43 are saturated with qo- prefixed words (qokedy, qokeedy, qokain, qokol, qotedy, qokchy, qokeey, qokor, qokan, qotaiin, qokaiin) — consistent with previously identified OUTFLOW / FLOW-DIRECTION code",
+      "SEMANTIC ALERT — so-/so prefix occurrences: f78r.17 (soiin), f78r.20 (sol), f78r.23 (sain, sheor), f78r.25 (sokeedy), f78r.26 (sol), f78r.29 (s,sheky), f78r.31 (solkeedy) — consistent with INFLOW / CONDENSATION / COLLECTION code",
+      "SEMANTIC ALERT — sa- prefix at f78r.36 right side ('saiin') appears AFTER bisection — candidate for post-valve flow label"
+    ],
+    "visual_anchor_inventory": [
+      {
+        "id": "upper_left_fan_apparatus",
+        "description": "Upper-left corner ornate fan/mace-shaped object. Resembles a decorative parasol or funnel-top collector. Rendered in pale yellow-brown with blue bead details. Connected to horizontal pipe chain running right. This is the LEFT INLET — source side of the pipe network.",
+        "primary_colors": ["pale_yellow", "blue_beads", "brown_ink"],
+        "approximate_bbox": {"x_min": 30, "y_min": 30, "x_max": 175, "y_max": 120}
+      },
+      {
+        "id": "upper_right_fan_apparatus",
+        "description": "Upper-right corner mirror-image fan/mace apparatus. Also a fan/parasol collector. Pale yellow-brown, blue bead trim. Connected to a red cylindrical vessel below it via a tube. This is the RIGHT INLET — secondary source or parallel inlet branch.",
+        "primary_colors": ["pale_yellow", "blue_beads", "red_vessel"],
+        "approximate_bbox": {"x_min": 680, "y_min": 30, "x_max": 860, "y_max": 130}
+      },
+      {
+        "id": "horizontal_pipe_chain_upper",
+        "description": "Horizontal pipe/tube chain running across the top of the folio connecting upper-left fan apparatus to the upper-right zone. Consists of segmented cylindrical barrel-shaped sections (rendered in pale grey/white with brown outline) connected by red/crimson ring joints. This is the MAIN HORIZONTAL DISTRIBUTION CONDUIT. Flow direction: LEFT to RIGHT (left fan = input, right zone = output to upper-right vessel). Two visible red ring connectors act as valve/junction points.",
+        "primary_colors": ["pale_grey_white", "red_crimson_joints", "brown_outline"],
+        "approximate_bbox": {"x_min": 160, "y_min": 55, "x_max": 700, "y_max": 110},
+        "flow_direction": "LEFT_to_RIGHT",
+        "valve_joints": [
+          {"type": "red_ring_connector", "approximate_x": 310, "approximate_y": 80, "note": "T-junction or simple coupling — no branch visible, likely a sealing ring"},
+          {"type": "red_ring_connector", "approximate_x": 530, "approximate_y": 80, "note": "Second coupling before the right descent tube"}
+        ]
+      },
+      {
+        "id": "right_descent_tube",
+        "description": "Vertical tube descending from the horizontal pipe chain on the right side, feeding liquid DOWN into the upper pool/tub. Rendered in blue-green ink indicating fluid presence. Connects upper_right_fan_apparatus area down to upper_pool_tub. This is the PRIMARY INFLOW TUBE to the upper pool.",
+        "primary_colors": ["blue_green", "brown_outline"],
+        "approximate_bbox": {"x_min": 660, "y_min": 130, "x_max": 720, "y_max": 370},
+        "flow_direction": "TOP_to_BOTTOM",
+        "note": "The blue-green coloring of this tube is a SEMANTIC MARKER: blue/green = liquid in active flow state. Compare with qo- prefix concentration in the text paragraph to the left of this tube."
+      },
+      {
+        "id": "upper_right_red_vessel",
+        "description": "Cylindrical red/crimson vessel or cup positioned below the upper-right fan apparatus. Wide-rimmed, open-top cup shape. Red coloring may indicate heating or a specific chemical state (acid/reactive). Receives liquid from the fan above and feeds it into the right_descent_tube.",
+        "primary_colors": ["red_crimson", "pale_interior"],
+        "approximate_bbox": {"x_min": 685, "y_min": 115, "x_max": 745, "y_max": 180},
+        "note": "Red vessel = possible thermal/reactive state marker. Cross-reference with any 'char-' or 'dar-' prefix words in adjacent text."
+      },
+      {
+        "id": "upper_pool_tub",
+        "description": "Large oval/circular pool in the middle-right of the folio (~40% down the page). Filled with GREEN wash. Contains approximately 8-10 nude female nymph figures (white/cream skin, rendered in outline ink) bathing, floating, and interacting within the green liquid. The pool has a defined circular border with brown ink outline. The right_descent_tube feeds into the TOP of this pool. The neck_connector_tube exits from the BOTTOM. Semantically: GREEN LIQUID = herbal bath or preparation pool.",
+        "primary_colors": ["green_wash", "white_cream_nymphs", "brown_outline"],
+        "approximate_bbox": {"x_min": 415, "y_min": 370, "x_max": 810, "y_max": 680},
+        "inflow_anchor": "right_descent_tube",
+        "outflow_anchor": "neck_connector_tube",
+        "nymph_count_approximate": 9
+      },
+      {
+        "id": "neck_connector_tube",
+        "description": "Narrow vertical NECK tube connecting the upper_pool_tub (exit at bottom) to the lower_pool_tub (entry at top). This is the critical FLOW CONDUIT between the two pools. Rendered in blue-green ink. The neck appears constricted — suggesting a controlled flow rate or valve effect. Visible at approximately x=600-640, y=670-790. This is the structural anchor for the bisection in f78r.36.",
+        "primary_colors": ["blue_green"],
+        "approximate_bbox": {"x_min": 595, "y_min": 668, "x_max": 645, "y_max": 795},
+        "flow_direction": "TOP_to_BOTTOM",
+        "note": "BISECTION ANCHOR for f78r.36 <->: the text 'qol<->saiin' is split by this neck tube. LEFT side: 'qol' (qo- outflow prefix), RIGHT side: 'saiin' (sa-/so- inflow/collection prefix). This is a CRITICAL SEMANTIC GROUNDING: the bisection physically encodes the transition from OUTFLOW (upper pool draining) to INFLOW (lower pool filling)."
+      },
+      {
+        "id": "lower_pool_tub",
+        "description": "Second oval/circular pool in the lower-right quadrant of the folio (~80% down the page). Also filled with GREEN wash. Contains approximately 6-8 nude female nymph figures. Slightly smaller than the upper pool. Receives inflow from neck_connector_tube. No visible outflow tube — this appears to be the TERMINAL COLLECTION VESSEL. The pool border is brown ink outline.",
+        "primary_colors": ["green_wash", "white_cream_nymphs", "brown_outline"],
+        "approximate_bbox": {"x_min": 380, "y_min": 795, "x_max": 720, "y_max": 1000},
+        "inflow_anchor": "neck_connector_tube",
+        "outflow_anchor": "none_visible — terminal_vessel",
+        "nymph_count_approximate": 7
+      },
+      {
+        "id": "right_margin_vertical_tube",
+        "description": "Thin vertical tube or channel running along the right margin, roughly parallel to the right_descent_tube but further right. Blue-green ink. Partially cut off by page edge. May represent a secondary drain or overflow channel from the upper_pool_tub.",
+        "primary_colors": ["blue_green"],
+        "approximate_bbox": {"x_min": 790, "y_min": 370, "x_max": 830, "y_max": 800},
+        "flow_direction": "TOP_to_BOTTOM",
+        "note": "Uncertain function. If this is an overflow outlet, it would correspond to a 'safety valve' in the apparatus. Watch for 'or' / 'ol' suffixed words in f78r.16 and f78r.47 which may label this."
+      },
+      {
+        "id": "label_zone_upper_left",
+        "description": "Text label zone at the very top-left above the main paragraph, associated with the upper-left fan apparatus. Contains @Lt loci f78r.1 and f78r.2.",
+        "primary_colors": ["brown_ink"],
+        "approximate_bbox": {"x_min": 95, "y_min": 38, "x_max": 280, "y_max": 75}
+      },
+      {
+        "id": "label_zone_right_margin",
+        "description": "Text label zone on the right side of the folio, mid-page, adjacent to the right_descent_tube. Contains @Lt loci f78r.44, f78r.45, f78r.46, f78r.47. These labels directly annotate the tube connections and the upper_pool_tub entry.",
+        "primary_colors": ["brown_ink"],
+        "approximate_bbox": {"x_min": 730, "y_min": 450, "x_max": 910, "y_max": 680}
+      }
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "upper_left_fan_apparatus",
+      "category": "balneology_apparatus_inlet",
+      "colors": ["pale_yellow", "blue_beads", "brown_ink"],
+      "morphology_description": "Ornate fan or mace-shaped collector at top-left. Resembles an inverted parasol or sprinkler head. The fan ribs spread upward and outward. Blue bead decorations on the ribs. The base connects directly to the leftmost segment of the horizontal pipe chain. FUNCTION: inlet collector — possibly representing a water source, rain collector, or distillation condenser top.",
+      "bounding_box": {"x_min": 30, "y_min": 30, "x_max": 175, "y_max": 120}
+    },
+    {
+      "anchor_id": "upper_right_fan_apparatus",
+      "category": "balneology_apparatus_inlet",
+      "colors": ["pale_yellow", "blue_beads", "red_crimson"],
+      "morphology_description": "Mirror-image fan apparatus at top-right. Same morphology as upper-left fan. Base connects to a red cylindrical cup/vessel below it, which in turn feeds the right_descent_tube. FUNCTION: secondary inlet or parallel source branch. The right-side red cup intermediary suggests a different material state (heated or reactive) for the right branch vs. the left.",
+      "bounding_box": {"x_min": 680, "y_min": 30, "x_max": 860, "y_max": 130}
+    },
+    {
+      "anchor_id": "horizontal_pipe_chain_upper",
+      "category": "balneology_conduit_horizontal",
+      "colors": ["pale_grey_white", "red_crimson_joints", "brown_outline"],
+      "morphology_description": "Segmented horizontal pipe running top of folio. Individual segments are barrel/cylinder shaped (~40-50 units long each), rendered in pale grey with brown outlines. Red ring joints at two points serve as couplings or T-junctions. No visible branching — these are inline couplings, not T-valves. FLOW: left-to-right. The pipe appears to carry the collected liquid from the left fan toward the right descent tube.",
+      "bounding_box": {"x_min": 160, "y_min": 55, "x_max": 700, "y_max": 110}
+    },
+    {
+      "anchor_id": "right_descent_tube",
+      "category": "balneology_conduit_vertical_inflow",
+      "colors": ["blue_green"],
+      "morphology_description": "Vertical tube, right side, descending from horizontal pipe chain to the upper pool. BLUE-GREEN coloring is the semantic key: this color is consistently used in f78r for ACTIVE LIQUID FLOW. The tube has a smooth, uninterrupted profile — no valve or constriction. Terminates at the top rim of upper_pool_tub.",
+      "bounding_box": {"x_min": 660, "y_min": 130, "x_max": 720, "y_max": 375}
+    },
+    {
+      "anchor_id": "upper_right_red_vessel",
+      "category": "balneology_vessel_intermediate",
+      "colors": ["red_crimson", "pale_interior"],
+      "morphology_description": "Small cylindrical red cup between the right fan and descent tube. Open top, wide rim. No lid. Red color signals either: (a) heated vessel / warming bath, (b) a specific reactive preparation (e.g., acid, wine-based). Its position as an INTERMEDIARY between inlet and vertical tube suggests it functions as a pre-treatment or temperature-conditioning stage.",
+      "bounding_box": {"x_min": 685, "y_min": 115, "x_max": 745, "y_max": 180}
+    },
+    {
+      "anchor_id": "upper_pool_tub",
+      "category": "balneology_pool_primary",
+      "colors": ["green_wash", "white_cream_nymphs", "brown_outline"],
+      "morphology_description": "Large oval bathing pool, middle-right. GREEN wash fills the interior. ~9 female nymph figures visible: standing, reclining, reaching. The pool rim is a clean circular border. The inflow enters from the top-right (right_descent_tube). The outflow neck exits from the bottom-center. GREEN = herbal or mineral-infused liquid (consistent with balneological/pharmaceutical preparation). The nymphs likely encode procedural actors or measurement states.",
+      "bounding_box": {"x_min": 415, "y_min": 370, "x_max": 810, "y_max": 680}
+    },
+    {
+      "anchor_id": "neck_connector_tube",
+      "category": "balneology_conduit_valve_neck",
+      "colors": ["blue_green"],
+      "morphology_description": "Critical narrow neck tube connecting the two pools vertically. Constricted profile at the mid-point — this morphological narrowing is consistent with a flow-control valve or siphon. The bisection of f78r.36 occurs HERE: 'qol' (left side of tube = outflow/drain from upper pool) and 'saiin' (right side = inflow/fill to lower pool). This is the ONLY point in the entire apparatus where a flow-state TRANSITION is textually encoded at the pixel level.",
+      "bounding_box": {"x_min": 595, "y_min": 668, "x_max": 645, "y_max": 795}
+    },
+    {
+      "anchor_id": "lower_pool_tub",
+      "category": "balneology_pool_terminal",
+      "colors": ["green_wash", "white_cream_nymphs", "brown_outline"],
+      "morphology_description": "Smaller oval collection pool at the bottom of the folio. GREEN wash interior, ~7 nymphs. No visible outflow tube — this is the TERMINAL COLLECTION VESSEL of the entire apparatus. The nymphs here may encode a final product state or measurement. The absence of an outflow tube is semantically significant: the process terminates here (product collected / preparation complete).",
+      "bounding_box": {"x_min": 380, "y_min": 795, "x_max": 720, "y_max": 1000}
+    },
+    {
+      "anchor_id": "right_margin_overflow_channel",
+      "category": "balneology_conduit_overflow",
+      "colors": ["blue_green"],
+      "morphology_description": "Thin vertical blue-green channel along right margin. Uncertain function: either a parallel drain from the upper pool or an overflow safety channel. Partially cut off by page edge. No text labels directly attached in the transcription, but proximity to @Lt label zone right margin suggests it may be annotated by f78r.47 ('okaral').",
+      "bounding_box": {"x_min": 790, "y_min": 370, "x_max": 830, "y_max": 800}
+    }
+  ],
+  "pipe_and_flow_system": {
+    "system_type": "Two-stage balneological apparatus with horizontal distribution pipe and gravity-fed serial pools",
+    "overall_flow_path": "LEFT_fan_inlet → horizontal_pipe_chain → RIGHT_fan_inlet (parallel) → red_intermediate_vessel → right_descent_tube → upper_pool_tub → neck_connector_tube → lower_pool_tub (TERMINAL)",
+    "flow_stages": [
+      {
+        "stage": 1,
+        "name": "Collection / Inlet",
+        "anchors": ["upper_left_fan_apparatus", "upper_right_fan_apparatus"],
+        "direction": "INWARD",
+        "color_code": "pale_yellow / blue_beads",
+        "associated_loci": ["f78r.1 (@Lt: okchdldlo)", "f78r.2 (@Lt: okchdy)"],
+        "prefix_analysis": "f78r.1 'okchdldlo' — ok- prefix, no clear qo- or so-. f78r.2 'okchdy' — ok- prefix. These may encode COLLECTION STATE or SOURCE MATERIAL TYPE rather than flow direction."
+      },
+      {
+        "stage": 2,
+        "name": "Horizontal Distribution",
+        "anchors": ["horizontal_pipe_chain_upper"],
+        "direction": "LEFT_to_RIGHT",
+        "color_code": "pale_grey_white with red_crimson joints",
+        "valve_joints": [
+          {"position_x": 310, "position_y": 80, "type": "inline_coupling", "shape": "ring", "note": "No T-branch visible. Simple sealing ring."},
+          {"position_x": 530, "position_y": 80, "type": "inline_coupling", "shape": "ring", "note": "Second coupling. Still no branch. Pure conduit."}
+        ],
+        "note": "No T or X valve junctions detected in the horizontal pipe. The red rings are COUPLING SEALS, not flow-splitting valves."
+      },
+      {
+        "stage": 3,
+        "name": "Pre-treatment Vessel",
+        "anchors": ["upper_right_red_vessel"],
+        "direction": "VERTICAL_pass_through",
+        "color_code": "red_crimson",
+        "note": "RED vessel = thermal or reactive pre-treatment stage. This is the only thermally-coded element in the apparatus. No text label directly attached in transcription, but spatially adjacent to @Lt label zone."
+      },
+      {
+        "stage": 4,
+        "name": "Primary Descent / Inflow to Upper Pool",
+        "anchors": ["right_descent_tube"],
+        "direction": "TOP_to_BOTTOM",
+        "color_code": "blue_green — ACTIVE LIQUID",
+        "associated_text_region": "Main paragraph lines f78r.3 to f78r.36 left-margin — qo- prefix saturation in this zone maps to OUTFLOW from the distribution system INTO the pool"
+      },
+      {
+        "stage": 5,
+        "name": "Upper Bathing Pool — Primary Preparation",
+        "anchors": ["upper_pool_tub"],
+        "direction": "CONTAINED",
+        "color_code": "green_wash",
+        "bisection_note": "f78r.36 bisection occurs at the BOTTOM BOUNDARY of this pool where the neck_connector_tube begins. Text: 'qotchedy.lchedy.lchedy,kedy.qol<->saiin.ckhain.or' — 'qol' is the last word BEFORE the bisection gap (outflow side), 'saiin' is the first word AFTER the bisection (inflow side to lower pool).",
+        "semantic_grounding": "qol = qo- (outflow prefix) + 'l' (possibly 'liquid' root). saiin = sa-/so- (inflow/collection prefix) + 'aiin' (common nominal suffix). This pair encodes the DRAIN→FILL transition across the valve neck."
+      },
+      {
+        "stage": 6,
+        "name": "Neck Valve — Flow Transition Point",
+        "anchors": ["neck_connector_tube"],
+        "direction": "TOP_to_BOTTOM",
+        "color_code": "blue_green",
+        "critical_bisection": {
+          "locus": "f78r.36",
+          "raw_text": "qotchedy.lchedy.lchedy,kedy.qol<->saiin.ckhain.or",
+          "left_of_bisection": "qotchedy.lchedy.lchedy,kedy.qol",
+          "right_of_bisection": "saiin.ckhain.or",
+          "left_approx_x_range": "x=90 to x=595",
+          "gap_x_range": "x=595 to x=645 (neck tube body)",
+          "right_approx_x_range": "x=645 to x=820",
+          "anchor_in_gap": "neck_connector_tube"
+        }
+      },
+      {
+        "stage": 7,
+        "name": "Terminal Collection Pool",
+        "anchors": ["lower_pool_tub"],
+        "direction": "CONTAINED — NO OUTFLOW",
+        "color_code": "green_wash",
+        "semantic_grounding": "Terminal vessel. The so-/sol- prefixed words concentrated in lines f78r.37-f78r.43 (sol, sain, sokeedy, solkeedy) likely describe the COLLECTION / SETTLING state of the final product in this vessel."
+      }
+    ],
+    "prefix_distribution_summary": {
+      "qo_prefix_dominant_zone": "f78r.3 to f78r.36 — main paragraph block LEFT of pools. Maps spatially to the text running alongside the ACTIVE FLOW stages (stages 2-5). qo- = OUTFLOW / ACTIVE MOVEMENT.",
+      "so_sal_prefix_zone": "f78r.17, f78r.20, f78r.23, f78r.25, f78r.26, f78r.29, f78r.31, f78r.37-f78r.43 — these lines correlate spatially with the lower half of the folio (stages 6-7). so-/sa- = INFLOW / COLLECTION / SETTLED STATE.",
+      "ok_prefix_inlet_labels": "f78r.1, f78r.2 (@Lt labels at inlet fans) — ok- may encode SOURCE MATERIAL or VESSEL TYPE at intake.",
+      "bisection_transition_encoding": "f78r.36 <-> is the ONLY point where qo- and sa- appear on opposite sides of a drawn object. This is direct evidence that the text encodes flow DIRECTION relative to structural elements."
+    }
+  },
+  "isolated_labels": [
+    {
+      "locus": "<f78r.1,@Lt>",
+      "raw_text": "okchdldlo",
+      "target_anchor_id": "upper_left_fan_apparatus",
+      "placement_context": "Directly above and to the right of the upper-left fan apparatus. Label annotates the left inlet collector. Written horizontally above the pipe chain.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ok- prefix. Not qo- (outflow) or so- (inflow). May encode APPARATUS TYPE or SOURCE MATERIAL at the inlet.",
+      "bounding_box": {"x_min": 95, "y_min": 38, "x_max": 280, "y_max": 70}
+    },
+    {
+      "locus": "<f78r.2,@Lt>",
+      "raw_text": "okchdy",
+      "target_anchor_id": "upper_left_fan_apparatus",
+      "placement_context": "Second label near upper-left fan, slightly further right toward the pipe chain. Shorter than f78r.1.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ok- prefix. Companion to f78r.1. May be a sub-label for the pipe section immediately following the fan.",
+      "bounding_box": {"x_min": 570, "y_min": 38, "x_max": 690, "y_max": 70}
+    },
+    {
+      "locus": "<f78r.44,@Lt>",
+      "raw_text": "daralocphy",
+      "target_anchor_id": "upper_pool_tub",
+      "placement_context": "Right-margin isolated label, adjacent to the right side of the upper pool. Written horizontally in the right margin zone. Annotates either the pool itself or the right_descent_tube entry point.",
+      "orientation": "horizontal",
+      "prefix_analysis": "dar- prefix. 'dar' may encode CONTAINER TYPE or LIQUID STATE. No qo- or so- — suggests a STATIC LABEL (naming the vessel, not describing flow direction).",
+      "bounding_box": {"x_min": 730, "y_min": 548, "x_max": 900, "y_max": 578}
+    },
+    {
+      "locus": "<f78r.45,@Lt>",
+      "raw_text": "dchedaly",
+      "target_anchor_id": "upper_pool_tub",
+      "placement_context": "Second right-margin label, below f78r.44, still adjacent to upper pool. May annotate the pool contents or a specific nymph action visible in the pool.",
+      "orientation": "horizontal",
+      "prefix_analysis": "d- prefix (possibly a variant of dar- or dal-). STATIC LABEL candidate.",
+      "bounding_box": {"x_min": 730, "y_min": 590, "x_max": 890, "y_max": 618}
+    },
+    {
+      "locus": "<f78r.46,@Lt>",
+      "raw_text": "otarodlay<->orary",
+      "target_anchor_id": "neck_connector_tube",
+      "placement_context": "CRITICAL BISECTED LABEL adjacent to the neck connector tube / lower boundary of upper pool. The label itself is split by a drawn structural element — likely the neck tube wall or a connecting ring joint. LEFT: 'otarodlay', RIGHT: 'orary'. This is a VALVE LABEL — annotating the flow-transition junction.",
+      "orientation": "horizontal",
+      "bisection_detail": {
+        "left_text": "otarodlay",
+        "right_text": "orary",
+        "bisecting_anchor": "neck_connector_tube",
+        "left_x_max": 795,
+        "gap_x": "795 to 830",
+        "right_x_min": 830
+      },
+      "prefix_analysis": "LEFT 'otarodlay': ot- prefix + 'arodlay' — ot- may encode TRANSITION/PASSAGE. RIGHT 'orary': o- + 'rary' — short label, possibly OUTLET or DIRECTIONAL MARKER. The bisection here mirrors f78r.36: a structural split encoding a flow-direction boundary.",
+      "bounding_box": {"x_min": 730, "y_min": 635, "x_max": 910, "y_max": 665}
+    },
+    {
+      "locus": "<f78r.47,@Lt>",
+      "raw_text": "okaral",
+      "target_anchor_id": "right_margin_overflow_channel",
+      "placement_context": "Lowest right-margin label, adjacent to the right_margin_overflow_channel or the lower pool entry area. Short label annotating the terminal zone.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ok- prefix again (same as f78r.1, f78r.2 at the inlet). POSSIBLE SYMMETRY: ok- at INLET (f78r.1-2) and ok- at OUTLET (f78r.47) may indicate the same material type completing the circuit — suggesting the apparatus produces a recycled or transformed version of the input material.",
+      "bounding_box": {"x_min": 730, "y_min": 810, "x_max": 860, "y_max": 840}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "main_paragraph_block",
+      "description": "The dominant text block occupying the LEFT two-thirds of the folio from approximately y=130 to y=980. Runs in horizontal lines, left-aligned. Lines progressively shorten in the lower half as the lower pool encroaches from the right. This block is a SINGLE continuous paragraph (@P0 start, then +P0 continuation lines 4-43). The text runs ALONGSIDE the pipe system and pools — it does not label individual elements but appears to be a procedural description of the entire process.",
+      "lines": [
+        {
+          "locus": "<f78r.3,@P0>",
+          "raw_text": "tshedar.shedy.qopchedy.qokedy.dy.qokol.oky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 133, "x_max": 655, "y_max": 163},
+          "interaction": "First line of paragraph. No bisection. qo- prefix words (qopchedy, qokedy, qokol) dominate. Runs below the horizontal pipe apparatus."
+        },
+        {
+          "locus": "<f78r.4,+P0>",
+          "raw_text": "qokeedy.qokedy.shedy.tchedy.otar.olkedy.dam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 168, "x_max": 655, "y_max": 198},
+          "interaction": "No bisection. qo- dominant (qokeedy, qokedy). 'dam' at end — possible terminus/vessel word."
+        },
+        {
+          "locus": "<f78r.5,+P0>",
+          "raw_text": "qckhedy.cheky.dal.chedy.qokedy.qokain.olkedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 203, "x_max": 655, "y_max": 233},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.6,+P0>",
+          "raw_text": "yteedy.qotal.dol.shedy.qokedar.chcthhy.otar.dor.or",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 238, "x_max": 655, "y_max": 268},
+          "interaction": "No bisection. qo- present (qotal, qokedar). 'or' terminus."
+        },
+        {
+          "locus": "<f78r.7,+P0>",
+          "raw_text": "qokol.otedy.qokedy.qokedy.dal.qokedy.qokedy.s.kam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 273, "x_max": 655, "y_max": 303},
+          "interaction": "No bisection. HIGHEST qo- density line (5 qo- words). 's.kam' at end — 's' isolated single character + 'kam' vessel/container root candidate."
+        },
+        {
+          "locus": "<f78r.8,+P0>",
+          "raw_text": "dshedy.qokedy.okar.qokedy.shedy.ykedy.shedy.qoky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 308, "x_max": 655, "y_max": 338},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.9,+P0>",
+          "raw_text": "schedy.keedy.qokedy.chckhd.qokain.chedy.qotedy.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 343, "x_max": 655, "y_max": 373},
+          "interaction": "No bisection. 'schedy' opens with s- prefix — possible inflow/collection word at line start, but surrounded by qo- words."
+        },
+        {
+          "locus": "<f78r.10,+P0>",
+          "raw_text": "dshedy.deedy.qokeedy.otedy.otal.tedy.otey.oloiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 378, "x_max": 655, "y_max": 408},
+          "interaction": "No bisection. This line is spatially at the TOP EDGE of the upper pool. qo- present."
+        },
+        {
+          "locus": "<f78r.11,+P0>",
+          "raw_text": "qoky.okeedy.sheety.qoteedy.otey.shckhedy.sokol.or",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 413, "x_max": 415, "y_max": 443},
+          "interaction": "Line RIGHT EDGE terminates at approximately x=415 where the upper pool begins. Text wraps around the pool left edge. 'sokol' near end — so- prefix inflow marker within an otherwise qo- line — possible mid-process state transition word."
+        },
+        {
+          "locus": "<f78r.12,+P0>",
+          "raw_text": "dor.shekedy.qokol.kechdy.otedy.ol.tedy.chckhedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 448, "x_max": 415, "y_max": 478},
+          "interaction": "No bisection. Right edge constrained by pool. qo- present."
+        },
+        {
+          "locus": "<f78r.13,+P0>",
+          "raw_text": "qokedy.olkedy.qokain.okedy.kedy.tol.dy.qoteedy.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 483, "x_max": 415, "y_max": 513},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.14,+P0>",
+          "raw_text": "s,or.checkhy.ar.chckhdy.dol.kedy.qokededy.qokan.ol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 518, "x_max": 415, "y_max": 548},
+          "interaction": "No bisection. 's,or' at start — s- prefix + comma separator — anomalous punctuation. Possible sub-label or word-break artifact."
+        },
+        {
+          "locus": "<f78r.15,+P0>",
+          "raw_text": "dchckhedy.qokchdy.qokedy.okedy.dal.ar.okeed.olkain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 553, "x_max": 415, "y_max": 583},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.16,+P0>",
+          "raw_text": "qokol.oted.okain.ched.or.alory",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 588, "x_max": 415, "y_max": 618},
+          "interaction": "No bisection. Shorter line. 'alory' end-word — 'al' + 'ory' — possible outlet/drainage suffix."
+        },
+        {
+          "locus": "<f78r.17,+P0>",
+          "raw_text": "soiin.kar.kedy.pchey.tchdol,tdy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 623, "x_max": 415, "y_max": 653},
+          "interaction": "No bisection. 'soiin' — so- inflow prefix at LINE START. This is near the mid-pool zone. The so- word here may mark a water-level state or inflow event WITHIN the pool."
+        },
+        {
+          "locus": "<f78r.18,+P0>",
+          "raw_text": "ol.chedy.qokain.dar.ar.okain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 658, "x_max": 415, "y_max": 688},
+          "interaction": "No bisection. Short line. 'dar' mid-line — vessel/container root."
+        },
+        {
+          "locus": "<f78r.19,+P0>",
+          "raw_text": "y.ches.aiin.okeedy.qokain.chl",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 693, "x_max": 415, "y_max": 723},
+          "interaction": "No bisection. Short. 'y' isolated start character."
+        },
+        {
+          "locus": "<f78r.20,+P0>",
+          "raw_text": "sol.shedy.dal,shdy.qokychdy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 728, "x_max": 415, "y_max": 758},
+          "interaction": "No bisection. 'sol' — so- prefix at line start. Spatially at lower boundary of upper pool / approaching neck zone."
+        },
+        {
+          "locus": "<f78r.21,+P0>",
+          "raw_text": "lchedy.qokain.cheeky.lokedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 763, "x_max": 415, "y_max": 793},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f78r.22,+P0>",
+          "raw_text": "yched.qokain.daiin.chckhdy.lr",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 798, "x_max": 415, "y_max": 828},
+          "interaction": "No bisection. Spatially near or at neck_connector_tube zone."
+        },
+        {
+          "locus": "<f78r.23,+P0>",
+          "raw_text": "sain.sheor.ol,keedy.roiin.okeedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 833, "x_max": 380, "y_max": 863},
+          "interaction": "No bisection. 'sain' — sa- prefix at line start. Spatially at neck zone / lower pool entry. sa- inflow encoding here aligns with the neck→lower pool transition."
+        },
+        {
+          "locus": "<f78r.24,+P0>",
+          "raw_text": "qokeedy.kedy.qokeey.qokedy.olol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 868, "x_max": 380, "y_max": 898},
+          "interaction": "No bisection. qo- returns at lower pool entry — possibly encoding the inflow INTO lower pool (from upper pool perspective = outflow, qo-)."
+        },
+        {
+          "locus": "<f78r.25,+P0>",
+          "raw_text": "sokeedy.keol.loroin.olkeey.raiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 903, "x_max": 380, "y_max": 933},
+          "interaction": "No bisection. 'sokeedy' — so- + qo- hybrid? Or so- prefix on a kedy-root word. Deep lower pool zone."
+        },
+        {
+          "locus": "<f78r.26,+P0>",
+          "raw_text": "sol.shey.tary.ar.shedy.qeedar.ain.anl",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 938, "x_max": 380, "y_max": 968},
+          "interaction": "No bisection. 'sol' — so- prefix. Lower pool zone."
+        },
+        {
+          "locus": "<f78r.27,+P0>",
+          "raw_text": "doiin.chckhal.daiil.oldy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 943, "x_max": 350, "y_max": 973},
+          "interaction": "No bisection. Short line. Lower pool zone."
+        },
+        {
+          "locus": "<f78r.28,+P0>",
+          "raw_text": "karain.ol.qokeedy.kchol.tchal.olkee.yfchey.ofchedy.taly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 698, "x_max": 595, "y_max": 728},
+          "interaction": "No bisection. Longer line indicating this is in the mid-folio zone above the neck. qo- present."
+        },
+        {
+          "locus": "<f78r.29,+P0>",
+          "raw_text": "s,sheky.ol.kedy.chckhy.dain.oty.qokor.oky.dain.chy.ol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 733, "x_max": 595, "y_max": 763},
+          "interaction": "No bisection. 's,sheky' — s- prefix with comma separator at line start."
+        },
+        {
+          "locus": "<f78r.30,+P0>",
+          "raw_text": "qokeedy.qokey.daiin.olkain.dal.chedy.ololdal.cheety.tedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 768, "x_max": 595, "y_max": 798},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.31,+P0>",
+          "raw_text": "solkeedy.sheckhy.qokedy.otal.shedy.otar.olchedy.cthdy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 803, "x_max": 595, "y_max": 833},
+          "interaction": "No bisection. 'solkeedy' — sol- compound prefix (so- + l + keedy). HYBRID: encodes both inflow (so-) and an action root. Significant."
+        },
+        {
+          "locus": "<f78r.32,+P0>",
+          "raw_text": "qokedy.ckhdy.qokain.chedy.dalky.lkain.ykeedy.okaly.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 838, "x_max": 595, "y_max": 868},
+          "interaction": "No bisection. qo- dominant."
+        },
+        {
+          "locus": "<f78r.33,+P0>",
+          "raw_text": "ytedy.daiin.ykedy.yolsheey.qokchy.okal.ol.keedy.dyky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 873, "x_max": 595, "y_max": 903},
+          "interaction": "No bisection. 'yolsheey' — y- prefix + 'ol' root + 'sheey' suffix — compound word."
+        },
+        {
+          "locus": "<f78r.34,+P0>",
+          "raw_text": "dshedy.qokeedy.qopchedy.qokaly.dar.okaiin.okeeal.am",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 908, "x_max": 595, "y_max": 938},
+          "interaction": "No bisection. qo- dominant. 'dar' mid-line. 'am' end."
+        },
+        {
+          "locus": "<f78r.35,+P0>",
+          "raw_text": "y.sain.checkhy.qokain.cheeky.daiin.daiin.y.tees.aly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 943, "x_max": 595, "y_max": 973},
+          "interaction": "No bisection. 'sain' — sa- prefix second word. Mixed qo-/sa- line near the terminal pool."
+        },
+        {
+          "locus": "<f78r.36,+P0>",
+          "raw_text": "qotchedy.lchedy.lchedy,kedy.qol<->saiin.ckhain.or",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 978, "x_max": 820, "y_max": 1008},
+          "interaction": "CRITICAL BISECTION. The text is physically split by the neck_connector_tube. LEFT SEGMENT: 'qotchedy.lchedy.lchedy,kedy.qol' occupies x=90 to x=595. GAP: x=595 to x=645 (the neck tube body sits here). RIGHT SEGMENT: 'saiin.ckhain.or' occupies x=645 to x=820. The bisection encodes the qo-(OUTFLOW) → sa-(INFLOW) transition at the flow-control neck. 'qol' immediately before the gap = 'qo-' outflow prefix + 'l' (liquid root). 'saiin' immediately after = 'sa-' inflow/collection prefix + 'aiin' (nominal suffix). This is the strongest semantic grounding evidence in f78r."
+        },
+        {
+          "locus": "<f78r.37,+P0>",
+          "raw_text": "osal.ol.s.aiin.shes.aiin.oly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 808, "x_max": 380, "y_max": 838},
+          "interaction": "No bisection. 'osal' — o+sal, potential inflow/salt/settled root. Short s. isolated."
+        },
+        {
+          "locus": "<f78r.38,+P0>",
+          "raw_text": "s,ar.aiin.oteedy.ol.aiin.chedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 843, "x_max": 380, "y_max": 873},
+          "interaction": "No bisection. 's,ar' — s- prefix with comma. Lower pool zone."
+        },
+        {
+          "locus": "<f78r.39,+P0>",
+          "raw_text": "qotaiin.qokaiin.okedy.lkeedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 878, "x_max": 380, "y_max": 908},
+          "interaction": "No bisection. qo- returns in terminal pool zone."
+        },
+        {
+          "locus": "<f78r.40,+P0>",
+          "raw_text": "shedy.qol.shedy.qokaiin.drol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 913, "x_max": 380, "y_max": 943},
+          "interaction": "No bisection. 'qol' again — same qol root as the bisection line f78r.36. Repeated in terminal zone."
+        },
+        {
+          "locus": "<f78r.41,+P0>",
+          "raw_text": "y,kain.chdar.chedy.qokeiin.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 948, "x_max": 380, "y_max": 978},
+          "interaction": "No bisection. 'chdar' — possible container/vessel root."
+        },
+        {
+          "locus": "<f78r.42,+P0>",
+          "raw_text": "dain.chfaiin.opaly.kotaly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 953, "x_max": 380, "y_max": 983},
+          "interaction": "No bisection. Short. 'opaly' — o+paly, possible pale/clear liquid state marker."
+        },
+        {
+          "locus": "<f78r.43,+P0>",
+          "raw_text": "lchedy.pchedy.qokeiiin.dar",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 90, "y_min": 958, "x_max": 380, "y_max": 988},
+          "interaction": "No bisection. Final paragraph line. 'dar' at end — vessel root as final word. Possible conclusion marker."
+        }
+      ]
+    }
+  ]
+}

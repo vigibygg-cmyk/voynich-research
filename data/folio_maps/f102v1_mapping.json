@@ -1,0 +1,434 @@
+{
+  "folio": "f102v1",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "image_source": "f102v1.jpg",
+  "image_dimensions_pixels": {"width": 2981, "height": 3795},
+  "normalization_formula": "X_norm = floor((X_pixel / 2981) * 1000); Y_norm = floor((Y_pixel / 3795) * 1000)",
+  "section_type": "Pharmacological (Balneological / Herbal-Pharmacy hybrid)",
+  "header_flags": {
+    "raw": "<f102v1> <! $Q=S $P=P $F=z $B=1 $I=P $L=A $H=1>",
+    "Q=S": "Quire S",
+    "P=P": "Page P",
+    "I=P": "Pharmaceutical / Pharmacological section",
+    "L=A": "Language A",
+    "H=1": "Hand 1 (primary scribal hand)"
+  },
+
+  "audit_log": {
+    "extracted_folio_id": "f102v1",
+    "total_loci_count": 24,
+    "unique_loci_found": [
+      "<f102v1.1,@Lc>",
+      "<f102v1.2,@Lf>",
+      "<f102v1.3,@Lf>",
+      "<f102v1.4,@Lf>",
+      "<f102v1.5,@Lf>",
+      "<f102v1.6,@Lf>",
+      "<f102v1.7,@P0>",
+      "<f102v1.8,+P0>",
+      "<f102v1.9,+P0>",
+      "<f102v1.10,+P0>",
+      "<f102v1.11,+P0>",
+      "<f102v1.12,+P0>",
+      "<f102v1.13,+P0>",
+      "<f102v1.14,+P0>",
+      "<f102v1.15,@Lc>",
+      "<f102v1.16,@Lf>",
+      "<f102v1.17,@Lf>",
+      "<f102v1.18,@Lf>",
+      "<f102v1.19,@P0>",
+      "<f102v1.20,+P0>",
+      "<f102v1.21,+P0>",
+      "<f102v1.22,+P0>",
+      "<f102v1.23,+P0>",
+      "<f102v1.24,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "f102v1.1 is @Lc — ISOLATED CONTAINER LABEL (column/canister type): 'keoraiiin' — attached to the upper pharmaceutical column-jar (jar_upper_left)",
+      "f102v1.2 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'okeody' — labeling a botanical element in the upper illustration zone, likely the dark blue/teal spiky plant or adjacent leaf form",
+      "f102v1.3 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'okeody' — IDENTICAL text to f102v1.2; labels a second botanical element, likely a mirror/pair plant nearby",
+      "f102v1.4 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'daiisaly' — labeling another botanical element in the upper zone, possibly the hand-shaped or lobed leaf form",
+      "f102v1.5 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'ypary' — labeling a botanical element, possibly the branched/bushy form upper-right zone",
+      "f102v1.6 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'opchytcy' — labeling a botanical element; possibly the frilly or serrated leaf cluster",
+      "f102v1.15 is @Lc — ISOLATED CONTAINER LABEL (column/canister type): 'd??indy' — uncertainty markers retained; attached to the LOWER pharmaceutical column-jar (jar_lower_left); CRITICAL for state-of-matter analysis",
+      "f102v1.16 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'ypcholdy' — labeling a botanical/root element in the middle illustration zone, near the large green leaf cluster",
+      "f102v1.17 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'losalody' — labeling another element in the middle zone, possibly the root or the reddish-brown organic element",
+      "f102v1.18 is @Lf — ISOLATED FIGURE/FLORA LABEL: 'opchdard' — labeling a botanical element near the middle zone, possibly the bulbous root/onion form right side",
+      "f102v1.19 is @P0 (paragraph start) AND CONTAINS ONE <-> BISECTION MARKER: 'faidaiin.dair.or.sheol.okeeol.qoteol<->orockhey.olkey' — the lower column-jar's cylindrical body or its decorative foot/pedestal physically bisects this paragraph-start line; left segment ends before the jar body, right segment resumes after it",
+      "SEMANTIC GROUNDING NOTE: Two @Lc loci (f102v1.1 and f102v1.15) are container labels — 'keoraiiin' for the upper jar and 'd??indy' for the lower jar. The DIFFERENT label words combined with the DIFFERENT visual fill-states of each jar (upper = blue liquid wash, lower = drier/empty or powdery) is a critical data point for the liquid vs. dry grammar hypothesis",
+      "SEMANTIC GROUNDING NOTE: Five @Lf loci in the upper zone (f102v1.2–6) and three in the middle zone (f102v1.16–18) suggest each distinct botanical illustration element has its own label — consistent with a pharmaceutical ingredient catalog"
+    ],
+    "visual_anchor_inventory": [
+      "jar_upper_left: UPPER pharmaceutical column-jar (apothecary vessel), LEFT margin zone. Tall cylindrical multi-segmented column shape with decorative ringed bands, a flat lid/cap at top, and a narrow pedestal base. COLORS: body painted in pale BLUE-GREY wash (~#8aaac0) with darker blue horizontal banding (~#3a6090) at the rings/segments; white highlights on the convex body sections; dark brown-black ink outlines throughout. STATE: the interior of the upper jar sections shows BLUE PAINT wash suggesting LIQUID contents — a fluid fill-level indicator. The blue pigment is concentrated in the barrel sections, not uniformly applied, resembling a water-level or liquid coloration. This is a LIQUID-STATE vessel indicator.",
+      "jar_lower_left: LOWER pharmaceutical column-jar (apothecary vessel), LEFT margin zone, below the upper jar. Similar columnar multi-segmented design but TALLER and more elaborate, with a wider decorative foot/base with claw-like feet or scrolled supports, and a more pronounced tiered body. COLORS: same BLUE-GREY and darker blue banding as upper jar (~#8aaac0 to ~#3a6090); however the lower jar's upper sections appear LIGHTER or more WHITE-GREY with less saturated blue fill, while the lower sections have stronger blue; small blue rectangular accent element visible near the mid-section. STATE: The distribution of blue pigment across multiple small barrel-segments in the lower jar suggests POSSIBLE LIQUID in the lower chambers, but the segmented separation (each chamber individually colored) may indicate discrete measured portions or a DRY/POWDER fill in lidded compartments. The individual banded segments with blue pigment in only some compartments is AMBIGUOUS — potentially a compartmentalized dry-ingredient container. CRITICAL for liquid/dry grammar analysis.",
+      "botanical_upper_dark_spiky: Dark blue-green spiky crown-shaped plant form, upper-center zone. A plant illustration with dramatically pointed, upward-swept spike leaves in a crown or comb pattern. COLORS: DARK BLUE-GREEN to near-navy (~#1a3a4a to ~#2a4a5a), the darkest botanical color on the folio — significantly darker than the other green leaves. Some spikes appear almost black-blue. This extreme dark coloration may indicate a different pigment (possible indigo or dark verdigris) or a special ink treatment for this plant. The form resembles a thistle crown or Eryngium/sea-holly type plant.",
+      "botanical_upper_green_lobed_left: Large irregular lobed/hand-shaped green leaf or plant, upper-left of center. COLORS: medium-to-dark GREEN (~#3a7a4a to #4a8a5a), solid wash fill with darker outlines. Morphology: broad irregular lobes resembling a mitten or hand shape with 4–5 rounded finger-like projections. Paired with a smaller similar form below-left.",
+      "botanical_upper_small_frilly: Small frilly or serrated leaf cluster, upper zone center-right. COLORS: medium GREEN (~#4a8060), lighter than the lobed leaves. Morphology: compact bushy form with irregular toothed/frilly edges. Multiple small sub-forms nearby suggest a clustered botanical illustration.",
+      "botanical_upper_rounded_right: Rounded bushy green form, upper-right zone. COLORS: medium GREEN, similar to frilly cluster. Morphology: roughly oval compact bush-like silhouette with softly irregular edges — different morphology from the spiky or lobed forms.",
+      "botanical_upper_large_lobed_right: Large irregular green lobed form, upper-right corner area. COLORS: vivid medium GREEN (~#4a8a5a), largest leaf-form in the upper zone. Morphology: broad multi-lobed outline, somewhat irregular.",
+      "botanical_upper_small_blue_square: A small blue rectangular/square element visible near the top-center zone, adjacent to the dark spiky plant. COLORS: solid BLUE (~#3a6aaf), opaque, small. This may be a blue liquid container detail, a label support, or a color swatch — its function is ambiguous but its deliberate blue pigment application distinguishes it from the green botanical forms around it. Possible small vial or ingredient indicator.",
+      "botanical_upper_tan_root_small: Small tan/ochre root-like form, upper-center-left zone, below the large lobed leaf. COLORS: warm TAN-OCHRE (~#c8a060), distinguishable from the green botanical forms. Morphology: irregular branched root structure, relatively small. This warm brown tone matches root coloration conventions in Voynich herbal folios.",
+      "botanical_mid_large_green_leaf: Very large broad green leaf or leaf cluster, CENTER of folio (mid-zone). This is the dominant illustration element of the lower half of the upper illustration zone. COLORS: vivid medium-to-deep GREEN (~#3a8050 to #4a9060), strongly saturated, the largest single green mass on the folio. Morphology: very broad multi-lobed leaf form with pointed sub-lobes, resembling a large plantain, dock, or large-leaved herb. Some areas show slight waviness or 3D curvature in the outline.",
+      "botanical_mid_dark_blotch: A dark BROWN-BLACK irregular blotch/mass atop or beside the large green leaf cluster, center-right mid zone. COLORS: very dark brown to near-black (~#1a1000). Morphology: irregular organic blob shape — possibly a darkened seed head, a fungal element, a dried flower head, or significant age-toning/ink pooling on an illustration element. Its dark color is unique among the botanical forms.",
+      "botanical_mid_root_reddish: A reddish-brown organic form, lower-center mid zone, below the large green leaf. This is visually the most distinctive non-green element in the illustration zone. COLORS: warm RED-BROWN to SALMON-PINK (~#c06040 to #d08060), clearly painted with a reddish pigment distinct from the tan/ochre roots elsewhere. Morphology: irregular elongated form with possibly bifurcated or branched structure — resembling a root system, a rhizome, or possibly a piece of dried organic material. This RED-BROWN coloration is significant for semantic grounding: reddish roots in Voynich pharmacy contexts may indicate a specific preparation state (e.g., cooked/heated = color change, or a naturally red-rooted plant like madder, beet, or bloodroot).",
+      "botanical_mid_tan_root_large: Tan/golden-ochre root system extending rightward from the large green leaf base, center-right mid zone. COLORS: warm OCHRE-TAN (~#c8a832 to #b89040), painted with a golden-brown pigment. Morphology: long trailing root with branching tendrils, extending horizontally to the right. This matches the classic Voynich root coloration convention for exposed fibrous root systems.",
+      "botanical_mid_bulb_right: Rounded bulb/onion-like form, right side of mid zone. COLORS: pale cream-white with faint ink outline (~#e8d8b0), no strong pigment fill. Morphology: a near-circular or egg-shaped bulb form with slight internal line detailing suggesting layered structure (onion, garlic, or similar bulbous plant). The near-unpigmented appearance may be deliberate (white bulb = clean/dried state) or unfilled illustration.",
+      "botanical_mid_small_greens_left: Several smaller green leaf forms to the left of the large leaf cluster, mid zone. COLORS: medium GREEN, similar to upper botanicals. These appear to be subsidiary or smaller illustration elements accompanying the main mid-zone composition.",
+      "parchment_background: natural vellum cream-tan (#e0d0a8), moderately foxed and aged, with visible fold lines and some staining in lower-left and right margin areas"
+    ]
+  },
+
+  "visual_anchors": [
+    {
+      "anchor_id": "jar_upper_left",
+      "category": "pharma_jar",
+      "colors": ["blue_grey_wash_#8aaac0", "darker_blue_banding_#3a6090", "white_highlight", "dark_brown_ink_outline_#3a2a18"],
+      "morphology_description": "Upper pharmaceutical column-vessel. Tall multi-segmented cylindrical apothecary column with 3–4 barrel-shaped chambers stacked vertically, separated by narrow ringed bands. A flat disc-shaped lid caps the top. A short pedestal base connects to a foot. The barrel sections are painted with BLUE-GREY wash — this blue fill is the primary STATE-OF-MATTER indicator: the blue pigment, applied as a wash within the barrel chambers, strongly suggests a LIQUID content. The fill is uneven and painterly (not geometric), resembling a fluid level. No visible horizontal 'liquid surface line' but the blue wash occupies the lower-to-mid sections of each barrel, consistent with partial-fill liquid state. The segmented structure may represent a multi-stage distillation column or stacked storage unit for a liquid preparation. Small dot ornaments or circles along the sides of some segments may represent rivets, measurement marks, or decorative bands. Label: 'keoraiiin' (@Lc, f102v1.1) is the container label — the prefix 'keo-' may belong to a LIQUID-STATE grammar class.",
+      "state_of_matter": "LIQUID — blue pigment wash inside barrel chambers, painterly uneven fill consistent with fluid contents; no lid seal visible that would indicate dry/powder containment",
+      "bounding_box": {"x_min": 55, "y_min": 112, "x_max": 195, "y_max": 358}
+    },
+    {
+      "anchor_id": "jar_lower_left",
+      "category": "pharma_jar",
+      "colors": ["blue_grey_segments_#8aaac0", "lighter_white_grey_upper_sections", "stronger_blue_lower_sections_#3a6090", "small_blue_square_accent_#3a6aaf", "dark_brown_ink_outline", "decorative_scrolled_foot_ink"],
+      "morphology_description": "Lower pharmaceutical column-vessel. The larger and more architecturally elaborate of the two jars. Taller than the upper jar, with more numerous stacked barrel-segments (approximately 5–6 visible segments). The base is significantly more ornate: a wide spreading foot with scroll-like or claw-shaped supports, resembling an apothecary stand or chalice base. The top terminates in a ridged cap or lid. KEY STATE-OF-MATTER OBSERVATION: The blue pigment distribution in this jar is NON-UNIFORM across segments. The uppermost 2 segments appear LIGHTER / near-white (minimal blue wash), the mid-segments show moderate blue, and the lower segments show stronger blue concentration. This gradient could indicate: (1) a liquid that has settled lower in the vessel — gravitational fluid settlement; (2) different fill-levels per chamber in a segmented dry-ingredient box; (3) fading/age differential. A small solid blue rectangular element on the mid-body is painted with fully opaque blue — possibly a label holder, a window, or a color indicator tab. The more elaborate foot and more numerous chambers may indicate a higher-grade or more complex preparation vessel. Label: 'd??indy' (@Lc, f102v1.15) — the uncertainty markers (d??indy) may reflect difficulty reading a partially damaged or corrected word, OR the scribe's own uncertainty about the ingredient/state. The suffix '-indy' is distinct from '-aiiin' in the upper jar's label.",
+      "state_of_matter": "AMBIGUOUS / POSSIBLY DRY-COMPARTMENTED — the segmented blue distribution with lighter upper chambers is less consistent with a simple liquid fill; the individual opaque-lidded barrel segments may represent a COMPARTMENTALIZED DRY-INGREDIENT storage unit with blue pigment used as a decorative/identification coding rather than a liquid-level indicator. However the gradient toward stronger blue below cannot exclude a settled liquid reading. CRITICAL DISAMBIGUATION TARGET.",
+      "bounding_box": {"x_min": 55, "y_min": 400, "x_max": 205, "y_max": 760}
+    },
+    {
+      "anchor_id": "botanical_upper_dark_spiky",
+      "category": "botany_plant",
+      "colors": ["very_dark_blue_green_#1a3a4a", "near_black_blue_#2a3a28", "dark_brown_ink_outline"],
+      "morphology_description": "Crown or comb-shaped spiky plant form in the upper-center illustration zone. Multiple upward-pointing narrow spike-leaves of roughly equal length arranged in a tight semicircular crown — resembling a thistle, Eryngium, or crown-of-thorns motif. The dramatically dark coloration (nearly indigo or dark teal) is unique on this folio. This may indicate a plant with dark/bruised leaves, a night-harvested plant, or use of a different pigment for semantic distinction. The label 'okeody' (@Lf, f102v1.2) is associated with this element.",
+      "state_of_matter": "N/A (botanical illustration)",
+      "bounding_box": {"x_min": 305, "y_min": 155, "x_max": 455, "y_max": 305}
+    },
+    {
+      "anchor_id": "botanical_upper_small_blue_square",
+      "category": "pharma_detail_or_botanical_marker",
+      "colors": ["solid_opaque_blue_#3a6aaf", "dark_brown_ink_outline"],
+      "morphology_description": "Small solid blue square or rectangular element, upper-center zone, adjacent to or just above the dark spiky plant. Approximately 30×25 normalized units. The solid opaque blue (same pigment as the jar banding) may represent: a small vial or ampoule of liquid; a blue stone ingredient (lapis, azurite); a container detail; or a color-coded ingredient indicator. Its isolation from the botanical forms around it and its geometric regularity (unlike organic plant forms) suggests it is a pharmaceutical artifact rather than a botanical element. No transcription label is directly assigned to it in the loci — it may be covered by one of the @Lf labels in proximity.",
+      "state_of_matter": "POSSIBLE LIQUID CONTAINER or MINERAL INGREDIENT indicator — solid blue, compact, non-organic morphology",
+      "bounding_box": {"x_min": 430, "y_min": 160, "x_max": 470, "y_max": 198}
+    },
+    {
+      "anchor_id": "botanical_upper_lobed_left",
+      "category": "botany_leaf",
+      "colors": ["medium_dark_green_#3a7a4a", "dark_ink_outline"],
+      "morphology_description": "Broad irregular lobed leaf form, upper-left of center. 4–5 rounded finger-like lobes, hand or mitten shaped. Solid green wash fill. A smaller subsidiary lobed form appears below-left. Likely the illustration element labeled by one of the @Lf loci (f102v1.3 or f102v1.4).",
+      "state_of_matter": "N/A",
+      "bounding_box": {"x_min": 235, "y_min": 135, "x_max": 380, "y_max": 285}
+    },
+    {
+      "anchor_id": "botanical_upper_tan_root",
+      "category": "botany_root",
+      "colors": ["tan_ochre_#c8a060", "warm_brown_#a07840"],
+      "morphology_description": "Small branched tan-ochre root structure in the upper-center-left zone, below the large lobed leaf. Irregular branched morphology with 2–3 root arms. The warm tan color is consistent with dried/exposed root systems in Voynich herbal convention. Small relative to the leaf forms around it, suggesting it represents a root detail of an adjacent plant rather than a standalone root illustration.",
+      "state_of_matter": "DRY ROOT morphology — tan/ochre coloring consistent with dried root material in Voynich pharmacy context",
+      "bounding_box": {"x_min": 260, "y_min": 270, "x_max": 335, "y_max": 340}
+    },
+    {
+      "anchor_id": "botanical_mid_large_green_leaf",
+      "category": "botany_leaf",
+      "colors": ["vivid_medium_deep_green_#3a8050", "darker_green_outlines_#2a6040"],
+      "morphology_description": "Dominant central illustration element of the folio's mid-zone. A very large, broad, multi-lobed leaf cluster with pointed sub-lobes — resembling a large plantain, burdock, or dock-type plant leaf. The leaf occupies much of the horizontal width of the illustration zone. Internal outline lines show the leaf venation or lobe divisions. This is the most prominent botanical element in terms of visual mass. Label 'ypcholdy' (@Lf, f102v1.16) is associated with this element or its adjacent root.",
+      "state_of_matter": "N/A",
+      "bounding_box": {"x_min": 215, "y_min": 468, "x_max": 660, "y_max": 640}
+    },
+    {
+      "anchor_id": "botanical_mid_dark_blotch",
+      "category": "botany_seedhead_or_darkened_element",
+      "colors": ["very_dark_brown_near_black_#1a1000"],
+      "morphology_description": "Irregular dark brown-to-black organic mass on or adjacent to the large green leaf cluster, mid-center-right. Its strongly darkened coloration sets it apart from all other botanical elements. Possible interpretations: (1) a dark seed head or dried flower remnant; (2) a fungal or gall growth on the leaf; (3) a heavily inked or emphasized element to distinguish this specific ingredient by visual state (darkened = dried? burnt? concentrated extract?). Its unique color is a SEMANTIC GROUNDING signal — darkened elements may correlate with specific text prefixes indicating altered/processed states.",
+      "state_of_matter": "POSSIBLE DRIED or PROCESSED MATERIAL — extreme darkening distinct from fresh green plant material",
+      "bounding_box": {"x_min": 575, "y_min": 468, "x_max": 655, "y_max": 540}
+    },
+    {
+      "anchor_id": "botanical_mid_root_reddish",
+      "category": "botany_root",
+      "colors": ["reddish_brown_#c06040", "salmon_pink_#d08060", "warm_red_ochre"],
+      "morphology_description": "The most visually distinctive botanical element: an elongated reddish-brown to salmon-pink organic form in the lower-center mid zone, below the large leaf. Morphology: irregular bifurcated or multi-branched form resembling a root system, rhizome, or tuber — possibly a mandrake-type or beet-type root. The RED-BROWN to PINK coloration is unique among the botanical elements and is a critical semantic grounding target. In medieval pharmacy: reddish roots often correspond to specific categories (madder, beet, bloodroot, sarsaparilla). The reddish color may also indicate a preparation state — heated/cooked roots change color from white/tan to reddish-brown. Label 'losalody' (@Lf, f102v1.17) is likely associated with this element, and its text morphology (prefix 'losa-') should be cross-referenced with any liquid/heated grammar class.",
+      "state_of_matter": "RED ROOT — color indicates either a naturally red-rooted plant OR a root that has undergone thermal preparation (cooked/heated = reddening). This is a primary semantic grounding target for the heat/preparation grammar hypothesis.",
+      "bounding_box": {"x_min": 215, "y_min": 615, "x_max": 450, "y_max": 700}
+    },
+    {
+      "anchor_id": "botanical_mid_root_tan_long",
+      "category": "botany_root",
+      "colors": ["golden_ochre_#c8a832", "warm_tan_#b89040"],
+      "morphology_description": "Long trailing tan-golden root system extending rightward from approximately the base of the large green leaf, mid-center to right zone. Morphology: sinuous elongated root with multiple fine branching tendrils. The warm gold-tan pigment matches classic Voynich root coloration. This root form is typical of a fibrous tap-root system. Label 'Aloften' or similar visible in the image near this element — however per transcription, 'opchdard' (@Lf, f102v1.18) may label this root or the adjacent bulb.",
+      "state_of_matter": "DRY ROOT — tan/ochre coloring typical of dried root material",
+      "bounding_box": {"x_min": 480, "y_min": 585, "x_max": 730, "y_max": 660}
+    },
+    {
+      "anchor_id": "botanical_mid_bulb_right",
+      "category": "botany_bulb",
+      "colors": ["pale_cream_white_#e8d8b0", "light_green_tinge", "brown_ink_outline"],
+      "morphology_description": "Rounded bulb-like or onion-like form at the right side of the mid zone. Nearly circular with slight layered internal detailing (concentric inner lines suggesting a bulb structure). Minimal pigment fill — largely the natural parchment tone with ink outline and faint green tinge. The near-white/unpigmented appearance may indicate: (1) a white-fleshed bulb (garlic, onion, white turnip); (2) an unfilled/uncolored illustration; (3) a deliberately PALE color to indicate a dry, cleaned, or bleached ingredient state. Label 'opchdard' (@Lf, f102v1.18) or 'Aloften' visible text in the image may label this element.",
+      "state_of_matter": "POTENTIALLY DRY/CLEANED — pale unpigmented form may indicate a dried or cleaned bulb ingredient distinct from the richly pigmented root forms",
+      "bounding_box": {"x_min": 700, "y_min": 530, "x_max": 810, "y_max": 640}
+    }
+  ],
+
+  "isolated_labels": [
+    {
+      "locus": "<f102v1.1,@Lc>",
+      "raw_text": "keoraiiin",
+      "target_anchor_id": "jar_upper_left",
+      "placement_context": "Written directly alongside or adjacent to the upper pharmaceutical column-jar, left margin zone. The @Lc (Label for Container) type confirms this is the named label for the jar itself — not a content description but a vessel identifier or ingredient name stored in that vessel. Positioned at approximately the mid-height of the upper jar's body, likely written to the right of the jar's outer edge.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'keo-' — if the upper jar is LIQUID-filled (blue wash evidence), then 'keo-' prefix may belong to the LIQUID CONTAINER grammar class. The triple terminal '-aiiin' is a common Language A ending, possibly indicating a plural/collective or a preparation class.",
+      "bounding_box": {"x_min": 130, "y_min": 210, "x_max": 265, "y_max": 238}
+    },
+    {
+      "locus": "<f102v1.2,@Lf>",
+      "raw_text": "okeody",
+      "target_anchor_id": "botanical_upper_dark_spiky",
+      "placement_context": "Isolated label written near the dark blue-green spiky plant in the upper illustration zone, approximately above or beside the crown-shaped form. The @Lf type indicates a figure/flora label. Positioned horizontally in the upper center zone.",
+      "orientation": "horizontal",
+      "semantic_note": "Word 'okeody' — prefix 'oke-' and suffix '-ody'. The dark blue-green color of the labeled plant is semantically significant: this is the darkest-colored botanical on the folio.",
+      "bounding_box": {"x_min": 455, "y_min": 165, "x_max": 558, "y_max": 190}
+    },
+    {
+      "locus": "<f102v1.3,@Lf>",
+      "raw_text": "okeody",
+      "target_anchor_id": "botanical_upper_lobed_left",
+      "placement_context": "IDENTICAL text to f102v1.2 ('okeody'). This second occurrence labels a different botanical element — most likely one of the medium-green lobed leaf forms in the upper zone, possibly the paired smaller lobed form below the main lobed leaf. The duplication of the exact same word for two different plants is a critical transcription fidelity point: it may indicate the two plants belong to the same morphological or pharmacological category.",
+      "orientation": "horizontal",
+      "semantic_note": "DUPLICATE LABEL: same word 'okeody' applied to two distinct plants. This could mean: (1) both plants are the same species shown from different angles; (2) the word describes a category/property shared by both (e.g., 'green-leaf type'); (3) the scribe used a generic label for similar-looking elements.",
+      "bounding_box": {"x_min": 295, "y_min": 295, "x_max": 385, "y_max": 320}
+    },
+    {
+      "locus": "<f102v1.4,@Lf>",
+      "raw_text": "daiisaly",
+      "target_anchor_id": "botanical_upper_lobed_left",
+      "placement_context": "Label for a botanical element in the upper zone, likely the large primary lobed leaf form or the small frilly/serrated cluster. Written horizontally in the upper-center area, below the dark spiky plant level.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'daiisal-' — the '-aly' suffix is less common; 'daiisaly' is a longer label word which may indicate a more specific plant name or preparation descriptor.",
+      "bounding_box": {"x_min": 235, "y_min": 320, "x_max": 365, "y_max": 345}
+    },
+    {
+      "locus": "<f102v1.5,@Lf>",
+      "raw_text": "ypary",
+      "target_anchor_id": "botanical_upper_rounded_right",
+      "placement_context": "Short label for a botanical element in the upper-right zone, likely the rounded bushy green form or one of the smaller forms in that area. Written horizontally, upper-right of the illustration zone.",
+      "orientation": "horizontal",
+      "semantic_note": "Very short label: 'ypary' — prefix 'yp-' with suffix '-ary'. Short label words in @Lf context may indicate common/well-known ingredients requiring only a brief identifier.",
+      "bounding_box": {"x_min": 570, "y_min": 295, "x_max": 640, "y_max": 318}
+    },
+    {
+      "locus": "<f102v1.6,@Lf>",
+      "raw_text": "opchytcy",
+      "target_anchor_id": "botanical_upper_dark_spiky",
+      "placement_context": "Label in the upper zone, likely for one of the remaining unlabeled upper botanical forms — possibly the small frilly-edged leaf cluster or a form adjacent to the spiky plant. Written horizontally in the upper-center band.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'opch-' — this prefix appears in several Voynich pharmaceutical labels. Suffix '-ytcy' is unusual. The 'opch-' class may be associated with specific preparation methods.",
+      "bounding_box": {"x_min": 390, "y_min": 320, "x_max": 510, "y_max": 345}
+    },
+    {
+      "locus": "<f102v1.15,@Lc>",
+      "raw_text": "d??indy",
+      "target_anchor_id": "jar_lower_left",
+      "placement_context": "Container label (@Lc) for the LOWER pharmaceutical column-jar. Written alongside the lower jar's body, left margin zone, approximately at the mid-height of the lower jar. The '??' uncertainty markers are retained exactly as transcribed — indicating either partial illegibility in the source or genuine scribal uncertainty.",
+      "orientation": "horizontal",
+      "semantic_note": "CRITICAL COMPARISON: Upper jar label = 'keoraiiin'; Lower jar label = 'd??indy'. These are DIFFERENT words for two visually similar but not identical jars. Combined with the state-of-matter difference (upper jar = clearer liquid-blue vs. lower jar = ambiguous segmented fill), the different label grammar (prefix 'keo-' vs. 'd??-') may encode the LIQUID vs. DRY state distinction we are searching for. The suffix '-indy' vs. '-aiiin' is a potential grammatical differentiator. The uncertainty '??' in the lower jar's label may specifically occur because the dry-state vocabulary is rarer or more complex.",
+      "bounding_box": {"x_min": 130, "y_min": 590, "x_max": 248, "y_max": 615}
+    },
+    {
+      "locus": "<f102v1.16,@Lf>",
+      "raw_text": "ypcholdy",
+      "target_anchor_id": "botanical_mid_large_green_leaf",
+      "placement_context": "Label for the large green leaf cluster in the mid-zone, written horizontally just below or beside the leaf mass. Likely positioned in the text gap between the illustration and the paragraph block below.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'ypch-' — note the similarity to 'opch-' (f102v1.6). The 'p/ypch-' class may represent a botanical processing prefix. Suffix '-oldy'.",
+      "bounding_box": {"x_min": 215, "y_min": 648, "x_max": 350, "y_max": 672}
+    },
+    {
+      "locus": "<f102v1.17,@Lf>",
+      "raw_text": "losalody",
+      "target_anchor_id": "botanical_mid_root_reddish",
+      "placement_context": "Label for the reddish-brown root element in the mid-zone lower area. Written horizontally near the root form. CRITICAL: if this label describes the RED/REDDISH root, then the prefix 'losa-' may encode a HEATED or COLOR-CHANGED state.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'losa-' + suffix '-lody'. IF associated with the RED reddish-brown root (heat-altered color), then 'losa-' is a candidate for the HEATED/PROCESSED material prefix class. Cross-reference urgently with other loci containing 'losa-' prefix.",
+      "bounding_box": {"x_min": 385, "y_min": 660, "x_max": 515, "y_max": 683}
+    },
+    {
+      "locus": "<f102v1.18,@Lf>",
+      "raw_text": "opchdard",
+      "target_anchor_id": "botanical_mid_root_tan_long",
+      "placement_context": "Label for a botanical/root element in the mid-right zone, likely the long trailing tan root or the pale bulb form. Written horizontally in the mid-right illustration area.",
+      "orientation": "horizontal",
+      "semantic_note": "PREFIX 'opchd-' — variant of the 'opch-' class seen in f102v1.6. Suffix '-ard' (unusual terminal). If labeling the TAN dry root rather than the reddish root, the 'opch-' prefix may correlate with the DRY ROOT STATE, contrasting with 'losa-' for the heated/red root.",
+      "bounding_box": {"x_min": 590, "y_min": 648, "x_max": 718, "y_max": 672}
+    }
+  ],
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_block",
+      "description": "First paragraph block (f102v1.7–14), written as horizontal lines of Voynich text below the upper illustration zone (below the botanical and jar illustrations in the upper half of the folio). This block of 8 lines runs from approximately y=370 to y=530 in normalized coordinates. The text is standard left-to-right horizontal script. The lines are closely spaced. No bisection markers in this block.",
+      "lines": [
+        {
+          "locus": "<f102v1.7,@P0>",
+          "raw_text": "paaiin.ockhey.pchol.doiin.shey.shockhsy.sheocthy.qokeody",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 370, "x_max": 910, "y_max": 393},
+          "interaction": "Paragraph start (@P0). Full-width line. The terminal word 'qokeody' echoes the @Lf label 'okeody' — identical root with a 'q-' prefix added, potentially indicating a derived/modified form of the labeled ingredient. No bisection."
+        },
+        {
+          "locus": "<f102v1.8,+P0>",
+          "raw_text": "dairn.ol.chey.ctheol.qokeor.os.aiin.cheo,r.qokey.choky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 396, "x_max": 895, "y_max": 418},
+          "interaction": "Paragraph continuation. The comma in 'cheo,r' is a word-internal separator retained exactly. No bisection."
+        },
+        {
+          "locus": "<f102v1.9,+P0>",
+          "raw_text": "teody.ckheey.qokeol.sheky.qockheor.or.cheo.r,chol.qoteor.dar",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 421, "x_max": 910, "y_max": 443},
+          "interaction": "Paragraph continuation. The 'cheo.r,chol' sequence contains both a dot separator and an internal comma — unusual double separator, retained exactly. No bisection."
+        },
+        {
+          "locus": "<f102v1.10,+P0>",
+          "raw_text": "kochor.ol.ydaiin.choraiin.sheey.ykeey.korshey.qokey.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 446, "x_max": 875, "y_max": 468},
+          "interaction": "Paragraph continuation. No bisection. Short terminal 'dy' is a common Voynich paragraph-continuation word."
+        },
+        {
+          "locus": "<f102v1.11,+P0>",
+          "raw_text": "s,ol.chol.qooiin.qokol.cheol.chey.kalcheey.daiin.cheody.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 471, "x_max": 900, "y_max": 493},
+          "interaction": "Paragraph continuation. The initial 's,ol' has an internal comma separator. No bisection."
+        },
+        {
+          "locus": "<f102v1.12,+P0>",
+          "raw_text": "y.cheol.cheol.doiir.shekcheor.s.ar.cheor.ckhey.pchodaiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 496, "x_max": 905, "y_max": 518},
+          "interaction": "Paragraph continuation. The initial 'y.' is a single-glyph word followed by a dot separator — an unusual opening, retained exactly. No bisection."
+        },
+        {
+          "locus": "<f102v1.13,+P0>",
+          "raw_text": "toiin.ol.daiin.qkol.cheol.daiin.qokar.oaiin.cheey.saiim",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 521, "x_max": 895, "y_max": 543},
+          "interaction": "Paragraph continuation. Terminal 'saiim' with double-m ending. No bisection."
+        },
+        {
+          "locus": "<f102v1.14,+P0>",
+          "raw_text": "chor.cheor.ckhey.oteol.ackheky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 546, "x_max": 580, "y_max": 568},
+          "interaction": "SHORT paragraph terminal line — only 5 words, occupying approximately the left 50% of the line width. This brevity suggests it is the end of a paragraph section. The word 'ackheky' as terminal may be a paragraph-close marker. No bisection."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_paragraph_block",
+      "description": "Second paragraph block (f102v1.19–24), written below the middle illustration zone. This block begins with the bisected line f102v1.19 (@P0), where the lower jar's column body splits the line. Lines f102v1.20–24 are full-width continuation and close lines. Block occupies approximately y=755 to y=970 in normalized coordinates.",
+      "lines": [
+        {
+          "locus": "<f102v1.19,@P0>",
+          "raw_text": "faidaiin.dair.or.sheol.okeeol.qoteol<->orockhey.olkey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 757, "x_max": 875, "y_max": 779},
+          "left_segment": {
+            "raw_text": "faidaiin.dair.or.sheol.okeeol.qoteol",
+            "bounding_box": {"x_min": 95, "y_min": 757, "x_max": 188, "y_max": 779},
+            "note": "Left segment ends at approximately x_max: 188, at the left edge of the lower jar body"
+          },
+          "bisection_gap": {
+            "x_min": 189,
+            "x_max": 210,
+            "visual_anchor_id": "jar_lower_left",
+            "description": "Gap of approximately 21 normalized units caused by the cylindrical body or the ornate pedestal foot of jar_lower_left. The jar's column body at this vertical position (near its base/foot, approximately y=757–779) physically interrupts the text line. The scribe wrote the left segment up to the jar's left edge, then resumed writing to the right of the jar. This is a classic Voynich text-around-illustration interaction."
+          },
+          "right_segment": {
+            "raw_text": "orockhey.olkey",
+            "bounding_box": {"x_min": 211, "y_min": 757, "x_max": 875, "y_max": 779}
+          },
+          "interaction": "BISECTED LINE — <-> marker. The lower pharmaceutical column-jar (jar_lower_left) bisects this paragraph-start line at approximately x:189–210. Left segment: 'faidaiin.dair.or.sheol.okeeol.qoteol' (6 words, ending before the jar). Right segment: 'orockhey.olkey' (2 words, resuming after the jar). The paragraph begins with 'fai-' prefix — the 'faidaiin' opener is notable as a paragraph-start word with the 'fai-' initial cluster, possibly a formula or recipe introduction marker. The bisection by the lower jar physically connects this paragraph to the jar as its subject or context."
+        },
+        {
+          "locus": "<f102v1.20,+P0>",
+          "raw_text": "soiin.shey.qokeey.qoeeol.qokeody.sheody.qoeteey.okeey.dam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 782, "x_max": 905, "y_max": 804},
+          "interaction": "Paragraph continuation. No bisection. The word 'qokeody' here echoes the @Lf label 'okeody' from f102v1.2/3 and the paragraph-start word from f102v1.7 — this word appears 3+ times in this folio, a high-frequency lexical item likely central to the pharmaceutical content. Terminal 'dam'."
+        },
+        {
+          "locus": "<f102v1.21,+P0>",
+          "raw_text": "qoeeody.ychey.okeody.deody.okody.cheo,daiin.cheody.sam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 807, "x_max": 895, "y_max": 829},
+          "interaction": "Paragraph continuation. 'okeody' appears again — 4th occurrence in this folio. The '-ody' suffix cluster (okeody, cheody, qoeeody, deody) is the dominant suffix pattern of this paragraph. Terminal 'sam'."
+        },
+        {
+          "locus": "<f102v1.22,+P0>",
+          "raw_text": "ykeeody.chodaiin.qokeos.cheol.qool.chsey.oteody.okchy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 832, "x_max": 885, "y_max": 854},
+          "interaction": "Paragraph continuation. 'ykeeody' and 'oteody' continue the '-ody' suffix pattern. No bisection."
+        },
+        {
+          "locus": "<f102v1.23,+P0>",
+          "raw_text": "ksheody.sho.qokey.sheody.qockhey.ol,cheor.odain.okchody",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 857, "x_max": 900, "y_max": 879},
+          "interaction": "Paragraph continuation. 'ksheody' and 'sheody' — the '-ody' pattern continues dominant. 'ol,cheor' has an internal comma. No bisection."
+        },
+        {
+          "locus": "<f102v1.24,+P0>",
+          "raw_text": "ysaiin.ckhey.qoor.cheol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 95, "y_min": 882, "x_max": 460, "y_max": 904},
+          "interaction": "VERY SHORT final line — only 4 words, occupying approximately the left 40% of the line width. This is the paragraph close or terminal line. The brevity pattern (short final line) matches the upper paragraph's short terminal line (f102v1.14). No bisection. The 'cheol' terminal is a clean ending word."
+        }
+      ]
+    }
+  ],
+
+  "semantic_grounding_summary": {
+    "state_of_matter_findings": {
+      "jar_upper_left": {
+        "label": "keoraiiin",
+        "visual_state": "LIQUID — blue wash fill in barrel chambers",
+        "label_prefix": "keo-",
+        "label_suffix": "-aiiin",
+        "hypothesis": "If confirmed liquid, 'keo-' prefix = LIQUID container grammar class"
+      },
+      "jar_lower_left": {
+        "label": "d??indy",
+        "visual_state": "AMBIGUOUS — gradient blue fill across segmented chambers, possibly DRY/COMPARTMENTED",
+        "label_prefix": "d??- (partially illegible)",
+        "label_suffix": "-indy",
+        "hypothesis": "If DRY/powder state, suffix '-indy' vs. '-aiiin' may be the liquid/dry grammatical discriminator. The scribal uncertainty (??) may itself indicate a dry/transitional state"
+      },
+      "botanical_mid_root_reddish": {
+        "label": "losalody",
+        "visual_state": "RED-BROWN ROOT — possible heated/cooked color change OR naturally red-rooted plant",
+        "label_prefix": "losa-",
+        "hypothesis": "If heat-altered, 'losa-' prefix = HEATED/PROCESSED state grammar class"
+      },
+      "botanical_mid_root_tan_long": {
+        "label": "opchdard",
+        "visual_state": "TAN/DRY ROOT — standard dried root coloration",
+        "label_prefix": "opchd-",
+        "hypothesis": "If dry unprocessed root, 'opchd-' prefix = DRY/RAW ROOT grammar class"
+      }
+    },
+    "high_frequency_word": {
+      "word": "okeody / qokeody / keody variants",
+      "occurrences_in_folio": "appears as @Lf label (x2), in paragraph 1 start line, and 3+ times in paragraph 2",
+      "significance": "The most frequent lexical item on this folio — likely a key pharmaceutical term, possibly the name of the primary ingredient or the fundamental preparation verb/noun in this recipe context"
+    },
+    "suffix_pattern": {
+      "dominant_suffix": "-ody",
+      "frequency": "appears in at least 12 words across both paragraphs and labels",
+      "visual_context": "The '-ody' suffix dominates both paragraphs which describe the illustrated pharmaceutical contents — this suffix may encode a specific material state, ingredient category, or preparation step central to the illustrated recipe"
+    }
+  }
+}

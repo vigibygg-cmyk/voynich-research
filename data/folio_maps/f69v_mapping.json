@@ -1,0 +1,466 @@
+{
+  "folio": "f69v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom). NOTE: f69v is a FOLDOUT page spanning approx. 3 physical page-widths visible in the image. The coordinate system is applied independently to EACH of the three circular diagram zones. A GLOBAL coordinate system (G_) is also provided mapping the full foldout image.",
+  "color_palette_legend": {
+    "NOTE": "Color documentation is a CRITICAL component of this mapping per task specification. All pigment descriptions are based on direct visual analysis of the uploaded f69v.jpg.",
+    "ink_brown_main_script": "Medium warm brown — the primary ink used for all Voynich text glyphs across all three diagrams and the right-margin prose block. Consistent tone throughout the folio.",
+    "pigment_blue_deep": "Deep cobalt/Prussian-range blue — used for the spoke-cylinder objects in diagram_A (left circle). Bold saturated application, slightly oxidized at edges giving a dusty dark-blue appearance.",
+    "pigment_green_teal": "A warm teal-green pigment — used for the cap/head ends of the cylinder objects in diagram_A. Distinct from the blue of the shaft bodies. Applied with a slightly looser brushstroke than the blue.",
+    "pigment_blue_wash_light": "A pale watery sky-blue wash — used extensively in diagram_B (center circle) for the cloud/leaf-lobe shapes filling the inner circle. Thin application, translucent, uneven at edges.",
+    "pigment_blue_medium_stroke": "Medium-intensity blue — used for the outline strokes of the inner lobe forms in diagram_B and for the radiating spoke-ray lines in diagram_C (right circle).",
+    "pigment_gold_yellow": "A warm yellow-ochre/gold — used for the central sun-face disc in diagram_C and for the wheel-spoke framework in diagram_B. Not a true metallic gold but a dense yellow pigment applied solidly.",
+    "pigment_blue_dark_petal": "The darkest blue in the folio — used for the large pointed petal/ray shapes in diagram_C. Heavier application than the wash blue, with visible brushstroke directionality.",
+    "ink_red_marginal": "A faded red-brown ink visible in very small isolated marginal script elements at the extreme left edge of diagram_A (a single word label). Distinct from the main brown script ink.",
+    "parchment_base": "Warm cream/ivory — the bare parchment ground, slightly discolored with age, visible between all illustrated elements and in the wide margins.",
+    "ink_faded_grey_circle_lines": "The geometric circle outlines defining the concentric rings of all three diagrams are drawn in a pale grey-brown ink, distinct from the main script brown — possibly the same ink applied more dilutely, or a separate underdrawing medium."
+  },
+  "audit_log": {
+    "extracted_folio_id": "f69v",
+    "total_loci_count": 31,
+    "unique_loci_found": [
+      "<f69v.1,@Cc>",
+      "<f69v.2,@Cc>",
+      "<f69v.3,@Cc>",
+      "<f69v.4,@Ri>",
+      "<f69v.5,@Ri>",
+      "<f69v.6,@Ri>",
+      "<f69v.7,@Ri>",
+      "<f69v.8,@Ri>",
+      "<f69v.9,@Ri>",
+      "<f69v.10,@Ri>",
+      "<f69v.11,@Ri>",
+      "<f69v.12,@Ri>",
+      "<f69v.13,@Ri>",
+      "<f69v.14,@Ri>",
+      "<f69v.15,@Ri>",
+      "<f69v.16,@Ri>",
+      "<f69v.17,@Ri>",
+      "<f69v.18,@Ri>",
+      "<f69v.19,@Ri>",
+      "<f69v.20,@Ri>",
+      "<f69v.21,@Ri>",
+      "<f69v.22,@Ri>",
+      "<f69v.23,@Ri>",
+      "<f69v.24,@Ri>",
+      "<f69v.25,@Ri>",
+      "<f69v.26,@Ri>",
+      "<f69v.27,@Ri>",
+      "<f69v.28,@Ri>",
+      "<f69v.29,@Ri>",
+      "<f69v.30,@Ri>",
+      "<f69v.31,@Ri>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers in any locus of f69v — all text runs in circular/radial arcs, not linear lines bisected by stems.",
+      "f69v.1, f69v.2, f69v.3 are ALL @Cc type: 'inside a Central Circle' — these three loci represent text written INSIDE or immediately around the central circular area of one or more of the three diagrams. Based on the three-circle layout visible in the image and the $I=C metadata (Cosmological/Circular diagram), @Cc loci most likely belong to the OUTER RING text of all three circles collectively OR to the innermost ring of individual circles.",
+      "f69v.4 through f69v.31 are ALL @Ri type — 'Radial Inscription' labels. These 28 short single- or two-word entries are the individual spoke/ray labels inscribed along the radial spokes of the diagrams. Each @Ri locus corresponds to ONE spoke label positioned along a specific radial arm.",
+      "f69v.1 contains multiple comma-disambiguation markers: 'okair,sh', 'ote,y', 'cho,aiin', 'ey,keody' — all retained exactly.",
+      "f69v.2 contains one comma-disambiguation marker: 'ch,y' — retained exactly.",
+      "f69v.3 contains two comma-disambiguation markers: 'dair,y', 'oteo,arar' — retained exactly.",
+      "Folio metadata: <f69v> <! $Q=J $P=B $F=a $B=1 $I=C $H=4> — Quality=J (good), Page=B (verso), Folio-within-bifolio=a, Bifolio=1, Illustration-type=C (Cosmological/Circular diagrams), Hand=4.",
+      "The $I=C designation confirms this is a full cosmological diagram folio — consistent with the three large concentric-ring wheel diagrams visible in the image.",
+      "The $H=4 designation indicates Hand 4 scribal attribution.",
+      "No @Lp (plant label), @Ls (star label), or @L0 (generic isolated label) loci — only @Cc (Central Circle text) and @Ri (Radial Inscription) types are present.",
+      "This folio is a FOLDOUT: the physical page extends across approximately three normal page widths, containing three separate circular wheel diagrams designated diagram_A (leftmost), diagram_B (center), and diagram_C (rightmost), plus a right-margin prose text block."
+    ],
+    "visual_anchor_inventory": [
+      "diagram_A_outer_circle: The large outer geometric circle boundary of the leftmost diagram — drawn in faded grey-brown ink. Contains @Cc ring text running along its inner circumference.",
+      "diagram_A_inner_circle: A secondary concentric circle inside diagram_A creating a ring-band for text.",
+      "diagram_A_hub_center: A small circular hub at the precise geometric center of diagram_A — drawn in pale ink, from which all radial spokes originate.",
+      "diagram_A_spoke_system: 28 radial spokes or arms radiating outward from the central hub, evenly distributed at approximately 12.8-degree intervals. Each spoke terminates in a colored cylinder object.",
+      "diagram_A_cylinder_shafts: The elongated cylinder bodies on each spoke — painted in DEEP COBALT/PRUSSIAN BLUE pigment. Approximately 28 objects total, each ~35–50 normalized units long (within diagram_A's coordinate space), with rounded ends.",
+      "diagram_A_cylinder_caps: The rounded cap or head at the outer end of each cylinder — painted in TEAL-GREEN pigment. Clearly distinct in color from the blue shaft bodies. Cap is approximately 8–12 units wide.",
+      "diagram_A_cc_text_ring: The band of @Cc text running as a circular arc around the interior of diagram_A's outer ring. This text runs counterclockwise (or clockwise) in arc formation following the ring curvature.",
+      "diagram_A_marginal_red_label: A single short text label in reddish ink at the extreme left margin outside the outer circle of diagram_A. Positioned at approximately 9-o'clock relative to the circle center.",
+      "diagram_B_outer_circle: The large outer geometric circle of the center diagram — grey-brown ink.",
+      "diagram_B_inner_circle: Concentric inner circle creating the annular text ring zone for diagram_B.",
+      "diagram_B_hub_center: Small hub at center of diagram_B.",
+      "diagram_B_wheel_spokes: Golden-yellow spoke arms (approximately 8 main spokes) forming a wheel framework inside the inner circle of diagram_B. Drawn with GOLD/YELLOW-OCHRE pigment.",
+      "diagram_B_cloud_lobe_forms: Large rounded lobe or cloud shapes filling the inner circle zone of diagram_B, extending outward between the wheel spokes. Painted in PALE BLUE WASH — a translucent sky-blue, applied unevenly with visible brush marks. The lobes have irregular organic outlines suggesting clouds, petals, or feathers.",
+      "diagram_B_lobe_stroke_outlines: The outer stroke lines of the cloud-lobe forms use MEDIUM BLUE ink, slightly darker than the wash fill, giving a defined contour to otherwise soft shapes.",
+      "diagram_B_cc_text_ring: @Cc ring text running in arc formation within the annular band of diagram_B.",
+      "diagram_B_spoke_labels: Individual short @Ri labels positioned along or near each spoke arm of diagram_B.",
+      "diagram_C_outer_circle: The large outer geometric circle of the rightmost diagram — grey-brown ink.",
+      "diagram_C_inner_circle: Concentric inner circle of diagram_C.",
+      "diagram_C_hub_sun_face: The central element of diagram_C is a HUMAN FACE drawn inside a circular disc — this is a SUN FACE motif, with simplified facial features (two eyes, a nose, a smiling/neutral mouth). The disc is painted in WARM YELLOW-OCHRE/GOLD pigment. The face itself is rendered in fine brown ink line-work.",
+      "diagram_C_petal_rays: Eight large pointed petal or ray shapes radiating outward from around the sun-face disc, filling the inner circle zone. Painted in DARK BLUE pigment — the heaviest, most saturated blue application in the entire folio. The petal shapes have pointed tips and broad bases, overlapping slightly at their roots near the center.",
+      "diagram_C_spoke_framework: Thin radial spoke lines visible behind and between the petal shapes, drawn in MEDIUM BLUE ink, likely the underlying geometric framework before petals were painted.",
+      "diagram_C_cc_text_ring: @Cc ring text in the annular band of diagram_C.",
+      "diagram_C_spoke_labels: Individual short @Ri labels along spoke positions of diagram_C.",
+      "right_margin_prose_block - A block of Voynich prose text in approximately 15–18 lines positioned at the extreme right edge of the foldout, partially cut off by the parchment/binding edge. Written in standard brown ink. This block is NOT transcribed in the RF1b-er.txt as f69v loci — it may belong to f70r or an adjacent folio section.",
+      "foldout_spine_shadow - A dark shadow zone at the center of the physical image where the foldout page meets the book binding spine — creates a slight darkening between diagram_A and diagram_B. Not an illustration element.",
+      "parchment_orange_stain - A small orange-brown stain or foxing spot visible on the bare parchment between diagram_B and diagram_C, approximately at mid-height of the foldout. Not a deliberate illustration element."
+    ]
+  },
+  "global_coordinate_note": {
+    "explanation": "Because f69v is a three-panel foldout, the 1000x1000 normalized grid is applied LOCALLY to each diagram's bounding square. Global (G_) coordinates reference the full foldout image width (~3100px wide, ~900px tall in the source image). Local coordinate spaces: diagram_A occupies G_x: 50–420; diagram_B occupies G_x: 430–790; diagram_C occupies G_x: 800–1150; right_prose_block occupies G_x: 1155–1300. All three diagrams share approximately G_y: 50–950."
+  },
+  "visual_anchors": {
+    "diagram_A_outer_circle": {
+      "description": "The outermost defining circle of the left cosmological wheel. Drawn in thin grey-brown ink with a compass or guided hand. Diameter approximately 340 normalized units in diagram_A local space. The circle is geometrically regular. The outer circumference defines the text-free outer margin of the diagram. The @Cc ring text runs in a band just inside this boundary.",
+      "color": "Grey-brown ink — pale, consistent line weight ~2 normalized units.",
+      "bounding_box_local_A": {"x_min": 30, "y_min": 30, "x_max": 970, "y_max": 970}
+    },
+    "diagram_A_inner_circle": {
+      "description": "A secondary concentric circle within diagram_A, creating the inner boundary of the text-ring zone and the outer boundary of the spoke/cylinder illustration zone. This circle separates the @Cc ring text from the cylinder spokes.",
+      "color": "Grey-brown ink — same weight as outer circle.",
+      "bounding_box_local_A": {"x_min": 155, "y_min": 155, "x_max": 845, "y_max": 845}
+    },
+    "diagram_A_hub_center": {
+      "description": "A small filled or open circle at the precise geometric center of diagram_A, from which all 28 radial spoke-cylinder arms radiate. The hub is approximately 25–30 normalized units in diameter.",
+      "color": "Pale brown ink outline; interior parchment-cream.",
+      "bounding_box_local_A": {"x_min": 487, "y_min": 487, "x_max": 513, "y_max": 513}
+    },
+    "diagram_A_cylinder_shafts": {
+      "description": "The main bodies of the 28 radial cylinder objects arranged spoke-like around the hub. Each shaft is an elongated pill/tube shape oriented radially (pointing away from center). The blue pigment is dense, even, and clearly applied with a brush. All 28 shafts are the same length and appear to have been drawn with a template or repeated measurement. The blue color is one of the most vivid pigment applications in the entire Voynich Manuscript — a deep cobalt-range blue, not faded.",
+      "color": "DEEP COBALT/PRUSSIAN BLUE — highly saturated, dense application. Slightly oxidized at brush edges giving a slightly dusty or greenish-dark rim effect at some shaft ends.",
+      "bounding_box_local_A": {"x_min": 155, "y_min": 155, "x_max": 845, "y_max": 845},
+      "count": 28,
+      "distribution": "Evenly distributed at ~12.86-degree intervals around the full 360-degree spoke system."
+    },
+    "diagram_A_cylinder_caps": {
+      "description": "The rounded outer terminal cap of each blue cylinder. The cap is visually distinct from the shaft — it is painted a different color (teal-green vs. blue) and is slightly wider/bulbier than the shaft end, giving each cylinder a rounded-head appearance similar to a bolus, pestle, or club. The green is applied as a solid brushed cap over or adjacent to the blue shaft end.",
+      "color": "TEAL-GREEN — a warm green-blue pigment, distinctly different from the cobalt blue of the shafts. The teal has a yellow-green undertone visible at its edges. Applied with short strokes.",
+      "bounding_box_local_A_approximate": {"x_min": 155, "y_min": 155, "x_max": 845, "y_max": 845},
+      "count": 28,
+      "note": "Every cylinder has one teal cap at its OUTER end (distal from center). The inner (proximal) end terminates against or near the inner circle boundary."
+    },
+    "diagram_A_cc_text_ring": {
+      "description": "The continuous arc text band running between diagram_A's inner and outer circles. The text follows the circular curvature. The text is written in standard brown Voynich ink. Three @Cc loci (f69v.1, f69v.2, f69v.3) together form this ring text — together they represent one long continuous circular inscription wrapping around the ring.",
+      "color": "Main script brown ink.",
+      "bounding_box_local_A": {"x_min": 30, "y_min": 30, "x_max": 970, "y_max": 970},
+      "text_arc_zone": {"inner_radius_normalized": 155, "outer_radius_normalized": 490}
+    },
+    "diagram_A_marginal_red_label": {
+      "description": "A single short word or label written in reddish ink just outside the outer circle of diagram_A at the 9-o'clock (left) position. This is the only red ink visible on f69v. It may be a title, section identifier, or a later annotation. The text is partially cut at the parchment edge in the image.",
+      "color": "RED-BROWN ink — faded reddish pigment, noticeably different from the main brown script. Likely iron-gall red or diluted vermilion.",
+      "bounding_box_local_A": {"x_min": 0, "y_min": 430, "x_max": 30, "y_max": 570}
+    },
+    "diagram_B_wheel_spokes": {
+      "description": "Eight (or possibly more) radial arms drawn as thin lines in the inner zone of diagram_B, forming a wheel-and-hub framework. These spokes serve as the structural scaffold over which the cloud-lobe blue forms are painted. The spokes are clearly visible at gaps between the lobes.",
+      "color": "GOLD/YELLOW-OCHRE — a warm saturated yellow pigment, denser than watercolor but not metallic. The yellow is consistent in tone across all visible spoke segments.",
+      "bounding_box_local_B": {"x_min": 200, "y_min": 200, "x_max": 800, "y_max": 800}
+    },
+    "diagram_B_cloud_lobe_forms": {
+      "description": "Large rounded organic shapes occupying the inner disc zone of diagram_B. There are approximately 6–8 distinct lobes, each shaped like a rounded petal, cloud, or leaf. They fill the inner circle from center outward, and their outer edges protrude slightly into or near the inner circle boundary. The pale blue wash creates a diffuse, soft visual effect — the most painterly element of the entire folio. Some lobes show visible brush stroke directionality running from inner to outer edge. The lobes have variable opacity — some areas are near-transparent, others slightly more saturated.",
+      "color": "PALE BLUE WASH (primary fill) — very dilute, translucent sky-blue. MEDIUM BLUE STROKE (outlines) — a slightly denser blue used to define lobe boundaries. The combination creates a cloud-like depth effect.",
+      "bounding_box_local_B": {"x_min": 170, "y_min": 170, "x_max": 830, "y_max": 830}
+    },
+    "diagram_C_hub_sun_face": {
+      "description": "The most iconographically significant element of f69v: a human face rendered inside a circular disc at the center of diagram_C. The face has: two simplified oval eyes with dark iris marks, a small triangular or rounded nose, and a closed or slightly upturned mouth suggesting a neutral-to-positive expression. Fine brown ink line-work defines the facial features over the yellow disc ground. The disc has a clear circular boundary. This is widely interpreted as a Sun motif consistent with the cosmological section of the Voynich Manuscript.",
+      "color": "YELLOW-OCHRE/GOLD disc — warm, solid pigment application for the circular ground. BROWN INK — fine line-work for facial features drawn over the yellow. No separate color for features themselves; all facial detail is in the same brown script ink.",
+      "bounding_box_local_C": {"x_min": 420, "y_min": 420, "x_max": 580, "y_max": 580}
+    },
+    "diagram_C_petal_rays": {
+      "description": "Eight large pointed petal or flame-ray shapes radiating from the central sun-face disc outward to near the inner circle boundary of diagram_C. Each petal is broad at its root (near the sun disc) and tapers to a sharp point at its outer tip. The petals are evenly distributed at 45-degree intervals (cardinal and intercardinal directions). The dark blue pigment is the heaviest, richest color application in the entire foldout — noticeably more saturated and opaque than the blue used in diagram_A or diagram_B. Some petals show visible overlapping at their bases where neighboring petal roots meet around the sun disc.",
+      "color": "DARK BLUE — the deepest, most saturated blue in the folio. Leans slightly purple-blue (closer to indigo) compared to the more pure cobalt of diagram_A cylinders. Applied with broader brush strokes showing directional movement from base to tip within each petal.",
+      "bounding_box_local_C": {"x_min": 200, "y_min": 200, "x_max": 800, "y_max": 800},
+      "count": 8,
+      "distribution": "45-degree intervals: N, NE, E, SE, S, SW, W, NW."
+    },
+    "diagram_C_spoke_framework": {
+      "description": "Thin line spokes visible between and behind the dark blue petals of diagram_C. These radial lines extend from the hub outward and are drawn in medium blue ink. They likely represent the pre-painted geometric layout of the diagram before the dark petal pigment was applied. Partially obscured by the petal fills.",
+      "color": "MEDIUM BLUE — intermediate intensity between the pale wash of diagram_B and the dark petals of diagram_C.",
+      "bounding_box_local_C": {"x_min": 200, "y_min": 200, "x_max": 800, "y_max": 800}
+    },
+    "right_margin_prose_block": {
+      "description": "A dense block of Voynich prose text at the extreme right edge of the foldout, occupying approximately 15–18 lines. The text is written in standard brown ink without any circular formatting — it runs in standard horizontal lines. This block is NOT part of the f69v transcription loci in the source file; it is treated here as a visual anchor only. The rightmost lines of text are partially obscured or cut by the parchment edge.",
+      "color": "Main script brown ink — identical to the diagram ring texts.",
+      "bounding_box_global": {"x_min": 1155, "y_min": 100, "x_max": 1300, "y_max": 870}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "ring_text_all_three_diagrams_combined",
+      "description": "The three @Cc loci (f69v.1, f69v.2, f69v.3) represent a continuous circular inscription. Based on the $I=C metadata and the @Cc locus type, these loci are distributed across the outer text rings of the three cosmological circle diagrams. The most likely distribution based on text volume and diagram size: f69v.1 = diagram_A ring; f69v.2 = diagram_B ring; f69v.3 = diagram_C ring. Each @Cc locus runs as a full circular arc within its respective diagram's annular text band. Text is written in brown ink following the curvature of the ring, with individual glyphs rotated to remain perpendicular to the radial direction.",
+      "lines": [
+        {
+          "locus": "<f69v.1,@Cc>",
+          "raw_text": "dair.cheyky.otamy.sar.ar.chykar.okair,sh.ar.chetojy.okeeos.otey.otokeeey.okeeody.okeey.doiir.cyteeo.y.chey.ote,y.okedy.chsdy.okeod.y.dy.cho,aiin.okar.okar.chol.chees.yto.odair.oty.oteeo.dar.o.ey,keody.dchor.char",
+          "assigned_diagram": "diagram_A",
+          "bounding_box_local_A": {"x_min": 30, "y_min": 30, "x_max": 970, "y_max": 970},
+          "arc_zone": {"inner_radius_normalized": 520, "outer_radius_normalized": 490, "arc_type": "full_circumference_ring"},
+          "color": "Main brown ink — consistent with all Voynich script on this folio.",
+          "interaction": "@Cc locus: text runs as a continuous circular arc inside diagram_A's outer ring band. The text wraps the full 360 degrees around the annular zone between the inner circle (r~345 local) and the outer circle (r~490 local). Multiple comma-disambiguation markers: 'okair,sh' (possible glyph boundary uncertainty), 'ote,y' (vowel sequence uncertainty), 'cho,aiin' (possible glyph join), 'ey,keody' (compound boundary). Isolated single-character words '.y.' and '.o.' and '.dy.' appear within the text string — characteristic of Voynich ring text where short isolated glyphs occupy small angular intervals. The long compound 'otokeeey' has a triple-'e' vowel run. No bisection markers — the ring text flows uninterrupted around the full circumference with the cylinder/spoke illustration entirely INSIDE the ring (in the inner circle zone), not bisecting the text."
+        },
+        {
+          "locus": "<f69v.2,@Cc>",
+          "raw_text": "ykacy.chal.ykar.dal.ykady.iokeeor.cheey.choly.ykeeal.cheos.oaram.ockhy.shchy.aiiny.daiial.cheody.cheal.yekey.chear.ydy.ykey.ch,y.dy.chol.ykar.oly.ykeeody.chey.dal.ody.airchy.choky.ychey.chey",
+          "assigned_diagram": "diagram_B",
+          "bounding_box_local_B": {"x_min": 30, "y_min": 30, "x_max": 970, "y_max": 970},
+          "arc_zone": {"inner_radius_normalized": 520, "outer_radius_normalized": 490, "arc_type": "full_circumference_ring"},
+          "color": "Main brown ink.",
+          "interaction": "@Cc locus: text runs as a continuous circular arc inside diagram_B's outer ring band. The pale blue wash cloud-forms and the gold wheel spokes are entirely enclosed within the inner circle, physically separated from this ring text by the inner circle boundary. Comma-disambiguation marker: 'ch,y'. The form 'iokeeor' begins with a rare 'i'-initial — one of few 'i'-initial words in the f69v text. Repeated pattern 'ykacy...ykar...ykady...ykeeal...ykeeody' shows a strong 'yk-' initial cluster frequency in this locus, possibly consistent with a specific semantic register for this diagram's ring."
+        },
+        {
+          "locus": "<f69v.3,@Cc>",
+          "raw_text": "doair.otaldal.dair,y.chdy.otoar.arychy.qoteor.cho.qotair.chda.oteeal.cheor.ar.air.oteody.ytyda.dchy.otoly.okeodal.oteo,arar.cheteeseeer.dair.chey.okody.dal.oteey.oteey",
+          "assigned_diagram": "diagram_C",
+          "bounding_box_local_C": {"x_min": 30, "y_min": 30, "x_max": 970, "y_max": 970},
+          "arc_zone": {"inner_radius_normalized": 520, "outer_radius_normalized": 490, "arc_type": "full_circumference_ring"},
+          "color": "Main brown ink.",
+          "interaction": "@Cc locus: text runs as a continuous circular arc inside diagram_C's outer ring band. The dark blue petals and the yellow sun-face are entirely within the inner circle, clearly separated from this ring text. Comma-disambiguation markers: 'dair,y', 'oteo,arar'. Notable features: 'cheteeseeer' is one of the most structurally unusual glyph sequences in f69v — a long compound with internal 'eesee' vowel cluster (possible transcription uncertainty retained exactly). Repeated terminal word '.oteey.oteey' at line end. The 'qo-' prefix words ('qoteor', 'qotair') are the only 'qo-' forms in the @Cc loci, all concentrated in this diagram_C ring."
+        }
+      ]
+    },
+    {
+      "block_id": "radial_spoke_labels_Ri",
+      "description": "The 28 individual @Ri (Radial Inscription) loci f69v.4 through f69v.31 are short single- or two-word labels positioned along the radial spokes of the diagrams. Based on the total spoke count (diagram_A has ~28 spokes with cylinders; diagrams B and C have fewer spokes), the @Ri labels are distributed across one or more diagrams. Most likely all 28 @Ri labels belong to diagram_A's 28 spoke positions, with each label placed radially along its corresponding spoke arm — between the hub and the inner circle boundary, or just outside the inner circle near the cylinder base. Each label is short (1–5 glyphs) and is written radially (rotated to align with the spoke direction). Labels are in main brown ink.",
+      "color": "Main brown ink — same as ring text.",
+      "distribution_hypothesis": "28 @Ri labels align with 28 spoke cylinders in diagram_A. If diagram_B and diagram_C also have @Ri labels, they are drawn from this same pool of 28. Given the visual evidence of diagram_B having ~8 spokes and diagram_C having 8 petal-spokes, a possible split is: diagram_A = 16 labels, diagram_B = 6, diagram_C = 6. However, the transcription sequence suggests a single enumerated list, most consistent with all 28 belonging to diagram_A's 28 cylinders.",
+      "lines": [
+        {
+          "locus": "<f69v.4,@Ri>",
+          "raw_text": "okeey.sar",
+          "bounding_box_local_A": {"x_min": 500, "y_min": 155, "x_max": 620, "y_max": 345},
+          "interaction": "@Ri label: Two-word label 'okeey.sar' placed along a spoke near the top (12-o'clock) position of diagram_A. The label is inscribed radially with glyphs perpendicular to the spoke direction. Adjacent to the blue cylinder at this position — the label sits between the hub (x~500, y~500) and the teal-capped cylinder end at the inner circle boundary.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.5,@Ri>",
+          "raw_text": "okeo.dy",
+          "bounding_box_local_A": {"x_min": 560, "y_min": 165, "x_max": 650, "y_max": 320},
+          "interaction": "@Ri label: Two-word label 'okeo.dy' on spoke adjacent to locus 4, approximately 12.86 degrees clockwise. Short compound with terminal '.dy'.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.6,@Ri>",
+          "raw_text": "ochoyk",
+          "bounding_box_local_A": {"x_min": 600, "y_min": 175, "x_max": 700, "y_max": 330},
+          "interaction": "@Ri label: Single compound word 'ochoyk' on the next spoke clockwise. An unusual terminal 'k' ending.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.7,@Ri>",
+          "raw_text": "ykeey",
+          "bounding_box_local_A": {"x_min": 640, "y_min": 195, "x_max": 730, "y_max": 345},
+          "interaction": "@Ri label: Single word 'ykeey' — a 'y'-initial with double-'e' vowel cluster, one of the most common @Ri word forms.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.8,@Ri>",
+          "raw_text": "ytary",
+          "bounding_box_local_A": {"x_min": 680, "y_min": 220, "x_max": 760, "y_max": 370},
+          "interaction": "@Ri label: Single word 'ytary' — 'y'-initial with '-ary' terminal cluster.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.9,@Ri>",
+          "raw_text": "oeesy",
+          "bounding_box_local_A": {"x_min": 720, "y_min": 250, "x_max": 800, "y_max": 400},
+          "interaction": "@Ri label: Single word 'oeesy' — 'o'-initial with double-'e' sequence.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.10,@Ri>",
+          "raw_text": "ytody",
+          "bounding_box_local_A": {"x_min": 755, "y_min": 290, "x_max": 835, "y_max": 440},
+          "interaction": "@Ri label: Single word 'ytody'.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.11,@Ri>",
+          "raw_text": "okody",
+          "bounding_box_local_A": {"x_min": 780, "y_min": 335, "x_max": 855, "y_max": 490},
+          "interaction": "@Ri label: Single word 'okody' — 'ok-' initial, a common @Ri prefix pattern.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.12,@Ri>",
+          "raw_text": "otody",
+          "bounding_box_local_A": {"x_min": 800, "y_min": 390, "x_max": 875, "y_max": 540},
+          "interaction": "@Ri label: Single word 'otody' — minimal pair with 'okody' (f69v.11): only the medial glyph differs ('t' vs 'k').",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.13,@Ri>",
+          "raw_text": "okeol",
+          "bounding_box_local_A": {"x_min": 815, "y_min": 450, "x_max": 870, "y_max": 600},
+          "interaction": "@Ri label: Single word 'okeol' — 'ok-' initial with 'ee' vowel and '-l' terminal.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.14,@Ri>",
+          "raw_text": "okeod",
+          "bounding_box_local_A": {"x_min": 815, "y_min": 510, "x_max": 870, "y_max": 640},
+          "interaction": "@Ri label: Single word 'okeod' — identical to f69v.18. Minimal pair with 'okeol': only terminal glyph differs ('d' vs 'l'). Near 3-o'clock position on diagram_A.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.15,@Ri>",
+          "raw_text": "okeeys",
+          "bounding_box_local_A": {"x_min": 800, "y_min": 570, "x_max": 870, "y_max": 700},
+          "interaction": "@Ri label: Single word 'okeeys' — extends 'okeey' with terminal 's'; the only 's'-terminal in the @Ri sequence.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.16,@Ri>",
+          "raw_text": "oteol",
+          "bounding_box_local_A": {"x_min": 785, "y_min": 620, "x_max": 860, "y_max": 745},
+          "interaction": "@Ri label: Single word 'oteol'.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.17,@Ri>",
+          "raw_text": "ykeydy",
+          "bounding_box_local_A": {"x_min": 755, "y_min": 670, "x_max": 840, "y_max": 790},
+          "interaction": "@Ri label: Single compound word 'ykeydy' — 'y'-initial with compound '-eydy' terminal. One of the longer @Ri labels.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.18,@Ri>",
+          "raw_text": "okeod",
+          "bounding_box_local_A": {"x_min": 720, "y_min": 710, "x_max": 810, "y_max": 825},
+          "interaction": "@Ri label: Single word 'okeod' — identical duplicate of f69v.14. Two spokes approximately 180 degrees apart share the same label.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.19,@Ri>",
+          "raw_text": "saral",
+          "bounding_box_local_A": {"x_min": 670, "y_min": 750, "x_max": 760, "y_max": 850},
+          "interaction": "@Ri label: Single word 'saral' — 's'-initial, one of only 3 's'-initial forms in the @Ri set. '-ral' terminal cluster.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.20,@Ri>",
+          "raw_text": "saiir",
+          "bounding_box_local_A": {"x_min": 610, "y_min": 780, "x_max": 705, "y_max": 870},
+          "interaction": "@Ri label: Single word 'saiir' — double-'i' sequence; near 6-o'clock lower position.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.21,@Ri>",
+          "raw_text": "okolar",
+          "bounding_box_local_A": {"x_min": 545, "y_min": 800, "x_max": 645, "y_max": 880},
+          "interaction": "@Ri label: Single word 'okolar' — 'ok-' initial with '-lar' terminal.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.22,@Ri>",
+          "raw_text": "ykeody",
+          "bounding_box_local_A": {"x_min": 475, "y_min": 810, "x_max": 575, "y_max": 880},
+          "interaction": "@Ri label: Single word 'ykeody' — near 6-o'clock bottom.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.23,@Ri>",
+          "raw_text": "sarydy",
+          "bounding_box_local_A": {"x_min": 400, "y_min": 800, "x_max": 500, "y_max": 870},
+          "interaction": "@Ri label: Single word 'sarydy' — 's'-initial with compound '-rydy' terminal.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.24,@Ri>",
+          "raw_text": "otchy",
+          "bounding_box_local_A": {"x_min": 330, "y_min": 775, "x_max": 430, "y_max": 855},
+          "interaction": "@Ri label: Single word 'otchy' — short 'ot-' initial with '-chy' cluster.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.25,@Ri>",
+          "raw_text": "okeey.dy",
+          "bounding_box_local_A": {"x_min": 265, "y_min": 735, "x_max": 370, "y_max": 830},
+          "interaction": "@Ri label: Two-word label 'okeey.dy' — one of two two-word @Ri forms along with f69v.4 and f69v.31.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.26,@Ri>",
+          "raw_text": "okey.d",
+          "bounding_box_local_A": {"x_min": 205, "y_min": 690, "x_max": 315, "y_max": 785},
+          "interaction": "@Ri label: Two-token 'okey.d' — unusually the second token is a single-glyph 'd'. This may represent a truncated or abbreviated word at the spoke position.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.27,@Ri>",
+          "raw_text": "okead",
+          "bounding_box_local_A": {"x_min": 160, "y_min": 640, "x_max": 270, "y_max": 730},
+          "interaction": "@Ri label: Single word 'okead' — 'ok-' initial with '-ead' terminal, an unusual vowel-ending cluster for this position.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.28,@Ri>",
+          "raw_text": "okodchy",
+          "bounding_box_local_A": {"x_min": 130, "y_min": 580, "x_max": 245, "y_max": 665},
+          "interaction": "@Ri label: Single compound word 'okodchy' — 'ok-' initial with '-odchy' terminal; the medial 'ch' cluster makes this one of the more complex @Ri forms.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.29,@Ri>",
+          "raw_text": "okeody",
+          "bounding_box_local_A": {"x_min": 120, "y_min": 510, "x_max": 230, "y_max": 595},
+          "interaction": "@Ri label: Single word 'okeody' — near 9-o'clock left position.",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.30,@Ri>",
+          "raw_text": "okcheys",
+          "bounding_box_local_A": {"x_min": 130, "y_min": 445, "x_max": 250, "y_max": 530},
+          "interaction": "@Ri label: Single compound 'okcheys' — 'ok-' initial with 'cheys' including a terminal 's'. The 'ch' medial cluster is shared with 'okodchy' (f69v.28).",
+          "color": "Main brown ink."
+        },
+        {
+          "locus": "<f69v.31,@Ri>",
+          "raw_text": "oar.alys",
+          "bounding_box_local_A": {"x_min": 150, "y_min": 385, "x_max": 270, "y_max": 465},
+          "interaction": "@Ri FINAL label: Two-word 'oar.alys' — the only @Ri label beginning with 'o' without a following 'k', 't', or 'y'. 'alys' has a terminal 's'. This is the last of the 28 @Ri labels, completing the full spoke circuit approximately back near the 10-o'clock position of diagram_A.",
+          "color": "Main brown ink."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "diagram_A_cylinder_shafts_and_caps",
+      "status": "Completely text-free inner zone — illustration only",
+      "description": "The inner circle zone of diagram_A (r < 345 local units from center) is entirely occupied by the 28 blue-shafted, teal-capped cylinder spoke objects. No @Cc or @Ri text runs inside this zone — text is strictly confined to the annular ring band between the inner and outer circles (@Cc) and to the individual spoke positions within the inner zone (@Ri). The color contrast between the DEEP COBALT BLUE shafts and the TEAL-GREEN caps is the dominant visual element of diagram_A and of the entire foldout."
+    },
+    {
+      "anchor_id": "diagram_B_cloud_lobe_forms",
+      "status": "Completely text-free inner zone — illustration only",
+      "description": "The inner disc of diagram_B contains only the PALE BLUE WASH cloud-lobe forms and the GOLD-YELLOW wheel spokes. No text is inscribed inside the inner circle of diagram_B. The soft, translucent quality of the blue wash pigment creates the most painterly and least linear element in the folio, contrasting strongly with the crisp geometry of the text rings and the solid blue of diagram_A cylinders."
+    },
+    {
+      "anchor_id": "diagram_C_hub_sun_face",
+      "status": "Intentional text-free sacred/focal zone — sun face motif",
+      "description": "The central sun-face disc of diagram_C (approximately r < 80 local units from center) is a deliberately text-free focal zone. The YELLOW-OCHRE disc and the brown-ink facial features function as the primary iconographic center of the entire foldout. The surrounding DARK BLUE petals frame this face radially, creating a visual hierarchy: sun face → dark blue rays → text ring. This sun-face motif places diagram_C in the solar/cosmological category of Voynich illustrations."
+    },
+    {
+      "anchor_id": "diagram_C_petal_rays",
+      "status": "Text-free illustration zone between spokes — @Ri labels are on spokes only",
+      "description": "The eight DARK BLUE petal shapes of diagram_C's inner zone are themselves text-free. Any @Ri labels associated with diagram_C's spokes would be positioned along the spoke lines between petals, not painted over the petal faces. The dark blue pigment is the heaviest pigment application in the folio, and its density would make glyph-writing over the petals near-impossible to read."
+    },
+    {
+      "anchor_id": "right_margin_prose_block",
+      "status": "Separate text block — not classified under f69v loci in source transcription",
+      "description": "The prose text block at the extreme right edge of the foldout image is a dense independent text body written in standard horizontal lines (not circular). It is not encoded in the f69v loci of the source transcription file, suggesting it belongs to f70r or a related adjacent folio designation. Its presence confirms that the foldout connects physically to the adjacent right-hand page. The text is standard brown ink, visually consistent with Hand 4."
+    },
+    {
+      "anchor_id": "parchment_orange_stain",
+      "status": "Parchment condition artifact — not an illustration element",
+      "description": "The small orange-brown foxing or stain spot between diagram_B and diagram_C is a natural parchment aging artifact. It does not interact with any text or illustration. Its warm orange color contrasts with all pigment hues in the folio (blues, greens, yellows, browns)."
+    },
+    {
+      "anchor_id": "foldout_spine_shadow",
+      "status": "Physical binding artifact — not an illustration element",
+      "description": "The dark shadow zone at the physical center of the foldout image (where the extended pages fold toward the book spine) creates a minor visual darkening between diagram_A and diagram_B. This is not an ink or pigment element — it is a photographic artifact of the binding fold. It does not affect any text or illustration content."
+    }
+  ],
+  "color_summary_per_diagram": {
+    "diagram_A": {
+      "dominant_colors": ["deep cobalt blue (cylinder shafts)", "teal-green (cylinder caps)", "brown ink (ring text and @Ri labels)", "grey-brown (circle outlines)", "cream parchment (background)"],
+      "accent_colors": ["red-brown (single marginal label at left edge)"],
+      "color_interaction_note": "The blue-and-green cylinder bicolor system is the most chromatic element of diagram_A. The alternating deep blue / teal-green pattern around all 28 spokes creates a visually rhythmic wheel effect. The warm teal of the caps cools the otherwise heavy cobalt blue, creating chromatic contrast at each spoke terminus."
+    },
+    "diagram_B": {
+      "dominant_colors": ["pale blue wash (cloud-lobe fill)", "medium blue (lobe outline strokes)", "gold-yellow-ochre (wheel spokes)", "brown ink (ring text and @Ri labels)", "grey-brown (circle outlines)", "cream parchment"],
+      "accent_colors": [],
+      "color_interaction_note": "Diagram_B is the most painterly and color-subtle of the three wheels. The cool pale blue wash against the warm gold-yellow spokes creates a temperature contrast. The soft, cloud-like quality of the blue fill is unique in the manuscript — no other folio uses this thin, translucent wash technique so prominently."
+    },
+    "diagram_C": {
+      "dominant_colors": ["dark indigo-blue (petals)", "gold-yellow-ochre (sun-face disc)", "brown ink (facial features, ring text, @Ri labels)", "medium blue (spoke framework)", "grey-brown (circle outlines)", "cream parchment"],
+      "accent_colors": [],
+      "color_interaction_note": "Diagram_C uses the strongest color contrast in the folio: the WARMEST element (yellow-gold sun face) is surrounded by the DARKEST element (near-indigo blue petals). This creates a warm-cool radial contrast that draws the eye immediately to the sun face. The color hierarchy reads: yellow center → dark blue corona → brown text ring → cream parchment."
+    }
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "folio": "f104r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f104r",
+    "total_loci_count": 45,
+    "unique_loci_found": [
+      "<f104r.1,@P0>",
+      "<f104r.2,+P0>",
+      "<f104r.3,+P0>",
+      "<f104r.4,+P0>",
+      "<f104r.5,+P0>",
+      "<f104r.6,+P0>",
+      "<f104r.7,+P0>",
+      "<f104r.8,+P0>",
+      "<f104r.9,+P0>",
+      "<f104r.10,+P0>",
+      "<f104r.11,+P0>",
+      "<f104r.12,+P0>",
+      "<f104r.13,+P0>",
+      "<f104r.14,+P0>",
+      "<f104r.15,+P0>",
+      "<f104r.16,+P0>",
+      "<f104r.17,+P0>",
+      "<f104r.18,+P0>",
+      "<f104r.19,+P0>",
+      "<f104r.20,+P0>",
+      "<f104r.21,+P0>",
+      "<f104r.22,+P0>",
+      "<f104r.23,+P0>",
+      "<f104r.24,+P0>",
+      "<f104r.25,+P0>",
+      "<f104r.26,+P0>",
+      "<f104r.27,+P0>",
+      "<f104r.28,+P0>",
+      "<f104r.29,+P0>",
+      "<f104r.30,+P0>",
+      "<f104r.31,+P0>",
+      "<f104r.32,+P0>",
+      "<f104r.33,+P0>",
+      "<f104r.34,+P0>",
+      "<f104r.35,+P0>",
+      "<f104r.36,+P0>",
+      "<f104r.37,+P0>",
+      "<f104r.38,+P0>",
+      "<f104r.39,+P0>",
+      "<f104r.40,+P0>",
+      "<f104r.41,+P0>",
+      "<f104r.42,+P0>",
+      "<f104r.43,+P0>",
+      "<f104r.44,+P0>",
+      "<f104r.45,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers present in any f104r locus — the entire folio is an uninterrupted full-width text block with no stemmed illustration dividing lines",
+      "NO @Lp plant labels detected in f104r",
+      "NO @Ls star labels detected in f104r — stars are purely decorative margin drawings, not labelled via @Ls locus tags in this folio",
+      "NO @Cc central-circle labels detected in f104r",
+      "NO @L0 isolated generic labels detected in f104r",
+      "ALL 45 loci are @P0 (paragraph-start) or +P0 (paragraph-continuation), indicating a dense, unbroken paragraph-style layout",
+      "The folio header line is: <f104r> <! $Q=T $P=C $F=b $B=2 $I=S $L=B $H=3 $C=X> — $I=S indicates Stars section; $L=B indicates Language B transcription; $H=3 indicates third quire hand; $C=X indicates an uncertain/mixed category"
+    ],
+    "visual_anchor_inventory": [
+      "folio_number_inscription: ink numeral '104' at top-right of the parchment, partially overlapping first text line",
+      "paragraph_break_marker_P1: tall decorative initial-letter flourish / paragraph mark at line 1 (left margin), marking the opening of the first text block",
+      "paragraph_break_marker_P2: paragraph mark at line 10, marking the second paragraph block",
+      "paragraph_break_marker_P3: paragraph mark at line 20 (approximately), marking the third paragraph block",
+      "paragraph_break_marker_P4: paragraph mark at approximately line 30, marking the fourth paragraph block",
+      "paragraph_break_marker_P5: paragraph mark at approximately line 36, marking the fifth paragraph block",
+      "star_1_marginalia: 8-pointed red/dark-ink star in the left margin, aligned with approximately lines 1-3 (first paragraph group)",
+      "star_2_marginalia: 8-pointed star in the left margin, aligned with approximately lines 4-6 (second paragraph group top)",
+      "star_3_marginalia: 8-pointed star in the left margin, aligned with approximately lines 7-9",
+      "star_4_marginalia: smaller 6-pointed star in left margin, aligned with approximately lines 11-13",
+      "star_5_marginalia: 8-pointed red-outlined star in left margin, aligned with approximately lines 14-16",
+      "star_6_marginalia: 8-pointed star in left margin, aligned with approximately lines 17-19",
+      "star_7_marginalia: 8-pointed star in left margin, aligned with approximately lines 20-22",
+      "star_8_marginalia: 8-pointed star in left margin, aligned with approximately lines 23-25",
+      "star_9_marginalia: 8-pointed star in left margin, aligned with approximately lines 27-29",
+      "star_10_marginalia: 8-pointed star (hollow, outline only) in left margin, aligned with approximately lines 30-32",
+      "star_11_marginalia: 8-pointed star in left margin, aligned with approximately lines 33-35",
+      "star_12_marginalia: smaller 6-pointed star in left margin, aligned with approximately lines 36-38",
+      "star_13_marginalia: 8-pointed red star in left margin, aligned with approximately lines 39-41",
+      "star_14_marginalia: 8-pointed star in left margin, aligned with approximately lines 42-45",
+      "gutter_binding_edge: the left physical gutter of the manuscript binding, creating a dark shadow band at x:0–50 along the full vertical extent of the parchment"
+    ]
+  },
+  "visual_anchors": {
+    "folio_number_inscription": {
+      "description": "The numeral '104' written in brown ink at the top-right corner of the parchment, functioning as a modern or semi-contemporary folio number. It sits above and slightly overlapping the first text line. Likely added by a later archivist. Small in size, approximately 40 normalized units wide and 30 tall.",
+      "bounding_box": {"x_min": 780, "y_min": 12, "x_max": 860, "y_max": 42}
+    },
+    "paragraph_break_marker_P1": {
+      "description": "A tall decorated initial or paragraph-opening mark in the left margin at the very start of the folio's first paragraph (f104r.1). In the Stars section, paragraph openings are often marked by a slightly enlarged or flourished initial glyph. This mark is the leftmost visible glyph of line 1, sitting at the inner margin boundary. Height spans approximately one line height.",
+      "bounding_box": {"x_min": 115, "y_min": 48, "x_max": 155, "y_max": 78}
+    },
+    "paragraph_break_marker_P2": {
+      "description": "Paragraph mark at the start of the second paragraph group, aligning with approximately the 10th text line from the top. Marks a thematic division within the Stars section content. Visible as a slightly enlarged or specially-formed initial glyph at the left margin.",
+      "bounding_box": {"x_min": 115, "y_min": 235, "x_max": 155, "y_max": 265}
+    },
+    "paragraph_break_marker_P3": {
+      "description": "Paragraph mark at the start of the third paragraph group, at approximately line 20. Marks another thematic break. Sits flush against the left text margin, consistent with all other paragraph markers.",
+      "bounding_box": {"x_min": 115, "y_min": 455, "x_max": 155, "y_max": 485}
+    },
+    "paragraph_break_marker_P4": {
+      "description": "Paragraph mark at the start of the fourth paragraph group, at approximately line 30. The large paragraph blocks that precede this marker show the most densely-packed text on the folio.",
+      "bounding_box": {"x_min": 115, "y_min": 688, "x_max": 155, "y_max": 718}
+    },
+    "paragraph_break_marker_P5": {
+      "description": "Paragraph mark at the start of the fifth and final paragraph group at approximately line 36. The remaining paragraph (lines 36–45) constitutes the closing block of the folio and terminates before the bottom margin.",
+      "bounding_box": {"x_min": 115, "y_min": 814, "x_max": 155, "y_max": 844}
+    },
+    "star_1_marginalia": {
+      "description": "An 8-pointed star drawn in dark brown/reddish ink in the left margin, positioned alongside the first paragraph group (lines 1–3). The star is rendered with alternating long and short points in a compass-rose pattern, filled or partially filled with red pigment. It sits entirely within the left margin gutter, to the left of the main text body, and does not interact with or bisect any text line. Stars in this folio section function as visual paragraph or entry separators.",
+      "bounding_box": {"x_min": 55, "y_min": 50, "x_max": 105, "y_max": 115}
+    },
+    "star_2_marginalia": {
+      "description": "8-pointed margin star, positioned alongside lines 4–6. Same compass-rose style with reddish-brown ink. Slightly larger than star_1. No text bisection — the text body begins fully to the right of all star drawings at x_min ~115.",
+      "bounding_box": {"x_min": 55, "y_min": 120, "x_max": 108, "y_max": 190}
+    },
+    "star_3_marginalia": {
+      "description": "8-pointed margin star alongside lines 7–9. Drawn with slightly more elongated points than the preceding stars, giving a more spindly silhouette. Red/brown ink, consistent with the section's visual vocabulary.",
+      "bounding_box": {"x_min": 52, "y_min": 196, "x_max": 106, "y_max": 260}
+    },
+    "star_4_marginalia": {
+      "description": "A smaller 6-pointed (or possibly 8-pointed but more compact) star aligned with lines 11–13. Its smaller size may indicate a different sub-category or entry type within the Stars section taxonomy.",
+      "bounding_box": {"x_min": 58, "y_min": 264, "x_max": 102, "y_max": 318}
+    },
+    "star_5_marginalia": {
+      "description": "8-pointed red-outlined star alongside lines 14–16. This star appears to be drawn with a heavier outline stroke and possibly outline-only (not solid-filled), making it visually distinct from the filled stars above. Consistent left-margin positioning.",
+      "bounding_box": {"x_min": 50, "y_min": 322, "x_max": 108, "y_max": 390}
+    },
+    "star_6_marginalia": {
+      "description": "8-pointed margin star alongside lines 17–19. Returns to the standard filled style. Slightly tilted on its axis compared to the perfectly upright preceding stars, suggesting natural variation in hand-drawing across the folio.",
+      "bounding_box": {"x_min": 54, "y_min": 394, "x_max": 108, "y_max": 458}
+    },
+    "star_7_marginalia": {
+      "description": "8-pointed margin star alongside lines 20–22. Well-centered in the margin column. The paragraph break marker (P3) at approximately this y-level means this star may additionally mark the conceptual start of the third content block.",
+      "bounding_box": {"x_min": 52, "y_min": 460, "x_max": 108, "y_max": 526}
+    },
+    "star_8_marginalia": {
+      "description": "8-pointed margin star alongside lines 23–25. Standard style. Positioned at the vertical midpoint of the folio, approximately y=510–575.",
+      "bounding_box": {"x_min": 52, "y_min": 530, "x_max": 108, "y_max": 594}
+    },
+    "star_9_marginalia": {
+      "description": "8-pointed margin star alongside lines 27–29. Standard compass-rose style. Notably, the text line f104r.26 is a very short line ('shar.sheey.kar.sheody') suggesting a paragraph or stanza break at that point, making this star a likely separator marker.",
+      "bounding_box": {"x_min": 52, "y_min": 620, "x_max": 108, "y_max": 686}
+    },
+    "star_10_marginalia": {
+      "description": "An outline-only (hollow) 8-pointed star alongside lines 30–32. This hollow rendering is distinctive and may indicate a different classification of entry, a star that was begun but not inked in fully, or a specific scribal notation. It is the most visually unusual of the margin stars on this folio.",
+      "bounding_box": {"x_min": 52, "y_min": 690, "x_max": 108, "y_max": 754}
+    },
+    "star_11_marginalia": {
+      "description": "8-pointed margin star alongside lines 33–35. Returns to filled style. Ink is slightly lighter/more faded compared to the dark-red stars earlier in the folio, possibly due to less pigment loaded on the pen at that point in the scribe's work session.",
+      "bounding_box": {"x_min": 52, "y_min": 756, "x_max": 108, "y_max": 820}
+    },
+    "star_12_marginalia": {
+      "description": "A smaller, compact star alongside lines 36–38. Possibly 6-pointed. Marks the start of the fifth paragraph block. Consistent left-margin position but reduced size echoes star_4's role as a sub-entry marker.",
+      "bounding_box": {"x_min": 55, "y_min": 820, "x_max": 100, "y_max": 872}
+    },
+    "star_13_marginalia": {
+      "description": "8-pointed red star alongside lines 39–41. One of the more vividly pigmented stars on the page, with a strong reddish-brown fill. Standard compass-rose morphology.",
+      "bounding_box": {"x_min": 50, "y_min": 876, "x_max": 108, "y_max": 940}
+    },
+    "star_14_marginalia": {
+      "description": "8-pointed margin star alongside lines 42–45, the final paragraph block. Standard style. Its position near the page bottom means the lowest point of this star is approximately y=1000 — the very bottom margin of the parchment.",
+      "bounding_box": {"x_min": 52, "y_min": 944, "x_max": 108, "y_max": 1000}
+    },
+    "gutter_binding_edge": {
+      "description": "The physical left binding gutter of the manuscript codex, visible as a darkening shadow band along the leftmost 40–50 normalized units of the parchment. The stars are drawn on the parchment surface immediately to the right of this shadow, in the narrow left margin column between x~52 and x~115.",
+      "bounding_box": {"x_min": 0, "y_min": 0, "x_max": 52, "y_max": 1000}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "paragraph_block_1_lines_1_to_9",
+      "description": "The opening paragraph of folio f104r, corresponding to the first @P0 start marker and eight +P0 continuation lines. This block spans from the folio number inscription area at the top to approximately y=220. The text runs full-width from x_min ~115 to x_max ~960, uninterrupted by any illustration. The left boundary is defined by the star margin column (ending at ~x=110); the right boundary by the parchment edge. All lines are dense, with no <-> bisections.",
+      "lines": [
+        {
+          "locus": "<f104r.1,@P0>",
+          "raw_text": "pchdar.chedy.char.qopchedy.ocphedy.qopchedy.shedaiin.oteeochey.qopchedy.sain",
+          "bounding_box": {"x_min": 115, "y_min": 48, "x_max": 960, "y_max": 78},
+          "interaction": "Opening line of the folio, paragraph-start marker (@P0). No <-> bisection. Full-width text running from the inner margin at x~115 to the right parchment edge at x~960. The folio numeral '104' is inscribed in the top-right corner at approximately x:780–860, y:12–42, slightly above this line's y_min and not overlapping the text body. The line is long and densely packed — 10 dot-separated word units — consistent with the dense scribal hand of the Stars section ($H=3)."
+        },
+        {
+          "locus": "<f104r.2,+P0>",
+          "raw_text": "oar.aiin.yteeody.cheedaiin.cheodar.s.aiin.chey.tair.os.aiin.chcthedy.teedaram",
+          "bounding_box": {"x_min": 115, "y_min": 79, "x_max": 960, "y_max": 109},
+          "interaction": "Continuation line, no bisection. Full-width. Notably long — 13 dot-separated units including 's' and 'os' as single-glyph isolates. The suffix '-am' on 'teedaram' is a common terminal cluster in Language B. Line spacing is tight (~30 normalized units per line), consistent with the $H=3 hand's compressed style."
+        },
+        {
+          "locus": "<f104r.3,+P0>",
+          "raw_text": "daiir.o.cthedy.oteee.ykar.otedy.otody.qoteeos.yteeody.oteedy.oky.okal.daram",
+          "bounding_box": {"x_min": 115, "y_min": 110, "x_max": 960, "y_max": 140},
+          "interaction": "Continuation, full-width. 13 dot-separated units. Contains 'o' as a single isolated glyph (a common single-character unit in VMS). 'oteee' contains a triple-e cluster, a statistically notable glyph sequence. The '-am' terminal echoes the previous line, possibly indicating a consistent line-ending convention for this paragraph."
+        },
+        {
+          "locus": "<f104r.4,+P0>",
+          "raw_text": "ol.sheedy.qokeedy.chedal.qodaiin.qodeiiiin.chry",
+          "bounding_box": {"x_min": 115, "y_min": 141, "x_max": 700, "y_max": 171},
+          "interaction": "Notably shorter than the three preceding lines — only 7 dot-separated units — suggesting this is either a terminal sub-line of a stanza-like unit or that the scribe left deliberate white space at the right (x_max ~700 instead of ~960). 'qodeiiiin' contains a quadruple-i cluster, one of the longest i-run sequences visible in this folio. The right margin white space (x:700–960) is a visual breathing point before the second star group."
+        },
+        {
+          "locus": "<f104r.5,+P0>",
+          "raw_text": "kchdal.qotaiin.qoshedy.ol.chl.ol.chedacphy.al.lod.pchdair.opchdy.qod",
+          "bounding_box": {"x_min": 115, "y_min": 172, "x_max": 910, "y_max": 202},
+          "interaction": "Full-width continuation, 12 units. Contains two isolated 'ol' units and the sequence 'chl.ol' — a pattern of short glyphs suggesting either abbreviation or functional particles. Terminal 'qod' ends without a common suffix, possibly truncated at line-end or functioning as a full word. The line begins with 'kchdal' — a glyph cluster starting with 'k' which is relatively uncommon as a line-opener in Language B."
+        },
+        {
+          "locus": "<f104r.6,+P0>",
+          "raw_text": "ycheeody.aiin.lkar.cheeo.dain.ockhedy.qokeedy.qotain.otchdy.otain.chedam",
+          "bounding_box": {"x_min": 115, "y_min": 203, "x_max": 950, "y_max": 233},
+          "interaction": "Full-width, 11 units. Opens with 'y' prefix cluster 'ycheeody' — the 'y-' prefix is common at line starts in Language B and may mark a syntactic role. Contains repeated 'otain' near line end, possibly a formulaic or refrain-like repetition. Terminal '-am' on 'chedam' continues the paragraph-closing suffix pattern."
+        },
+        {
+          "locus": "<f104r.7,+P0>",
+          "raw_text": "dchodees.sheos.odaiin.otchedy.qodain.shedy.chedy.qodain.okar.ar.okaim",
+          "bounding_box": {"x_min": 115, "y_min": 234, "x_max": 940, "y_max": 264},
+          "interaction": "Full-width, 11 units. Contains repeated 'qodain' (twice) and 'chedy' (twice) within a single line — statistically unusual repetition. 'ar' as a two-glyph isolate appears late in the line. Terminal 'okaim' ends with '-im' rather than the more common '-am', a minor suffix variant. Star_3 in the left margin aligns with this y-range."
+        },
+        {
+          "locus": "<f104r.8,+P0>",
+          "raw_text": "olsheedy.lkeedy.lkeody.qokaiin.chedal.qokar.odar.qokal.okar.otar.odr",
+          "bounding_box": {"x_min": 115, "y_min": 265, "x_max": 940, "y_max": 295},
+          "interaction": "Full-width, 11 units. Notable 'l-' prefix cluster at line start: 'lkeedy.lkeody' — double-l prefix sequence is relatively infrequent. 'okar' appears twice and 'qokal' once — the qo/o + kar/kal root family is densely represented in this line, possibly indicating thematic coherence. Terminal 'odr' is a short, unusual ending without a vowel suffix."
+        },
+        {
+          "locus": "<f104r.9,+P0>",
+          "raw_text": "ycheeoy.qokecho.qokol.cheeodam",
+          "bounding_box": {"x_min": 115, "y_min": 296, "x_max": 520, "y_max": 326},
+          "interaction": "Very short terminal line — only 4 dot-separated units — spanning only about half the page width (x_max ~520). This is almost certainly the closing line of the first paragraph block. The truncated right margin (x:520–960 empty) is consistent with paragraph-end convention in the Stars section. 'cheeodam' is a compound terminal token. Star_4 (smaller star) in the left margin begins at approximately this y-level, possibly marking the close of paragraph 1 rather than the open of paragraph 2."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_2_lines_10_to_18",
+      "description": "The second paragraph block, opened by the paragraph marker at approximately y=330 and continuing through 9 text lines to approximately y=440. Full-width text throughout, no bisections. Stars 4 and 5 in the left margin align with this block.",
+      "lines": [
+        {
+          "locus": "<f104r.10,+P0>",
+          "raw_text": "tol.chedal.cheockay.otyd.os.l.air.shdy.qokchd.octheody.cholfor.otalr",
+          "bounding_box": {"x_min": 115, "y_min": 328, "x_max": 950, "y_max": 358},
+          "interaction": "Full-width, 12 units. 'os' and 'l' are very short single-glyph or two-glyph isolates mid-line. 'cholfor' contains an unusual 'f' glyph — 'f' is a relatively rare character in Language B text and may represent a scribal peculiarity or a distinct phonemic marker. 'otalr' as a terminal lacks the standard vowel-suffix, similar to 'odr' in line 8."
+        },
+        {
+          "locus": "<f104r.11,+P0>",
+          "raw_text": "otodchy.lkeody.qokair.otoly.shodar.cheey.okar.olkeedy",
+          "bounding_box": {"x_min": 115, "y_min": 359, "x_max": 820, "y_max": 389},
+          "interaction": "Medium-length line, 8 units, x_max ~820, leaving a right-margin gap of ~140 units. Not a paragraph close (next line continues densely), so the shorter length may reflect the natural glyph count of this text unit. Star_4 in the left margin aligns with this y-range."
+        },
+        {
+          "locus": "<f104r.12,+P0>",
+          "raw_text": "tshdol.qotchedy.qokoeey.qoteode.lo.sar.al.octhy.qotar.opchey.qotam",
+          "bounding_box": {"x_min": 115, "y_min": 390, "x_max": 940, "y_max": 420},
+          "interaction": "Full-width, 11 units. Contains 'lo' as a short isolated unit. 'qoteode' is an unusual token — the 'oe' vowel cluster in the middle of a qo- word is statistically uncommon. Terminal 'qotam' ends with '-am' continuing the suffix pattern. Star_5 (outline-style star) aligns with this and adjacent lines."
+        },
+        {
+          "locus": "<f104r.13,+P0>",
+          "raw_text": "ol,cheol.qodain.chokar.okcho.lkain.okar.cheody.okeeody.qodam.chdy",
+          "bounding_box": {"x_min": 115, "y_min": 421, "x_max": 930, "y_max": 451},
+          "interaction": "Full-width, 10 units. Contains a comma-variant 'ol,cheol' — the comma within a token in VMS transcription marks an uncertain glyph boundary, not a pause. 'okeeody' contains a double-e cluster. 'chdy' as terminal is a very short 4-glyph cluster."
+        },
+        {
+          "locus": "<f104r.14,+P0>",
+          "raw_text": "daiin.choaiin.qokechy.qotal.cheo,lor.saiin.olkeechey.otal.ol.oeeal",
+          "bounding_box": {"x_min": 115, "y_min": 452, "x_max": 930, "y_max": 482},
+          "interaction": "Full-width, 10 units. Contains 'cheo,lor' — another comma-marked boundary uncertainty. 'olkeechey' is a long compound token. 'oeeal' as terminal is a vowel-heavy token, unusual for Language B line endings."
+        },
+        {
+          "locus": "<f104r.15,+P0>",
+          "raw_text": "sar.chodaiin.chody.okar.otolkeechdy.okal.kaiin.cheo,daiin",
+          "bounding_box": {"x_min": 115, "y_min": 483, "x_max": 880, "y_max": 513},
+          "interaction": "Medium-length, 8 units. 'otolkeechdy' is a notably long compound — possibly a fusion of 'otol' + 'kee' + 'chdy'. 'cheo,daiin' again contains a comma boundary marker. The line ends without an '-am' or '-m' terminal, breaking the pattern of the previous paragraph's suffix consistency."
+        },
+        {
+          "locus": "<f104r.16,+P0>",
+          "raw_text": "ocheocthey.qoctheody.ykeeo,dey.qoepchy.opchey.qoty.sh.tey.yteedy.shody",
+          "bounding_box": {"x_min": 115, "y_min": 514, "x_max": 950, "y_max": 544},
+          "interaction": "Full-width, 10 units. Contains 'sh' as a very short 2-glyph isolate. 'ykeeo,dey' has a comma marker. 'qoepchy' is unusual — 'ep' is an atypical glyph pairing in Language B. The line includes three words beginning with 'y-' prefix ('ykeeo,dey', 'yteedy') in close proximity — a high density of y-prefixed tokens."
+        },
+        {
+          "locus": "<f104r.17,+P0>",
+          "raw_text": "ykeeshedy.olkeeody.qotey.qokar.chedy.qokedy.oteechy.chyteody.okar.ody",
+          "bounding_box": {"x_min": 115, "y_min": 545, "x_max": 940, "y_max": 575},
+          "interaction": "Full-width, 10 units. 'okar' appears twice (positions 4 and 9) — possible formulaic repetition. 'chyteody' is a compound with the 'chy' internal segment. 'ody' as terminal is a short 3-glyph close."
+        },
+        {
+          "locus": "<f104r.18,+P0>",
+          "raw_text": "dcheeokeody.qokain.qolar.or.chockhar.otalkshedy",
+          "bounding_box": {"x_min": 115, "y_min": 576, "x_max": 700, "y_max": 606},
+          "interaction": "Short terminal line — 6 units, x_max ~700. This is the closing line of paragraph block 2. The rightward truncation and reduced token count match the paragraph-close pattern established by line f104r.9. 'dcheeokeody' is a long fused compound opening the line. Star_6 in the left margin begins at approximately this y-level."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_3_lines_19_to_29",
+      "description": "The third paragraph block, the longest on the folio. Opens with the paragraph marker at approximately y=620 and runs through 11 dense lines to approximately y=688. Stars 6, 7, and 8 align with the left margin during this block. No bisections anywhere.",
+      "lines": [
+        {
+          "locus": "<f104r.19,+P0>",
+          "raw_text": "toaiin.chdar.otar.shd.qotar.olkchedy.cheokeey.kary.opair.otar.airod.lshd",
+          "bounding_box": {"x_min": 115, "y_min": 608, "x_max": 960, "y_max": 638},
+          "interaction": "Full-width, 12 units. 'shd' is a very short 3-glyph isolate. 'lshd' as terminal is also short and consonant-heavy — both are statistically unusual in Language B which favors vowel-final tokens. 'airod' contains an 'r' medial, a less common configuration. Star_6 in left margin."
+        },
+        {
+          "locus": "<f104r.20,+P0>",
+          "raw_text": "dsheoy.qocthey.qokchdy.qokaiin.chol.rar.cheody.cheeekan.ar.ain.ar.alam",
+          "bounding_box": {"x_min": 115, "y_min": 639, "x_max": 960, "y_max": 669},
+          "interaction": "Full-width, 12 units. 'rar' is a short palindromic cluster. 'cheeekan' contains a triple-e run before 'kan' — statistically distinctive. 'ar' appears twice as an isolated 2-glyph unit and once embedded in 'alam'. Terminal '-am' on 'alam' resumes the suffix pattern."
+        },
+        {
+          "locus": "<f104r.21,+P0>",
+          "raw_text": "dsheedy.qokaiin.chear.olkchedy.charaiin",
+          "bounding_box": {"x_min": 115, "y_min": 670, "x_max": 640, "y_max": 700},
+          "interaction": "Short line — 5 units, x_max ~640 — strongly suggesting a paragraph-internal stanza break or a terminal couplet line. 'charaiin' closes with the '-aiin' triple-i suffix. The empty right margin (x:640–960) is deliberate negative space. Star_7 begins at approximately this y-level."
+        },
+        {
+          "locus": "<f104r.22,+P0>",
+          "raw_text": "tshedar.chllo.rl.shed.kchedy.chokor.cheedy.opchar.cheor.chckhey.taiin.dam",
+          "bounding_box": {"x_min": 115, "y_min": 701, "x_max": 960, "y_max": 731},
+          "interaction": "Full-width, 12 units. 'chllo' contains a double-l internal cluster. 'rl' is a very short 2-glyph isolate — consonant cluster with no vowel, extremely rare. 'dam' as terminal is a very short suffix close."
+        },
+        {
+          "locus": "<f104r.23,+P0>",
+          "raw_text": "ol.sheockhey.chol.kechdy.okeedal.lkain.cholkeeody.otchor.aiir.chol.kar.alol",
+          "bounding_box": {"x_min": 115, "y_min": 732, "x_max": 960, "y_max": 762},
+          "interaction": "Full-width, 12 units. 'aiir' contains a double-i medial, less common than the triple-i 'aiin' pattern. 'alol' is a short palindromic-adjacent terminal. 'cholkeeody' is one of the longer compound tokens on this folio."
+        },
+        {
+          "locus": "<f104r.24,+P0>",
+          "raw_text": "daiin.char.qotal.okechol.olkeeor.ol,keeodal.lkaiin.chal.keeedy.qokam",
+          "bounding_box": {"x_min": 115, "y_min": 763, "x_max": 950, "y_max": 793},
+          "interaction": "Full-width, 10 units. 'ol,keeodal' contains a comma boundary marker. 'keeedy' has a triple-e cluster followed by 'dy'. Terminal 'qokam' ends with '-am'. Star_8 in left margin."
+        },
+        {
+          "locus": "<f104r.25,+P0>",
+          "raw_text": "sar.okair.chckhey.qodaiin.chckhy.checkhd.l.raiin.otain.ar.airam",
+          "bounding_box": {"x_min": 115, "y_min": 794, "x_max": 940, "y_max": 824},
+          "interaction": "Full-width, 11 units. 'l' as an isolated single-glyph unit mid-line. 'checkhd' is a dense consonant-cluster token ending in 'd'. 'airam' is a terminal with the 'r' medial suffix cluster."
+        },
+        {
+          "locus": "<f104r.26,+P0>",
+          "raw_text": "shar.sheey.kar.sheody",
+          "bounding_box": {"x_min": 115, "y_min": 825, "x_max": 420, "y_max": 855},
+          "interaction": "Extremely short line — only 4 units, x_max ~420. This is one of the shortest lines on the entire folio and marks a strong paragraph-terminal or stanza-close. The right margin white space (x:420–960) is very large. The next line (f104r.27) opens a new dense paragraph, making this a clear paragraph boundary line. Star_9 in the left margin is positioned at this y-level, reinforcing the structural break."
+        },
+        {
+          "locus": "<f104r.27,+P0>",
+          "raw_text": "pchedar.qokaiin.qotaiin.dl.ral.cheodl.cphaiin.daiin.ar.qekeeey.qoparaiin",
+          "bounding_box": {"x_min": 115, "y_min": 856, "x_max": 950, "y_max": 886},
+          "interaction": "Full-width reopening line, 11 units. 'dl' and 'ral' are short 2–3 glyph isolates. 'qekeeey' — the 'qe-' prefix is very uncommon (almost all qo-initial tokens use 'qo-'); 'qe' is a notable variant. 'qoparaiin' closes with '-araiin', a longer suffix chain. Star_9 overlaps with this line's y-range."
+        },
+        {
+          "locus": "<f104r.28,+P0>",
+          "raw_text": "olcheear.chedar.or.aror.sheey.olkeechy.or.char.cheeol.s.or.or.aiin.atam",
+          "bounding_box": {"x_min": 115, "y_min": 887, "x_max": 960, "y_max": 917},
+          "interaction": "Full-width, 14 units — the most token-dense single line on the folio. Contains 'or' three times as short isolated units and 's' once as a single-glyph isolate. 'aror' is a short palindromic cluster. 'atam' terminal ends with '-am'."
+        },
+        {
+          "locus": "<f104r.29,+P0>",
+          "raw_text": "ysheodaiin.shody.yteedy.cheedar.or.air.cheoltar.arodly",
+          "bounding_box": {"x_min": 115, "y_min": 918, "x_max": 820, "y_max": 948},
+          "interaction": "Medium-length terminal line — 8 units, x_max ~820. 'arodly' is an unusual terminal — 'ly' as a suffix is relatively uncommon in Language B. 'cheoltar' is a compound with the 'tar' terminal cluster. 'or' as a short isolate mid-line. This appears to be a sub-terminal line before the paragraph definitively closes."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_4_lines_30_to_35",
+      "description": "The fourth paragraph block. Runs approximately 6 lines spanning y~690–820 in the overall folio layout (note: y-estimates for blocks 4 and 5 are compressed into the lower page after the long block 3). Stars 10 and 11 in the left margin align with this block.",
+      "lines": [
+        {
+          "locus": "<f104r.30,+P0>",
+          "raw_text": "okeeolkeeo.dain.lkeodaiin.qokeeo.lkeeeey.okeody.otechdy.opcheoef.qopaiin",
+          "bounding_box": {"x_min": 115, "y_min": 688, "x_max": 950, "y_max": 718},
+          "interaction": "Full-width, 9 units. 'okeeolkeeo' is a very long compound — possibly two fused tokens. 'lkeeeey' contains a quadruple-e run — the longest e-cluster on this folio. 'opcheoef' is unusual — the terminal 'f' glyph is extremely rare in Language B. Star_10 (hollow/outline star) in left margin."
+        },
+        {
+          "locus": "<f104r.31,+P0>",
+          "raw_text": "qokeeo.aiin.oksheey.ok,ol,chey.lcheeey.oteey.lkechedy.qokaiin.chedar.cholcham",
+          "bounding_box": {"x_min": 115, "y_min": 719, "x_max": 960, "y_max": 749},
+          "interaction": "Full-width, 10 units. 'ok,ol,chey' contains two comma boundary markers within a single token — a compound with two uncertain glyph junctions. 'lcheeey' has a triple-e run. 'cholcham' terminal is a two-part compound close ending in '-am'."
+        },
+        {
+          "locus": "<f104r.32,+P0>",
+          "raw_text": "ysheeody.qocth.okshey.otechshy.cheol.taiin.shoda.lkaiin.cheodain.qokar.alchd",
+          "bounding_box": {"x_min": 115, "y_min": 750, "x_max": 960, "y_max": 780},
+          "interaction": "Full-width, 11 units. 'qocth' is very short for a qo- word — only 5 glyphs total with the consonant cluster 'cth' following directly. 'alchd' as terminal is consonant-final, echoing the unusual consonant-terminal lines earlier. Star_10 (hollow) continues in this y-range."
+        },
+        {
+          "locus": "<f104r.33,+P0>",
+          "raw_text": "okchechy.qokcheedy.otchdal.qokal.char.olkeeey.olcheo.lkaiin.chey.roly",
+          "bounding_box": {"x_min": 115, "y_min": 781, "x_max": 950, "y_max": 811},
+          "interaction": "Full-width, 10 units. 'roly' terminal ends in '-ly', echoing 'arodly' in line 29. Star_11 (faded-ink star) begins at approximately this y-level."
+        },
+        {
+          "locus": "<f104r.34,+P0>",
+          "raw_text": "pchol.ksheody.qokeshedy.qotal.chedy.qokaiin.otaiin.cheody.qokal.taiin.cholxy",
+          "bounding_box": {"x_min": 115, "y_min": 812, "x_max": 960, "y_max": 842},
+          "interaction": "Full-width, 11 units. 'cholxy' terminal contains 'x' — the 'x' glyph is one of the rarest characters in the VMS and appears here at line-end, a particularly notable occurrence. This may represent a special marker, a unique word, or a scribal annotation."
+        },
+        {
+          "locus": "<f104r.35,+P0>",
+          "raw_text": "yshoinn.qocheol.chedaiin.qodal.chey.chol.cheol.olaly",
+          "bounding_box": {"x_min": 115, "y_min": 843, "x_max": 820, "y_max": 873},
+          "interaction": "Medium-length terminal line — 8 units, x_max ~820. 'olaly' is a palindromic-adjacent terminal. The reduced right-margin suggests paragraph close. Star_11 continues in left margin at this y-level."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_5_lines_36_to_45",
+      "description": "The fifth and final paragraph block of f104r. Runs 10 lines from approximately y=874 to the bottom margin at y~1000. Stars 12, 13, and 14 in the left margin align with this block. The final lines of this block may be the last entries for this section of the Stars text.",
+      "lines": [
+        {
+          "locus": "<f104r.36,+P0>",
+          "raw_text": "psheody.qotar.chopar.qotaly.qotshead.qotechy.kaiin.okar.qopchar.opam",
+          "bounding_box": {"x_min": 115, "y_min": 874, "x_max": 950, "y_max": 904},
+          "interaction": "Full-width opening of the fifth paragraph block, 10 units. 'qotshead' — the 'sh' internal glyph sequence within a qo- word is unusual. 'opam' terminal ends in '-am'. Star_12 (small star) in left margin at this y-level."
+        },
+        {
+          "locus": "<f104r.37,+P0>",
+          "raw_text": "okaiin.cheodal.qoaiin.okar.oraiin.okar.oteody.qokaiin.okal.qotir",
+          "bounding_box": {"x_min": 115, "y_min": 905, "x_max": 940, "y_max": 935},
+          "interaction": "Full-width, 10 units. 'okar' appears twice, 'okaiin' twice, 'okal' once — the ok-/okar-/okal family is densely clustered in this line. 'qotir' terminal ends in '-ir', an unusual suffix variant compared to the more common '-am' or '-in' patterns."
+        },
+        {
+          "locus": "<f104r.38,+P0>",
+          "raw_text": "akaiin.archeol.qokchol.kcheody.qotchdy",
+          "bounding_box": {"x_min": 115, "y_min": 936, "x_max": 650, "y_max": 966},
+          "interaction": "Short line — 5 units, x_max ~650. This may mark a stanza break or sub-terminal within the fifth paragraph. 'akaiin' opens with 'a-' prefix — unusual as a line-opener. 'archeol' contains the 'rch' cluster. 'qotchdy' is a short consonant-heavy close."
+        },
+        {
+          "locus": "<f104r.39,+P0>",
+          "raw_text": "pcholor.ar.aiin.alkchdy.qotal.chol.qoar.aiin.qopcheedy.qotair.ofaiino",
+          "bounding_box": {"x_min": 115, "y_min": 967, "x_max": 960, "y_max": 997},
+          "interaction": "Full-width, 11 units. 'ar' and 'aiin' both appear as short isolates. 'qoar' is unusual — 'ar' following 'qo' with no 'k' or other consonant between them is atypical. 'ofaiino' terminal — 'f' again appears in this folio, and the '-aiino' suffix is an unusual extended form. Star_13 (vivid red star) in left margin."
+        },
+        {
+          "locus": "<f104r.40,+P0>",
+          "raw_text": "olkeeos.olkaiin.oair.qcthy.oiinolal.ly.oeear.chcthy.olched.qotaiiin",
+          "bounding_box": {"x_min": 115, "y_min": 998, "x_max": 950, "y_max": 1000},
+          "interaction": "Full-width, 10 units. 'qcthy' — the 'q' here is not followed by 'o', making 'qc-' an extremely rare glyph pair; may represent a scribal compression. 'oiinolal' is a long vowel-heavy compound. 'ly' as a short 2-glyph isolate. 'qotaiiin' has a triple-i suffix, one of the few triple-i occurrences at line-end. NOTE: this line is at the very bottom edge of the parchment (y~998–1000); the physical line may be partially cut off by the lower margin."
+        },
+        {
+          "locus": "<f104r.41,+P0>",
+          "raw_text": "qoteey.qokeor.saiir.qoty.qokl.lkaiin.yteedy.qokain.oqockhy.dar",
+          "bounding_box": {"x_min": 115, "y_min": 870, "x_max": 940, "y_max": 900},
+          "interaction": "Full-width, 10 units. 'qokl' is a very short 4-glyph qo- token — unusually compact. 'oqockhy' — the 'oq-' initial is rare; 'q' not at the start of a token is itself unusual. 'dar' terminal is a short 3-glyph close. Star_13 in left margin."
+        },
+        {
+          "locus": "<f104r.42,+P0>",
+          "raw_text": "y.lshedy.cholkar",
+          "bounding_box": {"x_min": 115, "y_min": 901, "x_max": 380, "y_max": 931},
+          "interaction": "Extremely short line — 3 units, x_max ~380. The single-glyph 'y' isolate is the entire first token. This is almost certainly a stanza-terminal or paragraph-internal closing fragment. The empty right margin (x:380–960) is the largest negative space of any line on the folio. This and f104r.26 are the shortest lines on the page."
+        },
+        {
+          "locus": "<f104r.43,+P0>",
+          "raw_text": "tsheodl.qotaiin.qokchedy.ykchdy.pchedy.qokeedy.oteey.qokain.oteo.l.dal",
+          "bounding_box": {"x_min": 115, "y_min": 932, "x_max": 950, "y_max": 962},
+          "interaction": "Full-width, 11 units. 'l' as a single-glyph isolate near line-end. 'tsheodl' opens with the 't-' prefix cluster, less common than 'p-', 'd-', or 'y-' openers. 'ykchdy' contains the 'y' prefix directly on a short 'kchdy' stem. Star_14 in left margin."
+        },
+        {
+          "locus": "<f104r.44,+P0>",
+          "raw_text": "okcheochy.cheey.qoeedaiin.qokeey.ar.cheol.olkair.qokaiin.otaiin.okam",
+          "bounding_box": {"x_min": 115, "y_min": 963, "x_max": 950, "y_max": 993},
+          "interaction": "Full-width, 10 units. 'qoeedaiin' — 'qoee-' prefix with double-e is uncommon; typically 'qokee-'. 'ar' as a short isolate mid-line. 'okam' terminal ends in '-am'. Star_14 continues in left margin."
+        },
+        {
+          "locus": "<f104r.45,+P0>",
+          "raw_text": "daiin.olcheeo.l.s.aiin.otain.ar.chedy.qokaiin.otaiin.otaiin",
+          "bounding_box": {"x_min": 115, "y_min": 970, "x_max": 920, "y_max": 1000},
+          "interaction": "Final line of the folio. 'l' and 's' both appear as single-glyph isolates in close proximity — an unusual density of short isolates. 'otaiin' appears twice consecutively at the line's end — a direct reduplication of the same token. This closing reduplication ('otaiin.otaiin') may function as a closing formula, a scribal flourish, or a syntactic boundary marker in the Stars section. The line runs nearly full-width to x~920, suggesting the paragraph did not terminate short — the folio simply ends. The text of f104r likely continues on f104v."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "gutter_binding_edge",
+      "status": "Completely text-free / Physical margin",
+      "description": "The binding gutter (x:0–52, y:0–1000) is entirely text-free. The shadow of the physical spine darkens this strip. No Voynich text or star illustrations penetrate this zone — all stars are drawn to the right of the gutter shadow, at x_min ~52."
+    },
+    {
+      "anchor_id": "star_1_marginalia through star_14_marginalia",
+      "status": "Completely text-free margin column / Stars do not bisect text",
+      "description": "All 14 star illustrations occupy the narrow left margin column (x:52–110, y:50–1000). This column is entirely text-free — the main paragraph text begins at x_min ~115 in every line, to the right of all star drawings. Unlike the botanical folios where illustrations physically bisect text lines (creating <-> gaps), here the Stars section uses a strict column separation: stars in the left margin, text in the right body. No <-> markers appear in any of the 45 loci, confirming zero bisection events. The star column functions as a pure visual separator and entry-count marker."
+    },
+    {
+      "anchor_id": "folio_number_inscription",
+      "status": "Completely text-free zone / Above line 1",
+      "description": "The '104' numeral inscription (x:780–860, y:12–42) occupies the top-right corner above the first text line. The text body begins at y~48, leaving approximately 5–6 normalized units of vertical clearance below the numeral before text starts. The numeral does not overlap any Voynich glyph. It was likely added by a later cataloguer."
+    },
+    {
+      "anchor_id": "right_margin_white_space_short_lines",
+      "status": "Intentional negative space / Paragraph and stanza terminators",
+      "description": "Five lines on f104r are significantly shorter than full-width, creating large right-margin white spaces: f104r.4 (x_max ~700, gap ~260 units), f104r.9 (x_max ~520, gap ~440 units), f104r.18 (x_max ~700, gap ~260 units), f104r.26 (x_max ~420, gap ~540 units), and f104r.42 (x_max ~380, gap ~580 units). These are not accidents of glyph count — they are deliberate paragraph or stanza close markers. The larger the right-margin gap, the stronger the structural break: f104r.26 and f104r.42 with the two largest gaps (~540 and ~580 units respectively) mark the most significant textual divisions on the folio."
+    },
+    {
+      "anchor_id": "bottom_margin",
+      "status": "Effectively text-free / Final lines approach but do not exceed parchment edge",
+      "description": "The final lines (f104r.44–f104r.45) approach y~1000 at the absolute bottom of the parchment. There is minimal bottom margin. The text does not continue beyond the parchment edge — the folio simply ends at the physical boundary. Any continuation would be on f104v."
+    }
+  ]
+}

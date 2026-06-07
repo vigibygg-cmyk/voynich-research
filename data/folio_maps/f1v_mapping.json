@@ -1,0 +1,204 @@
+{
+  "folio": "f1v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f1v",
+    "total_loci_count": 10,
+    "unique_loci_found": [
+      "<f1v.1,@P0>",
+      "<f1v.2,+P0>",
+      "<f1v.3,+P0>",
+      "<f1v.4,+P0>",
+      "<f1v.5,+P0>",
+      "<f1v.6,+P0>",
+      "<f1v.7,+P0>",
+      "<f1v.8,+P0>",
+      "<f1v.9,+P0>",
+      "<f1v.10,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "f1v.1 has ONE <-> marker: 'kchsy.chodaiin.ol<->oltchey.char.cfhar.am' — bisected by central stem",
+      "f1v.2 has ONE <-> marker: 'yteey.char.or.ochy<->dcho.lkody.okodar.chody' — bisected by central stem",
+      "f1v.3 has ONE <-> marker: 'do.ckhy.ckhockhy.shy<->dksheey.cthy.kotchody.dal' — bisected by central stem",
+      "f1v.4 has ONE <-> marker: 'dol.chokeo.dair.dam<->sochey.cho,kody' — bisected by central stem",
+      "f1v.5 has ONE <-> marker: 'potoy.shol.jair.cphoal<->dar.chey.tody.otoaiin.shoshy' — bisected by central stem",
+      "f1v.6 has ONE <-> marker: 'choky.chol.ctholshol.akal<->dolchey.chodo.lol.chy.cthy' — bisected by central stem",
+      "f1v.7 has ONE <-> marker: 'qo.ol.choees.cheol.dol.cthey<->ykol.dol.dolo.ykol.dolchiody' — bisected by central stem",
+      "f1v.8 has ONE <-> marker: 'okolshol.kol.kechy.chol.ky<->chol.cthol.chody.chol.daiin' — bisected by central stem",
+      "f1v.9 has ONE <-> marker: 'shor.okal.chol.dolky.dar<->shol.dchor.otcho.dar.shody' — bisected by central stem",
+      "f1v.10 has ONE <-> marker: 'toor.chotchey.dal.chody<->schody.pol.chodar' — bisected by central stem",
+      "No @Lp, @Ls, or @Cc labels present in f1v — no isolated botanical or star labels",
+      "No @L0 generic isolated labels present in f1v"
+    ],
+    "visual_anchor_inventory": [
+      "central_main_stem: thick pale/white central stem running vertically from bulbous root mound to apex flower bud",
+      "apex_flower_bud: closed dark-capped tulip-like bud at very top of central stem",
+      "upper_stem_node_1: first branching node below apex, with two opposing leaf pairs (teal + tan)",
+      "upper_stem_node_2: second branching node, larger leaf cluster with thorn-like projections",
+      "mid_stem_node_left: left lateral branch with multiple alternate leaves (teal and tan)",
+      "mid_stem_node_right: right lateral branch with multiple alternate leaves (teal and tan)",
+      "lower_stem_node_left: lower-left branch bearing large tan and teal leaves, descends into text zone",
+      "lower_stem_node_right: lower-right branch bearing large teal and tan leaves, descends into text zone",
+      "thorn_projections: short spine-like protrusions visible at multiple stem nodes",
+      "root_mound: large bulbous scaly mound at the base of the stem, rendered in tan/brown with overlapping scale-like texture, occupies the lower third of the page",
+      "root_hair_fringe: radiating fine root-hair lines extending outward from the base of the mound"
+    ]
+  },
+  "visual_anchors": {
+    "central_main_stem": {
+      "description": "The primary vertical axis of the plant. A thick, pale cream/white stem with visible node swellings at each branching point. Runs from the root mound at approximately y=820 up to the apex flower bud at y=105. The stem passes directly through the mid-page text zone and is the sole bisecting agent for all 10 loci. Its width at mid-page is approximately 30–40 normalized units, creating a consistent gap in all bisected lines.",
+      "bounding_box": {"x_min": 455, "y_min": 105, "x_max": 510, "y_max": 825}
+    },
+    "apex_flower_bud": {
+      "description": "A closed tulip-like flower bud at the very apex of the central stem. Has a dark brown/black cap and pale white petals partially opening. Small in size relative to the leaf mass. Situated at the topmost point of the plant, well above the text zone.",
+      "bounding_box": {"x_min": 438, "y_min": 85, "x_max": 530, "y_max": 175}
+    },
+    "upper_stem_node_1": {
+      "description": "The first branching node immediately below the apex bud. Bears two pairs of opposite leaves — one pair teal (green), one pair tan (ochre). Leaves are broad ovoid with smooth outlines. Thorn-like projections visible at node junction.",
+      "bounding_box": {"x_min": 365, "y_min": 170, "x_max": 610, "y_max": 340}
+    },
+    "upper_stem_node_2": {
+      "description": "The second major branching node, bearing a denser cluster of leaves at a slightly lower position. Multiple teal and tan ovoid leaves radiate outward. More pronounced thorn projections visible. This node and its leaves define the upper-mid illustration zone.",
+      "bounding_box": {"x_min": 270, "y_min": 290, "x_max": 720, "y_max": 480}
+    },
+    "mid_stem_node_left": {
+      "description": "Left lateral branch emerging from the main stem at approximately y=430. Bears 3–4 alternate leaves (mix of teal and tan ovoids) on a sub-branch angling lower-left. The lowest leaf of this branch descends into the upper text zone.",
+      "bounding_box": {"x_min": 190, "y_min": 390, "x_max": 455, "y_max": 620}
+    },
+    "mid_stem_node_right": {
+      "description": "Right lateral branch emerging from the main stem at approximately y=410. Mirror of the left lateral branch, bearing 3–4 alternate leaves angling lower-right into the right text column zone.",
+      "bounding_box": {"x_min": 510, "y_min": 370, "x_max": 800, "y_max": 600}
+    },
+    "lower_stem_node_left": {
+      "description": "The lowest visible left sub-branch, bearing 2 large leaves (one teal, one tan) that descend to approximately y=680, penetrating deeply into the upper text block zone. This branch and its leaves are the primary left-side illustration elements constraining left-column text width in the upper paragraph.",
+      "bounding_box": {"x_min": 175, "y_min": 560, "x_max": 455, "y_max": 710}
+    },
+    "lower_stem_node_right": {
+      "description": "The lowest visible right sub-branch, bearing 2 large leaves that descend to approximately y=660. Constrains right-column text in the upper paragraph similarly to its left counterpart.",
+      "bounding_box": {"x_min": 510, "y_min": 530, "x_max": 825, "y_max": 680}
+    },
+    "thorn_projections": {
+      "description": "Short pointed spine-like protrusions emerging from the stem at each node junction, rendered in the same pale cream ink as the stem. Botanically suggest a thorny or prickly shrub species. These are small features (~10–20 normalized units each) and do not independently affect text layout.",
+      "bounding_box": {"x_min": 390, "y_min": 270, "x_max": 560, "y_max": 550}
+    },
+    "root_mound": {
+      "description": "A large bulging mound at the base of the central stem, drawn in tan/brown ink with a dense overlapping scale or pinecone-like texture. This is the most prominent root representation in the herbal section — suggesting a bulb or corm rather than spreading roots. It occupies most of the lower third of the page below the text blocks and is entirely text-free.",
+      "bounding_box": {"x_min": 195, "y_min": 820, "x_max": 790, "y_max": 990}
+    },
+    "root_hair_fringe": {
+      "description": "Fine radiating root-hair lines drawn outward from the perimeter of the root mound in a grass or fringe pattern. They extend the root illustration to the very bottom edge of the parchment. Entirely below the text zone.",
+      "bounding_box": {"x_min": 100, "y_min": 940, "x_max": 880, "y_max": 1000}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "main_paragraph_bisected",
+      "description": "The sole text block of f1v. All 10 loci form a single contiguous paragraph that occupies the mid-lower portion of the parchment, between the base of the lowest leaf clusters (~y=660) and the top of the root mound (~y=820). Unlike f2r which had separate upper and lower blocks, f1v presents its text in one block that is consistently split into LEFT and RIGHT columns by the single central stem. The text forms two parallel running columns flanking the stem, visually resembling a two-column layout. Left column text is additionally constrained on its outer left margin by the descending left branch/leaves; right column text similarly on the right.",
+      "lines": [
+        {
+          "locus": "<f1v.1,@P0>",
+          "raw_text": "kchsy.chodaiin.ol<->oltchey.char.cfhar.am",
+          "bounding_box": {"x_min": 165, "y_min": 598, "x_max": 810, "y_max": 628},
+          "interaction": "Opening line (@P0) of the paragraph. ONE <-> bisection: LEFT SEGMENT 'kchsy.chodaiin.ol' runs x_min:165–x_max:445; GAP x:446–515 (central main stem body at this y-level, ~69 normalized units wide); RIGHT SEGMENT 'oltchey.char.cfhar.am' resumes x_min:516–x_max:810. The left margin at x:165 is partially constrained by the outermost reach of the lower_stem_node_left leaves which have not fully cleared at this y-level."
+        },
+        {
+          "locus": "<f1v.2,+P0>",
+          "raw_text": "yteey.char.or.ochy<->dcho.lkody.okodar.chody",
+          "bounding_box": {"x_min": 165, "y_min": 635, "x_max": 810, "y_max": 665},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'yteey.char.or.ochy' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'dcho.lkody.okodar.chody' x_min:516–x_max:810. The left and right leaf intrusions from the lower branch nodes are retreating upward relative to this y-position, allowing slightly fuller text margins than line 1."
+        },
+        {
+          "locus": "<f1v.3,+P0>",
+          "raw_text": "do.ckhy.ckhockhy.shy<->dksheey.cthy.kotchody.dal",
+          "bounding_box": {"x_min": 165, "y_min": 668, "x_max": 810, "y_max": 698},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'do.ckhy.ckhockhy.shy' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'dksheey.cthy.kotchody.dal' x_min:516–x_max:810. By this y-level the lateral branch leaves are fully above, and left/right text margins are at their most generous."
+        },
+        {
+          "locus": "<f1v.4,+P0>",
+          "raw_text": "dol.chokeo.dair.dam<->sochey.cho,kody",
+          "bounding_box": {"x_min": 165, "y_min": 701, "x_max": 810, "y_max": 731},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'dol.chokeo.dair.dam' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'sochey.cho,kody' x_min:516–x_max:810. Note the right segment is notably shorter than the left — the comma in 'cho,kody' is a transcription variant marker, not a bisection. The asymmetry suggests either a shorter right-column entry or text contoured around a leaf element at right."
+        },
+        {
+          "locus": "<f1v.5,+P0>",
+          "raw_text": "potoy.shol.jair.cphoal<->dar.chey.tody.otoaiin.shoshy",
+          "bounding_box": {"x_min": 165, "y_min": 734, "x_max": 810, "y_max": 764},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'potoy.shol.jair.cphoal' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'dar.chey.tody.otoaiin.shoshy' x_min:516–x_max:810. Both segments are of roughly balanced length, consistent with a stable two-column layout at this y-depth."
+        },
+        {
+          "locus": "<f1v.6,+P0>",
+          "raw_text": "choky.chol.ctholshol.akal<->dolchey.chodo.lol.chy.cthy",
+          "bounding_box": {"x_min": 165, "y_min": 764, "x_max": 810, "y_max": 794},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'choky.chol.ctholshol.akal' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'dolchey.chodo.lol.chy.cthy' x_min:516–x_max:810. The stem gap width remains consistent (~69 normalized units) through this and surrounding lines, confirming a single uniform stem body at this mid-page zone."
+        },
+        {
+          "locus": "<f1v.7,+P0>",
+          "raw_text": "qo.ol.choees.cheol.dol.cthey<->ykol.dol.dolo.ykol.dolchiody",
+          "bounding_box": {"x_min": 165, "y_min": 764, "x_max": 810, "y_max": 794},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'qo.ol.choees.cheol.dol.cthey' x_min:165–x_max:445; GAP x:446–515 (central stem); RIGHT SEGMENT 'ykol.dol.dolo.ykol.dolchiody' x_min:516–x_max:810. This line has one of the longest right segments in the block, the word 'dolchiody' being a notably long glyph cluster. Both columns appear well-populated at this depth."
+        },
+        {
+          "locus": "<f1v.8,+P0>",
+          "raw_text": "okolshol.kol.kechy.chol.ky<->chol.cthol.chody.chol.daiin",
+          "bounding_box": {"x_min": 165, "y_min": 794, "x_max": 810, "y_max": 824},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'okolshol.kol.kechy.chol.ky' x_min:165–x_max:445; GAP x:446–515 (central stem, beginning to merge toward root mound at its base); RIGHT SEGMENT 'chol.cthol.chody.chol.daiin' x_min:516–x_max:810. At this y-level (~y=794–824) the top of the root mound (y_min:820) is immediately below — these are the penultimate lines before the illustration resumes."
+        },
+        {
+          "locus": "<f1v.9,+P0>",
+          "raw_text": "shor.okal.chol.dolky.dar<->shol.dchor.otcho.dar.shody",
+          "bounding_box": {"x_min": 165, "y_min": 800, "x_max": 810, "y_max": 830},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'shor.okal.chol.dolky.dar' x_min:165–x_max:445; GAP x:446–515 (stem now at its widest as it enters the root mound collar); RIGHT SEGMENT 'shol.dchor.otcho.dar.shody' x_min:516–x_max:810. The text at this line is on the cusp of the root mound's upper boundary; scribe compressed line spacing here."
+        },
+        {
+          "locus": "<f1v.10,+P0>",
+          "raw_text": "toor.chotchey.dal.chody<->schody.pol.chodar",
+          "bounding_box": {"x_min": 165, "y_min": 806, "x_max": 810, "y_max": 836},
+          "interaction": "Closing line of the paragraph (+P0 but functions as terminal). ONE <-> bisection: LEFT SEGMENT 'toor.chotchey.dal.chody' x_min:165–x_max:445; GAP x:446–515 (central stem entering root mound); RIGHT SEGMENT 'schody.pol.chodar' x_min:516–x_max:810. The right segment is noticeably shorter than the left — consistent with a closing/terminal line where the scribe completes the left column and writes a shorter right-column coda. Below this line the root mound illustration takes over the page entirely."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "apex_flower_bud",
+      "status": "Completely text-free / Above all text zones",
+      "description": "The apex flower bud at the very top of the central stem (x:438–530, y:85–175) is in the upper fifth of the parchment, well above the text block which begins at approximately y=598. The entire upper half of the page is a text-free illustration zone."
+    },
+    {
+      "anchor_id": "upper_stem_node_1",
+      "status": "Completely text-free / Upper illustration zone",
+      "description": "The first branching node and its leaf pairs (x:365–610, y:170–340) are entirely within the text-free upper illustration zone. No paragraph loci interact with this zone."
+    },
+    {
+      "anchor_id": "upper_stem_node_2",
+      "status": "Completely text-free / Upper illustration zone",
+      "description": "The second branching node and its larger leaf cluster (x:270–720, y:290–480) are also entirely text-free. The leaves spread broadly left and right but remain above the text zone."
+    },
+    {
+      "anchor_id": "mid_stem_node_left",
+      "status": "Completely text-free / Transitional zone above text",
+      "description": "The left lateral branch (x:190–455, y:390–620) occupies the transitional zone just above the text block. Its lowest leaf descends to approximately y=620, which is just above the first text line at y=598. The near-contact between this leaf's lower tip and the text start constrains the left-column top margin and is likely why the first text line (f1v.1) does not begin further up the page."
+    },
+    {
+      "anchor_id": "mid_stem_node_right",
+      "status": "Completely text-free / Transitional zone above text",
+      "description": "The right lateral branch (x:510–800, y:370–600) mirrors the left branch. Its lowest leaf descends to approximately y=600, creating an equivalent upper boundary for the right text column. The combined effect of both lower lateral branches creates a clear horizontal ceiling for the text block at y~598."
+    },
+    {
+      "anchor_id": "central_main_stem",
+      "status": "Intentionally bisected — sole bisecting axis for entire folio",
+      "description": "Unlike f2r where multiple stems created cascading bisections, f1v is defined by a single, consistent, uniform bisection throughout all 10 lines. The stem gap (x:446–515, ~69 normalized units) is remarkably stable from line 1 to line 10, reflecting the unbranched nature of the main stem in the text zone. This produces the clearest two-column text layout visible in the early herbal folios."
+    },
+    {
+      "anchor_id": "root_mound",
+      "status": "Completely text-free / Below all text zones",
+      "description": "The large bulbous scaly root mound (x:195–790, y:820–990) entirely post-dates the text block. All 10 text lines complete above y=836. The mound's upper boundary at y=820 acts as a hard floor for the paragraph, and the scribe appears to have compressed final line spacing (lines f1v.8–f1v.10 are closely packed) to complete the paragraph before the root illustration begins."
+    },
+    {
+      "anchor_id": "root_hair_fringe",
+      "status": "Completely text-free / Bottom margin",
+      "description": "The fine root-hair fringe lines extending from the mound's perimeter (x:100–880, y:940–1000) occupy only the bottom margin of the parchment. Entirely decorative, no text interaction."
+    }
+  ]
+}

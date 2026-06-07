@@ -1,0 +1,285 @@
+{
+  "folio": "f86v4",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "image_source": "f86v4.jpg",
+  "image_dimensions_pixels": {"width": 2422, "height": 3585},
+  "normalization_formula": "X_norm = floor((X_pixel / 2422) * 1000); Y_norm = floor((Y_pixel / 3585) * 1000)",
+
+  "audit_log": {
+    "extracted_folio_id": "f86v4",
+    "total_loci_count": 9,
+    "unique_loci_found": [
+      "<f86v4.1,@Cc>",
+      "<f86v4.2,@Cc>",
+      "<f86v4.3,@Cc>",
+      "<f86v4.4,@Cc>",
+      "<f86v4.5,@P0>",
+      "<f86v4.6,+P0>",
+      "<f86v4.7,+P0>",
+      "<f86v4.8,+P0>",
+      "<f86v4.9,+Pc>"
+    ],
+    "syntax_clues_detected": [
+      "f86v4.1 is @Cc — text INSIDE or encircling the Central Circle (the crescent-moon medallion at the diagram's center); full spiral ring inscription encircling the central disk",
+      "f86v4.2 is @Cc — second ring of spiral text encircling the central illustration; continuation of the concentric circular inscription",
+      "f86v4.3 is @Cc — third ring of spiral text; the circumferential text expands outward from the central moon disk",
+      "f86v4.4 is @Cc — fourth ring of spiral text; approaching the outer ring of the cosmological diagram",
+      "f86v4.5 is @P0 (paragraph start) and contains ONE <-> bisection marker: 'pcheodar.oedy.qokeol.qoeol<->oqokeol.dar.ol.olair.am' — this lower paragraph text line is bisected by a visual anchor; the circular diagram's outer edge or a margin element physically splits this line into left and right text segments",
+      "f86v4.6 through f86v4.8 are +P0 (paragraph continuation) — lower block paragraph lines below the circular diagram, no bisection markers",
+      "f86v4.9 is +Pc (paragraph close/terminal) — last very short line: 'dor.oleey.ol.yy'",
+      "NO @Lp (plant label) or @Ls (star label) loci present — this is a cosmological/astronomical folio, not herbal",
+      "Header flags: $I=C = Cosmological/Astronomical section; $L=B = Language B; $H=2 = Hand 2; $C=3 = Color level 3 (blues and yellows used)"
+    ],
+    "visual_anchor_inventory": [
+      "outer_spiral_text_band: the outermost annular ring of Voynich script text, written in spiral/circular formation around the entire diagram; COLOR: dark brown-black ink on natural parchment (#e8d8b0), script flowing continuously counterclockwise or clockwise around the design",
+      "outer_decorative_ring: the outermost illustrated ring of the cosmological diagram, filled with dense overlapping cell/lobe shapes resembling scales or bubbles; COLOR: pale warm parchment base with dark brown ink outlines, some cells have tiny blue pigment accents",
+      "blue_node_ring: a ring of larger oval or elongated nodes highlighted in vivid blue paint, distributed at regular intervals (~16–20 nodes) around the mid-outer band of the diagram; COLOR: vivid cornflower-to-lapis blue (~#4a7dbf to #2a5a9a), opaque, applied over the drawn cell-structures; each node has a dark brown oval outline with solid blue fill",
+      "inner_cell_band: the denser inner ring of overlapping cell/lobe shapes immediately surrounding the central white disk; COLOR: same dark brown ink outlines, parchment fill, with occasional blue accent nodes scattered less densely than the outer blue-node ring",
+      "central_white_disk: the large blank circular field at the diagram's center, housing the crescent moon figure; COLOR: pale natural parchment white-cream (~#f0e8d8), blank except for the moon drawing and faint circular border line in brown ink",
+      "crescent_moon_face: the central illustration element — a crescent moon rendered as a stylized face with closed or half-closed eyes, a nose, and faint facial features; COLOR: the crescent arc itself in warm ochre-yellow (~#c8a832), the face features in dark brown ink (~#3a2a18), the shadow/dark portion of the moon disk in pale grey or left as parchment tone",
+      "circular_diagram_border_outer: the outermost bounding circle line of the cosmological diagram, a faint brown ink circle defining the diagram's maximum extent; COLOR: brown-black ink, thin single line (~#3a2a18)",
+      "circular_diagram_border_inner: the inner bounding circle separating the cell-filled rings from the central white disk; COLOR: brown-black ink, moderate line weight, clearly visible as a clean circle",
+      "lower_paragraph_block: the block of straight horizontal text lines below the circular diagram (loci f86v4.5 through f86v4.9), written in standard left-to-right Voynich script; COLOR: dark brown-black ink, same as all text throughout",
+      "left_margin_annotations: sparse shorter text lines along the LEFT margin of the folio, possibly additional inscription or overflow text from the circular diagram notation; COLOR: dark brown ink, same hand",
+      "right_margin_annotations: similarly sparse text along the RIGHT margin, flanking the circular diagram at mid-height; COLOR: dark brown ink",
+      "parchment_background: the natural vellum surface of the folio; COLOR: warm cream-tan (~#e8d8b0 to #d8c89a), darker and more foxed toward the edges and gutter"
+    ]
+  },
+
+  "color_palette": {
+    "parchment_base": "#e8d8b0 — warm cream-tan vellum, the dominant background color of the entire folio",
+    "ink_text_and_outlines": "#3a2a18 — dark brown-black iron gall ink used for all Voynich script and diagram outlines",
+    "blue_node_pigment": "#4a7dbf to #2a5a9a — vivid opaque blue (likely azurite or ultramarine), used exclusively for the highlighted oval nodes in the mid-outer ring of the diagram; the most saturated color on the folio",
+    "crescent_moon_yellow": "#c8a832 — warm ochre-yellow pigment used for the crescent moon arc, possibly verdigris-free orpiment or a yellow ochre",
+    "cell_fill_wash": "near-parchment, very pale warm tone with no added pigment in most cells — the cell interiors are the exposed vellum surface outlined in ink",
+    "faint_brown_wash": "#b89870 — some cells or background areas show a slightly warmer brown wash, possibly age-toning or a very dilute ink wash applied to the cell-ring zone"
+  },
+
+  "visual_anchors": {
+    "outer_spiral_text_band": {
+      "description": "The outermost layer of the folio composition is a continuous band of Voynich script text written in an approximately circular/spiral path. This text traces the full circumference of the diagram and accounts for loci @Cc 1–4. The script is written in the same dark brown ink as the rest of the manuscript. The text band follows the curvature of the diagram, with individual lines slightly curving. The band is approximately 80–120 normalized units wide radially, sitting just outside or interleaved with the outermost illustrated cell-ring. The text begins at approximately the top of the diagram and spirals inward or progresses line-by-line toward the center. COLOR: dark brown-black ink on natural parchment; no special pigment in this zone.",
+      "bounding_box": {"x_min": 70, "y_min": 55, "x_max": 960, "y_max": 870},
+      "color": {
+        "ink": "dark brown-black, ~#3a2a18",
+        "background": "natural parchment ~#e8d8b0"
+      }
+    },
+    "outer_decorative_ring": {
+      "description": "The outermost illustrated annular ring of the cosmological diagram. This ring is densely packed with overlapping cell-like, lobe-like, or bubble-like shapes — resembling biological cells, scales, or closely-packed petals viewed from above. Each cell is outlined in dark brown ink and left with a parchment-tone interior. Some cells along the outer edge appear more rounded, others more elongated radially. The overall effect is of a richly textured organic surface. The blue-pigment nodes (described separately) are embedded within this ring at regular intervals. This ring is the most visually complex and dense illustrated zone on the folio.",
+      "bounding_box": {"x_min": 105, "y_min": 90, "x_max": 925, "y_max": 855},
+      "color": {
+        "cell_outlines": "dark brown ink, ~#3a2a18",
+        "cell_interiors": "parchment cream, ~#e8d8b0 — no added pigment",
+        "occasional_wash": "very faint warm brown tone in some cell zones, ~#d8c090"
+      }
+    },
+    "blue_node_ring": {
+      "description": "A prominent ring of distinctly blue-painted oval or elongated nodes distributed at irregular but roughly evenly-spaced intervals throughout the outer and mid sections of the cell-ring. There appear to be approximately 16 to 22 such nodes visible across the full diagram. Each node is a drawn oval shape (approximately 25–40 normalized units long, 12–20 units wide) filled solidly with opaque blue pigment. The blue is the most visually arresting color on the entire folio, standing out dramatically against the brown-and-cream cell-ring. Some nodes appear isolated, others appear grouped in pairs or small clusters. The nodes are consistent with the astronomical/cosmological sections of the Voynich Manuscript where similar blue-painted elements appear (e.g., stars or celestial bodies). COLOR: vivid lapis or azurite blue (~#3a6aaf to #2a5090), fully opaque fill, dark brown ink outline.",
+      "bounding_box": {"x_min": 130, "y_min": 115, "x_max": 900, "y_max": 830},
+      "color": {
+        "node_fill": "vivid blue, ~#3a6aaf — the dominant saturated pigment on this folio",
+        "node_outline": "dark brown ink, ~#3a2a18",
+        "approximate_count": "16–22 nodes visible across the full ring"
+      }
+    },
+    "inner_cell_band": {
+      "description": "The inner annular band between the outer cell-ring and the central white disk. This band is slightly less densely packed than the outer ring but uses the same overlapping cell/lobe motif. The cells here tend to be somewhat larger relative to the band width. A smaller number of blue-pigment nodes appear in this inner band, less densely than in the outer ring. The inner cell band transitions smoothly into the outer circular border line of the central white disk. COLOR: same as outer ring — dark brown ink outlines on parchment, with occasional blue accent nodes.",
+      "bounding_box": {"x_min": 245, "y_min": 215, "x_max": 785, "y_max": 755},
+      "color": {
+        "cell_outlines": "dark brown ink, ~#3a2a18",
+        "cell_interiors": "parchment cream",
+        "blue_nodes": "fewer than outer ring; same blue ~#3a6aaf"
+      }
+    },
+    "central_white_disk": {
+      "description": "The central circular void at the heart of the diagram. This large disk is essentially blank parchment, providing a strong visual contrast with the densely illustrated rings surrounding it. Its boundary is defined by a clean circular ink line. The only content within this disk is the crescent moon face illustration. The disk has a diameter of approximately 310–320 normalized units. CENTER approximately at (x=507, y=480) in normalized coordinates. The whiteness of this zone (clean parchment) draws the eye immediately to the crescent moon at its center. There is no text inside this disk — it is a deliberate negative space.",
+      "bounding_box": {"x_min": 350, "y_min": 325, "x_max": 665, "y_max": 640},
+      "color": {
+        "fill": "natural parchment cream, ~#f0e8d8 — cleanest, palest zone on the folio",
+        "border_line": "dark brown ink circle, ~#3a2a18, thin line weight"
+      }
+    },
+    "crescent_moon_face": {
+      "description": "The central illustration of the entire folio — a crescent moon rendered as a human face in profile or three-quarter view. The crescent arc curves from approximately the lower-left to the upper-right of the central disk. A stylized face is depicted within or upon the crescent, with ink-drawn eye(s), a nose, and mouth/chin features. This is one of the iconic images of the Voynich Manuscript's cosmological section. The face appears serene or sleeping. The crescent itself is painted in a warm yellow-ochre pigment, making it the second most prominent color element on the folio after the blue nodes. The face features are drawn in dark brown ink over the yellow wash. This element is entirely within the central white disk and is the primary visual focus of the composition.",
+      "bounding_box": {"x_min": 405, "y_min": 355, "x_max": 615, "y_max": 580},
+      "color": {
+        "crescent_arc_fill": "warm yellow-ochre, ~#c8a832 — opaque wash applied within the crescent arc",
+        "face_features": "dark brown ink, ~#3a2a18 — eyes, nose, mouth drawn in ink over yellow wash",
+        "dark_moon_shadow": "the non-illuminated portion of the moon disk is parchment-tone or very faint grey, not strongly painted",
+        "overall_impression": "golden-yellow crescent with brown ink face details on cream parchment background"
+      }
+    },
+    "lower_paragraph_block": {
+      "description": "A block of 5 lines of standard horizontal Voynich text (loci f86v4.5 through f86v4.9) written below the circular cosmological diagram. These lines appear in the lower third of the folio, below the diagram's bottom edge. Line f86v4.5 contains the sole <-> bisection marker, indicating it was physically split by a visual element — most likely the lower arc of the circular diagram's border line as it curves through the text zone, or a marginal line/bracket. Lines f86v4.6–f86v4.8 are full-width paragraph continuation lines. Line f86v4.9 (+Pc) is a very short terminal line: 'dor.oleey.ol.yy'. COLOR: dark brown-black ink, same throughout.",
+      "bounding_box": {"x_min": 100, "y_min": 855, "x_max": 880, "y_max": 980},
+      "color": {
+        "ink": "dark brown-black, ~#3a2a18",
+        "background": "parchment, ~#e0cfa0 — slightly more age-toned in the lower portion of the folio"
+      }
+    },
+    "left_margin_annotations": {
+      "description": "Short text lines written in the left margin zone of the folio, flanking the circular diagram at various heights. These appear to be overflow or supplementary label text associated with the diagram. The text is written in the same Voynich script hand. The lines are short and irregularly spaced vertically. They sit outside the diagram's left tangent boundary.",
+      "bounding_box": {"x_min": 20, "y_min": 280, "x_max": 110, "y_max": 780},
+      "color": {
+        "ink": "dark brown ink, ~#3a2a18, same as main text"
+      }
+    },
+    "right_margin_annotations": {
+      "description": "Similarly sparse short text lines along the right margin, roughly opposite the left-margin annotations. These flank the circular diagram on its right side. Their function and relationship to the @Cc ring text is unclear but they are part of the same scribal session.",
+      "bounding_box": {"x_min": 900, "y_min": 290, "x_max": 985, "y_max": 760},
+      "color": {
+        "ink": "dark brown ink, ~#3a2a18"
+      }
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "concentric_circle_inscriptions",
+      "description": "Four rings of Voynich script (@Cc loci 1–4) written in concentric spiral formation around the central crescent moon disk. These are the defining textual element of this folio. The text spirals outward from the central disk, with each successive locus occupying a progressively larger circumferential path. The lines curve continuously around the diagram. Each @Cc locus corresponds to approximately one full revolution of the spiral. The text is written over or alongside the cell-ring illustration, sitting in the interstitial spaces between the cell/lobe motifs.",
+      "lines": [
+        {
+          "locus": "<f86v4.1,@Cc>",
+          "raw_text": "opos.os.sheody.pch?dar.odsheo.qody.cheepchdy.lpchedy.olkar.shdar.dchdor.qopcher.ches.os.eeedar.odaiin.pcheodar.chdair.or,arorchy.shar.opchsey.otedy.chcphhy.chedy.sar,shed.odar.sheey.scheos.al.cheefar.shetchy.qoteol.otor.shar.qoteshy.do???.ofor.arar.dl",
+          "bounding_box": {"x_min": 295, "y_min": 308, "x_max": 720, "y_max": 668},
+          "trajectory": "circular_arc",
+          "approximate_radius_normalized": 185,
+          "center_of_circle": {"x": 507, "y": 480},
+          "interaction": "This is the innermost @Cc ring text, written as a circular inscription immediately surrounding the central white disk containing the crescent moon. The text traces a full or near-full circle just outside the inner_cell_band's inner boundary. The script flows continuously around the circular border of the central disk. No <-> bisection is present — the circular form means the text wraps naturally around the disk without being 'split.' The pch?dar segment contains a deliberate uncertainty marker, retained exactly. The do??? segment similarly contains triple uncertainty. Line height approximately 18–22 normalized units. The text is written in the narrow annular space between the inner cell band and the outer edge of the central white disk. COLOR: dark brown ink on parchment/cell background."
+        },
+        {
+          "locus": "<f86v4.2,@Cc>",
+          "raw_text": "oeeey.o,daiin.otedaiin.otedy.oteey.chedaiin.octhedy.chy.shedaiin.chotaiin.oraiin.otodeeeo.or.yteeody.oteedar,aiin.shedaiin.chdar.shedy.qotedaiin.chedy.tchdy.chetdy.chedy.qotar.chedy.chckhy.daiin.otedy.seeedy.??ctheey.sam",
+          "bounding_box": {"x_min": 205, "y_min": 220, "x_max": 815, "y_max": 755},
+          "trajectory": "circular_arc",
+          "approximate_radius_normalized": 275,
+          "center_of_circle": {"x": 507, "y": 480},
+          "interaction": "Second @Cc ring text, written at a larger radius than f86v4.1, approximately in the middle zone of the outer cell-ring. The text follows the same continuous circular path but at a greater diameter. The script sits between rows of cell/lobe motifs, threading through the illustrated zone. The ??ctheey segment has leading uncertainty markers, retained exactly. The .sam terminal word ends this ring. No bisection marker — circular continuity. The increased circumference at this radius accommodates the longer text string. Approximate line height 18–22 normalized units, consistent with the first ring."
+        },
+        {
+          "locus": "<f86v4.3,@Cc>",
+          "raw_text": "tchey.dair.alody.shes.qeeor.or.odareedy.chdy.orcheos.osain.or.oteed.chedees.oteedy.qoty.otedy.shedy.otedy.dar.shd.shyy.schdy.chdchdy.dodar.aiin.or.aiin.sar.or,chedy.qotchdy.dchdes.ar.sheody.opcho.fcheom",
+          "bounding_box": {"x_min": 148, "y_min": 163, "x_max": 868, "y_max": 810},
+          "trajectory": "circular_arc",
+          "approximate_radius_normalized": 340,
+          "center_of_circle": {"x": 507, "y": 480},
+          "interaction": "Third @Cc ring text at a still-larger radius, approaching the outer boundary of the main cell-ring. This ring text occupies the dense outer zone of the diagram where the blue nodes are most concentrated. The script may curve around or between the blue oval nodes, with the ink flowing over or adjacent to the blue pigment elements. The line is somewhat shorter than the previous two rings, suggesting it may not complete a full 360-degree revolution or that this portion of the spiral is moving outward. The fcheom terminal is consistent with an 'm'-final word at the end of a circular run."
+        },
+        {
+          "locus": "<f86v4.4,@Cc>",
+          "raw_text": "pchedar.ar.ocpor.otees.oes.aiir.olkeor.dar.air.desy.doeedey.opchedy.shedaiin.dar.otedy.dain.otey.dam.otedy.daiin.chocthy.dtedair.chody.sheos.otedos.qokechy.pchdeedy.dan.ol.dol.oty.sho.pol.otoldyl",
+          "bounding_box": {"x_min": 110, "y_min": 118, "x_max": 910, "y_max": 855},
+          "trajectory": "circular_arc",
+          "approximate_radius_normalized": 390,
+          "center_of_circle": {"x": 507, "y": 480},
+          "interaction": "Fourth and outermost @Cc ring text. This ring sits at the maximum radius of the illustrated cell-zone, just inside or coinciding with the outer boundary circle of the diagram. At this radius, the circumference is largest, yet the text string is of similar length to ring 3, suggesting either a gap in coverage or that this locus records only a portion of the outermost ring. The script navigates around the outermost blue oval nodes and the densest cell-packing. The terminal otoldyl ends the ring. This is the boundary between the illustrated diagram and the free-form spiral text band outside the diagram."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_paragraph_block",
+      "description": "A block of 5 lines of standard left-to-right horizontal paragraph text below the circular diagram. Locus f86v4.5 begins a new paragraph (@P0) and contains the only <-> bisection in the folio. Lines f86v4.6–f86v4.9 are paragraph continuation and close lines. This block occupies the lower section of the folio parchment, between approximately y=860 and y=980 in normalized coordinates.",
+      "lines": [
+        {
+          "locus": "<f86v4.5,@P0>",
+          "raw_text": "pcheodar.oedy.qokeol.qoeol<->oqokeol.dar.ol.olair.am",
+          "bounding_box": {"x_min": 100, "y_min": 858, "x_max": 875, "y_max": 880},
+          "left_segment": {
+            "raw_text": "pcheodar.oedy.qokeol.qoeol",
+            "bounding_box": {"x_min": 100, "y_min": 858, "x_max": 440, "y_max": 880}
+          },
+          "bisection_gap": {
+            "x_min": 441, "x_max": 510,
+            "description": "Gap of approximately 69 normalized units caused by a visual anchor interrupting this line. Most likely this is the lower arc of the circular diagram's outer boundary circle, which at this point in the folio geometry intersects with the first line of the lower paragraph — the circle's bottom tangent sits approximately at y=860, precisely where this line begins. Alternatively, a ruled line or bracket element beneath the diagram causes the split."
+          },
+          "right_segment": {
+            "raw_text": "oqokeol.dar.ol.olair.am",
+            "bounding_box": {"x_min": 511, "y_min": 858, "x_max": 875, "y_max": 880}
+          },
+          "interaction": "BISECTED LINE. The <-> marker indicates a physical object interrupts this text line between 'qoeol' and 'oqokeol'. Left segment (pcheodar.oedy.qokeol.qoeol) ends at approximately x_max: 440. Right segment (oqokeol.dar.ol.olair.am) resumes at approximately x_min: 511. The 69-unit gap is occupied by the lower edge of the circular diagram frame or a related structural element. This is the only bisection in the entire folio."
+        },
+        {
+          "locus": "<f86v4.6,+P0>",
+          "raw_text": "ycheol,tar.ol.ol.sheey.qokey.or.aiin.sheeor.sar.al.ol.sheey.qockheey",
+          "bounding_box": {"x_min": 100, "y_min": 883, "x_max": 875, "y_max": 905},
+          "interaction": "Full-width paragraph continuation line. No bisection. Text runs from left margin to right margin approximately. The comma in ycheol,tar is a word-internal separator, retained exactly. Line sits comfortably below the diagram with no illustrated interference."
+        },
+        {
+          "locus": "<f86v4.7,+P0>",
+          "raw_text": "tol.shis.or.aiin.ol.keeod.lcheody.okedy.qokeo,d,y.qoain.ar",
+          "bounding_box": {"x_min": 100, "y_min": 908, "x_max": 815, "y_max": 930},
+          "interaction": "Paragraph continuation. No bisection. The unusual qokeo,d,y with double internal commas is transcribed exactly as found in the source — this is a transcription uncertainty where dots/commas separate ambiguous glyph boundaries. Line is slightly shorter than f86v4.6, terminating before the right margin."
+        },
+        {
+          "locus": "<f86v4.8,+P0>",
+          "raw_text": "daiin.ol.keedy.otar.olshedy.okol.aiin.akal.cheockhy.shockhhy.daiin",
+          "bounding_box": {"x_min": 100, "y_min": 933, "x_max": 875, "y_max": 955},
+          "interaction": "Full-width paragraph continuation. No bisection. The double-h in shockhhy is notable — an unusual glyph cluster retained exactly from the transcription. Line appears to reach near right margin."
+        },
+        {
+          "locus": "<f86v4.9,+Pc>",
+          "raw_text": "dor.oleey.ol.yy",
+          "bounding_box": {"x_min": 100, "y_min": 958, "x_max": 290, "y_max": 978},
+          "interaction": "Terminal paragraph close line (+Pc). Extremely short — only 4 words. Occupies only the left portion of the line width (~190 normalized units). This is the final line of the paragraph and of the folio's lower text block. The double-y terminal 'yy' may be a scribal paragraph-end marker or ligature. No bisection."
+        }
+      ]
+    },
+    {
+      "block_id": "outer_spiral_text_band",
+      "description": "The text that wraps in a large spiral or arc around the OUTSIDE of the circular diagram — visible in the image as cursive Voynich script looping around the diagram's outer perimeter. This text extends into the upper margins and sides of the folio, beyond the diagram's border circle. It is separate from the @Cc ring texts inside the diagram. This outer spiral is likely composed of additional loci from other sections of f86v (e.g., f86v6 or f86v5) that extend onto this visual space, though the @Cc loci above are the primary f86v4 inscription. The outer spiral text is written in the same dark brown ink in a flowing cursive hand.",
+      "lines": [
+        {
+          "locus": "[outer_arc_text — not formally in f86v4 loci; associated visual element]",
+          "raw_text": "[See f86v6 and f86v5 loci in the transcription for the outer spiral text content — these loci surround the diagram on the same page spread]",
+          "bounding_box": {"x_min": 70, "y_min": 55, "x_max": 960, "y_max": 870},
+          "interaction": "The large cursive text visible spiraling around the outside of the diagram (top arc, right side, bottom arc, left side) belongs to the f86v6 paragraph section (45 lines) and f86v5 section (23 lines) as identified in the transcription. These loci are mapped on the same physical folio page. The outer spiral text maintains a roughly concentric path outside the diagram border, written in the same hand and ink. No bisection markers in those sections."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "central_white_disk",
+      "status": "Completely text-free interior — @Cc text encircles but does not enter",
+      "description": "The central white disk (normalized bbox x:350–665, y:325–640) is a deliberate negative space. No Voynich text appears inside this circular zone — all @Cc ring text is written OUTSIDE its boundary, in the surrounding cell-rings. The only content within is the crescent moon face illustration. This is an intentional structural decision by the scribe/illustrator: the moon is isolated in its white void, framed by the concentric text rings. The blank disk has a diameter of approximately 315 normalized units and is centered at approximately (x=507, y=482). COLOR: clean parchment cream #f0e8d8, the brightest and most open zone on the folio."
+    },
+    {
+      "anchor_id": "crescent_moon_face",
+      "status": "Completely text-free — sacred/focal visual element with no labeling",
+      "description": "Unlike labeled botanical illustrations in herbal folios (which use @Lp labels), the crescent moon face has NO label or caption written on or adjacent to it. It sits in silence at the center of the composition. The yellow crescent arc and brown ink face are the pure pictorial focal point. No text intrudes. This reinforces the cosmological nature of this folio — it is an image of cosmic significance requiring no annotation in the scribal system. COLOR: yellow-ochre crescent ~#c8a832 with dark brown ~#3a2a18 face details."
+    },
+    {
+      "anchor_id": "blue_node_ring",
+      "status": "Intentionally bisecting/interrupting — text written around nodes",
+      "description": "The approximately 16–22 blue oval nodes distributed throughout the outer cell-ring create localized obstacles for the @Cc ring text. The circular inscription text (loci 1–4) must navigate around these nodes as it spirals outward. The text does not pass THROUGH the blue elements but rather threads between them. The absence of <-> markers in the @Cc loci suggests the circular writing convention (rather than linear bisection) handles this navigation implicitly. The blue nodes are approximately 25–40 normalized units long and 12–20 units wide. They are distributed at irregular radial positions across the ring, more concentrated in the outer half. COLOR: vivid blue ~#3a6aaf, fully opaque, the most visually dominant color accent on the folio."
+    },
+    {
+      "anchor_id": "left_margin_annotations",
+      "status": "Isolated marginal text zone — spatially separated from diagram",
+      "description": "The left-margin text lines sit in a narrow vertical strip (x:20–110) alongside the diagram but outside its boundary circle. These lines occupy the parchment space between the left edge of the folio and the diagram's left tangent. They appear to be short supplementary notations — possibly overflow label text or secondary inscriptions. Their exact relationship to the @Cc loci is uncertain. No bisection markers. COLOR: same dark brown ink as all other text."
+    },
+    {
+      "anchor_id": "right_margin_annotations",
+      "status": "Isolated marginal text zone — spatially separated from diagram",
+      "description": "The right-margin annotations mirror the left-margin text in position and character — short lines in the narrow strip between the diagram's right tangent and the folio's right edge (x:900–985). Same scribal hand, same dark brown ink. No bisection. These annotations complete the ring of marginal notations around the circular diagram. Their brevity and positioning suggests they are notes by the same scribe rather than a separate author."
+    }
+  ],
+
+  "structural_notes": {
+    "folio_type": "Cosmological / Astronomical — $I=C flag in transcription header",
+    "scribal_language": "Language B — $L=B flag; distinct from the more common Language A of herbal folios",
+    "scribal_hand": "Hand 2 — $H=2",
+    "color_level": "$C=3 — indicating three distinct pigment colors used: (1) brown ink, (2) blue pigment for nodes, (3) yellow-ochre for moon crescent",
+    "composition_type": "Concentric cosmological diagram with central moon figure, cell-ring bands, blue node markers, four inner spiral text rings, and a separate lower paragraph block",
+    "unique_feature": "The four @Cc loci represent a CIRCULAR writing mode unique to the cosmological section — text is literally written in circles, not lines. This is one of the manuscript's most structurally distinctive scribal conventions.",
+    "bisection_summary": "Only ONE <-> bisection in the entire folio (f86v4.5), located in the first line of the lower paragraph block, not in any circular text ring. Gap approximately 69 normalized units at x:441–510.",
+    "coordinate_reference": {
+      "diagram_center_normalized": {"x": 507, "y": 482},
+      "diagram_outer_radius_normalized": 400,
+      "diagram_inner_disk_radius_normalized": 158,
+      "folio_dimensions_pixels": {"width": 2422, "height": 3585}
+    }
+  }
+}

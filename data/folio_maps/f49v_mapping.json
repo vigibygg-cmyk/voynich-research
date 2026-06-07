@@ -1,0 +1,423 @@
+{
+  "folio": "f49v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+
+  "audit_log": {
+    "extracted_folio_id": "f49v",
+    "total_loci_count": 52,
+    "unique_loci_found": [
+      "f49v.1,@L0","f49v.2,=P0","f49v.3,*L0","f49v.4,=P0","f49v.5,*L0","f49v.6,=P0",
+      "f49v.7,*L0","f49v.8,=P0","f49v.9,*L0","f49v.10,=P0","f49v.11,*L0","f49v.12,=P0",
+      "f49v.13,*L0","f49v.14,=P0","f49v.15,*L0","f49v.16,=P0","f49v.17,*L0","f49v.18,=P0",
+      "f49v.19,*L0","f49v.20,=P0","f49v.21,*L0","f49v.22,=P0","f49v.23,*L0","f49v.24,=P0",
+      "f49v.25,*L0","f49v.26,=P0","f49v.27,*L0","f49v.28,=P0","f49v.29,*L0","f49v.30,=P0",
+      "f49v.31,*L0","f49v.32,=P0","f49v.33,*L0","f49v.34,=P0","f49v.35,*L0","f49v.36,=P0",
+      "f49v.37,*L0","f49v.38,=P0","f49v.39,*L0","f49v.40,=P0","f49v.41,*L0","f49v.42,=P0",
+      "f49v.43,*L0","f49v.44,=P0","f49v.45,*L0","f49v.46,=P0","f49v.47,*L0","f49v.48,=P0",
+      "f49v.49,*L0","f49v.50,=P0","f49v.51,*L0","f49v.52,=P0"
+    ],
+    "syntax_clues_detected": [
+      "UNIQUE STRUCTURE: f49v alternates consistently between single-letter *L0/*@L0 labels and =P0 paragraph lines — 26 pairs total",
+      "The single-letter sequence reads: p, o, r, y, e, ?, k, s, p, o, r, y, e, ?, s, p, o, r, y, e, ?, d, y, e, k, y — possibly an acrostic, index, or key sequence",
+      "f49v.28,=P0 contains <->: 'fchochor.shol.tchol.opcheodal.dchsy<->chotchy'",
+      "f49v.30,=P0 contains <->: 'dcho.d,chol.chokchodaiin.chokchy.tchol<->okchokol'",
+      "f49v.32,=P0 contains <->: 'tchotchey.chokeeodol.rcheey.otchodar<->dcho.dchog'",
+      "f49v.36,=P0 contains <->: 'qotcho.cheol.chols.cho.chcthey.dcheol<->chotchody'",
+      "f49v.38,=P0 contains <->: 'chokeo.sho.cheor.cheokchet.chor.daiin.dy<->daiin.qokd'",
+      "f49v.40,=P0 contains <->: 'oaiin.chy.daiin.chol.chaiin.kshordy<->chokchy'",
+      "f49v.42,=P0 contains <->: 'qokeaiin.cheo.chor.choteey.kcheol.dain<->cho.dairin'",
+      "f49v.44,=P0 contains <->: 'chokaiin.cho.dls.chariin.daiin.chain.dy<->chetcho.dy'",
+      "f49v.46,=P0 contains <->: 'oaiin.cheky.r.cho.rchseesy.kchor.sol<->chctho.s'",
+      "f49v.48,=P0 contains <->: 'qotcheol.chey.chor.chokaly.chordal<->chaiind'",
+      "f49v.50,=P0 contains <->: 'chol.chor.ches.chkalchy.chokeeoky<->chok,oran'",
+      "Total bisections: 10 out of 26 =P0 lines — all in lower half of folio (lines 28–50)",
+      "f49v.34,=P0 has NO bisection: 'shocho.oaiin.sheo.choty' — short uninterrupted line"
+    ],
+    "visual_anchor_inventory": [
+      "main_flower_globe — dominant right-side illustration: a massive globular flower/bud in multiple shades of green",
+      "flower_stem — long slender vertical stem connecting flower globe to root, pale green",
+      "upper_right_blue_star — decorative blue 6-pointed star at top-right corner of folio",
+      "bottom_scroll_root — small decorative scroll/root motif at bottom-right, ink circles",
+      "left_number_margin — hand-written numerals 1–9 in left margin beside some lines",
+      "green_wash_background — faint green-gray cloud wash behind upper-left text area"
+    ]
+  },
+
+  "visual_anchors": {
+    "main_flower_globe": {
+      "description": "The dominant and extraordinary visual element of f49v. A massive globular flower or bud occupying the entire right half of the upper folio. Composed of multiple large, rounded, overlapping leaf/petal forms arranged concentrically, creating a three-dimensional globe-like effect. The outermost layer consists of large smooth rounded lobes; inner layers show tightly wrapped or rolled forms creating a sense of depth and spiral structure. The flower's interior shows lighter, more cream-colored inner petals with distinctive crescent-shaped curved marks (either stamens, shading lines, or stylized openings). The scale of this flower relative to the parchment is exceptional — it occupies approximately 40% of the folio area. Blue accent marks appear within the inner flower zone.",
+      "color": "Outermost layer petals: dark medium-green (deepest tone). Middle layer petals: medium bright green. Inner layer/interior: pale cream-green to nearly white, showing light green washes. Crescent interior marks: blue-teal accents (a distinctive rare color on this page). Stem attachment point: pale yellow-green. Overall: a rich palette of 4–5 green tones creating genuine depth and volume, unlike the flat botanical green seen in simpler folios.",
+      "bounding_box": {"x_min": 400, "y_min": 38, "x_max": 940, "y_max": 560}
+    },
+    "flower_stem": {
+      "description": "A long, slender, vertical stem descending from the bottom of the flower globe to approximately the lower-center of the folio where it meets a root or scroll structure. The stem is elegant and slightly tapered. It passes through the text zone of the lower folio, contributing to the bisections in lines 28–50.",
+      "color": "Pale green (same hue as inner flower layers but thinner application). The stem is a continuous pale green line approximately 8–12 pixels wide in the original image — normalized to a narrow vertical band.",
+      "bounding_box": {"x_min": 570, "y_min": 555, "x_max": 610, "y_max": 960}
+    },
+    "upper_right_blue_star": {
+      "description": "A small but vivid decorative 6-pointed star at the very top-right corner of the folio. It has 6 thin pointed rays radiating from a central dot, rendered in solid blue. A smaller companion dot or mark appears beside it. This star is not connected to any text line — it is a purely ornamental marginal element, possibly a page marker or quire symbol.",
+      "color": "Solid deep blue (same blue tone as the inner flower globe accents — possibly the same pigment application). Very small — approximately 15×15px in the original. High visual contrast against cream parchment.",
+      "bounding_box": {"x_min": 890, "y_min": 18, "x_max": 950, "y_max": 65}
+    },
+    "bottom_scroll_root": {
+      "description": "At the bottom-right of the folio, a small decorative element — a scroll-like or root-like form consisting of curved lines and small circular ink patterns (dots arranged in clusters). This may represent the root system of the main plant, highly stylized, or a purely decorative termination ornament. It is clearly different in style from the botanical root forms seen in other folios.",
+      "color": "Dark brown-black ink only. No paint or wash. The circular dot clusters suggest a stippled or pointillistic technique. Cream parchment background.",
+      "bounding_box": {"x_min": 560, "y_min": 950, "x_max": 780, "y_max": 1000}
+    },
+    "left_number_margin": {
+      "description": "In the left margin of the folio, handwritten arabic numerals 1 through 9 are visible beside certain text lines (visible in the image as small numerals at left). These appear to be a later reader's annotation system, numbering sections or lines for reference. They are not part of the original Voynich text.",
+      "color": "Dark brown-black ink, same or similar to the paragraph text. Smaller glyph size than the Voynich text. Cream parchment background.",
+      "bounding_box": {"x_min": 65, "y_min": 430, "x_max": 115, "y_max": 820}
+    },
+    "green_wash_background": {
+      "description": "A faint, diffuse green-gray cloud or wash visible in the left-center area of the folio behind the text block. This may be pigment bleed-through from the facing page, or a deliberate background wash that has faded. It does not affect text readability but is visible as a subtle tonal field.",
+      "color": "Very pale, washed-out green-gray. Translucent — the text is fully readable through it. Possibly the same green pigment as the flower but heavily diluted or faded.",
+      "bounding_box": {"x_min": 65, "y_min": 180, "x_max": 420, "y_max": 580}
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "alternating_label_paragraph_structure",
+      "description": "f49v has the most structurally unique text layout in the corpus: 26 pairs of alternating (@L0/*L0 single-letter label) + (=P0 paragraph line). The single-letter labels form a sequential series: p-o-r-y-e-?-k-s-p-o-r-y-e-?-s-p-o-r-y-e-?-d-y-e-k-y. These letters are positioned in the left margin or at the start of each text pair. The =P0 (equal-sign paragraph) lines are the main text content. In the upper half (lines 2–26), all =P0 lines are uninterrupted. In the lower half (lines 28–52), the flower_stem bisects every other =P0 line, producing <-> splits. The text is written in warm golden-brown ink (matching the label ink of other folios), slightly different from the standard dark paragraph ink. Left margin: x≈110 (labels at x≈85); right margin varies based on plant stem position.",
+      "lines": [
+        {
+          "locus": "<f49v.1,@L0>",
+          "raw_text": "p",
+          "bounding_box": {"x_min": 85, "y_min": 45, "x_max": 108, "y_max": 70},
+          "interaction": "Opening single-letter label. 'p' stands alone in the left margin. The main_flower_globe occupies the right side of the folio from this y-level onward (y=38–560), constraining the text zone to x=85–395 for lines 1–26."
+        },
+        {
+          "locus": "<f49v.2,=P0>",
+          "raw_text": "kshor.shol.cphokchol.chcfhhy",
+          "bounding_box": {"x_min": 110, "y_min": 45, "x_max": 395, "y_max": 70},
+          "interaction": "First =P0 line. Text runs left to approximately x=395, constrained by the left edge of the main_flower_globe. No bisection. The right side of the folio at this level (x=400–940) is entirely occupied by the flower's outer green petals."
+        },
+        {
+          "locus": "<f49v.3,*L0>",
+          "raw_text": "o",
+          "bounding_box": {"x_min": 85, "y_min": 74, "x_max": 108, "y_max": 99},
+          "interaction": "Single-letter 'o' label. Second in the sequence p-o-r-y-e..."
+        },
+        {
+          "locus": "<f49v.4,=P0>",
+          "raw_text": "qokchy.qokchod.sho.ckhy",
+          "bounding_box": {"x_min": 110, "y_min": 74, "x_max": 395, "y_max": 99},
+          "interaction": "=P0 line. Constrained to left column (x=110–395) by flower globe."
+        },
+        {
+          "locus": "<f49v.5,*L0>",
+          "raw_text": "r",
+          "bounding_box": {"x_min": 85, "y_min": 103, "x_max": 108, "y_max": 128},
+          "interaction": "Single-letter 'r' label. Third in sequence."
+        },
+        {
+          "locus": "<f49v.6,=P0>",
+          "raw_text": "chotchy.chcthy.cthey.koddy",
+          "bounding_box": {"x_min": 110, "y_min": 103, "x_max": 395, "y_max": 128},
+          "interaction": "=P0 line. Full left-column width."
+        },
+        {
+          "locus": "<f49v.7,*L0>",
+          "raw_text": "y",
+          "bounding_box": {"x_min": 85, "y_min": 132, "x_max": 108, "y_max": 157},
+          "interaction": "Single-letter 'y' label."
+        },
+        {
+          "locus": "<f49v.8,=P0>",
+          "raw_text": "okeodsho.chotshol.dam",
+          "bounding_box": {"x_min": 110, "y_min": 132, "x_max": 370, "y_max": 157},
+          "interaction": "=P0 line. Short."
+        },
+        {
+          "locus": "<f49v.9,*L0>",
+          "raw_text": "e",
+          "bounding_box": {"x_min": 85, "y_min": 161, "x_max": 108, "y_max": 186},
+          "interaction": "Single-letter 'e' label."
+        },
+        {
+          "locus": "<f49v.10,=P0>",
+          "raw_text": "shol.shodaiin.qotchar",
+          "bounding_box": {"x_min": 110, "y_min": 161, "x_max": 360, "y_max": 186},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.11,*L0>",
+          "raw_text": "?",
+          "bounding_box": {"x_min": 85, "y_min": 190, "x_max": 108, "y_max": 215},
+          "interaction": "Single-letter '?' — uncertainty marker as label. Sixth in sequence; the '?' repeats at positions 11, 27, 41 suggesting a systematic placeholder."
+        },
+        {
+          "locus": "<f49v.12,=P0>",
+          "raw_text": "qotchy.chokchy.choky",
+          "bounding_box": {"x_min": 110, "y_min": 190, "x_max": 345, "y_max": 215},
+          "interaction": "=P0 line. Short."
+        },
+        {
+          "locus": "<f49v.13,*L0>",
+          "raw_text": "k",
+          "bounding_box": {"x_min": 85, "y_min": 219, "x_max": 108, "y_max": 244},
+          "interaction": "'k' label."
+        },
+        {
+          "locus": "<f49v.14,=P0>",
+          "raw_text": "chotchy.chodaiin.dan",
+          "bounding_box": {"x_min": 110, "y_min": 219, "x_max": 350, "y_max": 244},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.15,*L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 85, "y_min": 248, "x_max": 108, "y_max": 273},
+          "interaction": "'s' label."
+        },
+        {
+          "locus": "<f49v.16,=P0>",
+          "raw_text": "qoteees.cheo.d,aiin.dol",
+          "bounding_box": {"x_min": 110, "y_min": 248, "x_max": 370, "y_max": 273},
+          "interaction": "=P0 line. 'd,aiin' intra-word comma."
+        },
+        {
+          "locus": "<f49v.17,*L0>",
+          "raw_text": "p",
+          "bounding_box": {"x_min": 85, "y_min": 277, "x_max": 108, "y_max": 302},
+          "interaction": "Second 'p' in sequence — sequence restarts or continues: p-o-r-y-e-?-k-s-p..."
+        },
+        {
+          "locus": "<f49v.18,=P0>",
+          "raw_text": "ochor.sheeod.ksheodl",
+          "bounding_box": {"x_min": 110, "y_min": 277, "x_max": 355, "y_max": 302},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.19,*L0>",
+          "raw_text": "o",
+          "bounding_box": {"x_min": 85, "y_min": 306, "x_max": 108, "y_max": 331},
+          "interaction": "Second 'o' in sequence."
+        },
+        {
+          "locus": "<f49v.20,=P0>",
+          "raw_text": "qokshodaiin.shckhy.dar",
+          "bounding_box": {"x_min": 110, "y_min": 306, "x_max": 370, "y_max": 331},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.21,*L0>",
+          "raw_text": "r",
+          "bounding_box": {"x_min": 85, "y_min": 335, "x_max": 108, "y_max": 360},
+          "interaction": "Second 'r'."
+        },
+        {
+          "locus": "<f49v.22,=P0>",
+          "raw_text": "dchol.cthol.daiin.choky",
+          "bounding_box": {"x_min": 110, "y_min": 335, "x_max": 375, "y_max": 360},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.23,*L0>",
+          "raw_text": "y",
+          "bounding_box": {"x_min": 85, "y_min": 364, "x_max": 108, "y_max": 389},
+          "interaction": "Second 'y'."
+        },
+        {
+          "locus": "<f49v.24,=P0>",
+          "raw_text": "ochokeey.ckhey.daiin.dain.chokam",
+          "bounding_box": {"x_min": 110, "y_min": 364, "x_max": 390, "y_max": 389},
+          "interaction": "=P0 line."
+        },
+        {
+          "locus": "<f49v.25,*L0>",
+          "raw_text": "e",
+          "bounding_box": {"x_min": 85, "y_min": 393, "x_max": 108, "y_max": 418},
+          "interaction": "Second 'e'."
+        },
+        {
+          "locus": "<f49v.26,=P0>",
+          "raw_text": "qokeol.chokeeody.otol.kchos.chol.daiin",
+          "bounding_box": {"x_min": 110, "y_min": 393, "x_max": 400, "y_max": 418},
+          "interaction": "=P0 line. Last uninterrupted line before bisections begin."
+        },
+        {
+          "locus": "<f49v.27,*L0>",
+          "raw_text": "?",
+          "bounding_box": {"x_min": 85, "y_min": 422, "x_max": 108, "y_max": 447},
+          "interaction": "Second '?' label. The flower globe's lower boundary is approximately at y=560; the flower_stem begins at this level (y≈555), becoming the bisecting element for subsequent lines."
+        },
+        {
+          "locus": "<f49v.28,=P0>",
+          "raw_text": "fchochor.shol.tchol.opcheodal.dchsy<->chotchy",
+          "bounding_box": {"x_min": 110, "y_min": 560, "x_max": 880, "y_max": 585},
+          "interaction": "FIRST BISECTED LINE. The flower_stem (pale green, x=570–610) bisects at this level. LEFT SEGMENT: 'fchochor.shol.tchol.opcheodal.dchsy' — x_min=110, x_max=~565. <-> GAP: flower_stem at x=570–610. RIGHT SEGMENT: 'chotchy' — x_min=~615, x_max=~880. The flower globe has ended; the folio right side is now open, allowing right segments. The stem is a pale green vertical line running through the text."
+        },
+        {
+          "locus": "<f49v.29,*L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 85, "y_min": 589, "x_max": 108, "y_max": 614},
+          "interaction": "Third 's' label."
+        },
+        {
+          "locus": "<f49v.30,=P0>",
+          "raw_text": "dcho.d,chol.chokchodaiin.chokchy.tchol<->okchokol",
+          "bounding_box": {"x_min": 110, "y_min": 589, "x_max": 870, "y_max": 614},
+          "interaction": "Bisected. 'd,chol' intra-word comma. LEFT SEGMENT: 'dcho.d,chol.chokchodaiin.chokchy.tchol' — x_min=110, x_max=~563. <-> GAP: pale green stem x=570–608. RIGHT SEGMENT: 'okchokol' — x_min=~613, x_max=~870."
+        },
+        {
+          "locus": "<f49v.31,*L0>",
+          "raw_text": "p",
+          "bounding_box": {"x_min": 85, "y_min": 618, "x_max": 108, "y_max": 643},
+          "interaction": "Third 'p' label."
+        },
+        {
+          "locus": "<f49v.32,=P0>",
+          "raw_text": "tchotchey.chokeeodol.rcheey.otchodar<->dcho.dchog",
+          "bounding_box": {"x_min": 110, "y_min": 618, "x_max": 870, "y_max": 643},
+          "interaction": "Bisected. LEFT SEGMENT: 'tchotchey.chokeeodol.rcheey.otchodar' — x_min=110, x_max=~562. <-> GAP: stem x=570–607. RIGHT SEGMENT: 'dcho.dchog' — x_min=~612, x_max=~870. 'dchog' terminal 'g' unusual."
+        },
+        {
+          "locus": "<f49v.33,*L0>",
+          "raw_text": "o",
+          "bounding_box": {"x_min": 85, "y_min": 647, "x_max": 108, "y_max": 672},
+          "interaction": "Third 'o' label."
+        },
+        {
+          "locus": "<f49v.34,=P0>",
+          "raw_text": "shocho.oaiin.sheo.choty",
+          "bounding_box": {"x_min": 110, "y_min": 647, "x_max": 380, "y_max": 672},
+          "interaction": "NO bisection — short line that ends before the stem position (x_max=~380 < x=570). This line is too short to reach the stem and therefore appears uninterrupted."
+        },
+        {
+          "locus": "<f49v.35,*L0>",
+          "raw_text": "r",
+          "bounding_box": {"x_min": 85, "y_min": 676, "x_max": 108, "y_max": 701},
+          "interaction": "Third 'r' label."
+        },
+        {
+          "locus": "<f49v.36,=P0>",
+          "raw_text": "qotcho.cheol.chols.cho.chcthey.dcheol<->chotchody",
+          "bounding_box": {"x_min": 110, "y_min": 676, "x_max": 870, "y_max": 701},
+          "interaction": "Bisected. LEFT SEGMENT: 'qotcho.cheol.chols.cho.chcthey.dcheol' — x_min=110, x_max=~563. <-> GAP: stem x=570–607. RIGHT SEGMENT: 'chotchody' — x_min=~612, x_max=~870."
+        },
+        {
+          "locus": "<f49v.37,*L0>",
+          "raw_text": "y",
+          "bounding_box": {"x_min": 85, "y_min": 705, "x_max": 108, "y_max": 730},
+          "interaction": "Third 'y' label."
+        },
+        {
+          "locus": "<f49v.38,=P0>",
+          "raw_text": "chokeo.sho.cheor.cheokchet.chor.daiin.dy<->daiin.qokd",
+          "bounding_box": {"x_min": 110, "y_min": 705, "x_max": 870, "y_max": 730},
+          "interaction": "Bisected. LEFT SEGMENT: 'chokeo.sho.cheor.cheokchet.chor.daiin.dy' — x_min=110, x_max=~564. <-> GAP: stem. RIGHT SEGMENT: 'daiin.qokd' — x_min=~612, x_max=~870."
+        },
+        {
+          "locus": "<f49v.39,*L0>",
+          "raw_text": "e",
+          "bounding_box": {"x_min": 85, "y_min": 734, "x_max": 108, "y_max": 759},
+          "interaction": "Third 'e' label."
+        },
+        {
+          "locus": "<f49v.40,=P0>",
+          "raw_text": "oaiin.chy.daiin.chol.chaiin.kshordy<->chokchy",
+          "bounding_box": {"x_min": 110, "y_min": 734, "x_max": 870, "y_max": 759},
+          "interaction": "Bisected. LEFT SEGMENT: 'oaiin.chy.daiin.chol.chaiin.kshordy' — x_min=110, x_max=~563. <-> GAP: stem. RIGHT SEGMENT: 'chokchy' — x_min=~612, x_max=~870."
+        },
+        {
+          "locus": "<f49v.41,*L0>",
+          "raw_text": "?",
+          "bounding_box": {"x_min": 85, "y_min": 763, "x_max": 108, "y_max": 788},
+          "interaction": "Third '?' label. The systematic p-o-r-y-e-?-k-s pattern appears three times (lines 1–26) then shifts to p-o-r-y-e-?-d-y-e-k-y for the final section."
+        },
+        {
+          "locus": "<f49v.42,=P0>",
+          "raw_text": "qokeaiin.cheo.chor.choteey.kcheol.dain<->cho.dairin",
+          "bounding_box": {"x_min": 110, "y_min": 763, "x_max": 870, "y_max": 788},
+          "interaction": "Bisected. LEFT SEGMENT: 'qokeaiin.cheo.chor.choteey.kcheol.dain' — x_min=110, x_max=~562. <-> GAP: stem. RIGHT SEGMENT: 'cho.dairin' — x_min=~612, x_max=~870."
+        },
+        {
+          "locus": "<f49v.43,*L0>",
+          "raw_text": "d",
+          "bounding_box": {"x_min": 85, "y_min": 792, "x_max": 108, "y_max": 817},
+          "interaction": "'d' label — unique in the sequence, not part of the p-o-r-y-e pattern."
+        },
+        {
+          "locus": "<f49v.44,=P0>",
+          "raw_text": "chokaiin.cho.dls.chariin.daiin.chain.dy<->chetcho.dy",
+          "bounding_box": {"x_min": 110, "y_min": 792, "x_max": 870, "y_max": 817},
+          "interaction": "Bisected. LEFT SEGMENT: 'chokaiin.cho.dls.chariin.daiin.chain.dy' — x_min=110, x_max=~563. <-> GAP: stem. RIGHT SEGMENT: 'chetcho.dy' — x_min=~612, x_max=~870."
+        },
+        {
+          "locus": "<f49v.45,*L0>",
+          "raw_text": "y",
+          "bounding_box": {"x_min": 85, "y_min": 821, "x_max": 108, "y_max": 846},
+          "interaction": "Fourth 'y' label."
+        },
+        {
+          "locus": "<f49v.46,=P0>",
+          "raw_text": "oaiin.cheky.r.cho.rchseesy.kchor.sol<->chctho.s",
+          "bounding_box": {"x_min": 110, "y_min": 821, "x_max": 860, "y_max": 846},
+          "interaction": "Bisected. LEFT SEGMENT: 'oaiin.cheky.r.cho.rchseesy.kchor.sol' — x_min=110, x_max=~562. <-> GAP: stem. RIGHT SEGMENT: 'chctho.s' — x_min=~612, x_max=~860."
+        },
+        {
+          "locus": "<f49v.47,*L0>",
+          "raw_text": "e",
+          "bounding_box": {"x_min": 85, "y_min": 850, "x_max": 108, "y_max": 875},
+          "interaction": "Fourth 'e' label."
+        },
+        {
+          "locus": "<f49v.48,=P0>",
+          "raw_text": "qotcheol.chey.chor.chokaly.chordal<->chaiind",
+          "bounding_box": {"x_min": 110, "y_min": 850, "x_max": 850, "y_max": 875},
+          "interaction": "Bisected. LEFT SEGMENT: 'qotcheol.chey.chor.chokaly.chordal' — x_min=110, x_max=~560. <-> GAP: stem. RIGHT SEGMENT: 'chaiind' — x_min=~612, x_max=~850. 'chaiind' terminal 'd' unusual."
+        },
+        {
+          "locus": "<f49v.49,*L0>",
+          "raw_text": "k",
+          "bounding_box": {"x_min": 85, "y_min": 879, "x_max": 108, "y_max": 904},
+          "interaction": "Second 'k' label."
+        },
+        {
+          "locus": "<f49v.50,=P0>",
+          "raw_text": "chol.chor.ches.chkalchy.chokeeoky<->chok,oran",
+          "bounding_box": {"x_min": 110, "y_min": 879, "x_max": 850, "y_max": 904},
+          "interaction": "Bisected. LEFT SEGMENT: 'chol.chor.ches.chkalchy.chokeeoky' — x_min=110, x_max=~560. <-> GAP: stem. RIGHT SEGMENT: 'chok,oran' — x_min=~612, x_max=~850. 'chok,oran' intra-word comma."
+        },
+        {
+          "locus": "<f49v.51,*L0>",
+          "raw_text": "y",
+          "bounding_box": {"x_min": 85, "y_min": 908, "x_max": 108, "y_max": 933},
+          "interaction": "Final 'y' label — fifth appearance of 'y' in the sequence."
+        },
+        {
+          "locus": "<f49v.52,=P0>",
+          "raw_text": "ykchokeo.r.cheey.daiin",
+          "bounding_box": {"x_min": 110, "y_min": 908, "x_max": 380, "y_max": 933},
+          "interaction": "Final =P0 line. Short — ends before the stem (x_max=~380). No bisection. No *L0 or *P0 close. The alternating label-paragraph structure terminates here. The bottom_scroll_root decorative element begins below at y≈950."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "main_flower_globe",
+      "status": "Completely text-free interior — acts as hard right-column boundary for lines 1–26",
+      "description": "The massive green flower globe (x=400–940, y=38–560) is entirely text-free internally. It creates a fixed right boundary for the first 26 =P0 lines, limiting them to x=110–395 (left column only). The three distinct green tones of the flower — dark outer, medium middle, pale cream interior — are the dominant color statement of the folio. The blue accent marks within the flower are the only blue pigment on the page (aside from the upper-right star)."
+    },
+    {
+      "anchor_id": "flower_stem",
+      "status": "Systematic bisector — splits 10 of 12 =P0 lines in lower half of folio",
+      "description": "The pale green stem (x=570–610, y=555–960) bisects every =P0 line long enough to reach it in the lower folio zone. Only f49v.34 and f49v.52 avoid bisection by being too short. The stem's pale green color makes it the narrowest and most visually subtle bisecting element in the analyzed corpus — yet its systematic effect on the text layout is absolute."
+    },
+    {
+      "anchor_id": "upper_right_blue_star",
+      "status": "Isolated decorative element — no text interaction",
+      "description": "The deep blue 6-pointed star at the top-right corner (x=890–950, y=18–65) is completely isolated from any text line. Its vivid blue is the most saturated non-green color on the folio."
+    },
+    {
+      "anchor_id": "bottom_scroll_root",
+      "status": "Completely text-free — decorative termination",
+      "description": "The ink scroll/root pattern at bottom-right (y=950–1000) carries no text. It marks the visual end of the folio. The dark brown-black ink dots and curves are in strong contrast to the pale green stem above it."
+    }
+  ]
+}

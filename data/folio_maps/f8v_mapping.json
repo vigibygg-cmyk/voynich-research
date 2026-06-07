@@ -1,0 +1,323 @@
+{
+  "folio": "f8v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f8v",
+    "total_loci_count": 17,
+    "unique_loci_found": [
+      "<f8v.1,@P0>",
+      "<f8v.2,+P0>",
+      "<f8v.3,+P0>",
+      "<f8v.4,+P0>",
+      "<f8v.5,+P0>",
+      "<f8v.6,+P0>",
+      "<f8v.7,+P0>",
+      "<f8v.8,+P0>",
+      "<f8v.9,+P0>",
+      "<f8v.10,+P0>",
+      "<f8v.11,+P0>",
+      "<f8v.12,+P0>",
+      "<f8v.13,+P0>",
+      "<f8v.14,+P0>",
+      "<f8v.15,+P0>",
+      "<f8v.16,+P0>",
+      "<f8v.17,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "f8v.1 has ONE <-> marker: 'cphod.soocfh<->sol.shol.otol.chol.opcheaiin.opydaiin.saiin' — bisected by central stem",
+      "f8v.2 has ONE <-> marker: 'shcthal.sar<->chor.sheaiin.shor.chykchy.otaiin.cty' — bisected by central stem",
+      "f8v.3 has TWO <-> markers: 'qody.cheal.sy<->chory<->chear.shol.chaiin.shaiin.dolar' — triple-segment bisection by two closely-spaced objects (stem + upper flower bud branch or lateral branch pair)",
+      "f8v.4 has TWO <-> markers: 'dshol.shol<->dal<->chean.cthar.shealy.daiin.chary' — triple-segment bisection",
+      "f8v.5 has ONE <-> marker: 'chol.chol,dar<->otchar.etaiin.cthol.dar' — bisected by stem",
+      "f8v.6 has ONE <-> marker: 'daiin.cthan<->ytchy.cheykaiin.dain.ar' — bisected by stem",
+      "f8v.7 has ONE <-> marker: 'sho.kchol<->dar.shey.cthar.chotain.ry' — bisected by stem",
+      "f8v.8 has ONE <-> marker: 'okcholksh<->chol.chol.chol.cthaiin.dain' — bisected by stem",
+      "f8v.9 has ONE <-> marker: 'shol.orchl<->chokchy.chol.cthar.chaiin' — bisected by stem",
+      "f8v.10 has ONE <-> marker: 'scharchy<->oeesody.kchey.pchy.cpharom' — bisected by stem",
+      "f8v.11 has NO <-> marker: 'sorain' — very short single-segment line, paragraph terminal",
+      "f8v.12 has ONE <-> marker: 'pchar.cho.rol.dal<->shear.cheeotaiin.chal.daiin' — lower block bisected by stem",
+      "f8v.13 has ONE <-> marker: 'kchor.otchar.oky<->chokain.keoky.otorchy.satar' — lower block bisected by stem",
+      "f8v.14 has ONE <-> marker: 'shor.okol.lokaiin<->shol.kol.char.cthey.tchy.ckham' — lower block bisected by stem",
+      "f8v.15 has ONE <-> marker: 'or.chol.cha,n,cky<->chor.cheain.char.cheeky.chor.ry' — lower block bisected by stem",
+      "f8v.16 has ONE <-> marker: 'chor.chear.chear<->oteey.dchor.chodey.cho.raiin' — lower block bisected by stem",
+      "f8v.17 has NO <-> marker: 'dain.chear.daiin' — very short terminal line, right column only or narrowed final entry",
+      "DOUBLE-BISECTION NOTE: f8v.3 and f8v.4 each have TWO <-> markers, indicating a zone where two distinct vertical elements simultaneously cross through the text — most likely the central stem PLUS a lateral flower-stem branching immediately to its side in the upper illustration zone",
+      "NO @Lp, @Ls, @Cc, or @L0 isolated label loci present in f8v — no labelled botanical or star elements",
+      "Folio header: <f8v> <! $Q=A $P=P $F=z $B=1 $I=H $L=A $H=1 $C=1> — $I=H = Herbal section; $L=A = Language A; $H=1 = Hand 1 (earliest scribal hand); $B=1 = Bifolio 1"
+    ],
+    "visual_anchor_inventory": [
+      "pale_blue_triangular_wash: large watercolor wash of pale blue-green/teal color forming a pointed triangle above and behind the plant; COLOR: semi-transparent flat teal-blue (#8bbcb0 approx), no outline, painted behind the plant stem and text",
+      "central_main_stem: the primary vertical axis of the plant, running from root crown at bottom to apex flower at top; COLOR: medium green (#4a8a5a), slightly darker than leaves, rendered in confident ink outline with pale green fill wash",
+      "apex_flower_cluster: the topmost flower at the plant crown, a cluster of 3 open bell-shaped flowers with extended stamens; COLOR: petals red-orange (#d94f2b), stamens/pistils blue-violet (#3a4fa0), calyx and stem green",
+      "left_upper_flower: a second flower bud/bloom on a lateral branch to the upper-left of center; COLOR: matching apex — petals red-orange, stamens blue-violet, calyx green",
+      "right_lower_flower: a third, slightly lower flower on a lateral branch to the right; COLOR: petals red-orange, stamens blue-violet, calyx green — consistent tricolor scheme across all three blooms",
+      "upper_left_leaf_pair: the highest pair of opposite leaves flanking the upper stem, just below the apex flowers; COLOR: medium-to-deep teal green (#3a7a5a), solid fill, dark green ink outline, smooth ovoid shape",
+      "mid_left_large_leaf: a large, broad ovoid leaf on the left side of the mid-stem, one of the largest leaves on the plant; COLOR: same teal green (#3a7a5a), slightly lighter wash toward center",
+      "mid_right_large_leaf: corresponding large leaf on the right side, roughly opposite mid_left_large_leaf; COLOR: identical teal green",
+      "lower_left_leaf_pair: the lowest visible left leaves, very large, near the base of the text-bearing zone; COLOR: teal green, same family as all other leaves",
+      "lower_right_leaf_pair: the lowest visible right leaves, large, at the base of the stem above the root; COLOR: teal green",
+      "root_system: the exposed root structure at the base of the stem, showing 3-4 radiating root arms; COLOR: warm ochre-brown (#b8752a), distinctly different from the green stem — an orange-tan pigment used exclusively for roots; no green anywhere in the root zone",
+      "right_margin_binding_strip: the right physical edge of the parchment where the folio is bound, creating a narrow tan/cream vertical strip with binding thread visible; COLOR: natural parchment cream (#e8d8a0), no illustration"
+    ]
+  },
+  "visual_anchors": {
+    "pale_blue_triangular_wash": {
+      "description": "A large flat watercolor wash of pale teal-blue applied behind the plant illustration, forming a roughly triangular or arrowhead shape with its apex at the top-center of the page and its base spanning the mid-page. This wash is entirely decorative and background-layer — it sits beneath the stem, leaves, flowers, and text lines. COLOR: semi-transparent teal-blue wash, approximately #8bbcb0 at its densest center, fading to near-invisible at the edges. The triangle's apex is at approximately (x=480, y=60) and its base extends from approximately (x=200, y=450) to (x=700, y=450). The wash interacts with text in the upper paragraph block (lines 1–11): the text is written OVER the wash on the parchment surface, and the wash is slightly visible beneath the ink. The triangular wash does not cause any text bisection — it is a purely tonal background element.",
+      "bounding_box": {"x_min": 200, "y_min": 60, "x_max": 700, "y_max": 455},
+      "color": {
+        "primary": "pale teal-blue wash, ~#8bbcb0",
+        "opacity": "semi-transparent, painted beneath text ink",
+        "edges": "soft, unoutlined, fading toward margins"
+      }
+    },
+    "central_main_stem": {
+      "description": "The primary vertical axis of the plant. A slender, tall stem rendered in medium green ink outline with a lighter green fill wash inside. Runs from the root crown at approximately y=870 straight up to the apex flower cluster at approximately y=125. The stem is notably thin — approximately 20–25 normalized units wide in the text zone — creating a relatively narrow bisection gap compared to, e.g., f1v's broader stem. It passes directly through the center of the page, dividing both the upper paragraph block (lines 1–11) and the lower two-column block (lines 12–17) into left and right segments.",
+      "bounding_box": {"x_min": 452, "y_min": 125, "x_max": 478, "y_max": 870},
+      "color": {
+        "outline": "dark green ink, ~#2a5a3a",
+        "fill_wash": "medium green, ~#5a9a6a",
+        "width_normalized": "approximately 26 units (x:452–478)"
+      }
+    },
+    "apex_flower_cluster": {
+      "description": "The topmost and most prominent flower structure at the crown of the plant. Consists of 3 open tubular/bell-shaped flowers arranged in a tight cluster on short pedicels. Each flower has: (1) reflexed/spreading petals in vivid red-orange, (2) prominent stamens or pistils extending outward in blue-violet, (3) a green calyx at the base. The tricolor scheme — red, blue, green — is the visual signature of all flowers on this folio. The apex cluster is the most fully open of the three flower groups and the most pigmented. Situated directly above the text zone at the top of the central stem.",
+      "bounding_box": {"x_min": 400, "y_min": 95, "x_max": 545, "y_max": 195},
+      "color": {
+        "petals": "vivid red-orange, ~#d94f2b — the most saturated red on the page",
+        "stamens_pistils": "medium blue-violet, ~#3a4fa0 — 3–4 thin lines per flower extending beyond petals",
+        "calyx": "green, ~#4a8a5a, matching the stem",
+        "pedicels": "thin green lines, same green as stem"
+      }
+    },
+    "left_upper_flower": {
+      "description": "A second flower group on a lateral branch extending from the upper-left side of the main stem, at approximately y=240–310. This appears to be a single flower or tight pair, slightly less fully open than the apex cluster. The branch angles upper-left from the stem. The tricolor (red/blue/green) is identical to the apex cluster.",
+      "bounding_box": {"x_min": 245, "y_min": 220, "x_max": 330, "y_max": 325},
+      "color": {
+        "petals": "red-orange, ~#d94f2b, same hue as apex flowers",
+        "stamens_pistils": "blue-violet, ~#3a4fa0",
+        "calyx_branch": "green, matching stem color"
+      }
+    },
+    "right_lower_flower": {
+      "description": "A third flower on a lateral branch extending from the right side of the stem at approximately y=450–530. Positioned lower on the stem than the left_upper_flower. The branch angles upper-right. The flower appears slightly smaller and is painted with slightly less pigment saturation, possibly because the scribe/illustrator painted this last and had less red pigment loaded. Still clearly tricolor.",
+      "bounding_box": {"x_min": 560, "y_min": 430, "x_max": 650, "y_max": 540},
+      "color": {
+        "petals": "red-orange, ~#d94f2b, possibly slightly less saturated than apex",
+        "stamens_pistils": "blue-violet, ~#3a4fa0",
+        "calyx_branch": "green, matching stem"
+      }
+    },
+    "upper_left_leaf_pair": {
+      "description": "The highest pair of opposite leaves on the main stem, immediately below the apex flower cluster. Broad ovoid leaves with a pointed tip and slightly serrated or smooth edge. The left leaf extends upper-left, the right extends upper-right from the stem. Both are solidly filled with teal green.",
+      "bounding_box": {"x_min": 280, "y_min": 195, "x_max": 620, "y_max": 340},
+      "color": {
+        "fill": "teal green, ~#3a7a5a, solid opaque fill",
+        "outline": "dark green ink, ~#1a4a2a, confident line",
+        "midrib": "implied by slight tonal variation, no separate color"
+      }
+    },
+    "mid_left_large_leaf": {
+      "description": "A large, broad, ovoid leaf on the left side of the mid-stem, the largest single leaf on the left side of the plant. It extends significantly to the left, reaching well into the left text column zone and constraining the left-side text width in the upper paragraph. Its base attaches to the stem at approximately y=430.",
+      "bounding_box": {"x_min": 140, "y_min": 390, "x_max": 455, "y_max": 560},
+      "color": {
+        "fill": "teal green, ~#3a7a5a, same family as all leaves",
+        "outline": "dark green ink",
+        "size_note": "the largest leaf on the folio — its left tip reaches to approximately x=140"
+      }
+    },
+    "mid_right_large_leaf": {
+      "description": "The counterpart large leaf on the right side of the mid-stem, extending significantly to the right. Comparable in size to mid_left_large_leaf. Its base attaches at approximately y=400.",
+      "bounding_box": {"x_min": 478, "y_min": 370, "x_max": 780, "y_max": 530},
+      "color": {
+        "fill": "teal green, ~#3a7a5a",
+        "outline": "dark green ink"
+      }
+    },
+    "lower_left_leaf_pair": {
+      "description": "The lowest pair of large leaves on the left side of the stem, at approximately y=570–700. Two overlapping broad leaves extend left and lower-left. These are in the transition zone between the upper paragraph block and the lower two-column block.",
+      "bounding_box": {"x_min": 130, "y_min": 560, "x_max": 455, "y_max": 720},
+      "color": {
+        "fill": "teal green, ~#3a7a5a, slightly lighter than upper leaves — possibly less pigment applied",
+        "outline": "dark green ink"
+      }
+    },
+    "lower_right_leaf_pair": {
+      "description": "The lowest leaves on the right side of the stem, extending right and lower-right at approximately y=600–730. Two broad ovoid leaves. Below these, the stem continues bare to the root.",
+      "bounding_box": {"x_min": 478, "y_min": 590, "x_max": 760, "y_max": 740},
+      "color": {
+        "fill": "teal green, ~#3a7a5a",
+        "outline": "dark green ink"
+      }
+    },
+    "root_system": {
+      "description": "The exposed root structure at the base of the central stem, drawn in a warm ochre-brown pigment that is sharply distinct from the green of the stem. Shows 3–4 radiating root arms spreading horizontally and slightly downward from the stem base, suggesting a fibrous or tuberous root. The roots occupy the lower margin of the parchment below the two-column text block. The color change from green (stem) to brown (root) is one of the most visually striking features of this folio — it appears to be intentional botanical illustration of the below-ground anatomy.",
+      "bounding_box": {"x_min": 310, "y_min": 870, "x_max": 620, "y_max": 970},
+      "color": {
+        "primary": "warm ochre-brown, ~#b8752a — distinct from any other color used on the folio",
+        "outline": "same ochre-brown ink, slightly darker for the outline strokes",
+        "note": "NO green anywhere in the root zone — deliberate color separation between above-ground (green) and below-ground (brown) anatomy"
+      }
+    },
+    "right_margin_binding_strip": {
+      "description": "The right physical edge of the parchment where the folio is sewn into the binding. A narrow strip of natural parchment with binding thread or edge reinforcement visible. No illustration or text in this zone.",
+      "bounding_box": {"x_min": 940, "y_min": 0, "x_max": 1000, "y_max": 1000},
+      "color": {
+        "primary": "natural parchment cream, ~#e8d8a0, slightly browned at extreme edge"
+      }
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_block_bisected",
+      "description": "The main upper paragraph spanning lines 1–11, occupying approximately y=130–570. All lines in this block are bisected by the central main stem (and in lines 3–4, by an additional secondary element), creating left-column and right-column text segments. The pale blue-green triangular wash is visible beneath this entire block. The text is written in warm brown ink over the wash. Lines become progressively shorter on the left side as the mid-left large leaf encroaches from y~390 onward.",
+      "lines": [
+        {
+          "locus": "<f8v.1,@P0>",
+          "raw_text": "cphod.soocfh<->sol.shol.otol.chol.opcheaiin.opydaiin.saiin",
+          "bounding_box": {"x_min": 130, "y_min": 133, "x_max": 870, "y_max": 163},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'cphod.soocfh' x_min:130–x_max:442; STEM GAP x:442–480 (central green stem, ~38 units wide); RIGHT SEGMENT 'sol.shol.otol.chol.opcheaiin.opydaiin.saiin' x_min:480–x_max:870. The right segment is substantially longer (7 units vs 2 units left) — a typical opening asymmetry where the @P0 paragraph-start occupies less of the left column. The pale blue triangular wash is fully active beneath this line. Text ink: warm brown ~#6b3a1f."
+        },
+        {
+          "locus": "<f8v.2,+P0>",
+          "raw_text": "shcthal.sar<->chor.sheaiin.shor.chykchy.otaiin.cty",
+          "bounding_box": {"x_min": 130, "y_min": 164, "x_max": 870, "y_max": 194},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'shcthal.sar' x_min:130–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'chor.sheaiin.shor.chykchy.otaiin.cty' x_min:480–x_max:870. The left segment (2 units) remains short, right segment continues at 6 units. The left upper flower (red/blue/green) is visible at approximately x:245–330, y:220–325 — it begins to appear just below this line's bounding box, constraining left-column width from line 3 onward."
+        },
+        {
+          "locus": "<f8v.3,+P0>",
+          "raw_text": "qody.cheal.sy<->chory<->chear.shol.chaiin.shaiin.dolar",
+          "bounding_box": {"x_min": 130, "y_min": 195, "x_max": 870, "y_max": 225},
+          "interaction": "DOUBLE <-> bisection — two gap-creating objects cross this line simultaneously. LEFT SEGMENT 'qody.cheal.sy' x_min:130–x_max:330 (constrained on the right by the left_upper_flower lateral branch); FIRST GAP x:330–395 (lateral branch/pedicel of left_upper_flower — a thin green branch arm, ~65 units wide gap); CENTER SEGMENT 'chory' x_min:395–x_max:442; SECOND GAP x:442–480 (central main stem); RIGHT SEGMENT 'chear.shol.chaiin.shaiin.dolar' x_min:480–x_max:870. The left_upper_flower pedicel (green, narrow) creates the first bisection; the main stem creates the second. Three text segments: 'qody.cheal.sy' | 'chory' | 'chear.shol.chaiin.shaiin.dolar'. The center segment 'chory' is isolated to a narrow column of approximately 47 normalized units."
+        },
+        {
+          "locus": "<f8v.4,+P0>",
+          "raw_text": "dshol.shol<->dal<->chean.cthar.shealy.daiin.chary",
+          "bounding_box": {"x_min": 130, "y_min": 226, "x_max": 870, "y_max": 256},
+          "interaction": "DOUBLE <-> bisection — same double-gap configuration as line 3. LEFT SEGMENT 'dshol.shol' x_min:130–x_max:330 (constrained by left_upper_flower lateral branch); FIRST GAP x:330–395 (same green flower branch/pedicel as line 3); CENTER SEGMENT 'dal' x_min:395–x_max:442; SECOND GAP x:442–480 (main stem); RIGHT SEGMENT 'chean.cthar.shealy.daiin.chary' x_min:480–x_max:870. 'dal' is a single 3-glyph token squeezed into a ~47-unit column. This double-bisection zone (lines 3–4) corresponds precisely to the y-range where the left_upper_flower branch exits the main stem — the branch is visible at approximately y=220–325 and crosses the text at this level."
+        },
+        {
+          "locus": "<f8v.5,+P0>",
+          "raw_text": "chol.chol,dar<->otchar.etaiin.cthol.dar",
+          "bounding_box": {"x_min": 130, "y_min": 257, "x_max": 870, "y_max": 287},
+          "interaction": "Returns to single <-> bisection — the left_upper_flower branch has moved above this y-level. LEFT SEGMENT 'chol.chol,dar' x_min:130–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'otchar.etaiin.cthol.dar' x_min:480–x_max:870. 'chol,dar' contains a comma boundary marker. Left and right segments are roughly balanced (3 units each)."
+        },
+        {
+          "locus": "<f8v.6,+P0>",
+          "raw_text": "daiin.cthan<->ytchy.cheykaiin.dain.ar",
+          "bounding_box": {"x_min": 130, "y_min": 288, "x_max": 870, "y_max": 318},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'daiin.cthan' x_min:130–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'ytchy.cheykaiin.dain.ar' x_min:480–x_max:870. Right segment slightly longer. 'ar' as a short 2-glyph terminal isolate."
+        },
+        {
+          "locus": "<f8v.7,+P0>",
+          "raw_text": "sho.kchol<->dar.shey.cthar.chotain.ry",
+          "bounding_box": {"x_min": 130, "y_min": 319, "x_max": 870, "y_max": 349},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'sho.kchol' x_min:130–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'dar.shey.cthar.chotain.ry' x_min:480–x_max:870. The upper_left_leaf_pair is above this y-level (y_max~340) — the large leaf's lower tip is just above this line, so left-column x_min is still at ~130. 'ry' as a very short 2-glyph terminal."
+        },
+        {
+          "locus": "<f8v.8,+P0>",
+          "raw_text": "okcholksh<->chol.chol.chol.cthaiin.dain",
+          "bounding_box": {"x_min": 130, "y_min": 350, "x_max": 870, "y_max": 380},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'okcholksh' x_min:130–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'chol.chol.chol.cthaiin.dain' x_min:480–x_max:870. The right segment contains three consecutive 'chol' tokens — a notable tripled repetition. The mid_left_large_leaf begins to encroach at approximately y=390 — this line is the last before the leaf constrains the left margin."
+        },
+        {
+          "locus": "<f8v.9,+P0>",
+          "raw_text": "shol.orchl<->chokchy.chol.cthar.chaiin",
+          "bounding_box": {"x_min": 200, "y_min": 381, "x_max": 870, "y_max": 411},
+          "interaction": "ONE <-> bisection. LEFT x_min NOW SHIFTS TO ~200 — the mid_left_large_leaf has begun to intrude from the left at this y-level (leaf bounding box x_min:140, y_min:390), pushing the left text margin rightward. LEFT SEGMENT 'shol.orchl' x_min:200–x_max:442; STEM GAP x:442–480; RIGHT SEGMENT 'chokchy.chol.cthar.chaiin' x_min:480–x_max:870. Left column is now narrowed by approximately 70 units compared to lines 1–8."
+        },
+        {
+          "locus": "<f8v.10,+P0>",
+          "raw_text": "scharchy<->oeesody.kchey.pchy.cpharom",
+          "bounding_box": {"x_min": 240, "y_min": 412, "x_max": 870, "y_max": 442},
+          "interaction": "ONE <-> bisection. LEFT x_min SHIFTS FURTHER to ~240 — mid_left_large_leaf continues to constrain the left margin. LEFT SEGMENT 'scharchy' x_min:240–x_max:442 (only ~202 units wide); STEM GAP x:442–480; RIGHT SEGMENT 'oeesody.kchey.pchy.cpharom' x_min:480–x_max:870. The left segment is now a single long compound token squeezed into a narrow column. 'cpharom' terminal ends in '-om', slightly unusual suffix."
+        },
+        {
+          "locus": "<f8v.11,+P0>",
+          "raw_text": "sorain",
+          "bounding_box": {"x_min": 240, "y_min": 443, "x_max": 400, "y_max": 473},
+          "interaction": "NO <-> bisection. A single very short token 'sorain' — the terminal line of the upper paragraph block. x_min:240 (left margin still constrained by mid_left_large_leaf), x_max:~400. No right segment. The entire upper paragraph closes with this single word sitting in the narrowed left column. Below this y-level the large leaves occupy the central and flanking zones and the folio enters the leaf/root illustration zone (no text y:473–820)."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_two_column_block",
+      "description": "The lower paragraph block spanning lines 12–17, occupying approximately y=820–1000. This block sits BELOW the large leaf/root illustration zone, in the bottom fifth of the parchment. The central stem continues through this zone (now below the lowest leaves, bare stem descending to roots), bisecting all lines except the terminal f8v.17. The text is arranged in two clear side-by-side columns split by the stem. Left column approximate range: x:115–455; right column: x:500–870. TEXT INK: same warm brown ~#6b3a1f as the upper block.",
+      "lines": [
+        {
+          "locus": "<f8v.12,+P0>",
+          "raw_text": "pchar.cho.rol.dal<->shear.cheeotaiin.chal.daiin",
+          "bounding_box": {"x_min": 115, "y_min": 822, "x_max": 865, "y_max": 852},
+          "interaction": "ONE <-> bisection. In the lower block the left text margin is WIDER again (x_min:115) because the large leaves are above this zone. LEFT SEGMENT 'pchar.cho.rol.dal' x_min:115–x_max:450; STEM GAP x:450–500 (stem is now slightly wider-gap in lower zone as it transitions toward root); RIGHT SEGMENT 'shear.cheeotaiin.chal.daiin' x_min:500–x_max:865. Relatively balanced left (4 units) and right (4 units) segments. Note the stem gap in the lower block is slightly larger (~50 units, x:450–500) compared to the upper block (~38 units, x:442–480) — the stem may taper or the scribe gave more space near the root junction."
+        },
+        {
+          "locus": "<f8v.13,+P0>",
+          "raw_text": "kchor.otchar.oky<->chokain.keoky.otorchy.satar",
+          "bounding_box": {"x_min": 115, "y_min": 853, "x_max": 865, "y_max": 883},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'kchor.otchar.oky' x_min:115–x_max:450; STEM GAP x:450–500; RIGHT SEGMENT 'chokain.keoky.otorchy.satar' x_min:500–x_max:865. Left 3 units, right 4 units — slight right-column dominance. 'satar' terminal ends in '-ar'."
+        },
+        {
+          "locus": "<f8v.14,+P0>",
+          "raw_text": "shor.okol.lokaiin<->shol.kol.char.cthey.tchy.ckham",
+          "bounding_box": {"x_min": 115, "y_min": 884, "x_max": 865, "y_max": 914},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'shor.okol.lokaiin' x_min:115–x_max:450; STEM GAP x:450–500; RIGHT SEGMENT 'shol.kol.char.cthey.tchy.ckham' x_min:500–x_max:865. Both segments 3 units each — perfectly balanced. 'ckham' terminal ends in '-am'."
+        },
+        {
+          "locus": "<f8v.15,+P0>",
+          "raw_text": "or.chol.cha,n,cky<->chor.cheain.char.cheeky.chor.ry",
+          "bounding_box": {"x_min": 115, "y_min": 915, "x_max": 865, "y_max": 945},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'or.chol.cha,n,cky' x_min:115–x_max:450; STEM GAP x:450–500; RIGHT SEGMENT 'chor.cheain.char.cheeky.chor.ry' x_min:500–x_max:865. 'cha,n,cky' contains TWO comma markers within a single token — two uncertain glyph boundaries in the same word, the most complex comma-notation token on this folio. Right segment contains 'chor' twice. 'ry' as a very short 2-glyph terminal."
+        },
+        {
+          "locus": "<f8v.16,+P0>",
+          "raw_text": "chor.chear.chear<->oteey.dchor.chodey.cho.raiin",
+          "bounding_box": {"x_min": 115, "y_min": 946, "x_max": 865, "y_max": 976},
+          "interaction": "ONE <-> bisection. LEFT SEGMENT 'chor.chear.chear' x_min:115–x_max:450 — notably 'chear' is repeated twice consecutively in the left segment, a direct reduplication. STEM GAP x:450–500; RIGHT SEGMENT 'oteey.dchor.chodey.cho.raiin' x_min:500–x_max:865. 'cho' as a short 3-glyph isolate. 'raiin' terminal with triple-i suffix."
+        },
+        {
+          "locus": "<f8v.17,+P0>",
+          "raw_text": "dain.chear.daiin",
+          "bounding_box": {"x_min": 500, "y_min": 977, "x_max": 730, "y_max": 1000},
+          "interaction": "NO <-> bisection — this is a short terminal line occupying ONLY the right column zone (x_min:500–x_max:730). No left-column text at all. The left column is empty at this final line, suggesting either: (a) the paragraph closed with a right-column-only terminal couplet line, or (b) the left column entry for this line is missing/intentionally absent. 'daiin' terminal with standard '-aiin' suffix. This is the last text on the folio. The root system illustration (ochre-brown) occupies the center-bottom below y=870 and the text sits to the right of the stem junction."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "pale_blue_triangular_wash",
+      "status": "Text written directly over the wash — wash is background, not a text-exclusion zone",
+      "description": "The large pale teal-blue watercolor triangle (x:200–700, y:60–455) does NOT exclude text — all 11 upper-block lines are written over it. The wash is a tonal/decorative background painted before the text was written (or concurrently), not a later addition. Its triangular shape mirrors the pointed silhouette of the plant as a whole. The blue color (~#8bbcb0) is unique on this folio — only used for this wash; all other colors are green (plant), red-orange (petals), blue-violet (stamens), brown (roots), cream (parchment), and brown (ink)."
+    },
+    {
+      "anchor_id": "apex_flower_cluster",
+      "status": "Completely text-free — above the text zone",
+      "description": "The apex flower cluster (x:400–545, y:95–195) sits above the first text line (y_min:133), entirely within the text-free upper illustration zone. The tricolor red/blue/green flowers are the topmost illustration element. No text contacts or contours around this flower cluster."
+    },
+    {
+      "anchor_id": "left_upper_flower",
+      "status": "Active bisection agent — causes DOUBLE <-> in lines 3 and 4",
+      "description": "The left_upper_flower (x:245–330, y:220–325) is a critical bisection element. Its lateral branch/pedicel crosses through the left text column at y:195–256 (lines 3 and 4), creating the secondary gap in the double-bisection of those two lines. The flower itself is painted in the red-orange/blue-violet/green tricolor scheme. After y:256 the branch has passed above the text line positions and the double-bisection resolves back to a single-bisection from line 5 onward."
+    },
+    {
+      "anchor_id": "right_lower_flower",
+      "status": "Completely text-free — between text blocks",
+      "description": "The right_lower_flower (x:560–650, y:430–540) sits in the gap between the upper paragraph block (which ends at y~473 with 'sorain') and the lower two-column block (which begins at y~822). This entire mid-page zone (y:473–822) is text-free illustration space dominated by the large leaves, bare mid-stem, and the right_lower_flower on its branch."
+    },
+    {
+      "anchor_id": "mid_left_large_leaf and lower_left_leaf_pair",
+      "status": "Active margin-constraining agents for lines 9–11",
+      "description": "The mid_left_large_leaf (x:140–455, y:390–560) does not cause a <-> bisection (it touches the left margin, not the text center) but it significantly narrows the left-column text width in lines 9–11 by pushing x_min rightward from ~130 to ~200–240. This constraint is directly visible in the progressively shorter left segments of lines 9 ('shol.orchl'), 10 ('scharchy'), and 11 ('sorain'). The leaf's green color (~#3a7a5a) makes it visually dominant in this zone."
+    },
+    {
+      "anchor_id": "root_system",
+      "status": "Completely text-free — below lower text block",
+      "description": "The root system (x:310–620, y:870–970) sits between the lower text block's bottom-left column (which ends at approximately y=976 with f8v.16 left segment) and the absolute page bottom. The warm ochre-brown color (~#b8752a) is entirely distinct from every other element on the page — it is the only non-green, non-red, non-blue color used in the plant illustration. The three or four radiating root arms spread laterally from the stem base in a schematic depiction of a fibrous root system. No text interacts with the root illustration."
+    },
+    {
+      "anchor_id": "mid_page_illustration_only_zone",
+      "status": "Completely text-free / Large leaf and stem zone",
+      "description": "The entire zone between the two text blocks — approximately y:473–822 — is text-free. This is a very large negative-text space (~350 normalized units tall, roughly one third of the full page height) entirely occupied by the plant illustration: large teal-green leaves (mid and lower pairs), bare central stem, and the right_lower_flower. The absence of text in this zone is unusual compared to some herbal folios where text wraps around leaves more tightly; here the scribe gave the illustration full vertical dominance over the central third of the page."
+    }
+  ]
+}

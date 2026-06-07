@@ -1,0 +1,307 @@
+{
+  "folio": "f88r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+
+  "audit_log": {
+    "extracted_folio_id": "f88r",
+    "total_loci_count": 31,
+    "unique_loci_found": [
+      "f88r.1,@Lc","f88r.2,@Lf","f88r.3,@Lf","f88r.4,@Lf","f88r.5,@Lf","f88r.6,@Lf",
+      "f88r.7,@P0","f88r.8,+P0","f88r.9,+P0","f88r.10,+P0","f88r.11,+P0",
+      "f88r.12,@Lc","f88r.13,@Lf","f88r.14,@Lf","f88r.15,@Lf","f88r.16,@Lf","f88r.17,@Lf",
+      "f88r.18,@P0","f88r.19,+P0","f88r.20,+P0","f88r.21,+P0","f88r.22,+P0",
+      "f88r.23,@Lc","f88r.24,@Lf","f88r.25,@Lf",
+      "f88r.26,@P0","f88r.27,+P0","f88r.28,+P0","f88r.29,+P0","f88r.30,+P0","f88r.31,+P0"
+    ],
+    "syntax_clues_detected": [
+      "f88r.1 is @Lc — label near/on a container/vessel object (first vessel cluster label)",
+      "f88r.2–6 are @Lf — labels near plant/figure elements (five plant-root labels in upper zone)",
+      "f88r.12 is @Lc — second vessel/container label",
+      "f88r.13–17 are @Lf — five labels near middle plant illustrations",
+      "f88r.23 is @Lc — third vessel/container label",
+      "f88r.24–25 are @Lf — two labels near lower plant zone",
+      "f88r.26 contains <->: 'poeear.sheoky.olkeey.cthol.poldy.s<->okoldy' — bisected by lower plant stem/root element",
+      "No other <-> bisections detected in f88r"
+    ],
+    "visual_anchor_inventory": [
+      "left_vessel_tower — tall stacked column of 3 ornate vessels/urns along left margin, dominant left element",
+      "upper_plant_row — 5 hanging/suspended plant root specimens across upper folio zone, golden-brown color",
+      "middle_plant_group — 4 smaller plant specimens with roots, mid-folio zone, partially green and brown",
+      "lower_plant_with_vine — single plant with curling vine tendrils at right side, lower folio zone, green",
+      "bottom_wave_form — flowing wave/water or root form at very bottom, pale cream/light green",
+      "page_number_88 — top right corner, dark ink numeral"
+    ]
+  },
+
+  "visual_anchors": {
+    "left_vessel_tower": {
+      "description": "The most dominant visual element of the folio: a tall vertical column of three stacked ornate vessels/urns positioned along the left margin. Each vessel has a complex tiered profile — wide body, narrow neck, flared lip, pedestal base — with detailed decorative banding. The topmost vessel is smallest; the bottommost is the largest and most elaborate with a wide footed base. All three are rendered with the same color palette. This column acts as a persistent left-margin illustration running from y≈60 to y≈900.",
+      "color": "Primary body: deep red (vermilion/red lead). Decorative bands and rims: medium green (malachite-like). Highlight rings and pearl-dot details: cream/white. Neck sections: alternating red and green bands. Interior cavity of top vessel: teal-green wash. Overall: red and green are the two dominant colors, creating a strong visual column.",
+      "bounding_box": {"x_min": 50, "y_min": 60, "x_max": 215, "y_max": 900}
+    },
+    "upper_plant_row": {
+      "description": "A horizontal row of approximately 5 plant specimens suspended or displayed across the upper zone of the folio, between x≈200 and x≈920. Each specimen appears to be a root or bulb with hanging fibrous roots below and small sprigs or leaves above. They are arranged loosely in a row, displayed as if hung for drying or examination. Labels (@Lf, f88r.2–6) appear between and beside them. One specimen on the far right has noticeably green leaf tips.",
+      "color": "Root/bulb bodies: warm golden-brown to reddish-brown (raw sienna range). Fibrous root tendrils: pale tan/cream with fine ink lines. Leaf tips (rightmost specimen): medium green. Background: cream parchment. The warm brown dominates this zone.",
+      "bounding_box": {"x_min": 200, "y_min": 50, "x_max": 940, "y_max": 280}
+    },
+    "middle_plant_group": {
+      "description": "A group of approximately 4 smaller plant specimens in the mid-folio zone, positioned between paragraph blocks A and B. These include: small green leaf clusters, bare root forms with long trailing tendrils, and one specimen with a spotted/dotted pattern (possibly a spotted leaf or fungal form). Some specimens have small vessel-like forms attached to their roots. The labels @Lc (f88r.12) and @Lf (f88r.13–17) label these elements.",
+      "color": "Leaves: medium green (flat wash). Root tendrils: warm golden-brown to reddish-brown, same palette as upper row. Spotted specimen: cream/pale base with dark brown ink dots. Small attached vessels: echoing the left column vessels — red body with green rim detail. Background: cream parchment.",
+      "bounding_box": {"x_min": 200, "y_min": 470, "x_max": 920, "y_max": 680}
+    },
+    "lower_plant_with_vine": {
+      "description": "In the lower right zone of the folio, a plant specimen with curling vine-like tendrils and small green leaves. The tendrils curve and loop in an organic, flowing pattern reminiscent of climbing vines. Small rounded or pointed green leaves are distributed along the vine arms. This element continues from the middle zone downward toward the bottom of the folio. The @Lc label f88r.23 and @Lf labels f88r.24–25 annotate this zone.",
+      "color": "Vine stems and tendrils: light tan/golden-brown ink. Leaves: medium green wash. The vine forms are notably more linear and pale than the rooted specimens above.",
+      "bounding_box": {"x_min": 320, "y_min": 760, "x_max": 950, "y_max": 980}
+    },
+    "bottom_wave_form": {
+      "description": "At the very bottom of the folio, a horizontal flowing wave or undulating form — possibly stylized water, a large root system, or a ground line. It has a sinuous, rhythmic quality with multiple crests. Faint reddish-orange lines are visible within it.",
+      "color": "Outer wave form: pale green-gray wash. Interior detail lines: faint reddish-orange/salmon ink. This is a very subtle, delicate element at the lower edge.",
+      "bounding_box": {"x_min": 200, "y_min": 960, "x_max": 900, "y_max": 1000}
+    }
+  },
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_plant_labels_group_1",
+      "description": "The first cluster of isolated labels: one @Lc (container label) and five @Lf (plant-figure labels). These labels name or annotate the individual specimens in the upper_plant_row. The @Lc label (f88r.1) likely annotates the top vessel of the left_vessel_tower. The @Lf labels (f88r.2–6) are distributed above or between the hanging root specimens. Written in warm golden-brown ink — distinctly warmer tone than the paragraph text, suggesting a different ink or the same ink in a more dilute/oxidized state.",
+      "lines": [
+        {
+          "locus": "<f88r.1,@Lc>",
+          "raw_text": "otorchety",
+          "bounding_box": {"x_min": 55, "y_min": 62, "x_max": 210, "y_max": 90},
+          "interaction": "Container label (@Lc). Positioned at or above the topmost vessel of the left_vessel_tower. The vessel top is green-teal colored; this label sits immediately beside it. Golden-brown ink on cream parchment."
+        },
+        {
+          "locus": "<f88r.2,@Lf>",
+          "raw_text": "osal",
+          "bounding_box": {"x_min": 220, "y_min": 95, "x_max": 320, "y_max": 120},
+          "interaction": "Plant label (@Lf) for the first (leftmost) hanging root specimen in the upper row. The specimen's root body is golden-brown; this label sits above it. Short single-word label."
+        },
+        {
+          "locus": "<f88r.3,@Lf>",
+          "raw_text": "orald",
+          "bounding_box": {"x_min": 360, "y_min": 95, "x_max": 460, "y_max": 120},
+          "interaction": "Plant label for second specimen. Adjacent to golden-brown root body."
+        },
+        {
+          "locus": "<f88r.4,@Lf>",
+          "raw_text": "oldar",
+          "bounding_box": {"x_min": 480, "y_min": 95, "x_max": 580, "y_max": 120},
+          "interaction": "Plant label for third specimen, center of the upper row."
+        },
+        {
+          "locus": "<f88r.5,@Lf>",
+          "raw_text": "otoky",
+          "bounding_box": {"x_min": 620, "y_min": 95, "x_max": 720, "y_max": 120},
+          "interaction": "Plant label for fourth specimen."
+        },
+        {
+          "locus": "<f88r.6,@Lf>",
+          "raw_text": "otaly",
+          "bounding_box": {"x_min": 760, "y_min": 95, "x_max": 860, "y_max": 120},
+          "interaction": "Plant label for fifth (rightmost) specimen. The rightmost specimen has green leaf tips visible above; this label sits among them."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_A",
+      "description": "Lines 7–11: First main paragraph block, positioned between the upper plant row and the middle plant group. Full-width lines running left to right. Written in darker brown-black ink than the labels — standard Voynich paragraph ink. The left_vessel_tower is present at left margin but does not bisect these lines; it constrains the left text margin to approximately x=220.",
+      "lines": [
+        {
+          "locus": "<f88r.7,@P0>",
+          "raw_text": "dorsheoy.ctheol.qockhey.dory.sheor.sholfchor.dal.chcthol",
+          "bounding_box": {"x_min": 220, "y_min": 285, "x_max": 900, "y_max": 320},
+          "interaction": "Paragraph opening. 'd' initial (no gallows). Left margin constrained to x=220 by the left_vessel_tower (second vessel body at left). Right margin free to near folio edge. Dark brown-black ink."
+        },
+        {
+          "locus": "<f88r.8,+P0>",
+          "raw_text": "sal.sheom.keol.chear.shekor.qokor.daiin.sar.s.aiin.oky.sam",
+          "bounding_box": {"x_min": 220, "y_min": 324, "x_max": 900, "y_max": 359},
+          "interaction": "Continuation. Full width between vessel tower and right edge. One of the longer lines in this block."
+        },
+        {
+          "locus": "<f88r.9,+P0>",
+          "raw_text": "oain.or.om.otam.okeom.cheeor.qokeody.dar.or.om.cheody",
+          "bounding_box": {"x_min": 220, "y_min": 363, "x_max": 890, "y_max": 398},
+          "interaction": "Continuation. Multiple 'om' endings notable. Full width."
+        },
+        {
+          "locus": "<f88r.10,+P0>",
+          "raw_text": "qokeol.cheol.saiin.cheos.cheol.doleeey.or.cheom.cheomam",
+          "bounding_box": {"x_min": 220, "y_min": 402, "x_max": 890, "y_max": 437},
+          "interaction": "Continuation. 'doleeey' triple-e form. 'cheomam' terminal unusual form."
+        },
+        {
+          "locus": "<f88r.11,+P0>",
+          "raw_text": "yokeody.cheom.qoor.cheeb.ykeor.shy.sam",
+          "bounding_box": {"x_min": 220, "y_min": 441, "x_max": 740, "y_max": 476},
+          "interaction": "Final line of block A. Shorter than previous lines — paragraph end. 'cheeb' contains rare 'b' glyph. No *P0 close tag; transition to label group follows."
+        }
+      ]
+    },
+    {
+      "block_id": "middle_plant_labels_group_2",
+      "description": "Second label cluster: @Lc (f88r.12) and five @Lf (f88r.13–17) labeling the middle_plant_group specimens. Same warm golden-brown ink as the first label group. Distributed among the mid-folio plant illustrations.",
+      "lines": [
+        {
+          "locus": "<f88r.12,@Lc>",
+          "raw_text": "otaldy",
+          "bounding_box": {"x_min": 220, "y_min": 485, "x_max": 360, "y_max": 513},
+          "interaction": "Container label (@Lc). Labels a small vessel attached to one of the middle plant roots. The vessel in this zone mirrors the left tower vessels — red body, green rim. Golden-brown ink label beside it."
+        },
+        {
+          "locus": "<f88r.13,@Lf>",
+          "raw_text": "oram",
+          "bounding_box": {"x_min": 240, "y_min": 520, "x_max": 330, "y_max": 548},
+          "interaction": "Plant label for leftmost middle specimen. Adjacent to golden-brown root tendrils."
+        },
+        {
+          "locus": "<f88r.14,@Lf>",
+          "raw_text": "dary",
+          "bounding_box": {"x_min": 370, "y_min": 520, "x_max": 450, "y_max": 548},
+          "interaction": "Plant label for second middle specimen."
+        },
+        {
+          "locus": "<f88r.15,@Lf>",
+          "raw_text": "okol",
+          "bounding_box": {"x_min": 490, "y_min": 520, "x_max": 570, "y_max": 548},
+          "interaction": "Plant label for center specimen — the spotted/dotted one."
+        },
+        {
+          "locus": "<f88r.16,@Lf>",
+          "raw_text": "sorory",
+          "bounding_box": {"x_min": 670, "y_min": 520, "x_max": 790, "y_max": 548},
+          "interaction": "Plant label for fourth specimen."
+        },
+        {
+          "locus": "<f88r.17,@Lf>",
+          "raw_text": "otyda?",
+          "bounding_box": {"x_min": 820, "y_min": 520, "x_max": 940, "y_max": 548},
+          "interaction": "Plant label with uncertainty marker '?'. Rightmost label in this group, near the green vine element at right."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_B",
+      "description": "Lines 18–22: Second main paragraph block, between middle plant group and lower plant zone. Same dark brown-black ink as block A. Left margin constrained by the second/third vessel of the left tower. No bisections.",
+      "lines": [
+        {
+          "locus": "<f88r.18,@P0>",
+          "raw_text": "koacphhy.cphol.or,chor.pcheoly.otchol.oldy.salsaly",
+          "bounding_box": {"x_min": 220, "y_min": 690, "x_max": 880, "y_max": 725},
+          "interaction": "Paragraph opening. 'k' initial. 'or,chor' contains intra-word comma. Full width between vessel tower and right margin."
+        },
+        {
+          "locus": "<f88r.19,+P0>",
+          "raw_text": "dchey.chokol.daiin.qoekol.qoekol.qockhol.okol.cheol",
+          "bounding_box": {"x_min": 220, "y_min": 729, "x_max": 870, "y_max": 764},
+          "interaction": "Continuation. Repeated 'qoekol' and 'okol' notable."
+        },
+        {
+          "locus": "<f88r.20,+P0>",
+          "raw_text": "dsheol.qokeey.s.chy.s.aiin.chor.oteor.aiin.chosals",
+          "bounding_box": {"x_min": 220, "y_min": 768, "x_max": 870, "y_max": 803},
+          "interaction": "Continuation. Single-glyph words 's' and 'chy' isolated in sequence."
+        },
+        {
+          "locus": "<f88r.21,+P0>",
+          "raw_text": "teol.chor.olsheody.qokeol.shockhy.ol.sheeol.sheoldg",
+          "bounding_box": {"x_min": 220, "y_min": 807, "x_max": 860, "y_max": 842},
+          "interaction": "Continuation. 'sheoldg' unusual terminal form with 'g'."
+        },
+        {
+          "locus": "<f88r.22,+P0>",
+          "raw_text": "ychey.okaiin.chol.cheor.ol.chorcholsal",
+          "bounding_box": {"x_min": 220, "y_min": 846, "x_max": 730, "y_max": 881},
+          "interaction": "Final line of block B. Shorter. 'chorcholsal' is a long compound form. No *P0 close."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_plant_labels_group_3",
+      "description": "Third label cluster: @Lc (f88r.23) and two @Lf (f88r.24–25) for the lower plant zone. Same golden-brown label ink.",
+      "lines": [
+        {
+          "locus": "<f88r.23,@Lc>",
+          "raw_text": "ofyskydal",
+          "bounding_box": {"x_min": 220, "y_min": 895, "x_max": 420, "y_max": 923},
+          "interaction": "Container label. The 'f' and 'y' glyphs together are notable. Labels a vessel or container element in the lower plant zone."
+        },
+        {
+          "locus": "<f88r.24,@Lf>",
+          "raw_text": "otoram",
+          "bounding_box": {"x_min": 440, "y_min": 895, "x_max": 560, "y_max": 923},
+          "interaction": "Plant label for one of the lower vine elements."
+        },
+        {
+          "locus": "<f88r.25,@Lf>",
+          "raw_text": "ofaldo",
+          "bounding_box": {"x_min": 580, "y_min": 895, "x_max": 680, "y_max": 923},
+          "interaction": "Plant label. 'f' initial form rare. Adjacent to green vine leaf cluster."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_C",
+      "description": "Lines 26–31: Third and final paragraph block, positioned in the lower portion of the folio. Line 26 is bisected by a plant element. Lines 27–31 run without bisection. Dark brown-black ink.",
+      "lines": [
+        {
+          "locus": "<f88r.26,@P0>",
+          "raw_text": "poeear.sheoky.olkeey.cthol.poldy.s<->okoldy",
+          "bounding_box": {"x_min": 220, "y_min": 930, "x_max": 900, "y_max": 965},
+          "interaction": "Paragraph opening with <-> BISECTION. 'p' gallows initial. LEFT SEGMENT: 'poeear.sheoky.olkeey.cthol.poldy.s' — x_min=220, x_max=~600. <-> GAP: a plant stem or root element from the lower_plant_with_vine bisects at approximately x=605–680. RIGHT SEGMENT: 'okoldy' — x_min=~685, x_max=~900. The bisecting element is a vine tendril or root form in golden-brown ink crossing horizontally at this text level."
+        },
+        {
+          "locus": "<f88r.27,+P0>",
+          "raw_text": "qokol.chol.qokol.qokol.chol.cheey.ar.aiin.oldal",
+          "bounding_box": {"x_min": 220, "y_min": 969, "x_max": 860, "y_max": 1004},
+          "interaction": "Continuation. No bisection. Notable triple repetition 'qokol.chol.qokol.qokol'."
+        },
+        {
+          "locus": "<f88r.28,+P0>",
+          "raw_text": "ykar.cheol.chol.chey.ckhey.s.or.shear.ar.alsy",
+          "bounding_box": {"x_min": 220, "y_min": 1008, "x_max": 850, "y_max": 1043},
+          "interaction": "Continuation. Full width."
+        },
+        {
+          "locus": "<f88r.29,+P0>",
+          "raw_text": "kor.chey.qokol.cheol.chody.qokol.kchos.chol.dal",
+          "bounding_box": {"x_min": 220, "y_min": 1047, "x_max": 840, "y_max": 1082},
+          "interaction": "Continuation."
+        },
+        {
+          "locus": "<f88r.30,+P0>",
+          "raw_text": "ykeeey.cheor.cheotey.cheol.qokeor.chetchy.ofal",
+          "bounding_box": {"x_min": 220, "y_min": 1086, "x_max": 810, "y_max": 1121},
+          "interaction": "Continuation. 'ofal' terminal with 'f' glyph."
+        },
+        {
+          "locus": "<f88r.31,+P0>",
+          "raw_text": "dar.chear.chol.dol.qoekeor.cheom",
+          "bounding_box": {"x_min": 220, "y_min": 1125, "x_max": 640, "y_max": 1160},
+          "interaction": "Final line. Short. No *P0 close. The paragraph ends above the bottom_wave_form element."
+        }
+      ]
+    }
+  ],
+
+  "isolated_zones": [
+    {
+      "anchor_id": "left_vessel_tower",
+      "status": "Completely text-free — persistent left-margin illustration",
+      "description": "The entire left_vessel_tower column (x=50–215, y=60–900) contains no text. It acts as a permanent left margin boundary, pushing all paragraph text to start at x=220. The red-and-green color scheme of the vessels is the most vivid color on the folio. Labels reference the tower but are placed beside, not within it."
+    },
+    {
+      "anchor_id": "upper_plant_row",
+      "status": "Text-free body — labels at periphery",
+      "description": "The hanging root specimens (x=200–940, y=50–280) are entirely text-free internally. The golden-brown color of the roots is the second dominant color of the folio. Labels (f88r.2–6) are placed above or between specimens, never overlapping the root bodies."
+    },
+    {
+      "anchor_id": "bottom_wave_form",
+      "status": "Completely text-free",
+      "description": "The pale green-gray wave form at the bottom (y=960–1000) carries no text whatsoever. The faint reddish-orange lines within it are purely decorative. This element terminates the folio illustration zone."
+    }
+  ]
+}

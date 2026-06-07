@@ -1,0 +1,494 @@
+{
+  "folio": "f100r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+  "audit_log": {
+    "extracted_folio_id": "f100r",
+    "total_loci_count": 27,
+    "unique_loci_found": [
+      "<f100r>",
+      "<f100r.1,@Lf>", "<f100r.2,@Lf>", "<f100r.3,@Lf>", "<f100r.4,@Lf>",
+      "<f100r.5,@Lf>", "<f100r.6,@Lf>", "<f100r.7,@Lf>", "<f100r.8,@Lf>",
+      "<f100r.9,@Lf>", "<f100r.10,@Lf>", "<f100r.11,@Lf>",
+      "<f100r.12,@P0>", "<f100r.13,+P0>", "<f100r.14,+P0>", "<f100r.15,+P0>",
+      "<f100r.16,@Lf>", "<f100r.17,@Lf>", "<f100r.18,@Lf>", "<f100r.19,@Lf>",
+      "<f100r.20,@Lf>", "<f100r.21,@Lf>",
+      "<f100r.22,@P0>", "<f100r.23,+P0>", "<f100r.24,+P0>",
+      "<f100r.25,+P0>", "<f100r.26,+P0>", "<f100r.27,+P0>"
+    ],
+    "syntax_clues_detected": [
+      {
+        "locus": "<f100r.5,@Lf>",
+        "marker": "<->",
+        "raw_segment": "sarchar<->daiindy",
+        "note": "Bisection within an @Lf isolated label — highly unusual. The label text is physically split by a drawn element, most likely the curling stem/rhizome of plant_top_center_spiral. The left word 'sarchar' and right word 'daiindy' flank the illustrated object."
+      },
+      {
+        "locus": "<f100r.1,@Lf>", "marker": "@Lf", "note": "Isolated label near a figure/illustration element — top zone"
+      },
+      {
+        "locus": "<f100r.2,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.3,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.4,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.6,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.7,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.8,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.9,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.10,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.11,@Lf>", "marker": "@Lf", "note": "Isolated label — top zone"
+      },
+      {
+        "locus": "<f100r.16,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone, between paragraph 1 and 2"
+      },
+      {
+        "locus": "<f100r.17,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone"
+      },
+      {
+        "locus": "<f100r.18,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone"
+      },
+      {
+        "locus": "<f100r.19,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone"
+      },
+      {
+        "locus": "<f100r.20,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone"
+      },
+      {
+        "locus": "<f100r.21,@Lf>", "marker": "@Lf", "note": "Isolated label — middle zone"
+      }
+    ],
+    "visual_anchor_inventory": [
+      {
+        "id": "pharma_jar_top_left",
+        "description": "Tall cylindrical container, upper-left folio margin. Red/orange pigment body with white horizontal decorative bands and a green cap/lid. Clearly a labelled apothecary or pharmaceutical vessel.",
+        "primary_colors": ["red_orange", "white_bands", "green_lid"]
+      },
+      {
+        "id": "plant_top_left_small",
+        "description": "Small plant with spade/arrow-shaped green leaves and a thin curling rhizome/root; located upper-left quadrant below the jar label zone",
+        "primary_colors": ["teal_green", "brown_root"]
+      },
+      {
+        "id": "plant_top_center_spiral",
+        "description": "Central-top plant with a distinctive curling orange-brown spiral rhizome/tuber and radiating arrow-shaped green leaves. The coiled rhizome is the most morphologically distinctive element on the page.",
+        "primary_colors": ["teal_green", "orange_brown_spiral"]
+      },
+      {
+        "id": "plant_top_center_tall",
+        "description": "Tall central plant with large serrated/toothed green leaves tapering to a sharp apex; prominent dark green triangular central leaf mass; orange-brown root system below",
+        "primary_colors": ["dark_green", "teal_green", "orange_brown_root"]
+      },
+      {
+        "id": "plant_top_right_blue_tips",
+        "description": "Upper-right plant with distinctive blue-tipped leaves or flower buds; green lobed leaves; orange-brown root. The blue pigment is unique on this folio — high semantic significance.",
+        "primary_colors": ["teal_green", "blue_tips", "orange_brown_root"]
+      },
+      {
+        "id": "plant_top_far_right_broad",
+        "description": "Far right upper plant with broad, rounded, heavily veined green leaves; orange-brown fibrous root system",
+        "primary_colors": ["teal_green", "orange_brown_root"]
+      },
+      {
+        "id": "plant_mid_left_lobed",
+        "description": "Middle-left zone plant with lobed green leaves and a curling brown root; smaller specimen",
+        "primary_colors": ["teal_green", "brown_root"]
+      },
+      {
+        "id": "plant_mid_center_sun",
+        "description": "Middle-center plant with a distinctive circular sun-like or corona shape at the root/crown junction — a ring of radiating short strokes; green leaves above and brown root below",
+        "primary_colors": ["teal_green", "brown_root", "orange_corona"]
+      },
+      {
+        "id": "plant_mid_center_dark_root",
+        "description": "Center-middle plant with a large dark green triangular/conical leaf mass and a prominent dark red-brown elongated root tuber with a distinctive pointed tip",
+        "primary_colors": ["dark_green", "dark_red_brown_root"]
+      },
+      {
+        "id": "plant_mid_right_cluster",
+        "description": "Right-center plant: bushy green leaf cluster with orange-brown fibrous root system",
+        "primary_colors": ["teal_green", "orange_brown_root"]
+      },
+      {
+        "id": "plant_mid_far_right_broad",
+        "description": "Far right center: large broad-leafed plant with heavily lobed leaves and prominent orange-brown root",
+        "primary_colors": ["teal_green", "orange_brown_root"]
+      },
+      {
+        "id": "pharma_jar_mid_left",
+        "description": "Second cylindrical pharmaceutical jar, left margin of middle section. Same morphology as pharma_jar_top_left — red/orange body with white decorative bands and green lid.",
+        "primary_colors": ["red_orange", "white_bands", "green_lid"]
+      },
+      {
+        "id": "plant_lower_left_spiky",
+        "description": "Lower-left zone: narrow spiky green plant with elongated leaves and thin root",
+        "primary_colors": ["teal_green", "brown_root"]
+      },
+      {
+        "id": "plant_lower_center_left_round",
+        "description": "Lower-center-left: compact rounded bushy green plant, dense leaf cluster; brown root",
+        "primary_colors": ["teal_green", "brown_root"]
+      },
+      {
+        "id": "plant_lower_center_right_round",
+        "description": "Lower-center-right: similar rounded bushy green plant, slightly larger, with brown root",
+        "primary_colors": ["teal_green", "brown_root"]
+      },
+      {
+        "id": "plant_lower_right_large",
+        "description": "Lower-right: large plant with broad serrated green leaves and a prominent orange-brown multi-branching root system; largest plant in the lower register",
+        "primary_colors": ["teal_green", "orange_brown_root"]
+      }
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "pharma_jar_top_left",
+      "category": "pharma_jar",
+      "colors": ["red_orange", "white_bands", "green_lid"],
+      "morphology_description": "Tall cylindrical vessel with a flat green cap/lid at the top. The body is painted red-orange with two or three white horizontal decorative bands (possibly indicating measurement graduations or decorative banding typical of apothecary jars). No visible liquid level inside — contents likely dry powder or solid material. This is the primary pharmaceutical anchor for the top label group.",
+      "bounding_box": {"x_min": 55, "y_min": 55, "x_max": 135, "y_max": 220}
+    },
+    {
+      "anchor_id": "plant_top_left_small",
+      "category": "botany_root",
+      "colors": ["teal_green", "brown_root"],
+      "morphology_description": "Small plant with 3–4 arrow/spade-shaped opposite leaves on a thin stem. Root is a thin curling tendril in brown ink, not bulbous. Leaves have visible veining. Smallest plant in the top register.",
+      "bounding_box": {"x_min": 80, "y_min": 230, "x_max": 230, "y_max": 370}
+    },
+    {
+      "anchor_id": "plant_top_center_spiral",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_spiral"],
+      "morphology_description": "The most morphologically distinctive plant on the page. A circular coiled or spiral rhizome/tuber in orange-brown ink forms the center of the illustration. From this coil, multiple arrow-pointed green leaves radiate outward in different directions like a starburst. Root tendrils extend below the coil. The spiral morphology may encode a specific preparation method (distillation cycle, coiling = repeated processing). Acts as the bisecting object for locus <f100r.5,@Lf>.",
+      "bounding_box": {"x_min": 210, "y_min": 110, "x_max": 390, "y_max": 290}
+    },
+    {
+      "anchor_id": "plant_top_center_tall",
+      "category": "botany_root",
+      "colors": ["dark_green", "teal_green", "orange_brown_root"],
+      "morphology_description": "The tallest plant in the top register. Central large triangular/conical dark green leaf cluster with serrated margins. Two lateral lobed leaves at mid-height. Orange-brown root system below. The dark green pigment (more saturated than other plants) may indicate semantic differentiation.",
+      "bounding_box": {"x_min": 370, "y_min": 60, "x_max": 540, "y_max": 370}
+    },
+    {
+      "anchor_id": "plant_top_right_blue_tips",
+      "category": "botany_root",
+      "colors": ["teal_green", "blue_tips", "orange_brown_root"],
+      "morphology_description": "Upper-right plant with three lobed/palmate green leaves. Two or three of the leaf tips or small buds are painted with distinctive blue pigment — the only blue botanical element on this folio. Blue tip morphology could encode flowering state, medicinal property, or toxic marker. Root is orange-brown fibrous.",
+      "bounding_box": {"x_min": 565, "y_min": 55, "x_max": 720, "y_max": 240}
+    },
+    {
+      "anchor_id": "plant_top_far_right_broad",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_root"],
+      "morphology_description": "Far right upper plant. Two large, broad, rounded leaves with clearly painted venation. Orange-brown root. A separate label 'sofag' appears to the right of this plant.",
+      "bounding_box": {"x_min": 700, "y_min": 100, "x_max": 890, "y_max": 310}
+    },
+    {
+      "anchor_id": "plant_mid_left_lobed",
+      "category": "botany_root",
+      "colors": ["teal_green", "brown_root"],
+      "morphology_description": "Small plant left of center in the middle register. Three lobed green leaves with a thin curling brown root. Compact form.",
+      "bounding_box": {"x_min": 70, "y_min": 290, "x_max": 215, "y_max": 420}
+    },
+    {
+      "anchor_id": "plant_mid_center_sun",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_root", "orange_corona"],
+      "morphology_description": "Distinctive plant with a circular corona/sun-halo motif at the crown-root junction — a ring of short radiating strokes in orange-brown ink resembling a sun or crown. Above: green lobed leaves. Below: orange-brown root. The corona morphology is unique among visible plants and likely encodes a special preparation state (heating/drying/solar process?).",
+      "bounding_box": {"x_min": 225, "y_min": 290, "x_max": 375, "y_max": 430}
+    },
+    {
+      "anchor_id": "plant_mid_center_dark_root",
+      "category": "botany_root",
+      "colors": ["dark_green", "dark_red_brown_root"],
+      "morphology_description": "Central middle plant with a conical dark green leaf mass and a prominent elongated root tuber painted in dark red-brown — darker and more saturated than other roots. The root has a pointed distal end and a slight reddish hue distinct from the orange-brown roots elsewhere. This darker root color may semantically indicate a different root state (dried, resinous, or specific species marker).",
+      "bounding_box": {"x_min": 355, "y_min": 255, "x_max": 490, "y_max": 430}
+    },
+    {
+      "anchor_id": "plant_mid_right_cluster",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_root"],
+      "morphology_description": "Right-center bushy plant. Multiple rounded green leaf clusters growing from a shared crown. Orange-brown fibrous root.",
+      "bounding_box": {"x_min": 510, "y_min": 280, "x_max": 680, "y_max": 430}
+    },
+    {
+      "anchor_id": "plant_mid_far_right_broad",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_root"],
+      "morphology_description": "Largest plant in the middle register. Two very large, broad, deeply-lobed leaves with heavy venation. Orange-brown root with multiple branching tendrils.",
+      "bounding_box": {"x_min": 680, "y_min": 250, "x_max": 900, "y_max": 440}
+    },
+    {
+      "anchor_id": "pharma_jar_mid_left",
+      "category": "pharma_jar",
+      "colors": ["red_orange", "white_bands", "green_lid"],
+      "morphology_description": "Second pharmaceutical jar, morphologically identical to pharma_jar_top_left: cylindrical, red-orange body with white horizontal bands, green flat lid. Positioned left margin of the lower illustration register. The repetition of an identical jar type in both registers strongly suggests a consistent recipe/formula notation system where the jar = same ingredient or preparation vessel type.",
+      "bounding_box": {"x_min": 100, "y_min": 590, "x_max": 185, "y_max": 760}
+    },
+    {
+      "anchor_id": "plant_lower_left_spiky",
+      "category": "botany_root",
+      "colors": ["teal_green", "brown_root"],
+      "morphology_description": "Narrow plant with elongated, slightly serrated leaves. Thin root. Positioned to the right of pharma_jar_mid_left.",
+      "bounding_box": {"x_min": 185, "y_min": 600, "x_max": 310, "y_max": 760}
+    },
+    {
+      "anchor_id": "plant_lower_center_left_round",
+      "category": "botany_root",
+      "colors": ["teal_green", "brown_root"],
+      "morphology_description": "Compact rounded bushy plant, dome-shaped leaf mass. Brown root with short tendrils. Smaller of the two central lower plants.",
+      "bounding_box": {"x_min": 310, "y_min": 600, "x_max": 490, "y_max": 770}
+    },
+    {
+      "anchor_id": "plant_lower_center_right_round",
+      "category": "botany_root",
+      "colors": ["teal_green", "brown_root"],
+      "morphology_description": "Slightly larger rounded bushy plant, similar morphology to plant_lower_center_left_round. Dense leaf cluster, short brown root. These two similar rounded plants side-by-side may represent related species or dosage variants.",
+      "bounding_box": {"x_min": 500, "y_min": 590, "x_max": 680, "y_max": 770}
+    },
+    {
+      "anchor_id": "plant_lower_right_large",
+      "category": "botany_root",
+      "colors": ["teal_green", "orange_brown_root"],
+      "morphology_description": "The largest plant in the lower register. Multiple large, broad, serrated green leaves arranged in a loose rosette. The root system is the most elaborate on the folio: orange-brown, multi-branching, with 4–5 distinct root arms radiating downward and sideways. Root branching morphology resembles a hand/claw form. Likely indicates a multi-root medicinal plant (e.g., valerian or mandrake type).",
+      "bounding_box": {"x_min": 670, "y_min": 580, "x_max": 900, "y_max": 800}
+    }
+  ],
+  "isolated_labels": [
+    {
+      "locus": "<f100r.1,@Lf>",
+      "raw_text": "chosaroshol",
+      "target_anchor_id": "pharma_jar_top_left",
+      "placement_context": "Above or beside the top-left pharmaceutical jar, in the uppermost label strip of the folio. Part of a horizontal label sequence running left-to-right across the top.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 55, "y_min": 35, "x_max": 230, "y_max": 60}
+    },
+    {
+      "locus": "<f100r.2,@Lf>",
+      "raw_text": "sochorcfhy",
+      "target_anchor_id": "plant_top_center_spiral",
+      "placement_context": "Upper label strip, second label reading left-to-right; associated with the spiral rhizome plant in the top-center zone.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 230, "y_min": 35, "x_max": 390, "y_max": 60}
+    },
+    {
+      "locus": "<f100r.3,@Lf>",
+      "raw_text": "otear",
+      "target_anchor_id": "plant_top_center_tall",
+      "placement_context": "Upper label strip, center position; above the tall central plant with dark-green triangular leaf mass.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 390, "y_min": 35, "x_max": 490, "y_max": 60}
+    },
+    {
+      "locus": "<f100r.4,@Lf>",
+      "raw_text": "chofary",
+      "target_anchor_id": "plant_top_right_blue_tips",
+      "placement_context": "Upper label strip, right-of-center; associated with the blue-tipped plant in the upper-right zone.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 510, "y_min": 35, "x_max": 640, "y_max": 60}
+    },
+    {
+      "locus": "<f100r.5,@Lf>",
+      "raw_text": "sarchar<->daiindy",
+      "target_anchor_id": "plant_top_center_spiral",
+      "placement_context": "Label directly adjacent to (and physically bisected by) the spiral rhizome of plant_top_center_spiral. The left word 'sarchar' sits to the left of the coil; the right word 'daiindy' sits to the right. The spiral coil itself is the bisecting visual object — a rare case of a drawn element splitting a label rather than a paragraph line.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 210, "y_min": 165, "x_max": 390, "y_max": 195}
+    },
+    {
+      "locus": "<f100r.6,@Lf>",
+      "raw_text": "oraro",
+      "target_anchor_id": "plant_top_center_tall",
+      "placement_context": "Label beside the tall central plant, below the apex label group; likely annotates the leaf or stem morphology.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 370, "y_min": 310, "x_max": 480, "y_max": 338}
+    },
+    {
+      "locus": "<f100r.7,@Lf>",
+      "raw_text": "eealsain",
+      "target_anchor_id": "plant_mid_right_cluster",
+      "placement_context": "Middle register label, right-of-center; associated with the bushy cluster plant.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 530, "y_min": 305, "x_max": 670, "y_max": 330}
+    },
+    {
+      "locus": "<f100r.8,@Lf>",
+      "raw_text": "soity",
+      "target_anchor_id": "plant_mid_center_sun",
+      "placement_context": "Label below the sun-corona plant in the middle-center zone.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 225, "y_min": 415, "x_max": 335, "y_max": 440}
+    },
+    {
+      "locus": "<f100r.9,@Lf>",
+      "raw_text": "sosam",
+      "target_anchor_id": "plant_mid_center_dark_root",
+      "placement_context": "Label adjacent to the dark-red-root central plant; likely annotates the root morphology specifically.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 355, "y_min": 395, "x_max": 460, "y_max": 420}
+    },
+    {
+      "locus": "<f100r.10,@Lf>",
+      "raw_text": "dakocth",
+      "target_anchor_id": "plant_mid_far_right_broad",
+      "placement_context": "Label associated with the large broad-leafed plant in the far right middle register.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 700, "y_min": 325, "x_max": 830, "y_max": 350}
+    },
+    {
+      "locus": "<f100r.11,@Lf>",
+      "raw_text": "sofag",
+      "target_anchor_id": "plant_top_far_right_broad",
+      "placement_context": "Label to the right of the upper-far-right broad plant; right margin label zone.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 800, "y_min": 215, "x_max": 890, "y_max": 240}
+    },
+    {
+      "locus": "<f100r.16,@Lf>",
+      "raw_text": "okeeos",
+      "target_anchor_id": "pharma_jar_mid_left",
+      "placement_context": "Label in the inter-register zone between paragraph 1 and the lower illustrations; associated with the second pharmaceutical jar or the plant beside it.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 100, "y_min": 560, "x_max": 220, "y_max": 585}
+    },
+    {
+      "locus": "<f100r.17,@Lf>",
+      "raw_text": "shockhey",
+      "target_anchor_id": "plant_lower_left_spiky",
+      "placement_context": "Label beside the lower-left spiky plant.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 185, "y_min": 730, "x_max": 320, "y_max": 755}
+    },
+    {
+      "locus": "<f100r.18,@Lf>",
+      "raw_text": "orol",
+      "target_anchor_id": "plant_lower_center_left_round",
+      "placement_context": "Short label below or beside the left rounded bush plant in the lower register.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 320, "y_min": 745, "x_max": 405, "y_max": 768}
+    },
+    {
+      "locus": "<f100r.19,@Lf>",
+      "raw_text": "olcheom",
+      "target_anchor_id": "plant_lower_center_right_round",
+      "placement_context": "Label beside or below the right rounded bush plant in the lower register.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 500, "y_min": 730, "x_max": 620, "y_max": 755}
+    },
+    {
+      "locus": "<f100r.20,@Lf>",
+      "raw_text": "oteol",
+      "target_anchor_id": "plant_lower_center_right_round",
+      "placement_context": "Second label near the right rounded bush plant — may annotate a different part (root vs. leaf) of the same plant as olcheom.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 620, "y_min": 730, "x_max": 700, "y_max": 755}
+    },
+    {
+      "locus": "<f100r.21,@Lf>",
+      "raw_text": "otols",
+      "target_anchor_id": "plant_lower_right_large",
+      "placement_context": "Label beside the large lower-right plant with the elaborate branching root system.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 700, "y_min": 725, "x_max": 790, "y_max": 750}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "main_paragraph_upper",
+      "description": "First main text paragraph block, spanning the vertical zone between the top illustration register and the middle illustration register (~y=455–555). Four horizontal lines of dense Voynichese text running full width. Begins with a decorated initial glyph 'p' (pcheol). No bisection markers — the text block sits in clear parchment space between the two illustration registers.",
+      "lines": [
+        {
+          "locus": "<f100r.12,@P0>",
+          "raw_text": "pcheol.sheod.qocpheeckhy.shodol.cphdafoto.chqeos.sheey.chcthso.s",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 455, "x_max": 880, "y_max": 483},
+          "interaction": "Opening line of the upper paragraph. Decorated initial 'p' at x~70. Full-width line. No visual anchors intrude. The word 'cphdafoto' contains an unusual internal structure (possibly a compound word) warranting semantic attention."
+        },
+        {
+          "locus": "<f100r.13,+P0>",
+          "raw_text": "dsheor.cthey.qokeey.oteey.ykeeodain.sararydaiin.daiin.deeamchol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 492, "x_max": 860, "y_max": 518},
+          "interaction": "No bisection. The word 'sararydaiin' is morphologically unusual — repeated 'ar' syllable — possibly a reduplicated form encoding a repeated process or plural quantity."
+        },
+        {
+          "locus": "<f100r.14,+P0>",
+          "raw_text": "shor.chkeey.qoteey.qokeody.qoteol,d.qokeol.so.raiin.otal.ykeeeo",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 527, "x_max": 855, "y_max": 553},
+          "interaction": "No bisection. High frequency of 'qo-' prefix words (qoteey, qokeody, qoteol, qokeol) — a dense cluster of the qo- morpheme which may encode a specific action class or ingredient state."
+        },
+        {
+          "locus": "<f100r.15,+P0>",
+          "raw_text": "dcheor.shol.qokeeol.chor.chol.qokeeody.darea",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 560, "x_max": 640, "y_max": 585},
+          "interaction": "Shorter closing line of upper paragraph. Terminates at x~640, leaving the right third of the line blank — possibly indicating end-of-section or a deliberate short line. 'darea' as the final word is morphologically distinct (possible proper noun or rare form)."
+        }
+      ]
+    },
+    {
+      "block_id": "main_paragraph_lower",
+      "description": "Second main text paragraph block, spanning the lower portion of the folio below the second illustration register (~y=810–975). Six horizontal lines of dense text. Begins with decorated initial 'f' (folsho,dy). No bisection markers.",
+      "lines": [
+        {
+          "locus": "<f100r.22,@P0>",
+          "raw_text": "folsho,dy.choldaiin.fchodycheol.cphol.qotees.shey.aseso.alcfhy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 812, "x_max": 860, "y_max": 840},
+          "interaction": "Opening line of lower paragraph. Decorated initial 'f'. The comma in 'folsho,dy' is a transcription uncertainty marker. 'fchodycheol' appears to be a compound word — two morphemes fused."
+        },
+        {
+          "locus": "<f100r.23,+P0>",
+          "raw_text": "soinn.chol.cphol.shol.shol.qockhol.chor.chol.sho.keey.cckhhy.ykeeam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 850, "x_max": 880, "y_max": 875},
+          "interaction": "No bisection. High repetition of 'chol' and 'shol' — possibly a formulaic sequence. The double-c in 'cckhhy' is morphologically unusual."
+        },
+        {
+          "locus": "<f100r.24,+P0>",
+          "raw_text": "saiichor.sheor.qockhody.odeor.yksheey.cholsheody.sai.cheol.saiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 885, "x_max": 870, "y_max": 910},
+          "interaction": "No bisection. 'cholsheody' is a notable compound (chol+sheody). 'saiichor' begins with double-i unusual prefix."
+        },
+        {
+          "locus": "<f100r.25,+P0>",
+          "raw_text": "sheor.qkeeody.chol.daiin.ctheol.olcheol.cheky.cheol.cheockhy.okeol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 918, "x_max": 875, "y_max": 943},
+          "interaction": "No bisection. Note 'qkeeody' — missing the typical leading 'o' of 'qo-', possibly a scribal contraction or distinct morpheme."
+        },
+        {
+          "locus": "<f100r.26,+P0>",
+          "raw_text": "y,aiin.chekeey.chol.cholody.chos.olchor.qoteol.okeeol.cheols.al",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 950, "x_max": 860, "y_max": 975},
+          "interaction": "No bisection. 'y,aiin' at line start with a comma-uncertainty marker. Dense repetition of 'chol/cheol' root forms."
+        },
+        {
+          "locus": "<f100r.27,+P0>",
+          "raw_text": "chol.cheol.cho.chckheody.otolchey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 70, "y_min": 982, "x_max": 480, "y_max": 1000},
+          "interaction": "Short closing line — paragraph ends well before the right margin at x~480. 'chckheody' is a morphologically dense compound. This truncated final line mirrors the pattern seen in f17r and other botanical folios, suggesting a deliberate end-of-recipe or end-of-section marker."
+        }
+      ]
+    }
+  ]
+}

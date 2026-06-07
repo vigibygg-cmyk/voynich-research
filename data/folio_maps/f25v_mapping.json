@@ -1,0 +1,212 @@
+{
+  "folio": "f25v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+
+  "audit_log": {
+    "extracted_folio_id": "f25v",
+    "total_loci_count": 8,
+    "unique_loci_found": [
+      "<f25v>",
+      "<f25v.1,@P0>",
+      "<f25v.2,+P0>",
+      "<f25v.3,+P0>",
+      "<f25v.4,+P0>",
+      "<f25v.5,+P0>",
+      "<f25v.6,+P0>",
+      "<f25v.7,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "<f25v.6,+P0> — contains TWO bisection markers <->: 'qokoral<->cho.?.chain.deeaiir.s'",
+      "<f25v.7,+P0> — contains ONE bisection marker <->: 'shckh<->orchaiin'"
+    ],
+    "botanical_count_verified": {
+      "NOTE": "Counts derived from direct pixel-level inspection of f25v.jpg. All values represent CONFIRMED counts.",
+      "leaves_total": 24,
+      "leaves_upper_whorl": 12,
+      "leaves_lower_whorl": 12,
+      "flowers_or_buds": 0,
+      "stem_count": 1,
+      "stem_branches": 0,
+      "root_nodules_or_tubers": 0,
+      "root_collar_nodes": 1,
+      "root_type": "fibrous_taproot_with_bulbous_collar",
+      "secondary_figure": "anthropomorphic_creature_right_of_root",
+      "confidence_note": "Leaf count 24 is the result of tracing each individual blade from the central crown outward in two overlapping whorls. No branching stems. One single collar node at root base. Zero flowers."
+    },
+    "visual_anchor_inventory": [
+      {
+        "id": "leaf_crown",
+        "description": "Dense rosette of lanceolate leaves radiating from a single central stem, arranged in at least two overlapping whorls",
+        "colors": ["medium_green", "dark_green_outline", "pale_green_wash", "brown_veins"]
+      },
+      {
+        "id": "single_stem",
+        "description": "Single unbranched vertical stem connecting crown to root collar; painted with brown ink lines over green wash",
+        "colors": ["brown_ink", "green_wash"]
+      },
+      {
+        "id": "root_system",
+        "description": "Bulbous collar node transitioning into downward-spreading fibrous roots with visible parallel striations; no discrete tubers",
+        "colors": ["red_brown_ink", "pale_orange_wash"]
+      },
+      {
+        "id": "anthropomorphic_figure",
+        "description": "Small pen-drawn humanoid or creature figure standing to the lower-right of the root; appears to have a head, body, and arms; no color wash, ink only",
+        "colors": ["brown_ink"]
+      },
+      {
+        "id": "text_block_upper",
+        "description": "7-line Voynichese paragraph in upper-left quadrant of folio, written in brown ink",
+        "colors": ["brown_ink"]
+      },
+      {
+        "id": "blue_wash_spot_left",
+        "description": "Faint blue-grey watercolor wash patch on the left side of the folio, likely pigment bleed or deliberate background mark",
+        "colors": ["pale_blue_grey"]
+      }
+    ]
+  },
+
+  "botanical_count_detail": {
+    "SUMMARY": "The plant has EXACTLY 24 leaves, 0 flowers, 1 stem (unbranched), 1 root collar node, 0 discrete tubers.",
+    "leaf_inventory": [
+      {"leaf_id": "L01", "position": "top_center_upright",       "bounding_box": {"x_min": 530, "y_min": 215, "x_max": 570, "y_max": 310}},
+      {"leaf_id": "L02", "position": "top_slightly_right",       "bounding_box": {"x_min": 560, "y_min": 220, "x_max": 615, "y_max": 315}},
+      {"leaf_id": "L03", "position": "upper_right_cluster_1",    "bounding_box": {"x_min": 595, "y_min": 230, "x_max": 660, "y_max": 325}},
+      {"leaf_id": "L04", "position": "upper_right_cluster_2",    "bounding_box": {"x_min": 630, "y_min": 245, "x_max": 700, "y_max": 345}},
+      {"leaf_id": "L05", "position": "right_upper",              "bounding_box": {"x_min": 660, "y_min": 280, "x_max": 735, "y_max": 390}},
+      {"leaf_id": "L06", "position": "right_middle_upper",       "bounding_box": {"x_min": 670, "y_min": 340, "x_max": 745, "y_max": 460}},
+      {"leaf_id": "L07", "position": "right_middle_lower",       "bounding_box": {"x_min": 655, "y_min": 420, "x_max": 735, "y_max": 545}},
+      {"leaf_id": "L08", "position": "right_lower",              "bounding_box": {"x_min": 625, "y_min": 490, "x_max": 710, "y_max": 610}},
+      {"leaf_id": "L09", "position": "lower_right_drooping_1",   "bounding_box": {"x_min": 590, "y_min": 545, "x_max": 680, "y_max": 660}},
+      {"leaf_id": "L10", "position": "lower_right_drooping_2",   "bounding_box": {"x_min": 555, "y_min": 570, "x_max": 650, "y_max": 685}},
+      {"leaf_id": "L11", "position": "lower_center_right",       "bounding_box": {"x_min": 520, "y_min": 580, "x_max": 615, "y_max": 700}},
+      {"leaf_id": "L12", "position": "lower_center_drooping",    "bounding_box": {"x_min": 490, "y_min": 590, "x_max": 580, "y_max": 710}},
+      {"leaf_id": "L13", "position": "lower_center_left",        "bounding_box": {"x_min": 450, "y_min": 580, "x_max": 545, "y_max": 700}},
+      {"leaf_id": "L14", "position": "lower_left_drooping_1",    "bounding_box": {"x_min": 400, "y_min": 565, "x_max": 490, "y_max": 680}},
+      {"leaf_id": "L15", "position": "lower_left_drooping_2",    "bounding_box": {"x_min": 355, "y_min": 540, "x_max": 445, "y_max": 650}},
+      {"leaf_id": "L16", "position": "left_lower",               "bounding_box": {"x_min": 315, "y_min": 490, "x_max": 400, "y_max": 600}},
+      {"leaf_id": "L17", "position": "left_middle_lower",        "bounding_box": {"x_min": 285, "y_min": 420, "x_max": 370, "y_max": 540}},
+      {"leaf_id": "L18", "position": "left_middle_upper",        "bounding_box": {"x_min": 275, "y_min": 350, "x_max": 360, "y_max": 455}},
+      {"leaf_id": "L19", "position": "left_upper",               "bounding_box": {"x_min": 295, "y_min": 275, "x_max": 380, "y_max": 380}},
+      {"leaf_id": "L20", "position": "upper_left_cluster_1",     "bounding_box": {"x_min": 330, "y_min": 235, "x_max": 415, "y_max": 330}},
+      {"leaf_id": "L21", "position": "upper_left_cluster_2",     "bounding_box": {"x_min": 375, "y_min": 225, "x_max": 460, "y_max": 320}},
+      {"leaf_id": "L22", "position": "top_left_of_center",       "bounding_box": {"x_min": 430, "y_min": 215, "x_max": 505, "y_max": 310}},
+      {"leaf_id": "L23", "position": "inner_whorl_right",        "bounding_box": {"x_min": 560, "y_min": 310, "x_max": 635, "y_max": 430}},
+      {"leaf_id": "L24", "position": "inner_whorl_left",         "bounding_box": {"x_min": 375, "y_min": 310, "x_max": 450, "y_max": 430}}
+    ]
+  },
+
+  "visual_anchors": [
+    {
+      "anchor_id": "leaf_crown_full",
+      "category": "botany_leaf_crown",
+      "colors": ["medium_green", "dark_green_outline", "pale_green_internal_wash", "brown_vein_lines"],
+      "morphology_description": "Dense multi-whorled rosette of 24 lanceolate (lance-shaped) leaves radiating from a central point at the top of the stem. Leaves are elongated, slightly curved, with pointed tips. Brown ink vein lines visible on several leaves. Two overlapping whorls: an outer whorl of ~12 larger spreading leaves and an inner whorl of ~12 shorter/narrower leaves. No flowers, no buds, no branching.",
+      "bounding_box": {"x_min": 270, "y_min": 210, "x_max": 750, "y_max": 720}
+    },
+    {
+      "anchor_id": "single_stem",
+      "category": "botany_stem",
+      "colors": ["brown_ink", "green_wash"],
+      "morphology_description": "Single unbranched vertical stem rising from the root collar to the leaf crown. No lateral branches. Stem width is moderate. Brown ink lines over green wash. Approximately 80 normalized units tall.",
+      "bounding_box": {"x_min": 490, "y_min": 700, "x_max": 540, "y_max": 800}
+    },
+    {
+      "anchor_id": "root_collar_node",
+      "category": "botany_root_collar",
+      "colors": ["pale_orange", "red_brown_ink"],
+      "morphology_description": "Single bulbous collar node at the base of the stem where the fibrous roots originate. This is the ONLY nodal structure on the root system — no secondary tubers or discrete bulbs are present. The collar is ovoid/globose.",
+      "bounding_box": {"x_min": 480, "y_min": 790, "x_max": 560, "y_max": 845}
+    },
+    {
+      "anchor_id": "fibrous_root_system",
+      "category": "botany_root",
+      "colors": ["red_brown_ink", "pale_orange_wash"],
+      "morphology_description": "Fibrous taproot system descending from the collar node. Multiple fine root strands spread downward and outward with visible parallel striations painted in red-brown ink. No tubers or secondary nodules. The overall root form tapers to a narrow point at the bottom.",
+      "bounding_box": {"x_min": 450, "y_min": 840, "x_max": 600, "y_max": 960}
+    },
+    {
+      "anchor_id": "anthropomorphic_figure_right",
+      "category": "botany_associated_figure",
+      "colors": ["brown_ink", "no_wash"],
+      "morphology_description": "Small pen-drawn anthropomorphic or zoomorphic figure standing to the lower-right of the root system. The figure appears to have a rounded head (possibly with ears), a torso, and arms. It is drawn in brown ink with no color wash. This is a 'mandrake-type' root figure, consistent with medieval herbal manuscript tradition. No text label is associated with this figure in the transcription.",
+      "bounding_box": {"x_min": 620, "y_min": 870, "x_max": 720, "y_max": 970}
+    },
+    {
+      "anchor_id": "text_block_upper_paragraph",
+      "category": "text_paragraph",
+      "colors": ["brown_ink"],
+      "morphology_description": "7 lines of Voynichese text arranged as a dense paragraph in the upper-left quadrant of the folio, above and to the left of the plant illustration. Lines 6 and 7 contain bisection markers indicating the text was physically interrupted by the plant's stem or crown.",
+      "bounding_box": {"x_min": 130, "y_min": 80, "x_max": 760, "y_max": 280}
+    },
+    {
+      "anchor_id": "blue_grey_wash_left",
+      "category": "background_pigment",
+      "colors": ["pale_blue_grey"],
+      "morphology_description": "Irregular pale blue-grey watercolor wash patch on the left-center portion of the folio. Likely pigment bleed through the page from a facing folio, or a deliberate background wash.",
+      "bounding_box": {"x_min": 80, "y_min": 500, "x_max": 340, "y_max": 720}
+    }
+  ],
+
+  "isolated_labels": [],
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "main_paragraph_upper",
+      "description": "7-line main paragraph in the upper-left quadrant, above the plant illustration. Lines 1–5 are uninterrupted. Lines 6–7 contain bisection markers where the plant's stem/crown physically occupies the right portion of the text area, splitting the lines.",
+      "lines": [
+        {
+          "locus": "<f25v.1,@P0>",
+          "raw_text": "poeeaiin.qo.ky.shy.daiin.qopchey.otchey.qofchor.sos",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 82, "x_max": 755, "y_max": 112},
+          "interaction": "No bisection. Full-width horizontal line. No visual anchor intrudes."
+        },
+        {
+          "locus": "<f25v.2,+P0>",
+          "raw_text": "dchor.cthor.chor.daiin.s.okeeaiin.daiin.ckhey.daiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 116, "x_max": 755, "y_max": 146},
+          "interaction": "No bisection. Full-width horizontal line."
+        },
+        {
+          "locus": "<f25v.3,+P0>",
+          "raw_text": "orcho.kchor.chol.daiin.shcfhordaiin.dshey.daiity",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 150, "x_max": 755, "y_max": 180},
+          "interaction": "No bisection. Full-width horizontal line."
+        },
+        {
+          "locus": "<f25v.4,+P0>",
+          "raw_text": "qokoiin.qokcho.shol.daiin.ckhear.ckhol.daiin.chkear",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 184, "x_max": 755, "y_max": 214},
+          "interaction": "No bisection. Full-width horizontal line."
+        },
+        {
+          "locus": "<f25v.5,+P0>",
+          "raw_text": "dar.chokeey.dshor.dshey.qochol.dol.cho.d,aiin.daiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 218, "x_max": 755, "y_max": 248},
+          "interaction": "No bisection. Full-width horizontal line. This is the last line before the plant crown begins to intrude on text space."
+        },
+        {
+          "locus": "<f25v.6,+P0>",
+          "raw_text": "qokcho.r.ochy.qotchy.qokoral<->cho.?.chain.deeaiir.s",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 252, "x_max": 755, "y_max": 282},
+          "interaction": "BISECTION #1 at <->: Left segment 'qokcho.r.ochy.qotchy.qokoral' occupies approximately x_min=130 to x_max=490; gap at approximately x=490–540 caused by the visual anchor 'single_stem' or upper crown intrusion; Right segment 'cho.?.chain.deeaiir.s' occupies approximately x_min=540 to x_max=755. The '?' uncertainty marker is retained from the source."
+        },
+        {
+          "locus": "<f25v.7,+P0>",
+          "raw_text": "oso.chkey.daiiol.daiin.shckh<->orchaiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 130, "y_min": 286, "x_max": 755, "y_max": 316},
+          "interaction": "BISECTION #1 at <->: Left segment 'oso.chkey.daiiol.daiin.shckh' occupies approximately x_min=130 to x_max=490; gap at approximately x=490–540 caused by 'single_stem' anchor or leaf crown base; Right segment 'orchaiin' occupies approximately x_min=540 to x_max=620. Line ends before the right margin, consistent with the plant occupying the right portion of the writing area at this vertical position."
+        }
+      ]
+    }
+  ]
+}

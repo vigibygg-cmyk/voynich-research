@@ -1,0 +1,588 @@
+{
+  "folio": "f67r2",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f67r2",
+    "total_loci_count": 74,
+    "unique_loci_found": [
+      "<f67r2.1,@L0>","<f67r2.2,&L0>","<f67r2.3,&L0>","<f67r2.4,&L0>","<f67r2.5,&L0>",
+      "<f67r2.6,&L0>","<f67r2.7,&L0>","<f67r2.8,&L0>","<f67r2.9,&L0>","<f67r2.10,&L0>",
+      "<f67r2.11,&L0>","<f67r2.12,&L0>",
+      "<f67r2.13,@Pb>","<f67r2.14,+Pb>","<f67r2.15,+L0>",
+      "<f67r2.16,@Pb>","<f67r2.17,+Pb>","<f67r2.18,+Pb>",
+      "<f67r2.19,@Pb>","<f67r2.20,+Pb>","<f67r2.21,+Pb>","<f67r2.22,+L0>",
+      "<f67r2.23,@Pb>","<f67r2.24,+Pb>","<f67r2.25,+Pb>",
+      "<f67r2.26,@Pb>","<f67r2.27,+Pb>","<f67r2.28,+L0>",
+      "<f67r2.29,@Pb>","<f67r2.30,+Pb>","<f67r2.31,+L0>",
+      "<f67r2.32,@Pb>","<f67r2.33,+Pb>","<f67r2.34,+L0>",
+      "<f67r2.35,@Pb>","<f67r2.36,+Pb>","<f67r2.37,+L0>",
+      "<f67r2.38,@Pb>","<f67r2.39,+Pb>","<f67r2.40,+Pb>",
+      "<f67r2.41,@Pb>","<f67r2.42,+Pb>","<f67r2.43,+Pb>",
+      "<f67r2.44,@Pb>","<f67r2.45,+Pb>","<f67r2.46,+Pb>","<f67r2.47,+L0>",
+      "<f67r2.48,@Pb>","<f67r2.49,+Pb>","<f67r2.50,+Pb>","<f67r2.51,+Pb>",
+      "<f67r2.52,@Ls>","<f67r2.53,&Ls>","<f67r2.54,&Ls>","<f67r2.55,&Ls>",
+      "<f67r2.56,&Ls>","<f67r2.57,&Ls>","<f67r2.58,&Ls>","<f67r2.59,&Ls>",
+      "<f67r2.60,&Ls>","<f67r2.61,&Ls>","<f67r2.62,&Ls>","<f67r2.63,&Ls>",
+      "<f67r2.64,@L0>","<f67r2.65,&L0>","<f67r2.66,&L0>","<f67r2.67,&L0>",
+      "<f67r2.68,&L0>","<f67r2.69,&L0>","<f67r2.70,&L0>","<f67r2.71,&L0>",
+      "<f67r2.72,@P0>","<f67r2.73,+P0>","<f67r2.74,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "f67r2.1–12 are @L0 / &L0 — first isolated label cluster (12 entries), positioned in LEFT outer ring/margin zone",
+      "f67r2.13–51 are @Pb/+Pb groups interleaved with +L0 — sector label pairs: each @Pb/+Pb block = text inscribed inside a pie-sector of the inner ring; each adjacent +L0 = a label for a face/moon glyph within that sector",
+      "f67r2.52–63 are @Ls / &Ls — 12 entries of star-associated labels around the outer ring arc or inner ring star zone",
+      "f67r2.64–71 are @L0 / &L0 — second isolated label cluster (8 entries), positioned in RIGHT outer ring/margin zone",
+      "f67r2.72–74 are @P0/+P0 — 3-line paragraph block at the BOTTOM of the folio, below the circular diagram",
+      "NO <-> bisection markers on any line",
+      "The &L0 and &Ls markers (ampersand) indicate continuation lines within the same label cluster, analogous to +L0 but with a specific cluster-continuation meaning"
+    ],
+    "visual_anchor_inventory": [
+      "outer_ring — large outermost circle enclosing the entire cosmological diagram",
+      "outer_ring_text_band — annular text band on the outer ring perimeter (red ink text visible)",
+      "inner_ring — second concentric circle, creating the main sector division zone",
+      "sector_dividers — radial lines dividing the inner ring into pie-shaped sectors (approximately 12 sectors for months/zodiac)",
+      "central_star_glyph — large golden/brown multi-pointed star in the center of the diagram",
+      "face_moon_glyphs — small circular face/moon illustrations within each sector",
+      "left_margin_labels — the @L0/&L0 group (loci 1–12) inscribed in the left outer margin outside the ring",
+      "right_margin_labels — the @L0/&L0 group (loci 64–71) inscribed in the right outer margin",
+      "ls_star_labels — the @Ls/&Ls group (loci 52–63) associated with the star glyph or inner ring arc",
+      "bottom_paragraph — 3-line @P0 block below the main circle",
+      "tally_marks — groups of vertical tally strokes visible at top and right edges of the folio",
+      "red_ink_outer_text — text inscribed in red ink around the outer ring perimeter and in some sectors"
+    ]
+  },
+  "visual_anchors": {
+    "outer_ring": {
+      "description": "The largest concentric circle defining the outer boundary of the entire cosmological/astronomical diagram. Text in red ink runs along its inner perimeter in an arc. The ring occupies most of the folio width.",
+      "bounding_box": {"x_min": 45, "y_min": 50, "x_max": 920, "y_max": 900}
+    },
+    "inner_ring": {
+      "description": "A second, smaller concentric ring inside the outer ring. This ring, together with the radial sector_dividers, creates the segmented 'wheel' structure. Each segment (sector) between the inner_ring and the central area contains a face_moon_glyph and sector text (the @Pb groups).",
+      "bounding_box": {"x_min": 120, "y_min": 120, "x_max": 845, "y_max": 840}
+    },
+    "sector_dividers": {
+      "description": "Approximately 12 radial lines extending from the center outward, dividing the wheel into pie-shaped sectors. Each sector corresponds to one @Pb label group plus one +L0 face label. The sectors appear to represent months or zodiacal divisions.",
+      "bounding_box": {"x_min": 120, "y_min": 120, "x_max": 845, "y_max": 840}
+    },
+    "central_star_glyph": {
+      "description": "A large multi-pointed star (8-pointed or compass rose style) drawn at the geometric center of the diagram, rendered in golden/brown ink with a green/blue-tinted center. This is the @Ls anchor — the 12 @Ls/&Ls labels are associated with this central star.",
+      "bounding_box": {"x_min": 395, "y_min": 380, "x_max": 570, "y_max": 555}
+    },
+    "face_moon_glyphs": {
+      "description": "Small circular glyphs depicting a human face with a red/brown half-circle (representing moon phases). Approximately 12 such glyphs, one per sector, positioned in the mid-ring zone between the inner ring and the central area. Each has a +L0 label assigned to it.",
+      "bounding_box": {"x_min": 160, "y_min": 160, "x_max": 810, "y_max": 800}
+    },
+    "tally_marks": {
+      "description": "Groups of vertical tally/stroke marks visible at the top edge and right margin of the folio, drawn in a different ink. These appear to be counting marks or registration marks, not Voynichese text.",
+      "bounding_box": {"x_min": 280, "y_min": 30, "x_max": 920, "y_max": 80}
+    },
+    "bottom_paragraph_zone": {
+      "description": "The zone below the outer_ring containing the 3-line @P0 paragraph block (loci 72–74). This is the only full paragraph text on this folio, written in the bottom margin below the diagram.",
+      "bounding_box": {"x_min": 50, "y_min": 905, "x_max": 920, "y_max": 995}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "left_outer_margin_labels_L0_group1",
+      "description": "The first @L0/&L0 cluster (loci 1–12): 12 isolated labels arranged vertically in the left outer margin area, outside the outer_ring. These short labels, each 1–3 words, are likely sector or month identifiers for the left portion of the diagram. The &L0 marker (ampersand) denotes continuation within the same cluster.",
+      "lines": [
+        {
+          "locus": "<f67r2.1,@L0>",
+          "raw_text": "ykshy,s.aram",
+          "bounding_box": {"x_min": 48, "y_min": 130, "x_max": 155, "y_max": 158},
+          "interaction": "First label of left margin cluster. Short, 2 words. Positioned outside the outer ring, left side. No bisection."
+        },
+        {
+          "locus": "<f67r2.2,&L0>",
+          "raw_text": "ykecho.ols,eesydy",
+          "bounding_box": {"x_min": 48, "y_min": 162, "x_max": 168, "y_max": 190},
+          "interaction": "Cluster continuation label."
+        },
+        {
+          "locus": "<f67r2.3,&L0>",
+          "raw_text": "sey.shs.okar",
+          "bounding_box": {"x_min": 48, "y_min": 194, "x_max": 150, "y_max": 222},
+          "interaction": "Cluster continuation label."
+        },
+        {
+          "locus": "<f67r2.4,&L0>",
+          "raw_text": "shekchy.sykos",
+          "bounding_box": {"x_min": 48, "y_min": 226, "x_max": 160, "y_max": 254},
+          "interaction": "Cluster continuation label."
+        },
+        {
+          "locus": "<f67r2.5,&L0>",
+          "raw_text": "ykeody.okchy",
+          "bounding_box": {"x_min": 48, "y_min": 258, "x_max": 155, "y_max": 286},
+          "interaction": "Cluster continuation label."
+        },
+        {
+          "locus": "<f67r2.6,&L0>",
+          "raw_text": "dchetay",
+          "bounding_box": {"x_min": 48, "y_min": 290, "x_max": 130, "y_max": 318},
+          "interaction": "Single-word label."
+        },
+        {
+          "locus": "<f67r2.7,&L0>",
+          "raw_text": "ykchy.kchey.ykchys",
+          "bounding_box": {"x_min": 48, "y_min": 322, "x_max": 175, "y_max": 350},
+          "interaction": "Three-word label."
+        },
+        {
+          "locus": "<f67r2.8,&L0>",
+          "raw_text": "chkchdar",
+          "bounding_box": {"x_min": 48, "y_min": 354, "x_max": 138, "y_max": 382},
+          "interaction": "Single-word label."
+        },
+        {
+          "locus": "<f67r2.9,&L0>",
+          "raw_text": "ykar.ykaly",
+          "bounding_box": {"x_min": 48, "y_min": 386, "x_max": 148, "y_max": 414},
+          "interaction": "Two-word label."
+        },
+        {
+          "locus": "<f67r2.10,&L0>",
+          "raw_text": "lkshykchy.okar",
+          "bounding_box": {"x_min": 48, "y_min": 418, "x_max": 168, "y_max": 446},
+          "interaction": "Two-word label."
+        },
+        {
+          "locus": "<f67r2.11,&L0>",
+          "raw_text": "chky.chykchr.chy",
+          "bounding_box": {"x_min": 48, "y_min": 450, "x_max": 172, "y_max": 478},
+          "interaction": "Three-word label."
+        },
+        {
+          "locus": "<f67r2.12,&L0>",
+          "raw_text": "ykees.ykchos",
+          "bounding_box": {"x_min": 48, "y_min": 482, "x_max": 158, "y_max": 510},
+          "interaction": "Final label of left margin cluster. Two words."
+        }
+      ]
+    },
+    {
+      "block_id": "sector_label_groups_Pb_with_L0_face_labels",
+      "description": "Loci 13–51 form the complex interleaved sector inscription system. Each sector of the wheel contains a @Pb/@Pb block (2–4 lines of text inscribed within the sector's angular space) plus one or more +L0 labels pointing to the face_moon_glyph within that sector. There are approximately 10–11 sector groups here, covering the left, upper, and lower portions of the ring.",
+      "lines": [
+        {
+          "locus": "<f67r2.13,@Pb>",
+          "raw_text": "opodeeol.s.ain.aldy",
+          "bounding_box": {"x_min": 135, "y_min": 650, "x_max": 310, "y_max": 678},
+          "interaction": "Start of first sector text block. Positioned in the lower-left sector of the inner ring. Text follows the angular orientation of that sector."
+        },
+        {
+          "locus": "<f67r2.14,+Pb>",
+          "raw_text": "soeey.doiin.oldy",
+          "bounding_box": {"x_min": 135, "y_min": 682, "x_max": 290, "y_max": 710},
+          "interaction": "Second line of this sector."
+        },
+        {
+          "locus": "<f67r2.15,+L0>",
+          "raw_text": "dolchsody",
+          "bounding_box": {"x_min": 200, "y_min": 715, "x_max": 295, "y_max": 740},
+          "interaction": "Face/moon label for the face_moon_glyph within this sector. A single word label pointing to the illustrated face element."
+        },
+        {
+          "locus": "<f67r2.16,@Pb>",
+          "raw_text": "odaiiin.otoes.oekain.y",
+          "bounding_box": {"x_min": 120, "y_min": 755, "x_max": 310, "y_max": 783},
+          "interaction": "Start of second sector text block. Lower-left area of the ring."
+        },
+        {
+          "locus": "<f67r2.17,+Pb>",
+          "raw_text": "otchey.soraiir,dy",
+          "bounding_box": {"x_min": 120, "y_min": 787, "x_max": 290, "y_max": 815},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.18,+Pb>",
+          "raw_text": "qofchy.daiin.dal",
+          "bounding_box": {"x_min": 120, "y_min": 819, "x_max": 278, "y_max": 847},
+          "interaction": "Third line of this sector block."
+        },
+        {
+          "locus": "<f67r2.19,@Pb>",
+          "raw_text": "ydchos.ain.ar.amy",
+          "bounding_box": {"x_min": 130, "y_min": 555, "x_max": 295, "y_max": 583},
+          "interaction": "Third sector text block start. Left-side ring sector."
+        },
+        {
+          "locus": "<f67r2.20,+Pb>",
+          "raw_text": "chocfhy.saral",
+          "bounding_box": {"x_min": 130, "y_min": 587, "x_max": 258, "y_max": 615},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.21,+Pb>",
+          "raw_text": "sain.am.ar",
+          "bounding_box": {"x_min": 130, "y_min": 619, "x_max": 225, "y_max": 647},
+          "interaction": "Third line."
+        },
+        {
+          "locus": "<f67r2.22,+L0>",
+          "raw_text": "okal",
+          "bounding_box": {"x_min": 210, "y_min": 596, "x_max": 252, "y_max": 620},
+          "interaction": "Face/moon label for this sector's glyph. Single word."
+        },
+        {
+          "locus": "<f67r2.23,@Pb>",
+          "raw_text": "oporchy.salsain",
+          "bounding_box": {"x_min": 120, "y_min": 460, "x_max": 275, "y_max": 488},
+          "interaction": "Fourth sector text block. Left-side, mid-ring."
+        },
+        {
+          "locus": "<f67r2.24,+Pb>",
+          "raw_text": "sodar.ofor.ar",
+          "bounding_box": {"x_min": 120, "y_min": 492, "x_max": 250, "y_max": 520},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.25,+Pb>",
+          "raw_text": "ydam",
+          "bounding_box": {"x_min": 120, "y_min": 524, "x_max": 175, "y_max": 552},
+          "interaction": "Third line, single word."
+        },
+        {
+          "locus": "<f67r2.26,@Pb>",
+          "raw_text": "yteoor.yto.ykor",
+          "bounding_box": {"x_min": 118, "y_min": 360, "x_max": 265, "y_max": 388},
+          "interaction": "Fifth sector block start. Left-side, upper-mid ring."
+        },
+        {
+          "locus": "<f67r2.27,+Pb>",
+          "raw_text": "okeor.aiin.am",
+          "bounding_box": {"x_min": 118, "y_min": 392, "x_max": 248, "y_max": 420},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.28,+L0>",
+          "raw_text": "okain.am",
+          "bounding_box": {"x_min": 190, "y_min": 366, "x_max": 258, "y_max": 390},
+          "interaction": "Face/moon label, two words."
+        },
+        {
+          "locus": "<f67r2.29,@Pb>",
+          "raw_text": "ytody.saiin",
+          "bounding_box": {"x_min": 140, "y_min": 270, "x_max": 260, "y_max": 298},
+          "interaction": "Sixth sector block start. Upper-left area."
+        },
+        {
+          "locus": "<f67r2.30,+Pb>",
+          "raw_text": "ochol.olol",
+          "bounding_box": {"x_min": 140, "y_min": 302, "x_max": 245, "y_max": 330},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.31,+L0>",
+          "raw_text": "opcholdy",
+          "bounding_box": {"x_min": 210, "y_min": 278, "x_max": 290, "y_max": 302},
+          "interaction": "Face/moon label for this sector."
+        },
+        {
+          "locus": "<f67r2.32,@Pb>",
+          "raw_text": "darar.odar.air.alaiin",
+          "bounding_box": {"x_min": 195, "y_min": 170, "x_max": 370, "y_max": 198},
+          "interaction": "Seventh sector block. Upper-left of ring."
+        },
+        {
+          "locus": "<f67r2.33,+Pb>",
+          "raw_text": "dokan.oear.odal",
+          "bounding_box": {"x_min": 195, "y_min": 202, "x_max": 340, "y_max": 230},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.34,+L0>",
+          "raw_text": "ofar.oeoldan",
+          "bounding_box": {"x_min": 265, "y_min": 178, "x_max": 380, "y_max": 202},
+          "interaction": "Face/moon label."
+        },
+        {
+          "locus": "<f67r2.35,@Pb>",
+          "raw_text": "chol.diin.okol",
+          "bounding_box": {"x_min": 390, "y_min": 135, "x_max": 540, "y_max": 163},
+          "interaction": "Eighth sector block. Upper-center area."
+        },
+        {
+          "locus": "<f67r2.36,+Pb>",
+          "raw_text": "ytor.daiin.or",
+          "bounding_box": {"x_min": 390, "y_min": 167, "x_max": 520, "y_max": 195},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.37,+L0>",
+          "raw_text": "ytoaiin",
+          "bounding_box": {"x_min": 440, "y_min": 145, "x_max": 530, "y_max": 169},
+          "interaction": "Face/moon label."
+        },
+        {
+          "locus": "<f67r2.38,@Pb>",
+          "raw_text": "otoldos.octhole",
+          "bounding_box": {"x_min": 568, "y_min": 145, "x_max": 720, "y_max": 173},
+          "interaction": "Ninth sector block. Upper-right area."
+        },
+        {
+          "locus": "<f67r2.39,+Pb>",
+          "raw_text": "sor.chedaiin.dy",
+          "bounding_box": {"x_min": 568, "y_min": 177, "x_max": 700, "y_max": 205},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.40,+Pb>",
+          "raw_text": "yteos.oiin.ag",
+          "bounding_box": {"x_min": 568, "y_min": 209, "x_max": 680, "y_max": 237},
+          "interaction": "Third line."
+        },
+        {
+          "locus": "<f67r2.41,@Pb>",
+          "raw_text": "ytoeopchey.chekody",
+          "bounding_box": {"x_min": 720, "y_min": 215, "x_max": 870, "y_max": 243},
+          "interaction": "Tenth sector block. Right-upper area."
+        },
+        {
+          "locus": "<f67r2.42,+Pb>",
+          "raw_text": "sosho.chos.ockhy",
+          "bounding_box": {"x_min": 720, "y_min": 247, "x_max": 855, "y_max": 275},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.43,+Pb>",
+          "raw_text": "daiin.aiin.os,qrgs",
+          "bounding_box": {"x_min": 720, "y_min": 279, "x_max": 855, "y_max": 307},
+          "interaction": "Third line. Contains 'qrgs' — unusual glyph sequence, possibly a scribal note or damage."
+        },
+        {
+          "locus": "<f67r2.44,@Pb>",
+          "raw_text": "ofydy.sheody.aiin",
+          "bounding_box": {"x_min": 748, "y_min": 370, "x_max": 880, "y_max": 398},
+          "interaction": "Eleventh sector block. Right-mid area."
+        },
+        {
+          "locus": "<f67r2.45,+Pb>",
+          "raw_text": "ycheody,es.odaiiin",
+          "bounding_box": {"x_min": 748, "y_min": 402, "x_max": 882, "y_max": 430},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.46,+Pb>",
+          "raw_text": "yekees.oraly",
+          "bounding_box": {"x_min": 748, "y_min": 434, "x_max": 848, "y_max": 462},
+          "interaction": "Third line."
+        },
+        {
+          "locus": "<f67r2.47,+L0>",
+          "raw_text": "yfain",
+          "bounding_box": {"x_min": 790, "y_min": 380, "x_max": 852, "y_max": 404},
+          "interaction": "Face/moon label for this sector."
+        },
+        {
+          "locus": "<f67r2.48,@Pb>",
+          "raw_text": "todaiin.dain.dy",
+          "bounding_box": {"x_min": 748, "y_min": 530, "x_max": 878, "y_max": 558},
+          "interaction": "Twelfth / final sector block. Right-lower area."
+        },
+        {
+          "locus": "<f67r2.49,+Pb>",
+          "raw_text": "oschoer.aiin",
+          "bounding_box": {"x_min": 748, "y_min": 562, "x_max": 862, "y_max": 590},
+          "interaction": "Second line."
+        },
+        {
+          "locus": "<f67r2.50,+Pb>",
+          "raw_text": "choeea.sal",
+          "bounding_box": {"x_min": 748, "y_min": 594, "x_max": 840, "y_max": 622},
+          "interaction": "Third line."
+        },
+        {
+          "locus": "<f67r2.51,+Pb>",
+          "raw_text": "dadaiin",
+          "bounding_box": {"x_min": 748, "y_min": 626, "x_max": 820, "y_max": 654},
+          "interaction": "Fourth and final line of this sector block."
+        }
+      ]
+    },
+    {
+      "block_id": "central_star_labels_Ls",
+      "description": "Loci 52–63: 12 @Ls/&Ls labels associated with the central_star_glyph. These short single-word labels surround the central star, possibly naming its points or associating it with astronomical/astrological concepts. Each &Ls is a continuation within the same cluster.",
+      "lines": [
+        {
+          "locus": "<f67r2.52,@Ls>",
+          "raw_text": "qotoear",
+          "bounding_box": {"x_min": 398, "y_min": 365, "x_max": 480, "y_max": 388},
+          "interaction": "First star label, upper area of central_star_glyph."
+        },
+        {
+          "locus": "<f67r2.53,&Ls>",
+          "raw_text": "dchodar",
+          "bounding_box": {"x_min": 480, "y_min": 365, "x_max": 550, "y_max": 388},
+          "interaction": "Continuation label, upper-right of star."
+        },
+        {
+          "locus": "<f67r2.54,&Ls>",
+          "raw_text": "ysaldal",
+          "bounding_box": {"x_min": 525, "y_min": 390, "x_max": 595, "y_max": 413},
+          "interaction": "Continuation label, right of star."
+        },
+        {
+          "locus": "<f67r2.55,&Ls>",
+          "raw_text": "ytodal",
+          "bounding_box": {"x_min": 540, "y_min": 420, "x_max": 605, "y_max": 443},
+          "interaction": "Continuation label, right-lower of star."
+        },
+        {
+          "locus": "<f67r2.56,&Ls>",
+          "raw_text": "tol,daiin",
+          "bounding_box": {"x_min": 510, "y_min": 475, "x_max": 590, "y_max": 498},
+          "interaction": "Continuation label, lower-right of star."
+        },
+        {
+          "locus": "<f67r2.57,&Ls>",
+          "raw_text": "otardy",
+          "bounding_box": {"x_min": 480, "y_min": 505, "x_max": 545, "y_max": 528},
+          "interaction": "Continuation label, lower of star."
+        },
+        {
+          "locus": "<f67r2.58,&Ls>",
+          "raw_text": "cho,dalg",
+          "bounding_box": {"x_min": 415, "y_min": 510, "x_max": 490, "y_max": 533},
+          "interaction": "Continuation label, lower-left of star."
+        },
+        {
+          "locus": "<f67r2.59,&Ls>",
+          "raw_text": "ytchodly",
+          "bounding_box": {"x_min": 360, "y_min": 480, "x_max": 430, "y_max": 503},
+          "interaction": "Continuation label, left-lower of star."
+        },
+        {
+          "locus": "<f67r2.60,&Ls>",
+          "raw_text": "octhys",
+          "bounding_box": {"x_min": 340, "y_min": 450, "x_max": 400, "y_max": 473},
+          "interaction": "Continuation label, left of star."
+        },
+        {
+          "locus": "<f67r2.61,&Ls>",
+          "raw_text": "ytokar",
+          "bounding_box": {"x_min": 340, "y_min": 418, "x_max": 400, "y_max": 441},
+          "interaction": "Continuation label, upper-left of star."
+        },
+        {
+          "locus": "<f67r2.62,&Ls>",
+          "raw_text": "otolor",
+          "bounding_box": {"x_min": 355, "y_min": 385, "x_max": 418, "y_max": 408},
+          "interaction": "Continuation label, upper area."
+        },
+        {
+          "locus": "<f67r2.63,&Ls>",
+          "raw_text": "okodar",
+          "bounding_box": {"x_min": 398, "y_min": 365, "x_max": 460, "y_max": 388},
+          "interaction": "Final star label, completing the ring of 12 labels around the central_star_glyph."
+        }
+      ]
+    },
+    {
+      "block_id": "right_outer_margin_labels_L0_group2",
+      "description": "Loci 64–71: second @L0/&L0 cluster (8 labels) in the right outer margin, outside the outer_ring. Mirror of the left margin cluster, these labels identify right-side sectors or are supplemental identifiers.",
+      "lines": [
+        {
+          "locus": "<f67r2.64,@L0>",
+          "raw_text": "s.air",
+          "bounding_box": {"x_min": 850, "y_min": 228, "x_max": 920, "y_max": 252},
+          "interaction": "First right margin label. Two characters separated by dot, very short."
+        },
+        {
+          "locus": "<f67r2.65,&L0>",
+          "raw_text": "soeor",
+          "bounding_box": {"x_min": 850, "y_min": 256, "x_max": 916, "y_max": 280},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.66,&L0>",
+          "raw_text": "cpheey",
+          "bounding_box": {"x_min": 850, "y_min": 284, "x_max": 918, "y_max": 308},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.67,&L0>",
+          "raw_text": "otodas",
+          "bounding_box": {"x_min": 850, "y_min": 312, "x_max": 916, "y_max": 336},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.68,&L0>",
+          "raw_text": "oepchod",
+          "bounding_box": {"x_min": 850, "y_min": 340, "x_max": 918, "y_max": 364},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.69,&L0>",
+          "raw_text": "s.acthhy",
+          "bounding_box": {"x_min": 850, "y_min": 368, "x_max": 920, "y_max": 392},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.70,&L0>",
+          "raw_text": "osar",
+          "bounding_box": {"x_min": 850, "y_min": 396, "x_max": 904, "y_max": 420},
+          "interaction": "Continuation label."
+        },
+        {
+          "locus": "<f67r2.71,&L0>",
+          "raw_text": "oran",
+          "bounding_box": {"x_min": 850, "y_min": 424, "x_max": 904, "y_max": 448},
+          "interaction": "Final label of right margin cluster."
+        }
+      ]
+    },
+    {
+      "block_id": "bottom_paragraph_P0",
+      "description": "Loci 72–74: a 3-line @P0 paragraph block below the outer_ring, in the lower margin of the folio. This is the only full-sentence paragraph text on the folio. Written in red ink like the rest of the folio text.",
+      "lines": [
+        {
+          "locus": "<f67r2.72,@P0>",
+          "raw_text": "dar.aldaiin.ydaiin.qkoy.ydaiin.qofair.ypair.ykoaiin.ydoly.ytalchos.oly.otey",
+          "bounding_box": {"x_min": 52, "y_min": 910, "x_max": 920, "y_max": 943},
+          "interaction": "First line of bottom paragraph. Full-width. No bisection. Red ink."
+        },
+        {
+          "locus": "<f67r2.73,+P0>",
+          "raw_text": "rshey.sy.shees.qeykeey.ykchey.ykchey.qokeochy.oaiin.okal,ar.olar",
+          "bounding_box": {"x_min": 52, "y_min": 946, "x_max": 895, "y_max": 979},
+          "interaction": "Second line of bottom paragraph. Full-width. No bisection."
+        },
+        {
+          "locus": "<f67r2.74,+P0>",
+          "raw_text": "yshey.qokeeody.cheos.oeeos.qockhy.chos.aiin.okeeody.qotoaiin.odain.ar.ain.ay",
+          "bounding_box": {"x_min": 52, "y_min": 982, "x_max": 905, "y_max": 1000},
+          "interaction": "Third and final line of bottom paragraph. Full-width. Very near the lower folio edge."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "central_star_glyph",
+      "status": "Encircled by text — 12 @Ls labels placed radially around it",
+      "description": "The central_star_glyph is the most precisely labelled element on the folio. Its 12 @Ls/&Ls labels (loci 52–63) are distributed around its perimeter, one per point or direction, creating a complete labelling ring. The star body itself is text-free."
+    },
+    {
+      "anchor_id": "face_moon_glyphs",
+      "status": "Each individually labelled with +L0 — face bodies are text-free",
+      "description": "Each of the approximately 12 face_moon_glyphs within the sectors has a dedicated +L0 label. The face body itself (the circular illustration) is text-free; only the label floats beside it."
+    },
+    {
+      "anchor_id": "outer_ring_text_band",
+      "status": "Encircled by red ink text — outer ring perimeter carries arc inscriptions",
+      "description": "The outer ring perimeter carries continuous red ink text visible in the image but not captured in the @P0/@Pb locus structure of this dataset — likely transcribed as part of an outer arc locus type not present in this folio's loci. The outer_ring inner surface text is distinct from the sector @Pb blocks."
+    },
+    {
+      "anchor_id": "tally_marks",
+      "status": "Completely text-free of Voynichese — non-scribal marks",
+      "description": "The tally mark groups at the top and right edges are not Voynichese glyphs and are not captured in the transcription file. They are margin annotations or counting marks in a different hand."
+    },
+    {
+      "anchor_id": "left_outer_margin_labels_L0_group1",
+      "status": "Outside outer ring — no bisection",
+      "description": "The 12 left margin @L0/&L0 labels occupy the negative space to the left of the outer_ring. They are positioned in vertical column format, each label a small text unit. The ring's outer edge is the boundary on their right side."
+    }
+  ]
+}

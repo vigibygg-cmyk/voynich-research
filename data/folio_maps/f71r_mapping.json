@@ -1,0 +1,516 @@
+{
+  "folio": "f71r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+  "audit_log": {
+    "extracted_folio_id": "f71r",
+    "total_loci_count": 18,
+    "unique_loci_found": [
+      "<f71r.1,@Cc>",
+      "<f71r.2,@Lz>",
+      "<f71r.3,&Lz>",
+      "<f71r.4,&Lz>",
+      "<f71r.5,&Lz>",
+      "<f71r.6,&Lz>",
+      "<f71r.7,&Lz>",
+      "<f71r.8,&Lz>",
+      "<f71r.9,&Lz>",
+      "<f71r.10,&Lz>",
+      "<f71r.11,&Lz>",
+      "<f71r.12,@Cc>",
+      "<f71r.13,@Lz>",
+      "<f71r.14,&Lz>",
+      "<f71r.15,&Lz>",
+      "<f71r.16,&Lz>",
+      "<f71r.17,&Lz>",
+      "<f71r.18,@Cc>"
+    ],
+    "syntax_clues_detected": [
+      {
+        "locus": "<f71r.1,@Cc>",
+        "note": "@Cc = text inside Central Circle / concentric ring. Longest text block; forms the outer ring inscription running radially around the circle."
+      },
+      {
+        "locus": "<f71r.2,@Lz>",
+        "note": "@Lz = Isolated label associated with a Zodiac figure. Start of first nymph/figure label cluster."
+      },
+      {
+        "loci": ["<f71r.3,&Lz>","<f71r.4,&Lz>","<f71r.5,&Lz>","<f71r.6,&Lz>","<f71r.7,&Lz>","<f71r.8,&Lz>","<f71r.9,&Lz>","<f71r.10,&Lz>","<f71r.11,&Lz>"],
+        "note": "&Lz = continuation of Zodiac label cluster. Lines 3-11 are individual nymph/figure labels arranged radially in the inner ring, one per figure."
+      },
+      {
+        "locus": "<f71r.12,@Cc>",
+        "note": "@Cc = second major concentric ring text block; runs along the inner circle boundary."
+      },
+      {
+        "locus": "<f71r.13,@Lz>",
+        "note": "@Lz = start of second zodiac label cluster (lines 13-17), associated with nymphs in lower semicircle."
+      },
+      {
+        "loci": ["<f71r.14,&Lz>","<f71r.15,&Lz>","<f71r.16,&Lz>","<f71r.17,&Lz>"],
+        "note": "&Lz continuation labels for remaining nymph figures."
+      },
+      {
+        "locus": "<f71r.18,@Cc>",
+        "note": "@Cc = third concentric ring text; innermost ring inscription near central Aries figure."
+      },
+      {
+        "note": "NO <-> bisection markers detected in any f71r locus. This is a pure zodiac/cosmological folio with no plant stems bisecting text."
+      }
+    ],
+    "visual_anchor_inventory": [
+      {
+        "id": "central_aries_ram",
+        "description": "White/cream ram (Aries) in center of composition, facing left. Body is pale cream/white parchment tone with faint brown ink outlines. Black ink label beneath reads 'ohárd' (transcribed). Occupies central circle.",
+        "colors": ["cream_white", "pale_brown_ink", "black_ink_label"],
+        "approx_center": {"x": 500, "y": 530}
+      },
+      {
+        "id": "outer_ring_text_band",
+        "description": "Outermost circular text band running full 360° around composition. Text written in brown/reddish-brown ink, running counter-clockwise (or clockwise—radial orientation). Contains f71r.1 @Cc long inscription.",
+        "colors": ["reddish_brown_ink"],
+        "approx_bbox": {"x_min": 120, "y_min": 120, "x_max": 880, "y_max": 880}
+      },
+      {
+        "id": "inner_ring_text_band",
+        "description": "Second concentric ring text band, inside the nymph ring. Contains f71r.12 @Cc inscription.",
+        "colors": ["brown_ink"],
+        "approx_bbox": {"x_min": 220, "y_min": 220, "x_max": 780, "y_max": 780}
+      },
+      {
+        "id": "innermost_ring_text_band",
+        "description": "Innermost concentric text ring closest to the central Aries figure. Contains f71r.18 @Cc inscription.",
+        "colors": ["brown_ink"],
+        "approx_bbox": {"x_min": 310, "y_min": 310, "x_max": 690, "y_max": 690}
+      },
+      {
+        "id": "nymph_ring",
+        "description": "Ring of 15 nymph figures arranged equidistantly around the central Aries, each associated with a zodiac label. Figures are clothed; garments show red/brown, blue-green, and green pigmentation.",
+        "colors": ["red_brown", "blue_green", "green", "brown_ink_outlines"],
+        "approx_bbox": {"x_min": 170, "y_min": 170, "x_max": 830, "y_max": 830}
+      },
+      {
+        "id": "star_cluster_gold",
+        "description": "Gold/yellow 6-8 pointed stars interspersed between nymph figures and in outer ring. Approximately 10 visible stars.",
+        "colors": ["gold_yellow", "dark_yellow"],
+        "count_approx": 10
+      },
+      {
+        "id": "nymph_01_top_center",
+        "description": "Nymph at top-center (12 o'clock position). Standing in tub/barrel. Red-brown torso, light skirt. Holding star aloft with right hand.",
+        "colors": ["red_brown", "pale_cream"],
+        "bounding_box": {"x_min": 440, "y_min": 135, "x_max": 560, "y_max": 240}
+      },
+      {
+        "id": "nymph_02_upper_right",
+        "description": "Nymph at ~1 o'clock. Seated/standing, red garment, holding object. Blue-tinted skirt/lower garment.",
+        "colors": ["red", "blue"],
+        "bounding_box": {"x_min": 610, "y_min": 160, "x_max": 710, "y_max": 270}
+      },
+      {
+        "id": "nymph_03_right_upper",
+        "description": "Nymph at ~2 o'clock. Green lower garment, red upper. Standing posture.",
+        "colors": ["green", "red"],
+        "bounding_box": {"x_min": 720, "y_min": 270, "x_max": 820, "y_max": 380}
+      },
+      {
+        "id": "nymph_04_right",
+        "description": "Nymph at ~3 o'clock (right side). Red-brown garment. Holding item. Gold star nearby.",
+        "colors": ["red_brown", "gold_star"],
+        "bounding_box": {"x_min": 760, "y_min": 420, "x_max": 860, "y_max": 540}
+      },
+      {
+        "id": "nymph_05_lower_right",
+        "description": "Nymph at ~4-5 o'clock. Blue-green lower garment, red-brown upper. Squatting/seated posture.",
+        "colors": ["blue_green", "red_brown"],
+        "bounding_box": {"x_min": 690, "y_min": 580, "x_max": 800, "y_max": 700}
+      },
+      {
+        "id": "nymph_06_bottom_right",
+        "description": "Nymph at ~5 o'clock. Green garment. Star to the left. Seated.",
+        "colors": ["green", "gold_star"],
+        "bounding_box": {"x_min": 590, "y_min": 700, "x_max": 700, "y_max": 820}
+      },
+      {
+        "id": "nymph_07_bottom_center",
+        "description": "Nymph at ~6 o'clock (bottom center). Blue lower garment (prominent cobalt blue tub/skirt). Red-brown upper. Gold star to right.",
+        "colors": ["cobalt_blue", "red_brown", "gold_star"],
+        "bounding_box": {"x_min": 440, "y_min": 790, "x_max": 565, "y_max": 910}
+      },
+      {
+        "id": "nymph_08_bottom_left",
+        "description": "Nymph at ~7 o'clock. Green lower garment, red-brown upper. Standing.",
+        "colors": ["green", "red_brown"],
+        "bounding_box": {"x_min": 310, "y_min": 730, "x_max": 430, "y_max": 850}
+      },
+      {
+        "id": "nymph_09_left_lower",
+        "description": "Nymph at ~8 o'clock. Blue-green tub/barrel. Red upper garment. Star visible.",
+        "colors": ["blue_green", "red"],
+        "bounding_box": {"x_min": 185, "y_min": 620, "x_max": 310, "y_max": 750}
+      },
+      {
+        "id": "nymph_10_left",
+        "description": "Nymph at ~9 o'clock (left side). Multi-color garment: blue checkerboard/patterned lower half, red upper. Star to left. Most elaborately dressed.",
+        "colors": ["blue_checkerboard", "red", "gold_star"],
+        "bounding_box": {"x_min": 145, "y_min": 460, "x_max": 280, "y_max": 580}
+      },
+      {
+        "id": "nymph_11_upper_left",
+        "description": "Nymph at ~10 o'clock. Green lower, red-brown upper. Star nearby.",
+        "colors": ["green", "red_brown"],
+        "bounding_box": {"x_min": 180, "y_min": 330, "x_max": 300, "y_max": 450}
+      },
+      {
+        "id": "nymph_12_upper_left2",
+        "description": "Nymph at ~11 o'clock. Red upper, green lower skirt. Holding star.",
+        "colors": ["red", "green"],
+        "bounding_box": {"x_min": 290, "y_min": 175, "x_max": 410, "y_max": 290}
+      },
+      {
+        "id": "star_top_left_outer",
+        "description": "Gold 8-pointed star at upper-left quadrant, outside nymph ring in outer text band zone.",
+        "colors": ["gold_yellow"],
+        "bounding_box": {"x_min": 240, "y_min": 190, "x_max": 290, "y_max": 240}
+      },
+      {
+        "id": "star_top_right_outer",
+        "description": "Gold 8-pointed star, upper-right quadrant outer zone.",
+        "colors": ["gold_yellow"],
+        "bounding_box": {"x_min": 650, "y_min": 185, "x_max": 700, "y_max": 230}
+      },
+      {
+        "id": "star_red_inner_right",
+        "description": "Reddish-colored 6-pointed star in inner ring area, right side (~2 o'clock inner position).",
+        "colors": ["red_ink"],
+        "bounding_box": {"x_min": 660, "y_min": 300, "x_max": 700, "y_max": 340}
+      },
+      {
+        "id": "star_red_inner_left",
+        "description": "Reddish star, inner ring left side (~9-10 o'clock inner position).",
+        "colors": ["red_ink"],
+        "bounding_box": {"x_min": 280, "y_min": 310, "x_max": 320, "y_max": 355}
+      },
+      {
+        "id": "central_text_label",
+        "description": "Short black-ink label directly beneath the Aries ram in the central open space. Likely 'ohárd' or similar — the central zodiac identifier.",
+        "colors": ["black_ink"],
+        "bounding_box": {"x_min": 450, "y_min": 600, "x_max": 560, "y_max": 630}
+      }
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "central_aries_ram",
+      "category": "zodiac_central_figure",
+      "colors": ["cream_white", "pale_brown_outline", "black_ink"],
+      "morphology_description": "Aries ram depicted in profile facing left, occupying central circle of the composition. Body rendered in pale cream/unpigmented parchment with brown ink line work. Proportions are stylized, legs extended. A short black-ink label inscription sits below the belly of the animal. The ram appears to stand on undulating ground lines (green-tinted).",
+      "bounding_box": {"x_min": 380, "y_min": 440, "x_max": 640, "y_max": 640}
+    },
+    {
+      "anchor_id": "outer_ring_text_band",
+      "category": "cosmology_ring",
+      "colors": ["reddish_brown_ink"],
+      "morphology_description": "Outermost text ring: a continuous band of Voynich script running the full circumference (~360°) of the circular composition. Text flows radially/curved. The band sits between the page margin and the nymph figures. Written in reddish-brown ink, script is uniform size, densely packed. This band corresponds to the longest locus (f71r.1, @Cc).",
+      "bounding_box": {"x_min": 110, "y_min": 110, "x_max": 890, "y_max": 890}
+    },
+    {
+      "anchor_id": "inner_ring_text_band",
+      "category": "cosmology_ring",
+      "colors": ["brown_ink"],
+      "morphology_description": "Second concentric text ring, between the nymph figures (outer) and the innermost ring. Runs approximately 360° but may have small gaps where nymph figures intrude inward. Corresponds to f71r.12 @Cc.",
+      "bounding_box": {"x_min": 220, "y_min": 220, "x_max": 780, "y_max": 780}
+    },
+    {
+      "anchor_id": "innermost_ring_text_band",
+      "category": "cosmology_ring",
+      "colors": ["brown_ink"],
+      "morphology_description": "Innermost concentric text ring immediately surrounding the central Aries figure. Shortest arc inscription (f71r.18 @Cc). Text flows curved/radial at close proximity to the animal figure.",
+      "bounding_box": {"x_min": 310, "y_min": 310, "x_max": 690, "y_max": 690}
+    },
+    {
+      "anchor_id": "nymph_01_top_center",
+      "category": "zodiac_nymph",
+      "colors": ["red_brown", "pale_cream", "gold_star"],
+      "morphology_description": "Female figure standing in a circular tub or barrel at the 12-o'clock position. Upper body red-brown pigment; lower body/skirt pale cream. Right arm raised holding a gold multi-pointed star. Hair indicated by brown ink strokes. Tub is circular, brown outline.",
+      "bounding_box": {"x_min": 440, "y_min": 135, "x_max": 560, "y_max": 245}
+    },
+    {
+      "anchor_id": "nymph_02_upper_right",
+      "category": "zodiac_nymph",
+      "colors": ["red", "blue", "gold_star"],
+      "morphology_description": "Nymph at ~1 o'clock. Red upper garment, blue lower skirt/tub. Seated or semi-standing posture. Gold star to upper-left of figure.",
+      "bounding_box": {"x_min": 610, "y_min": 160, "x_max": 715, "y_max": 275}
+    },
+    {
+      "anchor_id": "nymph_03_right_upper",
+      "category": "zodiac_nymph",
+      "colors": ["green", "red_brown"],
+      "morphology_description": "Nymph at ~2 o'clock. Green lower garment, red-brown upper. Standing, arms at sides or slightly raised. No tub visible.",
+      "bounding_box": {"x_min": 720, "y_min": 270, "x_max": 820, "y_max": 385}
+    },
+    {
+      "anchor_id": "nymph_04_right",
+      "category": "zodiac_nymph",
+      "colors": ["red_brown", "gold_star"],
+      "morphology_description": "Nymph at 3-o'clock (rightmost). Red-brown garment. Gold star to the right side. Holding or gesturing toward the star.",
+      "bounding_box": {"x_min": 760, "y_min": 415, "x_max": 865, "y_max": 540}
+    },
+    {
+      "anchor_id": "nymph_05_lower_right",
+      "category": "zodiac_nymph",
+      "colors": ["blue_green", "red_brown"],
+      "morphology_description": "Nymph at ~4-5 o'clock. Blue-green tub or lower skirt, red-brown torso. Seated posture.",
+      "bounding_box": {"x_min": 690, "y_min": 580, "x_max": 800, "y_max": 700}
+    },
+    {
+      "anchor_id": "nymph_06_bottom_right",
+      "category": "zodiac_nymph",
+      "colors": ["green", "gold_star"],
+      "morphology_description": "Nymph at ~5 o'clock. Green garment. Gold star to the left. Seated or crouching.",
+      "bounding_box": {"x_min": 590, "y_min": 700, "x_max": 705, "y_max": 825}
+    },
+    {
+      "anchor_id": "nymph_07_bottom_center",
+      "category": "zodiac_nymph",
+      "colors": ["cobalt_blue", "red_brown", "gold_star"],
+      "morphology_description": "Nymph at 6-o'clock (bottom). Most prominent blue garment — cobalt blue tub/skirt lower half, red-brown upper torso. Gold star to the right. The cobalt blue is the most saturated pigment on the folio.",
+      "bounding_box": {"x_min": 440, "y_min": 790, "x_max": 565, "y_max": 915}
+    },
+    {
+      "anchor_id": "nymph_08_bottom_left",
+      "category": "zodiac_nymph",
+      "colors": ["green", "red_brown"],
+      "morphology_description": "Nymph at ~7 o'clock. Green lower, red-brown upper. Standing.",
+      "bounding_box": {"x_min": 310, "y_min": 730, "x_max": 430, "y_max": 850}
+    },
+    {
+      "anchor_id": "nymph_09_left_lower",
+      "category": "zodiac_nymph",
+      "colors": ["blue_green", "red"],
+      "morphology_description": "Nymph at ~8 o'clock. Blue-green barrel/tub. Red upper garment. Gold star nearby.",
+      "bounding_box": {"x_min": 185, "y_min": 620, "x_max": 310, "y_max": 750}
+    },
+    {
+      "anchor_id": "nymph_10_left",
+      "category": "zodiac_nymph",
+      "colors": ["blue_checkerboard", "red", "gold_star"],
+      "morphology_description": "Nymph at 9-o'clock. Most elaborately dressed: lower garment has a blue-and-white checkerboard or grid pattern (suggesting a patterned textile). Red upper torso. Gold star to the far left. This nymph's checkerboard garment is visually unique on this folio.",
+      "bounding_box": {"x_min": 145, "y_min": 455, "x_max": 285, "y_max": 580}
+    },
+    {
+      "anchor_id": "nymph_11_upper_left",
+      "category": "zodiac_nymph",
+      "colors": ["green", "red_brown"],
+      "morphology_description": "Nymph at ~10 o'clock. Green lower skirt, red-brown upper. Gold star to left.",
+      "bounding_box": {"x_min": 180, "y_min": 335, "x_max": 305, "y_max": 455}
+    },
+    {
+      "anchor_id": "nymph_12_upper_left2",
+      "category": "zodiac_nymph",
+      "colors": ["red", "green"],
+      "morphology_description": "Nymph at ~11 o'clock. Red upper, green lower skirt. Holding or touching a star.",
+      "bounding_box": {"x_min": 290, "y_min": 175, "x_max": 415, "y_max": 295}
+    },
+    {
+      "anchor_id": "star_red_inner_right",
+      "category": "zodiac_star",
+      "colors": ["red_ink"],
+      "morphology_description": "6-pointed star rendered in red ink, located in the inner ring zone at approximately 2 o'clock. Red stars may indicate a specific astrological or calendrical marker distinct from gold stars.",
+      "bounding_box": {"x_min": 655, "y_min": 295, "x_max": 705, "y_max": 345}
+    },
+    {
+      "anchor_id": "star_red_inner_left",
+      "category": "zodiac_star",
+      "colors": ["red_ink"],
+      "morphology_description": "6-pointed red star in inner ring zone at approximately 10 o'clock. Counterpart to the red star on the right.",
+      "bounding_box": {"x_min": 278, "y_min": 308, "x_max": 325, "y_max": 358}
+    },
+    {
+      "anchor_id": "central_text_label",
+      "category": "zodiac_central_label",
+      "colors": ["black_ink"],
+      "morphology_description": "Short black-ink label below the Aries ram's belly. Likely the zodiac sign identifier. Rendered in darker ink than surrounding brown text, suggesting special status or later addition.",
+      "bounding_box": {"x_min": 448, "y_min": 595, "x_max": 562, "y_max": 628}
+    }
+  ],
+  "isolated_labels": [
+    {
+      "locus": "<f71r.2,@Lz>",
+      "raw_text": "oteos.arar",
+      "target_anchor_id": "nymph_01_top_center",
+      "placement_context": "Label adjacent to nymph at 12-o'clock position, written between the outer ring text band and the nymph figure, radially oriented at top of circle",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 462, "y_min": 225, "x_max": 540, "y_max": 255}
+    },
+    {
+      "locus": "<f71r.3,&Lz>",
+      "raw_text": "okldam",
+      "target_anchor_id": "nymph_02_upper_right",
+      "placement_context": "Label near nymph at ~1 o'clock, written in the band between outer ring and nymph figure, slightly curved/radial",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 615, "y_min": 248, "x_max": 685, "y_max": 272}
+    },
+    {
+      "locus": "<f71r.4,&Lz>",
+      "raw_text": "oteoaldy",
+      "target_anchor_id": "nymph_03_right_upper",
+      "placement_context": "Label near nymph at ~2 o'clock, radially placed in the text band between outer ring and nymph",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 720, "y_min": 340, "x_max": 800, "y_max": 365}
+    },
+    {
+      "locus": "<f71r.5,&Lz>",
+      "raw_text": "oteolar",
+      "target_anchor_id": "nymph_04_right",
+      "placement_context": "Label to the right of the 3-o'clock nymph, near the outer text ring on the rightmost arc",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 830, "y_min": 455, "x_max": 895, "y_max": 478}
+    },
+    {
+      "locus": "<f71r.6,&Lz>",
+      "raw_text": "okeoaly",
+      "target_anchor_id": "nymph_05_lower_right",
+      "placement_context": "Label near nymph at ~4-5 o'clock, in the band between outer ring and figure, radially angled",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 780, "y_min": 610, "x_max": 855, "y_max": 635}
+    },
+    {
+      "locus": "<f71r.7,&Lz>",
+      "raw_text": "otaleky",
+      "target_anchor_id": "nymph_06_bottom_right",
+      "placement_context": "Label near nymph at ~5 o'clock, lower-right quadrant of the outer text band",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 690, "y_min": 768, "x_max": 765, "y_max": 792}
+    },
+    {
+      "locus": "<f71r.8,&Lz>",
+      "raw_text": "otalsar",
+      "target_anchor_id": "nymph_07_bottom_center",
+      "placement_context": "Label near bottom-center nymph (6 o'clock), written in the outer band below the figure, near-horizontal due to bottom arc position",
+      "orientation": "radial_curved_near_horizontal",
+      "bounding_box": {"x_min": 465, "y_min": 890, "x_max": 545, "y_max": 913}
+    },
+    {
+      "locus": "<f71r.9,&Lz>",
+      "raw_text": "cheary",
+      "target_anchor_id": "nymph_08_bottom_left",
+      "placement_context": "Label near nymph at ~7 o'clock, lower-left arc of outer text band",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 323, "y_min": 828, "x_max": 390, "y_max": 852}
+    },
+    {
+      "locus": "<f71r.10,&Lz>",
+      "raw_text": "oteokey.sary",
+      "target_anchor_id": "nymph_09_left_lower",
+      "placement_context": "Two-word label near nymph at ~8 o'clock, left-lower arc of outer text band",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 148, "y_min": 685, "x_max": 240, "y_max": 710}
+    },
+    {
+      "locus": "<f71r.11,&Lz>",
+      "raw_text": "otalaly",
+      "target_anchor_id": "nymph_10_left",
+      "placement_context": "Label near the checkerboard-dressed nymph at 9 o'clock, left arc of outer text band",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 112, "y_min": 490, "x_max": 185, "y_max": 515}
+    },
+    {
+      "locus": "<f71r.13,@Lz>",
+      "raw_text": "otolchdy",
+      "target_anchor_id": "nymph_11_upper_left",
+      "placement_context": "Start of second zodiac label cluster; near nymph at ~10 o'clock, upper-left arc",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 148, "y_min": 375, "x_max": 225, "y_max": 400}
+    },
+    {
+      "locus": "<f71r.14,&Lz>",
+      "raw_text": "otoloaram",
+      "target_anchor_id": "nymph_12_upper_left2",
+      "placement_context": "Label near nymph at ~11 o'clock, upper-left quadrant arc",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 230, "y_min": 230, "x_max": 320, "y_max": 255}
+    },
+    {
+      "locus": "<f71r.15,&Lz>",
+      "raw_text": "oteeol",
+      "target_anchor_id": "nymph_01_top_center",
+      "placement_context": "Short label possibly associated with top-center nymph (secondary label) or an unlabeled 13th figure near 12 o'clock",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 400, "y_min": 150, "x_max": 458, "y_max": 172}
+    },
+    {
+      "locus": "<f71r.16,&Lz>",
+      "raw_text": "otolchd",
+      "target_anchor_id": "nymph_02_upper_right",
+      "placement_context": "Possibly secondary label or adjacent nymph figure not yet enumerated, upper-right quadrant",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 545, "y_min": 148, "x_max": 615, "y_max": 170}
+    },
+    {
+      "locus": "<f71r.17,&Lz>",
+      "raw_text": "otal,dar",
+      "target_anchor_id": "nymph_03_right_upper",
+      "placement_context": "Label with comma-separator, upper-right arc, near second cluster of figures",
+      "orientation": "radial_curved",
+      "bounding_box": {"x_min": 680, "y_min": 218, "x_max": 762, "y_max": 242}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "outer_concentric_ring_text_f71r1",
+      "description": "Outermost circular inscription running the full circumference of the composition. This is the longest single locus on the folio (@Cc type = inside/on concentric circle ring). Text flows radially curved following the outer ring path. No bisection (<->) markers present.",
+      "lines": [
+        {
+          "locus": "<f71r.1,@Cc>",
+          "raw_text": "olkeeody.okody.okeeedy.oky.eey.okeodar.okeoky.oteody.oto.otol.oteeyar.yko.oar.aiin.oekeeey.okeokeokeody.okeodar.chy.s.aiin.otokeoar.os.ar.al.otol.al.shckhy.oteeeodar.oteody.otolaiin.shoekey.salalald.cheeokeeo.choeky.choly",
+          "orientation": "radial_curved_full_circle",
+          "bounding_box": {"x_min": 110, "y_min": 110, "x_max": 890, "y_max": 890},
+          "interaction": "Text runs along the outermost ink circle, curved to follow the ring geometry. Starts approximately at the top (12 o'clock), proceeds clockwise. The text band is approximately 30-40 px wide (normalized). No <-> bisection. The nymph figures at positions 1-12 o'clock interrupt the visual flow but the text likely flows continuously in the band OUTSIDE the nymph ring. At top-center the nymph_01_top_center figure is directly adjacent to this ring band."
+        }
+      ]
+    },
+    {
+      "block_id": "inner_concentric_ring_text_f71r12",
+      "description": "Second concentric ring inscription. Shorter than the outer ring. Runs approximately 360° in the inner band between the nymph figures and the innermost ring. @Cc type.",
+      "lines": [
+        {
+          "locus": "<f71r.12,@Cc>",
+          "raw_text": "oteody.oteos.ockhhy.oteeschey.lsheotey.okalody.shs.shey.oteey.otechar.chekal.okody.eeedy.otoeodal.chokol.lkchol.daiin.okeeees.ykees.al.okeey.otey.oteoshaly.o",
+          "orientation": "radial_curved_full_circle",
+          "bounding_box": {"x_min": 220, "y_min": 220, "x_max": 780, "y_max": 780},
+          "interaction": "Text follows the second ring path. Positioned between the nymph figures (outer) and the innermost ring (inner). Nymph figures may partially overlap this ring at their feet/lower bodies. The text circles the central Aries figure at medium distance. No <-> bisection detected."
+        }
+      ]
+    },
+    {
+      "block_id": "innermost_concentric_ring_text_f71r18",
+      "description": "Innermost concentric ring text, closest to the central Aries ram. Shortest ring inscription. @Cc type. Directly frames the central figure.",
+      "lines": [
+        {
+          "locus": "<f71r.18,@Cc>",
+          "raw_text": "oteeol.otal.chs.char.cheky.chotshy.okeeody.oteey.chekea.okeol",
+          "orientation": "radial_curved_full_circle_or_partial_arc",
+          "bounding_box": {"x_min": 310, "y_min": 310, "x_max": 690, "y_max": 690},
+          "interaction": "This innermost inscription tightly encircles the Aries ram. It is possible this is a partial arc rather than a full ring, as only 10 words are present — insufficient to fill 360°. Most likely occupies the upper semicircle (180°) or is distributed in two arcs (upper and lower). The central_aries_ram anchor is the visual element immediately inside this ring. No <-> bisection."
+        }
+      ]
+    }
+  ],
+  "semantic_notes": {
+    "folio_type": "Zodiac / Cosmology — Aries",
+    "structure": "Three concentric text rings + one ring of nymph figures (~12-15 figures) + central Aries ram + scattered stars",
+    "color_significance": {
+      "cobalt_blue_garments": "3-4 nymphs have prominent blue tub/skirt elements (nymph_07, nymph_09, nymph_10). Blue may encode water/liquid state per semantic grounding hypothesis.",
+      "green_garments": "Multiple nymphs with green lower garments (nymph_03, nymph_06, nymph_08, nymph_11, nymph_12). Green may encode plant/herbal or dry-powder state.",
+      "red_brown_garments": "Most common upper garment color across all nymphs. May indicate a neutral or active-preparation state.",
+      "red_stars_vs_gold_stars": "Red ink stars (2 identified, inner ring at ~2 and ~10 o'clock) versus gold/yellow stars (outer ring, ~10 identified). Red stars may mark specific calendar positions or degree markers for Aries.",
+      "checkerboard_nymph_10": "The grid-patterned garment of nymph_10 at 9 o'clock is unique; may indicate a transition point or specific degree."
+    },
+    "label_morphology": {
+      "all_nymph_labels_begin_with_ot_ok_prefix": "Loci 2-11 and 13-17 all produce labels starting with 'ot-' or 'ok-' prefix clusters. This is consistent with the hypothesis that these prefixes encode specific material or ritual states associated with each zodiac degree.",
+      "inner_ring_labels_longer": "The @Cc ring texts (f71r.1, f71r.12, f71r.18) are denser and longer, suggesting systematic zodiacal enumeration rather than isolated identifiers.",
+      "no_bisections": "Complete absence of <-> bisection markers confirms this folio has no plant stems or crossing objects interrupting text — consistent with a pure cosmological/zodiac folio format."
+    }
+  }
+}

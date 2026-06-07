@@ -1,0 +1,397 @@
+{
+  "folio": "f72r1",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+  "audit_log": {
+    "extracted_folio_id": "f72r1",
+    "total_loci_count": 18,
+    "unique_loci_found": [
+      "<f72r1.1,@Cc>",
+      "<f72r1.2,@Lz>",
+      "<f72r1.3,&Lz>",
+      "<f72r1.4,&Lz>",
+      "<f72r1.5,&Lz>",
+      "<f72r1.6,&Lz>",
+      "<f72r1.7,&Lz>",
+      "<f72r1.8,&Lz>",
+      "<f72r1.9,&Lz>",
+      "<f72r1.10,&Lz>",
+      "<f72r1.11,&Lz>",
+      "<f72r1.12,@Cc>",
+      "<f72r1.13,@Lz>",
+      "<f72r1.14,&Lz>",
+      "<f72r1.15,&Lz>",
+      "<f72r1.16,&Lz>",
+      "<f72r1.17,&Lz>",
+      "<f72r1.18,@Cc>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers found in f72r1 loci",
+      "@Cc loci (concentric ring text): f72r1.1, f72r1.12, f72r1.18",
+      "@Lz / &Lz loci (isolated labels near zodiac figures/nymphs): f72r1.2 through f72r1.11, f72r1.13 through f72r1.17",
+      "Header flags: $I=Z (Zodiac illustration), $H=4 (4-ring structure), $X=M (Scorpio/Sagittarius month marker)"
+    ],
+    "visual_anchor_inventory": [
+      {
+        "id": "central_horse_figure",
+        "description": "Large red-brown horse (Sagittarius centaur-type) standing facing left in the innermost circle. Rendered in bold red-brown wash. Appears to hold or approach a green vessel/bowl at its muzzle. A dark wax seal or damage spot overlaps the left side of the innermost ring at approximately x=200.",
+        "primary_colors": ["red_brown", "faded_green"],
+        "approximate_bbox": {"x_min": 310, "y_min": 380, "x_max": 590, "y_max": 620}
+      },
+      {
+        "id": "inner_ring_1",
+        "description": "Innermost drawn circle, containing the horse. No nymphs. Text ring @Cc f72r1.18 runs along this boundary.",
+        "primary_colors": ["brown_ink_outline"],
+        "approximate_bbox": {"x_min": 250, "y_min": 310, "x_max": 660, "y_max": 700}
+      },
+      {
+        "id": "middle_ring_2",
+        "description": "Second concentric ring — contains 10 nymph figures arranged radially, each associated with a star and a short &Lz label. Text ring @Cc f72r1.12 runs along this ring's outer edge. Nymphs are drawn in outline ink, mostly nude female figures in various poses.",
+        "primary_colors": ["brown_ink_outline", "gold_yellow_stars"],
+        "approximate_bbox": {"x_min": 165, "y_min": 175, "x_max": 755, "y_max": 830}
+      },
+      {
+        "id": "outer_ring_3",
+        "description": "Third and outermost concentric ring — contains 8-10 additional nymph figures, each associated with a gold/yellow star. Short &Lz isolated labels attach to each. The long @Cc f72r1.1 text runs along the outermost arc of this ring.",
+        "primary_colors": ["brown_ink_outline", "gold_yellow_stars"],
+        "approximate_bbox": {"x_min": 70, "y_min": 80, "x_max": 850, "y_max": 930}
+      },
+      {
+        "id": "wax_seal_damage_left",
+        "description": "Dark circular wax seal or physical damage spot on the left side of the page, overlapping the outer ring and margin. Opaque dark brown-black disk partially obscuring text and ring lines.",
+        "primary_colors": ["dark_brown_black"],
+        "approximate_bbox": {"x_min": 140, "y_min": 440, "x_max": 210, "y_max": 510}
+      },
+      {
+        "id": "nymph_top_center",
+        "description": "Standing female nymph at 12 o'clock position, inner nymph ring. Upright pose, arms raised holding a gold star aloft. Drawn in brown outline ink.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 410, "y_min": 185, "x_max": 490, "y_max": 305}
+      },
+      {
+        "id": "nymph_upper_right_inner",
+        "description": "Female nymph at approximately 1-2 o'clock position in inner nymph ring. Leaning posture, holding or gesturing toward a gold star.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 570, "y_min": 200, "x_max": 660, "y_max": 330}
+      },
+      {
+        "id": "nymph_right_inner",
+        "description": "Female nymph at approximately 3 o'clock position in inner nymph ring. Seated or crouching pose, gold star nearby.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 650, "y_min": 380, "x_max": 740, "y_max": 490}
+      },
+      {
+        "id": "nymph_lower_right_inner",
+        "description": "Female nymph at approximately 4-5 o'clock position in inner nymph ring. Inverted or acrobatic posture. Gold star positioned above figure.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 610, "y_min": 580, "x_max": 700, "y_max": 690}
+      },
+      {
+        "id": "nymph_bottom_right_inner",
+        "description": "Female nymph at approximately 5-6 o'clock position in inner nymph ring. Seated/reclining. Gold star to the right.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 530, "y_min": 680, "x_max": 630, "y_max": 780}
+      },
+      {
+        "id": "nymph_bottom_center_inner",
+        "description": "Female nymph at approximately 6 o'clock position. Inverted figure, head toward center. Gold star nearby.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 390, "y_min": 720, "x_max": 480, "y_max": 820}
+      },
+      {
+        "id": "nymph_bottom_left_inner",
+        "description": "Female nymph at approximately 7-8 o'clock position in inner ring. Dynamic pose. Gold star associated.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 260, "y_min": 670, "x_max": 360, "y_max": 780}
+      },
+      {
+        "id": "nymph_left_inner",
+        "description": "Female nymph at approximately 9 o'clock position. Seated sideways posture. Gold star at left.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 165, "y_min": 480, "x_max": 265, "y_max": 600}
+      },
+      {
+        "id": "nymph_upper_left_inner",
+        "description": "Female nymph at approximately 10-11 o'clock in inner ring. Standing, arms slightly raised. Gold star above.",
+        "primary_colors": ["brown_ink_outline", "gold_star"],
+        "approximate_bbox": {"x_min": 220, "y_min": 280, "x_max": 320, "y_max": 400}
+      },
+      {
+        "id": "outer_nymphs_group",
+        "description": "Group of 8-10 nymph figures distributed around the outer ring at roughly equal angular spacing. Each accompanied by a gold/yellow star. Several outer nymphs partially obscured by the wax seal on the left. Poses vary: standing, kneeling, arms raised.",
+        "primary_colors": ["brown_ink_outline", "gold_yellow_stars"],
+        "approximate_bbox": {"x_min": 70, "y_min": 80, "x_max": 850, "y_max": 930}
+      }
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "concentric_ring_outer_text_band",
+      "category": "cosmology_ring",
+      "colors": ["brown_ink"],
+      "morphology_description": "Outermost text ring; the longest @Cc line (f72r1.1) runs in a full or near-full arc along the inner edge of the outermost drawn circle, written in curved/radial orientation following the arc.",
+      "bounding_box": {"x_min": 70, "y_min": 80, "x_max": 850, "y_max": 930}
+    },
+    {
+      "anchor_id": "concentric_ring_middle_text_band",
+      "category": "cosmology_ring",
+      "colors": ["brown_ink"],
+      "morphology_description": "Middle text ring; @Cc f72r1.12 runs along the outer edge of the second concentric circle in curved/radial orientation, encircling the inner nymph ring.",
+      "bounding_box": {"x_min": 165, "y_min": 175, "x_max": 755, "y_max": 830}
+    },
+    {
+      "anchor_id": "concentric_ring_inner_text_band",
+      "category": "cosmology_ring",
+      "colors": ["brown_ink"],
+      "morphology_description": "Innermost text ring; @Cc f72r1.18 runs along the inner boundary circle, encircling the central horse figure. Shortest of the three @Cc texts.",
+      "bounding_box": {"x_min": 250, "y_min": 310, "x_max": 660, "y_max": 700}
+    },
+    {
+      "anchor_id": "central_horse_sagittarius",
+      "category": "zodiac_central_symbol",
+      "colors": ["red_brown", "faded_green"],
+      "morphology_description": "Central zodiac symbol for Sagittarius: a horse (or horse-bodied centaur figure) rendered in bold red-brown wash, standing on a faint green ground patch or approaching a green bowl/vessel at muzzle level. The horse faces left (west). Four legs visible. Tail extends to the right. A small text label appears directly beneath the horse's body (sub-label within the innermost circle).",
+      "bounding_box": {"x_min": 310, "y_min": 380, "x_max": 590, "y_max": 620}
+    },
+    {
+      "anchor_id": "green_vessel_at_horse_muzzle",
+      "category": "cosmology_object",
+      "colors": ["faded_green"],
+      "morphology_description": "Small green rectangular or bowl-shaped object at the horse's muzzle, suggesting a feeding trough or apothecary vessel. The green color is a semantic marker potentially indicating a liquid/herbal preparation state.",
+      "bounding_box": {"x_min": 300, "y_min": 450, "x_max": 360, "y_max": 500}
+    },
+    {
+      "anchor_id": "wax_seal_left_margin",
+      "category": "physical_damage",
+      "colors": ["dark_brown_black"],
+      "morphology_description": "Circular dark wax seal or ink damage, approximately 60x60 units in diameter, overlapping the left outer ring and obscuring one nymph figure and associated label text.",
+      "bounding_box": {"x_min": 140, "y_min": 440, "x_max": 210, "y_max": 510}
+    },
+    {
+      "anchor_id": "nymph_top_N",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Standing female nymph at 12 o'clock (North) position in middle nymph ring. Arms raised, holding a gold 6-pointed star aloft with both hands. Upright frontal pose. Short &Lz label positioned to her right side.",
+      "bounding_box": {"x_min": 410, "y_min": 185, "x_max": 490, "y_max": 305}
+    },
+    {
+      "anchor_id": "nymph_NE_upper",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at NNE position (~1 o'clock) in middle ring. Leaning posture toward center, one arm extended toward a gold star. Short &Lz label to her right.",
+      "bounding_box": {"x_min": 570, "y_min": 200, "x_max": 660, "y_max": 330}
+    },
+    {
+      "anchor_id": "nymph_E_right",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at 3 o'clock (East) position. Seated or crouching, upper body turned toward center. Gold star positioned above to her upper left. &Lz label above or beside.",
+      "bounding_box": {"x_min": 650, "y_min": 380, "x_max": 740, "y_max": 490}
+    },
+    {
+      "anchor_id": "nymph_SE_lower_right",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at ~4-5 o'clock position. Acrobatic or inverted posture, legs raised. Gold star above the figure. &Lz label to the right or above.",
+      "bounding_box": {"x_min": 610, "y_min": 580, "x_max": 700, "y_max": 690}
+    },
+    {
+      "anchor_id": "nymph_SSE",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at ~5-6 o'clock. Reclining or seated. Gold star to her right side. &Lz label positioned to the right.",
+      "bounding_box": {"x_min": 530, "y_min": 680, "x_max": 630, "y_max": 780}
+    },
+    {
+      "anchor_id": "nymph_S_bottom",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at 6 o'clock (South). Inverted orientation, head toward center circle. Gold star nearby. &Lz label below her (toward outer ring).",
+      "bounding_box": {"x_min": 390, "y_min": 720, "x_max": 480, "y_max": 820}
+    },
+    {
+      "anchor_id": "nymph_SW",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at ~7-8 o'clock. Dynamic pose, body turned. Gold star to her left. &Lz label to the left side.",
+      "bounding_box": {"x_min": 260, "y_min": 670, "x_max": 360, "y_max": 780}
+    },
+    {
+      "anchor_id": "nymph_W_left",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at 9 o'clock (West). Seated sideways. Gold star to her far left. PARTIALLY OBSCURED by wax seal. &Lz label likely partially lost.",
+      "bounding_box": {"x_min": 165, "y_min": 480, "x_max": 265, "y_max": 600}
+    },
+    {
+      "anchor_id": "nymph_NW",
+      "category": "zodiac_nymph",
+      "colors": ["brown_ink_outline", "gold_star"],
+      "morphology_description": "Female nymph at ~10-11 o'clock. Standing with arms slightly raised. Gold star above to her upper right. &Lz label above or to the right.",
+      "bounding_box": {"x_min": 220, "y_min": 280, "x_max": 320, "y_max": 400}
+    }
+  ],
+  "isolated_labels": [
+    {
+      "locus": "<f72r1.2,@Lz>",
+      "raw_text": "oshodady",
+      "target_anchor_id": "nymph_top_N",
+      "placement_context": "Short isolated label directly adjacent to the nymph at North (12 o'clock) position in the middle nymph ring. Positioned to the right of the figure between the middle and outer ring bands.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 492, "y_min": 195, "x_max": 590, "y_max": 225}
+    },
+    {
+      "locus": "<f72r1.3,&Lz>",
+      "raw_text": "chdaiirdainy",
+      "target_anchor_id": "nymph_NE_upper",
+      "placement_context": "Label adjacent to NNE nymph (~1 o'clock), written in the space between the middle text ring and the nymph figure, oriented radially.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 590, "y_min": 230, "x_max": 700, "y_max": 260}
+    },
+    {
+      "locus": "<f72r1.4,&Lz>",
+      "raw_text": "oaiinarary",
+      "target_anchor_id": "nymph_NE_upper",
+      "placement_context": "Secondary label near the NNE nymph group, slightly lower and more to the right, between inner and middle ring.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 620, "y_min": 270, "x_max": 720, "y_max": 300}
+    },
+    {
+      "locus": "<f72r1.5,&Lz>",
+      "raw_text": "okalam",
+      "target_anchor_id": "nymph_E_right",
+      "placement_context": "Short label to the right of the East (3 o'clock) nymph, in the space between middle and outer ring.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 720, "y_min": 390, "x_max": 790, "y_max": 415}
+    },
+    {
+      "locus": "<f72r1.6,&Lz>",
+      "raw_text": "ytalshdy",
+      "target_anchor_id": "nymph_E_right",
+      "placement_context": "Label just below the East nymph's star, between the middle and outer ring at ESE position.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 710, "y_min": 430, "x_max": 790, "y_max": 460}
+    },
+    {
+      "locus": "<f72r1.7,&Lz>",
+      "raw_text": "char.alif",
+      "target_anchor_id": "nymph_SE_lower_right",
+      "placement_context": "Label adjacent to the SE nymph (~4-5 o'clock), in the space between middle and outer ring on the lower-right quadrant. Contains a dot separator — two distinct glyphs.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 680, "y_min": 550, "x_max": 770, "y_max": 580}
+    },
+    {
+      "locus": "<f72r1.8,&Lz>",
+      "raw_text": "otaraldy",
+      "target_anchor_id": "nymph_SE_lower_right",
+      "placement_context": "Secondary label near SE nymph, slightly further toward the outer ring.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 660, "y_min": 600, "x_max": 750, "y_max": 628}
+    },
+    {
+      "locus": "<f72r1.9,&Lz>",
+      "raw_text": "otaiin.otain",
+      "target_anchor_id": "nymph_SSE",
+      "placement_context": "Label associated with nymph at SSE position (~5 o'clock). Contains dot separator between two glyph clusters. Positioned to the right of the figure.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 630, "y_min": 660, "x_max": 730, "y_max": 690}
+    },
+    {
+      "locus": "<f72r1.10,&Lz>",
+      "raw_text": "otalef.ys.ainam",
+      "target_anchor_id": "nymph_S_bottom",
+      "placement_context": "Longer label (three glyph clusters separated by two dots) associated with the South (6 o'clock) nymph. Written below/beneath the nymph figure, between the middle and outer rings.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 450, "y_min": 800, "x_max": 600, "y_max": 830}
+    },
+    {
+      "locus": "<f72r1.11,&Lz>",
+      "raw_text": "ochol.sharam",
+      "target_anchor_id": "nymph_SW",
+      "placement_context": "Label associated with nymph at SW position (~7-8 o'clock). Two glyph clusters. Written to the left-lower of the figure between the rings.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 270, "y_min": 760, "x_max": 390, "y_max": 790}
+    },
+    {
+      "locus": "<f72r1.13,@Lz>",
+      "raw_text": "ofaralar",
+      "target_anchor_id": "nymph_W_left",
+      "placement_context": "Label associated with the West (9 o'clock) nymph. Positioned to the left of the nymph figure. LIKELY PARTIALLY OBSCURED by wax seal damage on the left margin.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 155, "y_min": 500, "x_max": 240, "y_max": 525}
+    },
+    {
+      "locus": "<f72r1.14,&Lz>",
+      "raw_text": "otchoshy",
+      "target_anchor_id": "nymph_W_left",
+      "placement_context": "Secondary label near the West nymph, slightly above, between middle and outer ring at WSW. May be obscured by wax seal.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 150, "y_min": 460, "x_max": 235, "y_max": 488}
+    },
+    {
+      "locus": "<f72r1.15,&Lz>",
+      "raw_text": "otchdal",
+      "target_anchor_id": "nymph_NW",
+      "placement_context": "Label associated with nymph at NW position (~10-11 o'clock). Written to the left of the figure between the middle and outer ring.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 165, "y_min": 370, "x_max": 245, "y_max": 398}
+    },
+    {
+      "locus": "<f72r1.16,&Lz>",
+      "raw_text": "okeey.ary",
+      "target_anchor_id": "nymph_NW",
+      "placement_context": "Secondary label near the NW nymph. Two glyph clusters. Written slightly higher toward the outer ring, NNW position.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 190, "y_min": 330, "x_max": 285, "y_max": 358}
+    },
+    {
+      "locus": "<f72r1.17,&Lz>",
+      "raw_text": "otainy",
+      "target_anchor_id": "nymph_top_N",
+      "placement_context": "Short label at NNW approaching the top-North nymph. Between the middle and outer ring, left side of the top-center nymph.",
+      "orientation": "radial/curved",
+      "bounding_box": {"x_min": 340, "y_min": 195, "x_max": 415, "y_max": 222}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "outer_concentric_ring_text",
+      "description": "The @Cc ring text running along the outermost concentric circle. This is the longest of the three ring texts in f72r1. It is written in a curved/radial orientation, following the arc of the outer ring. Text runs continuously (or with minimal breaks) around most of the circle. No <-> bisection markers present.",
+      "lines": [
+        {
+          "locus": "<f72r1.1,@Cc>",
+          "raw_text": "oteeo.cthey.chlol.cheol.olchear.al.oteey.chedal.oteedy.okeodaly.chol.chokeol.cheolky.okaiir.okeedy.sheoltey.cheor.aiin.ydal.okochey.sho.okalshey.shol.chalaiin.chekeol.kol.otos.ar.aiin.otam.otam.chotam.sal.okeo.dar.ar.adal.dar.okeeos.aiin.oteey.o,kaiin",
+          "orientation": "radial/curved — follows outer ring arc, text baseline curved outward",
+          "bounding_box": {"x_min": 70, "y_min": 85, "x_max": 848, "y_max": 928},
+          "interaction": "No <-> bisection present. Text wraps continuously around the outer ring. The wax seal/damage at x~140-210, y~440-510 may interrupt visibility of glyphs on the leftmost arc passage. The text arc covers approximately 300-340 degrees of the full circle."
+        }
+      ]
+    },
+    {
+      "block_id": "middle_concentric_ring_text",
+      "description": "The @Cc ring text running along the second (middle) concentric circle. Medium length. Curved/radial orientation. No bisection markers.",
+      "lines": [
+        {
+          "locus": "<f72r1.12,@Cc>",
+          "raw_text": "oteodar.ytey.otey.shetey.chokshor.okalal.otaiin.sheolaiin.otaiin.chetey.cheolor.oteoteeody.otar.chokaiin.okaiin.al.alo.cheedy.oteorar.cheky.chokal.otar.aloqokar",
+          "orientation": "radial/curved — follows middle ring arc, text baseline curved outward",
+          "bounding_box": {"x_min": 165, "y_min": 180, "x_max": 752, "y_max": 825},
+          "interaction": "No <-> bisection present. Text wraps around the middle ring, likely covering approximately 270-320 degrees. The nymph figures at each clock position interrupt visual flow but do not cause textual bisection in the transcription."
+        }
+      ]
+    },
+    {
+      "block_id": "inner_concentric_ring_text",
+      "description": "The @Cc ring text running along the innermost concentric circle, immediately surrounding the central horse/Sagittarius figure. Shortest of the three ring texts. Curved/radial orientation.",
+      "lines": [
+        {
+          "locus": "<f72r1.18,@Cc>",
+          "raw_text": "okeeols.aroly.okees.alaiin.okeor.chol.o.o,teos.aiin.chal.otaiin.otchor.chckhy",
+          "orientation": "radial/curved — follows inner ring arc, text baseline curved outward toward the horse figure",
+          "bounding_box": {"x_min": 250, "y_min": 315, "x_max": 658, "y_max": 698},
+          "interaction": "No <-> bisection present. This is the shortest ring text and likely covers 180-270 degrees of the inner ring arc. The central horse figure (central_horse_sagittarius) sits immediately inward of this text line. The green vessel at the horse's muzzle is at approximately x=300-360, y=450-500, which is close to the inner arc on the western side."
+        }
+      ]
+    }
+  ]
+}

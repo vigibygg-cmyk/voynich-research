@@ -1,0 +1,797 @@
+{
+  "folio": "f77r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+
+  "audit_log": {
+    "extracted_folio_id": "f77r",
+    "total_loci_count": 50,
+    "unique_loci_found": [
+      "<f77r.1,@Ln>", "<f77r.2,+Lt>", "<f77r.3,=Lt>", "<f77r.4,~Lt>",
+      "<f77r.5,=Lt>", "<f77r.6,~Lt>", "<f77r.7,~Lt>", "<f77r.8,~Ln>",
+      "<f77r.9,@P0>", "<f77r.10,+P0>", "<f77r.11,+P0>", "<f77r.12,+P0>",
+      "<f77r.13,+P0>", "<f77r.14,+P0>", "<f77r.15,+P0>", "<f77r.16,+P0>",
+      "<f77r.17,+P0>", "<f77r.18,+P0>", "<f77r.19,+P0>", "<f77r.20,+P0>",
+      "<f77r.21,+P0>", "<f77r.22,+P0>", "<f77r.23,+P0>", "<f77r.24,+P0>",
+      "<f77r.25,+P0>", "<f77r.26,+P0>", "<f77r.27,+P0>", "<f77r.28,+P0>",
+      "<f77r.29,+P0>", "<f77r.30,+P0>", "<f77r.31,+P0>", "<f77r.32,+P0>",
+      "<f77r.33,+P0>", "<f77r.34,+P0>", "<f77r.35,+P0>", "<f77r.36,+P0>",
+      "<f77r.37,+P0>", "<f77r.38,+P0>", "<f77r.39,+P0>", "<f77r.40,+P0>",
+      "<f77r.41,+P0>", "<f77r.42,+P0>", "<f77r.43,+P0>", "<f77r.44,+P0>",
+      "<f77r.45,+P0>", "<f77r.46,+P0>", "<f77r.47,+P0>", "<f77r.48,+P0>",
+      "<f77r.49,@Ln>", "<f77r.50,@Lt>"
+    ],
+    "syntax_clues_detected": {
+      "bisections_found": [],
+      "note_on_bisections": "No explicit <-> markers found in f77r transcription. However, the text block is visually interrupted by the large bathing-tub/vessel illustration in the lower-left quadrant (lines ~49-50 area), and the top register nymph figures create spatial gaps in the header zone.",
+      "label_loci": [
+        "<f77r.1,@Ln>  raw: darchdar  — top-left margin label, near left nymph figure",
+        "<f77r.2,+Lt>  raw: olkchs    — continuation label, left margin",
+        "<f77r.3,=Lt>  raw: otedy     — label, left margin series",
+        "<f77r.4,~Lt>  raw: otork     — label, left margin series",
+        "<f77r.5,=Lt>  raw: otol      — label, left margin series",
+        "<f77r.6,~Lt>  raw: dchdy     — label, left margin series",
+        "<f77r.7,~Lt>  raw: soral     — label, left margin series (note: so- prefix = inflow/condensation code)",
+        "<f77r.8,~Ln>  raw: dotedy    — end-label, left margin, near lower-left nymph",
+        "<f77r.49,@Ln> raw: otchdy    — isolated label, lower-right, near bottom nymph/figure",
+        "<f77r.50,@Lt> raw: otolaiino — isolated label, lower-right margin continuation"
+      ]
+    },
+    "visual_anchor_inventory": [
+      {
+        "id": "top_arch_pipe_system",
+        "description": "Arched pipe/aqueduct structure spanning the top of the folio. A rounded arch with pendant pipe outlets dropping downward. Painted in faded olive/yellow-green. Multiple spigots visible.",
+        "colors": ["olive_green", "yellow_ochre", "faded_brown_ink"],
+        "pipe_flow_direction": "water drips DOWN from arch spigots onto figures below"
+      },
+      {
+        "id": "nymph_left_top",
+        "description": "Female figure (nymph) standing left of center in top register, facing right, arms raised. Appears to be receiving or directing water flow from the arch.",
+        "colors": ["pale_flesh_ink", "brown_outline"]
+      },
+      {
+        "id": "nymph_right_top",
+        "description": "Female figure (nymph) standing at far right of top register, arms raised upward toward the arch. Appears to be holding or supporting the arch structure.",
+        "colors": ["pale_flesh_ink", "brown_outline"]
+      },
+      {
+        "id": "pipe_drops_center",
+        "description": "Three pendant pipe-drop nozzles hanging from the arch center, with small blue-green droplet indicators at tips. Arranged at roughly equal intervals.",
+        "colors": ["blue_green_droplets", "olive_green_pipe"]
+      },
+      {
+        "id": "large_vessel_lower_left",
+        "description": "Large bathing-tub or alchemical vessel in lower-left quadrant. Wide-mouthed, barrel-shaped container with a female nymph figure seated/bathing inside. Yellow-green painted interior suggesting liquid contents. This is the primary PHARMA/BALNEOLOGY vessel of this folio.",
+        "colors": ["yellow_green_liquid", "brown_outline", "olive_tub_walls"]
+      },
+      {
+        "id": "nymph_in_tub",
+        "description": "Female figure submerged to waist in the large vessel, facing left. Blue spherical object (vessel or ball) visible at lower torso level inside the tub. Her posture suggests immersion in a liquid bath.",
+        "colors": ["pale_flesh", "blue_sphere_object"]
+      },
+      {
+        "id": "small_tube_left_of_tub",
+        "description": "A narrow vertical pipe or tube to the left of the large vessel, possibly an inlet conduit. Female figure (nymph) stands adjacent, appearing to pour or direct flow.",
+        "colors": ["brown_ink", "faded_green"]
+      },
+      {
+        "id": "nymph_lower_left_pouring",
+        "description": "Female nymph figure in lower-left region, standing next to the tube/pipe structure. Her orientation and arm position suggest she is pouring liquid IN (inflow function).",
+        "colors": ["pale_flesh_ink", "brown_outline"]
+      },
+      {
+        "id": "bottom_creature_figure",
+        "description": "In the bottom-left area, a composite figure or creature (possibly a mermaid or fish-tailed being) is visible below the main tub. This may represent an outflow drain or filtration element.",
+        "colors": ["dark_brown_ink", "faded_ochre_scales"]
+      },
+      {
+        "id": "isolated_label_zone_left_margin",
+        "description": "A vertical sequence of 8 isolated label-loci (@Ln, +Lt, =Lt, ~Lt series) running down the left margin from y~30 to y~490. These labels are parallel to the nymph figures and pipe structures, strongly suggesting they NAME or DESCRIBE the pipe functions.",
+        "colors": ["brown_ink"]
+      },
+      {
+        "id": "top_horizontal_labels",
+        "description": "Above the arch, scattered horizontal labels naming the pipe nozzles or arch elements. These are the words visible in the top header zone above the arch.",
+        "colors": ["brown_ink"]
+      }
+    ]
+  },
+
+  "pipe_and_flow_analysis": {
+    "critical_note": "f77r is a BALNEOLOGICAL folio. The entire page depicts a hydraulic/bathing system. All pipe and flow elements must be analyzed for semantic prefix codes.",
+    "pipes": [
+      {
+        "pipe_id": "arch_main_conduit",
+        "description": "Main horizontal aqueduct arch spanning top of folio, x:50–950, y:30–80. Functions as the PRIMARY INFLOW manifold. Water enters from outside the frame (implied left or right) and is distributed to pendant spigots.",
+        "color": "olive_green with yellow wash",
+        "direction": "Horizontal L→R supply manifold",
+        "inflow_point": {"x": 50, "y": 55, "note": "Left terminal of arch — implied source (IN)"},
+        "outflow_points": [
+          {"x": 250, "y": 80, "note": "First pendant nozzle drop — small blue droplet (OUT)"},
+          {"x": 430, "y": 80, "note": "Second pendant nozzle — blue droplet (OUT)"},
+          {"x": 560, "y": 80, "note": "Third pendant nozzle — blue droplet, largest drip (OUT)"},
+          {"x": 700, "y": 80, "note": "Fourth pendant nozzle — droplet (OUT)"}
+        ],
+        "valve_or_junction": "None visible, but equal spacing of nozzles suggests designed distribution — possible T-junction implied at each nozzle attachment point",
+        "semantic_prefix_nearby": {
+          "left_margin_labels": ["darchdar (f77r.1)", "olkchs (f77r.2)", "otedy (f77r.3)", "otork (f77r.4)", "otol (f77r.5)", "dchdy (f77r.6)"],
+          "prefix_analysis": {
+            "so_prefix_words": ["soral (f77r.7)", "sodar (f77r.48)", "solchedy (f77r.27)", "solkeey (f77r.35)", "solteedy (f77r.12)", "sokcheey (f77r.14)"],
+            "interpretation": "so-/sa- prefix cluster dominant in left-margin labels and paragraph openings. Per research framework: so-/sa- = inflow/condensation code. This is consistent with the arch being an INFLOW system.",
+            "qo_prefix_words_count": "qo- prefix overwhelmingly dominant in main text body (qokeedy, qoteedy, qokaiin, qokain etc.) — consistent with OUTFLOW/processing code for the liquid being delivered to the tub.",
+            "qo_near_outflow_spigots": "Lines f77r.9–f77r.48 contain dense qo- vocabulary, spatially positioned below the arch outflow nozzles and beside the tub vessel — consistent with qo- = outflow/product state"
+          }
+        }
+      },
+      {
+        "pipe_id": "left_vertical_inlet_tube",
+        "description": "Narrow vertical tube/pipe on far left, approximately x:40–80, y:350–600. Connects upper flow region to the large tub vessel. The nymph figure stands adjacent and appears to be the human-operator interface for this inlet.",
+        "color": "brown ink, possibly faded green wash",
+        "direction": "Vertical TOP→DOWN (inflow to tub)",
+        "inflow_point": {"x": 60, "y": 350, "note": "Top of tube — receives from upper region"},
+        "outflow_point": {"x": 60, "y": 590, "note": "Bottom — enters tub lateral wall"},
+        "valve_or_junction": "No explicit T/X cross-junction visible but the nymph figure's hand position at ~y:430 may indicate a manual valve or stopcock point",
+        "semantic_prefix_nearby": {
+          "label": "otchdy (f77r.49, @Ln) — positioned in lower-right but may cross-reference this tube system",
+          "prefix_analysis": "ot- prefix in 'otchdy', 'otedy', 'otork', 'otol' — does not match qo- (outflow) or so- (inflow). May represent a THIRD functional state: neutral/transitional or 'conduit' state."
+        }
+      },
+      {
+        "pipe_id": "tub_to_drain_lower",
+        "description": "Implied outflow drain at the base of the large tub vessel. The bottom-creature/fish figure below the tub may represent the drain terminus or a filtration vessel receiving the outflow.",
+        "color": "dark brown ink",
+        "direction": "Vertical DOWN (outflow from tub to drain/creature)",
+        "inflow_point": {"x": 140, "y": 680, "note": "Base of tub vessel"},
+        "outflow_point": {"x": 150, "y": 780, "note": "Into lower creature/vessel element"},
+        "valve_or_junction": "The creature figure may represent a biological filter metaphor — no explicit T/X valve symbol visible",
+        "semantic_prefix_nearby": {
+          "label": "otolaiino (f77r.50, @Lt)",
+          "prefix_analysis": "ot- prefix again. The -aiino suffix is notable — long suffix chain may encode a completed process state (post-outflow)."
+        }
+      }
+    ],
+    "junction_analysis": {
+      "T_junctions": [
+        {
+          "location": {"x": 430, "y": 70},
+          "description": "The central pendant nozzle on the arch visually forms a T-junction where the horizontal conduit pipe meets the vertical drip tube. This is the most prominent junction on the folio.",
+          "nearby_label": "Label cluster in top header zone above arch (lines 1–8 series) — these may name THIS junction point"
+        }
+      ],
+      "X_junctions": "None positively identified in f77r. The arch-nozzle joints are all T-form only.",
+      "summary": "The hydraulic system is architecturally a single-manifold with multiple T-branch outflows. No complex crossover (X) valve junctions visible."
+    },
+    "flow_direction_summary": {
+      "IN_sources": [
+        "Arch left terminal (implied external water source)",
+        "Left vertical tube top (fed from arch or upper nymph)"
+      ],
+      "OUT_destinations": [
+        "Four pendant nozzle drips from arch → falling onto nymphs/basin below",
+        "Left vertical tube → into large tub vessel",
+        "Large tub → drain into lower creature/filter element"
+      ],
+      "overall_flow_path": "External source → arch manifold (IN) → pendant nozzle drips (OUT) → falling onto figures → tub vessel accumulates → drain outflow (OUT) → lower filter creature"
+    }
+  },
+
+  "visual_anchors": [
+    {
+      "anchor_id": "arch_aqueduct_top",
+      "category": "balneo_pipe_manifold",
+      "colors": ["olive_green", "yellow_ochre", "faded_green_wash"],
+      "morphology_description": "A rounded arch spanning nearly the full width of the folio top. The arch is painted with a yellow-green wash indicating it is hollow/filled (liquid conduit). Four pendant nozzle tubes hang downward from the underside at regular intervals, each terminating in a small teardrop-shaped blue-green droplet indicator. The arch sits on two implied column supports at the lateral edges. This is unambiguously a hydraulic PIPE/AQUEDUCT structure.",
+      "bounding_box": {"x_min": 50, "y_min": 20, "x_max": 960, "y_max": 130},
+      "pipe_flow": {
+        "role": "INFLOW manifold / distributor",
+        "flow_direction": "left_to_right horizontal, then downward at nozzle points",
+        "droplet_positions_x": [250, 430, 560, 700]
+      }
+    },
+    {
+      "anchor_id": "nymph_left_top_figure",
+      "category": "balneo_nymph_figure",
+      "colors": ["pale_flesh_ink", "brown_outline"],
+      "morphology_description": "Standing female figure at top-left, facing right toward the arch. Arms raised. Position relative to the arch suggests she is an 'operator' figure associated with the left inflow terminal. Her body intersects with the text label zone.",
+      "bounding_box": {"x_min": 60, "y_min": 50, "x_max": 200, "y_max": 190}
+    },
+    {
+      "anchor_id": "nymph_right_top_figure",
+      "category": "balneo_nymph_figure",
+      "colors": ["pale_flesh_ink", "brown_outline"],
+      "morphology_description": "Standing female figure at top-right, arms raised upward supporting or gesturing toward the arch right terminal. Functions as right-side operator. Small label 'soral' (so- inflow prefix) in adjacent margin may name this figure's role.",
+      "bounding_box": {"x_min": 810, "y_min": 50, "x_max": 960, "y_max": 200}
+    },
+    {
+      "anchor_id": "pendant_nozzle_1",
+      "category": "balneo_pipe_nozzle",
+      "colors": ["olive_green_tube", "blue_green_droplet"],
+      "morphology_description": "First pendant nozzle from left. Narrow tube ~10 units wide, hanging approx 50 units below arch underside. Blue-green teardrop droplet at tip indicates active flow (liquid state marker).",
+      "bounding_box": {"x_min": 235, "y_min": 75, "x_max": 265, "y_max": 130},
+      "pipe_flow": {"role": "OUTFLOW spigot 1", "flow_direction": "downward"}
+    },
+    {
+      "anchor_id": "pendant_nozzle_2",
+      "category": "balneo_pipe_nozzle",
+      "colors": ["olive_green_tube", "blue_green_droplet"],
+      "morphology_description": "Second pendant nozzle, center-left. Identical morphology to nozzle 1. Blue droplet at tip.",
+      "bounding_box": {"x_min": 415, "y_min": 75, "x_max": 445, "y_max": 130},
+      "pipe_flow": {"role": "OUTFLOW spigot 2", "flow_direction": "downward"}
+    },
+    {
+      "anchor_id": "pendant_nozzle_3_central",
+      "category": "balneo_pipe_nozzle",
+      "colors": ["olive_green_tube", "blue_green_droplet", "red_orange_element"],
+      "morphology_description": "Third pendant nozzle, center. NOTABLE: a reddish-orange element is visible near this nozzle (possibly a heated element, coal grate, or temperature indicator — RED ink = heat marker per research framework). This nozzle may indicate HEATED water outflow vs. cold water from the others.",
+      "bounding_box": {"x_min": 545, "y_min": 65, "x_max": 580, "y_max": 135},
+      "pipe_flow": {
+        "role": "OUTFLOW spigot 3 (HEATED?)",
+        "flow_direction": "downward",
+        "temperature_indicator": "red_element_present — possible heat/fire marker"
+      }
+    },
+    {
+      "anchor_id": "pendant_nozzle_4",
+      "category": "balneo_pipe_nozzle",
+      "colors": ["olive_green_tube", "blue_green_droplet"],
+      "morphology_description": "Fourth pendant nozzle, center-right. Blue droplet, standard morphology.",
+      "bounding_box": {"x_min": 685, "y_min": 75, "x_max": 715, "y_max": 130},
+      "pipe_flow": {"role": "OUTFLOW spigot 4", "flow_direction": "downward"}
+    },
+    {
+      "anchor_id": "large_bathing_tub_vessel",
+      "category": "balneo_vessel_primary",
+      "colors": ["yellow_green_liquid_interior", "brown_outline", "olive_wash"],
+      "morphology_description": "Large barrel/tub-shaped vessel in lower-left quadrant. Wide mouth, slightly tapered walls, stable flat base. Interior filled with yellow-green liquid wash (liquid state confirmed). A female nymph is seated inside (immersion therapy / balneological use). A blue spherical element visible at waist level inside tub — possibly a medicinal ingredient ball or a float indicator. This is the PRIMARY PROCESSING VESSEL of the folio.",
+      "bounding_box": {"x_min": 60, "y_min": 520, "x_max": 310, "y_max": 750},
+      "vessel_state": {
+        "liquid_present": true,
+        "liquid_color": "yellow_green",
+        "liquid_fill_level": "approximately 60% full",
+        "temperature_indicator": "none visible at vessel exterior — cold or ambient bath",
+        "blue_object_inside": {"x": 160, "y": 650, "description": "Blue sphere/ball — possibly medicinal additive or buoyancy marker"}
+      }
+    },
+    {
+      "anchor_id": "nymph_in_tub_figure",
+      "category": "balneo_nymph_immersed",
+      "colors": ["pale_flesh", "brown_outline"],
+      "morphology_description": "Female figure seated inside the large tub, immersed to approximately waist level. Facing left. Arms appear to be resting on tub rim. This figure represents the RECIPIENT of the hydraulic treatment — the processed output state.",
+      "bounding_box": {"x_min": 100, "y_min": 540, "x_max": 280, "y_max": 730}
+    },
+    {
+      "anchor_id": "left_vertical_inlet_pipe",
+      "category": "balneo_pipe_inlet",
+      "colors": ["brown_ink", "faded_green"],
+      "morphology_description": "Narrow vertical tube on far left, extending from upper nymph figure area downward to the lateral wall of the tub. Functions as a directed inlet — a controlled fill conduit separate from the overhead drip system. Width approximately 15–20 units.",
+      "bounding_box": {"x_min": 35, "y_min": 340, "x_max": 75, "y_max": 600},
+      "pipe_flow": {
+        "role": "INFLOW inlet to tub",
+        "flow_direction": "top_to_bottom (downward into tub)",
+        "in_connector_position": {"x": 55, "y": 340},
+        "out_connector_position": {"x": 55, "y": 595}
+      }
+    },
+    {
+      "anchor_id": "nymph_lower_left_operator",
+      "category": "balneo_nymph_operator",
+      "colors": ["pale_flesh_ink", "brown_outline"],
+      "morphology_description": "Female operator figure adjacent to the left vertical pipe, approximately at midpoint of tube. Arms positioned suggesting manual flow control — hand near pipe junction point at ~y:430. This is the VALVE OPERATOR figure.",
+      "bounding_box": {"x_min": 30, "y_min": 380, "x_max": 120, "y_max": 560}
+    },
+    {
+      "anchor_id": "bottom_drain_creature",
+      "category": "balneo_drain_filter",
+      "colors": ["dark_brown_ink", "faded_ochre"],
+      "morphology_description": "Composite creature or decorative drain figure at bottom-left, below the main tub. Appears fish-tailed or serpentine. Its position directly below the tub base implies it represents the OUTFLOW drain or a secondary receiving vessel/filter. Scale-like texture on lower body.",
+      "bounding_box": {"x_min": 60, "y_min": 760, "x_max": 260, "y_max": 920},
+      "pipe_flow": {
+        "role": "OUTFLOW drain / secondary vessel",
+        "flow_direction": "receives downward from tub base"
+      }
+    },
+    {
+      "anchor_id": "top_header_label_zone",
+      "category": "isolated_label_field",
+      "colors": ["brown_ink"],
+      "morphology_description": "Horizontal zone above the arch containing scattered individual words/labels. These appear to NAME the arch components, nozzles, or the overall system. Spaced roughly above each pendant nozzle position.",
+      "bounding_box": {"x_min": 80, "y_min": 5, "x_max": 960, "y_max": 30}
+    },
+    {
+      "anchor_id": "left_margin_label_column",
+      "category": "isolated_label_column",
+      "colors": ["brown_ink"],
+      "morphology_description": "Vertical sequence of 8 label-loci running down the left margin (f77r.1–f77r.8). These labels are @Ln/@Lt types — isolated labels, NOT part of the main paragraph. They likely NAME or ANNOTATE the pipe structures and nymph figures in the left-side hydraulic system.",
+      "bounding_box": {"x_min": 5, "y_min": 35, "x_max": 85, "y_max": 490}
+    }
+  ],
+
+  "isolated_labels": [
+    {
+      "locus": "<f77r.1,@Ln>",
+      "raw_text": "darchdar",
+      "target_anchor_id": "nymph_left_top_figure",
+      "placement_context": "Top-left margin, above or adjacent to left top nymph figure. Likely a NAME label for the figure or the left arch terminal.",
+      "orientation": "horizontal",
+      "prefix_analysis": "d- prefix — does not match qo- or so-. May be a personal name prefix or structural descriptor.",
+      "bounding_box": {"x_min": 8, "y_min": 35, "x_max": 85, "y_max": 55}
+    },
+    {
+      "locus": "<f77r.2,+Lt>",
+      "raw_text": "olkchs",
+      "target_anchor_id": "left_margin_label_column",
+      "placement_context": "Left margin, continuation label below f77r.1. Position corresponds to upper arch zone.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ol- prefix — liquid/flow neutral marker?",
+      "bounding_box": {"x_min": 8, "y_min": 58, "x_max": 75, "y_max": 78}
+    },
+    {
+      "locus": "<f77r.3,=Lt>",
+      "raw_text": "otedy",
+      "target_anchor_id": "left_margin_label_column",
+      "placement_context": "Left margin continuation. ~y:100 zone — near upper nymph/arch left column.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ot- prefix — same as otchdy (f77r.49). Possible CONDUIT/TRANSIT state code.",
+      "bounding_box": {"x_min": 8, "y_min": 80, "x_max": 65, "y_max": 98}
+    },
+    {
+      "locus": "<f77r.4,~Lt>",
+      "raw_text": "otork",
+      "target_anchor_id": "left_margin_label_column",
+      "placement_context": "Left margin. ~y:120. Possibly names pendant nozzle 1 region.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ot- prefix again — consistent ot- cluster in label column.",
+      "bounding_box": {"x_min": 8, "y_min": 100, "x_max": 65, "y_max": 118}
+    },
+    {
+      "locus": "<f77r.5,=Lt>",
+      "raw_text": "otol",
+      "target_anchor_id": "left_margin_label_column",
+      "placement_context": "Left margin. ~y:150. May label the left vertical inlet pipe.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ot- prefix. Shortest form in the ot-cluster.",
+      "bounding_box": {"x_min": 8, "y_min": 120, "x_max": 55, "y_max": 138}
+    },
+    {
+      "locus": "<f77r.6,~Lt>",
+      "raw_text": "dchdy",
+      "target_anchor_id": "left_margin_label_column",
+      "placement_context": "Left margin. ~y:180. May name the operator nymph or a pipe section.",
+      "orientation": "horizontal",
+      "prefix_analysis": "d- prefix. Recurrence of d- (cf. darchdar f77r.1).",
+      "bounding_box": {"x_min": 8, "y_min": 140, "x_max": 62, "y_max": 158}
+    },
+    {
+      "locus": "<f77r.7,~Lt>",
+      "raw_text": "soral",
+      "target_anchor_id": "nymph_right_top_figure",
+      "placement_context": "Left margin ~y:210. Despite being in left margin sequence, spatial position may cross-reference the right nymph via the arch span — or names the arch's inflow quality.",
+      "orientation": "horizontal",
+      "prefix_analysis": "so- prefix — INFLOW/CONDENSATION CODE per research framework. This is a CRITICAL semantic anchor: 'soral' with so- prefix placed near the arch = the arch is functionally an INFLOW/SOURCE element. Validates flow analysis.",
+      "bounding_box": {"x_min": 8, "y_min": 162, "x_max": 62, "y_max": 180}
+    },
+    {
+      "locus": "<f77r.8,~Ln>",
+      "raw_text": "dotedy",
+      "target_anchor_id": "nymph_lower_left_operator",
+      "placement_context": "Left margin end-label ~y:260. End of the left-margin label column. Closest to the operator nymph figure at the inlet pipe midpoint.",
+      "orientation": "horizontal",
+      "prefix_analysis": "d+ot- composite: d- modifier + ot- conduit prefix. May encode 'directed conduit' — consistent with the operator nymph controlling the pipe valve.",
+      "bounding_box": {"x_min": 8, "y_min": 248, "x_max": 72, "y_max": 266}
+    },
+    {
+      "locus": "<f77r.49,@Ln>",
+      "raw_text": "otchdy",
+      "target_anchor_id": "bottom_drain_creature",
+      "placement_context": "Lower-right area, isolated label. Despite right-side position, semantically it labels the DRAIN/OUTFLOW element at folio bottom. @Ln type = named entity label.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ot- prefix — CONDUIT code. 'otchdy' may name the drain conduit or the creature-drain element.",
+      "bounding_box": {"x_min": 60, "y_min": 880, "x_max": 145, "y_max": 900}
+    },
+    {
+      "locus": "<f77r.50,@Lt>",
+      "raw_text": "otolaiino",
+      "target_anchor_id": "bottom_drain_creature",
+      "placement_context": "Lower area continuation label after f77r.49. Extended form of ot- word with long -aiino suffix.",
+      "orientation": "horizontal",
+      "prefix_analysis": "ot- prefix + -aiino long suffix. The -aiino ending recurs in completed-process words. May encode 'completed conduit transit' = post-drain state.",
+      "bounding_box": {"x_min": 60, "y_min": 903, "x_max": 175, "y_max": 920}
+    }
+  ],
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "top_header_labels_above_arch",
+      "description": "Scattered isolated words in the very top margin zone (y:5–30), above the arch structure. These are NOT in the main transcription loci but are visually present in the image. They appear to name the arch nozzle positions or the entire hydraulic apparatus.",
+      "visual_position": {"x_min": 80, "y_min": 5, "x_max": 960, "y_max": 30},
+      "note": "These top-of-page labels appear in the image but may correspond to the @Lt label sequence f77r.1–8 reordered, or may be a separate label set not captured in the transcription locus system of RF1b-er."
+    },
+    {
+      "block_id": "main_upper_paragraph",
+      "description": "Primary text block occupying the right two-thirds of the folio from approximately y:160 to y:490. Lines f77r.9 through f77r.48. Dense paragraph with predominantly qo- prefix vocabulary. Spatially this block fills the area to the RIGHT of the pipe/nymph illustrations.",
+      "lines": [
+        {
+          "locus": "<f77r.9,@P0>",
+          "raw_text": "poldarairol.qokol.chey.qopchedy.qopchedy.dylches.olkedy.loly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 165, "x_max": 970, "y_max": 182},
+          "interaction": "Start of paragraph. pol- prefix opener (cf. poldarairol). qo- cluster follows. No bisection. Left edge of text cleared for nymph figure at x:60–170.",
+          "prefix_notes": "poldarairol: p+ol+darai+rol — complex compound. qopchedy (×2): qo- outflow + p-medial + chedy base — doubled form may indicate intensified outflow."
+        },
+        {
+          "locus": "<f77r.10,+P0>",
+          "raw_text": "tolchdar.shey.qotaiin.qotedy.qokol.chdy.qokain.chetey.sal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 185, "x_max": 970, "y_max": 202},
+          "interaction": "Continuation. sal terminal word: sa- = inflow/condensation prefix. This word ends the line — possible LINE-END semantic marker for liquid return.",
+          "prefix_notes": "qotaiin, qotedy, qokol, qokain: dense qo- cluster. sal: sa- inflow code — possible process reversal marker."
+        },
+        {
+          "locus": "<f77r.11,+P0>",
+          "raw_text": "qoteedy.qokaiin.shedy.chol.shedy.shcthey.qokeedy.oteedy.cham",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 205, "x_max": 970, "y_max": 222},
+          "interaction": "Continuation. oteedy: ot- conduit prefix within paragraph body — rare occurrence, may mark a transition point in the described process.",
+          "prefix_notes": "Dominant qo- with isolated ot- (oteedy) and terminal cham — ch- base words recur as process-step markers."
+        },
+        {
+          "locus": "<f77r.12,+P0>",
+          "raw_text": "solteedy.qoteedy.qodeedy.chedaiin.chedy.shedaiin.sheolol.ched",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 225, "x_max": 970, "y_max": 242},
+          "interaction": "Line opens with solteedy: so- inflow + l + teedy. This so- opening mid-paragraph may signal a phase transition in the hydraulic process described.",
+          "prefix_notes": "solteedy: so- prefix = INFLOW code — LINE OPENING. Followed by qo- cluster, then she- words (she- = intermediate state?)."
+        },
+        {
+          "locus": "<f77r.13,+P0>",
+          "raw_text": "qokeedy.qol.sheedy.shol.tedy.chedy.lsheedy.qokedy.qol,al.chedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 245, "x_max": 970, "y_max": 262},
+          "interaction": "Continuation. qol,al: comma-separated compound word — unusual punctuation may indicate a branch point or dual-state annotation.",
+          "prefix_notes": "qol,al: possible dual-state word (outflow + neutral?). lsheedy: l-prefixed word = modifier on she- base."
+        },
+        {
+          "locus": "<f77r.14,+P0>",
+          "raw_text": "sokcheey.sain.sheeol.qoteedy.qokaiin.shedy.qokeedy.qotedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 265, "x_max": 970, "y_max": 282},
+          "interaction": "Second so- line opening (sokcheey). sain: sa- + in — possible 'inflow active' compound. This line has TWO so-/sa- words in opening position.",
+          "prefix_notes": "sokcheey + sain: double inflow-coded line opening. Strong semantic signal — may describe the inflow phase of a specific bath preparation step."
+        },
+        {
+          "locus": "<f77r.15,+P0>",
+          "raw_text": "qokeedy.shedy.qotol.shedy.qokaiin.sheety.qokeedy.lchedy.lol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 285, "x_max": 970, "y_max": 302},
+          "interaction": "Continuation. qotol: qo- + tol (cf. otol in label column f77r.5). The ot-/tol stem appears in both isolated labels and embedded in qo- words.",
+          "prefix_notes": "qotol: qo- outflow coded form of the ot- conduit stem. This cross-reference between label vocabulary and paragraph vocabulary is significant."
+        },
+        {
+          "locus": "<f77r.16,+P0>",
+          "raw_text": "sshedy.qotaiin.chedy.qokaiin.shedy.qolcheedy.qokeedy.lol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 305, "x_max": 970, "y_max": 322},
+          "interaction": "sshedy: doubled s- prefix (ss-). Intensified form of shedy? Or a scribal ligature for so+shedy compound?",
+          "prefix_notes": "ss- doubled prefix — anomalous. May indicate high-volume or pressurized flow state."
+        },
+        {
+          "locus": "<f77r.17,+P0>",
+          "raw_text": "qoteedy.qoteedy.qokedy.sheed.qeey.saiin.sheety.qoteedy.lol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 325, "x_max": 970, "y_max": 342},
+          "interaction": "qoteedy doubled at line start — intensified outflow. qeey: q-only prefix without o- (anomalous). saiin: sa- + in compound.",
+          "prefix_notes": "qoteedy×2 line opening = doubled outflow signal. saiin mid-line = inflow marker within outflow context — possible bidirectional process (recirculation?)."
+        },
+        {
+          "locus": "<f77r.18,+P0>",
+          "raw_text": "daiin.cheedy.lshey.qolar.chees.sheckhedy.qol.cheedy.qotaiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 345, "x_max": 970, "y_max": 362},
+          "interaction": "daiin line opening — d- prefix. qolar: qo- + lar. chees: ch- base + es suffix.",
+          "prefix_notes": "Line opens with d- (cf. darchdar, dotedy in label column). d- in paragraph may introduce a new sub-process or ingredient."
+        },
+        {
+          "locus": "<f77r.19,+P0>",
+          "raw_text": "qokeedy.lchey.lsheey.qokeedy.qokeedy.qokar.qokeey.laiin.chey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 365, "x_max": 970, "y_max": 382},
+          "interaction": "High-density qo- line. qokeedy×3 repetition — possible formulaic repetition or emphasis on a specific outflow state.",
+          "prefix_notes": "qokeedy×3: highest repetition count on folio. May be a refrain or procedural repetition in the bath preparation formula."
+        },
+        {
+          "locus": "<f77r.20,+P0>",
+          "raw_text": "qotain.sheal.qokeedy.qoteey.qokain.sheey.qotedy.dalchedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 385, "x_max": 970, "y_max": 402},
+          "interaction": "Continuation. dalchedy terminal: d+al+chedy compound.",
+          "prefix_notes": "sheal, sheey: she- words with -al/-ey suffixes. Terminal position suggests these encode result/product states."
+        },
+        {
+          "locus": "<f77r.21,+P0>",
+          "raw_text": "chedaiin.shedy.qokeedy.qokedy.qokeey.chedy.shear.olaiiny",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 405, "x_max": 970, "y_max": 422},
+          "interaction": "olaiiny terminal: ol- prefix + -aiiny (cf. otolaiino f77r.50). The -aiiny/-aiino suffix cluster may encode 'completed liquid process'.",
+          "prefix_notes": "shear: she- + ar suffix. olaiiny: ol- base with extended suffix — cross-reference with drain label otolaiino."
+        },
+        {
+          "locus": "<f77r.22,+P0>",
+          "raw_text": "qoteedy.al.lchedy.r.oin.chy.chedaiin.cheey.okedy.qoky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 425, "x_max": 970, "y_max": 442},
+          "interaction": "al, r, oin, chy — short isolated tokens mid-line. These may be abbreviations, numbers, or measurement markers.",
+          "prefix_notes": "Single-letter tokens (al, r) and very short tokens (oin, chy) are unusual. Possible numeric or quantitative annotations embedded in text."
+        },
+        {
+          "locus": "<f77r.23,+P0>",
+          "raw_text": "sheoky.qokaiin.chedy.lchedy.olshedy.qokeedy.chedy.qokal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 445, "x_max": 970, "y_max": 462},
+          "interaction": "sheoky: she- + oky. olshedy: ol- + shedy compound.",
+          "prefix_notes": "Compound forms (olshedy, sheoky) with merged prefixes."
+        },
+        {
+          "locus": "<f77r.24,+P0>",
+          "raw_text": "daiin.dol.shor.cphey.lfcheol.shear.qolchy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 465, "x_max": 970, "y_max": 482},
+          "interaction": "Shorter line. lfcheol: l+f+cheol — complex consonant cluster. cphey: c+p+hey unusual cluster.",
+          "prefix_notes": "shor: sh- + or. Shorter word count may indicate a section break or transitional line."
+        },
+        {
+          "locus": "<f77r.25,+P0>",
+          "raw_text": "otedy.qokor.shedy.qokal.shedar.dal.chedy.daror",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 485, "x_max": 970, "y_max": 502},
+          "interaction": "otedy line opening — ot- conduit code returns in paragraph body. daror terminal.",
+          "prefix_notes": "otedy: ot- in paragraph = conduit/transition annotation. Position at ~y:490 corresponds to the visual level of the operator nymph figure."
+        },
+        {
+          "locus": "<f77r.26,+P0>",
+          "raw_text": "qoteedy.qokeedy.qokaiin.chcthy.lchedy.qokaly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 505, "x_max": 970, "y_max": 522},
+          "interaction": "chcthy: ch+c+thy unusual cluster — possible scribal condensation.",
+          "prefix_notes": "Short line with dense qo-. chcthy may be a corrupted or abbreviated form."
+        },
+        {
+          "locus": "<f77r.27,+P0>",
+          "raw_text": "solchedy.qokain.okaiin.shedy.qokeedy.qotedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 525, "x_max": 970, "y_max": 542},
+          "interaction": "solchedy: so- + l + chedy. Third so- line opening in this paragraph. okaiin: o- prefixed (no q-).",
+          "prefix_notes": "so- opening = inflow phase marker. okaiin without q-: unaspirated variant of qokaiin?"
+        },
+        {
+          "locus": "<f77r.28,+P0>",
+          "raw_text": "olchey.qotey.qokain.olcheedy.sar.lom",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 545, "x_max": 970, "y_max": 562},
+          "interaction": "sar terminal: sa- + r. Appears at same y-level as upper tub rim in illustration.",
+          "prefix_notes": "sar: sa- inflow code in terminal position. lom: unusual -om suffix terminal."
+        },
+        {
+          "locus": "<f77r.29,+P0>",
+          "raw_text": "saiin.cheeol.qokeedy.qokeedy.qotal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 565, "x_max": 970, "y_max": 582},
+          "interaction": "saiin opening: sa- inflow at line start. Short line — possible sub-section end.",
+          "prefix_notes": "saiin: sa- + in compound at opening. qotal terminal."
+        },
+        {
+          "locus": "<f77r.30,+P0>",
+          "raw_text": "qokaiin.chckhey.s,aiin.qolkain.cheeky.lol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 585, "x_max": 970, "y_max": 602},
+          "interaction": "s,aiin: comma-separated sa-/s- compound (cf. qol,al f77r.13). Punctuation mark within word.",
+          "prefix_notes": "s,aiin: s + comma + aiin — unusual internal punctuation. May mark a sub-word boundary or a dual-element compound."
+        },
+        {
+          "locus": "<f77r.31,+P0>",
+          "raw_text": "qokain.chckhy.qokeey.qotedy.qotedy.qotary",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 605, "x_max": 970, "y_max": 622},
+          "interaction": "qotedy doubled. chckhy: consonant cluster.",
+          "prefix_notes": "qotedy×2 within line — intensification."
+        },
+        {
+          "locus": "<f77r.32,+P0>",
+          "raw_text": "qor.ain.cheol.ol.chealor.cheey.qeteiiin.dary",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 625, "x_max": 970, "y_max": 642},
+          "interaction": "qeteiiin: qe- prefix (not qo-) + teiiin (long i-chain). Unique form on this folio.",
+          "prefix_notes": "qeteiiin: qe- variant of qo-? Long -iiin suffix may indicate superlative or maximum state."
+        },
+        {
+          "locus": "<f77r.33,+P0>",
+          "raw_text": "daiin.chedy.qol.keedy.qoteeedy.sar.aiiiin.cheety.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 645, "x_max": 970, "y_max": 662},
+          "interaction": "aiiiin: extremely long i-chain (4 i's). Possible quantity marker or scribal counting mark.",
+          "prefix_notes": "aiiiin: anomalous. May represent a numeral or volume measurement encoded as vowel count."
+        },
+        {
+          "locus": "<f77r.34,+P0>",
+          "raw_text": "qokaiin.shedy.chedy.qolchedy.qokaiin.qokaiin.checkhy.raiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 665, "x_max": 970, "y_max": 682},
+          "interaction": "qokaiin×2 adjacent — doubled repetition. checkhy: ch+ck+hy triple consonant cluster.",
+          "prefix_notes": "qokaiin×2: formulaic repetition. Position at ~y:670 = mid-tub level in illustration."
+        },
+        {
+          "locus": "<f77r.35,+P0>",
+          "raw_text": "solkeey.okaiin.chedy.qokain.sheedy.qotaiin.chedaiin.chealy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 685, "x_max": 970, "y_max": 702},
+          "interaction": "solkeey: so- + l + keey. Fourth so- opening. okaiin: o- (unaspirated).",
+          "prefix_notes": "so- opening continues pattern. chealy terminal: ch- + -ealy suffix."
+        },
+        {
+          "locus": "<f77r.36,+P0>",
+          "raw_text": "dshedy.pchedy.qotain.chedy.dolchl.qokeedy.qokol.olchey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 705, "x_max": 970, "y_max": 722},
+          "interaction": "dshedy: d+shedy. pchedy: p+chedy. dolchl: d+ol+chl unusual consonant terminal.",
+          "prefix_notes": "d- and p- prefixed forms opening and mid-line. dolchl: complex consonant-final word — possible scribal abbreviation."
+        },
+        {
+          "locus": "<f77r.37,+P0>",
+          "raw_text": "teeolain.chey.qoteedy.qokain.cheedy.cheey.lchedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 725, "x_max": 970, "y_max": 742},
+          "interaction": "teeolain: t+ee+ol+ain — complex opener with doubled e.",
+          "prefix_notes": "teeolain: t- prefix with -ee- vowel lengthening. Novel prefix type."
+        },
+        {
+          "locus": "<f77r.38,+P0>",
+          "raw_text": "pol.shedy.qoeedy.qokaiin.chcphey.qol.ltaiin.shedy.qol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 745, "x_max": 970, "y_max": 762},
+          "interaction": "qoeedy: qo- + eedy (cf. qokeedy — missing k-). chcphey: ch+c+p+hey quadruple consonant cluster.",
+          "prefix_notes": "qoeedy: k-dropped variant of qokeedy. chcphey: extreme consonant cluster — scribal compression?"
+        },
+        {
+          "locus": "<f77r.39,+P0>",
+          "raw_text": "olaiin.cheey.sheckhey.lsheey.qykaiin.sheedy.laiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 765, "x_max": 970, "y_max": 782},
+          "interaction": "qykaiin: qy- prefix (y instead of o) — unique variant. sheckhey: she+ck+hey.",
+          "prefix_notes": "qykaiin: qy- variant. The y-substitution for o in qo- may mark a different liquid state or temperature."
+        },
+        {
+          "locus": "<f77r.40,+P0>",
+          "raw_text": "daiiin.ol.eeedy.okaiin.sheeol.qotaiin.shody.qoty",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 785, "x_max": 970, "y_max": 802},
+          "interaction": "eeedy: pure vowel-initial word (eee+dy). sheeol: she+ee+ol double-e form. daiiin: d- + aiiin long i-chain.",
+          "prefix_notes": "eeedy: rare pure-vowel-initial form. Double-e in sheeol may mark intensification."
+        },
+        {
+          "locus": "<f77r.41,+P0>",
+          "raw_text": "daiin.sh.qol,chey.qotedy.qotal.r.ain.chl.s.arol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 805, "x_max": 970, "y_max": 822},
+          "interaction": "sh, r, chl, s: very short tokens (1-3 chars). qol,chey: comma-internal punctuation again. Line has high abbreviation density.",
+          "prefix_notes": "Single-char tokens (sh, r, s, chl) appear formulaic. May be measurement units or element abbreviations."
+        },
+        {
+          "locus": "<f77r.42,+P0>",
+          "raw_text": "qokeedy.qotedy.qokeedy.qokeedy.qokeey.r.aiin.al",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 825, "x_max": 970, "y_max": 842},
+          "interaction": "qokeedy×3 (line 42) + qokeey. Highest qo- density on folio. r, aiin, al as isolated tokens.",
+          "prefix_notes": "qokeedy repeated 3 times — maximum repetition of this form. Terminal r, aiin, al may be a closing formula."
+        },
+        {
+          "locus": "<f77r.43,+P0>",
+          "raw_text": "dchee.ol.cheedy.qotaiin.qoteedy.qotedy.raiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 845, "x_max": 970, "y_max": 862},
+          "interaction": "dchee opener: d+chee (double-e). raiin terminal.",
+          "prefix_notes": "dchee: d- + doubled-e ch-word. raiin: r+aiin — rare r- initial."
+        },
+        {
+          "locus": "<f77r.44,+P0>",
+          "raw_text": "sheey.qepchedy.qol.cheedy.qokear.cheey.loly.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 865, "x_max": 970, "y_max": 882},
+          "interaction": "qepchedy: qe+p+chedy — qe- variant with p-medial. dy: minimal terminal.",
+          "prefix_notes": "qepchedy: second qe- form (cf. qeteiiin f77r.32). qe- may be a specific phase prefix."
+        },
+        {
+          "locus": "<f77r.45,+P0>",
+          "raw_text": "qokaiin.ches.lchear.dal.chr.sls.ain.ol.r,aiin.lod",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 885, "x_max": 970, "y_max": 902},
+          "interaction": "sls: triple-consonant short token. r,aiin: r + comma + aiin punctuated compound. High token fragmentation.",
+          "prefix_notes": "sls: pure consonant cluster — possible abbreviation. r,aiin: punctuated form (cf. s,aiin f77r.30)."
+        },
+        {
+          "locus": "<f77r.46,+P0>",
+          "raw_text": "daiin.chlchpsheey.tal.cheol.dag.ar.otey.daiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 905, "x_max": 970, "y_max": 922},
+          "interaction": "chlchpsheey: extreme consonant cluster (chl+chp+sheey) — longest consonant run on folio. dag, ar: very short tokens.",
+          "prefix_notes": "chlchpsheey: possible scribal ligature or compound of multiple words run together. dag: d+ag short form."
+        },
+        {
+          "locus": "<f77r.47,+P0>",
+          "raw_text": "ysheey.dal.saiisol.sal.dalo.tain.dary.dalo",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 925, "x_max": 970, "y_max": 942},
+          "interaction": "ysheey: y+sheey — y-prefix (cf. qykaiin f77r.39). saiisol: sa+ii+sol compound — sa- inflow + sol element. d- cluster: dal, dalo, dary, dalo.",
+          "prefix_notes": "saiisol: sa- inflow + sol — possible 'inflow-solution' compound. dalo×2 repetition. d- cluster dominance in this line."
+        },
+        {
+          "locus": "<f77r.48,=P0>",
+          "raw_text": "sodar.oloky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 170, "y_min": 945, "x_max": 400, "y_max": 962},
+          "interaction": "FINAL LINE of main paragraph. Only 2 words. sodar: so- + dar. oloky: ol+ oky.",
+          "prefix_notes": "sodar: so- INFLOW CODE in paragraph terminal position. This is the CLOSING WORD of the main paragraph — so- at close may indicate 'return to source' or 'inflow completes'. oloky: ol- final."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_right_isolated_labels",
+      "description": "Two isolated label-loci (f77r.49–50) in the lower portion of the folio, separate from the main paragraph. @Ln and @Lt types indicating named entity labels.",
+      "lines": [
+        {
+          "locus": "<f77r.49,@Ln>",
+          "raw_text": "otchdy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 60, "y_min": 878, "x_max": 145, "y_max": 896},
+          "interaction": "Isolated label in lower region. Adjacent to or labeling the bottom drain/creature figure. ot- conduit prefix."
+        },
+        {
+          "locus": "<f77r.50,@Lt>",
+          "raw_text": "otolaiino",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 60, "y_min": 898, "x_max": 180, "y_max": 916},
+          "interaction": "Continuation label after otchdy. Extended ot- form. -aiino suffix matches olaiiny in paragraph (f77r.21), suggesting these encode a completed liquid process state."
+        }
+      ]
+    }
+  ],
+
+  "semantic_prefix_summary": {
+    "qo_prefix": {
+      "count_estimate": "40+ occurrences across lines f77r.9–f77r.48",
+      "semantic_role_per_framework": "OUTFLOW / processing / product state",
+      "spatial_distribution": "Dominant throughout main paragraph body — the text describing the bath process",
+      "conclusion": "The main paragraph text uses qo- vocabulary to describe what the water/liquid DOES after leaving the pipes — consistent with describing treatment effects, ingredient actions, or fluid states in the bath."
+    },
+    "so_sa_prefix": {
+      "occurrences": ["soral (f77r.7)", "sokcheey (f77r.14)", "sain (f77r.14)", "solteedy (f77r.12)", "solchedy (f77r.27)", "saiin (f77r.29)", "solkeey (f77r.35)", "sodar (f77r.48)", "saiisol (f77r.47)", "sar (f77r.28)", "sal (f77r.10)"],
+      "semantic_role_per_framework": "INFLOW / condensation / source",
+      "spatial_distribution": "Scattered through paragraph as line-openers and in left margin labels. Final word of paragraph (sodar) is so-coded.",
+      "conclusion": "so-/sa- words mark INFLOW phases within the bath preparation procedure, and the so- final word 'sodar' may encode 'source/return' — the process completing its cycle back to inflow state."
+    },
+    "ot_prefix": {
+      "occurrences": ["otedy (f77r.3)", "otork (f77r.4)", "otol (f77r.5)", "dotedy (f77r.8)", "oteedy (f77r.11)", "otedy (f77r.25)", "otchdy (f77r.49)", "otolaiino (f77r.50)"],
+      "semantic_role_proposed": "CONDUIT / transit / pipe-state — neither pure inflow nor pure outflow. The conduit is the pipe itself.",
+      "spatial_distribution": "Concentrated in the left margin label column (naming the pipe structures) and in drain labels. Appears sporadically in paragraph to mark transition points.",
+      "conclusion": "NEW HYPOTHESIS: ot- prefix = CONDUIT/PIPE CODE. It labels the pipes, tubes, and transition channels themselves — structurally intermediate between so- (source/in) and qo- (product/out)."
+    },
+    "d_prefix": {
+      "occurrences": ["darchdar (f77r.1)", "dchdy (f77r.6)", "dotedy (f77r.8)", "daiin (multiple lines)"],
+      "semantic_role_proposed": "Structural/nominal prefix — names entities/figures rather than states",
+      "conclusion": "d- words appear as NAMES in label context and as sentence-opening identifiers in paragraph. May be a nominal prefix for solid entities (figures, vessels) as opposed to liquid-state prefixes."
+    }
+  },
+
+  "color_palette": {
+    "structural_elements": {
+      "arch_pipe_conduit": "olive_green / yellow_ochre wash — indicates hollow fluid-carrying structure",
+      "droplets_at_nozzles": "blue_green — consistent with water/liquid state marker",
+      "tub_vessel_interior": "yellow_green wash — liquid contents, moderate temperature (not red = not heated)",
+      "blue_sphere_in_tub": "deep_blue — medicinal additive or concentration indicator",
+      "red_orange_element_nozzle_3": "red_orange — HEAT MARKER at central nozzle (heated water stream?)"
+    },
+    "figures": {
+      "nymph_bodies": "pale_flesh / unpainted vellum — standard balneological figure treatment",
+      "outlines": "brown_iron_gall_ink — structural drawing ink"
+    },
+    "bottom_creature": "dark_brown with ochre scale wash — drain/filter element"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "folio": "f8r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f8r",
+    "total_loci_count": 21,
+    "unique_loci_found": [
+      "<f8r.1,@P0>",
+      "<f8r.2,+P0>",
+      "<f8r.3,+P0>",
+      "<f8r.4,+P0>",
+      "<f8r.5,+P0>",
+      "<f8r.6,+P0>",
+      "<f8r.7,+P0>",
+      "<f8r.8,=Pt>",
+      "<f8r.9,*P0>",
+      "<f8r.10,+P0>",
+      "<f8r.11,+P0>",
+      "<f8r.12,+P0>",
+      "<f8r.13,=Pt>",
+      "<f8r.14,*P0>",
+      "<f8r.15,+P0>",
+      "<f8r.16,+P0>",
+      "<f8r.17,+P0>",
+      "<f8r.18,+P0>",
+      "<f8r.19,+P0>",
+      "<f8r.20,+P0>",
+      "<f8r.21,=Pt>"
+    ],
+    "syntax_clues_detected": [
+      "f8r.1  contains <-> — bisection by central plant stem",
+      "f8r.2  contains <-> — same plant stem bisector",
+      "f8r.3  contains <-> — same plant stem bisector",
+      "f8r.4  contains <-> — same plant stem bisector",
+      "f8r.5  contains <-> — same plant stem bisector",
+      "f8r.6  contains <-> — same plant stem bisector",
+      "f8r.8  is =Pt — short continuation/terminal tag line (single short word group, no paragraph start)",
+      "f8r.9  is *P0 — paragraph restart after =Pt break",
+      "f8r.9  contains <-> — bisection resumes",
+      "f8r.10 contains <-> — bisection",
+      "f8r.11 contains <-> — bisection",
+      "f8r.12 contains <-> — bisection",
+      "f8r.13 is =Pt — second short terminal tag line",
+      "f8r.14 is *P0 — paragraph restart after second =Pt break",
+      "f8r.14 contains <-> — bisection resumes",
+      "f8r.15 contains <-> — bisection",
+      "f8r.16 contains <-> — bisection",
+      "f8r.17 contains <-> — bisection",
+      "f8r.18 contains <-> — bisection",
+      "f8r.19 contains <-> — bisection",
+      "f8r.20 contains <-> — bisection",
+      "f8r.21 is =Pt — final terminal tag line (no bisection)"
+    ],
+    "visual_anchor_inventory": [
+      "main_leaf — large dominant green leaf occupying the upper half of the folio",
+      "leaf_midrib — central vein/midrib of the leaf, running vertically from the apex down to the stem",
+      "plant_stem — the vertical stem descending from the leaf base through the center of the text zone",
+      "leaf_shadow_wash — pale blue-green wash/ghost of a second leaf overlapping the lower leaf zone",
+      "root_system — complex branching root structure in the lower-left quadrant of the folio",
+      "left_text_column — text block to the left of the plant stem",
+      "right_text_column — text block to the right of the plant stem"
+    ]
+  },
+  "visual_anchors": {
+    "main_leaf": {
+      "description": "A very large, prominently painted green leaf dominating the upper half of the folio. The leaf has a lobed outline with three to five pointed lobes. It is rendered in a vivid green wash with visible midrib and lateral veins. The leaf apex is at the top-center of the folio (y≈0). The leaf base connects to the plant_stem at approximately y≈490–510.",
+      "bounding_box": {"x_min": 195, "y_min": 0, "x_max": 840, "y_max": 510}
+    },
+    "leaf_midrib": {
+      "description": "The central midrib of the main_leaf, a pale/white vertical line running from the leaf apex (y≈0, x≈505) down through the center of the leaf to its base where it connects to the stem. This midrib is the primary bisecting anchor for all <-> lines — it extends through the text zone below the leaf base as the plant_stem.",
+      "bounding_box": {"x_min": 490, "y_min": 0, "x_max": 525, "y_max": 510}
+    },
+    "plant_stem": {
+      "description": "The vertical plant stem descending from the leaf base through the text zone. A narrow, elongated structure (approximately 20–30 normalized units wide) running from y≈510 down to y≈830 where it meets the root system. The stem is the physical object causing all <-> bisections in the text lines below the leaf.",
+      "bounding_box": {"x_min": 492, "y_min": 490, "x_max": 525, "y_max": 830}
+    },
+    "leaf_shadow_wash": {
+      "description": "A pale blue-green wash in the mid-lower zone of the folio (approximately y≈500–700), possibly a second smaller leaf or water-pool form rendered in lighter pigment. It underlies some of the text and may slightly affect text placement in lines 9–13.",
+      "bounding_box": {"x_min": 280, "y_min": 490, "x_max": 750, "y_max": 700}
+    },
+    "root_system": {
+      "description": "A complex branching root structure in the lower-left corner of the folio, drawn in brown/gold ink. The roots branch outward from the base of the plant_stem. They are entirely illustrative with no text overlay. Roots extend from approximately x≈60–420, y≈840–1000.",
+      "bounding_box": {"x_min": 60, "y_min": 835, "x_max": 420, "y_max": 1000}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "first_paragraph_block_P0_lines1to8",
+      "description": "The first paragraph block (@P0, lines f8r.1–8). Lines 1–6 are bisected by the plant_stem/leaf_midrib. Line 7 is the first unbroken line (no <->). Line 8 is a short =Pt terminal/continuation tag, marking a paragraph break.",
+      "lines": [
+        {
+          "locus": "<f8r.1,@P0>",
+          "raw_text": "pshol.chor.otshal.chopy<->cphal.chody.shy.cfhodar.shor",
+          "bounding_box": {"x_min": 60, "y_min": 490, "x_max": 930, "y_max": 523},
+          "interaction": "BISECTED. First line below the leaf base. Left segment 'pshol.chor.otshal.chopy' x_min:60 → x_max:~488. Gap x≈488–528 occupied by the leaf_midrib / upper plant_stem. Right segment 'cphal.chody.shy.cfhodar.shor' x_min:~528 → x_max:~830."
+        },
+        {
+          "locus": "<f8r.2,+P0>",
+          "raw_text": "tchty.sh.kcheals.sho<->okche.do.dchy.dain.al",
+          "bounding_box": {"x_min": 60, "y_min": 525, "x_max": 930, "y_max": 558},
+          "interaction": "BISECTED. Left segment 'tchty.sh.kcheals.sho' x_min:60 → x_max:~485. Gap x≈485–528. Right segment 'okche.do.dchy.dain.al' x_min:~528 → x_max:~760."
+        },
+        {
+          "locus": "<f8r.3,+P0>",
+          "raw_text": "chodar.shy.sy<->chodaiin.shokchy.chor.dy",
+          "bounding_box": {"x_min": 60, "y_min": 560, "x_max": 920, "y_max": 593},
+          "interaction": "BISECTED. Left segment 'chodar.shy.sy' x_min:60 → x_max:~482. Gap x≈482–528. Right segment 'chodaiin.shokchy.chor.dy' x_min:~528 → x_max:~770."
+        },
+        {
+          "locus": "<f8r.4,+P0>",
+          "raw_text": "qotor.chor.chor.sheey<->dchol.shesed.chof.chy.dam",
+          "bounding_box": {"x_min": 60, "y_min": 595, "x_max": 920, "y_max": 628},
+          "interaction": "BISECTED. Left segment 'qotor.chor.chor.sheey' x_min:60 → x_max:~480. Gap x≈480–528. Right segment 'dchol.shesed.chof.chy.dam' x_min:~528 → x_max:~800."
+        },
+        {
+          "locus": "<f8r.5,+P0>",
+          "raw_text": "okchey.do.r.cheeey.dy.ky<->scho.chky.ckooaiin.chataiin",
+          "bounding_box": {"x_min": 60, "y_min": 630, "x_max": 920, "y_max": 663},
+          "interaction": "BISECTED. Left segment 'okchey.do.r.cheeey.dy.ky' x_min:60 → x_max:~478. Gap x≈478–528. Right segment 'scho.chky.ckooaiin.chataiin' x_min:~528 → x_max:~810."
+        },
+        {
+          "locus": "<f8r.6,+P0>",
+          "raw_text": "tosh.ckcheey.koltoldy<->shy.choety.cheeody.sal",
+          "bounding_box": {"x_min": 60, "y_min": 665, "x_max": 900, "y_max": 698},
+          "interaction": "BISECTED. Left segment 'tosh.ckcheey.koltoldy' x_min:60 → x_max:~476. Gap x≈476–530. Right segment 'shy.choety.cheeody.sal' x_min:~530 → x_max:~770."
+        },
+        {
+          "locus": "<f8r.7,+P0>",
+          "raw_text": "choto.kchoan.choor.dain",
+          "bounding_box": {"x_min": 60, "y_min": 700, "x_max": 580, "y_max": 733},
+          "interaction": "No bisection marker. Short line confined to the left column zone, possibly ending before reaching the stem. Text runs x_min:60 → x_max:~578."
+        },
+        {
+          "locus": "<f8r.8,=Pt>",
+          "raw_text": "dcho.dain",
+          "bounding_box": {"x_min": 60, "y_min": 735, "x_max": 220, "y_max": 758},
+          "interaction": "=Pt terminal tag. Very short two-word line. Positioned in the left column only. Marks the end of the first paragraph sub-block. No bisection."
+        }
+      ]
+    },
+    {
+      "block_id": "second_paragraph_block_P0_lines9to13",
+      "description": "Second paragraph block starting with *P0 restart (f8r.9). Lines 9–12 are bisected by the plant_stem. Line 13 is a second =Pt terminal tag.",
+      "lines": [
+        {
+          "locus": "<f8r.9,*P0>",
+          "raw_text": "tchoep.sho,pcheey.pchey<->ofchey.dsheey.sholdaiin.shor",
+          "bounding_box": {"x_min": 60, "y_min": 762, "x_max": 920, "y_max": 795},
+          "interaction": "BISECTED. Paragraph restart (*P0). Left segment 'tchoep.sho,pcheey.pchey' x_min:60 → x_max:~475. Gap x≈475–530. Right segment 'ofchey.dsheey.sholdaiin.shor' x_min:~530 → x_max:~820."
+        },
+        {
+          "locus": "<f8r.10,+P0>",
+          "raw_text": "daiin.cheey.teeodan.dy<->cheocthy.oksheo.dol.dairg",
+          "bounding_box": {"x_min": 60, "y_min": 797, "x_max": 900, "y_max": 830},
+          "interaction": "BISECTED. Left segment 'daiin.cheey.teeodan.dy' x_min:60 → x_max:~473. Gap x≈473–530. Right segment 'cheocthy.oksheo.dol.dairg' x_min:~530 → x_max:~800."
+        },
+        {
+          "locus": "<f8r.11,+P0>",
+          "raw_text": "shol.cheodaiin.daiin.do<->ytchody.chot.choty.otariin",
+          "bounding_box": {"x_min": 60, "y_min": 832, "x_max": 900, "y_max": 865},
+          "interaction": "BISECTED. Left segment 'shol.cheodaiin.daiin.do' x_min:60 → x_max:~472. Gap x≈472–532. Right segment 'ytchody.chot.choty.otariin' x_min:~532 → x_max:~800. At this level the plant_stem transitions toward the root_system zone."
+        },
+        {
+          "locus": "<f8r.12,+P0>",
+          "raw_text": "qochodaiin.shotokody<->chotol",
+          "bounding_box": {"x_min": 60, "y_min": 867, "x_max": 760, "y_max": 900},
+          "interaction": "BISECTED. Left segment 'qochodaiin.shotokody' x_min:60 → x_max:~468. Gap x≈468–535. Right segment 'chotol' x_min:~535 → x_max:~640. Very short right segment."
+        },
+        {
+          "locus": "<f8r.13,=Pt>",
+          "raw_text": "okokchodg",
+          "bounding_box": {"x_min": 60, "y_min": 902, "x_max": 240, "y_max": 925},
+          "interaction": "=Pt second terminal tag. Single short word in the left column. No bisection. Marks end of second paragraph sub-block."
+        }
+      ]
+    },
+    {
+      "block_id": "third_paragraph_block_P0_lines14to21",
+      "description": "Third paragraph block starting with *P0 restart (f8r.14). Lines 14–20 are bisected. Line 21 is the final =Pt terminal tag.",
+      "lines": [
+        {
+          "locus": "<f8r.14,*P0>",
+          "raw_text": "cpho.cfhey.shol.chofydy<->sho.chey.kshey.lody.cholal",
+          "bounding_box": {"x_min": 60, "y_min": 928, "x_max": 920, "y_max": 961},
+          "interaction": "BISECTED. Paragraph restart (*P0). Left segment 'cpho.cfhey.shol.chofydy' x_min:60 → x_max:~462. Gap x≈462–535. Right segment 'sho.chey.kshey.lody.cholal' x_min:~535 → x_max:~820."
+        },
+        {
+          "locus": "<f8r.15,+P0>",
+          "raw_text": "dchey.ckhol.chol.chey.kchs<->chy.ctodaiin.dol.daiiirchy.ckhy",
+          "bounding_box": {"x_min": 60, "y_min": 480, "x_max": 920, "y_max": 513},
+          "interaction": "BISECTED. NOTE: Coordinate range here is estimated based on visual analysis of the folio's middle section. Left segment 'dchey.ckhol.chol.chey.kchs' x_min:60 → x_max:~460. Gap x≈460–535. Right segment 'chy.ctodaiin.dol.daiiirchy.ckhy' x_min:~535 → x_max:~850."
+        },
+        {
+          "locus": "<f8r.16,+P0>",
+          "raw_text": "ychey.kchekchy.chseykchy<->scheaiin.cthaichar.cthy.dar",
+          "bounding_box": {"x_min": 60, "y_min": 515, "x_max": 920, "y_max": 548},
+          "interaction": "BISECTED. Left segment 'ychey.kchekchy.chseykchy' x_min:60 → x_max:~458. Gap x≈458–535. Right segment 'scheaiin.cthaichar.cthy.dar' x_min:~535 → x_max:~810."
+        },
+        {
+          "locus": "<f8r.17,+P0>",
+          "raw_text": "chol.dchy.qokar.chl<->aiin.chean.cky.char.chaiin",
+          "bounding_box": {"x_min": 60, "y_min": 550, "x_max": 920, "y_max": 583},
+          "interaction": "BISECTED. Left segment 'chol.dchy.qokar.chl' x_min:60 → x_max:~455. Gap x≈455–535. Right segment 'aiin.chean.cky.char.chaiin' x_min:~535 → x_max:~800."
+        },
+        {
+          "locus": "<f8r.18,+P0>",
+          "raw_text": "okar.cfhaiin.chaiin.cl<->daiin.chor.cha.rchealcham",
+          "bounding_box": {"x_min": 60, "y_min": 585, "x_max": 920, "y_max": 618},
+          "interaction": "BISECTED. Left segment 'okar.cfhaiin.chaiin.cl' x_min:60 → x_max:~453. Gap x≈453–535. Right segment 'daiin.chor.cha.rchealcham' x_min:~535 → x_max:~820."
+        },
+        {
+          "locus": "<f8r.19,+P0>",
+          "raw_text": "sair.cheain.cphol.dar<->shol.kaiin.shol.kaiin.daikam",
+          "bounding_box": {"x_min": 60, "y_min": 620, "x_max": 920, "y_max": 653},
+          "interaction": "BISECTED. Left segment 'sair.cheain.cphol.dar' x_min:60 → x_max:~450. Gap x≈450–535. Right segment 'shol.kaiin.shol.kaiin.daikam' x_min:~535 → x_max:~820."
+        },
+        {
+          "locus": "<f8r.20,+P0>",
+          "raw_text": "or.chokesey.shey.o.kal<->chal",
+          "bounding_box": {"x_min": 60, "y_min": 655, "x_max": 750, "y_max": 688},
+          "interaction": "BISECTED. Short right segment. Left segment 'or.chokesey.shey.o.kal' x_min:60 → x_max:~448. Gap x≈448–535. Right segment 'chal' x_min:~535 → x_max:~600. Very short right segment, only one word."
+        },
+        {
+          "locus": "<f8r.21,=Pt>",
+          "raw_text": "schol.saim",
+          "bounding_box": {"x_min": 60, "y_min": 690, "x_max": 240, "y_max": 713},
+          "interaction": "=Pt final terminal tag. Two-word line in the left column only. No bisection. Marks the absolute end of the text block on this folio."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "main_leaf",
+      "status": "Completely text-free — occupies upper half of folio above text zone",
+      "description": "The large green leaf occupies the entire upper half of the folio (y=0 to y≈490). No text is written on or around the leaf body. All text begins below the leaf base. The leaf's dominant size pushes all paragraph text into the lower half of the folio."
+    },
+    {
+      "anchor_id": "plant_stem",
+      "status": "Intentionally bisected — primary structural bisector for all 17 <-> lines",
+      "description": "The narrow plant_stem descends through the center of the text zone, causing <-> bisection in lines f8r.1–6, f8r.9–12, and f8r.14–20 (17 lines total). The stem itself is text-free. The gap it creates in the text is narrow (approximately 45–55 normalized units wide), consistent with a thin stem. The three =Pt / *P0 paragraph breaks (lines 8, 13) coincide with the stem zone but are positioned entirely in the left column, suggesting the paragraph structure acknowledges the stem as a visual divider."
+    },
+    {
+      "anchor_id": "leaf_shadow_wash",
+      "status": "Partially overlapping — wash underlies text without bisecting it",
+      "description": "The blue-green wash in the mid-zone (y≈490–700) underlies several text lines but does not create any additional <-> bisections. The text is written over the wash. It is an illustrative element subordinate to the text layout."
+    },
+    {
+      "anchor_id": "root_system",
+      "status": "Completely text-free — lower-left corner illustration",
+      "description": "The branching root system in the lower-left corner is entirely text-free. It occupies approximately x=60–420, y=835–1000. No text is written over the roots. The root system defines the lower boundary of the folio's illustrated content."
+    }
+  ]
+}

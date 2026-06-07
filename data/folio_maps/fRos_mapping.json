@@ -1,0 +1,659 @@
+{
+  folio fRos,
+  source_dataset RF1b-er.txt,
+  coordinate_system Normalized_0_to_1000 (X 0=Left-binding-edge, 1000=Right; Y 0=Top, 1000=Bottom). Full unfolded page. Fold lines at X≈333, X≈667 (vertical), Y≈490 (horizontal gutter binding).,
+
+  audit_log {
+    extracted_folio_id fRos,
+    total_loci_count 160,
+    unique_loci_found [
+      fRos.1,@L0,fRos.2,@Cc,fRos.3,@L0,fRos.4,+L0,fRos.5,+L0,
+      fRos.6,+L0,fRos.7,+L0,fRos.8,+L0,fRos.9,+L0,fRos.10,+L0,
+      fRos.11,@L0,fRos.12,@L0,fRos.13,@L0,fRos.14,@L0,fRos.15,@L0,
+      fRos.16,@L0,fRos.17,@L0,fRos.18,@L0,fRos.19,@L0,
+      fRos.20,@Cc,fRos.21,@L0,fRos.22,@L0,fRos.23,@L0,fRos.24,@L0,
+      fRos.25,@L0,fRos.26,@L0,fRos.27,@L0,fRos.28,@L0,fRos.29,@L0,
+      fRos.30,@L0,fRos.31,@L0,fRos.32,@L0,fRos.33,@L0,fRos.34,@L0,
+      fRos.35,@Cc,fRos.36,@Cc,fRos.37,@L0,fRos.38,@L0,
+      fRos.39,@Pb,fRos.40,+Pb,
+      fRos.41,@L0,fRos.42,@L0,fRos.43,@L0,fRos.44,@L0,fRos.45,@L0,fRos.46,@L0,
+      fRos.47,@Cc,fRos.48,@L0 ... fRos.61,@L0,
+      fRos.62,@Cc,fRos.63,@L0 ... fRos.86,@L0,
+      fRos.87,@Cc [WITH -],
+      fRos.88,@L0 ... fRos.93,@L0,
+      fRos.94,@Cc,fRos.95,@L0 ... fRos.112,@L0,
+      fRos.113,=Cc,fRos.114,+Ca,fRos.115,=L0,
+      fRos.116,@L0 ... fRos.121,@L0,
+      fRos.122,@Cc,fRos.123,@L0 ... fRos.132,@L0,
+      fRos.133,@Cc,fRos.134,@L0,fRos.135,@L0,fRos.136,@L0,
+      fRos.137,@Pb,fRos.138,Pb,fRos.139,@Pb,fRos.140,+Pb,
+      fRos.141,+Pb,fRos.142,@Pb,fRos.143,+Pb,fRos.144,+Pb,fRos.145,+Pb,
+      fRos.146,@L0 ... fRos.160,+L0
+    ],
+    syntax_clues_detected [
+      fRos.87,@Cc HAS - 'yke.okees.olcheda.okaly.ol.otodar.shekal-olkar.cheykar.shal.qokal...' — a CIRCULAR RING INSCRIPTION itself is bisected by a structural element (likely a radiating spoke or central element of R6). UNIQUE this is the only @Cc with - in the entire analyzed corpus.,
+      fRos.35 AND fRos.36 are CONSECUTIVE @Cc entries — one rosette (R3, top-right) has TWO distinct ring inscription bands,
+      fRos.110 uses L0 marker — unique '' prefix not seen elsewhere; likely indicates a label written upside-down or perpendicular relative to the reading direction,
+      fRos.113 uses =Cc — a 'same-line continuation' of a circular inscription, possibly for an inner sub-ring,
+      fRos.114 uses +Ca — 'Ca' is a different circle type from 'Cc'; may indicate an inner small circle or a different concentric element,
+      fRos.39-40 are @Pb+Pb — paragraph blocks with bisection-type formatting, located in the narrow tubechannel connecting structures between rosettes,
+      fRos.137-145 are a dense @Pb cluster (9 consecutive paragraph lines) — the largest non-circular text block on the folio, located in a connecting passage area,
+      fRos.3-10 are @L0+L0 continuation — first label cluster forms a multi-line group (8 lines) for R1,
+      fRos.14 raw_text 'ddsschx' contains rare 'x' and double-s-c-c-h cluster,
+      fRos.62 @Cc contains 'ax' — triple uncertainty marker with 'x', very rare,
+      Multiple intra-word commas across @Cc texts 'ar,ol', 'al,al', 'ok,eed', 'ar,kchedy', 'al,kchedy', 'afal,airi,dy' (double comma in one word), 'o,dar', 'okchr,ar', 'okal,al',
+      fRos.29 raw_text 'dxar' contains rare 'x',
+      fRos.105 raw_text 'xoltedy' contains initial 'x',
+      fRos.94 @Cc contains 'xasashe' and 'xar' — two 'x' glyphs,
+      fRos.133 @Cc contains 'x' three times 'otodad', 'oiir', '',
+      Orientation alert R7, R8, R9 (bottom row) appear INVERTED in the image — they are read from the other side of the fold-out. All bounding box coordinates are given in the VISUAL orientation as seen in the provided image.,
+      Total @Cc circular inscriptions 10 entries across 9 rosettes (R3 has 2)
+    ],
+    visual_anchor_inventory [
+      R1 — top-left large concentric rosette, blue-teal ring details,
+      R2 — top-center starburstsunburst, blue + gold petals,
+      R3 — top-right stippled circular, blue dot-border, two ring texts,
+      R4 — middle-left irregular organic form with sub-elements,
+      R5 — middle-center large oval, nymph figures inside, blue-teal dot ring,
+      R6 — middle-right hourglassfigure-8 double rosette,
+      R7 — bottom-left smaller rosette, green-teal interior, INVERTED,
+      R8 — bottom-center starburst, blue + gold, INVERTED,
+      R9 — bottom-right stippled circular, blue cross-star center, INVERTED,
+      connecting_tube_NW_center — narrow tubechannel between R1 and R2,
+      connecting_tube_center_vertical — the central vertical spine passing through R2 and R5 and R8,
+      connecting_tube_right_vertical — connecting structure between R3, R6, R9,
+      connecting_tube_left_vertical — connecting R1, R4, R7,
+      fold_line_vertical_left — physical crease at X≈333,
+      fold_line_vertical_right — physical crease at X≈667,
+      fold_line_horizontal — physical crease at Y≈490 (book spinegutter)
+    ]
+  },
+
+  physical_structure {
+    description fRos is a large fold-out composed of 6 panels arranged 3 columns × 2 rows when unfolded, creating a visual field approximately 3× the normal page width and 2× the normal page height. The 9 rosette diagrams are arranged in a 3×3 grid. The bottom row (R7, R8, R9) is oriented UPSIDE-DOWN relative to the top rows — they must be read by rotating the page 180°, which is why they appear 'aukštyn kojomis' in this view. The fold-out is connected by narrow 'tube' or 'channel' structures between rosettes, which carry their own @Pb paragraph text. The three vertical fold creases divide the page at X≈333 and X≈667. The horizontal binding area is at Y≈490.,
+    fold_line_vertical_left {x 333, y_span 0-1000, color Physical crease — no color, mechanical impression in parchment},
+    fold_line_vertical_right {x 667, y_span 0-1000, color Physical crease — no color},
+    fold_line_horizontal {y 490, x_span 0-1000, color Physical crease  book gutter — no color, slight warping visible},
+    orientation_grid {
+      R1 TOP-LEFT — normal reading orientation (right-side up),
+      R2 TOP-CENTER — normal reading orientation,
+      R3 TOP-RIGHT — normal reading orientation,
+      R4 MIDDLE-LEFT — normal orientation, some text rotated within,
+      R5 MIDDLE-CENTER — normal orientation, straddles vertical fold,
+      R6 MIDDLE-RIGHT — normal orientation,
+      R7 BOTTOM-LEFT — INVERTED 180° in image view,
+      R8 BOTTOM-CENTER — INVERTED 180° in image view,
+      R9 BOTTOM-RIGHT — INVERTED 180° in image view
+    }
+  },
+
+  visual_anchors {
+
+    R1_top_left_concentric {
+      description The top-left rosette. A large, clearly-defined circular diagram with approximately 3-4 concentric rings radiating from a central plain ovalcircle. The innermost zone is empty parchment — a large negative space. Moving outward the first ring carries text (@Cc, fRos.2) written concentrically. The next ring has a distinctive scale or scallop pattern rendered in blue-teal ink, creating a regular decorative border of half-circles or overlapping arcs. The outermost ring also carries text or labels. The overall form is the most classically geometric of all nine rosettes — a pure nested-circle structure. A short connecting tube extends rightward toward the top-center zone.,
+      color Rings dark brown-black ink outlines. Decorative scalescallop ring blue-teal (same azuriteverdigris pigment as vessel tower blue in the balneological section). Central oval cream parchment (unpainted). Outer text rings warm ink on cream parchment. Background slightly aged cream parchment. The blue-teal of the scale ring is the sole pigment color on this rosette — minimal but precise.,
+      orientation Normal — right-side up,
+      bounding_box {x_min 45, y_min 30, x_max 298, y_max 420},
+      center {x 165, y 215},
+      approximate_diameter 255
+    },
+
+    R2_top_center_starburst {
+      description The top-center rosette and the most visually dramatic element of the entire fRos. A large circular diagram with a dominant starburstsunburst interior. The inner zone contains approximately 8 large broad triangular petals painted in deep blue, alternating with 8 narrower triangular forms in warm gold-tan. Together they create a 16-point compass-rose or heraldic sun pattern. The surrounding middle ring carries text. The outer ring has a complex scalloped or toothed border rendered in dark ink. Small decorative circular elements appear at the intersections of the scallop border. The overall diameter is slightly smaller than R1 but the visual impact is far greater due to the vivid pigment use.,
+      color Blue petals deep solid blue (azuritelapis — the most saturated blue in the entire manuscript, vivid and opaque). Goldtan petals warm ochre-gold (yellow ochre or lead-tin yellow pigment — a warm amber-gold tone, the same pigment family as the star markers in f67r1 but more densely applied). Outer border scallops dark brown-black ink, no fill. Text rings ink on parchment. The blue-and-gold combination is the visual signature of fRos — appearing again in R8 at the bottom.,
+      orientation Normal — right-side up,
+      bounding_box {x_min 332, y_min 25, x_max 655, y_max 395},
+      center {x 490, y 195},
+      approximate_diameter 310
+    },
+
+    R3_top_right_stippled {
+      description The top-right rosette. A large circular diagram whose most distinctive feature is its outer ring decorated with densely packed blue stippling — hundreds of small blue dots creating a continuous dottedspotted annular band. This stippled ring creates a unique visual texture unlike any other element in the analyzed folios. The inner zone has a smoother ring or two, and at the bottom interior, small standing or gesturing human figures appear to be present. The right side of this rosette has an element that appears to be a figure or creature with extending appendages. Two consecutive @Cc ring inscriptions (fRos.35 and fRos.36) indicate this rosette has two distinct text bands.,
+      color Stippled outer ring blue dots (same pigment as R2 blue petals, applied pointillistically rather than as solid fill — hundreds of individual blue pigment dots). Inner rings dark ink outline, no fill. Figural elements (if present) faint ink outlines, possibly washed with pale tints. Right-side creaturefigure dark ink with possible blue-teal accent. Background cream parchment visible between dots. The dotted blue pattern is unique in the corpus.,
+      orientation Normal — right-side up (though some internal text may be rotated toward center),
+      bounding_box {x_min 668, y_min 25, x_max 960, y_max 430},
+      center {x 820, y 220},
+      approximate_diameter 285
+    },
+
+    R4_middle_left_organic {
+      description The middle-left rosette. The most irregular and organic of the nine forms — unlike the geometric circles of the others, R4 has an uneven, roughly kidney-shaped or amoeboid outer boundary. Inside this outer envelope, multiple sub-forms are visible what appear to be smaller rounded elements, possibly pools or chambers, and connecting structures. Dense text (@Cc, fRos.47) follows the inner boundary of the outer ring. Multiple @L0 labels (fRos.48–61) point to specific internal sub-elements. The overall impression is of a map or diagram of a body or landscape rather than an astronomicalcosmological scheme. A connecting tube extends downward and to the right, and another upward toward R1.,
+      color Outer boundary line dark brown-black ink (irregular, hand-drawn without compass). Interior sub-elements pale washes in blue-teal and warm tan, creating faint zone differentiations. Some areas show a light green-gray wash. The color is subtler and less organized than the other rosettes — more topographiccartographic in feel. Any blue elements within use the same azuriteverdigris blue seen in R1 and R2. Background cream parchment.,
+      orientation Normal orientation for text, but the organic irregular form means text follows the boundary rather than a strict circle. Some labels read from different directions.,
+      bounding_box {x_min 40, y_min 420, x_max 310, y_max 695},
+      center {x 180, y 550},
+      approximate_diameter 240
+    },
+
+    R5_middle_center_nymph_oval {
+      description The middle-center rosette and the largest single illustration on the fRos. An elongated oval or ellipse (taller than wide) surrounded by approximately 3-4 concentric rings. The innermost space contains a procession or gathering of small standing human figures — approximately 10-15 nymph-like figures arranged in a horizontal row or arc, consistent with the balneological nymph figures seen in f82r and f87r. The inner ring surrounding the figures has a distinctive blue-teal dot pattern — blue globules or blob-dots distributed regularly around the circumference, similar to the stippling of R3 but larger and more widely spaced. The middle ring carries text (@Cc, fRos.62 — the longest @Cc inscription). The outer ring is a dense textured band. This rosette straddles the left vertical fold line at X≈333.,
+      color Nymph figures pale cream skin (uncolored parchment) with dark ink outlines and facial features, hair rendered in dark brown ink — identical to f82r nymph style. Inner dot ring blue-teal blobsglobules (same pigment, larger application than R3's stippling). Middle text ring ink on parchment. Outer textured ring dark ink hatching or scallop pattern. The nymph figures' skin is the largest expanse of uncolored parchment used as a positive space on fRos.,
+      orientation Normal — right-side up. The long axis of the oval is vertical.,
+      bounding_box {x_min 327, y_min 415, x_max 660, y_max 730},
+      center {x 492, y 565},
+      approximate_major_axis 315,
+      approximate_minor_axis 240
+    },
+
+    R6_middle_right_hourglass {
+      description The middle-right rosette. A unique form in the corpus two circular elements connected by a narrow neck or waist, creating an hourglass or figure-8 configuration. The upper circle is larger; the lower is smaller. Each has its own concentric ring structure. The connecting neck is narrow and contains a very small text or symbol. The overall combined form suggests a cosmological pair — perhaps sunmoon, daynight, or two celestial bodies in conjunction. The @Cc entry fRos.87 WITH - bisection applies to this rosette the circular inscription is split by the connecting neck element between the two circles, creating a left and right segment.,
+      color Upper circle rings dark ink with blue-teal dot or scale decoration similar to R1 and R3. Lower circle rings dark ink. Connecting neck dark ink, possibly with a small blue element. The blue dots here are smaller and more sparsely applied than in R5. Overall palette ink on parchment with selective blue-teal highlights.,
+      orientation Normal — right-side up,
+      bounding_box {x_min 663, y_min 390, x_max 965, y_max 695},
+      center_upper {x 820, y 462},
+      center_lower {x 820, y 625},
+      approximate_diameter_upper 215,
+      approximate_diameter_lower 145
+    },
+
+    R7_bottom_left_green_inverted {
+      description The bottom-left rosette. INVERTED in the image view — must be rotated 180° to read correctly. A medium-sized circular diagram. Its most distinctive feature is a green-teal interior fill — the innermost circle or central zone is painted with a solid or semi-solid green wash, unlike most other rosettes which have plain parchment interiors. This green interior makes R7 immediately identifiable as the only 'filled' rosette in the set. Concentric rings surround the green center. The @Cc text (fRos.94) follows the ring circumference. When read in correct orientation (flipped 180°), the text flows clockwise or counter-clockwise around the ring.,
+      color Central fill medium green wash (malachite green, same pigment as botanical illustrations — this is the same green used for plant leaves in f88r, f49v etc., here applied as a background wash). Ring outlines dark ink. Some ring segments may show blue-teal dot decoration. Background parchment cream. The green center is the most unusual interior treatment of any rosette — it suggests water, grass, a specific place, or a symbolic distinction.,
+      orientation INVERTED 180° — appears upside-down in image. All text reads normally when page is rotated 180°.,
+      bounding_box {x_min 48, y_min 680, x_max 295, y_max 958},
+      center {x 172, y 820},
+      approximate_diameter 235
+    },
+
+    R8_bottom_center_starburst_inverted {
+      description The bottom-center rosette. INVERTED in the image view — must be rotated 180° to read. A starburstsunburst design closely mirroring R2 at the top-center — the compositional symmetry between R2 and R8 is one of the strongest visual pairings on fRos. Like R2, it has alternating blue triangular petals and gold-tan triangular forms creating a compass-rose or solar disc. However, the R8 starburst appears slightly smaller and the number of petals may differ from R2. The outer ring with text and scallop border follows the same pattern as R2. This symmetry between top-center (R2) and bottom-center (R8) suggests the fRos was composed as a vertically symmetric diagram.,
+      color Blue petals same deep solid blue as R2 (azurite). Goldtan petals same warm ochre-gold as R2. The blue-and-gold pattern is visually identical to R2 — both using the same specific pigments in the same alternating pattern. This color symmetry is deliberate and meaningful — R2 and R8 are likely a thematic pair (possibly sunmoon, daynight, two seasons, or two astronomical events). Outer border dark ink. Text rings ink on parchment.,
+      orientation INVERTED 180° — appears upside-down in image,
+      bounding_box {x_min 330, y_min 705, x_max 660, y_max 998},
+      center {x 490, y 858},
+      approximate_diameter 280
+    },
+
+    R9_bottom_right_stippled_cross_inverted {
+      description The bottom-right rosette. INVERTED in the image view — must be rotated 180° to read. A large circular diagram with a stippled outer ring (similar to R3 top-right — another deliberate compositional symmetry). However, R9's most distinctive feature not shared with R3 is a prominent blue cross or X-shaped star mark at or near the center. This central blue crossasteriskstar is the focal point of the inner circle. Like R3 at the top-right, R9 has blue dot stippling in its outer ring. The symmetry between R3 and R9 (both stippled, both at right column, one normal one inverted) suggests a thematic pairing similar to R2R8.,
+      color Outer stippled ring blue dots (same azurite pigment as R3, same pointillist application). Central crossstar solid deep blue (concentrated application — more opaque than the outer dots). Inner ring dark ink, no fill. Connecting tube area pale ink outlines. Background parchment cream. The blue cross at center is the single most isolated blue mark on the entire fRos — a focal anchor of the bottom-right panel.,
+      orientation INVERTED 180° — appears upside-down in image,
+      bounding_box {x_min 665, y_min 675, x_max 960, y_max 995},
+      center {x 818, y 835},
+      approximate_diameter 280
+    },
+
+    connecting_tubes_network {
+      description A network of narrow tube-like or channel-like structures connecting the nine rosettes in a structured pattern. These are not random connections — they form a deliberate network R1-R2 (horizontal tube, top), R2-R3 (horizontal), R4-R5-R6 (horizontal connections, middle), vertical connections between rows. The tubes vary in width (5-25 normalized units) and each has dark ink outlines. Some tubes appear to have small objects within them (possibly vessels, streams, or symbolic elements). The @Pb paragraph blocks (fRos.39-40 and fRos.137-145) are located within these connecting structures.,
+      color Tube walls dark brown-black ink outline. Tube interior cream parchment (no fill). Some tubes show faint blue-teal wash or markings within. One tube connecting structure (toward R4) shows what appears to be a small illustrated object (vessel) in warm tanbrown.,
+      bounding_box {x_min 40, y_min 30, x_max 965, y_max 995}
+    }
+  },
+
+  text_blocks_mapping [
+
+    {
+      block_id R1_top_left_all_text,
+      rosette R1 — top-left concentric circle,
+      orientation Normal (right-side up),
+      description Lines 1–19 constitute all text associated with R1. One overall @L0 label (fRos.1), one long @Cc ring inscription (fRos.2), and 17 @L0  +L0 labels distributed around the rings. The @Cc text (fRos.2) runs concentrically around the main text ring — the longest single ring text in the R1 area. The +L0 labels (fRos.4-10) form a continuation cluster, possibly labeling a single long element or the second ring. @L0 labels (fRos.11-19) are individual isolated labels pointing to specific visual zones or ring segments.,
+      lines [
+        {
+          locus fRos.1,@L0,
+          raw_text saeeasa,
+          bounding_box {x_min 45, y_min 30, x_max 175, y_max 55},
+          interaction Overall label for R1, positioned outside the outermost ring at the top-left edge. Contains uncertainty marker ''. The adjacent visual element is the dark-ink outline of the outermost ring of R1. Written in warm golden-brown ink. Uncertainty marker suggests the transcriber could not confidently read the last glyph.
+        },
+        {
+          locus fRos.2,@Cc,
+          raw_text oto.tos,air.adar.otar.otes.akaiin.dal.al.chdar.otdar.chefchs.okos.ol.om.olkeeo,daiin.shol.okal.orshees.qoeey.okalol.otodr.oees.ar,ol.oqokam.oteed.oteedy.okedy.lraiin.or.aiin.okor.okeedy,
+          bounding_box {x_min 65, y_min 70, x_max 292, y_max 380},
+          interaction Primary circular ring inscription for R1. This @Cc text runs concentrically around the inner text ring of R1. The bounding box represents the full annular zone the text traverses — the actual text follows the circle's circumference. Contains multiple intra-word commas 'tos,air', 'olkeeo,daiin', 'ar,ol'. 'chefchs' is an unusual compound with 'f'. 'oqokam' — 'oq' opening rare. Written in the same warm golden-brown ink as the labels. The blue-teal scale ring of R1 is the inner boundary of this text band; the outer ring line is the outer boundary.
+        },
+        {
+          locus fRos.3,@L0,
+          raw_text ofain,ain,
+          bounding_box {x_min 48, y_min 75, x_max 150, y_max 100},
+          interaction Label cluster opening. 'ofain,ain' contains an intra-word comma — notable for a short label. Positioned at the outer-left edge of R1's outermost ring. The adjacent dark-ink circle line is the visual anchor.
+        },
+        {
+          locus fRos.4,+L0,
+          raw_text ych,ais,
+          bounding_box {x_min 48, y_min 104, x_max 148, y_max 129},
+          interaction Continuation label. Contains both an intra-word comma AND an uncertainty marker 'ych,ais'. The '' embedded within a word is exceptional — suggests the transcriber was uncertain about a single glyph mid-word.
+        },
+        {
+          locus fRos.5,+L0,
+          raw_text ydekam,
+          bounding_box {x_min 48, y_min 133, x_max 145, y_max 158},
+          interaction Continuation label. Short, clear form. Left edge of R1 ring.
+        },
+        {
+          locus fRos.6,+L0,
+          raw_text darchedy,
+          bounding_box {x_min 48, y_min 162, x_max 165, y_max 187},
+          interaction Continuation label. 'd' initial.
+        },
+        {
+          locus fRos.7,+L0,
+          raw_text otochedy,sy,
+          bounding_box {x_min 48, y_min 191, x_max 178, y_max 216},
+          interaction Continuation label. Intra-word comma 'otochedy,sy'.
+        },
+        {
+          locus fRos.8,+L0,
+          raw_text soeedoy.olal,
+          bounding_box {x_min 48, y_min 220, x_max 188, y_max 245},
+          interaction Continuation label. Two-word form.
+        },
+        {
+          locus fRos.9,+L0,
+          raw_text dchor.orary,
+          bounding_box {x_min 48, y_min 249, x_max 178, y_max 274},
+          interaction Continuation label.
+        },
+        {
+          locus fRos.10,+L0,
+          raw_text sairojam,
+          bounding_box {x_min 48, y_min 278, x_max 165, y_max 303},
+          interaction Final continuation label in the first cluster. 'sairojam' — 'j' glyph notable.
+        },
+        {
+          locus fRos.11–19,@L0 cluster,
+          raw_text okchdarar  soiindy  ytedar  ddsschx  daldar  ofardy  orarol  daldal  daraldy,
+          bounding_box {x_min 48, y_min 307, x_max 290, y_max 415},
+          interaction Nine individual @L0 labels distributed around the outer ring of R1. Notable fRos.14 'ddsschx' contains extremely rare 'x' glyph AND a double-s-c-c cluster. Each label points to a specific arc-segment or decorative element on R1's outer ring. The blue-teal scale band is the primary color context for these labels — they annotate specific segments of the colored decorative ring. Written at various positions around the circumference of R1's outer zone.
+        }
+      ]
+    },
+
+    {
+      block_id R2_top_center_starburst_text,
+      rosette R2 — top-center starburst,
+      orientation Normal (right-side up),
+      description Lines 20–34 One @Cc ring inscription (fRos.20) and fourteen @L0 labels (fRos.21–34) for R2. The @Cc text runs around the middle ring band of the starburst, surrounding the blue-and-gold petal inner zone. The @L0 labels likely annotate individual petals or sectors of the starburst, the outer ring segments, and the connecting tube to R1.,
+      lines [
+        {
+          locus fRos.20,@Cc,
+          raw_text sais.od.r,ar.or.okal.okal.or.al,al.ykal.ol.ar.ol.ar.ol.al.lcr.okeer.okod.oked.okeo.ldy.opashs.otedy.chedchs.sheekede.odal.shd.olkeedy.yky.kaiir.okchdy.otol.ar.y.aiin.aiir.cheal.okchdy.oly.okain.olkaiin.ady,
+          bounding_box {x_min 345, y_min 65, x_max 648, y_max 380},
+          interaction Circular ring inscription for R2. This text runs concentrically around the text ring of the starburst, positioned BETWEEN the blue-and-gold inner petal zone and the outer scallop border. The text physically overlies or closely borders the most vivid color zone of fRos — deep blue petals at inner boundary, scallop-border dark ink at outer boundary. Contains multiple intra-word commas 'r,ar', 'al,al'; isolated single-glyph words 'r', 'y'; 'lcr' isolated consonant cluster. 'sheekede' unusual double-e. The repeated 'okal', 'ol', 'ar', 'al' creates a rhythmic quality. Written in warm golden-brown ink against cream parchment.
+        },
+        {
+          locus fRos.21,@L0,
+          raw_text oka,
+          bounding_box {x_min 332, y_min 25, x_max 390, y_max 50},
+          interaction Label. Very short — 3 glyphs. Positioned above R2's outer ring, near the top of the starburst.
+        },
+        {
+          locus fRos.22,@L0,
+          raw_text daiiny,
+          bounding_box {x_min 400, y_min 25, x_max 490, y_max 50},
+          interaction Label. Top-center area above starburst.
+        },
+        {
+          locus fRos.23,@L0,
+          raw_text docfhhy,
+          bounding_box {x_min 500, y_min 25, x_max 600, y_max 50},
+          interaction Label. Contains rare 'f' within compound 'cfh'. Adjacent to one of the upper goldtan petals.
+        },
+        {
+          locus fRos.24–34,@L0 cluster,
+          raw_text okedy  okary  ofain  opar  adairy  dxar  okory  opokchos,ody  adashgasain  cfair.ofolcfhy  okody,
+          bounding_box {x_min 332, y_min 48, x_max 650, y_max 395},
+          interaction Eleven individual labels distributed around R2's outer ring, between the scallops, and in the inter-rosette space between R2 and R3. Notable fRos.29 'dxar' contains rare 'x'. fRos.31 'opokchos,ody' intra-word comma, long compound. fRos.32 'adashgasain' — unusual 'sh' cluster in middle, longest label in this group. fRos.33 'cfair.ofolcfhy' — two-word label, both words containing rare 'f', and 'ofolcfhy' a 'cfhy' terminal form. Each label likely annotates one blue petal OR one gold petal of the starburst. With 8+8=16 petals and 11 labels, not every petal is individually labeled.
+        }
+      ]
+    },
+
+    {
+      block_id R3_top_right_double_ring_text,
+      rosette R3 — top-right stippled circular,
+      orientation Normal but some text may read centripetally,
+      description Lines 35–46 TWO @Cc ring inscriptions (fRos.35 and fRos.36 — unique double-ring configuration for one rosette), two @L0 labels, one @Pb paragraph block in the adjacent connecting tube, and six more @L0 labels. The double @Cc indicates R3 has two distinctly labeled concentric text bands.,
+      lines [
+        {
+          locus fRos.35,@Cc,
+          raw_text okos.epar.chir.u.oteoteedy.otos.ytodar.ches.okodainol.ykedy.chdar.tchdaiin.sy.sarald.todar.chkar.odair.or.oal.okchdy.shedy.oteedy.ykchda.eeeky.o.aiin.okees.ol,ar.or.ykeedy.okeo.lodaiin.or.olaiiin.olar,
+          bounding_box {x_min 680, y_min 65, x_max 952, y_max 420},
+          interaction OUTER ring inscription of R3. This text runs around the OUTER text ring of the stippled rosette — the ring text sits between the blue-dot stippled band and the outermost ink boundary. The blue stippling is the inner visual border as the scribe writes this text. Contains isolated glyph 'u' (extremely rare in Voynich text — one of only a handful of 'u' occurrences in the entire manuscript), 'chir.u.oteoteedy' — the 'u' sits between 'chir' and 'oteoteedy'; 'eeeky' triple-e; 'olaiiin' triple-i; 'ol,ar' intra-word comma. Written in warm golden-brown ink against cream parchment with blue-dot border.
+        },
+        {
+          locus fRos.36,@Cc,
+          raw_text chochs.octhchy.osar.aram.as,keeody.ochdar.al.o,ekairy.ytodaro.opal,shy.or.arodar.ykadar.ykodar.ykary.opalxy,
+          bounding_box {x_min 695, y_min 100, x_max 940, y_max 390},
+          interaction INNER ring inscription of R3. This text runs around the INNER ring, sitting between the outermost stippled band and the central plain parchment zone of R3. Contains 'chochs' — uncertainty marker embedded between 'ch' and 'ochs', a mid-compound uncertainty; multiple intra-word commas 'as,keeody', 'o,ekairy', 'opal,shy'; 'opalxy' terminal 'x' form. Written concentrically, slightly smaller circumference path than fRos.35. The two @Cc entries for R3 create a double-ring text structure unique among the nine rosettes.
+        },
+        {
+          locus fRos.37,@L0,
+          raw_text opoor.daly,
+          bounding_box {x_min 667, y_min 25, x_max 780, y_max 50},
+          interaction Label above R3. Two-word form.
+        },
+        {
+          locus fRos.38,@L0,
+          raw_text okas.oedady,
+          bounding_box {x_min 785, y_min 25, x_max 900, y_max 50},
+          interaction Label above R3.
+        },
+        {
+          locus fRos.39,@Pb,
+          raw_text kechy.qolchedar.ar,
+          bounding_box {x_min 650, y_min 390, x_max 830, y_max 425},
+          interaction PARAGRAPH BLOCK (@Pb type) in the connecting tubechannel below R3. This is text written in a narrow connecting structure between R3 and R6 (right column vertical tube). The @Pb type (paragraph with bisection) means the narrow tube channel itself may act as the text's boundary. Short 3-word line. The tube walls are dark ink; the text sits in the pale parchment interior of the tube.
+        },
+        {
+          locus fRos.40,+Pb,
+          raw_text otedy.chdaiin.oty,
+          bounding_box {x_min 650, y_min 429, x_max 830, y_max 464},
+          interaction Continuation paragraph line in the same connecting tube as fRos.39. Two consecutive @Pb@Pb lines form a 2-line paragraph embedded in a tube structure. The tube's blue-teal lining (if present) or plain ink outline defines the text corridor.
+        },
+        {
+          locus fRos.41–46,@L0 cluster,
+          raw_text oral  cpeey  okor  sarchcphdy  otchdy.otoldy  ofchedaiin,
+          bounding_box {x_min 668, y_min 55, x_max 958, y_max 425},
+          interaction Six individual labels distributed around R3's outer zones and in the inter-rosette space to the right. 'sarchcphdy' — long compound with 'cph'. 'otchdy.otoldy' — two-word label (two-dot separated). Adjacent color context the blue stippled ring of R3 and the cream parchment inter-rosette space.
+        }
+      ]
+    },
+
+    {
+      block_id R4_middle_left_organic_text,
+      rosette R4 — middle-left organic form,
+      orientation Normal orientation for outer text; internal text may read from multiple directions,
+      description Lines 47–61 One @Cc ring inscription (fRos.47) and fourteen @L0 labels (fRos.48–61). R4's irregular boundary makes the @Cc text follow an irregular rather than circular path. The @L0 labels likely annotate specific chambers, sub-forms, or inlet zones within R4's organic interior.,
+      lines [
+        {
+          locus fRos.47,@Cc,
+          raw_text osar.otar.otodeedy.oty.daiin.sheor.oar.otedy.qotedy.otchy.otaraiin.chekadar.ol.aiin.okedal.olor.opoiir,al.eeealky.ytar.qokeol.tched.oiin.oteedaiin.odal.cheky.otchdar.or.olkoaiin.okal.olaiin,
+          bounding_box {x_min 52, y_min 430, x_max 305, y_max 688},
+          interaction Ringboundary inscription for R4. Unlike the circular @Cc entries for R1-R3, this text follows the irregular organic boundary of R4. It may be written along the inner edge of the outer boundary line, following its curves. Contains 'opoiir,al' intra-word comma; 'eeealky' triple-e unusual; 'oiin' isolated form; 'olkoaiin' long compound. The blue-teal and warm tan color elements within R4 define the sub-zone boundaries as the text follows the outer envelope.
+        },
+        {
+          locus fRos.48–61,@L0 cluster,
+          raw_text otedal  opaiino  otchdy  okchy  chkeedy  oopairar  odeedy  okydy  depcheky  otch  osy  odl  ddy  oteey,
+          bounding_box {x_min 42, y_min 428, x_max 308, y_max 692},
+          interaction Fourteen individual labels distributed within and around R4. These labels point to specific internal sub-elements of the organic form. Notable very short forms 'otch' (4 glyphs), 'osy' (3), 'odl' (3), 'ddy' (3) — the shortest label cluster in fRos, suggesting they label very small internal elements. 'oopairar' has an unusual double-'o' opening. The color context pale blue-teal and warm tan wash zones within R4's interior provide the color backdrop for these labels.
+        }
+      ]
+    },
+
+    {
+      block_id R5_middle_center_nymph_oval_text,
+      rosette R5 — middle-center nymph oval,
+      orientation Normal (right-side up),
+      description Lines 62–86 One @Cc ring inscription (fRos.62 — the longest in all fRos) and twenty-four @L0 labels (fRos.63–86). R5 has the densest label cluster and the longest @Cc text, consistent with its position as the central and largest rosette. The nymph figures in the interior may each be individually labeled by the @L0 entries.,
+      lines [
+        {
+          locus fRos.62,@Cc,
+          raw_text okor.or.om.araiin.okeody.otar.odsheedy.odaiin.okchdy.akar.shor.okaiin.daiin.ofair.oly.olkair.odal.olkalor.olar.s.y.o.d.ax.k.r.olar.oteedaiin.otes.ar.ykos.aiiin.al.qotady.ol.or.or.oroa.oteeedy.okal.okodar.otshe.okody.otedy.chdar.o,
+          bounding_box {x_min 335, y_min 425, x_max 655, y_max 722},
+          interaction Primary circular ring inscription for R5 — the longest single @Cc text on fRos. Runs concentrically around the middle text ring of the large oval, sitting between the blue-teal dot ring (inner boundary) and the outer textured ring. Notable features isolated single-glyph words 's', 'y', 'o', 'd', 'k', 'r' — six consecutive single-glyph words creating an unusual staccato sequence; 'ax' — TRIPLE uncertainty marker plus rare 'x' glyph, the most uncertain cluster in the entire fRos transcription; 'aiiin' triple-i; 'oteeedy' triple-e. The section 's.y.o.d.ax.k.r' may represent a cipher key, abbreviations, or severely damagedillegible text. Written in warm golden-brown ink; the nymph figures inside the blue-dot ring are the color reference cream skin figures against cream parchment, bordered by the blue-teal dot ring.
+        },
+        {
+          locus fRos.63–86,@L0 cluster,
+          raw_text oteedy  opy  odal  shdy  opchees  opar  daral  otdodas.oedy  soshxos.arar  otedain.otedy  ytedar.ary  opchedaiin  ols  ypal  opydsh  sshy  odl  dtedg  opy  ofdag  ddary  otody  dairdy  sody,
+          bounding_box {x_min 335, y_min 415, x_max 658, y_max 725},
+          interaction Twenty-four individual labels for R5. This is the largest label cluster of any single rosette — consistent with R5's size and the presence of multiple nymph figures that each require a label. fRos.71 'soshxos.arar' contains 'x' glyph and a period-separated two-word form. fRos.77 'opydsh' unusual 'dsh' cluster. fRos.78 'sshy' double-s opening. fRos.80 'dtedg' rare 'g' terminal. fRos.82 'ofdag' 'f' with 'g' terminal. fRos.83 'ddary' double-d opening. Labels are distributed both around the outer ring and potentially within the oval interior beside individual nymph figures. The nymph figures (cream skin, dark ink) are the primary visual anchors for many of these labels. Color context blue-teal dot ring provides the annular boundary within which many labels are positioned.
+        }
+      ]
+    },
+
+    {
+      block_id R6_middle_right_hourglass_bisected_text,
+      rosette R6 — middle-right hourglass,
+      orientation Normal (right-side up),
+      description Lines 87–93 The @Cc inscription for R6 (fRos.87) is the ONLY bisected ring text in the corpus — the circular inscription itself is split by the narrow neck connecting the two circles of the hourglass form. Six @L0 labels follow.,
+      lines [
+        {
+          locus fRos.87,@Cc WITH -,
+          raw_text yke.okees.olcheda.okaly.ol.otodar.shekal-olkar.cheykar.shal.qokal.okchr.otar.otody.otody.otody.otar.chfol.okshy.oky.okar.ar.okedy.okedy.okchedy.eeekchedy.ofchdar.qotchdy.kar.chdar.chekolkocph,
+          bounding_box {x_min 668, y_min 400, x_max 960, y_max 690},
+          interaction BISECTED CIRCULAR RING INSCRIPTION — unique in entire corpus. The ring text of R6 is physically split by the connecting neck between R6's upper and lower circles. LEFT SEGMENT 'yke.okees.olcheda.okaly.ol.otodar.shekal' runs around the LEFT arc of R6. - GAP the narrow neck of the hourglass (approximately x=805-835 in the upper circle) is the bisecting element — it interrupts the ring text's flow. RIGHT SEGMENT 'olkar.cheykar.shal.qokal.okchr.otar.otody.otody.otody.otar.chfol.okshy.oky.okar.ar.okedy.okedy.okchedy.eeekchedy.ofchdar.qotchdy.kar.chdar.chekolkocph' continues around the RIGHT arc. Notable 'otody' repeated three consecutive times — triple repetition; 'eeekchedy' triple-e compound; 'chekolkocph' — long complex terminal form with rare 'cph'. The bisecting element (neck) is dark ink with possible blue-teal dot decoration matching R6's ring style.
+        },
+        {
+          locus fRos.88–93,@L0 cluster,
+          raw_text opary  okalain  otchdy.kary  oraiin.chy  opodchdal  darchdy,
+          bounding_box {x_min 668, y_min 400, x_max 958, y_max 690},
+          interaction Six labels distributed around R6's two circles. 'otchdy.kary' and 'oraiin.chy' are both two-word labels. 'opodchdal' — long compound. Labels annotate specific ring segments or the connecting neck element. Color context blue-teal ring details of R6 visible at label periphery.
+        }
+      ]
+    },
+
+    {
+      block_id R7_area_multi_ring_text,
+      rosette R7 (bottom-left) — approached from R6right side in transcription,
+      orientation INVERTED in image — correct reading requires 180° rotation,
+      description Lines 94–121 One primary @Cc (fRos.94), 17 @L0 labels (fRos.95–112), one =Cc continuation (fRos.113), one +Ca new-circle-type (fRos.114), one =L0 continuation (fRos.115), and six more @L0 labels (fRos.116–121). The =Cc and +Ca entries suggest R7 has an unusual sub-structure a second text circle of a different type (+Ca = possibly an inner circle smaller than Cc). The L0 at fRos.110 is a unique slash-prefix label.,
+      lines [
+        {
+          locus fRos.94,@Cc,
+          raw_text otchdaiin.otodar.otedar.otar.odaiin.olkaiin.otl.xasashe.ol.ar.ackhe.chedaiin.ockhedy.shedy.otody.okedald.or.aiin.otody.toor.chepar.ol.chckhy.opchdar.or.ar.al.xar.opar.olchedy.okalm.or.afal,airi,dy,
+          bounding_box {x_min 50, y_min 685, x_max 292, y_max 952},
+          interaction Circular ring inscription for R7. When text is read in correct orientation (page rotated 180°), this text flows around R7's ring. Contains 'xasashe' — rare 'x' opening with 'sas' double-'as' pattern; 'xar' — second 'x' in same inscription; 'toor' — double-'o'; 'afal,airi,dy' — DOUBLE intra-word comma (two commas within what appears to be one word or tightly bound sequence) — one of the most complex punctuation forms in fRos. The green-teal interior of R7 is the color backdrop as this text traverses the ring. Written in warm golden-brown ink.
+        },
+        {
+          locus fRos.95–109,@L0 cluster,
+          raw_text okaradal  opchdy  ofdaram  oda  ofchdar  otedam  lokedshs  otodar  ytedaiin  okedy  xoltedy  opchdam  otedy.oparam  otchdy  otody,
+          bounding_box {x_min 50, y_min 685, x_max 293, y_max 950},
+          interaction Fifteen labels around R7's rings (read 180° rotated). fRos.105 'xoltedy' — initial 'x', very rare. fRos.107 'otedy.oparam' — two-word. fRos.101 'lokedshs' — 'l' initial unusual; 'dshs' complex cluster.
+        },
+        {
+          locus fRos.110,L0,
+          raw_text chdain,
+          bounding_box {x_min 50, y_min 870, x_max 145, y_max 895},
+          interaction The ONLY 'L0' (slash-prefix) label in the entire fRos transcription. The '' prefix is not documented in the standard EVA locus syntax legend — it likely indicates this label is written perpendicular, upside-down, or at a non-standard angle relative to the surrounding text. 'chdain' itself is a short 6-glyph form. Positioned within R7's inverted zone.
+        },
+        {
+          locus fRos.111,+L0,
+          raw_text otedy,
+          bounding_box {x_min 50, y_min 899, x_max 130, y_max 924},
+          interaction Continuation label after the L0.
+        },
+        {
+          locus fRos.112,@L0,
+          raw_text opashefchdy,
+          bounding_box {x_min 50, y_min 928, x_max 205, y_max 953},
+          interaction Label. 'opashefchdy' — long compound with 'sh' and rare 'f'. One of the longer @L0 labels in fRos.
+        },
+        {
+          locus fRos.113,=Cc,
+          raw_text sar.adyiin.or,
+          bounding_box {x_min 95, y_min 750, x_max 235, y_max 778},
+          interaction SPECIAL =Cc (equals-sign continuation of circle text). This short 3-word circular inscription belongs to a SECOND, distinct circle text ring within R7 — different from the primary fRos.94 @Cc ring. Possibly the innermost circle around the green-teal interior. The '=' prefix (same-row continuation) suggests it immediately follows on the same concentric level as fRos.94 or marks a separate inner ring. Short form 'sar.adyiin.or' is much briefer than typical @Cc entries. The green interior is the adjacent color context.
+        },
+        {
+          locus fRos.114,+Ca,
+          raw_text o.d,ar.aiin,d,
+          bounding_box {x_min 100, y_min 782, x_max 220, y_max 807},
+          interaction SPECIAL +Ca (continuation of a 'Ca'-type circle — different from 'Cc'). This is the ONLY '+Ca' entry in all analyzed folios. 'Ca' may denote a small circle, a dot-circle, or an inner oval different from the regular ring. 'o.d,ar.aiin,d' — contains multiple intra-word commas ('d,ar' and 'aiin,d') and isolated 'o' opening. The unique type marker and the presence of a comma-split final word suggest extreme brevity and formatting constraint.
+        },
+        {
+          locus fRos.115,=L0,
+          raw_text oteoly,
+          bounding_box {x_min 55, y_min 811, x_max 145, y_max 836},
+          interaction =L0 (same-row label continuation). Follows the +Ca entry. Likely connected to the same inner-circle zone as fRos.113-114.
+        },
+        {
+          locus fRos.116–121,@L0 cluster,
+          raw_text ofodydy  opdady  otodey  otodedy  opchdain  otdar.shed,
+          bounding_box {x_min 50, y_min 688, x_max 290, y_max 955},
+          interaction Six final labels for R7. Multiple 'otod-' prefix forms 'otodey', 'otodedy'. 'ofodydy' has 'f' and double 'dy' terminal. 'otdar.shed' — two-word label.
+        }
+      ]
+    },
+
+    {
+      block_id R8_bottom_center_text,
+      rosette R8 — bottom-center starburst (INVERTED),
+      orientation INVERTED 180° in image — correct reading requires 180° rotation,
+      description Lines 122–132 One @Cc ring inscription (fRos.122) and ten @L0 labels (fRos.123–132). R8's structure mirrors R2 but with fewer labels, suggesting a slightly simpler outer ring.,
+      lines [
+        {
+          locus fRos.122,@Cc,
+          raw_text okedar.okody.okair.chedy.opar.al.keeedy.sar.al,kchedy.otedaiin.olky.or.aiin.ody.osain.xdar.odaiin.okedal.ol.ar.oekaiin.alo.saldan.oteedy.otchdaiin.otedy.otar.aiin.yky.odaiin.okal.okalar,
+          bounding_box {x_min 340, y_min 710, x_max 652, y_max 990},
+          interaction Circular ring inscription for R8. Read in correct orientation (180° rotation), this text runs around R8's middle ring — sitting between the blue-and-gold petal interior and the outer scallop border, exactly mirroring R2's @Cc position. Contains 'al,kchedy' intra-word comma; 'xdar' rare 'x' glyph; 'keeedy' triple-e; 'yky' short palindromic-like form. The color context is identical to R2 deep blue petals as inner boundary, gold-tan petals alternating, dark scallop outer border. The deliberate compositional echo between R2R8 is confirmed by the text ring position.
+        },
+        {
+          locus fRos.123–132,@L0 cluster,
+          raw_text oparaiin  okalar  okchdy  ykedy  oteedy  otosaiin  otchdam  otedy  okar  lashalg,
+          bounding_box {x_min 335, y_min 705, x_max 656, y_max 995},
+          interaction Ten labels around R8's starburst. Multiple 'otosa-', 'otchd-' prefix clusters. fRos.132 'lashalg' — unusual 'l' initial, 'sh' in middle, terminal 'g' rare. These labels likely annotate individual petals (blue or gold) and outer-ring segments. Read correctly when page is rotated 180°. Color context same blue-and-gold palette as R2.
+        }
+      ]
+    },
+
+    {
+      block_id R9_bottom_right_stippled_cross_text_plus_passages,
+      rosette R9 — bottom-right stippled circular (INVERTED) + connecting passage paragraph blocks,
+      orientation INVERTED 180° in image for rosette; @Pb passage blocks may have mixed orientation,
+      description Lines 133–145 One @Cc ring inscription (fRos.133), three @L0 labels, and a large @Pb paragraph cluster (fRos.137–145, nine lines total). The @Pb cluster is the largest non-circular text block on fRos, positioned in a connecting passage adjacent to R9.,
+      lines [
+        {
+          locus fRos.133,@Cc,
+          raw_text okchr,ar.okary.otodad.o,dar.chekaiin.oees..aiin.okees.oiir.odaiin.okalol.aiiin.okal,al.otar.chchdam.chetey.otodeees.oteesey.chckhy.otody.otal.chedal.opal.olkar.okedaiin.aror,
+          bounding_box {x_min 673, y_min 680, x_max 958, y_max 990},
+          interaction Circular ring inscription for R9. Read correctly at 180° rotation, this text runs around R9's ring — the blue stippled outer band is the outer visual boundary. Contains 'okchr,ar' intra-word comma opening; 'o,dar' isolated-'o' + comma; '' TRIPLE uncertainty — a sequence of three completely illegible glyphs (the most uncertain segment of any @Cc in fRos); 'aiiin' triple-i; 'okal,al' intra-word comma; 'otodeees' triple-e; 'chchdam' double-'ch'. The central blue crossasterisk of R9 is the innermost color reference when this text is being written — a concentrated blue focal point at the center.
+        },
+        {
+          locus fRos.134–136,@L0 cluster,
+          raw_text opaldar  osaram  oparodam,
+          bounding_box {x_min 673, y_min 680, x_max 955, y_max 995},
+          interaction Three labels around R9's outer zone. All begin with 'op-' or 'os-'. Short cluster.
+        },
+        {
+          locus fRos.137,@Pb,
+          raw_text otam.opchody.otchy,
+          bounding_box {x_min 445, y_min 820, x_max 660, y_max 852},
+          interaction PARAGRAPH BLOCK in connecting passage. This is the first of 9 consecutive paragraph lines forming the largest text block on fRos. Located in the connecting tubechannel structure between R8 (bottom-center) and R9 (bottom-right) or in the inter-rosette passage zone. Read at 180° rotation. The @Pb (paragraph bisection type) suggests a narrow passage constrains the text horizontally.
+        },
+        {
+          locus fRos.138,Pb,
+          raw_text yopar.chepchey.yteedy.olaiin.orshy,
+          bounding_box {x_min 430, y_min 856, x_max 660, y_max 888},
+          interaction Paragraph close-and-restart (Pb). 'yopar' 'y' initial. 'chepchey' — 'pch' compound. 'yteedy' triple-e. 5-word line.
+        },
+        {
+          locus fRos.139,@Pb,
+          raw_text tol.ofar.chefaiin.ol,
+          bounding_box {x_min 430, y_min 892, x_max 625, y_max 924},
+          interaction Paragraph opening. 't' initial. 'chefaiin' rare 'f' in compound. Short 4-word line.
+        },
+        {
+          locus fRos.140,+Pb,
+          raw_text okchy.qokedy.qokedy,
+          bounding_box {x_min 430, y_min 928, x_max 610, y_max 960},
+          interaction Continuation. Double 'qokedy' repetition.
+        },
+        {
+          locus fRos.141,+Pb,
+          raw_text tol.teoor.ol.chekor,
+          bounding_box {x_min 430, y_min 964, x_max 625, y_max 996},
+          interaction Continuation. 'teoor' double-'o'. 4-word line.
+        },
+        {
+          locus fRos.142,@Pb,
+          raw_text okar.ol,cheky.daiin,
+          bounding_box {x_min 430, y_min 1000, x_max 615, y_max 1032},
+          interaction New paragraph start. 'ol,cheky' intra-word comma.
+        },
+        {
+          locus fRos.143,+Pb,
+          raw_text okeedy.qokchy.chfady.ory,
+          bounding_box {x_min 430, y_min 1036, x_max 620, y_max 1068},
+          interaction 'chfady' rare 'f' mid-compound.
+        },
+        {
+          locus fRos.144,+Pb,
+          raw_text ykeechy.okol.sheey.tolpchg,
+          bounding_box {x_min 430, y_min 1072, x_max 618, y_max 1104},
+          interaction 'tolpchg' — remarkable terminal 'tol' + 'pch' + 'g', three unusual consecutive elements including rare 'g'.
+        },
+        {
+          locus fRos.145,+Pb,
+          raw_text raiir.shodaiin,
+          bounding_box {x_min 430, y_min 1108, x_max 570, y_max 1140},
+          interaction Final @Pb line. Short 2-word form. 'raiir' — terminal double-i + r unusual. This paragraph block of 9 lines is the sole extended running text on fRos outside the circular inscriptions — it has the character of a caption or explanatory text for the bottom passage area.
+        }
+      ]
+    },
+
+    {
+      block_id inter_rosette_labels_final_group,
+      description Lines 146–160 The final 15 @L0+L0 labels distributed in inter-rosette zones, likely around R7R8 connecting areas or the bottom-left passage zones.,
+      lines [
+        {
+          locus fRos.146–160,@L0+L0 cluster,
+          raw_text dar  oky  soa  otol  ardar  l.chdy  oparod  shckhdy  tshdy  opchd  opchdy  qokol  shety  opchsy  cheyky,
+          bounding_box {x_min 42, y_min 700, x_max 325, y_max 995},
+          interaction Final label cluster distributed in the bottom-left and bottom-center passage zones. Multiple +L0 continuations fRos.147-148 follow fRos.146; fRos.150-151 follow fRos.149; fRos.153-154 follow fRos.152; fRos.156-157 follow fRos.155; fRos.159-160 follow fRos.158. This forms 5 label pairstriplets — labels that span 2-3 continuation lines, suggesting they annotate elements that required more than one line to name. fRos.151 'l.chdy' — isolated 'l' before a period is extremely unusual. 'shckhdy' contains 'ckh' triple-consonant. 'tshdy' begins with 'tsh' cluster. These are all read in the INVERTED orientation (page rotated 180°).
+        }
+      ]
+    }
+  ],
+
+  isolated_zones [
+    {
+      anchor_id R1_innermost_oval,
+      status Completely text-free — large plain parchment interior,
+      description The innermost zone of R1 (approximately x=90–245, y=85–350) — the plain parchment oval at the center of the concentric rings — contains absolutely no text or illustration. It is a large negative space, the most geometrically pure empty zone on fRos. Its cream color contrasts with the blue-teal scale ring immediately surrounding it.
+    },
+    {
+      anchor_id R2_blue_gold_petal_zone,
+      status Completely text-free — pure pigment zone,
+      description The inner petal zone of R2 (x=385–600, y=80–360) containing the 8 deep-blue and 8 gold-tan petals is entirely free of text. No label or inscription enters the petal zone — it is a pure color field. This is the most visually intense color zone of the entire fRos the deep saturated blue and warm ochre-gold create maximum chromatic impact. The text ring (@Cc, fRos.20) surrounds but never enters this zone.
+    },
+    {
+      anchor_id R5_nymph_figure_zone,
+      status Figures present — text-free interior except blue-dot ring boundary,
+      description The interior oval of R5 (x=370–620, y=455–705) containing the row of nymph figures is free of the @Cc ring text, which runs in the ring band outside the figures. The nymph figures themselves (cream skin, dark ink) are the sole inhabitants of R5's interior. The blue-teal dot ring acts as the visual boundary between the figures and the text ring.
+    },
+    {
+      anchor_id R7_green_interior,
+      status Text-free green-filled center,
+      description The central green zone of R7 (approximately x=90–245, y=730–920 in inverted coordinates) is text-free. The medium green wash (botanical malachite green) fills the innermost circle. This is the only rosette with a colored interior fill — making it unique among the nine. The green and the plain cream of other rosette interiors creates a meaningful distinction R7 alone is 'marked' by color.
+    },
+    {
+      anchor_id R8_blue_gold_petal_zone,
+      status Completely text-free — pure pigment zone (mirror of R2),
+      description R8's petal zone (inverted position, approximately x=385–600, y=745–965) mirrors R2's deep blue and gold-tan petals, no text within. The compositional symmetry between R2 and R8 — both starburst forms, both using identical blue-and-gold pigments, both positioned on the vertical centerline — is the strongest design symmetry in fRos.
+    },
+    {
+      anchor_id R9_central_blue_cross,
+      status Isolated pure blue decorative focal point,
+      description The central blue crossasterisk of R9 (inverted, approximately x=780–855, y=785–870) is a text-free zone. The concentrated blue pigment forms the innermost point of R9. As R3 (top-right) has a stippled blue outer ring, R9 (bottom-right) has a concentrated blue center — the stippling is expanded to the ring in R3, collapsed to a focal point in R9. This inversion of the blue pattern between R3 and R9 mirrors the inversion of their physical orientation on the page.
+    },
+    {
+      anchor_id fold_line_vertical_left,
+      status Physical damage zone — text may be obscured,
+      description The fold crease at X≈333 passes through R2 and R5 and R8 (all center-column rosettes). This crease physically affects the parchment — text on the @Cc rings at the fold crossing may be slightly displaced, ink cracked, or difficult to read. The transcription uncertainties in the center-column @Cc entries may partly reflect damage at these fold intersections.
+    },
+    {
+      anchor_id fold_line_vertical_right,
+      status Physical damage zone,
+      description The fold crease at X≈667 passes through R3, R6, and R9. Similar physical damage potential as the left fold.
+    },
+    {
+      anchor_id fold_line_horizontal,
+      status Book gutter  binding area — maximum physical stress,
+      description The horizontal fold at Y≈490 (book spine) passes through R4, R5, and R6. This is the area of maximum physical stress on the parchment — it is both a fold crease and the binding edge. The connecting tubes between the top and bottom rows cross this line. Any text in the @Pb paragraph blocks near this horizontal zone is subject to the most severe legibility challenges.
+    }
+  ],
+
+  global_color_analysis {
+    blue_azurite_verdigris {
+      occurrences R1 scale ring, R2 petals (large solid), R3 stippled dots, R5 dot ring, R6 ring accents, R7 ring accents, R8 petals (large solid, mirror of R2), R9 stippled dots AND central cross,
+      application_types Four distinct application modes (1) solid fill for large petals [R2, R8]; (2) stippled dots — individual blue marks [R3, R9]; (3) scalescallop decoration [R1]; (4) dot-blobs on ring [R5],
+      symbolic_interpretation Blue is the structurally organizing pigment of fRos. Its presence in every rosette, in varying densities and forms, suggests it encodes a systematic property. The solid-fill of R2R8 (starburst pair, central column) vs the stippling of R3R9 (right column) vs the scalering dots of R1R5R6 suggests three distinct symbolic registers of the same color.,
+      paired_rosettes_using_blue R2-R8 (solid starburst pair, topbottom center, inverted mirror), R3-R9 (stippled pair, topbottom right, inverted mirror)
+    },
+    gold_ochre {
+      occurrences R2 alternating petals, R8 alternating petals,
+      application_types Solid fill for triangular wedge-shaped petals,
+      symbolic_interpretation Gold only appears in the two starburst rosettes (R2 and R8). The gold-and-blue combination exclusively marks the central-column starburst pair. No other rosette uses gold. This exclusive pairing suggests the gold was reserved for a specific symbolic purpose — possibly solar symbolism, a specific element, or a special cosmological designation.
+    },
+    green_malachite {
+      occurrences R7 interior fill only (one instance),
+      application_types Wash fill for innermost circle,
+      symbolic_interpretation Green appears in only one of the nine rosettes — R7 (bottom-left, inverted). This exclusivity is striking. In the balneological folios, green marks waterpool areas. Here, the green-filled circle may mark a specific place (a body of water, a meadow, a kingdom) in what many scholars interpret as a cosmological map.
+    },
+    dark_ink {
+      occurrences All ring outlines, all text, all scalloptooth borders, all connecting tube outlines, all label text,
+      note The dominant tone of fRos — the structural skeleton is all dark ink on cream parchment. Color is used as a deliberate accent within this ink framework.
+    },
+    cream_parchment_as_color {
+      note The uncolored parchment of rosette interiors (R1, R2 interior between ring and petals, R3, R4, R5 nymph zone, R6, R8, R9) functions as an intentional whitecream color — a positive space rather than absence of color. In R7, the substitution of green for this default cream is therefore maximally significant.
+    }
+  }
+}

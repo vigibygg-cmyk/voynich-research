@@ -1,0 +1,490 @@
+{
+  "folio": "f102v2",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom). Source image: 2838x3697px. Formula: X_norm=floor((Xpx/2838)*1000), Y_norm=floor((Ypx/3697)*1000).",
+  "section_header_metadata": {
+    "raw_header": "<f102v2>   <! $Q=S $P=O $F=z $B=1 $I=P $L=A $H=1>",
+    "section_type": "$I=P — Pharmaceutical/Recipe section",
+    "language": "$L=A — Language A",
+    "hand": "$H=1 — Scribal Hand 1 (earliest hand)",
+    "quire": "$Q=S",
+    "paragraph_position": "$P=O"
+  },
+  "audit_log": {
+    "extracted_folio_id": "f102v2",
+    "total_loci_count": 39,
+    "unique_loci_found": [
+      "<f102v2.1,@Lc>",
+      "<f102v2.2,+Lc>",
+      "<f102v2.3,@Lf>",
+      "<f102v2.4,@Lf>",
+      "<f102v2.5,@Lf>",
+      "<f102v2.6,@Lf>",
+      "<f102v2.7,@Lf>",
+      "<f102v2.8,@Lf>",
+      "<f102v2.9,@Lf>",
+      "<f102v2.10,@Lf>",
+      "<f102v2.11,@Lf>",
+      "<f102v2.12,@Lf>",
+      "<f102v2.13,@Lf>",
+      "<f102v2.14,@Lf>",
+      "<f102v2.15,@Lf>",
+      "<f102v2.16,@Lf>",
+      "<f102v2.17,@P0>",
+      "<f102v2.18,+P0>",
+      "<f102v2.19,+P0>",
+      "<f102v2.20,+P0>",
+      "<f102v2.21,+P0>",
+      "<f102v2.22,+P0>",
+      "<f102v2.23,+P0>",
+      "<f102v2.24,@Lc>",
+      "<f102v2.25,@Lf>",
+      "<f102v2.26,@Lf>",
+      "<f102v2.27,@Lf>",
+      "<f102v2.28,@Lf>",
+      "<f102v2.29,@Lf>",
+      "<f102v2.30,@P0>",
+      "<f102v2.31,+P0>",
+      "<f102v2.32,+P0>",
+      "<f102v2.33,+P0>",
+      "<f102v2.34,+P0>",
+      "<f102v2.35,+P0>",
+      "<f102v2.36,+P0>",
+      "<f102v2.37,+P0>",
+      "<f102v2.38,+P0>",
+      "<f102v2.39,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers anywhere in f102v2 — none of the 39 loci contain a bisection event.",
+      "LABEL TYPES PRESENT: @Lc (2 instances: lines 1–2 and line 24) and @Lf (14 instances: lines 3–16 and lines 25–29). The @Lc type ('c' = container/jar label?) is a two-line label group in both occurrences — lines 1+2 form a paired @Lc/+Lc unit. The @Lf type ('f' = figure/root label?) appears as single-word isolated labels, each labelling one botanical root figure.",
+      "LINE 1–2 (@Lc/+Lc): two-line container label 'porshols / soaijy' — attached to upper pharmaceutical jar (jar_upper). The @Lc type strongly suggests this is a CONTAINER label, describing the jar's contents or state.",
+      "LINE 24 (@Lc): single-line container label 'okolky' — attached to lower pharmaceutical jar (jar_lower). Same @Lc type confirms container association.",
+      "LINES 3–16 (@Lf): fourteen single-word root labels: 'oror', 'chor', 'sachy', 'oteos', 'otol', 'otory', 'ok?', 'okody', 'cheor', 'okoroeey', 'opchy', 'sarol', 'olrodar', 'tod?' — distributed across the upper botanical root cluster (upper half of folio). Two contain uncertainty markers: 'ok?' (line 9) and 'tod?' (line 16).",
+      "LINES 25–29 (@Lf): five single-word root labels for lower botanical cluster: 'osain', 'aiky', 'okeeoraiin', 'okockhy', 'os' — shorter label set for the lower set of root figures.",
+      "SEMANTIC OBSERVATION — STATE OF MATTER CRITICAL: The two @Lc labels differ structurally. Upper jar label is TWO-LINE (porshols + soaijy) while lower jar label is ONE-LINE (okolky). The jars themselves visually differ in fill state (see visual_anchors). This asymmetry in label length correlates with the visual difference in contents — a key finding for the liquid vs. dry grammar hypothesis.",
+      "PARAGRAPH BLOCK 1 (lines 17–23, @P0/+P0): 7-line text block between the two illustration rows. Opens with @P0.",
+      "PARAGRAPH BLOCK 2 (lines 30–39, @P0/+P0): 10-line text block below the lower illustration row. Opens with @P0. Terminal line 39 (+P0) is short — 4 words — suggesting paragraph close."
+    ],
+    "visual_anchor_inventory": [
+      "jar_upper: Tall stacked pharmaceutical vessel in upper-left corner. TWO distinct cylindrical/barrel segments stacked vertically. UPPER segment: red-orange pigment fill (vivid red-brown, ~#C0392B), band of white/cream rim at top and middle. LOWER segment: rich cobalt blue fill (~#2471A3), similar white band at base. Both segments have decorative incised rings or bands rendered in brown ink. A small protruding spout or nozzle at bottom. The jar has NO visible liquid surface line — pigment fills the entire chamber uniformly, suggesting SOLID or DRY contents (powders/pigment). Top appears sealed/closed. Label: @Lc 'porshols / soaijy' (two-line label — most complex label on the page).",
+      "jar_lower: Second pharmaceutical vessel in mid-left area. Structurally identical two-segment form. UPPER segment: red-orange fill (~#C0392B), similar proportions to upper jar. LOWER segment: cobalt blue fill (~#2471A3). However, the LOWER jar appears to have a slightly different fill proportion — the red and blue zones appear roughly equal in height but the overall jar seems slightly shorter. Label: @Lc 'okolky' (single-word label — simpler than upper jar). Same sealed appearance, no liquid surface line visible.",
+      "root_upper_left: Botanical root figure, upper-left zone, immediately right of jar_upper. Bulbous orange-tan root body (~#CD853F warm tan-brown) with multiple radiating root tendrils extending downward in warm brown ink. Crown of spiky white/cream leaf/petal spikes radiating upward, uncolored (parchment cream). Root body shape: rounded oval, approximately 3–4 cm equivalent. Labels nearby: @Lf 'oror' (line 3). Morphology: fleshy tap-root type.",
+      "root_upper_center_left: Botanical root figure in upper-center-left. Similar morphology to root_upper_left but smaller, lighter tan coloration (~#D4A96A). Crown of thin white spike-petals. Root tendrils in warm brown. Possibly two root figures very close together here forming a pair. Labels: @Lf 'chor' (line 4), @Lf 'sachy' (line 5).",
+      "root_upper_center: Central upper botanical root figure. Notable for a ROUNDED BULBOUS orange-tan root body, markedly rounder than flanking figures. Thin radiating tendrils. Crown of narrow white spike-petals. Color: warm orange-tan body (~#C97A3A), dark brown tendrils. Label: @Lf 'oteos' (line 6) and adjacent labels.",
+      "root_upper_right_cluster: Upper-right botanical cluster — two or three root figures closely spaced. RIGHT figure has a notably different appearance: large spreading dark-tan/brown finger-like root arms (no central bulb, more like a hand or octopus root form). Crown appears to be a spray of thin brownish spikes. The leftmost of this cluster has a more conventional bulb. Labels: @Lf 'otol', 'otory', 'ok?', 'okody', 'cheor', 'okoroeey', 'opchy', 'sarol', 'olrodar', 'tod?' (lines 7–16) — the high density of labels here (10 labels for this cluster) is striking.",
+      "green_blob_upper_left_background: Large irregular blue-green wash blob at top-left corner, above and behind jar_upper. Color: deep teal-green (~#1E8449 / #2E86C1 mixed), applied as a flat wash with no outline. Likely represents a plant or herb 'background blob' common in Voynich pharmaceutical folios. No label.",
+      "green_blob_upper_right: Two green rounded cloud-like forms at top-right, similar flat teal-green wash (~#1E8449). Represent vegetation background.",
+      "root_lower_left: Lower-left botanical root figure (below paragraph block 1, left of jar_lower). Distinctive morphology: multiple thick spreading root arms in warm brown (~#A0522D), radiating outward like fingers. Two large DARK GREEN leaf shapes flanking the root crown (~#1E7A34 deep green), the most vivid green pigment on the page. Crown also has thin white spike elements. This is a notably large, well-pigmented figure. Label: @Lf 'osain' (line 25).",
+      "root_lower_center: Central lower botanical root figure. Spreading brown root arms, similar morphology to root_lower_left but slightly smaller. Crown of sparse white spikes and narrow greenish-tan tips. Color: medium warm brown roots (~#A0522D). Label: @Lf 'aiky' (line 26), 'okeeoraiin' (line 27).",
+      "root_lower_right_cluster: Lower-right root cluster — two figures. LEFT figure: more compact, fewer root arms. RIGHT figure: the most elaborate root on the page — large splaying warm-brown root arms (~#A0522D to #8B4513), vivid DARK GREEN crown/leaf spray similar to lower-left figure (~#1E7A34). Possibly the same species depicted. Labels: @Lf 'okockhy' (line 28), 'os' (line 29).",
+      "brown_stain_top_center: Large irregular brown stain/foxing spot at top-center of page. Not an illustration — likely liquid damage or adhesive residue. Color: warm brown-orange (~#8B4513 fading to cream at edges). Partially overlaps the upper root illustrations."
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "jar_upper",
+      "category": "pharma_jar",
+      "colors": ["red_orange_upper_chamber:#C0392B", "cobalt_blue_lower_chamber:#2471A3", "white_cream_bands:#F5F0E8", "brown_ink_outline:#5C3317"],
+      "morphology_description": "Tall stacked pharmaceutical vessel composed of two distinct barrel/cylinder segments. The UPPER segment is filled with vivid red-orange pigment (~#C0392B), representing the top half of the jar. A white/cream decorative band separates the upper from the lower segment. The LOWER segment is filled with rich cobalt blue (~#2471A3). Both segments have multiple incised decorative ring-bands rendered in brown ink outline at regular intervals (~4–5 rings per segment), giving a ribbed/segmented appearance. The vessel has a flared or slightly wider middle rim where the two segments meet, and a narrow tapered base ending in a small nozzle or spout tip. The top of the jar appears sealed/closed with a flat or slightly rounded lid — NO visible liquid surface line or meniscus inside either chamber. The uniform fill of both red and blue chambers (no gradient, no 'half-filled' appearance) strongly indicates DRY or SOLID contents (powders, pigments, or solid medicinals) rather than liquids. The absence of a liquid level line is the key STATE-OF-MATTER indicator. SEMANTIC NOTE: Two-line @Lc label 'porshols / soaijy' — the complexity of this label (only two-line label on the folio) may correlate with the dual-chamber (two-substance) nature of the vessel.",
+      "state_of_matter_assessment": "DRY/SOLID — no liquid surface line visible; uniform pigment fill in both chambers; sealed top; consistent with powder or granular contents. Red chamber may indicate one substance, blue chamber another.",
+      "bounding_box": {"x_min": 45, "y_min": 52, "x_max": 192, "y_max": 480}
+    },
+    {
+      "anchor_id": "jar_lower",
+      "category": "pharma_jar",
+      "colors": ["red_orange_upper_chamber:#C0392B", "cobalt_blue_lower_chamber:#2471A3", "white_cream_bands:#F5F0E8", "brown_ink_outline:#5C3317"],
+      "morphology_description": "Second pharmaceutical vessel, structurally identical in design to jar_upper — same two-segment barrel form with red-orange upper chamber and cobalt blue lower chamber, same decorative incised ring-bands in brown ink, same white separator band. However, three differences from jar_upper are notable: (1) The vessel appears slightly shorter overall. (2) The proportions of red vs. blue appear slightly more equal (roughly 50/50) compared to jar_upper where the red may dominate slightly. (3) The label is a SINGLE-WORD @Lc 'okolky' vs. the two-line label on jar_upper. Again NO liquid surface line visible — both chambers uniformly filled. STATE-OF-MATTER: Also DRY/SOLID. The single-word label 'okolky' vs. the compound 'porshols/soaijy' label may encode a simpler or different substance classification. SEMANTIC HYPOTHESIS: If @Lc grammar encodes container contents, the simpler label on jar_lower may indicate a single undivided substance, while the dual-line label on jar_upper indicates a compound or mixture.",
+      "state_of_matter_assessment": "DRY/SOLID — same visual indicators as jar_upper: uniform pigment fill, no liquid level line, sealed appearance. Single-word label may indicate simpler contents.",
+      "bounding_box": {"x_min": 48, "y_min": 565, "x_max": 195, "y_max": 910}
+    },
+    {
+      "anchor_id": "root_upper_left",
+      "category": "botany_root",
+      "colors": ["warm_tan_orange_body:#CD853F", "dark_brown_tendrils:#6B3A2A", "cream_white_spikes:#F0EAD8"],
+      "morphology_description": "Rounded bulbous root body (fleshy tap-root morphology), warm tan-orange fill. Three to five thin curving root tendrils extend downward-left in dark warm brown ink. Crown: multiple thin upward-radiating spike/petal elements in cream-white (uncolored, parchment tone). Root body is the dominant feature — approximately egg-shaped, slightly taller than wide. Tentative species-type: fleshy root crop (turnip, beet, or mandrake morphology).",
+      "bounding_box": {"x_min": 200, "y_min": 132, "x_max": 375, "y_max": 370}
+    },
+    {
+      "anchor_id": "root_upper_center_left_pair",
+      "category": "botany_root",
+      "colors": ["light_tan_body:#D4A96A", "brown_tendrils:#6B3A2A", "cream_white_spikes:#F0EAD8", "pale_orange_body:#DFA870"],
+      "morphology_description": "Two closely positioned root figures forming a visual pair in the upper-center-left zone. Both have modest bulbous root bodies in light tan, with sparse downward root tendrils and crown spike elements. The LEFT figure is slightly smaller. The forms are less dramatically rendered than root_upper_left — lighter pigment, less defined tendrils. Collectively labelled by the cluster of @Lf labels in this zone.",
+      "bounding_box": {"x_min": 358, "y_min": 128, "x_max": 590, "y_max": 360}
+    },
+    {
+      "anchor_id": "root_upper_right_cluster",
+      "category": "botany_root",
+      "colors": ["warm_tan_brown:#C97A3A", "dark_brown_arms:#7A4020", "cream_spikes:#F0EAD8", "golden_tan:#C8A050"],
+      "morphology_description": "The most complex botanical group on the folio — two to three root figures in the upper-right zone. The LEFT figure of the cluster has a conventional rounded bulb form with light tan body and sparse crown spikes. The CENTER/RIGHT figures are dramatically different: large spreading 'hand' or 'octopus' morphology — multiple thick, curving root arms radiating outward from a central nexus with NO central bulb mass. This splayed-arm morphology may indicate a different plant genus or a specific root preparation state (dried, macerated). The rightmost figure has the widest arm-spread. Crown elements are thin brownish spikes, less prominent than in other figures. This cluster receives the most @Lf labels (10 of the 14 upper labels), suggesting it may depict multiple distinct specimens or a taxonomically complex subject.",
+      "bounding_box": {"x_min": 578, "y_min": 88, "x_max": 960, "y_max": 390}
+    },
+    {
+      "anchor_id": "root_lower_left",
+      "category": "botany_root",
+      "colors": ["warm_brown_roots:#A0522D", "deep_green_leaves:#1E7A34", "cream_spikes:#F0EAD8"],
+      "morphology_description": "Lower-left botanical figure — the most dramatically pigmented root on the page. Multiple thick spreading root arms in warm sienna-brown (#A0522D), extending outward and downward. The defining feature: TWO LARGE LEAF LOBES in vivid deep green (#1E7A34) flanking the root crown — the most saturated green pigment anywhere on the folio. This strong green may indicate a different plant state (fresh vs. dried) compared to the upper figures which lack green pigmentation. Crown also has thin cream spike elements. SEMANTIC NOTE: The presence of green leaf-color on this figure — absent on upper right cluster — may be encoded by different @Lf label vocabulary. Compare 'osain' (line 25) with upper labels.",
+      "bounding_box": {"x_min": 162, "y_min": 618, "x_max": 368, "y_max": 875}
+    },
+    {
+      "anchor_id": "root_lower_center",
+      "category": "botany_root",
+      "colors": ["medium_brown_roots:#9B5E3A", "cream_tan_spikes:#E8D8A0", "faint_green_tips:#6B9A5A"],
+      "morphology_description": "Central lower root figure. Spreading brown root arms radiating from a small central node, similar hand morphology to root_upper_right_cluster but smaller scale. Crown of thin spike-elements with faint greenish-tan tips (less vivid green than root_lower_left). Intermediate between the dramatic lower-left figure and the more modest upper figures in terms of visual weight.",
+      "bounding_box": {"x_min": 368, "y_min": 620, "x_max": 555, "y_max": 858}
+    },
+    {
+      "anchor_id": "root_lower_right_left_figure",
+      "category": "botany_root",
+      "colors": ["warm_brown_roots:#A0522D", "deep_green_leaves:#1E7A34", "cream_spikes:#F0EAD8"],
+      "morphology_description": "Left figure of the lower-right pair. Spreading brown root arms, vivid deep green crown/leaf elements matching root_lower_left in color intensity. This second occurrence of the deep-green-crowned figure may indicate the same species or preparation as root_lower_left. Label: @Lf 'okockhy' (line 28).",
+      "bounding_box": {"x_min": 558, "y_min": 618, "x_max": 730, "y_max": 875}
+    },
+    {
+      "anchor_id": "root_lower_right_right_figure",
+      "category": "botany_root",
+      "colors": ["deep_sienna_brown_roots:#8B4513", "warm_brown_arms:#A0522D", "deep_green_crown:#1E7A34"],
+      "morphology_description": "Rightmost botanical figure on the folio and the largest lower root — the most elaborate root illustration on the page. Very large spreading arm-root morphology: 6–8 thick root arms in deep sienna-brown (#8B4513), extending dramatically outward and upward in a wide arc. Crown: prominent burst of deep green (#1E7A34) leaf-spray, matching the left lower figures in color intensity. The combination of maximum arm-spread AND maximum green-pigment saturation makes this the visually dominant botanical element of the lower half. Label: @Lf 'os' (line 29) — notably the simplest possible label (2 characters) for the most complex figure. SEMANTIC NOTE: This inverse relationship (complex figure, minimal label) may be significant for the label grammar analysis.",
+      "bounding_box": {"x_min": 730, "y_min": 595, "x_max": 970, "y_max": 895}
+    },
+    {
+      "anchor_id": "green_blob_upper_left",
+      "category": "background_vegetation",
+      "colors": ["deep_teal_green:#1E8449", "blue_green_mixed:#2E86C1"],
+      "morphology_description": "Large irregular flat-wash blob at top-left corner of the folio, above jar_upper. Applied as a flat wash of deep teal-green with some blue-green mixing. No internal detail or outline — purely a background color field. Common in Voynich pharmaceutical folios as a vegetation background indicator. Does not receive any text label.",
+      "bounding_box": {"x_min": 68, "y_min": 18, "x_max": 295, "y_max": 130}
+    },
+    {
+      "anchor_id": "green_blobs_upper_right",
+      "category": "background_vegetation",
+      "colors": ["deep_teal_green:#1E8449"],
+      "morphology_description": "Two rounded cloud-like green wash forms at upper-right of the folio, above the root_upper_right_cluster. Same flat teal-green wash pigment as green_blob_upper_left. Left blob is larger and rounder; right blob is smaller. Unlabelled background vegetation markers.",
+      "bounding_box": {"x_min": 622, "y_min": 18, "x_max": 920, "y_max": 122}
+    }
+  ],
+  "isolated_labels": [
+    {
+      "locus": "<f102v2.1,@Lc>",
+      "raw_text": "porshols",
+      "target_anchor_id": "jar_upper",
+      "placement_context": "First line of a two-line container label (@Lc/+Lc pair) positioned to the RIGHT of jar_upper, at approximately the vertical midpoint of the jar — level with the white separator band between the red and blue chambers. Written horizontally, directly adjacent to the jar body.",
+      "orientation": "horizontal",
+      "state_of_matter_relevance": "CRITICAL — @Lc type label on a visually DRY/SOLID jar. 'porshols' begins with 'por-' prefix. If prefix grammar encodes state, 'por-' may be a DRY-state marker.",
+      "bounding_box": {"x_min": 193, "y_min": 235, "x_max": 385, "y_max": 268}
+    },
+    {
+      "locus": "<f102v2.2,+Lc>",
+      "raw_text": "soaijy",
+      "target_anchor_id": "jar_upper",
+      "placement_context": "Second line of the two-line container label, directly below 'porshols'. Same horizontal position to the right of jar_upper, approximately 25–30 normalized units below line 1.",
+      "orientation": "horizontal",
+      "state_of_matter_relevance": "Second word of the dual-line @Lc label. 'soaijy' begins with 'so-' — may encode a secondary state or modifier for the jar's dual-chamber contents. The two-line nature of this label (unique on this folio) may reflect the two distinct substances (red chamber + blue chamber) each receiving one label word.",
+      "bounding_box": {"x_min": 193, "y_min": 272, "x_max": 350, "y_max": 305}
+    },
+    {
+      "locus": "<f102v2.3,@Lf>",
+      "raw_text": "oror",
+      "target_anchor_id": "root_upper_left",
+      "placement_context": "Short single-word label positioned above or to the upper-right of root_upper_left's crown, at approximately y=138–162 normalized. Horizontal placement, floating freely above the root figure.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 205, "y_min": 135, "x_max": 295, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.4,@Lf>",
+      "raw_text": "chor",
+      "target_anchor_id": "root_upper_center_left_pair",
+      "placement_context": "Label positioned above the left figure of root_upper_center_left_pair, near the top of the upper illustration zone. Horizontal, short single word.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 390, "y_min": 135, "x_max": 460, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.5,@Lf>",
+      "raw_text": "sachy",
+      "target_anchor_id": "root_upper_center_left_pair",
+      "placement_context": "Label adjacent to 'chor' (line 4), positioned slightly to the right or below it, labelling the right figure of the root_upper_center_left_pair or a sub-element of the upper center cluster.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 460, "y_min": 135, "x_max": 555, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.6,@Lf>",
+      "raw_text": "oteos",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label at the left edge of root_upper_right_cluster zone, approximately above the leftmost figure of the cluster. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 575, "y_min": 135, "x_max": 660, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.7,@Lf>",
+      "raw_text": "otol",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label to the right of 'oteos', labelling the next figure or sub-arm of the upper-right cluster. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 660, "y_min": 135, "x_max": 730, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.8,@Lf>",
+      "raw_text": "otory",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Continuing the label sequence across the upper-right cluster. Positioned to the right of 'otol'. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 730, "y_min": 135, "x_max": 820, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.9,@Lf>",
+      "raw_text": "ok?",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Short label with uncertainty marker '?'. Positioned at right edge of upper cluster or between cluster elements. The '?' retained as transcribed.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 820, "y_min": 135, "x_max": 878, "y_max": 165}
+    },
+    {
+      "locus": "<f102v2.10,@Lf>",
+      "raw_text": "okody",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label within or below the upper-right cluster crown zone, second label row or displaced downward due to cluster density. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 600, "y_min": 165, "x_max": 690, "y_max": 195}
+    },
+    {
+      "locus": "<f102v2.11,@Lf>",
+      "raw_text": "cheor",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label continuing the dense labelling of root_upper_right_cluster, second row. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 690, "y_min": 165, "x_max": 775, "y_max": 195}
+    },
+    {
+      "locus": "<f102v2.12,@Lf>",
+      "raw_text": "okoroeey",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Longest of the @Lf root labels. Positioned within upper-right cluster, second row. The 'okor-' prefix plus '-oeey' suffix may be a compound glyph sequence. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 775, "y_min": 165, "x_max": 905, "y_max": 195}
+    },
+    {
+      "locus": "<f102v2.13,@Lf>",
+      "raw_text": "opchy",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label at lower edge of upper-right cluster illustration zone, possibly labelling a lower arm or root element. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 600, "y_min": 195, "x_max": 672, "y_max": 225}
+    },
+    {
+      "locus": "<f102v2.14,@Lf>",
+      "raw_text": "sarol",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label at lower edge of upper-right cluster, third label row. 'sarol' may share root with 'sachy' (line 5) — both begin 'sa-'. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 672, "y_min": 195, "x_max": 758, "y_max": 225}
+    },
+    {
+      "locus": "<f102v2.15,@Lf>",
+      "raw_text": "olrodar",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Label at lower edge of upper-right cluster, third row, rightmost. 'olrodar' — longer label, 'ol-' prefix common in Voynich. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 758, "y_min": 195, "x_max": 865, "y_max": 225}
+    },
+    {
+      "locus": "<f102v2.16,@Lf>",
+      "raw_text": "tod?",
+      "target_anchor_id": "root_upper_right_cluster",
+      "placement_context": "Final label of the upper illustration zone, with uncertainty marker '?'. Positioned at the right margin of the cluster zone, possibly at the boundary with the rightmost root figure. '?' retained as transcribed. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 865, "y_min": 195, "x_max": 940, "y_max": 225}
+    },
+    {
+      "locus": "<f102v2.24,@Lc>",
+      "raw_text": "okolky",
+      "target_anchor_id": "jar_lower",
+      "placement_context": "Single-line container label (@Lc) positioned to the RIGHT of jar_lower, at approximately the vertical midpoint of that jar — level with its separator band. Horizontal. This is the lower analog of the two-line 'porshols/soaijy' label. CONTRAST: 'okolky' begins with 'okol-' — compare 'okoly' variants appearing in paragraph text. The 'okol-' prefix in a @Lc context may be a distinct grammatical form for container contents.",
+      "orientation": "horizontal",
+      "state_of_matter_relevance": "CRITICAL — @Lc label on a DRY/SOLID jar. Single word 'okolky' vs. two-word upper label. 'okol-' prefix may encode the contents' material state. Compare with 'okoly' / 'okeol' forms in paragraph text which may describe the substance in a different grammatical role.",
+      "bounding_box": {"x_min": 196, "y_min": 698, "x_max": 358, "y_max": 730}
+    },
+    {
+      "locus": "<f102v2.25,@Lf>",
+      "raw_text": "osain",
+      "target_anchor_id": "root_lower_left",
+      "placement_context": "Label positioned above root_lower_left, near the top of its crown zone. Horizontal. 'osain' — 'os-' prefix also appears in line 29 ('os' alone). The 'o-' prefix family is prominent in this lower cluster.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 165, "y_min": 622, "x_max": 295, "y_max": 652}
+    },
+    {
+      "locus": "<f102v2.26,@Lf>",
+      "raw_text": "aiky",
+      "target_anchor_id": "root_lower_center",
+      "placement_context": "Short label above root_lower_center crown. 'aiky' — rare 'ai-' prefix opening, notable as most @Lf labels begin with 'o-'. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 375, "y_min": 622, "x_max": 448, "y_max": 652}
+    },
+    {
+      "locus": "<f102v2.27,@Lf>",
+      "raw_text": "okeeoraiin",
+      "target_anchor_id": "root_lower_center",
+      "placement_context": "Longer label adjacent to 'aiky', labelling root_lower_center or a sub-element. 'okeeoraiin' — compound 'okeeor-' + '-aiin' suffix. The '-aiin' suffix is among the most common Voynich terminal sequences. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 448, "y_min": 622, "x_max": 620, "y_max": 652}
+    },
+    {
+      "locus": "<f102v2.28,@Lf>",
+      "raw_text": "okockhy",
+      "target_anchor_id": "root_lower_right_left_figure",
+      "placement_context": "Label above the left figure of the lower-right pair. 'okockhy' — 'okock-' + '-hy' suffix. Horizontal.",
+      "orientation": "horizontal",
+      "bounding_box": {"x_min": 555, "y_min": 622, "x_max": 672, "y_max": 652}
+    },
+    {
+      "locus": "<f102v2.29,@Lf>",
+      "raw_text": "os",
+      "target_anchor_id": "root_lower_right_right_figure",
+      "placement_context": "Minimal two-character label above root_lower_right_right_figure — the largest and most complex root illustration on the page. The extreme brevity ('os' = 2 chars) contrasting with the figure's visual complexity is a striking inverse relationship. 'os' may be a reduced/abbreviated form or a highly frequent glyph pair. Horizontal.",
+      "orientation": "horizontal",
+      "state_of_matter_relevance": "SEMANTIC NOTE: 'os' also appears as an isolated word within paragraph lines (e.g., lines 18, 32, 35). If 'os' functions as a root label AND appears in paragraph text, it may be a high-frequency functional morpheme rather than a specific name.",
+      "bounding_box": {"x_min": 728, "y_min": 622, "x_max": 778, "y_max": 652}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "paragraph_block_1_upper",
+      "description": "7-line main paragraph block (lines 17–23, @P0 + 6x +P0) sitting in the mid-folio zone between the upper illustration row (roots + jar_upper) and the lower illustration row (roots + jar_lower). Spans y=435–650 approximately. Text is horizontal, left-aligned, beginning to the right of jar_upper's right edge. The block opens with @P0 and closes with a short terminal line (line 23, 7 words). There are no bisection markers in this block.",
+      "lines": [
+        {
+          "locus": "<f102v2.17,@P0>",
+          "raw_text": "podeesheo.oteeos.sheos.qoteeo.chckhhy.shkeey.chekeod",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 435, "x_max": 870, "y_max": 465},
+          "interaction": "Opening line of paragraph block 1. Begins with 'podeesheo' — 'pod-' prefix notable. 'oteeos', 'sheos', 'qoteeo' contain 'eo/eeo' sequences common in this folio. No bisection. Left margin at x≈198 clears the right edge of jar_upper. Full-width line."
+        },
+        {
+          "locus": "<f102v2.18,+P0>",
+          "raw_text": "ocheo,s.chy,okeor.okeol.okeol.shy.a",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 471, "x_max": 745, "y_max": 501},
+          "interaction": "Notable intra-word commas: 'ocheo,s' and 'chy,okeor' — retained as transcribed. These commas may indicate scribal abbreviation or phonemic boundaries. 'okeor' and 'okeol' repeat (twice each across lines 17–23), suggesting these are high-frequency words in this pharmaceutical context. Terminal isolated 'a' glyph retained. Shorter line than line 17."
+        },
+        {
+          "locus": "<f102v2.19,+P0>",
+          "raw_text": "deeeo.qoeea?s.o.eockhy.cheos.o.l.or.ol.okeeos.ain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 507, "x_max": 850, "y_max": 537},
+          "interaction": "Uncertainty marker in 'qoeea?s' — retained. Isolated single-glyph words 'o', 'l', retained exactly as transcribed. The sequence '.o.l.or.ol.' contains several minimal glyphs — possibly scribal shorthand, abbreviations, or phonemic markers. 'okeeos' (with triple-e) distinct from 'okeor'/'okeol'."
+        },
+        {
+          "locus": "<f102v2.20,+P0>",
+          "raw_text": "qokeor.cho,keeol.okeeey.qokeody.chockhey.qokeey.dol.ol.sheeoy.tody.cheoc?",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 543, "x_max": 940, "y_max": 573},
+          "interaction": "Longest line of paragraph block 1. Intra-word comma in 'cho,keeol' retained. Uncertainty marker in 'cheoc?' retained. Density of 'qo-' prefixed words: 'qokeor', 'qokeody', 'qokeey' — three 'qo-' words in one line. 'qo-' prefix may be a grammatical determinant for procedure or quantity. 'dol.ol' sequence (cf. isolated 'o.l' in line 19)."
+        },
+        {
+          "locus": "<f102v2.21,+P0>",
+          "raw_text": "ycheey.s.odeey.okeeor.cheol.os.oiin.oeees.okear.chey.keey.s,aiin.oteo?",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 579, "x_max": 940, "y_max": 609},
+          "interaction": "Opens with 'ycheey' — 'y-' prefix opening rare vs. 'o-' dominant prefix. Isolated 's' glyph retained. Comma in 's,aiin' retained. Uncertainty marker 'oteo?' retained. 'oeees' (quadruple-e sequence) notable. 'os' appears here in paragraph text — cf. 'os' as root label (line 29)."
+        },
+        {
+          "locus": "<f102v2.22,+P0>",
+          "raw_text": "dain.or.aiin.cheol.s.oiir.chol.sheey.qockhy.ol.keor.okeody.okeor.cho?",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 615, "x_max": 938, "y_max": 645},
+          "interaction": "Isolated 's' glyph again (cf. line 21). Uncertainty marker 'cho?' terminal. 'oiir' — rare 'ii' sequence. 'aiin' standard high-frequency terminal. 'okeor' repeats (cf. lines 17, 20) — confirms high-frequency status of this word in pharmaceutical context."
+        },
+        {
+          "locus": "<f102v2.23,+P0>",
+          "raw_text": "otea.okeo.shey.okey.oiees.or.eey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 198, "y_min": 651, "x_max": 615, "y_max": 681},
+          "interaction": "Short terminal line — 7 words, significantly shorter than lines 17–22. Functions as paragraph close despite being coded +P0 (not *P0). 'otea', 'okeo', 'okey' form a triad of near-homophonic words. 'eey' terminal is the shortest word in the block. The abrupt shortening may indicate a new sub-section boundary."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_block_2_lower",
+      "description": "10-line main paragraph block (lines 30–39, @P0 + 9x +P0) sitting below the lower illustration row (roots + jar_lower). Spans y=870–1000 approximately. Horizontal orientation, left-aligned. No bisection markers. Slightly longer overall than paragraph block 1 (10 vs. 7 lines). Terminal line 39 is very short (4 words), suggesting paragraph close.",
+      "lines": [
+        {
+          "locus": "<f102v2.30,@P0>",
+          "raw_text": "pydchey.odiy.pcheady.qoekeey.oteey.qokeodsheey.opaiin.deear",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 870, "x_max": 870, "y_max": 900},
+          "interaction": "Opens with 'pydchey' — 'pyd-' prefix, rare variant of 'p-' opening. 'pcheady' — 'pch-' cluster prefix. 'qokeodsheey' — exceptionally long compound word (12 chars), possible compound of 'qokeod' + 'sheey'. 'opaiin' — 'op-' prefix + '-aiin' standard terminal. Left margin slightly further left than block 1 (~x=148) suggesting this block is wider."
+        },
+        {
+          "locus": "<f102v2.31,+P0>",
+          "raw_text": "oldeey.ckhy.sheeody.eeos.sheshe.oeear.ykeear.chekeey.ykory",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 906, "x_max": 858, "y_max": 936},
+          "interaction": "'sheshe' — remarkable reduplication, unique on this folio. May be a scribal error, emphasis marker, or a genuine reduplication morpheme. 'oeear' and 'ykeear' share '-ear' terminal. 'ckhy' — very short glyph, possible abbreviation."
+        },
+        {
+          "locus": "<f102v2.32,+P0>",
+          "raw_text": "dor.cheos.shoar.okeol.shoy.s.ar.oky.cheeor.ol.daiin.sy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 942, "x_max": 840, "y_max": 972},
+          "interaction": "Isolated 's' and 'sy' glyphs retained. 'okeol' reappears (cf. block 1 line 18, twice). 'shoar' — 'sho-' prefix plus '-ar'. 'daiin' — high-frequency terminal. 'cheeor' (triple-e) vs 'cheor' (double-e) in label line 11 — possibly distinct words."
+        },
+        {
+          "locus": "<f102v2.33,+P0>",
+          "raw_text": "qokeor.sho.?keeeos.cheor.o.s.al.chos.aiiin.oky.okar,aiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 978, "x_max": 858, "y_max": 1000},
+          "interaction": "Uncertainty marker '?keeeos' — the '?' is word-initial here, unusual position (typically terminal in this folio). Isolated 'o.s.al' sequence retained. Comma in 'okar,aiin' retained. 'aiiin' (triple-i) retained. 'qokeor' again — third paragraph block occurrence."
+        },
+        {
+          "locus": "<f102v2.34,+P0>",
+          "raw_text": "sos,shey.okeeor.sheockhey.qokeos.okeeol.ctheos.okey.sal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 845, "y_max": 1000},
+          "interaction": "Comma in 'sos,shey' retained. 'okeeor' (triple-e) and 'okeeol' (triple-e) — compare with 'okeor'/'okeol' (double-e) in block 1. The extra 'e' may be a meaningful graphemic distinction (intensity, quantity, or state modifier). 'sheockhey' — compound with 'kh' cluster."
+        },
+        {
+          "locus": "<f102v2.35,+P0>",
+          "raw_text": "ychor.sheol.por.sheeor.shekeey.qoky.cheateody.qokeol.daiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 855, "y_max": 1000},
+          "interaction": "'ychor' — 'y-' prefix opening (cf. 'ycheey' line 21). 'por' — isolated word, shares prefix with 'porshols' (jar_upper label line 1). SEMANTIC NOTE: If 'por' appears as a standalone word in paragraph text AND as a prefix in the @Lc container label, it may be a grammatical particle for a specific material state or preparation step. 'cheateody' — unusual 'ate' sequence. 'sheeor' (triple-e)."
+        },
+        {
+          "locus": "<f102v2.36,+P0>",
+          "raw_text": "okeeor.cheey.okeey.sar.eeey.okey.okey.okeey.qokeor",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 848, "y_max": 1000},
+          "interaction": "'eeey' — a word consisting entirely of repeated vowels, very unusual. 'okey' appears TWICE consecutively — possible scribal repetition or deliberate duplication (cf. 'sheshe' line 31). 'okeey' also appears twice. This line has exceptionally high lexical repetition density, possibly indicating a formula or list."
+        },
+        {
+          "locus": "<f102v2.37,+P0>",
+          "raw_text": "tchor.ar.chey.kor.or.cthey.qoeeey.qokeey.okeoroly.sar",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 840, "y_max": 1000},
+          "interaction": "'tchor' — 't-' prefix opening, rare on this folio. 'kor' — minimal 3-char word. 'cthey' — 'ct-' digraph cluster. 'qoeeey' — 'qo-' prefix + triple-e + 'y'. 'okeoroly' — longest paragraph word in block 2, possible compound 'okeor' + '-oly' suffix."
+        },
+        {
+          "locus": "<f102v2.38,+P0>",
+          "raw_text": "dor.cheey.ckheey.qokeor.okey.chos.sho.ykeey.okeeo.rain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 838, "y_max": 1000},
+          "interaction": "'ckheey' — 'ck-' cluster opening. 'rain' — terminal without 'a' prefix, unusual. 'ykeey' — 'y-' prefix. 'okeeo' — truncated form without terminal consonant (vs 'okeor', 'okeol'). Second-to-last line, approaching paragraph end."
+        },
+        {
+          "locus": "<f102v2.39,+P0>",
+          "raw_text": "yotaiin.cheor.cheekey.orain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 148, "y_min": 988, "x_max": 490, "y_max": 1000},
+          "interaction": "Terminal line — very short, only 4 words. Functions as paragraph close. 'yotaiin' — 'yo-' prefix + 'taiin', rare compound opening. 'cheekey' — 'chee-' + '-key'. 'orain' — minimal terminal. The abrupt shortening confirms paragraph boundary. This is the final line of the folio's text content."
+        }
+      ]
+    }
+  ],
+  "semantic_grounding_summary": {
+    "state_of_matter_findings": {
+      "jar_upper_state": "DRY/SOLID — uniform red+blue fill, no liquid level line, sealed top. Label: 'porshols / soaijy' (two-line @Lc). 'por-' prefix in label may be a DRY-state grammatical marker.",
+      "jar_lower_state": "DRY/SOLID — same visual indicators as jar_upper. Label: 'okolky' (one-line @Lc). 'okol-' prefix may encode a different dry substance or category.",
+      "label_grammar_hypothesis": "Both jars are DRY but have DIFFERENT label structures (2-line vs 1-line) and DIFFERENT prefixes ('por-' vs 'okol-'). This suggests the @Lc grammar does NOT encode wet/dry state (both are dry) but may encode SUBSTANCE TYPE or COMPOSITION COMPLEXITY within the dry category. The dual-chamber jar (two colors) receives the dual-line label; possibly one label word per chamber substance.",
+      "color_state_correlation": "Red chamber = one substance, Blue chamber = another substance. Both are solid/powdered. The alternating red-blue banding may itself be a visual encoding of layered or alternating ingredients.",
+      "botanical_color_correlation": "Upper root figures: tan/orange bodies, cream spikes, NO green pigment. Lower root figures: brown bodies, VIVID GREEN leaf/crown elements. Green vs. no-green may encode fresh vs. dried state, or leafy-crowned vs. root-only specimen. The @Lf labels for green-crowned lower figures use different vocabulary ('osain', 'os') vs. upper labels ('oror', 'chor', 'sachy').",
+      "paragraph_text_overlap": "'por' appears as both the prefix of jar_upper label ('porshols') and as a standalone word in paragraph block 2 line 35 ('por'). This potential grammatical crossover between label vocabulary and paragraph vocabulary is a key semantic grounding target.",
+      "high_frequency_words_in_pharmaceutical_context": ["okeor (appears 5+ times across both blocks)", "okeol (appears 3+ times)", "qokeor (appears 3+ times)", "okey (frequent)", "os (appears as label AND in paragraph text)"]
+    }
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "folio": "f80v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000",
+  "audit_log": {
+    "extracted_folio_id": "f80v",
+    "total_loci_count": 44,
+    "unique_loci_found": [
+      "<f80v>",
+      "<f80v.1,@P0>",  "<f80v.2,+P0>",  "<f80v.3,+P0>",  "<f80v.4,+P0>",
+      "<f80v.5,+P0>",  "<f80v.6,+P0>",  "<f80v.7,+P0>",  "<f80v.8,+P0>",
+      "<f80v.9,+P0>",  "<f80v.10,+P0>", "<f80v.11,+P0>", "<f80v.12,+P0>",
+      "<f80v.13,+P0>", "<f80v.14,+P0>", "<f80v.15,+P0>", "<f80v.16,+P0>",
+      "<f80v.17,+P0>", "<f80v.18,+P0>", "<f80v.19,+P0>", "<f80v.20,+P0>",
+      "<f80v.21,+P0>", "<f80v.22,+P0>", "<f80v.23,+P0>", "<f80v.24,+P0>",
+      "<f80v.25,+P0>", "<f80v.26,+P0>", "<f80v.27,+P0>", "<f80v.28,+P0>",
+      "<f80v.29,+P0>", "<f80v.30,+P0>", "<f80v.31,+P0>", "<f80v.32,+P0>",
+      "<f80v.33,+P0>", "<f80v.34,+P0>", "<f80v.35,+P0>", "<f80v.36,+P0>",
+      "<f80v.37,+P0>", "<f80v.38,+P0>", "<f80v.39,+P0>", "<f80v.40,+P0>",
+      "<f80v.41,+P0>", "<f80v.42,+P0>", "<f80v.43,+P0>", "<f80v.44,+P0>"
+    ],
+    "syntax_clues_detected": [
+      {
+        "note": "NO explicit <-> bisection markers found in f80v transcription. However, the folio header metadata $I=B (Illustration type B) and $B=5 (5 illustration bands) confirms multi-register illustrated layout. The absence of bisection markers is itself significant: the text block is a continuous central column that the nymphs FRAME from the margins rather than interrupt. The nymphs sit entirely outside the text column boundary."
+      },
+      {
+        "note": "Header flags: $Q=M (Quality=Medium), $P=L (Page type=Left verso), $F=v (Folio face=verso), $B=5 (5 illustration bands/registers), $L=B (Layout=B, multi-figure), $H=2 (Hand=2), $C=2 (Colour coding=2). This is a Balneological section folio."
+      },
+      {
+        "note": "High-frequency qo- prefix words across all 44 lines. The prefix 'qo-' appears in: qokeedy, qotedy, qotol, qoky, qokain, qokal, qotain, qopshedy, qoty, qotar, qotal, qolky, qolkain, qokeedy, qoker, qokey etc. By the semantic grounding hypothesis, qo- = outflow / discharge / exit. This is the dominant morpheme of this entire folio."
+      },
+      {
+        "note": "so-/sol-/sor- prefix words also frequent: sol, solcheol, soin, sor. By hypothesis: so-/sa- = inflow/condensation/intake."
+      },
+      {
+        "note": "Notable compound: 'ysheeyqorar' in line 20 — the qo- morpheme is fused directly to the preceding word without a dot separator, possibly indicating a tight semantic bond between the two elements (continuous flow state?)."
+      }
+    ],
+    "visual_anchor_inventory": [
+      {
+        "id": "nymph_top_left_crown",
+        "description": "Female figure (nymph) upper-left, wearing a crown/headdress. Seated or floating. Appears to hold or reach toward the large blue-green pool/tub element at upper-left. Pale skin ink, minimal color.",
+        "primary_colors": ["brown_ink", "pale_wash"]
+      },
+      {
+        "id": "nymph_top_right_blue_band",
+        "description": "Female figure upper-right. A distinctive BLUE band or collar around her midsection/waist — the only blue pigment on a nymph figure in this quadrant. She appears to hold something. Semantically critical: blue band may encode a specific temperature or substance state.",
+        "primary_colors": ["brown_ink", "blue_band"]
+      },
+      {
+        "id": "tub_pool_upper_left",
+        "description": "Large circular/oval pool or tub at upper-left. The basin is filled with BLUE-GREEN liquid wash. White/cream scalloped rim decoration. The nymph_top_left_crown figure sits within or beside it. This is the primary INFLOW vessel of the upper register.",
+        "primary_colors": ["blue_green_wash", "white_rim"]
+      },
+      {
+        "id": "tub_pool_upper_right",
+        "description": "Smaller vessel/pool upper-right beside nymph_top_right_blue_band. Contains BLUE liquid. The nymph appears to be drawing from or gesturing toward this vessel.",
+        "primary_colors": ["blue_wash", "brown_ink_rim"]
+      },
+      {
+        "id": "nymph_mid_left_A",
+        "description": "Female figure left margin, mid-upper zone (~y=380–450). Standing or floating. Arms extended. No distinctive color markings. Flanks the text block on the left.",
+        "primary_colors": ["brown_ink"]
+      },
+      {
+        "id": "nymph_mid_left_B",
+        "description": "Female figure left margin, mid-center zone (~y=500–580). Holding or associated with a vessel below. Possibly interacting with the pedestal_vessel_left anchor.",
+        "primary_colors": ["brown_ink"]
+      },
+      {
+        "id": "pedestal_vessel_left",
+        "description": "CRITICAL VESSEL. A tall pedestal cup or chalice-form container on the left margin at approximately y=530–620. White/cream body. The INTERIOR contains BLUE liquid visible as a painted wash in the lower bowl portion. This is a key semantic anchor: narrow-necked or goblet-form = liquid contents. The pedestal form may indicate elevated/distilled liquid (condensate). FLOW DIRECTION: liquid appears to be contained (static) or dripping downward from the bowl.",
+        "primary_colors": ["white_cream", "blue_liquid_interior"]
+      },
+      {
+        "id": "tube_pipe_left_vertical",
+        "description": "CRITICAL TUBE/PIPE ELEMENT. A vertical tube or channel on the far left margin (~x=30–80) running from approximately y=200 to y=580. This appears as a narrow rectangular or cylindrical form in pale ink. Possible valve/junction marks visible at approximately y=300 (T-junction or X-crossing). FLOW DIRECTION: appears to run top-to-bottom (downward = gravity outflow = qo- direction). No visible color fill inside the tube at this resolution — contents may be gaseous or the tube is dry at time of illustration.",
+        "primary_colors": ["pale_brown_ink", "unpainted_interior"]
+      },
+      {
+        "id": "tube_pipe_right_small",
+        "description": "Smaller tube or pipe element on the right margin (~x=820–870, y=460–540). Associated with nymph_mid_right figures. Short segment only. Contains possible BLUE wash suggesting liquid contents. FLOW DIRECTION: indeterminate from visual alone.",
+        "primary_colors": ["brown_ink", "blue_wash_possible"]
+      },
+      {
+        "id": "nymph_mid_right_A",
+        "description": "Female figure right margin, mid-upper zone (~y=420–490). Standing. Associated with tube_pipe_right_small. Arms position suggests pouring or directing flow.",
+        "primary_colors": ["brown_ink"]
+      },
+      {
+        "id": "nymph_mid_right_B",
+        "description": "Female figure right margin, mid-lower zone (~y=530–610). Holding or standing near a small vessel. Possible blue accent on garment or held object.",
+        "primary_colors": ["brown_ink", "blue_accent_possible"]
+      },
+      {
+        "id": "vessel_right_mid",
+        "description": "Small vessel or cup held by or adjacent to nymph_mid_right_B at approximately x=820–870, y=570–620. Small goblet or cup form. Possible blue interior liquid.",
+        "primary_colors": ["brown_ink", "blue_interior_possible"]
+      },
+      {
+        "id": "channel_bottom_main",
+        "description": "CRITICAL MAIN CHANNEL / WATER COURSE. The dominant hydraulic element of the entire folio. A broad, meandering BLUE-GREEN painted channel or river-form running horizontally across the BOTTOM of the folio (~y=870–980). It spans the full width from x~50 to x~930. The channel has clearly painted blue-green wash fill — the most intensely colored element on the page. Three or four nymph figures sit within or emerge from this channel. FLOW DIRECTION: The channel appears to flow LEFT-TO-RIGHT based on the gentle S-curve morphology and the positioning of the figures within it. This is the PRIMARY OUTFLOW / COLLECTION vessel of the folio system.",
+        "primary_colors": ["blue_green_wash", "teal_blue"]
+      },
+      {
+        "id": "nymph_bottom_channel_left",
+        "description": "Nymph figure seated/immersed in channel_bottom_main at approximately x=100–200, y=880–970. Appears to be entering or receiving flow from the left side of the channel. INTAKE position.",
+        "primary_colors": ["brown_ink", "blue_green_channel"]
+      },
+      {
+        "id": "nymph_bottom_channel_center_left",
+        "description": "Nymph figure in channel_bottom_main at approximately x=280–380, y=870–960. Central-left position in channel. Arms in water. Appears to be in the main flow stream.",
+        "primary_colors": ["brown_ink", "blue_green_channel"]
+      },
+      {
+        "id": "nymph_bottom_channel_center_right",
+        "description": "Nymph figure in channel_bottom_main at approximately x=490–580, y=870–960. Seated centrally in channel. Possible green accent on lower body (garment or plant-like element).",
+        "primary_colors": ["brown_ink", "green_accent", "blue_green_channel"]
+      },
+      {
+        "id": "nymph_bottom_channel_right",
+        "description": "Nymph figure at the right end of channel_bottom_main at approximately x=680–780, y=880–970. OUTFLOW position — seated at the terminus/exit of the channel. This figure may mark the qo- (outflow) endpoint of the hydraulic system.",
+        "primary_colors": ["brown_ink", "blue_green_channel"]
+      },
+      {
+        "id": "nymph_lower_left_standing",
+        "description": "Female figure lower-left, standing or partially immersed (~x=70–150, y=750–870). Positioned between the main text block and the channel_bottom_main. Acts as a transitional figure between the textual zone and the output channel.",
+        "primary_colors": ["brown_ink"]
+      },
+      {
+        "id": "nymph_lower_center",
+        "description": "Female figure lower-center (~x=430–510, y=800–870). Standing above the channel at the lower margin of the text. Appears to be gesturing downward toward the channel.",
+        "primary_colors": ["brown_ink"]
+      },
+      {
+        "id": "red_mark_top_center",
+        "description": "A distinctive RED INK mark or dot visible at approximately x=480–520, y=115–130, near the top margin of the text block. Possibly a scribal correction, a rubric marker, or a semantic emphasis mark on a specific word in line 1. Unique on this folio.",
+        "primary_colors": ["red_ink"]
+      }
+    ]
+  },
+
+  "tube_and_flow_analysis": {
+    "overview": "f80v is a Balneological folio depicting a hydraulic/bathing system with multiple vessels, pipes, and a terminal collection channel. The system can be read as a TOP-TO-BOTTOM flow sequence: inflow vessels (upper) → processing/intermediate vessels (mid) → collection channel (bottom). The nymph figures are positioned at hydraulic nodes (inflow, midpoint, outflow).",
+    "flow_nodes": [
+      {
+        "node_id": "node_1_INFLOW",
+        "anchor_ref": "tub_pool_upper_left",
+        "position": {"x_center": 150, "y_center": 220},
+        "flow_direction": "INFLOW / SOURCE",
+        "color_of_contents": "blue_green_wash",
+        "associated_text_prefix": "sol- / so- (inflow hypothesis)",
+        "note": "The large upper-left pool with blue-green liquid is the origin point. The nymph beside it (nymph_top_left_crown) manages this intake. The blue-green color matches the channel_bottom_main color, suggesting same substance throughout the system."
+      },
+      {
+        "node_id": "node_2_INTAKE_RIGHT",
+        "anchor_ref": "tub_pool_upper_right",
+        "position": {"x_center": 810, "y_center": 200},
+        "flow_direction": "SECONDARY INFLOW or PARALLEL SOURCE",
+        "color_of_contents": "blue_wash",
+        "note": "Upper-right vessel with blue liquid. Managed by nymph_top_right_blue_band. The blue (vs blue-green) color difference may indicate a distinct substance or processing stage."
+      },
+      {
+        "node_id": "node_3_VERTICAL_PIPE",
+        "anchor_ref": "tube_pipe_left_vertical",
+        "position": {"x_min": 30, "x_max": 80, "y_min": 200, "y_max": 580},
+        "flow_direction": "DOWNWARD (gravity-driven outflow)",
+        "color_of_contents": "unpainted / dry or gaseous",
+        "valve_junction": {
+          "detected": true,
+          "position": {"x_center": 55, "y_center": 300},
+          "morphology": "Possible T-junction or X-crossing where a horizontal branch meets the vertical pipe. If confirmed, this is a VALVE / DIVERTER controlling flow between the upper source and the intermediate vessel (pedestal_vessel_left). Morphologically resembles a T-form connector.",
+          "semantic_note": "A T-junction here would mean the text surrounding it (~lines 8–12) describes a branching process — possibly separating two output streams, matching the dual qo- outflow morpheme clusters in those lines."
+        },
+        "note": "The left-margin vertical tube is the primary TRANSPORT element of the system, moving substance from upper sources to the mid-level pedestal vessel."
+      },
+      {
+        "node_id": "node_4_INTERMEDIATE_VESSEL",
+        "anchor_ref": "pedestal_vessel_left",
+        "position": {"x_center": 140, "y_center": 575},
+        "flow_direction": "RECEIVES from tube_pipe_left_vertical above; DISCHARGES downward toward channel_bottom_main",
+        "color_of_contents": "blue_liquid (lower bowl portion only — partial fill)",
+        "vessel_morphology": "Pedestal/goblet form with narrow stem and wide bowl. The partial fill (liquid only in the lower portion of the bowl) is semantically significant: this is NOT a full container but a PARTIAL FILL state, possibly indicating a measured dosage or an actively draining vessel. The narrow pedestal stem may function as a flow-restriction element (valve/siphon analogy).",
+        "associated_text_prefix": "The lines adjacent to this vessel (~lines 17–22) contain: solcheol (sol- = inflow?), qokaiin (qo- = outflow?), qokal (qo- = outflow). The alternation of sol- and qo- words directly beside the pedestal vessel is consistent with it being a PROCESSING NODE receiving and discharging."
+      },
+      {
+        "node_id": "node_5_RIGHT_PIPE",
+        "anchor_ref": "tube_pipe_right_small",
+        "position": {"x_center": 845, "y_center": 500},
+        "flow_direction": "INDETERMINATE — possibly lateral transfer between right-margin figures",
+        "color_of_contents": "blue_wash_possible",
+        "note": "Short pipe segment on right margin. The adjacent nymph_mid_right_A has arms positioned as if directing or pouring. Could represent a secondary processing branch parallel to the left pipe."
+      },
+      {
+        "node_id": "node_6_TERMINAL_CHANNEL_OUTFLOW",
+        "anchor_ref": "channel_bottom_main",
+        "position": {"x_min": 50, "x_max": 930, "y_min": 870, "y_max": 980},
+        "flow_direction": "LEFT-TO-RIGHT (primary) — OUTFLOW / COLLECTION",
+        "color_of_contents": "blue_green_wash (intense, same hue as node_1)",
+        "channel_morphology": "Broad, meandering river or bath channel. The S-curve form and the LEFT-TO-RIGHT reading direction of the figures within it confirms directional flow. The four nymphs inside represent: [LEFT] intake/entry → [CENTER-LEFT] mid-processing → [CENTER-RIGHT] mid-exit → [RIGHT] final outflow. The rightmost nymph (nymph_bottom_channel_right) marks the qo- endpoint.",
+        "cross_junctions_detected": false,
+        "note": "The channel_bottom_main is the SEMANTIC TERMINUS of the entire f80v hydraulic narrative. All qo- prefixed words in the text block (dominant throughout all 44 lines) point toward this collection/outflow endpoint. The system described textually is: intake (sol-) → process → discharge (qo-) → collect (channel)."
+      }
+    ],
+    "full_system_flow_summary": "SOURCE (tub_pool_upper_left / tub_pool_upper_right) → TRANSPORT (tube_pipe_left_vertical, with T-junction valve at y≈300) → INTERMEDIATE PROCESSING (pedestal_vessel_left, partial blue fill) → SECONDARY TRANSPORT (implied gravity fall, left margin y=620–870) → TERMINAL COLLECTION (channel_bottom_main, full blue-green, left-to-right flow). The right-side pipe (tube_pipe_right_small) appears to be a parallel secondary branch of the same system.",
+    "prefix_semantic_map": {
+      "qo_prefix": {
+        "hypothesis": "OUTFLOW / DISCHARGE / EXIT state",
+        "evidence": "qo- is overwhelmingly dominant in all 44 lines of f80v. The folio depicts a system designed primarily for OUTFLOW — the terminal channel is the main illustrated element. This is consistent with qo- = outflow.",
+        "frequency_note": "qo- words appear in virtually every line: qokeedy, qotedy, qoky, qokain, qokal, qotain, qopshedy, qoty, qotar, qotal, qolky, qolkain, qoker, qokey — approximately 3–6 occurrences per line."
+      },
+      "sol_so_prefix": {
+        "hypothesis": "INFLOW / INTAKE / CONDENSATION state",
+        "evidence": "sol (line 10), solcheol (line 17), soin (line 36), sor (line 43). These appear at structural turning points in the text — beginnings of sub-sections — consistent with marking intake events in the described process.",
+        "frequency_note": "Much rarer than qo-. Ratio approximately 1:10 vs qo-. System is primarily described as an OUTFLOW process."
+      },
+      "sa_sain_prefix": {
+        "hypothesis": "INFLOW boundary / joining condition",
+        "evidence": "saly (line 7), sar (line 25), sain (not present but related morpheme chain). Appear mid-paragraph at junctions.",
+        "frequency_note": "Rare, mid-text occurrences."
+      }
+    }
+  },
+
+  "visual_anchors": [
+    {
+      "anchor_id": "nymph_top_left_crown",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "pale_wash"],
+      "morphology_description": "Female figure with crown or elaborate headdress. Seated or floating in or beside the large upper-left pool. Arms extended toward the pool rim. Manages the primary inflow node. No clothing color — bare figure.",
+      "bounding_box": {"x_min": 50, "y_min": 80, "x_max": 210, "y_max": 270}
+    },
+    {
+      "anchor_id": "nymph_top_right_blue_band",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "blue_band"],
+      "morphology_description": "Female figure upper-right. A BLUE horizontal band encircles her torso/waist — the only blue-painted clothing element in the upper register. She faces inward toward the text. Her right arm extends toward the upper-right vessel. The blue band may semantically encode a temperature state (cold = blue?) or a substance category.",
+      "bounding_box": {"x_min": 730, "y_min": 55, "x_max": 890, "y_max": 250}
+    },
+    {
+      "anchor_id": "tub_pool_upper_left",
+      "category": "balneo_vessel_pool",
+      "colors": ["blue_green_wash", "white_scalloped_rim"],
+      "morphology_description": "Large oval or circular pool/basin. The rim has a decorative scalloped or beaded white border. Interior filled with blue-green liquid wash — the most saturated color in the upper register. The nymph_top_left_crown figure is positioned inside or at the rim. INFLOW SOURCE vessel.",
+      "bounding_box": {"x_min": 55, "y_min": 130, "x_max": 255, "y_max": 310}
+    },
+    {
+      "anchor_id": "tub_pool_upper_right",
+      "category": "balneo_vessel_pool",
+      "colors": ["blue_wash", "brown_ink_rim"],
+      "morphology_description": "Smaller vessel upper-right. Bowl or basin form with brown ink outline and blue liquid wash interior. Less saturated blue than tub_pool_upper_left — possibly a different substance or diluted state.",
+      "bounding_box": {"x_min": 740, "y_min": 120, "x_max": 890, "y_max": 265}
+    },
+    {
+      "anchor_id": "tube_pipe_left_vertical",
+      "category": "balneo_tube_pipe",
+      "colors": ["pale_brown_ink", "unpainted_interior"],
+      "morphology_description": "VERTICAL PIPE / TUBE on far left margin. Narrow rectangular or cylindrical form running top-to-bottom. Length approximately 380 normalized units. At approximately y=300, a possible T-junction or X-crossing is visible where a horizontal branch appears to connect. The pipe interior is unpainted — contents may be gaseous, empty, or the illustration convention for this pipe type does not show liquid fill. FLOW: gravity-driven downward (top=IN, bottom=OUT toward pedestal vessel).",
+      "bounding_box": {"x_min": 25, "y_min": 195, "x_max": 85, "y_max": 580},
+      "valve_note": "T-junction suspected at y≈300, x≈55. If confirmed, this is a DIVERTER VALVE splitting flow between two branches."
+    },
+    {
+      "anchor_id": "nymph_mid_left_A",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink"],
+      "morphology_description": "Female figure left margin mid-upper zone. Standing. Arms at sides or slightly extended. No vessel interaction visible at this position — transitional figure between upper source and intermediate vessel.",
+      "bounding_box": {"x_min": 45, "y_min": 370, "x_max": 175, "y_max": 480}
+    },
+    {
+      "anchor_id": "nymph_mid_left_B",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink"],
+      "morphology_description": "Female figure left margin mid-center. Positioned above or beside pedestal_vessel_left. Appears to supervise or manage the intermediate vessel. Arms positioned downward toward the vessel.",
+      "bounding_box": {"x_min": 45, "y_min": 490, "x_max": 175, "y_max": 600}
+    },
+    {
+      "anchor_id": "pedestal_vessel_left",
+      "category": "balneo_vessel_pedestal",
+      "colors": ["white_cream_body", "blue_liquid_interior"],
+      "morphology_description": "TALL PEDESTAL CUP / GOBLET FORM. Narrow stem rising from a wide foot/base, expanding to a wide bowl at top. The bowl interior contains BLUE liquid wash covering approximately the lower 40% of the bowl volume — a PARTIAL FILL state. This partial fill is semantically critical: it represents an actively processing or partially drained vessel, not a full/sealed storage container. The white/cream body contrasts sharply with the blue interior. FLOW: receives from tube_pipe_left_vertical above; discharges downward (by gravity or siphon) toward channel_bottom_main. Morphologically: goblet/narrow-neck form = LIQUID state (validates liquid-content hypothesis for goblet morphology).",
+      "bounding_box": {"x_min": 90, "y_min": 530, "x_max": 200, "y_max": 660}
+    },
+    {
+      "anchor_id": "nymph_mid_right_A",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink"],
+      "morphology_description": "Female figure right margin mid-upper. Arms extended — possibly directing flow into or out of tube_pipe_right_small. Pouring gesture posture.",
+      "bounding_box": {"x_min": 800, "y_min": 420, "x_max": 920, "y_max": 520}
+    },
+    {
+      "anchor_id": "tube_pipe_right_small",
+      "category": "balneo_tube_pipe",
+      "colors": ["brown_ink", "blue_wash_interior_possible"],
+      "morphology_description": "Short tube or pipe segment on right margin. Narrower than tube_pipe_left_vertical. Possible blue wash interior suggesting liquid contents. Associated with nymph_mid_right_A (above) and nymph_mid_right_B (below). May represent a SECONDARY BRANCH parallel to the left-side pipe system. No T-junction or valve features clearly visible.",
+      "bounding_box": {"x_min": 810, "y_min": 465, "x_max": 880, "y_max": 545}
+    },
+    {
+      "anchor_id": "nymph_mid_right_B",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "blue_accent_possible"],
+      "morphology_description": "Female figure right margin mid-lower. Holds or stands near vessel_right_mid. Possible blue accent on held object. Manages secondary outflow on right side.",
+      "bounding_box": {"x_min": 800, "y_min": 535, "x_max": 920, "y_max": 640}
+    },
+    {
+      "anchor_id": "vessel_right_mid",
+      "category": "balneo_vessel_cup",
+      "colors": ["brown_ink", "blue_interior_possible"],
+      "morphology_description": "Small cup or goblet held by or beside nymph_mid_right_B. Goblet/cup form = liquid contents (consistent with morphology-state hypothesis). Possible blue interior wash.",
+      "bounding_box": {"x_min": 815, "y_min": 575, "x_max": 875, "y_max": 635}
+    },
+    {
+      "anchor_id": "channel_bottom_main",
+      "category": "balneo_channel_river",
+      "colors": ["blue_green_wash", "teal_blue"],
+      "morphology_description": "THE PRIMARY HYDRAULIC OUTPUT ELEMENT. A broad, meandering river or bathing channel running the full width of the folio bottom. Width approximately 880 normalized units (x=50 to x=930). Height approximately 110 normalized units (y=870 to y=980). The blue-green wash fill is the most intensely painted element on the folio. The channel has a gentle S-curve morphology. Four nymph figures are immersed within it at regular intervals. FLOW DIRECTION: LEFT-TO-RIGHT. LEFT end = intake/entry (nymph_bottom_channel_left). RIGHT end = final outflow/exit (nymph_bottom_channel_right). This is the semantic qo- TERMINUS of the entire described process.",
+      "bounding_box": {"x_min": 50, "y_min": 870, "x_max": 930, "y_max": 985}
+    },
+    {
+      "anchor_id": "nymph_bottom_channel_left",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "blue_green_channel"],
+      "morphology_description": "Nymph seated at LEFT entry of channel_bottom_main. INTAKE position. Body immersed to waist in blue-green liquid. Faces rightward (direction of flow).",
+      "bounding_box": {"x_min": 90, "y_min": 880, "x_max": 210, "y_max": 975}
+    },
+    {
+      "anchor_id": "nymph_bottom_channel_center_left",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "blue_green_channel"],
+      "morphology_description": "Nymph in channel at center-left position. Immersed. Arms in liquid. Mid-flow position.",
+      "bounding_box": {"x_min": 270, "y_min": 875, "x_max": 400, "y_max": 968}
+    },
+    {
+      "anchor_id": "nymph_bottom_channel_center_right",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "green_accent", "blue_green_channel"],
+      "morphology_description": "Nymph in channel at center-right position. Notable GREEN pigment on lower body — possibly a garment, plant element, or algae-like decoration. This is the only figure in the channel with a non-brown color accent. Semantically: the green accent may mark a TRANSFORMATION point in the flow where substance changes state.",
+      "bounding_box": {"x_min": 460, "y_min": 870, "x_max": 600, "y_max": 972}
+    },
+    {
+      "anchor_id": "nymph_bottom_channel_right",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink", "blue_green_channel"],
+      "morphology_description": "Nymph at RIGHT end of channel_bottom_main. OUTFLOW position — the semantic qo- terminus. Facing leftward or seated at right margin of channel. Marks the final exit point of the hydraulic narrative.",
+      "bounding_box": {"x_min": 660, "y_min": 878, "x_max": 800, "y_max": 975}
+    },
+    {
+      "anchor_id": "nymph_lower_left_standing",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink"],
+      "morphology_description": "Female figure standing lower-left, above the channel entry. Acts as a transitional figure between the text block and the terminal channel. Gestures downward toward the channel.",
+      "bounding_box": {"x_min": 55, "y_min": 750, "x_max": 165, "y_max": 875}
+    },
+    {
+      "anchor_id": "nymph_lower_center",
+      "category": "balneo_nymph",
+      "colors": ["brown_ink"],
+      "morphology_description": "Female figure lower-center, above the channel at approximately x=430–510. Standing at the lower margin of the text block. Gestures downward. Marks the transition from text-described process to physical channel outflow.",
+      "bounding_box": {"x_min": 400, "y_min": 800, "x_max": 530, "y_max": 880}
+    },
+    {
+      "anchor_id": "red_mark_top_center",
+      "category": "scribal_mark",
+      "colors": ["red_ink"],
+      "morphology_description": "A red ink mark or dot visible near x=490, y=120, at the start of line 1. Possibly a scribal rubric, correction, or emphasis marker on the opening word 'pchedy'. Unique on this folio — no other red marks are visible in the text block. Red marks in the Voynich Manuscript sometimes indicate section headers or special recipe markers.",
+      "bounding_box": {"x_min": 475, "y_min": 113, "x_max": 515, "y_max": 133}
+    }
+  ],
+
+  "isolated_labels": [],
+
+  "text_blocks_mapping": [
+    {
+      "block_id": "main_continuous_paragraph",
+      "description": "f80v contains a single continuous paragraph block of 44 lines running from y≈110 to y≈800. The text occupies the central column of the folio (~x=140 to x=820), leaving left and right margins clear for nymph figures and vessel illustrations. There are NO isolated labels (@L type) in this folio — all 44 loci are paragraph lines (@P0 / +P0). No explicit <-> bisection markers appear. The text block is framed by nymphs and vessels but not interrupted by them.",
+      "lines": [
+        {
+          "locus": "<f80v.1,@P0>",
+          "raw_text": "pchedy.dolfchedy.qokeedy.qotedy.qotol,fchedy.roly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 195, "y_min": 110, "x_max": 750, "y_max": 138},
+          "interaction": "Opening line with decorated initial 'p'. Red ink mark visible at approximately x=490 above/beside this line. Notable qo- words: qokeedy, qotedy, qotol. The comma in 'qotol,fchedy' is an uncertainty marker. 'dolfchedy' — rare 'dolf-' prefix."
+        },
+        {
+          "locus": "<f80v.2,+P0>",
+          "raw_text": "tshedy.qotedy.olkain.otal.chckhy.qoky.daiin.daly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 148, "x_max": 745, "y_max": 174},
+          "interaction": "Full-width line. qo- words: qotedy, qoky. 'olkain' — ol- prefix (diminutive/small quantity?). 'daiin' — common isolate word."
+        },
+        {
+          "locus": "<f80v.3,+P0>",
+          "raw_text": "schedy.qolchedy.qokaiin.chcthy.otaiin.sheeky.qol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 183, "x_max": 730, "y_max": 208},
+          "interaction": "Begins with 'schedy' — s- prefix (possible inflow/state marker). qo- words: qolchedy, qokaiin, qol. 'otaiin' — ot- prefix cluster."
+        },
+        {
+          "locus": "<f80v.4,+P0>",
+          "raw_text": "qokedy.qokar.qokain.chedy.qol.qol.shectyhy.qoly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 217, "x_max": 740, "y_max": 242},
+          "interaction": "Extremely dense qo- cluster: qokedy, qokar, qokain, qol, qol, qoly — 6 qo- words in a single line. Highest qo- density of the folio. 'qol.qol' — exact repetition, possible emphasis or counting. 'shectyhy' — unusual morphology with -ty- infix."
+        },
+        {
+          "locus": "<f80v.5,+P0>",
+          "raw_text": "okeedy.chedy.olkeedy.octhy.qokaiin.shckhy.qotain.ol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 252, "x_max": 745, "y_max": 277},
+          "interaction": "Mixed prefix line: 'okeedy' (o- prefix), 'olkeedy' (ol- prefix), qo- words: qokaiin, qotain. 'octhy' — rare oc- form."
+        },
+        {
+          "locus": "<f80v.6,+P0>",
+          "raw_text": "tcheol.kedy.pcheol.kain.shedy.qokaiin.otey.qokedy.chedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 286, "x_max": 760, "y_max": 311},
+          "interaction": "Contains 'tcheol' and 'pcheol' — t-/p- initial consonant variants of the same stem 'cheol'. qo- words: qokaiin, qokedy. This line is at y≈290, adjacent to the suspected T-junction of tube_pipe_left_vertical on the left margin."
+        },
+        {
+          "locus": "<f80v.7,+P0>",
+          "raw_text": "polshol.tchey.qokol.shedy.qotshey.saly.kchey.stolpchy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 320, "x_max": 755, "y_max": 345},
+          "interaction": "Begins with 'polshol' — pol- prefix. 'saly' appears mid-line — sa- prefix (inflow hypothesis). 'stolpchy' — complex compound with st- initial cluster. qo- words: qokol, qotshey. 'saly' at this position may annotate the T-junction valve event on the left pipe."
+        },
+        {
+          "locus": "<f80v.8,+P0>",
+          "raw_text": "olteedy.qokaiin.shedy.qokain.sheol.qokchdy.qokchdy.qotydy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 354, "x_max": 760, "y_max": 379},
+          "interaction": "REPEATED WORD: 'qokchdy.qokchdy' — exact duplication. Rare in Voynich text. May encode a doubled quantity, repeated action, or emphasis. qo- density very high: qokaiin, qokain, qokchdy×2, qotydy."
+        },
+        {
+          "locus": "<f80v.9,+P0>",
+          "raw_text": "tchdy.qol.tol.tal.tal,dain.chcthy.qokal.dal.checthy.qokal.ly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 388, "x_max": 770, "y_max": 413},
+          "interaction": "Contains 'tal.tal,dain' — a near-repetition with a comma uncertainty. 'qokal' appears TWICE. 'ly' as a terminal isolated suffix. High structural regularity in this line."
+        },
+        {
+          "locus": "<f80v.10,+P0>",
+          "raw_text": "sol.sheey.qokaiin.shcthy.dolshedy.qokal.shecthy.qotain,ol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 422, "x_max": 760, "y_max": 447},
+          "interaction": "Begins with 'sol' — the INFLOW marker hypothesis. 'sol' here at line start may mark a new inflow event in the process. This line is at y≈430, approaching the zone of nymph_mid_left_A on the left margin. qo- words: qokaiin, qokal, qotain."
+        },
+        {
+          "locus": "<f80v.11,+P0>",
+          "raw_text": "tal.sheedy.qokar.olky.ror,cheey.sheckhy.qotain.chedy.rol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 456, "x_max": 755, "y_max": 481},
+          "interaction": "qo- words: qokar, qotain. 'ror,cheey' — uncertainty comma within word. 'olky' — ol-suffix or ol-prefix form."
+        },
+        {
+          "locus": "<f80v.12,+P0>",
+          "raw_text": "ycheol.kain.shey.qokain.chedy.qokol.olkain.shcthhy.l",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 490, "x_max": 745, "y_max": 515},
+          "interaction": "Terminal 'l' as a single isolated glyph at line end — very short. qo- words: qokain, qokol. 'ycheol' — y- initial prefix."
+        },
+        {
+          "locus": "<f80v.13,+P0>",
+          "raw_text": "lor.ar.ol.olor.chey.kol,dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 524, "x_max": 480, "y_max": 548},
+          "interaction": "VERY SHORT LINE — only 6 words. Terminates at x≈480, leaving the right half of the line blank. This short line is adjacent to the pedestal_vessel_left anchor (y≈530–620). The brevity may indicate a section break or a structural inflection point in the recipe. No qo- words in this line — unique among f80v lines."
+        },
+        {
+          "locus": "<f80v.14,+P0>",
+          "raw_text": "tshedy.qokain.shedy.qokas.otal.qopshedy.qoty.lchedy.qopalor",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 558, "x_max": 760, "y_max": 583},
+          "interaction": "qo- density resumes strongly after the short line 13: qokain, qokas, qopshedy, qoty, qopalor. 'qopalor' — unusual 'qop-' cluster with 'alor' ending. 'qopshedy' — qop- prefix form."
+        },
+        {
+          "locus": "<f80v.15,+P0>",
+          "raw_text": "qotaiin.chty.lchedy.s.aly.tol.chey.qoteedy.otal.dain.ol.dal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 592, "x_max": 760, "y_max": 617},
+          "interaction": "Contains isolated single glyphs: 's' and then 'aly' as separate dot-separated units. The isolated 's' is very rare — possibly an abbreviation or scribal marker. qo- words: qotaiin, qoteedy. 'aly' — possible suffix standing alone."
+        },
+        {
+          "locus": "<f80v.16,+P0>",
+          "raw_text": "cheol.key.qotar.dy.qotal.dy.keedy.qokain.oty.loldy.tal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 626, "x_max": 755, "y_max": 651},
+          "interaction": "Contains 'dy' as isolated word twice (after qotar and qotal). Short suffix 'dy' appearing alone may be a particle or modifier. qo- words: qotar, qotal, qokain."
+        },
+        {
+          "locus": "<f80v.17,+P0>",
+          "raw_text": "solcheol.qokaiin.shecthy.qokal.cheoldy.qotlolkal.chedyr",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 660, "x_max": 755, "y_max": 685},
+          "interaction": "Begins with 'solcheol' — SOL- INFLOW MARKER at line start. Another inflow event marker, consistent with a new processing stage beginning here. Adjacent to the lower portion of pedestal_vessel_left on the left margin. 'qotlolkal' — very long compound with multiple embedded morphemes (qot+lol+kal?). qo- words: qokaiin, qokal, qotlolkal."
+        },
+        {
+          "locus": "<f80v.18,+P0>",
+          "raw_text": "ychedy.qol.okaiin.olkedy.or.okain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 694, "x_max": 570, "y_max": 718},
+          "interaction": "Short line — terminates at x≈570. qo- word: qol (minimal). Multiple 'ok-' prefix words (okaiin, okain) — ok- variant of the o- prefix class."
+        },
+        {
+          "locus": "<f80v.19,+P0>",
+          "raw_text": "fsheoldy.dkshey.qokopy.ror.afor.olfockhy.oltydy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 728, "x_max": 660, "y_max": 753},
+          "interaction": "Contains 'dkshey' — unusual 'dk-' initial consonant cluster, very rare. 'afor' — 'af-' prefix form. 'qokopy' — qo- word with 'kopy' stem. 'olfockhy' — complex compound."
+        },
+        {
+          "locus": "<f80v.20,+P0>",
+          "raw_text": "ysheeyqorar.ol.cheey.daiin.shey.qokaiin.ol.okaiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 762, "x_max": 670, "y_max": 787},
+          "interaction": "NOTABLE: 'ysheeyqorar' — the qo- morpheme is FUSED directly to the preceding word without a dot separator. This is unique in this folio. The fusion 'shey+qorar' may indicate a tightly bound semantic compound: the inflow state (shey) directly triggers the outflow (qo-). qo- words: ysheeyqorar (fused), qokaiin."
+        },
+        {
+          "locus": "<f80v.21,+P0>",
+          "raw_text": "tar.kain.okal.y.rchey.qokal.oloraiin.okal.otam",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 796, "x_max": 660, "y_max": 820},
+          "interaction": "Contains isolated 'y' glyph (as in line 15 with isolated 's'). 'oloraiin' — long compound. qo- word: qokal."
+        },
+        {
+          "locus": "<f80v.22,+P0>",
+          "raw_text": "dchedy.qokal.ol.chey.dal.or.shedy.lshedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 830, "x_max": 620, "y_max": 855},
+          "interaction": "Short line approaching the bottom margin. qo- word: qokal. 'lshedy' — l- initial prefix form."
+        },
+        {
+          "locus": "<f80v.23,+P0>",
+          "raw_text": "polteshol.ofy.shey.qopshedy.qoteedy.qotol.shy.kolshd.qoky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 248, "x_max": 750, "y_max": 273},
+          "interaction": "NOTE: This line and the following lines 23–44 appear to constitute a SECOND PARAGRAPH SECTION within the same continuous block, beginning with 'polteshol' which has a pol- initial prefix similar to line 7. qo- dense: qopshedy, qoteedy, qotol, qoky."
+        },
+        {
+          "locus": "<f80v.24,+P0>",
+          "raw_text": "yshedy.qokeey.qokey.qoty.qotol.otaiin.ol.chedy.qoky.daiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 282, "x_max": 745, "y_max": 307},
+          "interaction": "Very high qo- density: qokeey, qokey, qoty, qotol, qoky — 5 qo- words. 'qotol' appears again (also in line 23). Repetition of 'qotol' across adjacent lines may be a structural keyword."
+        },
+        {
+          "locus": "<f80v.25,+P0>",
+          "raw_text": "lshedy.qoty.olol.cheey.qokain.okalchy.tal.or.checthy.sar",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 316, "x_max": 740, "y_max": 341},
+          "interaction": "Terminal word 'sar' — sa- prefix at line END (unusual — typically at line start). 'olol' — doubled ol- form. qo- words: qoty, qokain."
+        },
+        {
+          "locus": "<f80v.26,+P0>",
+          "raw_text": "qoty.chey,qy,taiin.chey.lchedy.shedy.olchey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 350, "x_max": 660, "y_max": 375},
+          "interaction": "Contains 'chey,qy,taiin' — a word with TWO internal commas (double uncertainty). This is the most uncertainty-marked word form in the folio. The isolated 'qy' within is a very short qo- variant. qo- words: qoty, 'qy' (embedded)."
+        },
+        {
+          "locus": "<f80v.27,+P0>",
+          "raw_text": "fshol.kain.ol,kar.shey.qokain.dal.oltaiin.okain.shal.qoty",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 384, "x_max": 740, "y_max": 409},
+          "interaction": "'ol,kar' — uncertainty comma within compound. 'shal' — sha- prefix form. qo- words: qokain, qoty."
+        },
+        {
+          "locus": "<f80v.28,+P0>",
+          "raw_text": "olcheol.qokain.or.al.chain.qokain.ol.kaiin.akeedy.qokey.ly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 418, "x_max": 745, "y_max": 443},
+          "interaction": "'qokain' appears TWICE. 'chain' — cha- prefix. 'akeedy' — a- initial form. Terminal 'ly'. qo- words: qokain×2, qokey."
+        },
+        {
+          "locus": "<f80v.29,+P0>",
+          "raw_text": "qokain.olkain.olkain.ol.keeol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 452, "x_max": 480, "y_max": 476},
+          "interaction": "VERY SHORT LINE — 5 words. 'olkain' appears TWICE consecutively. Possible section terminus or deliberate repetition. Only one qo- word (qokain)."
+        },
+        {
+          "locus": "<f80v.30,+P0>",
+          "raw_text": "fol.or.olkain.ockhy.qokaiin.okain.okar.shey.qolky",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 486, "x_max": 680, "y_max": 511},
+          "interaction": "Begins with 'fol' — f- initial. qo- words: qokaiin, qolky. Multiple ok- forms (ockhy, okain, okar)."
+        },
+        {
+          "locus": "<f80v.31,+P0>",
+          "raw_text": "qol.ol.oiin.olkain.al.chedy.qokain.olshey.qokain",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 520, "x_max": 680, "y_max": 545},
+          "interaction": "'qokain' appears TWICE (also at end). Terminal qo- word. 'oiin' — rare o-iin form without intervening consonant. qo- words: qol, qokain×2."
+        },
+        {
+          "locus": "<f80v.32,+P0>",
+          "raw_text": "solkain.shol.kair.or.arolkeedy.olky.qolkain.shedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 554, "x_max": 660, "y_max": 579},
+          "interaction": "Begins with 'solkain' — SOL- INFLOW MARKER. Third sol- line start in this folio (after lines 10, 17). Marks another inflow sub-event. 'arolkeedy' — long compound starting with 'ar-'. qo- word: qolkain."
+        },
+        {
+          "locus": "<f80v.33,+P0>",
+          "raw_text": "qokeedy.qoker.olkain.olshedy.qokey.qokeey.tchcthy.lom",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 588, "x_max": 680, "y_max": 613},
+          "interaction": "HIGH qo- density: qokeedy, qoker, qokey, qokeey — 4 qo- words. Terminal 'lom' — unusual -om ending. 'tchcthy' — consonant-heavy compound."
+        },
+        {
+          "locus": "<f80v.34,+P0>",
+          "raw_text": "dol.sheyr.shey.olshey.cthor.ylchdy.olkain.shcthy.qoly",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 622, "x_max": 665, "y_max": 647},
+          "interaction": "'sheyr' — shey+r suffix form. 'cthor' — ct- consonant cluster. qo- word: qoly (terminal)."
+        },
+        {
+          "locus": "<f80v.35,+P0>",
+          "raw_text": "tol.oltain.olkar.y.qol.qol.kain.okiin.ol.kain.shey.ldy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 656, "x_max": 680, "y_max": 681},
+          "interaction": "'qol.qol' — EXACT REPETITION again (as in line 4). Third occurrence of this doubled form in the folio: lines 4, 9 (qokal×2 with words between), 35. Isolated 'y' glyph (as in lines 15, 21). 'okiin' — ok+iin form. Terminal 'ldy'."
+        },
+        {
+          "locus": "<f80v.36,+P0>",
+          "raw_text": "soin.okain.sheor.al.shey.daly.olshedy.olal.shedy.lchy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 690, "x_max": 665, "y_max": 715},
+          "interaction": "Begins with 'soin' — SO- INFLOW prefix with '-in' (condensation?) suffix. Fourth so-/sol- line opener. 'olal' — double ol- compound. Terminal 'lchy' — lch- cluster."
+        },
+        {
+          "locus": "<f80v.37,+P0>",
+          "raw_text": "polshdy.qokeedy.shky.ololchey",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 724, "x_max": 480, "y_max": 748},
+          "interaction": "SHORT LINE — 4 words. 'shky' — very short word, rare form. 'ololchey' — doubled ol- prefix within one word. qo- word: qokeedy."
+        },
+        {
+          "locus": "<f80v.38,+P0>",
+          "raw_text": "pol,kedy.lsheckhy.olky.ot.olkchy.r,chey.qcthy.rchey.ral",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 758, "x_max": 665, "y_max": 783},
+          "interaction": "'pol,kedy' — uncertainty comma. Isolated 'ot' and 'r,chey' (comma in short word). 'qcthy' — qo- without the 'o' vowel (scribal contraction or unique morpheme). Terminal 'ral' — r-initial."
+        },
+        {
+          "locus": "<f80v.39,+P0>",
+          "raw_text": "sol.aiin.chey.qokain.ches.ol.chckhy.qokeedy.tchdy.ar,al",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 792, "x_max": 665, "y_max": 817},
+          "interaction": "Begins with 'sol' — FIFTH sol- line opener. At y≈792, the text is approaching the lower margin nymphs (nymph_lower_left_standing at y≈750–875). The frequency of sol- markers may increase as the process reaches the terminal channel. qo- words: qokain, qokeedy."
+        },
+        {
+          "locus": "<f80v.40,+P0>",
+          "raw_text": "qokain.ol.cheeor.olar.chey.tchar.al.chedy.qotal.olchedy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 826, "x_max": 665, "y_max": 851},
+          "interaction": "'cheeor' — triple-e elongation (as 'oteeeon' in f17r root label). The elongated vowel may encode a specific material state or duration. qo- words: qokain, qotal."
+        },
+        {
+          "locus": "<f80v.41,+P0>",
+          "raw_text": "tar.ar,ol.ar.shckhy.lkol.otol.chedy.qokain.chckhy.qokal",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 835, "x_max": 650, "y_max": 860},
+          "interaction": "'ar,ol' and 'ar' — the 'ar' morpheme appears THREE times in this line (tar, ar,ol, ar). Unusual repetition. qo- words: qokain, qokal."
+        },
+        {
+          "locus": "<f80v.42,+P0>",
+          "raw_text": "pol.ol.aiin.olkal.shar.shedy.qokol.chdy.ldol.dar.al",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 844, "x_max": 640, "y_max": 869},
+          "interaction": "'shar' — sha- prefix mid-line. 'ldol' — l-initial compound. qo- word: qokol. 'chdy' as isolated short word."
+        },
+        {
+          "locus": "<f80v.43,+P0>",
+          "raw_text": "sor.ain.shkain.shar.ok,shey.dal,ar.shokal.dy",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 853, "x_max": 600, "y_max": 878},
+          "interaction": "Begins with 'sor' — SO- INFLOW prefix. 'ok,shey' — uncertainty comma. 'dal,ar' — uncertainty comma. 'shokal' — sho- prefix form. Short line approaching the channel zone. No explicit qo- words in this line — another no-qo line (like line 13). May mark a boundary between outflow phase and final collection."
+        },
+        {
+          "locus": "<f80v.44,+P0>",
+          "raw_text": "qokal.orol",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 155, "y_min": 862, "x_max": 340, "y_max": 885},
+          "interaction": "FINAL LINE — only 2 words: 'qokal.orol'. Extremely short terminal line. 'orol' — o-rol form, possible variant of 'or+ol'. The folio closes with a qo- word (qokal), consistent with the semantic interpretation that this entire folio describes an OUTFLOW / DISCHARGE process culminating in the channel_bottom_main. The two-word terminus mirrors the brevity of f17r line 13 and f80v line 13 — a structural closing convention."
+        }
+      ]
+    }
+  ]
+}

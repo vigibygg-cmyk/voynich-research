@@ -1,0 +1,434 @@
+{
+  "folio": "f88v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f88v",
+    "total_loci_count": 30,
+    "unique_loci_found": [
+      "<f88v.1,@Lc>", "<f88v.2,@Lf>", "<f88v.3,@Lf>", "<f88v.4,@Lf>", "<f88v.5,@Lf>",
+      "<f88v.6,@P0>", "<f88v.7,+P0>", "<f88v.8,+P0>", "<f88v.9,+P0>", "<f88v.10,+P0>",
+      "<f88v.11,@Lc>", "<f88v.12,@Lf>", "<f88v.13,@Lf>", "<f88v.14,@Lf>",
+      "<f88v.15,@P0>", "<f88v.16,+P0>", "<f88v.17,+P0>", "<f88v.18,+P0>",
+      "<f88v.19,+P0>", "<f88v.20,+P0>", "<f88v.21,+P0>", "<f88v.22,+P0>",
+      "<f88v.23,+P0>", "<f88v.24,+P0>", "<f88v.25,+P0>", "<f88v.26,+P0>",
+      "<f88v.27,@Lc>", "<f88v.28,@Lf>", "<f88v.29,@Lf>", "<f88v.30,@Lf>"
+    ],
+    "syntax_clues_detected": [
+      "f88v.6 has ONE <-> bisection: 'teodal.lkeo.cheor.soshckhy.sorshy<->aiin.cheokal.saldaiin' — bisected by the vertical stem of the upper-left botanical/root illustration or a connecting branch between the top illustrations",
+      "f88v.1 is @Lc (Container Label): 'okalyd' — labels the UPPER-LEFT tall tiered pharmacy jar (container type 'c')",
+      "f88v.2 is @Lf (Figure/Feature Label): 'cheocthy' — labels a botanical feature in the upper illustration zone (probably a root or leaf element near the upper-left jar)",
+      "f88v.3 is @Lf: 'cpheor' — labels a botanical feature upper zone",
+      "f88v.4 is @Lf: 'atar.arody' — labels a botanical feature upper zone",
+      "f88v.5 is @Lf: 'otokol' — labels a botanical feature upper zone",
+      "f88v.11 is @Lc (Container Label): 'otoram' — labels the MIDDLE-LEFT tall tiered pharmacy jar",
+      "f88v.12 is @Lf: 'otory' — labels botanical features in the middle illustration zone",
+      "f88v.13 is @Lf: 'cheosdy' — labels botanical features middle zone",
+      "f88v.14 is @Lf: 'okaiin' — labels botanical features middle zone",
+      "f88v.27 is @Lc (Container Label): 'daramdal' — labels the LOWER-LEFT tall tiered pharmacy jar",
+      "f88v.28 is @Lf: 'otydary' — labels botanical features in the lower illustration zone",
+      "f88v.29 is @Lf: 'otdordy' — labels botanical features lower zone",
+      "f88v.30 is @Lf: 'darardam' — labels botanical features lower zone",
+      "SEMANTIC DISCOVERY — Three @Lc labels found ('okalyd', 'otoram', 'daramdal'): all three label the same morphological object type (tall tiered red-and-white jar). This establishes @Lc as the 'container' label type. Suffix comparison: 'okalyd' vs 'otoram' vs 'daramdal' — 'd'-final words dominate (okalyd, daramdal), while 'otoram' ends in 'm'. May correlate with jar contents or preparation state (see state_of_matter fields below)."
+    ],
+    "visual_anchor_inventory": [
+      "jar_upper_left: tall tiered cylindrical jar, upper-left page position — alternating red and white horizontal bands, finial-topped lid, SOLID/DRY state (no liquid line visible, bands suggest layered solid contents like powder layers)",
+      "jar_middle_left: tall tiered cylindrical jar, middle-left position — same red/white banded morphology, slightly shorter, similar dry/solid appearance, small flame-like red topknot ornament on lid",
+      "jar_lower_left: tall tiered cylindrical jar, lower-left position — same red/white band morphology, green petal-like collar at base, slightly different base shape — green base distinguishes it from upper two",
+      "botanical_root_upper_right: large sinuous tuberous root — salmon-pink/red-orange colour, snake-like curling form, shown ABOVE ground with green star-burst leaf at apex, lies horizontally across upper-right zone",
+      "botanical_root_upper_center: bulbous root with hanging fibrous tendrils — pale cream/tan body, small spherical bulb top, deep fibrous roots hanging downward, faded tan/brown colour",
+      "botanical_leaf_cluster_upper: multiple separate green leaf shapes in upper zone — bright green star-burst shapes and broad flat leaves, scattered around the upper-right area",
+      "botanical_root_middle_center_cluster: cluster of three root-body forms — white/cream fleshy bulbs with fan-spreading fibrous roots, with red-tipped stems and small green star-burst leaves, cream/pink tones",
+      "botanical_root_middle_right: large sinuous root/rhizome — teal-blue/green elongated body, thick and leaf-like, with green lobes, lying horizontally in middle-right zone, distinctly BLUE-GREEN colour",
+      "botanical_root_lower_center_1: small paired pink-beige roots with green leaves — two rounded bulbs side by side, small green flat leaves attached at top, pale pink-salmon colour, lower page zone",
+      "botanical_root_lower_center_2: string of beaded roots — chain of 4-5 spherical pink/salmon bulbs threaded on a single stem with green leaves at top, distinctly bead-chain morphology",
+      "botanical_root_lower_right: tall thin branching root/plant — very pale cream/fawn body, branching upward, with green leaf sprigs, lower-right zone, much more delicate than left-page jars",
+      "left_margin_text_strip: narrow vertical strip of Voynich text written in left margin, oriented vertically or at slight angle, in a different spatial context from main page columns"
+    ]
+  },
+  "visual_anchors": [
+    {
+      "anchor_id": "jar_upper_left",
+      "category": "pharma_jar",
+      "colors": ["red_crimson", "white", "pale_cream", "gold_finial"],
+      "morphology_description": "TALL TIERED CYLINDRICAL PHARMACY JAR. Approximately 7–8 horizontal bands alternating crimson-red and white/cream. Each band is separated by a narrow white rim line suggesting a segmented or multi-chamber vessel. The uppermost section is narrower (neck), topped by a small gold/tan finial or stopper ball. The base rests on a small footing ring. The bands are solid-filled with opaque crimson-red paint — NO liquid surface line visible inside, NO fill-level variation between chambers. The uniform solid banding strongly indicates DRY/SOLID contents (layered powder, dry herb, or pressed solid material). The lid appears sealed. No drip marks, no meniscus, no translucent wash suggesting liquid.",
+      "state_of_matter": "DRY / SOLID — opaque banded fill, no liquid level line, sealed lid, segmented chambers suggest dry powder or layered solid preparation",
+      "associated_label": "okalyd (@Lc f88v.1)",
+      "bounding_box": {"x_min": 58, "y_min": 65, "x_max": 160, "y_max": 390}
+    },
+    {
+      "anchor_id": "jar_middle_left",
+      "category": "pharma_jar",
+      "colors": ["red_crimson", "white", "tan_cream", "red_topknot"],
+      "morphology_description": "SECOND TALL TIERED CYLINDRICAL PHARMACY JAR, positioned below the first in the left column. Nearly identical banded morphology — alternating crimson-red and white/cream horizontal bands. Slightly shorter overall. The lid ornament is more pronounced: a small flame-like or heart-shaped red protrusion at the apex (topknot), distinct from the ball finial of jar_upper_left. A small ring or collar separates lid from body. Base has a simple flat footing. Again NO liquid line visible, NO fill-level gradient — consistently opaque crimson bands from top to bottom. DRY/SOLID state confirmed.",
+      "state_of_matter": "DRY / SOLID — same banded opaque fill pattern as jar_upper_left, flame-topknot lid may indicate heat-processed or fire-dried preparation; no liquid indicators",
+      "associated_label": "otoram (@Lc f88v.11)",
+      "bounding_box": {"x_min": 58, "y_min": 460, "x_max": 165, "y_max": 720}
+    },
+    {
+      "anchor_id": "jar_lower_left",
+      "category": "pharma_jar",
+      "colors": ["red_crimson", "white", "green_base_collar", "tan_cream"],
+      "morphology_description": "THIRD TALL TIERED CYLINDRICAL PHARMACY JAR, lowest in the left column. Same alternating red-white banded structure. KEY MORPHOLOGICAL DIFFERENCE: a DISTINCT GREEN PAINTED COLLAR or petal-like base ring separating the jar body from the foot. This green base element does not appear on jar_upper_left or jar_middle_left, constituting a visual differentiator. The base is flared/rounded in a slightly different profile. Lid appears similar to jar_upper_left (ball finial). Content bands: again opaque crimson — DRY/SOLID. The green base collar may indicate a botanical connection (herb-specific preparation) or a different ingredient category.",
+      "state_of_matter": "DRY / SOLID — opaque banded fill, but GREEN BASE COLLAR is a unique morphological marker possibly indicating herbal/plant-derived dry content or specific preparation category distinct from the upper two jars",
+      "associated_label": "daramdal (@Lc f88v.27)",
+      "bounding_box": {"x_min": 58, "y_min": 755, "x_max": 168, "y_max": 1000}
+    },
+    {
+      "anchor_id": "botanical_root_upper_right_sinuous",
+      "category": "botany_root",
+      "colors": ["salmon_pink", "red_orange", "bright_green"],
+      "morphology_description": "LARGE SINUOUS TUBEROUS ROOT lying in a horizontal snake-like curve across the upper-right zone of the page. The body is salmon-pink to red-orange, painted with a warm wash. The form undulates in two or three curves — distinctly reptilian or serpentine in character. At the left end (root base) a rounded bulb-head sits upright with a crown of small green starburst leaves. The root body tapers toward the right. The surface shows subtle red-line veining or striations. The root is shown ABOVE ground (not buried), suggesting it is a rhizome or aerial tuber being depicted in a harvested/prepared state.",
+      "state_of_matter": "N/A — botanical specimen; shown harvested/detached",
+      "bounding_box": {"x_min": 320, "y_min": 45, "x_max": 785, "y_max": 245}
+    },
+    {
+      "anchor_id": "botanical_root_upper_center_hanging",
+      "category": "botany_root",
+      "colors": ["pale_cream", "tan_brown", "faded_beige"],
+      "morphology_description": "BULBOUS ROOT WITH HANGING FIBROUS TENDRILS in the upper-center zone. A small rounded spherical bulb at top, with 4–6 long fibrous roots hanging downward like a root-beard. The entire specimen is pale cream/tan — very lightly pigmented, suggesting either a white-fleshed root (turnip-type) or deliberate colour coding for a different material state. The fibrous hanging roots are thin and organic, not stylized. No leaves shown.",
+      "state_of_matter": "N/A — botanical specimen, fibrous root morphology",
+      "bounding_box": {"x_min": 185, "y_min": 40, "x_max": 310, "y_max": 250}
+    },
+    {
+      "anchor_id": "botanical_leaf_green_upper",
+      "category": "botany_leaf",
+      "colors": ["bright_green", "medium_green"],
+      "morphology_description": "MULTIPLE SEPARATE GREEN LEAF ELEMENTS scattered across the upper zone. Two types visible: (1) STARBURST / SPIKY leaves — 6–8 pointed radiating lobes, bright emerald green, approximately 3 instances; (2) BROAD FLAT LEAVES — smoother-edged, darker green. These are detached from stems and appear to be individual specimens or parts of the upper-right root plant. The bright green is the most saturated colour on the page.",
+      "state_of_matter": "N/A — botanical specimen",
+      "bounding_box": {"x_min": 185, "y_min": 28, "x_max": 870, "y_max": 200}
+    },
+    {
+      "anchor_id": "botanical_root_middle_triple_cluster",
+      "category": "botany_root",
+      "colors": ["white_cream", "pale_pink", "red_stem_tips", "bright_green"],
+      "morphology_description": "CLUSTER OF THREE FLESHY BULB ROOTS in the middle-center zone. Three rounded to ovoid white/cream fleshy bulbs arranged side by side, each with a fan of fibrous tan roots spreading downward. The stems above the bulbs are thin and end in small green starburst leaf-crowns. The topmost part of each stem shows a reddish tinge (red-orange stem tip or small bud). The white-cream colour of the bulbs contrasts with the salmon colour of the upper root — these are consistently depicted as white-flesh roots (possibly allium or parsnip type).",
+      "state_of_matter": "N/A — botanical specimen, three-part root cluster",
+      "bounding_box": {"x_min": 178, "y_min": 435, "x_max": 480, "y_max": 645}
+    },
+    {
+      "anchor_id": "botanical_root_middle_right_teal",
+      "category": "botany_root",
+      "colors": ["teal_blue_green", "medium_green", "brown_ink_outline"],
+      "morphology_description": "LARGE HORIZONTALLY-LYING TEAL/BLUE-GREEN RHIZOME OR THICK LEAF in the middle-right zone. This is morphologically distinct from all other roots on the page — it is broad, flat, and elongated, more like a large fleshy leaf or a thick succulent root/rhizome. The fill colour is a distinctive TEAL BLUE-GREEN — the only blue-toned botanical element on the page (all others are green, cream, or salmon). The left end narrows into a curved tail/root extension. The right end broadens into a lobe. The teal colour may be semantically significant — blue pigment in Voynich pharma contexts sometimes indicates WET or LIQUID preparation. If this root is associated with a liquid extract, the teal colour may be a state-of-matter indicator.",
+      "state_of_matter": "AMBIGUOUS / POSSIBLE LIQUID INDICATOR — teal/blue-green pigment used exclusively for this element; no other botanical on the page uses blue; may indicate aqueous preparation or moist/wet root state",
+      "bounding_box": {"x_min": 490, "y_min": 450, "x_max": 870, "y_max": 615}
+    },
+    {
+      "anchor_id": "botanical_root_lower_paired_bulbs",
+      "category": "botany_root",
+      "colors": ["pale_pink_salmon", "green", "cream"],
+      "morphology_description": "PAIRED SMALL ROUNDED ROOTS in the lower-center zone. Two small oval/spherical bulbs side by side, each pale salmon-pink. Small green leaves attached at the tops. Simple, clean morphology — perhaps a two-lobed tuber or a pair of small rhizomes. Much smaller scale than the middle cluster.",
+      "state_of_matter": "N/A — botanical specimen",
+      "bounding_box": {"x_min": 220, "y_min": 845, "x_max": 360, "y_max": 1000}
+    },
+    {
+      "anchor_id": "botanical_root_lower_bead_chain",
+      "category": "botany_root",
+      "colors": ["salmon_pink", "pale_pink", "green"],
+      "morphology_description": "BEAD-CHAIN ROOT STRUCTURE in the lower-center zone. A string of 4–5 spherical salmon-pink bulbs threaded vertically on a single thin stem, each ball approximately equal in size, creating a distinctive rosary/bead-chain appearance. Green leaves attached at the top. This is the most unusual root morphology on the page — a concatenated nodular structure possibly representing a specific species (like coralroot orchid, or a sculpted multi-lobed tuber). The bead-chain is unique in the Voynich botany section.",
+      "state_of_matter": "N/A — botanical specimen, multi-nodule root chain",
+      "bounding_box": {"x_min": 360, "y_min": 830, "x_max": 530, "y_max": 1000}
+    },
+    {
+      "anchor_id": "botanical_root_lower_right_branching",
+      "category": "botany_root",
+      "colors": ["pale_cream_fawn", "very_light_tan", "green"],
+      "morphology_description": "TALL THIN BRANCHING ROOT OR PLANT in the lower-right zone. A slender pale cream/fawn central trunk with branching sub-stems, oriented more vertically than the other roots. Small green leaf sprigs at branch terminals. The colouring is the palest of all the roots — almost unpigmented, suggesting either a white-root species or a faded/degraded pigment. The branching upward form gives it a tree-like silhouette.",
+      "state_of_matter": "N/A — botanical specimen",
+      "bounding_box": {"x_min": 700, "y_min": 825, "x_max": 870, "y_max": 1000}
+    },
+    {
+      "anchor_id": "left_margin_text_strip",
+      "category": "marginalia_text_zone",
+      "colors": ["brown_ink"],
+      "morphology_description": "A narrow vertical strip of Voynich text written along the left margin of the page, running approximately the full height of the page. Text appears to be written in a slightly different orientation (possibly rotated 90 degrees or at an angle to the main text). These marginalia are not part of the RF1b-er.txt locus extraction and represent either a separate annotation layer or overflow from an adjacent folio.",
+      "state_of_matter": "N/A — text zone",
+      "bounding_box": {"x_min": 0, "y_min": 95, "x_max": 60, "y_max": 980}
+    }
+  ],
+  "isolated_labels": [
+    {
+      "locus": "<f88v.1,@Lc>",
+      "raw_text": "okalyd",
+      "target_anchor_id": "jar_upper_left",
+      "placement_context": "Positioned to the right of the upper-left tiered jar, at approximately mid-height of the jar body. The label is written horizontally in standard Voynich script, at the same height as approximately the 3rd–4th band of the jar. It does NOT overlap the jar itself — sits in the negative space to its right.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-d' suffix. All three @Lc container labels end in consonants: 'okalyd' (-d), 'otoram' (-m), 'daramdal' (-l/-d). The '-d' ending may indicate a DRY solid state or a specific preparation type. Compare with @Lf labels which tend to end in '-y', '-or', '-dy' — a different morphological paradigm.",
+      "bounding_box": {"x_min": 160, "y_min": 155, "x_max": 245, "y_max": 180}
+    },
+    {
+      "locus": "<f88v.2,@Lf>",
+      "raw_text": "cheocthy",
+      "target_anchor_id": "botanical_root_upper_center_hanging",
+      "placement_context": "Upper zone, to the left of the hanging fibrous root. Horizontal label placed adjacent to the root bulb or its fibrous hanging elements.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-y' suffix — consistent with other @Lf labels. 'cheo-' prefix appears in multiple @Lf labels across f88v, suggesting a common root-type or material prefix.",
+      "bounding_box": {"x_min": 158, "y_min": 115, "x_max": 270, "y_max": 140}
+    },
+    {
+      "locus": "<f88v.3,@Lf>",
+      "raw_text": "cpheor",
+      "target_anchor_id": "botanical_leaf_green_upper",
+      "placement_context": "Upper zone, positioned near one of the green starburst leaf elements in the upper center. Short label, likely labeling a specific leaf specimen.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-r' — unusual among @Lf labels on this page. 'cph-' initial cluster is a less common Voynich prefix.",
+      "bounding_box": {"x_min": 320, "y_min": 98, "x_max": 390, "y_max": 120}
+    },
+    {
+      "locus": "<f88v.4,@Lf>",
+      "raw_text": "atar.arody",
+      "target_anchor_id": "botanical_root_upper_right_sinuous",
+      "placement_context": "Upper zone, positioned near the sinuous salmon-pink root. Two-word label (dot-separated). Placed above or adjacent to the root body mid-section.",
+      "orientation": "horizontal",
+      "semantic_note": "Two-word label — 'atar' + 'arody'. Both words share '-ar-' root cluster. The repetition 'atar.arody' may indicate a compound botanical term or binomial name. 'arody' ends in '-dy', consistent with other @Lf labels.",
+      "bounding_box": {"x_min": 415, "y_min": 98, "x_max": 540, "y_max": 123}
+    },
+    {
+      "locus": "<f88v.5,@Lf>",
+      "raw_text": "otokol",
+      "target_anchor_id": "botanical_leaf_green_upper",
+      "placement_context": "Upper-right zone, near the rightmost green leaf elements or the far-right portion of the sinuous root. Positioned at approximately x:780–855.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-l'. 'oto-' prefix appears occasionally in f88v labels.",
+      "bounding_box": {"x_min": 768, "y_min": 85, "x_max": 855, "y_max": 110}
+    },
+    {
+      "locus": "<f88v.11,@Lc>",
+      "raw_text": "otoram",
+      "target_anchor_id": "jar_middle_left",
+      "placement_context": "Positioned to the right of the middle-left tiered jar, at approximately mid-height of that jar's body. Horizontal label, same spatial relationship as f88v.1 to jar_upper_left.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-m'. This is the only @Lc label ending in '-m' on this page (the others end in '-d' and '-l'). '-m' endings in Voynich text sometimes correlate with a different preparation state or material category. If '-d' = dry and '-m' = moist/heated, the middle jar with the flame-topknot lid may represent a heat-processed preparation, explaining the '-m' (cf. Latin 'emolliens', softening). CRITICAL SEMANTIC HYPOTHESIS: @Lc + '-m' suffix = heated/thermally processed dry substance.",
+      "bounding_box": {"x_min": 162, "y_min": 575, "x_max": 245, "y_max": 598}
+    },
+    {
+      "locus": "<f88v.12,@Lf>",
+      "raw_text": "otory",
+      "target_anchor_id": "botanical_root_middle_triple_cluster",
+      "placement_context": "Middle zone, to the left of the triple root cluster, labeling the leftmost bulb root or the overall cluster.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-y'. 'oto-' prefix shared with f88v.5 'otokol'. Short single-word label.",
+      "bounding_box": {"x_min": 178, "y_min": 488, "x_max": 250, "y_max": 510}
+    },
+    {
+      "locus": "<f88v.13,@Lf>",
+      "raw_text": "cheosdy",
+      "target_anchor_id": "botanical_root_middle_triple_cluster",
+      "placement_context": "Middle zone, labeling the center root of the triple cluster or a nearby botanical feature.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-dy'. 'cheo-' prefix recurring across f88v @Lf labels: cheocthy (f88v.2), cheosdy (f88v.13). May indicate a shared botanical family or preparation method prefix.",
+      "bounding_box": {"x_min": 290, "y_min": 488, "x_max": 390, "y_max": 510}
+    },
+    {
+      "locus": "<f88v.14,@Lf>",
+      "raw_text": "okaiin",
+      "target_anchor_id": "botanical_root_middle_right_teal",
+      "placement_context": "Middle-right zone, positioned to the right of the middle root cluster, likely labeling the teal blue-green rhizome to its right. Placed at approximately x:720–790.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-aiin' — a very common Voynich word-ending. If the teal root IS a liquid-state indicator, 'okaiin' may be the label for a wet/aqueous botanical. This would be a critical data point: '-aiin' suffix = liquid botanical preparation? Cross-reference with other folios where '-aiin' appears as @Lf near blue/wet elements needed.",
+      "bounding_box": {"x_min": 710, "y_min": 488, "x_max": 795, "y_max": 510}
+    },
+    {
+      "locus": "<f88v.27,@Lc>",
+      "raw_text": "daramdal",
+      "target_anchor_id": "jar_lower_left",
+      "placement_context": "Positioned to the right of the lower-left tiered jar with the green base collar, at approximately mid-height of the jar. Same spatial pattern as the two upper @Lc labels.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-l' (or '-dal' compound ending). 'daram-' prefix contains '-am-' infix, also seen in 'otoram'. The word 'daramdal' is the longest @Lc label on the page. The GREEN BASE COLLAR on this jar is the unique visual differentiator. If '-dal' ending marks 'plant-derived' or 'herbal base' preparation, this would explain the green botanical collar distinguishing this jar from the other two. HYPOTHESIS: 'daramdal' = green-base herbal compound (dry, plant-origin), vs 'okalyd' = mineral or non-specific dry, vs 'otoram' = thermally processed dry.",
+      "bounding_box": {"x_min": 168, "y_min": 847, "x_max": 295, "y_max": 870}
+    },
+    {
+      "locus": "<f88v.28,@Lf>",
+      "raw_text": "otydary",
+      "target_anchor_id": "botanical_root_lower_paired_bulbs",
+      "placement_context": "Lower zone, labeling the paired small pink bulbs in the lower-center area.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-y'. 'oty-' initial cluster. 'dary' sub-component appears in 'otydary' and echoes 'otory' (f88v.12) — possible morphological parallel for similar root types.",
+      "bounding_box": {"x_min": 225, "y_min": 822, "x_max": 340, "y_max": 845}
+    },
+    {
+      "locus": "<f88v.29,@Lf>",
+      "raw_text": "otdordy",
+      "target_anchor_id": "botanical_root_lower_bead_chain",
+      "placement_context": "Lower zone, labeling the bead-chain root in the lower-center, positioned to the left of or above the chain.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-dy'. 'otdor-' prefix. The unique bead-chain morphology of this root, combined with the '-dy' ending, may link the '-dy' suffix to a multi-nodule or concatenated root structure type.",
+      "bounding_box": {"x_min": 360, "y_min": 822, "x_max": 460, "y_max": 845}
+    },
+    {
+      "locus": "<f88v.30,@Lf>",
+      "raw_text": "darardam",
+      "target_anchor_id": "botanical_root_lower_right_branching",
+      "placement_context": "Lower-right zone, labeling the tall branching pale root in the far-right lower area.",
+      "orientation": "horizontal",
+      "semantic_note": "Ends in '-m'. 'darar-' prefix echoes 'daramdal' (f88v.27 @Lc). If '-m' ending correlates with a thermally processed or moist state (as hypothesized for 'otoram'), then the pale branching root 'darardam' may also be a heat-associated botanical. The shared 'dara-/darar-' prefix between @Lf 'darardam' and @Lc 'daramdal' suggests a lexical family linking the lower jar to the branching root — possibly the same ingredient in two forms (raw root @Lf vs. processed in jar @Lc).",
+      "bounding_box": {"x_min": 710, "y_min": 822, "x_max": 838, "y_max": 845}
+    }
+  ],
+  "text_blocks_mapping": [
+    {
+      "block_id": "paragraph_1_upper_bisected_P0",
+      "description": "First main paragraph block, consisting of lines f88v.6–f88v.10. Positioned in the middle of the page between the upper illustration zone (jars + roots) and the middle illustration zone. Line f88v.6 is bisected by a vertical botanical element (stem or root). This is the ONLY bisection on the entire folio.",
+      "lines": [
+        {
+          "locus": "<f88v.6,@P0>",
+          "raw_text": "teodal.lkeo.cheor.soshckhy.sorshy<->aiin.cheokal.saldaiin",
+          "orientation": "horizontal",
+          "bounding_box": {"x_min": 125, "y_min": 290, "x_max": 870, "y_max": 318},
+          "interaction": "ONE <-> bisection: LEFT SEGMENT 'teodal.lkeo.cheor.soshckhy.sorshy' runs x_min:125–x_max:420; GAP x:421–495 (occupied by a vertical botanical stem or root element connecting the upper and middle illustration zones — most likely the stem of the botanical_root_upper_center_hanging or a connecting branch between the upper-right root illustration and the middle zone); RIGHT SEGMENT 'aiin.cheokal.saldaiin' resumes x_min:496–x_max:720. Note the right segment is notably shorter — 3 words vs 5 — possibly because additional illustration elements constrain the right column at this y-level."
+        },
+        {
+          "locus": "<f88v.7,+P0>",
+          "raw_text": "dshor.shor.qokeody.qokeolchey.chkeor.qokeey.daiin.qokeom",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 322, "x_max": 855, "y_max": 350},
+          "interaction": "No bisection. Full-width single run. 8 glyph-words. Notable: 'qokeo-' prefix appears 4 times in this single line (qokeody, qokeolchey, qokeey, qokeom) — one of the highest prefix-repetition densities on this folio, possibly indicating a list of related preparations or a single material in multiple states."
+        },
+        {
+          "locus": "<f88v.8,+P0>",
+          "raw_text": "qoaiin.cheoy.olcheody.qoekeol.cho.chckhy.qoeey.key.cheokam",
+          "orientation": "horizontal",
+          "word_count": 9,
+          "bounding_box": {"x_min": 125, "y_min": 354, "x_max": 860, "y_max": 382},
+          "interaction": "No bisection. 9 glyph-words. Short words 'cho', 'key' are isolated single-element glyphs."
+        },
+        {
+          "locus": "<f88v.9,+P0>",
+          "raw_text": "choeey.keeod.y.s.aiin.chody.okear,cheol.ar,cheey.rairal",
+          "orientation": "horizontal",
+          "word_count": 10,
+          "bounding_box": {"x_min": 125, "y_min": 386, "x_max": 855, "y_max": 414},
+          "interaction": "No bisection. 10 glyph-words. Commas in 'okear,cheol' and 'ar,cheey' are transcription variant markers within words. Isolated 'y' and 's' single-glyph words again present."
+        },
+        {
+          "locus": "<f88v.10,+P0>",
+          "raw_text": "dar.cheorol.chekol.daraly",
+          "orientation": "horizontal",
+          "word_count": 4,
+          "bounding_box": {"x_min": 125, "y_min": 418, "x_max": 465, "y_max": 446},
+          "interaction": "Short terminal line of paragraph 1. 4 glyph-words. Left-aligned, right portion blank. Paragraph break below."
+        }
+      ]
+    },
+    {
+      "block_id": "paragraph_2_middle_P0",
+      "description": "Second main paragraph block, lines f88v.15–f88v.26. Positioned between the middle and lower illustration zones. 12 lines, no bisections. The longest paragraph on the folio with approximately 93 glyph-words.",
+      "lines": [
+        {
+          "locus": "<f88v.15,@P0>",
+          "raw_text": "kosholdy.qotody.opykey.ol,daiin.qoteody.yfolaiin.oraiin",
+          "orientation": "horizontal",
+          "word_count": 7,
+          "bounding_box": {"x_min": 125, "y_min": 640, "x_max": 780, "y_max": 668},
+          "interaction": "Opening line of paragraph 2 (@P0). 7 glyph-words. Comma in 'ol,daiin' is variant marker. 'kosh-' opening prefix rare in the folio."
+        },
+        {
+          "locus": "<f88v.16,+P0>",
+          "raw_text": "ysheod.sheo.sheody.qokeody.qoky.chees.cheody.qokeody.dal",
+          "orientation": "horizontal",
+          "word_count": 9,
+          "bounding_box": {"x_min": 125, "y_min": 672, "x_max": 855, "y_max": 700},
+          "interaction": "9 glyph-words. 'sheo/sheod/sheody' cluster appears 3 times (ysheod, sheo, sheody) — a sub-word repetition cluster."
+        },
+        {
+          "locus": "<f88v.17,+P0>",
+          "raw_text": "qokeey.qokeody.chor.oteody.qockhol.okol.cheedy.qokody",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 704, "x_max": 850, "y_max": 732},
+          "interaction": "8 glyph-words. High 'qok-' prefix density — qokeey, qokeody, qockhol, qokody. This prefix cluster is dominant in this paragraph."
+        },
+        {
+          "locus": "<f88v.18,+P0>",
+          "raw_text": "ykeeor.chockhy.otol.cheeol.cheody.qotody.soteol.chotam",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 736, "x_max": 850, "y_max": 764},
+          "interaction": "8 glyph-words."
+        },
+        {
+          "locus": "<f88v.19,+P0>",
+          "raw_text": "odaiin.sheo.ol.qokeey.ol,aiin.cheody.chocthey.oteody.dy",
+          "orientation": "horizontal",
+          "word_count": 9,
+          "bounding_box": {"x_min": 125, "y_min": 768, "x_max": 850, "y_max": 796},
+          "interaction": "9 glyph-words. Comma in 'ol,aiin' is variant marker."
+        },
+        {
+          "locus": "<f88v.20,+P0>",
+          "raw_text": "sqokeo,daiin.cheody.oteol.cheockhy.chody",
+          "orientation": "horizontal",
+          "word_count": 5,
+          "bounding_box": {"x_min": 125, "y_min": 800, "x_max": 620, "y_max": 828},
+          "interaction": "5 glyph-words. 'sqokeo,daiin' is an unusual form — 's' prefix before 'qokeo' is rare. Comma variant marker internal. Shorter line — possible sub-paragraph visual break."
+        },
+        {
+          "locus": "<f88v.21,+P0>",
+          "raw_text": "toairshy.oteeody.cpheody.ykchey.dam.cheor.chalykorain",
+          "orientation": "horizontal",
+          "word_count": 7,
+          "bounding_box": {"x_min": 125, "y_min": 804, "x_max": 825, "y_max": 832},
+          "interaction": "7 glyph-words."
+        },
+        {
+          "locus": "<f88v.22,+P0>",
+          "raw_text": "dairodain.ykeodain.dain.shedy.qoteo.lchdy.qokeorain",
+          "orientation": "horizontal",
+          "word_count": 7,
+          "bounding_box": {"x_min": 125, "y_min": 836, "x_max": 825, "y_max": 864},
+          "interaction": "7 glyph-words."
+        },
+        {
+          "locus": "<f88v.23,+P0>",
+          "raw_text": "tolkeeodaiin.qoky.sheol.daiin.chees.aiin.chokar.daimd",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 868, "x_max": 840, "y_max": 896},
+          "interaction": "8 glyph-words."
+        },
+        {
+          "locus": "<f88v.24,+P0>",
+          "raw_text": "daiin.sheor.sheedy.daiin.shockhy.qokeody.dockhy.dair",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 900, "x_max": 840, "y_max": 928},
+          "interaction": "8 glyph-words. 'daiin' appears twice (positions 1 and 4) — recurring high-frequency word."
+        },
+        {
+          "locus": "<f88v.25,+P0>",
+          "raw_text": "ykeey.sheor.tos.checkhy.dain.cheos.cheockhy.saldy",
+          "orientation": "horizontal",
+          "word_count": 8,
+          "bounding_box": {"x_min": 125, "y_min": 932, "x_max": 838, "y_max": 960},
+          "interaction": "8 glyph-words."
+        },
+        {
+          "locus": "<f88v.26,+P0>",
+          "raw_text": "saiin.choky.cheor.shy",
+          "orientation": "horizontal",
+          "word_count": 4,
+          "bounding_box": {"x_min": 125, "y_min": 964, "x_max": 440, "y_max": 992},
+          "interaction": "4 glyph-words. Short terminal line of paragraph 2. Paragraph ends here. Below this the lower illustration zone (roots and jars) takes over."
+        }
+      ]
+    }
+  ],
+  "semantic_grounding_analysis": {
+    "container_label_grammar": {
+      "finding": "Three @Lc labels in f88v, all labeling morphologically identical tall-tiered red-and-white pharmacy jars. The locus type '@Lc' may stand for 'Label-Container' (not @Lp plant, not @Lf feature).",
+      "labels": [
+        {"text": "okalyd", "jar": "jar_upper_left", "jar_distinctive_feature": "Ball finial, no special base", "suffix": "-d"},
+        {"text": "otoram", "jar": "jar_middle_left", "jar_distinctive_feature": "Flame/heart red topknot lid — possible heat indicator", "suffix": "-m"},
+        {"text": "daramdal", "jar": "jar_lower_left", "jar_distinctive_feature": "Green botanical base collar", "suffix": "-dal/-l"}
+      ],
+      "hypothesis": "The suffix distinction '-d' vs '-m' vs '-dal' between three identical-looking jars containing visually identical dry solid contents may encode PROCESS rather than state. '-d' = standard dry preparation; '-m' = thermally processed (flame-lid jar); '-dal' = herbal/botanical-origin dry (green collar jar). This is a PROCESS GRAMMAR encoded in the @Lc suffix, not a state-of-matter grammar."
+    },
+    "state_of_matter_summary": {
+      "all_three_jars": "DRY / SOLID — uniform opaque crimson-red banding from base to lid, no liquid fill line visible in any jar, no transparent wash or meniscus, all lids sealed",
+      "teal_root_anomaly": "botanical_root_middle_right_teal is the ONLY element on the page using blue-green pigment. Blue in Voynich pharmacy contexts correlates with aqueous/liquid preparations elsewhere. If this root is associated with a water extract or liquid preparation, its label 'okaiin' (f88v.14 @Lf) ending in '-aiin' may be the liquid-state suffix for botanical labels.",
+      "no_liquid_jars_on_this_page": "This folio shows EXCLUSIVELY DRY/SOLID preparations in jars. No narrow-neck liquid vessels, no blue liquid fill, no drip indicators. This may indicate f88v belongs to a 'dry preparations' section of the pharmacy chapter."
+    }
+  }
+}

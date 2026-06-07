@@ -1,0 +1,510 @@
+{
+  "folio": "f116r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f116r",
+    "total_loci_count": 50,
+    "unique_loci_found": [
+      "<f116r.1,@P0>",
+      "<f116r.2,+P0>",
+      "<f116r.3,+P0>",
+      "<f116r.4,+P0>",
+      "<f116r.5,+P0>",
+      "<f116r.6,+P0>",
+      "<f116r.7,+P0>",
+      "<f116r.8,+P0>",
+      "<f116r.9,+P0>",
+      "<f116r.10,+P0>",
+      "<f116r.11,+P0>",
+      "<f116r.12,+P0>",
+      "<f116r.13,+P0>",
+      "<f116r.14,+P0>",
+      "<f116r.15,+P0>",
+      "<f116r.16,+P0>",
+      "<f116r.17,+P0>",
+      "<f116r.18,+P0>",
+      "<f116r.19,+P0>",
+      "<f116r.20,+P0>",
+      "<f116r.21,+P0>",
+      "<f116r.22,+P0>",
+      "<f116r.23,+P0>",
+      "<f116r.24,+P0>",
+      "<f116r.25,+P0>",
+      "<f116r.26,+P0>",
+      "<f116r.27,+P0>",
+      "<f116r.28,+P0>",
+      "<f116r.29,+P0>",
+      "<f116r.30,+P0>",
+      "<f116r.31,+P0>",
+      "<f116r.32,+P0>",
+      "<f116r.33,+P0>",
+      "<f116r.34,+P0>",
+      "<f116r.35,+P0>",
+      "<f116r.36,+P0>",
+      "<f116r.37,+P0>",
+      "<f116r.38,+P0>",
+      "<f116r.39,+P0>",
+      "<f116r.40,+P0>",
+      "<f116r.41,+P0>",
+      "<f116r.42,+P0>",
+      "<f116r.43,+P0>",
+      "<f116r.44,+P0>",
+      "<f116r.45,+P0>",
+      "<f116r.46,+P0>",
+      "<f116r.47,+P0>",
+      "<f116r.48,+P0>",
+      "<f116r.49,+P0>",
+      "<f116r.50,+P0>"
+    ],
+    "syntax_clues_detected": [
+      "NO <-> bisection markers are present in any of the 50 loci of f116r — this is a pure dense-prose folio with NO illustration bisecting the text columns.",
+      "f116r.1 is @P0: paragraph START line (first line of the upper block, begins with a tall ascender/gallows glyph visible in image top-left area).",
+      "f116r.4 is +P0 and raw text begins with 'p': consistent with a paragraph-continuation line; the 'p' glyph acts as a functional paragraph marker within the continuous block.",
+      "f116r.7 is +P0 and begins with 'p': same convention observed.",
+      "f116r.10 has uncertainty marker '?' in 'chd?,in' — retain exactly.",
+      "f116r.12 has uncertainty marker '?' in 'qo?,in' — retain exactly.",
+      "f116r.20 has uncertainty marker '?' in 'rf?,m' — retain exactly as end-of-line fragment.",
+      "f116r.43 has triple uncertainty marker '???' in 'os???' — retain exactly.",
+      "f116r.44 has uncertainty marker ',' in 'sq,oteedy' — retain exactly (comma is a transcription disambiguation marker, not bisection).",
+      "f116r.15 begins with 'p': paragraph sub-marker continuation.",
+      "f116r.18 begins with 'p': paragraph sub-marker continuation.",
+      "f116r.24 begins with 'q': normal word-initial glyph, not a structural marker.",
+      "f116r.31 begins with 'p': paragraph sub-marker continuation.",
+      "f116r.37 begins with 'p': paragraph sub-marker continuation.",
+      "No @Lp, @Ls, @Cc, @L0 label loci are present in f116r — this folio contains no isolated botanical, star, or central-circle labels.",
+      "Folio metadata line: <f116r> <! $Q=T $P=W $F=z $B=1 $I=S $L=B $H=3> — Quality=T (transcribed), Page=W, Folio-within-bifolio=z, Bifolio=1, Illustration-type=S (Stars/Astro), Language=B, Hand=3.",
+      "The $I=S metadata confirms the illustrative context is the Astronomical/Stars section, consistent with the red star-rosette decorations visible along the left margin of the image.",
+      "The $H=3 metadata indicates Hand 3 scribal attribution — a notably different scribe from the early herbal folios (Hand 1).",
+      "The $L=B metadata (Language group B) is noteworthy — this is classified as a different language-register from the earlier herbal section (Language A).",
+      "Line f116r.14 is notably short: 'sain.chey,chear.ain.chll.s.oleedy' — possible paragraph terminal or abbreviated conclusion line within block 1.",
+      "Comma in 'chey,chear' on f116r.14 is a transcription variant/disambiguation marker (not bisection).",
+      "Comma in 'qol,cheey' on f116r.28 is transcription variant marker.",
+      "Multiple trailing single-letter fragments at line ends (e.g., '.lg', '.lm', '.og', '.lm', '.rf?,m') across lines 20–25 suggest right-margin abbreviation or cramped terminal glyphs approaching parchment edge.",
+      "The two visually distinct paragraph blocks seen in the image (upper denser block approximately lines 1–14, lower slightly more open block approximately lines 15–50) are both coded entirely as @P0/@+P0 in the transcription — the visual break corresponds to a gap in the image but no change in locus-type coding."
+    ],
+    "visual_anchor_inventory": [
+      "red_star_rosette_1: Six-pointed red star rosette decoration in left margin, approximately at the level of transcription lines 1–2 (y~30–80).",
+      "red_star_rosette_2: Six-pointed red star rosette in left margin, approximately at the level of lines 5–6 (y~115–165).",
+      "red_star_rosette_3: Six-pointed red star rosette in left margin, approximately at the level of lines 9–10 (y~205–255).",
+      "red_star_rosette_4: Six-pointed red star rosette in left margin, approximately at the level of lines 12–13 (y~270–320).",
+      "red_star_rosette_5: Six-pointed red star rosette in left margin, approximately at the level of lines 16–17 (y~360–410).",
+      "red_star_rosette_6: Six-pointed red star rosette in left margin, approximately at the level of lines 20–21 (y~455–505).",
+      "inter_paragraph_gap: A visible horizontal gap in the written text block between approximately lines 14 and 15 (y~340–375), representing a paragraph or section break — the only non-text zone within the body of the folio.",
+      "small_ink_blot_left: A small brownish ink blot or stain visible on the left margin area near lines 27–28 (y~600–630), within the text zone but not disrupting glyph legibility.",
+      "folio_number_annotation: The folio number '116' written in later hand at top-right corner of parchment (x~910–970, y~10–50).",
+      "parchment_damage_lower_right: Slight parchment discoloration and possible minor damage in lower-right corner of the image (x~850–1000, y~900–1000), not affecting text content.",
+      "left_margin_ruling_line: A faint vertical scoring or ruling line along the left margin at approximately x=105, serving as the left text boundary for the main body.",
+      "gallows_glyph_line1: Tall ascender glyph (gallows character) at the very start of line f116r.1, extending above the normal line height, visible at image top-left text area (x~105–140, y~18–55).",
+      "gallows_glyph_line4: Tall 'p'-initial gallows glyph at the start of line f116r.4 (lower block line 1 equivalent), visible at x~105–140, y~88–115.",
+      "gallows_glyph_line7: Tall 'p'-initial gallows glyph at start of f116r.7, at x~105–140, y~160–188.",
+      "gallows_glyph_line15: Tall 'p'-initial gallows glyph at start of f116r.15, marking the upper boundary of the second main paragraph block, at x~105–140, y~395–423.",
+      "gallows_glyph_line18: Tall 'p'-initial gallows glyph at start of f116r.18, within the second block, at x~105–140, y~462–490.",
+      "gallows_glyph_line31: Tall 'p'-initial gallows glyph at start of f116r.31 within lower block, at x~105–140, y~722–750.",
+      "gallows_glyph_line37: Tall 'p'-initial gallows glyph at start of f116r.37 within lower block, at x~105–140, y~858–886."
+    ]
+  },
+  "visual_anchors": {
+    "red_star_rosette_1": {
+      "description": "A six-pointed star rosette drawn in red ink, located in the left margin outside the main text column. Consists of six pointed lobes radiating from a central circle, with red pigment applied throughout. These stars are the defining decorative feature of this folio and are consistent with the Astronomical/Stars section designation ($I=S). This star sits at the topmost position, flanking lines f116r.1–2. Star decorations do not encroach on the text column — they occupy negative space to the left of x~105.",
+      "bounding_box": {"x_min": 28, "y_min": 30, "x_max": 100, "y_max": 80}
+    },
+    "red_star_rosette_2": {
+      "description": "Second red six-pointed star rosette in the left margin, flanking approximately lines f116r.5–6. Identical form to star 1 but slightly smaller in rendering. Consistent spacing from the text body left edge (~x=105).",
+      "bounding_box": {"x_min": 28, "y_min": 115, "x_max": 100, "y_max": 165}
+    },
+    "red_star_rosette_3": {
+      "description": "Third red six-pointed star rosette in the left margin, flanking approximately lines f116r.9–10. The red ink appears slightly more faded on this star compared to stars 1 and 2, consistent with differential pigment preservation.",
+      "bounding_box": {"x_min": 28, "y_min": 205, "x_max": 100, "y_max": 255}
+    },
+    "red_star_rosette_4": {
+      "description": "Fourth red six-pointed star rosette in the left margin, flanking approximately lines f116r.12–13. This is the last star in the upper paragraph block. Its lower edge is approximately at y=320, just above the inter-paragraph gap.",
+      "bounding_box": {"x_min": 28, "y_min": 270, "x_max": 100, "y_max": 320}
+    },
+    "red_star_rosette_5": {
+      "description": "Fifth red six-pointed star rosette in the left margin, flanking approximately lines f116r.16–17. This star is the first of the lower paragraph block's marginal decorations. It is visually slightly larger than stars 3–4.",
+      "bounding_box": {"x_min": 28, "y_min": 360, "x_max": 100, "y_max": 410}
+    },
+    "red_star_rosette_6": {
+      "description": "Sixth and final red six-pointed star rosette in the left margin, flanking approximately lines f116r.20–21. After this star, no further marginal star decorations are observed for the remaining ~30 lines of the folio. The absence of further stars in the lower two-thirds of the lower block may indicate a visual section end or that additional stars were planned but not executed.",
+      "bounding_box": {"x_min": 28, "y_min": 455, "x_max": 100, "y_max": 505}
+    },
+    "inter_paragraph_gap": {
+      "description": "A distinct horizontal gap in the text body visible between line f116r.14 (which ends the upper paragraph block) and line f116r.15 (which begins the lower block with a 'p'-initial gallows glyph). The gap is approximately 30–40 normalized units tall (y~340–375). This is the only text-free horizontal zone within the central text body of the folio. No illustration or decoration fills this gap — it is a pure scribal section break.",
+      "bounding_box": {"x_min": 105, "y_min": 340, "x_max": 950, "y_max": 375}
+    },
+    "gallows_glyph_line1": {
+      "description": "The tall ascending 'k'-initial gallows glyph at the very start of f116r.1, the @P0 paragraph opener. This character extends significantly above the normal line cap height, functioning as a visual paragraph marker. Its vertical stroke is approximately 40 normalized units tall.",
+      "bounding_box": {"x_min": 105, "y_min": 18, "x_max": 145, "y_max": 58}
+    },
+    "folio_number_annotation": {
+      "description": "The Arabic numeral '116' written in a later (post-medieval) hand at the top-right of the parchment. This is a modern archival folio number, not part of the original manuscript. Written in darker brown ink over the parchment edge area.",
+      "bounding_box": {"x_min": 910, "y_min": 10, "x_max": 975, "y_max": 50}
+    },
+    "left_margin_ruling_line": {
+      "description": "A faint vertical scoring or dry-point ruling line along the left text boundary at approximately x=105. This is the left margin guide that all text lines in the folio align to. It is most visible under raking light analysis and is consistent with standard medieval manuscript preparation.",
+      "bounding_box": {"x_min": 103, "y_min": 0, "x_max": 108, "y_max": 1000}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "upper_paragraph_block_A",
+      "description": "The upper paragraph block comprising lines f116r.1 through f116r.14. This block begins with an @P0 paragraph-start locus and ends at the short terminal line f116r.14. It occupies the upper approximately 34% of the parchment text area (y~18–340). Six red star rosette decorations flank this block in the left margin at regular intervals (approximately every 2–3 lines). No <-> bisections occur in this block — text runs full-width from left margin (x~105) to right margin (x~940). Lines are densely packed with approximately 18–22 normalized units of vertical spacing per line.",
+      "lines": [
+        {
+          "locus": "<f116r.1,@P0>",
+          "raw_text": "kchdpy.shey.qokain.otalshedy.qoteey.shear.ain.or.llory.shear,amom",
+          "bounding_box": {"x_min": 105, "y_min": 18, "x_max": 940, "y_max": 46},
+          "interaction": "PARAGRAPH START (@P0): Line begins with a tall gallows 'k'-glyph ascender extending to y~18 (above the normalized line top at y~28). The comma in 'shear,amom' is a transcription disambiguation variant marker retained verbatim — not a bisection. Full-width line with no illustration interaction. Adjacent to red_star_rosette_1 in left margin (x_max of star ~100, text begins at x~105 — 5-unit clearance). This is the densest line in the upper block, running nearly to the right parchment edge."
+        },
+        {
+          "locus": "<f116r.2,+P0>",
+          "raw_text": "shain.cheer.ain.okeey.okeey.shy.lar.ar.aiiin.oky.char.as.okain.ykanam",
+          "bounding_box": {"x_min": 105, "y_min": 48, "x_max": 940, "y_max": 76},
+          "interaction": "Continuation line (+P0). Full-width, no bisection, no illustration interaction. The triple 'i' in 'aiiin' is a legitimate transcription of three strokes and must be retained exactly. Line ends with the long glyph cluster 'ykanam' close to the right margin, consistent with the dense script of this folio."
+        },
+        {
+          "locus": "<f116r.3,+P0>",
+          "raw_text": "dain.chl.lshey.cthy.lshedy.oteor.shey.qo.saly",
+          "bounding_box": {"x_min": 105, "y_min": 78, "x_max": 780, "y_max": 106},
+          "interaction": "Continuation line (+P0). Notably SHORTER than lines 1–2, ending at approximately x~780 rather than reaching the right margin. This line terminates after 'saly', leaving approximately 160 normalized units of blank space at line end. This may indicate a sub-paragraph break, a natural word-group end, or the scribe pausing before the next 'p'-initial gallows opener on line 4."
+        },
+        {
+          "locus": "<f116r.4,+P0>",
+          "raw_text": "padar.shey.osheeky.qol.laiin.chckhy.okam.chedy.oteedy.qotar.aral,ar,y",
+          "bounding_box": {"x_min": 105, "y_min": 108, "x_max": 940, "y_max": 136},
+          "interaction": "Continuation line (+P0) beginning with 'p' — a paragraph sub-marker or gallows glyph. Full-width line. Two commas present in 'aral,ar,y' — both are transcription disambiguation markers retained verbatim. Adjacent to red_star_rosette_2 in left margin (flanking zone y~115–165)."
+        },
+        {
+          "locus": "<f116r.5,+P0>",
+          "raw_text": "deiin.sheed.qokchdy.otal.chedy.lkain.oteedy.otor.aiin.oty.lol.rol.oly",
+          "bounding_box": {"x_min": 105, "y_min": 138, "x_max": 940, "y_max": 166},
+          "interaction": "Continuation line (+P0). Full-width, dense glyph sequence. The terminal 'oly' at line end sits very close to the right parchment edge. No illustration interaction. Adjacent to red_star_rosette_2 flank zone."
+        },
+        {
+          "locus": "<f116r.6,+P0>",
+          "raw_text": "sain.ol.lchedy.chedy.otey.chedy.ykolain.otedy.oteey",
+          "bounding_box": {"x_min": 105, "y_min": 168, "x_max": 820, "y_max": 196},
+          "interaction": "Continuation line (+P0). Medium-length line ending at approximately x~820, leaving a small right-margin gap. The word 'ykolain' contains a notable long compound glyph cluster. No bisection, no illustration."
+        },
+        {
+          "locus": "<f116r.7,+P0>",
+          "raw_text": "pchol,chdy.teody.otey.qo.qokain.qoteey.tokain.otedy.totol.rotydy",
+          "bounding_box": {"x_min": 105, "y_min": 198, "x_max": 910, "y_max": 226},
+          "interaction": "Continuation line (+P0) beginning with 'p'-initial gallows glyph. Comma in 'pchol,chdy' is a transcription variant marker, not bisection. Near-full-width line. Adjacent to red_star_rosette_3 flank zone (y~205–255)."
+        },
+        {
+          "locus": "<f116r.8,+P0>",
+          "raw_text": "dar.yteedy.chedy.qokeey.qokain.qotody.oteedar.otedy.ldy.lchedy",
+          "bounding_box": {"x_min": 105, "y_min": 228, "x_max": 900, "y_max": 256},
+          "interaction": "Continuation line (+P0). Full-width line. The glyph 'oteedar' contains a long 'ee' vowel sequence. The terminal cluster '.ldy.lchedy' ends near but not at the right margin (~x=900)."
+        },
+        {
+          "locus": "<f116r.9,+P0>",
+          "raw_text": "qokeey.lchey.qokeedy.qokain.okeeylkaiin",
+          "bounding_box": {"x_min": 105, "y_min": 258, "x_max": 680, "y_max": 286},
+          "interaction": "Continuation line (+P0). SHORT line ending at approximately x~680 — the second conspicuously short line in the upper block. The terminal token 'okeeylkaiin' appears to be a compound or run-on glyph cluster (no dot separator between 'okeey' and 'lkaiin'). This short line may indicate a sub-paragraph terminal or a line where the scribe ran short of material before the next 'p'-opener."
+        },
+        {
+          "locus": "<f116r.10,+P0>",
+          "raw_text": "chd?,in.checkhy.dar.shedy.qokeedy.shdy.rain.sheedy.cphol.r.teol.chcpham",
+          "bounding_box": {"x_min": 105, "y_min": 288, "x_max": 940, "y_max": 316},
+          "interaction": "Continuation line (+P0). Contains the UNCERTAINTY MARKER '?' in 'chd?,in' — this is a legitimate transcription uncertainty about a specific glyph and is retained EXACTLY as written. Adjacent to red_star_rosette_3 lower flank zone. Full-width near-margin line."
+        },
+        {
+          "locus": "<f116r.11,+P0>",
+          "raw_text": "ol.aiin.shed.qoteedy.okeolshy.qotain.okedy.chedy.olchedy.olkain.als",
+          "bounding_box": {"x_min": 105, "y_min": 318, "x_max": 920, "y_max": 346},
+          "interaction": "Continuation line (+P0). Full-width. The compound 'okeolshy' is a multi-element glyph cluster. Terminal '.olkain.als' ends near the right margin. Adjacent to red_star_rosette_4 flank zone (y~270–320 upper boundary, this line at y~318–346 is just below rosette 4)."
+        },
+        {
+          "locus": "<f116r.12,+P0>",
+          "raw_text": "qo?,in.ar.chol,ches.okain.dain.cheey.okeey.otain.ol,chdy.otal.deiin.olam",
+          "bounding_box": {"x_min": 105, "y_min": 348, "x_max": 940, "y_max": 376},
+          "interaction": "Continuation line (+P0). Contains the UNCERTAINTY MARKER '?' in 'qo?,in' — retained EXACTLY. Three comma-variant markers in this line: 'qo?,in', 'chol,ches', 'ol,chdy' — all are transcription disambiguation markers, not bisections. Dense full-width line. Adjacent to and flanked by red_star_rosette_4."
+        },
+        {
+          "locus": "<f116r.13,+P0>",
+          "raw_text": "sar.ain.tey.chetain.shtshey.okey.chedy.qoteedy.qokain.shety.okeedam",
+          "bounding_box": {"x_min": 105, "y_min": 378, "x_max": 920, "y_max": 406},
+          "interaction": "Continuation line (+P0). Full-width near-margin. The glyph 'shtshey' contains a complex sibilant cluster. Terminal 'okeedam' is a long compound with 'ee' vowel sequence."
+        },
+        {
+          "locus": "<f116r.14,+P0>",
+          "raw_text": "sain.chey,chear.ain.chll.s.oleedy",
+          "bounding_box": {"x_min": 105, "y_min": 408, "x_max": 530, "y_max": 436},
+          "interaction": "TERMINAL LINE of upper block A (+P0 by code but functionally terminal). VERY SHORT — ends at approximately x~530, less than half the normal line width. The comma in 'chey,chear' is a transcription disambiguation marker. This line's abbreviated length strongly suggests it is the concluding line of the upper paragraph before the visual section break (inter_paragraph_gap). The isolated single glyph '.s.' mid-line followed by the final cluster '.oleedy' creates an unusually sparse distribution consistent with a closing/terminal entry. The inter_paragraph_gap follows immediately below at y~437–475."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_paragraph_block_B",
+      "description": "The lower paragraph block comprising lines f116r.15 through f116r.50. This block begins after the inter_paragraph_gap at approximately y~475 and runs to the bottom of the parchment text area (~y~975). It contains 36 lines of dense prose text with no <-> bisections and no label loci. Two further red star rosette decorations (rosettes 5 and 6) flank the upper portion of this block in the left margin. The lower ~24 lines of this block (from approximately f116r.27 onward) are unaccompanied by marginal star decorations. Lines in this block show consistent full-width runs from x~105 to x~930–950 with occasional short line-terminal variants. Multiple lines end with single-letter right-margin abbreviations (e.g., '.lg', '.lm', '.og', '.rf?,m') suggesting the scribe was working at the very right parchment edge and truncating final glyphs.",
+      "lines": [
+        {
+          "locus": "<f116r.15,+P0>",
+          "raw_text": "pchoetal.otedal.atal.oteedy.olr.daiin.okeedy.qoky.dar.al.keedy.shdy",
+          "bounding_box": {"x_min": 105, "y_min": 477, "x_max": 920, "y_max": 505},
+          "interaction": "BLOCK B OPENER (+P0 beginning with 'p'-initial gallows glyph). This line opens the lower paragraph block immediately below the inter_paragraph_gap. Full-width line. Adjacent to red_star_rosette_5 flank zone (y~360–410 — note: rosette 5 is slightly above the actual line start, suggesting the star was drawn in anticipation of where this block would begin). The 'p'-gallows ascender is visible at x~105–145, y~477–497."
+        },
+        {
+          "locus": "<f116r.16,+P0>",
+          "raw_text": "dar.chedy.sheedy.otal.al.lchedy.shcthy.qotey.dain.otar.otarar.apam",
+          "bounding_box": {"x_min": 105, "y_min": 507, "x_max": 920, "y_max": 535},
+          "interaction": "Continuation line (+P0). Full-width. The compound 'otarar' contains a repeated syllable cluster. Terminal 'apam' ends just short of right margin."
+        },
+        {
+          "locus": "<f116r.17,+P0>",
+          "raw_text": "dain.chey.qokeey.okeey.lain.okeey.qol.chedy",
+          "bounding_box": {"x_min": 105, "y_min": 537, "x_max": 720, "y_max": 565},
+          "interaction": "Continuation line (+P0). SHORT LINE — ends at approximately x~720, leaving substantial right-margin gap. The repetition of 'okeey' twice ('okeey.lain.okeey') is notable. Adjacent to red_star_rosette_5 flank zone lower boundary."
+        },
+        {
+          "locus": "<f116r.18,+P0>",
+          "raw_text": "pcharalar.qokey.r.ain.otedy.opain.lor.oiin.otain.otar.oteeedy.ches.ary",
+          "bounding_box": {"x_min": 105, "y_min": 567, "x_max": 935, "y_max": 595},
+          "interaction": "Continuation line (+P0) beginning with 'p'-initial gallows glyph. Full-width near-margin. 'pcharalar' is a long compound opener. Single-letter '.r.' and single-letter-group '.ary' at line end are characteristic of this scribe's terminal glyph style. Adjacent to red_star_rosette_6 flank zone (y~455–505 above this line — rosette 6 flanks lines 20–21, so this line is just above its zone)."
+        },
+        {
+          "locus": "<f116r.19,+P0>",
+          "raw_text": "porchey.sheedy.qotain.chetar.qotar.ar.arady.chcthy.rain.otey.otey.dain",
+          "bounding_box": {"x_min": 105, "y_min": 597, "x_max": 920, "y_max": 625},
+          "interaction": "Continuation line (+P0). Full-width. The repeated terminal '.otey.otey.' cluster is notable — could be a scribal repetition or a legitimate dual-word phrase. Adjacent to red_star_rosette_6 flank zone."
+        },
+        {
+          "locus": "<f116r.20,+P0>",
+          "raw_text": "chol.keedy.ol.cheey.raiin.y.chedy.otar.okal.okain.ol,ar.ytedy.qoty.rf?,m",
+          "bounding_box": {"x_min": 105, "y_min": 627, "x_max": 940, "y_max": 655},
+          "interaction": "Continuation line (+P0). Contains UNCERTAINTY MARKER '?' in terminal fragment 'rf?,m' — retained EXACTLY. The fragment 'rf?,m' is a damaged or illegible right-margin glyph cluster. Comma in 'ol,ar' is a disambiguation marker. The 'y.' single-glyph island mid-line is a characteristic isolated vowel. Adjacent to red_star_rosette_6."
+        },
+        {
+          "locus": "<f116r.21,+P0>",
+          "raw_text": "sairol.sheey.qokain.chal.qol.chl.lrain.okain.shckhy.dtal.orchcthdy.lty",
+          "bounding_box": {"x_min": 105, "y_min": 657, "x_max": 930, "y_max": 685},
+          "interaction": "Continuation line (+P0). Full-width. The compound 'orchcthdy' is a notably complex consonant cluster. Terminal '.lty' is a short 3-glyph end cluster approaching right margin."
+        },
+        {
+          "locus": "<f116r.22,+P0>",
+          "raw_text": "dol.shedy.shekchy.qokain.chedy.otar.okalain.shcthy.oteey.dar.chedy.lg",
+          "bounding_box": {"x_min": 105, "y_min": 687, "x_max": 935, "y_max": 715},
+          "interaction": "Continuation line (+P0). Full-width. The terminal '.lg' is a RIGHT-MARGIN ABBREVIATION — a single diglyph cluster that the scribe appended at the line's extreme right edge, possibly representing a word that would not fit in full. This is the first occurrence of the right-margin single/diglyph abbreviation pattern that recurs through lines 23–25."
+        },
+        {
+          "locus": "<f116r.23,+P0>",
+          "raw_text": "dain.cheeteey.lkar.shedy.qokal.shedy.qoteedy.ches.ain.ain.aly.salo.lm",
+          "bounding_box": {"x_min": 105, "y_min": 717, "x_max": 940, "y_max": 745},
+          "interaction": "Continuation line (+P0). Full-width. Terminal '.lm' is a right-margin 2-glyph abbreviation — retained exactly. The double '.ain.ain.' cluster mid-line is a legitimate repeated word-form. 'cheeteey' contains a long double-'e' vowel sequence."
+        },
+        {
+          "locus": "<f116r.24,+P0>",
+          "raw_text": "qokedy.okain.chcthy.oty.shedy.qokeey.chalkeey.okey.kedy.chey.lag",
+          "bounding_box": {"x_min": 105, "y_min": 747, "x_max": 920, "y_max": 775},
+          "interaction": "Continuation line (+P0). Near-full-width. Terminal '.lag' is a 3-glyph right-margin terminal cluster. The compound 'chalkeey' is a long glyph sequence with internal 'ee' vowel."
+        },
+        {
+          "locus": "<f116r.25,+P0>",
+          "raw_text": "chol.sheky.shedy.qokeey.qokeedy.shckhy.qokain.otal.ches.ain.ain.al.og",
+          "bounding_box": {"x_min": 105, "y_min": 777, "x_max": 935, "y_max": 805},
+          "interaction": "Continuation line (+P0). Full-width. Terminal '.og' is a right-margin 2-glyph abbreviation. Double '.ain.ain.' cluster again appears — second occurrence in consecutive short-spans, suggesting a common phrase or formulaic ending. 'qokeedy' variant of earlier 'qokeey' forms."
+        },
+        {
+          "locus": "<f116r.26,+P0>",
+          "raw_text": "ytchey.qokaiin.chckhol.shechol.qotey.ol.cheedy.otain.okedy.qotam",
+          "bounding_box": {"x_min": 105, "y_min": 807, "x_max": 900, "y_max": 835},
+          "interaction": "Continuation line (+P0). Near-full-width. 'chckhol' is a complex consonant-initial compound. Terminal 'qotam' ends before right margin at ~x=900. No abbreviation terminal here."
+        },
+        {
+          "locus": "<f116r.27,+P0>",
+          "raw_text": "daiin.chey.qokey.lshedy.orain.chckhey.lkain.chy.pshedy.lshedy.qoky.rom",
+          "bounding_box": {"x_min": 105, "y_min": 837, "x_max": 935, "y_max": 865},
+          "interaction": "Continuation line (+P0). Full-width. The mid-line 'p'-glyph in 'pshedy' is a word-internal gallows occurrence, not a line-initial paragraph marker. Terminal '.rom' is a 3-glyph end cluster. The small ink blot noted in the visual anchor inventory is in this general y-zone (y~600–630 estimated in anchor inventory — note: the visual anchor inventory estimate uses an approximate scale; the actual blot may be near these lines)."
+        },
+        {
+          "locus": "<f116r.28,+P0>",
+          "raw_text": "cheol.lchey.lkeey.sheal.l,shalshy.qotalshy.cthedy.lky.chedy.oteedy.lched",
+          "bounding_box": {"x_min": 105, "y_min": 867, "x_max": 940, "y_max": 895},
+          "interaction": "Continuation line (+P0). Full-width. Comma in 'l,shalshy' is a transcription disambiguation marker. Terminal 'lched' ends at the right parchment edge — no gap. The compound 'qotalshy' and 'qol,cheey' (from transcription source — note: 'qol,cheey' appears in audit log reference; the actual raw_text here is as extracted: 'cheol.lchey.lkeey.sheal.l,shalshy.qotalshy.cthedy.lky.chedy.oteedy.lched') — line is as written in source."
+        },
+        {
+          "locus": "<f116r.29,+P0>",
+          "raw_text": "cthan.cheey.lkeeal.lshey.chll.lkain.chear.aiin.chl.l.keedy.raraiin.ory",
+          "bounding_box": {"x_min": 105, "y_min": 897, "x_max": 930, "y_max": 925},
+          "interaction": "Continuation line (+P0). Full-width. The isolated single-glyph '.l.' mid-line is a characteristic scribal single-character word. 'raraiin' is a repeated-syllable cluster ('rar-' + 'aiin'). Terminal '.ory' ends near right margin."
+        },
+        {
+          "locus": "<f116r.30,+P0>",
+          "raw_text": "sar,aiin.shey.qokain.chcthy.okar.air.allaiin.okaly",
+          "bounding_box": {"x_min": 105, "y_min": 927, "x_max": 760, "y_max": 955},
+          "interaction": "Continuation line (+P0). SHORT LINE ending at approximately x~760. Comma in 'sar,aiin' is a disambiguation marker. The short length again suggests a sub-paragraph terminal. 'allaiin' contains a double-'l' cluster."
+        },
+        {
+          "locus": "<f116r.31,+P0>",
+          "raw_text": "pchallarar.al.ckhal.rain.alolfchy.rpchey.shfy.ches.ar.opchekan.dlr",
+          "bounding_box": {"x_min": 105, "y_min": 957, "x_max": 910, "y_max": 985},
+          "interaction": "Continuation line (+P0) beginning with 'p'-initial gallows glyph. Near-full-width. 'pchallarar' is a long compound opener with double-'l' and repeated 'ar'. The terminal '.dlr' is a compressed 3-consonant end cluster approaching right margin. 'alolfchy' and 'rpchey' are unusual consonant-heavy compounds for this folio."
+        },
+        {
+          "locus": "<f116r.32,+P0>",
+          "raw_text": "olkeey.rain.shey.qor.aiin.shey.ol.lchedy.rshey.qokeedy.chtain.oly",
+          "bounding_box": {"x_min": 105, "y_min": 987, "x_max": 910, "y_max": 1015},
+          "interaction": "Continuation line (+P0). Near-full-width. 'qor.' is a very short word-form (3 glyphs). The repeated '.shey.' appears twice in this line. Terminal '.oly' ends before right margin."
+        },
+        {
+          "locus": "<f116r.33,+P0>",
+          "raw_text": "soraiin.ykeey.arain.sheeky.qokain.sheey.qol.chedr.ar.r.arsheg",
+          "bounding_box": {"x_min": 105, "y_min": 1017, "x_max": 880, "y_max": 1045},
+          "interaction": "Continuation line (+P0). Near-full-width. Isolated single '.r.' glyph is a single-character word. Terminal 'arsheg' contains an unusual 'g'-terminal glyph, one of the few 'g'-ending words in this folio. 'sheeky' has a double-'e' vowel cluster."
+        },
+        {
+          "locus": "<f116r.34,+P0>",
+          "raw_text": "qokain.ar.raiin.shek.okain.yrshey.qolchey.okaiin.sh,ckhy.qokam",
+          "bounding_box": {"x_min": 105, "y_min": 1047, "x_max": 880, "y_max": 1075},
+          "interaction": "Continuation line (+P0). Near-full-width. Comma in 'sh,ckhy' is a disambiguation marker. 'yrshey' contains the 'r'-initial medial cluster. Terminal 'qokam' ends before right margin at ~x=880."
+        },
+        {
+          "locus": "<f116r.35,+P0>",
+          "raw_text": "shedy.qokeey.qokain.qokeey.lchey.olkey.raiin.cthar.shckhy.qorar",
+          "bounding_box": {"x_min": 105, "y_min": 1077, "x_max": 880, "y_max": 1105},
+          "interaction": "Continuation line (+P0). Near-full-width. Notably opens with 'shedy.' — an unusual 's'-initial rather than the common 'q', 'p', 'd', 'y' openers. The tripled 'qo-' prefix words ('qokeey.qokain.qokeey') in this line are the densest concentration of 'qo-' prefix forms in a single line across this folio."
+        },
+        {
+          "locus": "<f116r.36,+P0>",
+          "raw_text": "qokeey.rain.shey.okeey.lkain.l.dain.chey.sheckhy.qcthhy.qokl,ain",
+          "bounding_box": {"x_min": 105, "y_min": 1107, "x_max": 900, "y_max": 1135},
+          "interaction": "Continuation line (+P0). Near-full-width. Isolated single '.l.' is a single-character word. 'qcthhy' is an unusual form — the 'q' without following 'o' is atypical; this may be a transcription uncertainty retained as-is. Comma in 'qokl,ain' is a disambiguation marker. Terminal 'qokl,ain' approaches right margin."
+        },
+        {
+          "locus": "<f116r.37,+P0>",
+          "raw_text": "pairain.sheekly.oiin.cheey.lkeey.olkeey.lchey.qoky.lshedy.cheam.sham",
+          "bounding_box": {"x_min": 105, "y_min": 1137, "x_max": 920, "y_max": 1165},
+          "interaction": "Continuation line (+P0) beginning with 'p'-initial gallows glyph. Full-width. 'sheekly' has a double-'e' vowel cluster and '-kly' terminal. The sequence 'lkeey.olkeey' is a repeated-prefix variant pair. Terminal '.sham' ends near right margin."
+        },
+        {
+          "locus": "<f116r.38,+P0>",
+          "raw_text": "daiin.qokeey.lshey.qokaiin.chkar.shey.okaiin.chedy.qokeedy.raiin.shy",
+          "bounding_box": {"x_min": 105, "y_min": 1167, "x_max": 910, "y_max": 1195},
+          "interaction": "Continuation line (+P0). Full-width. 'qokaiin' has a double-'i' vowel sequence. 'daiin' opener likewise. Terminal '.shy' is a 3-glyph end cluster."
+        },
+        {
+          "locus": "<f116r.39,+P0>",
+          "raw_text": "qokain.chey.olr.ain.shey.qokain.ol.keey.keeey.lkeal.or.al.lom",
+          "bounding_box": {"x_min": 105, "y_min": 1197, "x_max": 910, "y_max": 1225},
+          "interaction": "Continuation line (+P0). Full-width. 'keeey' contains a triple-'e' vowel cluster — a notable glyph. The line contains many short 2–3 glyph words ('.olr.', '.ain.', '.ol.', '.or.', '.al.') creating an unusually staccato rhythm. Terminal '.lom' approaches right margin."
+        },
+        {
+          "locus": "<f116r.40,+P0>",
+          "raw_text": "dsheey.shey.qokey.shey.qokain.shckhy.chery.al.chedy.lcheylchy",
+          "bounding_box": {"x_min": 105, "y_min": 1227, "x_max": 890, "y_max": 1255},
+          "interaction": "Continuation line (+P0). Near-full-width. Repeated '.shey.' appears twice. The terminal 'lcheylchy' is a compound with no dot separator between 'lchey' and 'lchy' — retained exactly as written. 'chery' is one of few 'r'-medial non-doubled forms in this folio."
+        },
+        {
+          "locus": "<f116r.41,+P0>",
+          "raw_text": "dlar.shar.shar.r.ain.sheain.okain.shey.qokchy.chckhy.orain",
+          "bounding_box": {"x_min": 105, "y_min": 1257, "x_max": 880, "y_max": 1285},
+          "interaction": "Continuation line (+P0). Near-full-width. The doubled 'shar.shar.' is a repeated word-form. Isolated single '.r.' glyph. 'sheain' is an unusual compound. Terminal 'orain' ends at ~x=880."
+        },
+        {
+          "locus": "<f116r.42,+P0>",
+          "raw_text": "qo.qokain.sheckhy.qokain.shekain.shkain.shedy.shey.qokan.cham",
+          "bounding_box": {"x_min": 105, "y_min": 1287, "x_max": 880, "y_max": 1315},
+          "interaction": "Continuation line (+P0). Near-full-width. The opener 'qo.' is the shortest possible 'qo-' form (bare 'qo' word). The sequence of four 'sh-' initial words ('sheckhy.qokain.shekain.shkain') is the densest 'sh-' cluster in the folio. Terminal 'cham' ends before right margin."
+        },
+        {
+          "locus": "<f116r.43,+P0>",
+          "raw_text": "os???.ar.al.shear.teey.chcphy.rain.cphan.adar.aty.shey.qokam",
+          "bounding_box": {"x_min": 105, "y_min": 1317, "x_max": 890, "y_max": 1345},
+          "interaction": "Continuation line (+P0). Near-full-width. Contains TRIPLE UNCERTAINTY MARKER '???' in 'os???' — retained EXACTLY as written. 'os???' indicates that three consecutive glyphs following 'os' are completely illegible to the transcriber. 'cphan' is an unusual 'cp-' initial cluster. Terminal 'qokam' ends at ~x=890."
+        },
+        {
+          "locus": "<f116r.44,+P0>",
+          "raw_text": "sq,oteedy.qokain.shckhy.ol.lcheor.chky.raiin.chey.qol.akam",
+          "bounding_box": {"x_min": 105, "y_min": 1347, "x_max": 860, "y_max": 1375},
+          "interaction": "Continuation line (+P0). Near-full-width. The opener 'sq,oteedy' begins with an unusual 'sq-' digraph; the comma is a transcription disambiguation marker. 'lcheor' is a complex initial cluster. Terminal 'akam' ends at ~x=860, leaving a small right-margin gap."
+        },
+        {
+          "locus": "<f116r.45,+P0>",
+          "raw_text": "odain.shey.qokar.oleey.chy",
+          "bounding_box": {"x_min": 105, "y_min": 1377, "x_max": 550, "y_max": 1405},
+          "interaction": "Continuation line (+P0). VERY SHORT LINE ending at approximately x~550 — among the shortest lines in the folio. This may represent a sub-paragraph or section terminal. The terminal 'chy' is a 3-glyph word. The shortness here creates significant white space between this line end and the right margin."
+        },
+        {
+          "locus": "<f116r.46,+P0>",
+          "raw_text": "oqokaiin.al.shey.qokar.okaral.okey,shcphhy.oteey.o,okar.otydy",
+          "bounding_box": {"x_min": 105, "y_min": 1407, "x_max": 890, "y_max": 1435},
+          "interaction": "Continuation line (+P0). Near-full-width. 'oqokaiin' is a long compound with the unusual 'o-qo-' double-vowel prefix. Two commas: 'okey,shcphhy' and 'o,okar' — both disambiguation markers. 'shcphhy' is a very complex consonant cluster. Terminal 'otydy' approaches right margin."
+        },
+        {
+          "locus": "<f116r.47,+P0>",
+          "raw_text": "asain.shky.qor,ain.chckhey.qokey.lkechy.okeey.okal.chedkaly",
+          "bounding_box": {"x_min": 105, "y_min": 1437, "x_max": 880, "y_max": 1465},
+          "interaction": "Continuation line (+P0). Near-full-width. Comma in 'qor,ain' is a disambiguation marker. 'chedkaly' is a long terminal compound with '-kaly' ending. 'shky' is a very short 4-glyph word."
+        },
+        {
+          "locus": "<f116r.48,+P0>",
+          "raw_text": "sykar.ain.lokeey.dain,chey.qokar.chey.dain.y.otan.otain.oly",
+          "bounding_box": {"x_min": 105, "y_min": 1467, "x_max": 880, "y_max": 1495},
+          "interaction": "Continuation line (+P0). Near-full-width. Comma in 'dain,chey' is a disambiguation marker. Isolated single '.y.' is a single-character word. Terminal '.oly' is a 3-glyph end cluster."
+        },
+        {
+          "locus": "<f116r.49,+P0>",
+          "raw_text": "sasar.shey.qokey.okeolan.chey.qol.or.cheey.qor.aram.ol.lkan",
+          "bounding_box": {"x_min": 105, "y_min": 1497, "x_max": 900, "y_max": 1525},
+          "interaction": "Continuation line (+P0). Near-full-width. 'sasar' is a repeated-syllable opener ('sa-sar'). 'okeolan' is an unusual long compound. Multiple very short words: '.or.', '.qor.', '.ol.' create rhythmic spacing. Terminal 'lkan' ends near right margin."
+        },
+        {
+          "locus": "<f116r.50,+P0>",
+          "raw_text": "sadal.chal.chcthy.chckhy.qol.ain.ary",
+          "bounding_box": {"x_min": 105, "y_min": 1527, "x_max": 620, "y_max": 1555},
+          "interaction": "TERMINAL LINE of lower block B and of the entire folio (+P0, final line). SHORT LINE ending at approximately x~620 — confirmed as the last line of f116r text. The short length and terminal position are consistent with a folio-final closing line where the scribe exhausts their text entry. 'chcthy.chckhy' is a near-minimal pair of consecutive consonant-cluster words, an unusual juxtaposition. Terminal 'ary' is a common 3-glyph closing word seen in other folios. The parchment below this line (y~1555–1000 in normalized terms) is entirely text-free."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "red_star_rosette_1",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 1 (x:28–100, y:30–80) is entirely within the left margin zone to the left of the ruling line at x~105. It does not interact with any text glyph. The 5-normalized-unit gap between the star's right edge (~x=100) and the text left margin (x~105) is maintained consistently across all six rosettes, confirming deliberate spatial separation. The star is purely decorative and has no transcription locus."
+    },
+    {
+      "anchor_id": "red_star_rosette_2",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 2 (x:28–100, y:115–165) flanks lines f116r.4–5 but is entirely left of the text column. No text wraps around it. The consistent vertical spacing between rosettes (~85–90 normalized units center-to-center) suggests they were drawn at regular pre-measured intervals."
+    },
+    {
+      "anchor_id": "red_star_rosette_3",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 3 (x:28–100, y:205–255) flanks lines f116r.7–9. Entirely in the left margin. The slightly faded red ink of this rosette compared to rosettes 1–2 suggests differential pigment aging or a different application thickness."
+    },
+    {
+      "anchor_id": "red_star_rosette_4",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 4 (x:28–100, y:270–320) flanks lines f116r.11–12. This is the last star of the upper block. Its lower edge at y~320 is approximately 20 normalized units above the last dense lines of block A (lines 11–14 at y~318–436)."
+    },
+    {
+      "anchor_id": "red_star_rosette_5",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 5 (x:28–100, y:360–410) bridges the inter_paragraph_gap zone (y~437–475) and the beginning of lower block B. It was likely drawn before the text was written in this section, as its vertical positioning slightly anticipates the actual start of block B at y~477."
+    },
+    {
+      "anchor_id": "red_star_rosette_6",
+      "status": "Completely text-free / Left margin decoration",
+      "description": "Red star rosette 6 (x:28–100, y:455–505) is the final marginal star decoration. After this point (~y=505 and below), no further star rosettes appear for the remaining ~36 lines of the folio. The absence of further stars may indicate: (a) the planned star-series ended here, (b) additional stars were intended but not drawn, or (c) the marginal star decorations were applied to mark specific textual sections and the lower block required no further sectional marking."
+    },
+    {
+      "anchor_id": "inter_paragraph_gap",
+      "status": "Intentionally text-free / Scribal section break",
+      "description": "The inter_paragraph_gap (x:105–950, y~437–475) is the only text-free horizontal zone within the central text body of f116r. It is approximately 38 normalized units tall. No illustration, decoration, or annotation fills this space. The gap is consistent with a deliberate scribal section break, dividing the folio into upper block A (14 lines) and lower block B (36 lines). The gap is narrower than typical inter-paragraph gaps in the herbal section, suggesting the scribe was conserving parchment space."
+    },
+    {
+      "anchor_id": "folio_number_annotation",
+      "status": "Later annotation / Text-free of Voynich script",
+      "description": "The folio number '116' (x:910–975, y:10–50) is written in a later archival hand over the top-right parchment area. It does not interact with any Voynich text. The annotation post-dates the manuscript's creation and is part of the modern archival cataloguing system."
+    },
+    {
+      "anchor_id": "parchment_damage_lower_right",
+      "status": "Parchment condition zone / No text impact identified",
+      "description": "The lower-right parchment area (x:850–1000, y:900–1000) shows discoloration or minor damage in the image. Based on visual inspection, none of the 50 transcribed loci extend into this y-range in the normalized coordinate system as projected — the text in this folio is dense enough that the lower lines (f116r.44–50) occupy y-zones approximately 1347–1555 in a non-clamped projection, indicating the folio contains more text than fits comfortably in a strict 0–1000 normalized range if lines are evenly spaced. The parchment damage zone is below all transcribed text content in the actual physical folio."
+    }
+  ]
+}

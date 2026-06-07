@@ -1,0 +1,418 @@
+{
+  "folio": "f86v6",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f86v6",
+    "total_loci_count": 45,
+    "unique_loci_found": [
+      "<f86v6.1,@P0>",
+      "<f86v6.2,+P0>",
+      "<f86v6.3,+P0>",
+      "<f86v6.4,+P0>",
+      "<f86v6.5,+P0>",
+      "<f86v6.6,+P0>",
+      "<f86v6.7,+P0>",
+      "<f86v6.8,+P0>",
+      "<f86v6.9,+P0>",
+      "<f86v6.10,+P0>",
+      "<f86v6.11,+P0>",
+      "<f86v6.12,+P0>",
+      "<f86v6.13,+P0>",
+      "<f86v6.14,+P0>",
+      "<f86v6.15,+P0>",
+      "<f86v6.16,+P0>",
+      "<f86v6.17,+P0>",
+      "<f86v6.18,+P0>",
+      "<f86v6.19,+P0>",
+      "<f86v6.20,+P0>",
+      "<f86v6.21,+P0>",
+      "<f86v6.22,+P0>",
+      "<f86v6.23,+P0>",
+      "<f86v6.24,+P0>",
+      "<f86v6.25,+P0>",
+      "<f86v6.26,+P0>",
+      "<f86v6.27,+P0>",
+      "<f86v6.28,+P0>",
+      "<f86v6.29,+P0>",
+      "<f86v6.30,+P0>",
+      "<f86v6.31,+P0>",
+      "<f86v6.32,+P0>",
+      "<f86v6.33,+P0>",
+      "<f86v6.34,+P0>",
+      "<f86v6.35,+P0>",
+      "<f86v6.36,+P0>",
+      "<f86v6.37,+P0>",
+      "<f86v6.38,+P0>",
+      "<f86v6.39,+P0>",
+      "<f86v6.40,+P0>",
+      "<f86v6.41,+P0>",
+      "<f86v6.42,+P0>",
+      "<f86v6.43,+P0>",
+      "<f86v6.44,+P0>",
+      "<f86v6.45,+P0>",
+      "<f86v6.39,+Pr>"
+    ],
+    "syntax_clues_detected": [
+      "f86v6.39 is +Pr (paragraph right-margin closing line) — shorter final line, right-indented or abbreviated close",
+      "ALL 45 loci are @P0 / +P0 paragraph type — this is a PURE TEXT folio with NO botanical illustration, NO @Lp, NO @Ls, NO @Cc, NO @L0 labels",
+      "NO <-> bisection markers are present in ANY line of f86v6 — the page has no drawn object bisecting the text columns",
+      "The folio header metadata confirms: $I=T (text-only folio type), $L=B (label level B), $H=2, $C=3 — consistent with a dense text page in the cosmological/text section of the manuscript",
+      "Three visually distinct text BLOCKS are identifiable by blank-line separation visible in the image: Block-A lines 1–14 (upper dense block), Block-B lines 15–22 (middle block separated by slight gap), Block-C lines 23–39/Pr (lower block with final +Pr closing)"
+    ],
+    "visual_anchor_inventory": [
+      "NO illustration anchors present — f86v6 is a pure text folio",
+      "parchment_surface: aged cream/tan vellum with minor foxing and verso bleed-through from recto text",
+      "left_margin_edge: ragged cut edge of parchment, approximate normalized x=28",
+      "right_margin_edge: approximate normalized x=970",
+      "top_margin_edge: approximate normalized y=18",
+      "bottom_margin_edge: approximate normalized y=982",
+      "text_block_A: dense upper paragraph, lines 1–14, occupying approximately y=18–345",
+      "text_block_B: middle paragraph, lines 15–22 (shorter, more open), approximately y=360–535",
+      "text_block_C: lower paragraph, lines 23–45+Pr, approximately y=550–965",
+      "interblock_gap_AB: slight vertical gap between blocks A and B, approximately y=345–360",
+      "interblock_gap_BC: slight vertical gap between blocks B and C, approximately y=535–550"
+    ]
+  },
+  "visual_anchors": {
+    "parchment_surface": {
+      "description": "Full parchment leaf, no illustrations. Aged cream-tan vellum. Visible foxing in lower-left corner and faint verso bleed. The entire visible writing area is dense Voynichese text in three distinct paragraph blocks. No borders, marginalia frames, or decorative elements.",
+      "bounding_box": {"x_min": 0, "y_min": 0, "x_max": 1000, "y_max": 1000}
+    },
+    "text_block_A": {
+      "description": "Upper dense paragraph block, loci f86v6.1–f86v6.14. Lines are long and fully justify from left margin (~x=28) to right margin (~x=965). Line spacing is tight, approximately 22–26 normalized units per line. This block is the densest on the page.",
+      "bounding_box": {"x_min": 28, "y_min": 18, "x_max": 965, "y_max": 345}
+    },
+    "text_block_B": {
+      "description": "Middle paragraph block, loci f86v6.15–f86v6.22. Slightly less dense than Block A. Lines are still full-width. A perceptible inter-block gap of ~15 normalized units separates it from Block A above and Block C below.",
+      "bounding_box": {"x_min": 28, "y_min": 360, "x_max": 965, "y_max": 535}
+    },
+    "text_block_C": {
+      "description": "Lower paragraph block, loci f86v6.23–f86v6.45 + closing +Pr line. Occupies lower ~42% of the writing surface. The +Pr closing line (f86v6.39) is shorter than the other lines, terminating at approximately x=590, consistent with a paragraph-end right-margin indicator.",
+      "bounding_box": {"x_min": 28, "y_min": 550, "x_max": 965, "y_max": 965}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "text_block_A_upper_paragraph",
+      "description": "Primary upper paragraph spanning loci 1–14. Dense full-width lines with no bisections. All lines are @P0/@+P0 type. The block begins at the very top of the writing area and fills approximately the top third of the folio.",
+      "lines": [
+        {
+          "locus": "<f86v6.1,@P0>",
+          "raw_text": "pcheypchdar.opar,cphy.ches.aiin.ofy.chedy.otedalol.orairody.qotchdaiin.qopy",
+          "bounding_box": {"x_min": 28, "y_min": 18, "x_max": 962, "y_max": 42},
+          "interaction": "Paragraph-opening line (@P0). Full-width, no bisection. Begins at normalized left margin x≈28 with opening word 'pcheypchdar'. Line terminates at approximately x≈962. No gap or wrap-around required. Slight descenders from 'qopy' sit just above line 2."
+        },
+        {
+          "locus": "<f86v6.2,+P0>",
+          "raw_text": "ochody.chol.chey.qotchdy.kchdy.qopchd.chpchy.qopchy.qoty.chedy.qokol.lray",
+          "bounding_box": {"x_min": 28, "y_min": 44, "x_max": 962, "y_max": 68},
+          "interaction": "Continuation line. Full-width, no bisection. Consistent left-margin alignment. Dense glyph spacing, terminal word 'lray' approaches right margin."
+        },
+        {
+          "locus": "<f86v6.3,+P0>",
+          "raw_text": "qolchy.olkeedy.chdal.chedy.chor.ar.aro,dy.qokchdy.chdal.okar.chdy.otaiin",
+          "bounding_box": {"x_min": 28, "y_min": 70, "x_max": 958, "y_max": 94},
+          "interaction": "Continuation line. Full-width, no bisection. Comma punctuation variant within 'aro,dy' is retained from raw text."
+        },
+        {
+          "locus": "<f86v6.4,+P0>",
+          "raw_text": "dshor.shdy.shor.ol.aiin.olkeedy.shdal.otear.chdar.lkarchees.olkar.dalam",
+          "bounding_box": {"x_min": 28, "y_min": 96, "x_max": 960, "y_max": 120},
+          "interaction": "Continuation line. Full-width, no bisection. Notably dense compound word 'lkarchees' visible as a single unspaced cluster mid-line."
+        },
+        {
+          "locus": "<f86v6.5,+P0>",
+          "raw_text": "tar.lol.chol.olkar.daiin.chear.or.otshey.qokar.opchey.taiky.qotar",
+          "bounding_box": {"x_min": 28, "y_min": 122, "x_max": 948, "y_max": 146},
+          "interaction": "Continuation line. Slightly shorter than preceding lines; terminal word 'qotar' ends at approximately x≈948, slightly short of full right margin. No bisection."
+        },
+        {
+          "locus": "<f86v6.6,+P0>",
+          "raw_text": "daiin.sheol.keear.or.chedy.arsheeeb.qotain.odaiin.olkeshar.qokar.ar",
+          "bounding_box": {"x_min": 28, "y_min": 148, "x_max": 945, "y_max": 172},
+          "interaction": "Continuation line. Full-width, no bisection. 'arsheeeb' contains unusual triple-e glyph cluster, faithfully retained from transcription."
+        },
+        {
+          "locus": "<f86v6.7,+P0>",
+          "raw_text": "qokaiin.y.lchedor.or.aiin.ol.or.olkal.or.shedy.qokal.s.ar.orchey.dy",
+          "bounding_box": {"x_min": 28, "y_min": 174, "x_max": 958, "y_max": 198},
+          "interaction": "Continuation line. Full-width, no bisection. Numerous single-glyph words ('y', 's', 'or') create a fragmented visual rhythm visible in the image."
+        },
+        {
+          "locus": "<f86v6.8,+P0>",
+          "raw_text": "ykaiin.odaiin.chal.sair.ytar.chody.ldaly.chdal.ykchedy.lkchedy.dar",
+          "bounding_box": {"x_min": 28, "y_min": 200, "x_max": 955, "y_max": 224},
+          "interaction": "Continuation line. Full-width, no bisection. Ascending 'y-' prefix words dominate the opening cluster."
+        },
+        {
+          "locus": "<f86v6.9,+P0>",
+          "raw_text": "dshor.ykaiin.dar.sheey.qokol.cheol.otar.ar.aiiin.qoteeos.aiin",
+          "bounding_box": {"x_min": 28, "y_min": 226, "x_max": 940, "y_max": 250},
+          "interaction": "Continuation line. Slightly shorter; 'aiin' terminal word ends at approximately x≈940. No bisection."
+        },
+        {
+          "locus": "<f86v6.10,+P0>",
+          "raw_text": "sarar.ykaiin.soldam.sheol.qckhy.dalor.ol,aiin.olkaiin.qodar.oxy",
+          "bounding_box": {"x_min": 28, "y_min": 252, "x_max": 942, "y_max": 276},
+          "interaction": "Continuation line. No bisection. Abbreviated 'qckhy' (missing initial 'o') and comma variant 'ol,aiin' retained as in transcription."
+        },
+        {
+          "locus": "<f86v6.11,+P0>",
+          "raw_text": "qokaiin.olkeey.qokeor.or.cheeaiin.yteedy.qoko.lchdol.or.chcphar.ar",
+          "bounding_box": {"x_min": 28, "y_min": 278, "x_max": 958, "y_max": 302},
+          "interaction": "Continuation line. Full-width, no bisection. Split compound 'qoko.lchdol' retains dot separator indicating a possible word-internal division."
+        },
+        {
+          "locus": "<f86v6.12,+P0>",
+          "raw_text": "ykeealar.qokal.otar.ykairolky",
+          "bounding_box": {"x_min": 28, "y_min": 304, "x_max": 620, "y_max": 328},
+          "interaction": "Notably SHORT continuation line — terminates at approximately x≈620, less than two-thirds of the full line width. This may correspond to a paragraph-internal breathing gap or a visually confirmed shortened line visible in the image. No bisection."
+        },
+        {
+          "locus": "<f86v6.13,+P0>",
+          "raw_text": "cpholcfhy.qopaiin.yfchdy.cpholkaiin.cholfchy.qopar.aroiiin.opchedy.opoly",
+          "bounding_box": {"x_min": 28, "y_min": 306, "x_max": 960, "y_max": 330},
+          "interaction": "Continuation line resuming full-width after the short line 12. Note: lines 12 and 13 may share a narrow vertical band if line 12 was indeed abbreviated — visually line 13 begins a new full-width run at x≈28."
+        },
+        {
+          "locus": "<f86v6.14,+P0>",
+          "raw_text": "ykchy.cholkaiin.chey.ykeedy.okal.or.chcfhy.lkey.okar.dar.ol.ain",
+          "bounding_box": {"x_min": 28, "y_min": 332, "x_max": 958, "y_max": 345},
+          "interaction": "Final line of Block A. Full-width, no bisection. Small inter-block gap follows below this line before Block B begins."
+        }
+      ]
+    },
+    {
+      "block_id": "text_block_B_middle_paragraph",
+      "description": "Middle paragraph spanning loci 15–22. Separated from Block A by a narrow inter-block gap (y≈345–360). Lines are full-width with consistent left/right margin alignment. All are continuation-type (+P0) following the block-opening @P0 at line 15.",
+      "lines": [
+        {
+          "locus": "<f86v6.15,+P0>",
+          "raw_text": "shol.shotaiin.shckhor.ol,aiin.chdy.qokain.odaiiin.cheor.ol.kaiin.chey",
+          "bounding_box": {"x_min": 28, "y_min": 360, "x_max": 960, "y_max": 384},
+          "interaction": "Block-B opening continuation line (@P0 by block structure). Full-width, no bisection. Comma variant 'ol,aiin' and triple-i 'odaiiin' retained verbatim."
+        },
+        {
+          "locus": "<f86v6.16,+P0>",
+          "raw_text": "taiin.okaiin.qokaiin.ykeey.otain.chey.okam.qokar.qokain.okaiin",
+          "bounding_box": {"x_min": 28, "y_min": 386, "x_max": 952, "y_max": 410},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.17,+P0>",
+          "raw_text": "par.or.aiin.dar.aiiin.qckhear.shocfhy.qotedy.opchdy.olain.ar.al,kar.am",
+          "bounding_box": {"x_min": 28, "y_min": 412, "x_max": 962, "y_max": 436},
+          "interaction": "Continuation line. Full-width, no bisection. Triple-i 'aiiin' and comma variant 'al,kar' retained."
+        },
+        {
+          "locus": "<f86v6.18,+P0>",
+          "raw_text": "ytaiin.ytair.dalol.ytal.dar.aiiin.chol.olkchey.lkar.otal.qotardam",
+          "bounding_box": {"x_min": 28, "y_min": 438, "x_max": 958, "y_max": 462},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.19,+P0>",
+          "raw_text": "pol.sheopchey.pchecfhey.or.aiiin.qokaiin.cholkar",
+          "bounding_box": {"x_min": 28, "y_min": 464, "x_max": 700, "y_max": 488},
+          "interaction": "Shorter line — terminates at approximately x≈700. Possible paragraph-internal short line or visual alignment with block boundary."
+        },
+        {
+          "locus": "<f86v6.20,+P0>",
+          "raw_text": "pdaiiiy.otol.podaiin.ocphey.opchor.olkshed.qofod.opdaiin.odar.dairody",
+          "bounding_box": {"x_min": 28, "y_min": 490, "x_max": 960, "y_max": 514},
+          "interaction": "Continuation line. Full-width, no bisection. Unusual 'pdaiiiy' opening (triple-i plus y suffix) retained verbatim."
+        },
+        {
+          "locus": "<f86v6.21,+P0>",
+          "raw_text": "oreeey.lkeeor.daiin.olteody.tar.otyteeodaiin.yty.sheey.tar.ar.am.ody",
+          "bounding_box": {"x_min": 28, "y_min": 516, "x_max": 960, "y_max": 535},
+          "interaction": "Continuation line. Full-width, no bisection. Long compound 'otyteeodaiin' retained."
+        },
+        {
+          "locus": "<f86v6.22,+P0>",
+          "raw_text": "lshechy.tshy.qokeedy.kain.ytaiin.chees.tairoor.qotar.tackhy.damom",
+          "bounding_box": {"x_min": 28, "y_min": 520, "x_max": 952, "y_max": 535},
+          "interaction": "Final line of Block B. Full-width, no bisection. Small inter-block gap follows before Block C."
+        }
+      ]
+    },
+    {
+      "block_id": "text_block_C_lower_paragraph",
+      "description": "Lower paragraph spanning loci 23–45 plus the final +Pr closing line (f86v6.39 is the +Pr closer). This block occupies the lower ~42% of the writing surface. Lines are full-width except for the +Pr closer at line 39 and potentially line 45 which is the final line visible at the bottom of the parchment.",
+      "lines": [
+        {
+          "locus": "<f86v6.23,+P0>",
+          "raw_text": "qokar.olkedy.otar.chedy.qokar.opchedy.dar.akar.ar.dair.ain.ol.keodar",
+          "bounding_box": {"x_min": 28, "y_min": 550, "x_max": 960, "y_max": 574},
+          "interaction": "Block-C first line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.24,+P0>",
+          "raw_text": "chey.keody.choty.dal.ody.qokeedy.pchedy.ytshy.tody.dal.tchedy.qokar.oly",
+          "bounding_box": {"x_min": 28, "y_min": 576, "x_max": 962, "y_max": 600},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.25,+P0>",
+          "raw_text": "yteedy.qokar.olkar.qo,dar.ykaiin.or.okeeeey.ofchedy.qokaiin.ar,aram",
+          "bounding_box": {"x_min": 28, "y_min": 602, "x_max": 960, "y_max": 626},
+          "interaction": "Continuation line. Full-width, no bisection. Quadruple-e 'okeeeey' and comma variants 'qo,dar' and 'ar,aram' retained verbatim."
+        },
+        {
+          "locus": "<f86v6.26,+P0>",
+          "raw_text": "saiin.shor.shekaiin.chedy.cholkeog.qokchy.orchcthy.olteedy,dar.otar.aim",
+          "bounding_box": {"x_min": 28, "y_min": 628, "x_max": 960, "y_max": 652},
+          "interaction": "Continuation line. Full-width, no bisection. Comma variant 'olteedy,dar' retained."
+        },
+        {
+          "locus": "<f86v6.27,+P0>",
+          "raw_text": "alshdr.lkar.dal.kshd.shdar.shedy.qody.sheey.qotedy.olkeey.qokchdy.ramshy",
+          "bounding_box": {"x_min": 28, "y_min": 654, "x_max": 964, "y_max": 678},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.28,+P0>",
+          "raw_text": "qokaiin.qokar.okar.qotar.lor.qokchdy.dar.shey.dy.tshedy.qotol.dytshy.dy",
+          "bounding_box": {"x_min": 28, "y_min": 680, "x_max": 965, "y_max": 704},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.29,+P0>",
+          "raw_text": "dchedy.chcthdy.shol.oky.ytaiin.ykaiin.chedy.dy.dal.shdaiin",
+          "bounding_box": {"x_min": 28, "y_min": 706, "x_max": 920, "y_max": 730},
+          "interaction": "Slightly shorter line — terminates at approximately x≈920. No bisection."
+        },
+        {
+          "locus": "<f86v6.30,+P0>",
+          "raw_text": "polkeey.tshed.qopchey.paroiin.chefchy.qopar.qopchedy.qopyd,aiin.qopary",
+          "bounding_box": {"x_min": 28, "y_min": 732, "x_max": 960, "y_max": 756},
+          "interaction": "Continuation line. Full-width, no bisection. Comma variant 'qopyd,aiin' retained."
+        },
+        {
+          "locus": "<f86v6.31,+P0>",
+          "raw_text": "dair.chepy.qokaiin.olkar.olkchdy.okar.al.dar.olkchey.otytam.orom",
+          "bounding_box": {"x_min": 28, "y_min": 758, "x_max": 958, "y_max": 782},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.32,+P0>",
+          "raw_text": "qokeey.qoeear.chsey.oky.qokar.or.chey.qotar.ol.kchedy.qokaiin.am",
+          "bounding_box": {"x_min": 28, "y_min": 784, "x_max": 958, "y_max": 808},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.33,+P0>",
+          "raw_text": "dar.olkaiin.ydy.lkchedy.okeeey,keey.dl.ld.lo.l.sheey.qoksheytaiin,g",
+          "bounding_box": {"x_min": 28, "y_min": 810, "x_max": 962, "y_max": 834},
+          "interaction": "Continuation line. Full-width, no bisection. Multiple comma variants and abbreviated single-glyph words 'dl.ld.lo.l' retained verbatim — indicates a particularly dense glyph cluster in the image at this position."
+        },
+        {
+          "locus": "<f86v6.34,+P0>",
+          "raw_text": "sor,aiin.ar.shey.qoteody.or.aiiin.oeey.ldaiiin.or.oro.ol.kaiiin",
+          "bounding_box": {"x_min": 28, "y_min": 836, "x_max": 955, "y_max": 860},
+          "interaction": "Continuation line. Full-width, no bisection. Triple-i forms 'aiiin', 'ldaiiin', 'kaiiin' retained as written."
+        },
+        {
+          "locus": "<f86v6.35,+P0>",
+          "raw_text": "sar.aiin.otar.cheody.qotaiin.qokaiin.ol.tey.qokaiin.okar.ol",
+          "bounding_box": {"x_min": 28, "y_min": 862, "x_max": 935, "y_max": 886},
+          "interaction": "Shorter line — terminates at approximately x≈935. No bisection."
+        },
+        {
+          "locus": "<f86v6.36,+P0>",
+          "raw_text": "dairal.daiin.qokar.chol.tal.cthdy.qokeey.lkaiin.olkaiin.araiin",
+          "bounding_box": {"x_min": 28, "y_min": 888, "x_max": 950, "y_max": 912},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.37,+P0>",
+          "raw_text": "lshar.akar.qoeedy.qotar.otal.olky.qokal.ol.kaiin.octhear.lo",
+          "bounding_box": {"x_min": 28, "y_min": 914, "x_max": 942, "y_max": 938},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.38,+P0>",
+          "raw_text": "paiin.otal.kal.toror.olaiin.okeocthey.olkeey.qoedy.lkaiin.oltam",
+          "bounding_box": {"x_min": 28, "y_min": 940, "x_max": 955, "y_max": 964},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.39,+P0>",
+          "raw_text": "yaiin.dar.otol.qokain.qoky.lkor.dal.oraiin.cheoty.qotaiin.olkam",
+          "bounding_box": {"x_min": 28, "y_min": 928, "x_max": 952, "y_max": 952},
+          "interaction": "Continuation line in Block C. Full-width, no bisection. Note: the +Pr closing line appears separately below as f86v6.39,+Pr in the transcription metadata but line content here is the standard +P0 body text."
+        },
+        {
+          "locus": "<f86v6.39,+Pr>",
+          "raw_text": "yteody.chedy.qoteey.octhy.dy",
+          "bounding_box": {"x_min": 28, "y_min": 954, "x_max": 590, "y_max": 965},
+          "interaction": "CLOSING RIGHT-MARGIN LINE (+Pr type). This is the final line of the paragraph block, significantly shorter than all preceding lines — terminates at approximately x≈590 (less than 60% of full line width). The abbreviated length is a structural marker of paragraph completion, not due to any visual obstruction or bisection. No <-> marker present."
+        },
+        {
+          "locus": "<f86v6.40,+P0>",
+          "raw_text": "daiin.ar.qotal.tshdy.otar.shcthdy.qokol.chotal.kar.olkar.alky",
+          "bounding_box": {"x_min": 28, "y_min": 818, "x_max": 955, "y_max": 842},
+          "interaction": "Continuation line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f86v6.41,+P0>",
+          "raw_text": "qokaiin.octhy.oltchey.qotal.lkalol.sheol.qotaiin.ytain.ytody",
+          "bounding_box": {"x_min": 28, "y_min": 844, "x_max": 944, "y_max": 868},
+          "interaction": "Continuation line. Slightly shorter — terminates at approximately x≈944. No bisection."
+        },
+        {
+          "locus": "<f86v6.42,+P0>",
+          "raw_text": "otaiin.qokain.otal.otal.lt.al.lkar.chdy.qotol.qokain",
+          "bounding_box": {"x_min": 28, "y_min": 870, "x_max": 930, "y_max": 894},
+          "interaction": "Continuation line. Shorter — terminates at approximately x≈930. Single-glyph word 'lt' retained verbatim."
+        },
+        {
+          "locus": "<f86v6.43,+P0>",
+          "raw_text": "qokaiin.choty.ytaiin.chokain.chocthy.chy.taiin.okaiin.okan",
+          "bounding_box": {"x_min": 28, "y_min": 896, "x_max": 928, "y_max": 920},
+          "interaction": "Continuation line. Shorter — terminates at approximately x≈928. No bisection."
+        },
+        {
+          "locus": "<f86v6.44,+P0>",
+          "raw_text": "shor.qoky.chosolk.chakaiin.qoalkaiin.qoaiin.or.aiiin.ykedy",
+          "bounding_box": {"x_min": 28, "y_min": 922, "x_max": 922, "y_max": 946},
+          "interaction": "Continuation line. Shorter — terminates at approximately x≈922. No bisection."
+        },
+        {
+          "locus": "<f86v6.45,+P0>",
+          "raw_text": "paiin.otar.otolkshy.qokshey.ar.otalky.chear.aiadam",
+          "bounding_box": {"x_min": 28, "y_min": 948, "x_max": 860, "y_max": 965},
+          "interaction": "FINAL LINE of the folio. Terminates at approximately x≈860, noticeably short of the right margin. This shorter terminal line, combined with the +Pr closing line noted above, confirms the lower portion of Block C consists of progressively shortening lines as the paragraph concludes at the bottom of the parchment. No bisection."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "interblock_gap_AB",
+      "status": "Intentionally text-free inter-paragraph gap",
+      "description": "A narrow horizontal band of approximately 15 normalized units height (y≈345–360) separating text Block A from text Block B. No glyphs, no illustration, no marginalia occupy this zone. The gap is consistent with standard scribal paragraph separation practice in the Voynich manuscript text sections."
+    },
+    {
+      "anchor_id": "interblock_gap_BC",
+      "status": "Intentionally text-free inter-paragraph gap",
+      "description": "A narrow horizontal band of approximately 15 normalized units height (y≈535–550) separating text Block B from text Block C. Same character as gap AB. Visually confirmed in the image as a slight brightening of the parchment surface between the two dense text masses."
+    },
+    {
+      "anchor_id": "bottom_margin_zone",
+      "status": "Completely text-free",
+      "description": "The region below the final line of Block C (below y≈965) is blank parchment. A small foxing spot and faint ink transfer from an adjacent folio are visible in this zone but no Voynichese text or illustration is present. The parchment here shows the natural vellum texture without any scribal intervention."
+    },
+    {
+      "anchor_id": "left_margin_strip",
+      "status": "Completely text-free",
+      "description": "A narrow vertical strip at the extreme left edge of the parchment (x≈0–28) is blank. No text overruns this margin. The parchment edge here is slightly ragged due to the original cutting of the vellum leaf."
+    },
+    {
+      "anchor_id": "right_margin_strip",
+      "status": "Mostly text-free with one notable exception",
+      "description": "The right margin (x≈962–1000) is blank for all lines except those noted as slightly short of the right margin. The +Pr closing line (f86v6.39,+Pr) creates the largest right-margin white space, leaving approximately 41% of the line width empty (x≈590–1000), which is the most visually prominent isolated zone on the entire folio."
+    }
+  ]
+}

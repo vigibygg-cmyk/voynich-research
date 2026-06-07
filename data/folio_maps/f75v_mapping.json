@@ -1,0 +1,581 @@
+{
+  "folio": "f75v",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f75v",
+    "total_loci_count": 70,
+    "unique_loci_found": [
+      "<f75v.1,@P0>", "<f75v.2,=L0>", "<f75v.3,*P0>", "<f75v.4,=L0>",
+      "<f75v.5,*P0>", "<f75v.6,=L0>", "<f75v.7,*P0>", "<f75v.8,~L0>",
+      "<f75v.9,+L0>", "<f75v.10,*P0>", "<f75v.11,=L0>", "<f75v.12,*P0>",
+      "<f75v.13,+P0>", "<f75v.14,+P0>", "<f75v.15,+P0>", "<f75v.16,+P0>",
+      "<f75v.17,+P0>",
+      "<f75v.18,@Ln>", "<f75v.19,+Ln>", "<f75v.20,@Ln>", "<f75v.21,+Ln>",
+      "<f75v.22,@Ln>", "<f75v.23,+Ln>", "<f75v.24,@Ln>", "<f75v.25,+Ln>",
+      "<f75v.26,@Ln>", "<f75v.27,+Ln>", "<f75v.28,@Ln>", "<f75v.29,+Ln>",
+      "<f75v.30,@Ln>", "<f75v.31,+Ln>", "<f75v.32,@Ln>", "<f75v.33,+Ln>",
+      "<f75v.34,@Ln>", "<f75v.35,+Ln>", "<f75v.36,@Ln>", "<f75v.37,+Ln>",
+      "<f75v.38,@P0>", "<f75v.39,+P0>", "<f75v.40,+P0>", "<f75v.41,+P0>",
+      "<f75v.42,+P0>",
+      "<f75v.43,+P0>", "<f75v.44,+P0>", "<f75v.45,+P0>", "<f75v.46,+P0>",
+      "<f75v.47,+P0>", "<f75v.48,+P0>", "<f75v.49,+P0>",
+      "<f75v.50,@Lt>", "<f75v.51,=Lt>", "<f75v.52,=Lt>", "<f75v.53,*Lt>",
+      "<f75v.54,+Lt>", "<f75v.55,+Lt>", "<f75v.56,+Lt>",
+      "<f75v.57,+Pb>", "<f75v.58,+Pb>", "<f75v.59,+Pb>",
+      "<f75v.60,@P1>", "<f75v.61,+P1>", "<f75v.62,+P1>", "<f75v.63,+P1>",
+      "<f75v.64,+P1>", "<f75v.65,+P1>", "<f75v.66,+P1>", "<f75v.67,+P1>",
+      "<f75v.68,+P1>", "<f75v.69,+P1>", "<f75v.70,+P1>"
+    ],
+    "syntax_clues_detected": [
+      "f75v.1 contains <-> — bisection by a drawn object (large snake/tube descending from top center)",
+      "f75v.3 contains <-> — bisection, same snake/tube structure continuing downward",
+      "f75v.5 contains <-> — bisection, snake/tube structure continuing",
+      "f75v.7 contains <-> — bisection, snake/tube structure continuing",
+      "f75v.10 contains <-> — bisection, snake/tube structure continuing",
+      "f75v.12 contains <-> — bisection, snake/tube structure continuing",
+      "f75v.13 contains <-> — bisection, snake/tube continues into mid-folio",
+      "f75v.14 contains <-> — bisection continues",
+      "f75v.15 contains <-> — bisection continues",
+      "f75v.16 contains <-> — bisection continues, with uncertainty marker '?'",
+      "f75v.17 contains <-> — bisection, final in this sequence",
+      "f75v.2, f75v.4, f75v.6, f75v.8, f75v.9, f75v.11 are =L0/~L0/+L0 — single-character isolated labels (s, l, l, o, r, s) flanking the snake/tube structure, one per bisected line",
+      "f75v.18–f75v.37 are @Ln/+Ln — paired nymph labels (20 entries = 10 label pairs for figures in the illustration)",
+      "f75v.50–f75v.56 are @Lt/=Lt/*Lt/+Lt — labels associated with a tub/basin element",
+      "f75v.57–f75v.59 are +Pb — bottom section paragraph",
+      "f75v.60–f75v.70 are @P1/+P1 — second paragraph column (right side)"
+    ],
+    "visual_anchor_inventory": [
+      "snake_tube_top — large serpentine/tube form descending from the top-center of the folio",
+      "snake_tube_body — the elongated mid-section of the snake/tube passing through the text columns",
+      "snake_tube_tail — the tail/lower end of the serpentine form curling below the main illustration",
+      "nymph_basin_upper — upper pool/tub filled with water containing nymph figures (upper half of folio illustration)",
+      "nymph_figures_upper — row of female nymph figures standing in or beside the upper basin",
+      "label_tablets_upper — rectangular tablet-like label areas above the nymph figures",
+      "nymph_basin_lower — lower rounded pool/tub containing additional nymph figures",
+      "nymph_figures_lower — cluster of female nymph figures in the lower basin",
+      "scalloped_border_top — wavy/scalloped decorative border along the top of the upper basin",
+      "left_margin — the left column of text flanking the illustration on the left side",
+      "right_margin — implied right column area with @P1 paragraph"
+    ]
+  },
+  "visual_anchors": {
+    "snake_tube_top": {
+      "description": "A large serpentine or tubular form — possibly a pipe, snake, or cosmological channel — entering from the top center of the folio. It has a scaly/segmented texture and descends vertically through the center of the composition, bisecting text lines as it passes through. A blue dot or ball is visible at the very top terminus. This element is the primary bisecting anchor for lines f75v.1 through f75v.17.",
+      "bounding_box": {"x_min": 470, "y_min": 0, "x_max": 570, "y_max": 380}
+    },
+    "snake_tube_tail": {
+      "description": "The lower curling tail of the serpentine form, exiting the bottom of the folio in a curved arc toward the right. It extends below the lower nymph basin and creates the lower anchor for the @Pb and tail end of the composition.",
+      "bounding_box": {"x_min": 390, "y_min": 880, "x_max": 650, "y_max": 1000}
+    },
+    "nymph_basin_upper": {
+      "description": "The main large upper illustration zone — a curved bath or pool structure with a scalloped decorative border along its top edge. Inside, a row of female nymph figures stand or recline, with label tablets (label_tablets_upper) above them. Colored with green/blue washes. This is the primary illustration of the folio.",
+      "bounding_box": {"x_min": 80, "y_min": 250, "x_max": 960, "y_max": 540}
+    },
+    "nymph_figures_upper": {
+      "description": "Approximately 10–12 female nymph figures depicted in profile or frontal view, standing in the upper basin. Each figure has a label above it (@Ln). The figures are evenly spaced across the width of the basin.",
+      "bounding_box": {"x_min": 90, "y_min": 340, "x_max": 950, "y_max": 540}
+    },
+    "label_tablets_upper": {
+      "description": "Rectangular tablet-like areas above each nymph figure containing the @Ln label text. These are small boxes approximately 50–70 normalized units wide and 30–40 units tall, arranged in a row across the upper basin.",
+      "bounding_box": {"x_min": 90, "y_min": 265, "x_max": 950, "y_max": 340}
+    },
+    "scalloped_border_top": {
+      "description": "A wavy/scalloped decorative border forming the top edge of the upper nymph basin. The scallops are organic, blob-like forms arranged in a continuous wave. The border spans the full width of the basin.",
+      "bounding_box": {"x_min": 80, "y_min": 248, "x_max": 960, "y_max": 275}
+    },
+    "nymph_basin_lower": {
+      "description": "A smaller rounded tub or pool in the lower portion of the folio, containing a second cluster of nymph figures. This pool has an organic, bean-shaped outline with blue water wash inside. The @Lt label group (f75v.50–56) is associated with this structure.",
+      "bounding_box": {"x_min": 200, "y_min": 720, "x_max": 680, "y_max": 900}
+    },
+    "nymph_figures_lower": {
+      "description": "A smaller cluster of female nymph figures within the lower basin/pool. Fewer in number than the upper group (approximately 6–8 figures). Some appear to be seated or partially submerged.",
+      "bounding_box": {"x_min": 215, "y_min": 740, "x_max": 660, "y_max": 890}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "bisected_upper_left_right_columns",
+      "description": "The first major text zone: lines f75v.1 through f75v.17 form a bisected column system flanking the snake_tube_top. Each main paragraph line (*P0, +P0, @P0) is split by <-> into a LEFT segment and a RIGHT segment. Between each pair, a single-character isolated label (=L0, ~L0, +L0) appears to one side of the tube — these single-character labels (s, l, l, o, r, s) function as line-side markers or annotation tags flanking the snake body.",
+      "lines": [
+        {
+          "locus": "<f75v.1,@P0>",
+          "raw_text": "pchedar.opchedy.qokedy.opchedy.qopdy<->dain.chetas.chcfhhy.qotam",
+          "bounding_box": {"x_min": 60, "y_min": 80, "x_max": 930, "y_max": 115},
+          "interaction": "BISECTED. Left segment 'pchedar.opchedy.qokedy.opchedy.qopdy' x_min:60 → x_max:~465. Gap at x≈465–545 corresponds to the snake_tube_top descending from the top. Right segment 'dain.chetas.chcfhhy.qotam' x_min:~545 → x_max:~780. The snake_tube_top body occupies the gap between the two segments."
+        },
+        {
+          "locus": "<f75v.2,=L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 468, "y_min": 82, "x_max": 480, "y_max": 112},
+          "interaction": "Single-character isolated label 's' positioned within or adjacent to the snake_tube_top gap on line 1. Functions as a marginal tag or line-identification mark beside the tube. Occupies approximately 12 normalized units of width."
+        },
+        {
+          "locus": "<f75v.3,*P0>",
+          "raw_text": "sor.sheky.qokain.okal.dal.ol,chedy<->daiin.chckhy.lkar.chckhy.rom",
+          "bounding_box": {"x_min": 60, "y_min": 118, "x_max": 930, "y_max": 153},
+          "interaction": "BISECTED. Left segment 'sor.sheky.qokain.okal.dal.ol,chedy' x_min:60 → x_max:~462. Gap at x≈462–548 for snake_tube_top. Right segment 'daiin.chckhy.lkar.chckhy.rom' x_min:~548 → x_max:~790."
+        },
+        {
+          "locus": "<f75v.4,=L0>",
+          "raw_text": "l",
+          "bounding_box": {"x_min": 468, "y_min": 120, "x_max": 478, "y_max": 150},
+          "interaction": "Single-character isolated label 'l' beside the snake_tube at line 3 level."
+        },
+        {
+          "locus": "<f75v.5,*P0>",
+          "raw_text": "dl.shckhy.kain.olchey.qokain.daly,rd<->dlshedy.qoteedy.cthedy.loly",
+          "bounding_box": {"x_min": 60, "y_min": 156, "x_max": 930, "y_max": 191},
+          "interaction": "BISECTED. Left segment 'dl.shckhy.kain.olchey.qokain.daly,rd' x_min:60 → x_max:~460. Gap x≈460–548. Right segment 'dlshedy.qoteedy.cthedy.loly' x_min:~548 → x_max:~750."
+        },
+        {
+          "locus": "<f75v.6,=L0>",
+          "raw_text": "l",
+          "bounding_box": {"x_min": 468, "y_min": 158, "x_max": 478, "y_max": 188},
+          "interaction": "Single-character isolated label 'l' beside the snake_tube at line 5 level."
+        },
+        {
+          "locus": "<f75v.7,*P0>",
+          "raw_text": "qokchdy.qokal.dal.ol.chety.lchdy<->shedy.ched.otedy.qotedy.otar",
+          "bounding_box": {"x_min": 60, "y_min": 194, "x_max": 930, "y_max": 229},
+          "interaction": "BISECTED. Left segment 'qokchdy.qokal.dal.ol.chety.lchdy' x_min:60 → x_max:~455. Gap x≈455–550. Right segment 'shedy.ched.otedy.qotedy.otar' x_min:~550 → x_max:~750."
+        },
+        {
+          "locus": "<f75v.8,~L0>",
+          "raw_text": "o",
+          "bounding_box": {"x_min": 462, "y_min": 196, "x_max": 472, "y_max": 226},
+          "interaction": "Single-character isolated label 'o' (~L0 type, uncertain/variant label) beside the snake_tube at line 7 level."
+        },
+        {
+          "locus": "<f75v.9,+L0>",
+          "raw_text": "r",
+          "bounding_box": {"x_min": 462, "y_min": 210, "x_max": 472, "y_max": 228},
+          "interaction": "Single-character isolated label 'r' (+L0, continuation label) also at line 7 level, slightly below f75v.8. May represent a two-character label 'or' flanking the tube."
+        },
+        {
+          "locus": "<f75v.10,*P0>",
+          "raw_text": "qokeed.chedyky.okedy.lchedy.dar.ojy<->dchedy.dar.olchedy.otedy.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 232, "x_max": 930, "y_max": 267},
+          "interaction": "BISECTED. Left segment 'qokeed.chedyky.okedy.lchedy.dar.ojy' x_min:60 → x_max:~453. Gap x≈453–552. Right segment 'dchedy.dar.olchedy.otedy.qoky' x_min:~552 → x_max:~760."
+        },
+        {
+          "locus": "<f75v.11,=L0>",
+          "raw_text": "s",
+          "bounding_box": {"x_min": 458, "y_min": 234, "x_max": 468, "y_max": 264},
+          "interaction": "Single-character isolated label 's' beside the snake_tube at line 10 level."
+        },
+        {
+          "locus": "<f75v.12,*P0>",
+          "raw_text": "qokedy.rshey.qol.chey.ol.chey.keed<->sol.key.dykedy.qokal.dar.oly",
+          "bounding_box": {"x_min": 60, "y_min": 270, "x_max": 930, "y_max": 305},
+          "interaction": "BISECTED. Left segment 'qokedy.rshey.qol.chey.ol.chey.keed' x_min:60 → x_max:~450. Gap x≈450–555. Right segment 'sol.key.dykedy.qokal.dar.oly' x_min:~555 → x_max:~740. Snake tube body widens slightly at this level as it approaches the nymph basin."
+        },
+        {
+          "locus": "<f75v.13,+P0>",
+          "raw_text": "ocheain.cheedy.qokal.dain.sheety.qoky<->s,shedy.tedy.otedy.tedy.taral",
+          "bounding_box": {"x_min": 60, "y_min": 308, "x_max": 930, "y_max": 343},
+          "interaction": "BISECTED. Left segment 'ocheain.cheedy.qokal.dain.sheety.qoky' x_min:60 → x_max:~448. Gap x≈448–558. Right segment 's,shedy.tedy.otedy.tedy.taral' x_min:~558 → x_max:~740."
+        },
+        {
+          "locus": "<f75v.14,+P0>",
+          "raw_text": "qol.sheckhy.qokedy.qokedy.qokaly<->sor.chedy.qoky.olshty.qokydy",
+          "bounding_box": {"x_min": 60, "y_min": 346, "x_max": 930, "y_max": 381},
+          "interaction": "BISECTED. Left segment 'qol.sheckhy.qokedy.qokedy.qokaly' x_min:60 → x_max:~445. Gap x≈445–560. Right segment 'sor.chedy.qoky.olshty.qokydy' x_min:~560 → x_max:~740."
+        },
+        {
+          "locus": "<f75v.15,+P0>",
+          "raw_text": "sal.ol.olain.olkey.ol,shed.qokaly<->qokar.chedy.qokain.ty.lshdyqo",
+          "bounding_box": {"x_min": 60, "y_min": 384, "x_max": 930, "y_max": 419},
+          "interaction": "BISECTED. Left segment 'sal.ol.olain.olkey.ol,shed.qokaly' x_min:60 → x_max:~443. Gap x≈443–562. Right segment 'qokar.chedy.qokain.ty.lshdyqo' x_min:~562 → x_max:~740."
+        },
+        {
+          "locus": "<f75v.16,+P0>",
+          "raw_text": "odchedy.qolshdy.shokshdy.qokain.?<->or.shedy.qololkeedy.qokalom",
+          "bounding_box": {"x_min": 60, "y_min": 422, "x_max": 930, "y_max": 457},
+          "interaction": "BISECTED. Contains uncertainty marker '?'. Left segment 'odchedy.qolshdy.shokshdy.qokain.?' x_min:60 → x_max:~440. Gap x≈440–565. Right segment 'or.shedy.qololkeedy.qokalom' x_min:~565 → x_max:~740. The '?' marker at the right end of the left segment may indicate a word obscured by the snake_tube body."
+        },
+        {
+          "locus": "<f75v.17,+P0>",
+          "raw_text": "sal.shed.ykain.qokain.sheckhy.ld<->saiin.ckhy.lshedy",
+          "bounding_box": {"x_min": 60, "y_min": 460, "x_max": 930, "y_max": 495},
+          "interaction": "BISECTED. Final bisected line in this sequence. Left segment 'sal.shed.ykain.qokain.sheckhy.ld' x_min:60 → x_max:~438. Gap x≈438–568. Right segment 'saiin.ckhy.lshedy' x_min:~568 → x_max:~680. Below this line, the snake_tube merges into or passes behind the scalloped_border_top of the nymph_basin_upper."
+        }
+      ]
+    },
+    {
+      "block_id": "nymph_figure_labels_ln",
+      "description": "Twenty @Ln/+Ln loci forming 10 paired label groups, one pair per nymph figure in the upper basin illustration. Each pair consists of a start label (@Ln) and a continuation (+Ln), stacked vertically in the tablet area above each nymph.",
+      "lines": [
+        {
+          "locus": "<f75v.18,@Ln>",
+          "raw_text": "okshy",
+          "bounding_box": {"x_min": 92, "y_min": 270, "x_max": 160, "y_max": 295},
+          "interaction": "Label tablet for the 1st nymph figure (leftmost). Upper line of a two-line label pair."
+        },
+        {
+          "locus": "<f75v.19,+Ln>",
+          "raw_text": "saral",
+          "bounding_box": {"x_min": 92, "y_min": 297, "x_max": 160, "y_max": 322},
+          "interaction": "Lower continuation of label for 1st nymph figure."
+        },
+        {
+          "locus": "<f75v.20,@Ln>",
+          "raw_text": "dokal",
+          "bounding_box": {"x_min": 170, "y_min": 270, "x_max": 240, "y_max": 295},
+          "interaction": "Label tablet upper line for 2nd nymph figure."
+        },
+        {
+          "locus": "<f75v.21,+Ln>",
+          "raw_text": "darol",
+          "bounding_box": {"x_min": 170, "y_min": 297, "x_max": 240, "y_max": 322},
+          "interaction": "Lower continuation for 2nd nymph figure label."
+        },
+        {
+          "locus": "<f75v.22,@Ln>",
+          "raw_text": "daldy",
+          "bounding_box": {"x_min": 250, "y_min": 270, "x_max": 320, "y_max": 295},
+          "interaction": "Label tablet upper line for 3rd nymph figure."
+        },
+        {
+          "locus": "<f75v.23,+Ln>",
+          "raw_text": "dalshd",
+          "bounding_box": {"x_min": 250, "y_min": 297, "x_max": 325, "y_max": 322},
+          "interaction": "Lower continuation for 3rd nymph figure label."
+        },
+        {
+          "locus": "<f75v.24,@Ln>",
+          "raw_text": "dalkar",
+          "bounding_box": {"x_min": 330, "y_min": 270, "x_max": 405, "y_max": 295},
+          "interaction": "Label tablet upper line for 4th nymph figure."
+        },
+        {
+          "locus": "<f75v.25,+Ln>",
+          "raw_text": "qokal",
+          "bounding_box": {"x_min": 330, "y_min": 297, "x_max": 400, "y_max": 322},
+          "interaction": "Lower continuation for 4th nymph figure label."
+        },
+        {
+          "locus": "<f75v.26,@Ln>",
+          "raw_text": "dly",
+          "bounding_box": {"x_min": 415, "y_min": 270, "x_max": 465, "y_max": 295},
+          "interaction": "Label tablet upper line for 5th nymph figure (near center, left of snake tube)."
+        },
+        {
+          "locus": "<f75v.27,+Ln>",
+          "raw_text": "ory",
+          "bounding_box": {"x_min": 415, "y_min": 297, "x_max": 465, "y_max": 322},
+          "interaction": "Lower continuation for 5th nymph figure label."
+        },
+        {
+          "locus": "<f75v.28,@Ln>",
+          "raw_text": "oty",
+          "bounding_box": {"x_min": 560, "y_min": 270, "x_max": 620, "y_max": 295},
+          "interaction": "Label tablet upper line for 6th nymph figure (first right of snake tube center gap)."
+        },
+        {
+          "locus": "<f75v.29,+Ln>",
+          "raw_text": "lchy",
+          "bounding_box": {"x_min": 560, "y_min": 297, "x_max": 620, "y_max": 322},
+          "interaction": "Lower continuation for 6th nymph figure label."
+        },
+        {
+          "locus": "<f75v.30,@Ln>",
+          "raw_text": "dary",
+          "bounding_box": {"x_min": 628, "y_min": 270, "x_max": 698, "y_max": 295},
+          "interaction": "Label tablet upper line for 7th nymph figure."
+        },
+        {
+          "locus": "<f75v.31,+Ln>",
+          "raw_text": "dal",
+          "bounding_box": {"x_min": 628, "y_min": 297, "x_max": 698, "y_max": 322},
+          "interaction": "Lower continuation for 7th nymph figure label."
+        },
+        {
+          "locus": "<f75v.32,@Ln>",
+          "raw_text": "daldy",
+          "bounding_box": {"x_min": 705, "y_min": 270, "x_max": 775, "y_max": 295},
+          "interaction": "Label tablet upper line for 8th nymph figure."
+        },
+        {
+          "locus": "<f75v.33,+Ln>",
+          "raw_text": "qoted",
+          "bounding_box": {"x_min": 705, "y_min": 297, "x_max": 775, "y_max": 322},
+          "interaction": "Lower continuation for 8th nymph figure label."
+        },
+        {
+          "locus": "<f75v.34,@Ln>",
+          "raw_text": "rkal",
+          "bounding_box": {"x_min": 780, "y_min": 270, "x_max": 845, "y_max": 295},
+          "interaction": "Label tablet upper line for 9th nymph figure."
+        },
+        {
+          "locus": "<f75v.35,+Ln>",
+          "raw_text": "ykedy",
+          "bounding_box": {"x_min": 780, "y_min": 297, "x_max": 850, "y_max": 322},
+          "interaction": "Lower continuation for 9th nymph figure label."
+        },
+        {
+          "locus": "<f75v.36,@Ln>",
+          "raw_text": "olkchy",
+          "bounding_box": {"x_min": 855, "y_min": 270, "x_max": 935, "y_max": 295},
+          "interaction": "Label tablet upper line for 10th nymph figure (rightmost)."
+        },
+        {
+          "locus": "<f75v.37,+Ln>",
+          "raw_text": "otoly",
+          "bounding_box": {"x_min": 855, "y_min": 297, "x_max": 935, "y_max": 322},
+          "interaction": "Lower continuation for 10th nymph figure label."
+        }
+      ]
+    },
+    {
+      "block_id": "main_paragraph_below_upper_basin",
+      "description": "The main paragraph text block (f75v.38–f75v.49) positioned below the nymph_basin_upper illustration. This block spans nearly the full width of the folio and contains 12 lines of dense Voynichese text. It is the largest continuous text block on the folio.",
+      "lines": [
+        {
+          "locus": "<f75v.38,@P0>",
+          "raw_text": "tolsheor.qokal.dar.olked.orol.kchey.okain.olchey.okar.sheky.dedy.kedy",
+          "bounding_box": {"x_min": 65, "y_min": 548, "x_max": 930, "y_max": 583},
+          "interaction": "First line of main paragraph below the upper basin. Full-width line, no bisection. Baseline at y≈565."
+        },
+        {
+          "locus": "<f75v.39,+P0>",
+          "raw_text": "qoqokeey.olkain.qol.sheedy.qokeor.sheedy.qokal.or.chey.qokar.ol.aiin",
+          "bounding_box": {"x_min": 65, "y_min": 586, "x_max": 925, "y_max": 621},
+          "interaction": "Second line of main paragraph. Full-width, no bisection."
+        },
+        {
+          "locus": "<f75v.40,+P0>",
+          "raw_text": "dlshedy.qokain.dal.qol.qol.ol.sheedy.cheey.dal.ol.sheey.qokain.olol",
+          "bounding_box": {"x_min": 65, "y_min": 624, "x_max": 920, "y_max": 659},
+          "interaction": "Third line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f75v.41,+P0>",
+          "raw_text": "sal.shedy.qokain.shey.qoin.ol.shey.ol.shey.qoky.qol.cheey.chl.ar.sheolo",
+          "bounding_box": {"x_min": 65, "y_min": 662, "x_max": 930, "y_max": 697},
+          "interaction": "Fourth line. Full-width, no bisection."
+        },
+        {
+          "locus": "<f75v.42,+P0>",
+          "raw_text": "ol.sheey.qolshey.qokain.okaiin.charor",
+          "bounding_box": {"x_min": 65, "y_min": 700, "x_max": 570, "y_max": 735},
+          "interaction": "Fifth line. Shorter line, terminating at approximately x=570. This shorter extent may be because the lower nymph basin begins to encroach on the right side of the composition at this level."
+        },
+        {
+          "locus": "<f75v.43,+P0>",
+          "raw_text": "pokain.okeedy.ar.chesy.solshey.qokeey.qotedy.olkedy.cheytal.dy.qol",
+          "bounding_box": {"x_min": 65, "y_min": 738, "x_max": 700, "y_max": 773},
+          "interaction": "Sixth line. Medium-length, wrapping around the left side of the lower nymph basin."
+        },
+        {
+          "locus": "<f75v.44,+P0>",
+          "raw_text": "olshees.al.sheckhy.qokain.ol.chedy.qol.chedy.qolkeey.qolchedy.chealy",
+          "bounding_box": {"x_min": 65, "y_min": 776, "x_max": 690, "y_max": 811},
+          "interaction": "Seventh line. Similar left-column extent, avoiding the lower nymph basin on the right."
+        },
+        {
+          "locus": "<f75v.45,+P0>",
+          "raw_text": "yshey.qokar.olchedy.qor.oiin.okeedy.qokeed.qokeey.qokeey.otey.qoky.dy",
+          "bounding_box": {"x_min": 65, "y_min": 814, "x_max": 700, "y_max": 849},
+          "interaction": "Eighth line. Text continues down the left side of the folio."
+        },
+        {
+          "locus": "<f75v.46,+P0>",
+          "raw_text": "ychey.qotain.sheckhy.qokedy.qokedy.lsheckhy.qokain.dal.tol.olchedy",
+          "bounding_box": {"x_min": 65, "y_min": 852, "x_max": 690, "y_max": 887},
+          "interaction": "Ninth line."
+        },
+        {
+          "locus": "<f75v.47,+P0>",
+          "raw_text": "qokain.olshey.qokain.dar.ol.shedy.qokedy.qokeedy.qotar.olshedy.oldy",
+          "bounding_box": {"x_min": 65, "y_min": 890, "x_max": 700, "y_max": 925},
+          "interaction": "Tenth line."
+        },
+        {
+          "locus": "<f75v.48,+P0>",
+          "raw_text": "qokear.chedy.shckhy.dol.ycheedy.saino.ol.cheedy.qokar.otar.dal.daiin",
+          "bounding_box": {"x_min": 65, "y_min": 928, "x_max": 700, "y_max": 963},
+          "interaction": "Eleventh line."
+        },
+        {
+          "locus": "<f75v.49,+P0>",
+          "raw_text": "por.shey.okain.chedy.qolsheol.olchedy",
+          "bounding_box": {"x_min": 65, "y_min": 966, "x_max": 460, "y_max": 998},
+          "interaction": "Twelfth and final line of main paragraph. Short, terminating at x≈460. Near the bottom edge of the folio."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_tub_labels_lt",
+      "description": "Label group @Lt/=Lt/*Lt/+Lt (f75v.50–56) associated with the lower nymph basin (nymph_basin_lower). These labels form a multi-line label block positioned beside or above the lower tub structure.",
+      "lines": [
+        {
+          "locus": "<f75v.50,@Lt>",
+          "raw_text": "otal.opal",
+          "bounding_box": {"x_min": 700, "y_min": 710, "x_max": 820, "y_max": 735},
+          "interaction": "First line of the lower tub label. Positioned to the right of or above the nymph_basin_lower."
+        },
+        {
+          "locus": "<f75v.51,=Lt>",
+          "raw_text": "okeey.lol",
+          "bounding_box": {"x_min": 700, "y_min": 738, "x_max": 820, "y_max": 763},
+          "interaction": "Second label line for lower tub."
+        },
+        {
+          "locus": "<f75v.52,=Lt>",
+          "raw_text": "olol",
+          "bounding_box": {"x_min": 700, "y_min": 766, "x_max": 770, "y_max": 791},
+          "interaction": "Third label line for lower tub."
+        },
+        {
+          "locus": "<f75v.53,*Lt>",
+          "raw_text": "ytedy",
+          "bounding_box": {"x_min": 700, "y_min": 794, "x_max": 775, "y_max": 819},
+          "interaction": "Fourth label line (*Lt end-type) for lower tub."
+        },
+        {
+          "locus": "<f75v.54,+Lt>",
+          "raw_text": "otedy",
+          "bounding_box": {"x_min": 700, "y_min": 822, "x_max": 775, "y_max": 847},
+          "interaction": "Fifth label line for lower tub."
+        },
+        {
+          "locus": "<f75v.55,+Lt>",
+          "raw_text": "oteey",
+          "bounding_box": {"x_min": 700, "y_min": 850, "x_max": 775, "y_max": 875},
+          "interaction": "Sixth label line for lower tub."
+        },
+        {
+          "locus": "<f75v.56,+Lt>",
+          "raw_text": "qotedy",
+          "bounding_box": {"x_min": 700, "y_min": 878, "x_max": 785, "y_max": 903},
+          "interaction": "Seventh and final label line for lower tub."
+        }
+      ]
+    },
+    {
+      "block_id": "bottom_paragraph_pb",
+      "description": "Three +Pb lines (f75v.57–59) forming a short paragraph block in the lower-right margin area, below the lower nymph basin.",
+      "lines": [
+        {
+          "locus": "<f75v.57,+Pb>",
+          "raw_text": "okedy.qeky.tedar.oly",
+          "bounding_box": {"x_min": 700, "y_min": 908, "x_max": 900, "y_max": 933},
+          "interaction": "First bottom paragraph line, right-side position."
+        },
+        {
+          "locus": "<f75v.58,+Pb>",
+          "raw_text": "solchedy.solkedy",
+          "bounding_box": {"x_min": 700, "y_min": 936, "x_max": 860, "y_max": 961},
+          "interaction": "Second bottom paragraph line."
+        },
+        {
+          "locus": "<f75v.59,+Pb>",
+          "raw_text": "qokeedy.qokol.olkol",
+          "bounding_box": {"x_min": 700, "y_min": 964, "x_max": 890, "y_max": 989},
+          "interaction": "Third and final bottom paragraph line."
+        }
+      ]
+    },
+    {
+      "block_id": "right_column_paragraph_p1",
+      "description": "A second paragraph column (@P1, f75v.60–70) running along the right side of the folio, approximately 11 lines. This column is positioned to the right of the main illustration and the left text column. It forms an independent text block in the right margin zone.",
+      "lines": [
+        {
+          "locus": "<f75v.60,@P1>",
+          "raw_text": "kolkedy.qokedy.qoky.lpchdy.qotchdy.lol",
+          "bounding_box": {"x_min": 710, "y_min": 548, "x_max": 945, "y_max": 583},
+          "interaction": "First line of right-column paragraph. Positioned to the right of the lower nymph area, starting at approximately x=710."
+        },
+        {
+          "locus": "<f75v.61,+P1>",
+          "raw_text": "okshey,qolkeey.lchdy.soiin.ol.oteedy",
+          "bounding_box": {"x_min": 710, "y_min": 586, "x_max": 945, "y_max": 621},
+          "interaction": "Second line of right column."
+        },
+        {
+          "locus": "<f75v.62,+P1>",
+          "raw_text": "ykeechy.qokeedy.daiin.ol.olsheey.qoly",
+          "bounding_box": {"x_min": 710, "y_min": 624, "x_max": 945, "y_max": 659},
+          "interaction": "Third line of right column."
+        },
+        {
+          "locus": "<f75v.63,+P1>",
+          "raw_text": "oteey.qol.chey.qokey.oldy.olyly",
+          "bounding_box": {"x_min": 710, "y_min": 662, "x_max": 935, "y_max": 697},
+          "interaction": "Fourth line of right column."
+        },
+        {
+          "locus": "<f75v.64,+P1>",
+          "raw_text": "s,shey.qol.dy.qokar.shey.ldy",
+          "bounding_box": {"x_min": 710, "y_min": 700, "x_max": 920, "y_max": 735},
+          "interaction": "Fifth line of right column."
+        },
+        {
+          "locus": "<f75v.65,+P1>",
+          "raw_text": "qokal.dain.dain.oqoky.daiin",
+          "bounding_box": {"x_min": 710, "y_min": 738, "x_max": 910, "y_max": 773},
+          "interaction": "Sixth line of right column."
+        },
+        {
+          "locus": "<f75v.66,+P1>",
+          "raw_text": "okal.sheedy.qoteedy.qokeey.ly",
+          "bounding_box": {"x_min": 710, "y_min": 776, "x_max": 915, "y_max": 811},
+          "interaction": "Seventh line of right column."
+        },
+        {
+          "locus": "<f75v.67,+P1>",
+          "raw_text": "ykeedy.qokain.otain.shety",
+          "bounding_box": {"x_min": 710, "y_min": 814, "x_max": 890, "y_max": 849},
+          "interaction": "Eighth line of right column."
+        },
+        {
+          "locus": "<f75v.68,+P1>",
+          "raw_text": "octhey.shedy.otol.chckhey.ldy",
+          "bounding_box": {"x_min": 710, "y_min": 852, "x_max": 910, "y_max": 887},
+          "interaction": "Ninth line of right column."
+        },
+        {
+          "locus": "<f75v.69,+P1>",
+          "raw_text": "okeshey.olkedy.olkedy.qol.chey",
+          "bounding_box": {"x_min": 710, "y_min": 890, "x_max": 920, "y_max": 925},
+          "interaction": "Tenth line of right column."
+        },
+        {
+          "locus": "<f75v.70,+P1>",
+          "raw_text": "qokey.olchedy.otey.orol",
+          "bounding_box": {"x_min": 710, "y_min": 928, "x_max": 890, "y_max": 963},
+          "interaction": "Eleventh and final line of right column."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "snake_tube_top",
+      "status": "Intentionally bisected — primary structural bisector for 17 text lines",
+      "description": "The snake_tube_top is the single most significant visual anchor on this folio for text layout purposes. It causes <-> bisection in all 17 lines of f75v.1–17, creating two independent text columns flanking the tube descending from the top edge. The tube itself is completely text-free — no inscription is written on or across its body. The single-character @L0 labels beside it (s, l, l, o, r, s) are the only text touching its immediate vicinity."
+    },
+    {
+      "anchor_id": "nymph_basin_upper",
+      "status": "Completely text-free interior — text surrounds it above and below",
+      "description": "The interior of the upper nymph basin contains only the nymph figures and label tablets. The main @P0 paragraph text runs above it (lines 1–17, bisected) and below it (lines 38–49). The basin's interior figure area is a text-free illustrated zone."
+    },
+    {
+      "anchor_id": "nymph_figures_upper",
+      "status": "Encircled by @Ln labels above — figures themselves text-free",
+      "description": "Each nymph figure body is text-free. The @Ln labels are confined to the label_tablets_upper zone directly above each figure. The figures' bodies, arms, and lower torsos have no text overlay."
+    },
+    {
+      "anchor_id": "nymph_basin_lower",
+      "status": "Text-free interior with flanking @Lt labels",
+      "description": "The lower nymph basin interior is text-free. The @Lt labels (f75v.50–56) are positioned to its right side. The @P0 main paragraph text wraps around its left and lower sides but does not enter the basin."
+    },
+    {
+      "anchor_id": "snake_tube_tail",
+      "status": "Completely text-free",
+      "description": "The curling tail of the serpentine form at the bottom of the folio is a text-free drawn element. No text is inscribed on or directly adjacent to the tail."
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "folio": "f75r",
+  "source_dataset": "RF1b-er.txt",
+  "coordinate_system": "Normalized_0_to_1000 (X: 0=Left, 1000=Right; Y: 0=Top, 1000=Bottom)",
+  "audit_log": {
+    "extracted_folio_id": "f75r",
+    "total_loci_count": 53,
+    "unique_loci_found": [
+      "<f75r.1,@P0>","<f75r.2,+P0>","<f75r.3,+P0>","<f75r.4,+P0>","<f75r.5,+P0>",
+      "<f75r.6,+P0>","<f75r.7,+P0>","<f75r.8,+P0>","<f75r.9,+P0>","<f75r.10,+P0>",
+      "<f75r.11,+P0>","<f75r.12,+P0>","<f75r.13,+P0>","<f75r.14,+P0>","<f75r.15,+P0>",
+      "<f75r.16,+P0>","<f75r.17,+P0>","<f75r.18,+P0>","<f75r.19,+P0>","<f75r.20,+P0>",
+      "<f75r.21,+P0>","<f75r.22,+P0>","<f75r.23,+P0>","<f75r.24,+P0>","<f75r.25,+P0>",
+      "<f75r.26,+P0>","<f75r.27,+P0>","<f75r.28,+P0>","<f75r.29,+P0>","<f75r.30,+P0>",
+      "<f75r.31,+P0>","<f75r.32,+P0>","<f75r.33,+P0>","<f75r.34,+P0>","<f75r.35,+P0>",
+      "<f75r.36,+P0>","<f75r.37,+P0>","<f75r.38,+P0>","<f75r.39,+P0>","<f75r.40,+P0>",
+      "<f75r.41,+P0>","<f75r.42,+P0>","<f75r.43,+P0>","<f75r.44,+P0>","<f75r.45,+P0>",
+      "<f75r.46,+P0>",
+      "<f75r.47,@Pb>","<f75r.48,+Pb>","<f75r.49,+Pb>","<f75r.50,+Pb>",
+      "<f75r.51,+Pb>","<f75r.52,+Pb>","<f75r.53,+Pb>"
+    ],
+    "syntax_clues_detected": [
+      "f75r.1  contains <-> — bisection by central green stream/figure descending from top",
+      "f75r.2  contains <-> — same stream bisector",
+      "f75r.3  contains <-> — same stream bisector",
+      "f75r.4  contains <-> — same stream bisector",
+      "f75r.5  contains <-> — same stream bisector",
+      "f75r.6  contains <-> — same stream bisector",
+      "f75r.7  contains <-> — same stream bisector",
+      "f75r.8  contains <-> — same stream bisector",
+      "f75r.9  contains <-> — same stream bisector",
+      "f75r.10 contains <-> — same stream bisector",
+      "f75r.11 contains <-> — same stream bisector",
+      "f75r.12 contains <-> — same stream bisector",
+      "f75r.13 contains <-> — same stream bisector",
+      "f75r.14 contains <-> — same stream bisector",
+      "f75r.15 contains TWO <-> markers — triple-split by two overlapping visual anchors (stream body widens + secondary element)",
+      "f75r.16 contains TWO <-> markers — triple-split",
+      "f75r.17 contains THREE <-> markers — quadruple-split (maximum fragmentation zone, widest part of green stream body)",
+      "f75r.18 contains <-> — single bisection resumes as stream narrows",
+      "f75r.19 contains <-> — single bisection",
+      "f75r.20 contains <-> — single bisection",
+      "f75r.21 contains <-> — single bisection",
+      "f75r.22 contains <-> — single bisection",
+      "f75r.23 contains <-> — single bisection",
+      "f75r.24 contains <-> — single bisection",
+      "f75r.25 contains <-> — single bisection",
+      "f75r.26 contains <-> — single bisection",
+      "f75r.27 contains <-> — single bisection (wider gap, lower nymph scene begins)",
+      "f75r.28 contains <-> — single bisection",
+      "f75r.44 contains <-> — late single bisection, lower-right nymph cluster",
+      "f75r.47–53 are @Pb/+Pb — bottom-right margin label column"
+    ],
+    "visual_anchor_inventory": [
+      "upper_canopy_tent — triangular canopy/tent structure at top-center with blue beads/spheres",
+      "green_stream_body — large flowing green organic channel descending from upper canopy through center of folio",
+      "nymph_figures_in_stream — multiple female nymph figures positioned within or beside the green stream",
+      "lower_nymph_pool — rounded green pool/basin in lower-right quadrant containing a cluster of nymph figures",
+      "lower_nymph_figures — 3–4 nymph figures in the lower-right pool",
+      "left_text_column — the left text block flanking the green stream on its left side",
+      "right_text_column — the right text block flanking the green stream on its right side",
+      "bottom_text_block — the unbroken paragraph text below the stream, lines 29–46",
+      "pb_label_column — bottom-right marginal label column, @Pb group"
+    ]
+  },
+  "visual_anchors": {
+    "upper_canopy_tent": {
+      "description": "A triangular canopy or tent-like structure at the very top-center of the folio, from which the green stream descends. It has a decorative row of blue spheres/beads along its upper edge and radiating lines (possibly guy-wires or rays) extending outward. Colored blue-green at the apex. This is the origin point of the green stream body.",
+      "bounding_box": {"x_min": 280, "y_min": 0, "x_max": 740, "y_max": 130}
+    },
+    "green_stream_body": {
+      "description": "A large flowing green organic form — possibly a river of life, a cosmic stream, or a plant stalk — descending from the upper_canopy_tent through the center of the folio. It is widest in the upper-middle zone (y≈250–450) where multiple nymph figures are embedded within it. It narrows as it descends toward y≈550. The stream is the primary bisecting visual anchor for lines f75r.1–28.",
+      "bounding_box": {"x_min": 300, "y_min": 80, "x_max": 670, "y_max": 570}
+    },
+    "nymph_figures_in_stream": {
+      "description": "Several female nymph figures (approximately 6–8) are depicted partially submerged within or clinging to the sides of the green stream body. They appear at various vertical positions within the stream. One larger standing figure is visible near the bottom of the stream at approximately y≈500–560.",
+      "bounding_box": {"x_min": 310, "y_min": 150, "x_max": 660, "y_max": 580}
+    },
+    "lower_nymph_pool": {
+      "description": "A rounded green pool or basin in the lower-right quadrant of the folio, approximately oval in shape. It contains a cluster of 3–4 nymph figures. The pool appears disconnected from the main green stream body. Its presence causes the bisection in f75r.44.",
+      "bounding_box": {"x_min": 530, "y_min": 680, "x_max": 870, "y_max": 880}
+    },
+    "lower_nymph_figures": {
+      "description": "3–4 female nymph figures depicted within the lower_nymph_pool, in various seated or standing poses. One figure appears to stand outside the pool to its right. The figures are rendered in the same style as those in the upper stream.",
+      "bounding_box": {"x_min": 545, "y_min": 695, "x_max": 855, "y_max": 870}
+    },
+    "pb_label_zone": {
+      "description": "A narrow marginal column on the lower-left side of the folio containing the @Pb / +Pb label group (f75r.47–53). Seven short labels, one per line, arranged vertically.",
+      "bounding_box": {"x_min": 60, "y_min": 840, "x_max": 200, "y_max": 990}
+    }
+  },
+  "text_blocks_mapping": [
+    {
+      "block_id": "bisected_upper_columns_left_right",
+      "description": "Lines f75r.1–28 form the large bisected-column zone flanking the green_stream_body. Each line is split into a LEFT segment and RIGHT segment by the <->  marker. Lines 15, 16 are triple-split (two <-> each). Line 17 is quadruple-split (three <-> markers), corresponding to the widest point of the stream where it fans outward and the nymph figures are most numerous. From line 18 onward the stream narrows and single bisection resumes.",
+      "lines": [
+        {
+          "locus": "<f75r.1,@P0>",
+          "raw_text": "kchedykary<->okeey.qokar.shykchedy.qotar.shedy",
+          "bounding_box": {"x_min": 60, "y_min": 115, "x_max": 940, "y_max": 148},
+          "interaction": "BISECTED. Left segment 'kchedykary' x_min:60 → x_max:~298. Gap x≈298–390 occupied by upper_canopy_tent lower edge / green_stream_body entering folio. Right segment 'okeey.qokar.shykchedy.qotar.shedy' x_min:~390 → x_max:~780."
+        },
+        {
+          "locus": "<f75r.2,+P0>",
+          "raw_text": "dain.shey.ly<->ssheol.qolchhdy.chedykar.chekeedy.ror",
+          "bounding_box": {"x_min": 60, "y_min": 150, "x_max": 940, "y_max": 183},
+          "interaction": "BISECTED. Left segment 'dain.shey.ly' x_min:60 → x_max:~295. Gap x≈295–395. Right segment 'ssheol.qolchhdy.chedykar.chekeedy.ror' x_min:~395 → x_max:~800."
+        },
+        {
+          "locus": "<f75r.3,+P0>",
+          "raw_text": "qokain.chal<->orchey.qey.kain.sheeky.ltain.olkar.or",
+          "bounding_box": {"x_min": 60, "y_min": 185, "x_max": 940, "y_max": 218},
+          "interaction": "BISECTED. Left segment 'qokain.chal' x_min:60 → x_max:~295. Gap x≈295–400. Right segment 'orchey.qey.kain.sheeky.ltain.olkar.or' x_min:~400 → x_max:~800."
+        },
+        {
+          "locus": "<f75r.4,+P0>",
+          "raw_text": "dacthy.lkago<->ykeey.lshey.kal.dy.shey.ok.shey.qokeedy",
+          "bounding_box": {"x_min": 60, "y_min": 220, "x_max": 940, "y_max": 253},
+          "interaction": "BISECTED. Left segment 'dacthy.lkago' x_min:60 → x_max:~295. Gap x≈295–405. Right segment 'ykeey.lshey.kal.dy.shey.ok.shey.qokeedy' x_min:~405 → x_max:~830."
+        },
+        {
+          "locus": "<f75r.5,+P0>",
+          "raw_text": "sheykar.chey<->ckhey.r.ain.ol.ol,sheedy.qokeey.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 255, "x_max": 940, "y_max": 288},
+          "interaction": "BISECTED. Left segment 'sheykar.chey' x_min:60 → x_max:~295. Gap x≈295–415 (stream widens). Right segment 'ckhey.r.ain.ol.ol,sheedy.qokeey.qoky' x_min:~415 → x_max:~810."
+        },
+        {
+          "locus": "<f75r.6,+P0>",
+          "raw_text": "pcheykeeor.olky<->dar.okey.qokain.chcthy.qokeedy.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 290, "x_max": 940, "y_max": 323},
+          "interaction": "BISECTED. Left segment 'pcheykeeor.olky' x_min:60 → x_max:~298. Gap x≈298–420. Right segment 'dar.okey.qokain.chcthy.qokeedy.qoky' x_min:~420 → x_max:~810."
+        },
+        {
+          "locus": "<f75r.7,+P0>",
+          "raw_text": "pchedy.qokshdy<->ytain.chedy.qokar.chy.lol.chedy.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 325, "x_max": 940, "y_max": 358},
+          "interaction": "BISECTED. Left segment 'pchedy.qokshdy' x_min:60 → x_max:~298. Gap x≈298–425. Right segment 'ytain.chedy.qokar.chy.lol.chedy.qoky' x_min:~425 → x_max:~810."
+        },
+        {
+          "locus": "<f75r.8,+P0>",
+          "raw_text": "sor.chey.qokardy<->dsheckhy.qokain.chckhy.lshedy.okeedy",
+          "bounding_box": {"x_min": 60, "y_min": 360, "x_max": 940, "y_max": 393},
+          "interaction": "BISECTED. Left segment 'sor.chey.qokardy' x_min:60 → x_max:~298. Gap x≈298–430. Right segment 'dsheckhy.qokain.chckhy.lshedy.okeedy' x_min:~430 → x_max:~810."
+        },
+        {
+          "locus": "<f75r.9,+P0>",
+          "raw_text": "qokchdy.chcthy.lo<->qokedy.qokan.checkhy.qokar.olchedy.sal",
+          "bounding_box": {"x_min": 60, "y_min": 395, "x_max": 940, "y_max": 428},
+          "interaction": "BISECTED. Left segment 'qokchdy.chcthy.lo' x_min:60 → x_max:~298. Gap x≈298–435. Right segment 'qokedy.qokan.checkhy.qokar.olchedy.sal' x_min:~435 → x_max:~825."
+        },
+        {
+          "locus": "<f75r.10,+P0>",
+          "raw_text": "dshor.qotar.chdy<->shey.qokain.chckhy.dy.otey.tedy.lchedy",
+          "bounding_box": {"x_min": 60, "y_min": 430, "x_max": 940, "y_max": 463},
+          "interaction": "BISECTED. Left segment 'dshor.qotar.chdy' x_min:60 → x_max:~298. Gap x≈298–435. Right segment 'shey.qokain.chckhy.dy.otey.tedy.lchedy' x_min:~435 → x_max:~820."
+        },
+        {
+          "locus": "<f75r.11,+P0>",
+          "raw_text": "qokeedy.qokain.oly<->qokeedy.dy.qokal.okar.shedy.dar.chekam",
+          "bounding_box": {"x_min": 60, "y_min": 465, "x_max": 940, "y_max": 498},
+          "interaction": "BISECTED. Left segment 'qokeedy.qokain.oly' x_min:60 → x_max:~298. Gap x≈298–435. Right segment 'qokeedy.dy.qokal.okar.shedy.dar.chekam' x_min:~435 → x_max:~825."
+        },
+        {
+          "locus": "<f75r.12,+P0>",
+          "raw_text": "ssheckhy.qokal.oly<->shey.r.ol.cheey.shey.dy.ol,shedy.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 500, "x_max": 940, "y_max": 533},
+          "interaction": "BISECTED. Left segment 'ssheckhy.qokal.oly' x_min:60 → x_max:~298. Gap x≈298–440. Right segment 'shey.r.ol.cheey.shey.dy.ol,shedy.qoky' x_min:~440 → x_max:~820."
+        },
+        {
+          "locus": "<f75r.13,+P0>",
+          "raw_text": "pchedy.keedy.qokedy<->qokedy.qokedy.qokedy.qokain.olshedy",
+          "bounding_box": {"x_min": 60, "y_min": 535, "x_max": 940, "y_max": 568},
+          "interaction": "BISECTED. Left segment 'pchedy.keedy.qokedy' x_min:60 → x_max:~298. Gap x≈298–445. Right segment 'qokedy.qokedy.qokedy.qokain.olshedy' x_min:~445 → x_max:~820."
+        },
+        {
+          "locus": "<f75r.14,+P0>",
+          "raw_text": "sair.alkeeshy.qokain.dy<->olshedy.qokain.chckhy.qokain.otar.aly",
+          "bounding_box": {"x_min": 60, "y_min": 570, "x_max": 940, "y_max": 603},
+          "interaction": "BISECTED. Left segment 'sair.alkeeshy.qokain.dy' x_min:60 → x_max:~298. Gap x≈298–450. Right segment 'olshedy.qokain.chckhy.qokain.otar.aly' x_min:~450 → x_max:~825."
+        },
+        {
+          "locus": "<f75r.15,+P0>",
+          "raw_text": "sain.qokain.qolkeeoly<->saiin.chedy<->sol.or.shedy.okchdy.qoky",
+          "bounding_box": {"x_min": 60, "y_min": 605, "x_max": 940, "y_max": 638},
+          "interaction": "TRIPLE-SPLIT (two <-> markers). Left segment 'sain.qokain.qolkeeoly' x_min:60 → x_max:~295. First gap x≈295–455. Middle segment 'saiin.chedy' x_min:~455 → x_max:~545. Second gap x≈545–575 (secondary visual element, possibly a nymph arm or inner stream edge). Right segment 'sol.or.shedy.okchdy.qoky' x_min:~575 → x_max:~810."
+        },
+        {
+          "locus": "<f75r.16,+P0>",
+          "raw_text": "dshedy.qokar.sheedy.lch<->shokain.chy<->okshedy.qokain.chedy",
+          "bounding_box": {"x_min": 60, "y_min": 640, "x_max": 940, "y_max": 673},
+          "interaction": "TRIPLE-SPLIT (two <-> markers). Left segment 'dshedy.qokar.sheedy.lch' x_min:60 → x_max:~293. First gap x≈293–460. Middle segment 'shokain.chy' x_min:~460 → x_max:~545. Second gap x≈545–580. Right segment 'okshedy.qokain.chedy' x_min:~580 → x_max:~780."
+        },
+        {
+          "locus": "<f75r.17,+P0>",
+          "raw_text": "pchedar.shepchy.lshedary<->dal<->shal<->shy.kol.shedy.qokam",
+          "bounding_box": {"x_min": 60, "y_min": 675, "x_max": 940, "y_max": 708},
+          "interaction": "QUADRUPLE-SPLIT (three <-> markers). Maximum fragmentation — the widest point of the green stream body. Left segment 'pchedar.shepchy.lshedary' x_min:60 → x_max:~288. First gap x≈288–445. Second segment 'dal' x_min:~445 → x_max:~480. Second gap x≈480–530. Third segment 'shal' x_min:~530 → x_max:~570. Third gap x≈570–600. Right segment 'shy.kol.shedy.qokam' x_min:~600 → x_max:~800. Three distinct drawn elements bisect the line at this level."
+        },
+        {
+          "locus": "<f75r.18,+P0>",
+          "raw_text": "sol.sheedy.qol.shedy.qol<->otain.char.sar.oly",
+          "bounding_box": {"x_min": 60, "y_min": 710, "x_max": 940, "y_max": 743},
+          "interaction": "Single bisection resumes as stream narrows. Left segment 'sol.sheedy.qol.shedy.qol' x_min:60 → x_max:~295. Gap x≈295–490. Right segment 'otain.char.sar.oly' x_min:~490 → x_max:~700."
+        },
+        {
+          "locus": "<f75r.19,+P0>",
+          "raw_text": "qokshedy.qolshey.qoky<->shey.cthey.qokain.ar",
+          "bounding_box": {"x_min": 60, "y_min": 745, "x_max": 940, "y_max": 778},
+          "interaction": "BISECTED. Left segment 'qokshedy.qolshey.qoky' x_min:60 → x_max:~295. Gap x≈295–510. Right segment 'shey.cthey.qokain.ar' x_min:~510 → x_max:~700."
+        },
+        {
+          "locus": "<f75r.20,+P0>",
+          "raw_text": "ry.shey.qor.chey.lchey.lo<->ydain.shey.qokeiin",
+          "bounding_box": {"x_min": 60, "y_min": 780, "x_max": 940, "y_max": 813},
+          "interaction": "BISECTED. Left segment 'ry.shey.qor.chey.lchey.lo' x_min:60 → x_max:~295. Gap x≈295–520. Right segment 'ydain.shey.qokeiin' x_min:~520 → x_max:~690."
+        },
+        {
+          "locus": "<f75r.21,+P0>",
+          "raw_text": "oqokain.chey.qckhsy.or<->ysheor.ol.lor.am",
+          "bounding_box": {"x_min": 60, "y_min": 815, "x_max": 940, "y_max": 848},
+          "interaction": "BISECTED. Left segment 'oqokain.chey.qckhsy.or' x_min:60 → x_max:~295. Gap x≈295–520. Right segment 'ysheor.ol.lor.am' x_min:~520 → x_max:~680."
+        },
+        {
+          "locus": "<f75r.22,+P0>",
+          "raw_text": "odar.shey.qokain.chedy<->orshey.kar.chedy.rar",
+          "bounding_box": {"x_min": 60, "y_min": 850, "x_max": 940, "y_max": 883},
+          "interaction": "BISECTED. Left segment 'odar.shey.qokain.chedy' x_min:60 → x_max:~290. Gap x≈290–510. Right segment 'orshey.kar.chedy.rar' x_min:~510 → x_max:~695."
+        },
+        {
+          "locus": "<f75r.23,+P0>",
+          "raw_text": "pcheykshey.qokeey.qokal<->sshey.qol.chedy,qokam",
+          "bounding_box": {"x_min": 60, "y_min": 885, "x_max": 940, "y_max": 918},
+          "interaction": "BISECTED. Left segment 'pcheykshey.qokeey.qokal' x_min:60 → x_max:~288. Gap x≈288–505. Right segment 'sshey.qol.chedy,qokam' x_min:~505 → x_max:~680."
+        },
+        {
+          "locus": "<f75r.24,+P0>",
+          "raw_text": "qokain.olkeey.qolkary<->sain.checthy.lor.ol",
+          "bounding_box": {"x_min": 60, "y_min": 920, "x_max": 920, "y_max": 953},
+          "interaction": "BISECTED. Left segment 'qokain.olkeey.qolkary' x_min:60 → x_max:~285. Gap x≈285–500. Right segment 'sain.checthy.lor.ol' x_min:~500 → x_max:~680."
+        },
+        {
+          "locus": "<f75r.25,+P0>",
+          "raw_text": "sain.shckhy.qokeedy.shy.dy<->qokeedy.lchedy.ram",
+          "bounding_box": {"x_min": 60, "y_min": 955, "x_max": 920, "y_max": 988},
+          "interaction": "BISECTED. Left segment 'sain.shckhy.qokeedy.shy.dy' x_min:60 → x_max:~285. Gap x≈285–498. Right segment 'qokeedy.lchedy.ram' x_min:~498 → x_max:~655."
+        },
+        {
+          "locus": "<f75r.26,+P0>",
+          "raw_text": "dain.ol.sheol.dain.ol.qoly<->dar.ajy",
+          "bounding_box": {"x_min": 60, "y_min": 988, "x_max": 910, "y_max": 1000},
+          "interaction": "BISECTED, near bottom margin. Left segment 'dain.ol.sheol.dain.ol.qoly' x_min:60 → x_max:~282. Gap x≈282–498. Right segment 'dar.ajy' x_min:~498 → x_max:~580. Very near lower folio edge."
+        },
+        {
+          "locus": "<f75r.27,+P0>",
+          "raw_text": "pdalshor.shtol.qoty.pshar.shedy.okaldy<->dar.otar.otody.dy.rol",
+          "bounding_box": {"x_min": 60, "y_min": 540, "x_max": 940, "y_max": 573},
+          "interaction": "NOTE: Lines 27–28 appear in the transcription after lines 1–26, but from visual layout context they likely occupy the mid-folio zone near the nymph-in-stream lower body (y≈540–575), possibly as a secondary bisected block. BISECTED. Left segment 'pdalshor.shtol.qoty.pshar.shedy.okaldy' x_min:60 → x_max:~410. Gap x≈410–490. Right segment 'dar.otar.otody.dy.rol' x_min:~490 → x_max:~710."
+        },
+        {
+          "locus": "<f75r.28,+P0>",
+          "raw_text": "tchedy.pchedy.qokeey.sol.oldair.shecthy.qol<->l.sheedy.qokeedy.lolchedy",
+          "bounding_box": {"x_min": 60, "y_min": 575, "x_max": 940, "y_max": 608},
+          "interaction": "BISECTED. Left segment 'tchedy.pchedy.qokeey.sol.oldair.shecthy.qol' x_min:60 → x_max:~462. Gap x≈462–490. Right segment 'l.sheedy.qokeedy.lolchedy' x_min:~490 → x_max:~710."
+        }
+      ]
+    },
+    {
+      "block_id": "lower_unbroken_paragraph",
+      "description": "Lines f75r.29–46 form a long unbroken paragraph block running across the lower two-thirds of the folio below the main stream body. The majority of these lines show no <-> bisection, indicating the green_stream_body has terminated above this zone. Exception: f75r.44 has a single late bisection from the lower_nymph_pool.",
+      "lines": [
+        {
+          "locus": "<f75r.29,+P0>",
+          "raw_text": "dain.chkal.dy.lo.lkaiin.ol.okeedy,qol.dain.olchey.qokeedy.chedy.qotan",
+          "bounding_box": {"x_min": 60, "y_min": 610, "x_max": 940, "y_max": 643},
+          "interaction": "No bisection. Full-width line below the stream terminus."
+        },
+        {
+          "locus": "<f75r.30,+P0>",
+          "raw_text": "qo.dain.cheeky.qokey.qokain.cheky.qokal.dain.chedy.okalol.shedy.okar.olom",
+          "bounding_box": {"x_min": 60, "y_min": 645, "x_max": 945, "y_max": 678},
+          "interaction": "No bisection. Full-width line."
+        },
+        {
+          "locus": "<f75r.31,+P0>",
+          "raw_text": "dshedy.qokey.chckhy.qokar.shedy.chey.qoked.qokedy.daldy",
+          "bounding_box": {"x_min": 60, "y_min": 680, "x_max": 870, "y_max": 713},
+          "interaction": "No bisection. Full-width line."
+        },
+        {
+          "locus": "<f75r.32,+P0>",
+          "raw_text": "polshy.dal.shedy.qokain.dar.chsdy.shedy.qokar.shedy.ldy",
+          "bounding_box": {"x_min": 60, "y_min": 715, "x_max": 880, "y_max": 748},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.33,+P0>",
+          "raw_text": "qokeey.lshedy.qol.chedy.qokain.chcthedy.ltedy.darom",
+          "bounding_box": {"x_min": 60, "y_min": 750, "x_max": 840, "y_max": 783},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.34,+P0>",
+          "raw_text": "s.olkedy.okal.dar.oty.okar.otar.ol.kain.olkedy",
+          "bounding_box": {"x_min": 60, "y_min": 785, "x_max": 840, "y_max": 818},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.35,+P0>",
+          "raw_text": "qokain.sheety.qokain.dar.dar.shedy.qokain.oldy",
+          "bounding_box": {"x_min": 60, "y_min": 820, "x_max": 815, "y_max": 853},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.36,+P0>",
+          "raw_text": "sol.keedy.qokeedy.qokey.okar.otar.dar,dar,dy",
+          "bounding_box": {"x_min": 60, "y_min": 855, "x_max": 810, "y_max": 888},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.37,+P0>",
+          "raw_text": "qokedy.dy.sheety.qokedy.qokeedy.qokechdy.lol",
+          "bounding_box": {"x_min": 60, "y_min": 890, "x_max": 800, "y_max": 923},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.38,+P0>",
+          "raw_text": "qokeedy.qokeedy.qokedy.qokedy.qokeedy.ldy",
+          "bounding_box": {"x_min": 60, "y_min": 925, "x_max": 790, "y_max": 958},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.39,+P0>",
+          "raw_text": "yshedy.qokeedy.qokeedy.olkeedy.otey.koldy",
+          "bounding_box": {"x_min": 60, "y_min": 684, "x_max": 790, "y_max": 717},
+          "interaction": "No bisection. Positioned left of lower_nymph_pool."
+        },
+        {
+          "locus": "<f75r.40,+P0>",
+          "raw_text": "dar.shedy.qokain.shedy.dal.keedy.rshedy",
+          "bounding_box": {"x_min": 60, "y_min": 720, "x_max": 760, "y_max": 753},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.41,+P0>",
+          "raw_text": "sokeedy.qokeedy.oteedy.qoky.dykeedy.sy",
+          "bounding_box": {"x_min": 60, "y_min": 756, "x_max": 750, "y_max": 789},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.42,+P0>",
+          "raw_text": "dshedy.qokedy.qokeedy.qoteey.qoteedy.dar",
+          "bounding_box": {"x_min": 60, "y_min": 792, "x_max": 760, "y_max": 825},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.43,+P0>",
+          "raw_text": "yshedy.chekar.oldy.qokain.chkar.otar.oldy",
+          "bounding_box": {"x_min": 60, "y_min": 828, "x_max": 755, "y_max": 861},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.44,+P0>",
+          "raw_text": "dchedy.sain.okedy.qokedy.otedy.okoldy.otar.otam.olaiin.ch<->dar.dy",
+          "bounding_box": {"x_min": 60, "y_min": 864, "x_max": 870, "y_max": 897},
+          "interaction": "BISECTED — late bisection caused by the lower_nymph_pool intrusion. Left segment 'dchedy.sain.okedy.qokedy.otedy.okoldy.otar.otam.olaiin.ch' x_min:60 → x_max:~528. Gap x≈528–570 where the lower_nymph_pool body begins. Right segment 'dar.dy' x_min:~570 → x_max:~620."
+        },
+        {
+          "locus": "<f75r.45,+P0>",
+          "raw_text": "sshedy.shckhy.qokey.okedy.sarol.oty.otedy.qotedy.otedy.okaiin",
+          "bounding_box": {"x_min": 60, "y_min": 900, "x_max": 840, "y_max": 933},
+          "interaction": "No bisection."
+        },
+        {
+          "locus": "<f75r.46,+P0>",
+          "raw_text": "qokey.qokedy.sheol.qokedy.dain.shedy.atol.chedy.olar",
+          "bounding_box": {"x_min": 60, "y_min": 936, "x_max": 800, "y_max": 969},
+          "interaction": "No bisection. Final line of main paragraph block."
+        }
+      ]
+    },
+    {
+      "block_id": "bottom_right_label_column_pb",
+      "description": "Seven short @Pb/+Pb label lines in the lower-left margin, stacked vertically. Each is a single short word.",
+      "lines": [
+        {
+          "locus": "<f75r.47,@Pb>",
+          "raw_text": "sal.okeedy",
+          "bounding_box": {"x_min": 62, "y_min": 843, "x_max": 195, "y_max": 866},
+          "interaction": "First @Pb label. Short two-word label in the lower-left margin."
+        },
+        {
+          "locus": "<f75r.48,+Pb>",
+          "raw_text": "daly.ychey",
+          "bounding_box": {"x_min": 62, "y_min": 869, "x_max": 185, "y_max": 892},
+          "interaction": "Second label line."
+        },
+        {
+          "locus": "<f75r.49,+Pb>",
+          "raw_text": "sols.daro",
+          "bounding_box": {"x_min": 62, "y_min": 895, "x_max": 178, "y_max": 918},
+          "interaction": "Third label line."
+        },
+        {
+          "locus": "<f75r.50,+Pb>",
+          "raw_text": "ychty",
+          "bounding_box": {"x_min": 62, "y_min": 921, "x_max": 148, "y_max": 944},
+          "interaction": "Fourth label line, single word."
+        },
+        {
+          "locus": "<f75r.51,+Pb>",
+          "raw_text": "saino",
+          "bounding_box": {"x_min": 62, "y_min": 947, "x_max": 148, "y_max": 970},
+          "interaction": "Fifth label line, single word."
+        },
+        {
+          "locus": "<f75r.52,+Pb>",
+          "raw_text": "saldy",
+          "bounding_box": {"x_min": 62, "y_min": 973, "x_max": 148, "y_max": 996},
+          "interaction": "Sixth label line, single word."
+        },
+        {
+          "locus": "<f75r.53,+Pb>",
+          "raw_text": "dainy",
+          "bounding_box": {"x_min": 62, "y_min": 973, "x_max": 148, "y_max": 1000},
+          "interaction": "Seventh and final label line."
+        }
+      ]
+    }
+  ],
+  "isolated_zones": [
+    {
+      "anchor_id": "green_stream_body",
+      "status": "Intentionally bisected — primary structural bisector for lines 1–28",
+      "description": "The green stream body is the dominant layout element. It creates single bisection for most lines, triple-split for lines 15–16, and quadruple-split for line 17. The stream interior is completely text-free; only nymph figure illustrations occupy it. The gap widths increase from approximately 90 units at line 1 to over 300 units at the maximum width (line 17), then contracts again."
+    },
+    {
+      "anchor_id": "upper_canopy_tent",
+      "status": "Completely text-free — structural origin point above text zone",
+      "description": "The triangular canopy at the top of the folio contains no text. It sits entirely above the first text line (y<115), occupying the upper margin."
+    },
+    {
+      "anchor_id": "nymph_figures_in_stream",
+      "status": "Completely text-free — embedded within green stream gap",
+      "description": "The nymph figures are positioned within the text-free gap of the green stream body. They do not overlap any text line. Their bodies are the reason the gap widens in lines 15–17."
+    },
+    {
+      "anchor_id": "lower_nymph_pool",
+      "status": "Partially bisecting — causes single bisection in f75r.44",
+      "description": "The lower_nymph_pool occupies the lower-right zone. Its left edge intrudes into the text field at line 44. Below line 44, text runs to the left of the pool without bisection, as the pool body sits entirely in the right zone."
+    }
+  ]
+}
