@@ -66,5 +66,11 @@ Constructive critique and rigorous testing of this hypothesis are highly encoura
 * Please feel free to open an **Issue** in this repository to discuss specific data points, suggest alternative morphological interpretations, or report bugs in the transcription mapping.
 * Reach out via the [project website](https://vigibygg-cmyk.github.io/voynich-research/) for direct collaboration.
 
+## About the Author
+
+Hi, I'm **Vytautas Giedraitis**. By education, I am an engineer, and by passion, an independent amateur researcher. In my free time, I love diving deep into complex systems, history, and psychology—explorations that have led me to write and publish [several books](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMN0VyY0VRQUFRQkFKEAkQBA%3D%3D:S:ANO1ljKfUy8).
+
+I approach the Voynich Manuscript not as an academic linguist or professional cryptographer, but simply as an engineer trying to reverse-engineer a fascinating machine to understand how its gears work. This pragmatic, builder’s mindset is exactly what led me to analyze the manuscript's text not as a traditional spoken language, but as a highly structured, functional "instruction engine."
+
 ## Usage & License
 This project is conducted under the principles of open, citizen-science. All data, code, and findings are provided under the **MIT License**. Researchers, cryptographers, and data scientists are encouraged to freely verify, reproduce, challenge, and build upon this ontological framework.

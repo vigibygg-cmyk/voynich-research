@@ -20,7 +20,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://username.github.io/voynich-research/">
   <meta property="og:title" content="Voynich Manuscript: Computational Research">
-  <meta property="og:description" content="35+ research phases, 38,000+ word corpus, statistical proof of internal structure. An independent researcher's computational deep-dive into the world's most mysterious manuscript.">
+  <meta property="og:description" content="118 research phases, 38,000+ word corpus, statistical proof of internal structure. An independent researcher's computational deep-dive into the world's most mysterious manuscript.">
   <meta property="og:image" content="https://username.github.io/voynich-research/images/og-cover.jpg">
   <meta property="og:site_name" content="Voynich Computational Research">
   <meta property="og:locale" content="en_US">
@@ -30,7 +30,7 @@
   ════════════════════════════════════════════ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Voynich Manuscript: Computational Research">
-  <meta name="twitter:description" content="Independent statistical analysis of Beinecke MS 408. Bigram perplexity ~4.44 proves non-random structure. 35+ phases of computational research.">
+  <meta name="twitter:description" content="Independent statistical analysis of Beinecke MS 408. Bigram perplexity ~4.44 proves non-random structure. 118 phases of computational research.">
   <meta name="twitter:image" content="https://username.github.io/voynich-research/images/og-cover.jpg">
 
   <!-- ═══════════════════════════════════════════
@@ -115,7 +115,7 @@
     /* ══════════════════════════════════════
        NAVIGATION
     ══════════════════════════════════════ */
-    nav {
+    nav[aria-label="Main navigation"] {
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 100;
@@ -944,13 +944,14 @@
   ══════════════════════════════════════ -->
   <nav aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="#" class="nav-logo">Voynich <span>∴</span> Research</a>
+      <a href="index.html" class="nav-logo">Voynich <span>∴</span> Research</a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#hypothesis">Hypothesis</a></li>
-        <li><a href="#phases">Phases</a></li>
-        <li><a href="#folios">Folios</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="hypothesis.html">Hypothesis</a></li>
+        <li><a href="phases.html">Phases</a></li>
+        <li><a href="results.html">Results</a></li>
         <li><a href="data.html">Data &amp; Code</a></li>
+        <li><a href="other.html">Other</a></li>
       </ul>
     </div>
   </nav>
@@ -1364,7 +1365,7 @@
         <div class="openscience">
           <p>All research materials are publicly available:</p>
           <p>
-            <code>github.com/username/voynich-research</code> — Python scripts, JSON folio maps, 
+            <code>https://github.com/vigibygg-cmyk/voynich-research</code> — Python scripts, JSON folio maps, 
             full phase reports, and raw data files. MIT licensed. Contributions welcome.
           </p>
         </div>
@@ -1391,6 +1392,7 @@
       <a href="phases.html">Phases</a>
       <a href="results.html">Results</a>
       <a href="data.html">Data &amp; Code</a>
+      <a href="other.html">Other</a>
     </nav>
   </footer>
 

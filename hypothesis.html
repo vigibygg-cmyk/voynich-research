@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Ontological Cipher Hypothesis — Voynich Manuscript Research</title>
-  <meta name="description" content="Full scientific hypothesis: the Voynich Manuscript (Beinecke MS 408) is a Pasigraphic Instruction Engine encoding Renaissance alchemical-botanical procedures through an a priori ontological cipher. 65+ research phases, complete methodology and data.">
+  <meta name="description" content="Full scientific hypothesis: the Voynich Manuscript (Beinecke MS 408) is a Pasigraphic Instruction Engine encoding Renaissance alchemical-botanical procedures through an a priori ontological cipher. 118 research phases, complete methodology and data.">
   <meta name="keywords" content="Voynich Manuscript hypothesis, ontological cipher, pasigraphic, alchemical cipher, spagyric, bigram perplexity, morphological valency, edge bias, sectoral polymorphism, Paper Computer, Vytautas Giedraitis">
   <meta name="author" content="Vytautas Giedraitis">
   <link rel="canonical" href="https://username.github.io/voynich-research/hypothesis.html">
   <meta property="og:title" content="The Ontological Cipher Hypothesis — Voynich Manuscript">
-  <meta property="og:description" content="Full scientific hypothesis for Beinecke MS 408 as a Pasigraphic Instruction Engine. 65+ computational research phases.">
+  <meta property="og:description" content="Full scientific hypothesis for Beinecke MS 408 as a Pasigraphic Instruction Engine. 118 computational research phases.">
   <meta property="og:image" content="https://username.github.io/voynich-research/images/og-cover.jpg">
   <meta property="og:url" content="https://username.github.io/voynich-research/hypothesis.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,12 +32,12 @@
     body { background: var(--parchment); color: var(--ink); font-family: var(--font-body); font-weight: 300; line-height: 1.75; overflow-x: hidden; }
 
     /* NAV */
-    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(245,240,232,0.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    nav[aria-label="Main navigation"] { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(245,240,232,0.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
     .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 2rem; height: 56px; display: flex; align-items: center; justify-content: space-between; }
-    .nav-logo { font-family: var(--font-display); font-size: 1rem; color: var(--ink-soft); text-decoration: none; }
+    .nav-logo { font-family: var(--font-display); font-size: 1rem; color: var(--ink-soft); text-decoration: none; letter-spacing: 0.03em; display: flex; align-items: center; gap: 0.5rem; }
     .nav-logo span { color: var(--gold); font-style: italic; }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-muted); text-decoration: none; transition: color 0.2s; }
+    .nav-links a { font-family: var(--font-body); font-size: 0.85rem; font-weight: 400; color: var(--ink-muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
     .nav-links a:hover, .nav-links a.active { color: var(--gold); }
 
     /* HERO */
@@ -187,7 +187,7 @@
 </head>
 <body>
 
-<nav>
+<nav aria-label="Main navigation">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">Voynich <span>∴</span> Research</a>
     <ul class="nav-links">
@@ -196,6 +196,7 @@
       <li><a href="phases.html">Phases</a></li>
       <li><a href="results.html">Results</a></li>
       <li><a href="data.html">Data &amp; Code</a></li>
+      <li><a href="other.html">Other</a></li>
     </ul>
   </div>
 </nav>
@@ -249,7 +250,7 @@
 
     <p>
       This hypothesis builds on prior computational work (Earnhart 2025 "Paper Computer" model; Layfield &amp; Davis 2026 LSA study)
-      while extending it across 65+ independent research phases using NLP, statistical mechanics,
+      while extending it across 118 independent research phases using NLP, statistical mechanics,
       topological clustering, pixel-level spatial analysis, and isomorphic translation against
       35 historical corpora from the 1300–1600 AD period.
     </p>
@@ -797,12 +798,13 @@
     <div class="footer-logo">Voynich ∴ Research</div>
     <div class="footer-meta">Vytautas Giedraitis · Independent Research · 2025–2026<br>Beinecke MS 408 · Yale University Library<br>All analysis code: MIT License</div>
   </div>
-  <nav class="footer-nav">
+  <nav class="footer-nav" aria-label="Footer navigation">
     <a href="index.html">Home</a>
     <a href="hypothesis.html">Hypothesis</a>
     <a href="phases.html">Phases</a>
     <a href="results.html">Results</a>
     <a href="data.html">Data &amp; Code</a>
+    <a href="other.html">Other</a>
   </nav>
 </footer>
 

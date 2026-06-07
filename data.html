@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data &amp; Code — Voynich Manuscript Research</title>
+  <meta name="description" content="Complete reproducibility suite for the Voynich Manuscript Ontological Cipher study. Transcription sources, Python scripts, JSON folio mappings, and Google Colab execution instructions.">
+  <meta name="author" content="Vytautas Giedraitis">
+  <link rel="canonical" href="https://username.github.io/voynich-research/data.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1a1410; --ink-soft: #3d3228; --ink-muted: #7a6a5a;
+      --parchment: #f5f0e8; --parchment2: #ede5d4; --parchment3: #e2d8c3;
+      --gold: #c8a44a; --gold-light: #e8c97a; --gold-dim: #8a6f30;
+      --rust: #8b3a2a; --rust-light: #c0503c;
+      --teal: #2a6b6a; --teal-light: #3d9190;
+      --border: rgba(90,70,40,0.18); --border-strong: rgba(90,70,40,0.35);
+      --font-display: 'IM Fell English', serif;
+      --font-body: 'Crimson Pro', serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 18px; }
+    body { background: var(--parchment); color: var(--ink); font-family: var(--font-body); font-weight: 300; line-height: 1.75; overflow-x: hidden; }
+
+    /* NAV */
+    nav[aria-label="Main navigation"] { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(245,240,232,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 2rem; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-family: var(--font-display); font-size: 1rem; color: var(--ink-soft); text-decoration: none; letter-spacing: 0.03em; display: flex; align-items: center; gap: 0.5rem; }
+    .nav-logo span { color: var(--gold); font-style: italic; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { font-family: var(--font-body); font-size: 0.85rem; font-weight: 400; color: var(--ink-muted); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+    /* HERO */
+    .page-hero { padding: 9rem 2rem 5rem; background: var(--ink); position: relative; overflow: hidden; }
+    .page-hero-inner { max-width: 900px; margin: 0 auto; position: relative; }
+    .page-eyebrow { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.75rem; }
+    .page-eyebrow::before { content: ''; width: 2rem; height: 1px; background: var(--gold); }
+    .page-title { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3.8rem); font-weight: normal; color: var(--parchment); line-height: 1.1; margin-bottom: 1.5rem; }
+    .page-title em { color: var(--gold-light); font-style: italic; }
+    .page-lead { font-size: 1.1rem; line-height: 1.85; color: rgba(245,240,232,0.75); max-width: 70ch; margin-bottom: 2.5rem; }
+
+    /* CONTENT */
+    .content-wrap { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
+    .section-block { padding: 5rem 0; border-bottom: 1px solid var(--border); }
+    .section-block:last-child { border-bottom: none; }
+    h2.block-title { font-family: var(--font-display); font-size: clamp(1.7rem, 3vw, 2.5rem); font-weight: normal; color: var(--ink); margin-bottom: 0.5rem; line-height: 1.2; }
+    .block-subtitle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; display: flex; align-items: center; gap: 0.75rem; }
+    .block-subtitle::before { content: ''; width: 1.5rem; height: 1px; background: var(--gold); }
+    p { font-size: 1rem; line-height: 1.85; color: var(--ink-soft); margin-bottom: 1.25rem; }
+    
+    /* LINKS & LISTS */
+    .link-list { list-style: none; margin: 1.5rem 0 2.5rem 0; }
+    .link-list li { padding: 1rem; background: var(--parchment2); border: 1px solid var(--border); margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between; }
+    .link-list .item-title { font-family: var(--font-display); font-size: 1.2rem; color: var(--ink); }
+    .link-list .item-desc { font-size: 0.85rem; color: var(--ink-muted); margin-left: 1rem; flex-grow: 1; }
+    .link-btn { font-family: var(--font-mono); font-size: 0.65rem; padding: 0.4rem 1rem; border: 1px solid var(--gold); color: var(--gold); text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; transition: all 0.2s; white-space: nowrap; }
+    .link-btn:hover { background: var(--gold); color: var(--ink); }
+
+    /* CODE BLOCKS */
+    .code-wrapper { background: var(--ink); border: 1px solid var(--border-strong); border-radius: 4px; overflow: hidden; margin: 2rem 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    .code-header { background: #0f0c09; padding: 0.75rem 1.5rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .code-title { font-family: var(--font-mono); font-size: 0.7rem; color: var(--gold-light); letter-spacing: 0.05em; }
+    .code-desc { font-family: var(--font-body); font-size: 0.85rem; color: rgba(245,240,232,0.7); }
+    pre { padding: 1.5rem; overflow-x: auto; font-family: var(--font-mono); font-size: 0.8rem; color: var(--parchment3); line-height: 1.6; margin: 0; }
+    .code-keyword { color: #cc7832; }
+    .code-string { color: #6a8759; }
+    .code-comment { color: #808080; font-style: italic; }
+
+    /* INSTRUCTION BOX */
+    .instruction-box { background: rgba(42,107,106,0.05); border-left: 3px solid var(--teal); padding: 2rem; margin: 2rem 0; }
+    .instruction-step { margin-bottom: 1.5rem; }
+    .instruction-step:last-child { margin-bottom: 0; }
+    .step-num { font-family: var(--font-mono); color: var(--teal); font-weight: bold; margin-right: 0.5rem; }
+
+    /* FOOTER */
+    footer { background: #0f0c09; padding: 3rem 2rem 2rem; margin-top: 4rem; }
+    .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end; }
+    .footer-logo { font-family: var(--font-display); font-size: 1.1rem; color: var(--gold-dim); }
+    .footer-meta { font-family: var(--font-mono); font-size: 0.6rem; color: rgba(200,164,74,0.3); text-align: right; line-height: 1.8; }
+    .footer-nav { display: flex; gap: 1.5rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(200,164,74,0.1); justify-content: center; }
+    .footer-nav a { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(200,164,74,0.4); text-decoration: none; transition: color 0.2s; }
+    .footer-nav a:hover { color: var(--gold); }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .link-list li { flex-direction: column; align-items: flex-start; gap: 1rem; }
+      .link-list .item-desc { margin-left: 0; }
+      .footer-inner { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Voynich <span>∴</span> Research</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hypothesis.html">Hypothesis</a></li>
+      <li><a href="phases.html">Phases</a></li>
+      <li><a href="results.html">Results</a></li>
+      <li><a href="data.html" class="active">Data &amp; Code</a></li>
+      <li><a href="other.html">Other</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-eyebrow">Reproducibility &amp; Transparency</div>
+    <h1 class="page-title">
+      Data &amp; <em>Code</em>
+    </h1>
+    <p class="page-lead">
+      Open science requires open data. Here you will find the complete toolkit required to independently verify, replicate, and challenge the findings of the 118-phase replication study.
+    </p>
+  </div>
+</header>
+
+<main>
+<div class="content-wrap">
+
+  <!-- ================= HOW TO RUN ================= -->
+  <section class="section-block">
+    <div class="block-subtitle">§ 01 · Execution</div>
+    <h2 class="block-title">How to Run<br><em>(Step-by-Step)</em></h2>
+    
+    <p>You do not need a local Python environment to test the core computational findings. You can independently verify the data using a personal Google Colab session with zero configuration.</p>
+
+    <div class="instruction-box">
+      <div class="instruction-step">
+        <span class="step-num">01.</span> <strong>Open Colab:</strong> Navigate to <a href="https://colab.research.google.com/" target="_blank" style="color:var(--teal)">Google Colab</a> and create a new, blank Python notebook.
+      </div>
+      <div class="instruction-step">
+        <span class="step-num">02.</span> <strong>Download Data:</strong> Download the specific Python scripts from the sections below, alongside the cleaned IVTFF transcriptions (RF1b, ZL3b, IT2a) from Voynich.nu.
+      </div>
+      <div class="instruction-step">
+        <span class="step-num">03.</span> <strong>Upload to Workspace:</strong> In Colab, open the left-hand panel, click the folder icon ("Files"), and upload the downloaded `.txt` and `.json` data files directly into your temporary session workspace.
+      </div>
+      <div class="instruction-step">
+        <span class="step-num">04.</span> <strong>Execute:</strong> Paste the script code into a Colab cell and press `Shift + Enter` to run. The script will automatically parse the uploaded files and reproduce the exact Pointwise Mutual Information (PMI) clustering, Truncated SVD, and entropy calculations shown in the results.
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRANSCRIPTION SOURCES ================= -->
+  <section class="section-block">
+    <div class="block-subtitle">§ 02 · Raw Data</div>
+    <h2 class="block-title">Transcription<br><em>Sources</em></h2>
+
+    <p>To prevent confirmation bias ("Tabula Rasa" methodology), all analyses are triangulated across three independent IVTFF transcription baselines hosted by René Zandbergen and the Voynich.nu team.</p>
+
+    <ul class="link-list">
+      <li>
+        <span class="item-title">RF1b-er.txt</span>
+        <span class="item-desc">Consensus transcription (Highly reliable)</span>
+        <a href="http://www.voynich.nu/data/" target="_blank" class="link-btn">Voynich.nu Data</a>
+      </li>
+      <li>
+        <span class="item-title">ZL3b-n.txt</span>
+        <span class="item-desc">Comprehensive transcription by Zandbergen/Landini</span>
+        <a href="http://www.voynich.nu/data/" target="_blank" class="link-btn">Voynich.nu Data</a>
+      </li>
+      <li>
+        <span class="item-title">IT2a-n.txt</span>
+        <span class="item-desc">Basic EVA transcription (Takahashi)</span>
+        <a href="http://www.voynich.nu/data/" target="_blank" class="link-btn">Voynich.nu Data</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================= SCRIPTS ================= -->
+  <section class="section-block">
+    <div class="block-subtitle">§ 03 · Python Scripts</div>
+    <h2 class="block-title">Computational<br><em>Algorithms</em></h2>
+    <p>The following are foundational scripts from the 118-phase study. The full suite of algorithms covers BPE valency mapping, SVD clustering, generative Markov chains, and Cross-Corpus Isomorphic Translation.</p>
+
+    <!-- Script 1 -->
+    <div class="code-wrapper">
+      <div class="code-header">
+        <span class="code-title">phase_01_data_extraction.py</span>
+        <span class="code-desc">Downloads &amp; Standardises IVTFF files (removes inline comments, normalizes spaces).</span>
+      </div>
+      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: DATA EXTRACTION SCRIPT (PHASE I)
+# Target Environment: Google Colab</span>
+
+<span class="code-keyword">import</span> urllib.request
+<span class="code-keyword">import</span> urllib.error
+<span class="code-keyword">import</span> os
+<span class="code-keyword">import</span> re
+
+OUTPUT_DIR = <span class="code-string">"voynich_clean_data"</span>
+TARGET_FILES = [<span class="code-string">"RF1b-er.txt"</span>, <span class="code-string">"ZL3b-n.txt"</span>, <span class="code-string">"IT2a-n.txt"</span>]
+
+<span class="code-keyword">def</span> clean_voynich_text(raw_text):
+    <span class="code-comment">""" Removes IVTFF metadata, brackets {}, and standardises spaces. """</span>
+    text = re.sub(<span class="code-string">r'\{.*?\}'</span>, <span class="code-string">''</span>, raw_text)  <span class="code-comment"># Remove inline comments</span>
+    text = re.sub(<span class="code-string">r'[\.,]'</span>, <span class="code-string">' '</span>, text)      <span class="code-comment"># Dots/commas to spaces</span>
+    text = re.sub(<span class="code-string">r'[-=\*%|]'</span>, <span class="code-string">''</span>, text)     <span class="code-comment"># Remove uncertainty markers</span>
+    <span class="code-keyword">return</span> re.sub(<span class="code-string">r'\s+'</span>, <span class="code-string">' '</span>, text).strip()</code></pre>
+    </div>
+
+    <!-- Script 2 -->
+    <div class="code-wrapper">
+      <div class="code-header">
+        <span class="code-title">phase_04_edge_bias_analysis.py</span>
+        <span class="code-desc">Calculates positional distribution of tokens at physical line edges (Edge Bias).</span>
+      </div>
+      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: EDGE BIAS ANALYSIS (PHASE IV)
+# Identifies tokens co-generated with illustration boundaries.</span>
+
+<span class="code-keyword">def</span> calculate_edge_bias(lines):
+    edge_counts = {}
+    mid_counts = {}
+    
+    <span class="code-keyword">for</span> line <span class="code-keyword">in</span> lines:
+        tokens = line.split()
+        <span class="code-keyword">if</span> len(tokens) < 3: <span class="code-keyword">continue</span>
+        
+        <span class="code-comment"># Tally edges (first and last token)</span>
+        edge_counts[tokens[0]] = edge_counts.get(tokens[0], 0) + 1
+        edge_counts[tokens[-1]] = edge_counts.get(tokens[-1], 0) + 1
+        
+        <span class="code-comment"># Tally internal tokens</span>
+        <span class="code-keyword">for</span> t <span class="code-keyword">in</span> tokens[1:-1]:
+            mid_counts[t] = mid_counts.get(t, 0) + 1
+            
+    <span class="code-keyword">return</span> edge_counts, mid_counts</code></pre>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="https://github.com/username/voynich-research/tree/main/scripts" target="_blank" style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.1em; color: var(--ink); text-transform: uppercase; background: var(--gold); text-decoration: none; padding: 1rem 2.5rem; transition: background 0.2s;">
+        Access All 118 Phase Scripts on GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= FOLIO MAPPINGS ================= -->
+  <section class="section-block">
+    <div class="block-subtitle">§ 04 · Spatial Topology</div>
+    <h2 class="block-title">Folio <em>Mappings</em></h2>
+    <p>Pixel-perfect bounding box annotations linking transcription coordinates to drawn illustrations, revealing the deterministic layout of the pasigraphic engine.</p>
+    
+    <ul class="link-list">
+      <li>
+        <span class="item-title">data/folio_maps/fRos_mapping.json</span>
+        <span class="item-desc">Macro-reactor diagram coordinates and flow logic</span>
+        <a href="data/folio_maps/fRos_mapping.json" target="_blank" class="link-btn">View JSON</a>
+      </li>
+      <li>
+        <span class="item-title">data/folio_maps/f69v_mapping.json</span>
+        <span class="item-desc">28 astromedical radial labels</span>
+        <a href="data/folio_maps/f69v_mapping.json" target="_blank" class="link-btn">View JSON</a>
+      </li>
+      <li>
+        <span class="item-title">data/folio_maps/f75r_mapping.json</span>
+        <span class="item-desc">Bisection points and fluid extraction flows</span>
+        <a href="data/folio_maps/f75r_mapping.json" target="_blank" class="link-btn">View JSON</a>
+      </li>
+    </ul>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">Voynich ∴ Research</div>
+    <div class="footer-meta">Vytautas Giedraitis · Independent Research · 2025–2026<br>Beinecke MS 408 · Yale University Library<br>All analysis code: MIT License</div>
+  </div>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="index.html">Home</a>
+    <a href="hypothesis.html">Hypothesis</a>
+    <a href="phases.html">Phases</a>
+    <a href="results.html">Results</a>
+    <a href="data.html">Data &amp; Code</a>
+    <a href="other.html">Other</a>
+  </nav>
+</footer>
+
+</body>
+</html>
