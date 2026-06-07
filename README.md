@@ -8,7 +8,7 @@
 
 🌐 **Interactive Research Dashboard:** [Visit the live project website](https://vigibygg-cmyk.github.io/voynich-research/) for full phase breakdowns, interactive data visualizations (Perplexity, Edge Bias), and detailed manuscript mappings.
 
-![Voynich Rosettes Foldout](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Voynich_Manuscript_%28167%29.jpg/800px-Voynich_Manuscript_%28167%29.jpg)
+![Voynich Rosettes Foldout](https://vigibygg-cmyk.github.io/voynich-research/images/hero-folio.jpg)
 *Fig 1. The Rosettes foldout (f85/f86), analysed in this study as a Directed Acyclic Graph representing a continuous spagyric distillation laboratory.*
 
 ## About the Project
