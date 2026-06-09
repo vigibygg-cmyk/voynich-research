@@ -53,6 +53,15 @@
     .pill { padding: 0.4rem 1rem; border: 1px solid rgba(200,164,74,0.3); color: var(--gold); font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
     .pill:hover { background: var(--gold); color: var(--ink); border-color: var(--gold); }
 
+    /* ANIMATIONS */
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .fade-up { opacity: 0; animation: fadeUp 0.7s ease forwards; }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.25s; }
+    .delay-3 { animation-delay: 0.4s; }
+    .delay-4 { animation-delay: 0.55s; }
+    .delay-5 { animation-delay: 0.7s; }
+
     /* CONTENT */
     .content-wrap { max-width: 900px; margin: 0 auto; padding: 0 2rem; }
     .section-block { padding: 5rem 0; border-bottom: 1px solid var(--border); }
@@ -203,17 +212,17 @@
 
 <header class="page-hero">
   <div class="page-hero-inner">
-    <div class="page-eyebrow">Beinecke MS 408 · Complete Hypothesis</div>
-    <h1 class="page-title">
+    <div class="page-eyebrow fade-up delay-1">Beinecke MS 408 · Complete Hypothesis</div>
+    <h1 class="page-title fade-up delay-2">
       The <em>Ontological Cipher</em><br>
       Hypothesis
     </h1>
-    <p class="page-lead">
+    <p class="page-lead fade-up delay-3">
       A full scientific account of the Voynich Manuscript as a Pasigraphic Instruction Engine —
       covering the core proposition, all statistical pillars, the ontological dictionary,
       folio-level evidence, competing theory analysis, and the epistemological limits of the study.
     </p>
-    <nav class="hero-nav-pills" aria-label="Sections on this page">
+    <nav class="hero-nav-pills fade-up delay-4" aria-label="Sections on this page">
       <a href="#proposition" class="pill">Core Proposition</a>
       <a href="#evidence" class="pill">Statistical Pillars</a>
       <a href="#dictionary" class="pill">Ontological Dictionary</a>
@@ -298,7 +307,7 @@
           Bigram perplexity ~4.44 across all three transcriptions — identical to highly structured
           natural Latin (~4.38) — while morphological valency ~86.5 exceeds every known natural language
           by an order of magnitude. This combination is structurally impossible for natural phonetic speech
-          and mathematically proves a <em>synthetic, algorithmically generated lexicon</em>.
+          and strongly suggests a <em>synthetic, algorithmically generated lexicon</em>.
         </p>
       </div>
       <div class="pillar-card">
@@ -307,7 +316,7 @@
         <p>
           PMI analysis discovered 129–174 rigid word-pair couplings (max PMI ~5.98). Multipartite
           analysis extracted repeating 3-word formulaic loops (e.g. <em>ol → s → aiin</em>).
-          A ~2:1 directional dependency asymmetry (Forward: 65% / Backward: 35%) proves
+          A ~2:1 directional dependency asymmetry (Forward: 65% / Backward: 35%) strongly suggests
           a deterministic feed-forward procedural syntax — not natural language flexibility.
         </p>
       </div>
@@ -385,7 +394,7 @@
     </table>
 
     <blockquote>
-      <p>"The Voynich Manuscript achieves low entropy (high predictability) combined with extreme combinatorial valency — a combination that is structurally impossible for any known natural language and mathematically proves a synthetic, apriori taxonomic architecture."</p>
+      <p>"The Voynich Manuscript achieves low entropy (high predictability) combined with extreme combinatorial valency — a combination that is structurally impossible for any known natural language and mathematically strongly suggests a synthetic, apriori taxonomic architecture."</p>
     </blockquote>
   </section>
 
@@ -398,7 +407,7 @@
       Words in the Voynich Manuscript are not phonetic syllables. They are structured coordinate codes
       built from three functional components: a <strong>Prefix</strong> (taxonomic anchor / ontological category),
       a <strong>Core/Infix</strong> (state modifier), and a <strong>Suffix</strong> (quantitative terminal / dose marker).
-      This "Lego-block" architecture was mathematically proven via BPE valency analysis, SVD topological clustering,
+      This "Lego-block" architecture was statistically supported via BPE valency analysis, SVD topological clustering,
       and Phase XXVIII ablation studies.
     </p>
 
@@ -441,7 +450,7 @@
     </div>
 
     <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: normal; margin: 2.5rem 0 1rem;">The Standard Operational Loop</h3>
-    <p>The fundamental syntactic unit of the Pasigraphic Engine — proven by Phase III (PMI), Phase VI (multipartite chains), Phase XV (dependency graph), and Phase XXXI (second-order entropy ~0.14 bits):</p>
+    <p>The fundamental syntactic unit of the Pasigraphic Engine — demonstrated by Phase III (PMI), Phase VI (multipartite chains), Phase XV (dependency graph), and Phase XXXI (second-order entropy ~0.14 bits):</p>
 
     <div class="chain">
       <div class="chain-node cmd">TAXON<br><small>cho-, sho-</small></div>
@@ -472,7 +481,7 @@
     <p style="font-size: 0.82rem; color: var(--ink-muted); font-family: var(--font-mono);">
       ⚠ Important caveat: The Phase XXIII (v1) direct 1:1 translations were retracted in the Revised Phase XXIII report
       due to the Hubness Problem in small-corpus vector spaces. The above mappings represent <em>topological correlations</em>
-      and etymological hypotheses (Phase 52), not proven translations. See §07 Epistemological Limits.
+      and etymological hypotheses (Phase 52), not demonstrated translations. See §07 Epistemological Limits.
     </p>
   </section>
 
@@ -553,6 +562,49 @@
           <span class="op-tag">EXTRACT×8</span><span class="op-tag">MIX×8</span><span class="op-tag">FILTER×6</span>
         </div>
       </div>
+    </div>
+
+    <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: normal; margin: 2.5rem 0 1rem;">The Rosettes Foldout (f85–f86): Competing Interpretations</h3>
+    <p>The 9-rosette foldout is often interpreted in widely divergent ways. Below is a comparison showing why the Macro-Reactor (Athanor) hypothesis best fits the textual evidence:</p>
+    <ul style="padding-left: 1.5rem; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1.5rem;">
+      <li><strong>Cosmological Map:</strong> Explains the central sun/star elements, but fails to explain why outer nodes contain dense <em>procedural</em> commands (MIX, EXTRACT) rather than star labels.</li>
+      <li><strong>City Network / Maps:</strong> Explains the "castle" architecture, but architectural drawings in the 15th century often represented alchemical vessels (e.g., the "Castle of Knowledge" or fortified distillation towers).</li>
+      <li><strong>Hydraulic System / Baths:</strong> Plausible, but does not explain the presence of celestial and botanical root tokens combined with heating commands.</li>
+      <li><strong>Alchemical Macro-Reactor (Our Model):</strong> Explains the combination of flow-directional prefixes on connecting bridges, procedural commands in the outer nodes, and central cosmological timing markers.</li>
+    </ul>
+
+    <div style="margin: 2rem 0; overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
+        <thead>
+          <tr style="border-bottom: 2px solid var(--border-strong); color: var(--gold-dim); font-family: var(--font-mono); font-size: 0.75rem; text-transform: uppercase;">
+            <th style="padding: 0.75rem 0.5rem;">Rosettes Element</th>
+            <th style="padding: 0.75rem 0.5rem;">Athanor Analog (e.g., Martini)</th>
+            <th style="padding: 0.75rem 0.5rem;">Proposed Function</th>
+          </tr>
+        </thead>
+        <tbody style="color: var(--ink-soft);">
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 0.75rem 0.5rem; font-weight: 600;">Outer Nodes (e.g., f86v3)</td>
+            <td style="padding: 0.75rem 0.5rem;">Cucurbit / Boiling Flask</td>
+            <td style="padding: 0.75rem 0.5rem;">Active digestion/extraction. Text shows dense procedural commands.</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 0.75rem 0.5rem; font-weight: 600;">Connecting Bridges</td>
+            <td style="padding: 0.75rem 0.5rem;">Alembic Beak / Transfer Pipes</td>
+            <td style="padding: 0.75rem 0.5rem;">Vapour/liquid transfer. Text shows directional flow prefixes (qo-).</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--border);">
+            <td style="padding: 0.75rem 0.5rem; font-weight: 600;">Castle / Tower Structures</td>
+            <td style="padding: 0.75rem 0.5rem;">Condensation Towers</td>
+            <td style="padding: 0.75rem 0.5rem;">Cooling mechanisms to return vapour to liquid state.</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.75rem 0.5rem; font-weight: 600;">Central Rosette (f85r2)</td>
+            <td style="padding: 0.75rem 0.5rem;">Central Heat Source / Philosophical Center</td>
+            <td style="padding: 0.75rem 0.5rem;">The cosmological timing and symbolic heart governing the process.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: normal; margin: 2.5rem 0 1rem;">The f69v Trilobe Master Report</h3>
@@ -669,7 +721,7 @@
     </table>
 
     <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: normal; margin: 2rem 0 1rem;">Transition Rules (Markov Chain, Phases XV, XXXI, 67)</h3>
-    <p>The following transition rules are mathematically proven structural facts:</p>
+    <p>The following transition rules are statistically supported structural facts:</p>
     <ul style="padding-left: 1.5rem; color: var(--ink-soft); font-size: 0.95rem; line-height: 2;">
       <li>Pre-Extraction cluster (<code style="font-family: var(--font-mono); font-size: 0.8rem;">dch-, pch-, dsh-, ych-</code>) overwhelmingly appears at <strong>[START_OF_LINE]</strong> or post-bisection; most probable successor is <code style="font-family: var(--font-mono); font-size: 0.8rem;">qok-</code></li>
       <li>Pre-Heating modifier (<code style="font-family: var(--font-mono); font-size: 0.8rem;">kch-</code>) frequently follows <code style="font-family: var(--font-mono); font-size: 0.8rem;">-ol</code> or <code style="font-family: var(--font-mono); font-size: 0.8rem;">-dy</code> words; most probable successor is <code style="font-family: var(--font-mono); font-size: 0.8rem;">cho-</code></li>
@@ -742,45 +794,52 @@
     <h2 class="block-title">What We Know<br><em>and What We Don't</em></h2>
 
     <p>
-      Scientific integrity requires an explicit separation of proven structural facts from working
-      semantic hypotheses. The following audit was formalized in Phase XXXV (Critical Audit Report).
+      Scientific integrity requires an explicit separation of empirical structural findings from interpretive
+      semantic hypotheses. The following audit outlines the boundaries of current knowledge.
     </p>
 
     <div class="thesis-box">
       <p>
-        <strong>What has been proven:</strong><br>
-        The physical layout of the text is algorithmically constrained by the illustrations (100% bounding box validation).
-        The manuscript's morphological structure is incompatible with any known natural language or standard cipher.
+        <strong>Empirical Findings:</strong><br>
+        The physical layout of the text is highly correlated with the illustrations (Edge Bias).
+        The manuscript's morphological structure (low entropy, extreme valency) differs substantially from known natural languages and standard substitution ciphers.
         The vocabulary shifts systematically across thematic sections. The text obeys a deterministic, feed-forward
-        syntactic chain structure. Labels and paragraphs serve structurally distinct functions. The token classes
-        discovered by blind SVD clustering are real and stable across all three transcriptions.
+        syntactic chain structure.
       </p>
     </div>
 
     <div style="margin-top: 1.5rem; padding: 1.5rem 2rem; border: 1px solid var(--border-strong); background: var(--parchment2);">
-      <p style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem;">⚠ What remains unproven</p>
+      <p style="font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rust); margin-bottom: 1rem;">⚠ Interpretive Limitations</p>
       <ul style="padding-left: 1.5rem; color: var(--ink-soft); font-size: 0.92rem; line-height: 2;">
-        <li><strong>No phonetic values</strong> for any Voynich symbol have been established. All etymological mappings (qokal → Calx, okeey → Aqua) are hypotheses, not proven translations.</li>
-        <li><strong>Phase XXIII Direct Translation</strong> was formally retracted. The Orthogonal Procrustes alignment in a 38,000-word corpus produces the Hubness Problem — nearest-neighbour results are statistically unreliable as direct translations.</li>
-        <li><strong>The "Paper Computer" pseudocode</strong> (EXECUTE(), YIELD(), etc.) is a useful analytical metaphor, not a literal claim about the author's programming methodology.</li>
-        <li><strong>The specific "chimeric plant" or "Paracelsian spagyrics" context</strong> is historically plausible and consistent with the data, but cannot be confirmed from structural analysis alone.</li>
-        <li><strong>Out-of-sample classification accuracy</strong> dropped from ~91% (internal, Phase IX) to ~50–53% (unseen lines, Phase XXIV), indicating the sectoral signal is macroscopic (paragraph/page level) not microscopic (line level).</li>
+        <li><strong>No semantic proof:</strong> Machine Learning approaches (like MLM predicting missing tokens) demonstrate strict structural syntax, not semantic meaning.</li>
+        <li><strong>No phonetic values:</strong> All etymological mappings are interpretive hypotheses, not demonstrated translations.</li>
+        <li><strong>Historical context:</strong> The identification of pipes and fluids as alchemical must acknowledge the period's dominant humoral theory (fluids and vessels often represented medical or biological processes).</li>
+        <li><strong>Phase XXIII Direct Translation</strong> was formally retracted. Nearest-neighbour results in unaligned embeddings are statistically unreliable as direct translations.</li>
+      </ul>
+    </div>
+
+    <div style="margin-top: 2rem;">
+      <h3 style="font-family: var(--font-display); font-size: 1.4rem; color: var(--ink);">What Would Falsify This Hypothesis?</h3>
+      <p style="font-size: 0.95rem; color: var(--ink-soft); margin-top: 0.5rem;">This hypothesis is empirically testable and would be significantly weakened if:</p>
+      <ul style="padding-left: 1.5rem; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.8; margin-top: 0.5rem;">
+        <li>A natural language (or a simple phonetic cipher thereof) is found that produces an identical statistical footprint (Perplexity ~4.4, Valency ~86).</li>
+        <li>It is demonstrated mathematically that the "valency" metric is an artefact of transcription choice rather than an intrinsic property of the text.</li>
+        <li>A simple mechanical generative model is built that reproduces both the text's local properties and its macro-level spatial/domain correlations simultaneously.</li>
       </ul>
     </div>
 
     <p style="margin-top: 2rem;">
-      This study has successfully resolved the <em>topology</em> and <em>layout geometry</em> of the manuscript.
-      The text is demonstrably not random noise and demonstrably not a substitution cipher of a natural language.
+      This study has mapped the <em>topology</em> and <em>layout geometry</em> of the manuscript.
       What it encodes — the specific identity of its objects, the exact meaning of its symbols — remains an
-      open question requiring methodologies beyond structural computational linguistics: potentially palaeography,
-      Renaissance Latin scientific vocabulary analysis, and iconographic expertise in 15th-century alchemy.
+      open question requiring methodologies beyond structural computational linguistics.
     </p>
 
     <p style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-muted); margin-top: 2rem; padding: 1rem; border-top: 1px solid var(--border);">
       All Python scripts, JSON folio maps, and raw transcription data used in this study are published openly
-      at <strong>github.com/username/voynich-research</strong> under MIT license.
-      Peer critique, replication attempts, and adversarial testing are explicitly welcomed.
+      at <strong>https://github.com/vigibygg-cmyk/voynich-research</strong> under MIT license.
+      Peer critique, replication attempts, and adversarial testing are explicitly welcomed. Feel free to open GitHub Issues for methodological debates.
     </p>
+   <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); text-decoration: none; border: 1px solid var(--teal); padding: 0.5em 1em; transition: all 0.2s;">Open →</a>
   </section>
 
   <!-- ══ BACK LINK ══ -->
