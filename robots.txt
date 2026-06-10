@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vigibygg-cmyk.github.io/voynich-research/sitemap.xml
