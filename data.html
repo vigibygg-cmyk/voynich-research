@@ -3,10 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data &amp; Code — Voynich Manuscript Research</title>
-  <meta name="description" content="Complete reproducibility suite for the Voynich Manuscript Ontological Cipher study. Transcription sources, Python scripts, JSON folio mappings, and Google Colab execution instructions.">
+  <!-- ═══════════════════════════════════════════
+       SEO & METADATA
+  ════════════════════════════════════════════ -->
+  <title>Data & Code — Voynich Research</title>
+  <meta name="description" content="Open-source data repositories, EVA transcriptions, and Python scripts used for the computational analysis of the Voynich Manuscript.">
   <meta name="author" content="Vytautas Giedraitis">
-  <link rel="canonical" href="https://username.github.io/voynich-research/data.html">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://vigibygg-cmyk.github.io/voynich-research/data.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vigibygg-cmyk.github.io/voynich-research/data.html">
+  <meta property="og:title" content="Data & Code — Voynich Research">
+  <meta property="og:description" content="Open-source data repositories, EVA transcriptions, and Python scripts used for the computational analysis of the Voynich Manuscript.">
+  <meta property="og:site_name" content="Voynich Research">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://vigibygg-cmyk.github.io/voynich-research/data.html">
+  <meta name="twitter:title" content="Data & Code — Voynich Research">
+  <meta name="twitter:description" content="Open-source data repositories, EVA transcriptions, and Python scripts used for the computational analysis of the Voynich Manuscript.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -52,7 +70,7 @@
     .block-subtitle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 2rem; display: flex; align-items: center; gap: 0.75rem; }
     .block-subtitle::before { content: ''; width: 1.5rem; height: 1px; background: var(--gold); }
     p { font-size: 1rem; line-height: 1.85; color: var(--ink-soft); margin-bottom: 1.25rem; }
-    
+
     /* LINKS & LISTS */
     .link-list { list-style: none; margin: 1.5rem 0 2.5rem 0; }
     .link-list li { padding: 1rem; background: var(--parchment2); border: 1px solid var(--border); margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between; }
@@ -126,7 +144,7 @@
       Data &amp; <em>Code</em>
     </h1>
     <p class="page-lead fade-up delay-3">
-      Open science requires open data. Here you will find the complete toolkit required to independently verify, replicate, and challenge the findings of the 118-phase replication study.
+      Open science requires open data. Here you will find the complete toolkit required to independently verify, replicate, and challenge the findings of the replication study of over 100 detailed analyses.
     </p>
   </div>
 </header>
@@ -187,7 +205,7 @@
   <section class="section-block">
     <div class="block-subtitle">§ 03 · Python Scripts</div>
     <h2 class="block-title">Computational<br><em>Algorithms</em></h2>
-    <p>The following are foundational scripts from the 118-phase study. The full suite of algorithms covers BPE valency mapping, SVD clustering, generative Markov chains, and Cross-Corpus Isomorphic Translation.</p>
+    <p>The following are foundational scripts from the study of over 100 detailed analyses. The full suite of algorithms covers BPE valency mapping, SVD clustering, generative Markov chains, and Cross-Corpus Isomorphic Translation.</p>
 
     <!-- Script 1 -->
     <div class="code-wrapper">
@@ -195,7 +213,7 @@
         <span class="code-title">phase_01_data_extraction.py</span>
         <span class="code-desc">Downloads &amp; Standardises IVTFF files (removes inline comments, normalizes spaces).</span>
       </div>
-      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: DATA EXTRACTION SCRIPT (PHASE I)
+      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: DATA EXTRACTION SCRIPT (PHASE 1)
 # Target Environment: Google Colab</span>
 
 <span class="code-keyword">import</span> urllib.request
@@ -220,7 +238,7 @@ TARGET_FILES = [<span class="code-string">"RF1b-er.txt"</span>, <span class="cod
         <span class="code-title">phase_04_edge_bias_analysis.py</span>
         <span class="code-desc">Calculates positional distribution of tokens at physical line edges (Edge Bias).</span>
       </div>
-      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: EDGE BIAS ANALYSIS (PHASE IV)
+      <pre><code><span class="code-comment"># VOYNICH MANUSCRIPT: EDGE BIAS ANALYSIS (PHASE 4)
 # Identifies tokens co-generated with illustration boundaries.</span>
 
 <span class="code-keyword">def</span> calculate_edge_bias(lines):
@@ -244,7 +262,7 @@ TARGET_FILES = [<span class="code-string">"RF1b-er.txt"</span>, <span class="cod
 
     <div style="text-align: center; margin-top: 3rem;">
       <a href="https://github.com/vigibygg-cmyk/voynich-research/tree/main/scripts" target="_blank" style="font-family: var(--font-mono); font-size: 0.8rem; letter-spacing: 0.1em; color: var(--ink); text-transform: uppercase; background: var(--gold); text-decoration: none; padding: 1rem 2.5rem; transition: background 0.2s;">
-        Access All 118 Phase Scripts on GitHub
+        Access All 100+ Phase Scripts on GitHub
       </a>
     </div>
   </section>
@@ -270,6 +288,51 @@ TARGET_FILES = [<span class="code-string">"RF1b-er.txt"</span>, <span class="cod
         <span class="item-title">data/folio_maps/f75r_mapping.json</span>
         <span class="item-desc">Bisection points and fluid extraction flows</span>
         <a href="data/folio_maps/f75r_mapping.json" target="_blank" class="link-btn">View JSON</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================= PHASE 127-130 TOOLS ================= -->
+  <section class="section-block">
+    <div class="block-subtitle">§ 04b · Root Extraction &amp; Translation (Phases 127–130)</div>
+    <h2 class="block-title">Decoding <em>Tools</em></h2>
+    <p>The following scripts and data files power the root extraction, language affinity mapping, and full-corpus translation phases. All are designed for reproducibility.</p>
+
+    <ul class="link-list">
+      <li>
+        <span class="item-title">extract_all_roots.ps1</span>
+        <span class="item-desc">Universal root extraction from 3 transcriptions — strips operators &amp; states, retains 100% consensus roots</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">scan_languages.ps1 / scan_languages_v2.ps1</span>
+        <span class="item-desc">Language affinity scanner — generates phonetically tolerant regex patterns against 13 historical corpora</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">scan_eastern.ps1</span>
+        <span class="item-desc">Eastern phonetics test — maps Voynich roots to Arabic script, Hebrew, and transliteration variants</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">run_audit.py</span>
+        <span class="item-desc">Latin vs Arabic dual-blind phonetic audit across all 3 transcriptions</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">voynich_translator.py</span>
+        <span class="item-desc">Full translation engine — 4-layer parsing architecture: Anchors → Operators → Roots → States</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">Universal_Root_Database.csv</span>
+        <span class="item-desc">2,263 unique roots with frequency counts, folio distribution, and dominant operators</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
+      </li>
+      <li>
+        <span class="item-title">Phase_129_Master_Voynich_Lexicon.md</span>
+        <span class="item-desc">Master lexicon — decoded roots (tal, kal) and 10 confirmed unknowns with evidence chains</span>
+        <a href="https://github.com/vigibygg-cmyk/voynich-research/" target="_blank" class="link-btn">GitHub</a>
       </li>
     </ul>
   </section>

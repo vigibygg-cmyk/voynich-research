@@ -3,13 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research Phases — Voynich Manuscript Computational Study</title>
-<meta name="description" content="Complete chronological record of 118 research phases by Vytautas Giedraitis — from raw data extraction to semantic decoding of the Voynich Manuscript.">
-<meta name="author" content="Vytautas Giedraitis">
-<link rel="canonical" href="https://username.github.io/voynich-research/phases.html">
-<meta property="og:title" content="Research Phases — Voynich Manuscript Computational Study">
-<meta property="og:description" content="118 chronological research phases from data extraction to formal grammar induction, pixel-level spatial mapping, and semantic decipherment.">
-<meta property="og:url" content="https://username.github.io/voynich-research/phases.html">
+  <!-- ═══════════════════════════════════════════
+       SEO & METADATA
+  ════════════════════════════════════════════ -->
+  <title>Research Phases — Voynich Manuscript Analysis</title>
+  <meta name="description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+  <meta name="author" content="Vytautas Giedraitis">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
+  <meta property="og:title" content="Research Phases — Voynich Manuscript Analysis">
+  <meta property="og:description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+  <meta property="og:site_name" content="Voynich Research">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
+  <meta name="twitter:title" content="Research Phases — Voynich Manuscript Analysis">
+  <meta name="twitter:description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -648,11 +663,11 @@
       The <em>Chronological</em> Record<br>of All Research Phases
     </h1>
     <p class="page-lead fade-up delay-3">
-      Over 118 research phases — from raw data extraction and entropy triangulation to formal grammar induction,
+      Over 100 detailed analyses — from raw data extraction and entropy triangulation to formal grammar induction,
       pixel-level spatial mapping, and semantic decipherment attempts of Beinecke MS 408.
     </p>
     <div class="hero-stats fade-up delay-4">
-      <div class="stat"><span class="stat-num">118</span><span class="stat-label">Research Phases</span></div>
+      <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Total Phases</span></div>
       <div class="stat"><span class="stat-num">3</span><span class="stat-label">Transcription Sources</span></div>
       <div class="stat"><span class="stat-num">38 506</span><span class="stat-label">Words Analysed</span></div>
       <div class="stat"><span class="stat-num">~4.44</span><span class="stat-label">Bigram Perplexity</span></div>
@@ -685,18 +700,11 @@
   </div>
 </div>
 
-<div class="progress-wrap">
-  <div class="progress-inner">
-    <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:1%"></div></div>
-    <div class="progress-label" id="progressLabel">Phase I of 118</div>
-  </div>
-</div>
-
 <!-- ══════════════════════════════════════
      MAIN LAYOUT
 ══════════════════════════════════════ -->
 <div class="main-layout">
-  <aside class="timeline-sidebar" id="sidebar" aria-label="Phase list"></aside>
+  <aside class="timeline-sidebar" id="sidebar" aria-label="Phase 51st"></aside>
   <main class="detail-panel" id="detailPanel" aria-live="polite"></main>
 </div>
 
@@ -724,12 +732,12 @@
 
 <script>
 // =====================================================================
-// PHASE DATABASE — all 118 phases, data from research protocols
+// PHASE 500ATABASE — all 118 phases, data from research protocols
 // =====================================================================
 const PHASES = [
 
-// ── STAGE I: STRUCTURAL FOUNDATION (I–X) ─────────────────────────────
-{id:'I', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+// ── STAGE 1: STRUCTURAL FOUNDATION (I–X) ─────────────────────────────
+{id:'1', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Data Extraction & Standardisation',
  tagline:'Building a bias-resistant foundation from three independent transcription sources.',
  objective:'Extract, clean, and standardise EVA transcription sets of the Voynich Manuscript (Beinecke MS 408) in IVTFF format. Prevent transcriber-bias overfitting via data triangulation across three distinct sources.',
@@ -739,7 +747,7 @@ const PHASES = [
  badge:'confirmed', badgeText:'Cross-transcription consistency established',
  nums:[{v:'38,506',l:'Words (RF1b-er)'},{v:'39,381',l:'Words (ZL3b-n)'},{v:'37,945',l:'Words (IT2a-n)'}]},
 
-{id:'II', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'2', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Entropy & Morphological Valency Triangulation',
  tagline:'Ruling out the hoax hypothesis with mathematical finality; revealing an anomalous combinatorial structure.',
  objective:'Measure Character Bigram Perplexity to disprove the Hoax hypothesis. Apply BPE (500 merges) to calculate Morphological Valency without a priori linguistic assumptions.',
@@ -754,7 +762,7 @@ const PHASES = [
               ['IT2a-n (Basic EVA)','37,945','4.4651','88.68',"'l', 'd', 'y'"],
               ['RANDOM_HOAX_BASELINE','38,506','14.1924','202.07',"'c', 'a', 'y'"]]}},
 
-{id:'III', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'3', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'PMI Matrix & Hard Syntactic Chains',
  tagline:'Specific token sequences are algorithmically locked — far beyond any natural language collocation.',
  objective:'Calculate Pointwise Mutual Information for all word bigrams (frequency ≥ 15) to identify rigid chains consistent with an Object → State → Dose operational sequence.',
@@ -770,7 +778,7 @@ const PHASES = [
               ['RANDOM_HOAX','173','3.0739','(statistical noise)']]},
  chain:'<span>or</span> → <span>aiin</span>   (Liquid Extract → Dose/Quantity)   PMI: 5.98'},
 
-{id:'IV', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'4', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Edge Bias & Visual Triangulation',
  tagline:'Illustrations are active syntactic boundaries — they force procedural closure at the line edge.',
  objective:'Verify (A) line termination by illustration forces dosage-suffix closure (-iin, -am); (B) structural anchors blindly predict manuscript sections without knowing page content.',
@@ -785,7 +793,7 @@ const PHASES = [
               ['IT2a-n','12.09%','21.79%','1.80×'],
               ['RANDOM_HOAX','13.21%','13.22%','1.00×']]}},
 
-{id:'V', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'5', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Historical Corpus Comparison (Bootstrapped)',
  tagline:'No natural language matches the Voynich fingerprint — but closest neighbours reveal its domain.',
  objective:'Cross-reference manuscript statistics against 13 historical corpora spanning Germanic, Romance, Finno-Ugric, and Slavic families across multiple thematic domains.',
@@ -803,7 +811,7 @@ const PHASES = [
               ['German Botany/Medicine','9.99','21.7','2.25'],
               ['RANDOM_HOAX','14.64','42.9','4.53 ← furthest']]}},
 
-{id:'VI', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'6', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Phylogenetic Profiling & Multi-Partite Chains',
  tagline:'Rigid 3-step lexical loops confirm an algorithmic procedural syntax, not natural prose.',
  objective:'Validate tripartite and quadrupartite syntactic chains. Map Phylogenetic Distance between Voynich and all historical corpora simultaneously.',
@@ -813,7 +821,7 @@ const PHASES = [
  nums:[{v:'2.22',l:'Finnish Astro (Rank 1)'},{v:'4.53',l:'Hoax Distance'}],
  chain:'<span>ol</span> → <span>s</span> → <span>aiin</span>   (Base Extract → State Modifier → Dose)'},
 
-{id:'VII', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'7', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Blind TF-IDF Extraction & Macro-Operator Discovery',
  tagline:'The true macro-operators emerge blind from the mathematics — lk- rules Recipes; yt-/yp- rules Botany and Astronomy.',
  objective:'Extract authentic thematic anchors via "Tabula Rasa" TF-IDF on 1–3 character prefixes across visual sections — no prior semantic assumptions.',
@@ -822,18 +830,18 @@ const PHASES = [
  badge:'confirmed', badgeText:'Sectoral Polymorphism statistically supported',
  nums:[{v:'0.52',l:'lk- TF-IDF'},{v:'0.43',l:'yto-/yp- Score'},{v:'≤0.20',l:'Hoax Maximum'}]},
 
-{id:'VIII', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'8', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Ontological Dictionary Key v1.0',
  tagline:'Contextual extraction locks macro-operators to their visual illustrations — the first formal decoding key.',
- objective:'Final transition from structural statistics to visual semantic decoding. Extract exact textual context for Phase VII tokens and correlate with illustrations.',
+ objective:'Final transition from structural statistics to visual semantic decoding. Extract exact textual context for Phase 7 tokens and correlate with illustrations.',
  finding:'lka-/lkc- exclusively dominated Recipes and Balneology (f108v, f82r, f75v) → Procedural Command Anchor. yto-/yp- synchronised Herbal and Astronomy → Taxonomic Object Anchors. ol→s→aiin concentrated in Pharmaceutical/Herbal → Operational Recipe Loop. Ontological Dictionary Key v1.0 formalised.',
  badge:'confirmed', badgeText:'Ontological Dictionary Key v1.0 established',
  chain:'<span>lk-</span> = COMMAND  ·  <span>yt-/yp-</span> = ENTITY  ·  <span>ol→s→aiin</span> = EXTRACT→STATE→DOSE'},
 
-{id:'IX', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'9', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Predictive Power & 91.5% Blind Classification',
  tagline:'91.5% blind classification accuracy — the cipher predicts the illustration before you see the page.',
- objective:'Test predictive power: classify each line as Procedural or Natural using only Phase VIII Ontological Keys.',
+ objective:'Test predictive power: classify each line as Procedural or Natural using only Phase 8 Ontological Keys.',
  method:'Binary classifier using lka-/yt- presence. Folio illustration data completely masked during classification. RANDOM_HOAX_BASELINE: identical algorithm on shuffled text.',
  finding:'91.5% mean accuracy (authentic) vs. 49.65% (hoax = random chance). Live parser: yypchdair ol s aiin oly → [UNKNOWN] → [BASE: Liquid] → [STATE] → [DOSE] → [BASE]. The A→B→C algorithm visible in real text. Pasigraphic Instruction Engine strongly supported.',
  badge:'confirmed', badgeText:'Pasigraphic Instruction Engine demonstrated',
@@ -844,7 +852,7 @@ const PHASES = [
               ['IT2a-n','308','282','91.56%'],
               ['RANDOM_HOAX','288','143','49.65%']]}},
 
-{id:'X', stage:'structural', group:'Stage I — Structural Foundation (Phases I–X)',
+{id:'10', stage:'structural', group:'Stage 1 — Structural Foundation (Phases 1–10)',
  title:'Micro-Polymorphism — Dynamic Grammar',
  tagline:'The same prefix changes its suffix grammar depending on which section of the manuscript it appears in.',
  objective:'Investigate whether suffix frames attaching to constant prefix anchors change dynamically based on visual section — Micro-Sectoral Polymorphism.',
@@ -852,37 +860,37 @@ const PHASES = [
  finding:'Anchor qok-: Herbal → dominant -chy/-edy/-y; Astronomy → dominant -ar/-aiin/-al; Recipes → -eey/-eedy/-aiin. Hoax: maximum suffix frequency 1–2 times. Dynamic Grammar / Micro-Sectoral Polymorphism validated.',
  badge:'confirmed', badgeText:'Dynamic Grammar confirmed — three-tier polymorphism established'},
 
-// ── STAGE I CONTINUED: DEEPER LAYERS (XI–XXXI) ───────────────────────
-{id:'XI', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+// ── STAGE 1 CONTINUED: DEEPER LAYERS (XI–XXXI) ───────────────────────
+{id:'11', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Semantic Peeling & The Garbage Barrier',
  tagline:'Stripping the top 40 structural operators exposes the deep taxonomic layer of genuine nouns.',
  objective:'Test the Garbage Barrier hypothesis: most frequent tokens are universal structural/procedural operators (doses, states). Stripping them exposes the underlying taxonomic vocabulary.',
  method:'Top 0.5% (~40) most frequent tokens identified dynamically per transcription. Stripped from corpus. Post-peeling TF-IDF run to expose section-specific lexemes.',
- finding:'Top global operators (daiin, ol, aiin, chedy, ar, shedy, or…) exactly match Phase VIII Ontological Dictionary functional suffixes and base states. Post-peeling: Herbal exposed chor/kchy/sho; Astronomy exposed oto-/olkar-; Recipes isolated lkain-/lkeey-. Two-layer architecture confirmed: Operational Layer + Taxonomic Layer.',
+ finding:'Top global operators (daiin, ol, aiin, chedy, ar, shedy, or…) exactly match Phase 8 Ontological Dictionary functional suffixes and base states. Post-peeling: Herbal exposed chor/kchy/sho; Astronomy exposed oto-/olkar-; Recipes isolated lkain-/lkeey-. Two-layer architecture confirmed: Operational Layer + Taxonomic Layer.',
  badge:'confirmed', badgeText:'Two-layer architecture confirmed: Operational + Taxonomic layers'},
 
-{id:'XII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'12', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Taxonomic Nomenclature Isolation',
  tagline:'Dynamic stemming removes suffix inflation and exposes the pure semantic lexeme of every word.',
  objective:'Execute ultimate isolation of Taxonomic Nomenclature via dynamic stop-word and suffix discovery, then TF-IDF on pure lexeme stems.',
  finding:'Herbal: cho- emerged as absolute macro-taxon (TF-IDF ~2.52). Astronomy: oteo- (~0.90), yto- (0.65). Recipes: lk- (~1.65) — undisputed operational macro-operator. Balneology: sheck- (1.00). Hoax: max score 0.45 vs. authentic 2.52.',
  badge:'confirmed', badgeText:'Pure taxonomic noun vocabulary mathematically isolated'},
 
-{id:'XIII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'13', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'PPMI Vector Space & Historical Corpus Preparation',
  tagline:'Building the geometric semantic map of Voynich and 35 historical target spaces for isomorphic alignment.',
  objective:'Construct multi-dimensional PPMI vector spaces for the manuscript\'s pure lexemes and parallel target spaces from a 35-file multilingual historical corpus (1300–1600 AD).',
  finding:'Primary Voynich semantic hubs: ok/oka- (1,200–1,695 occurrences), ot- (1,300–1,490), ch-/sh- (600–800). Identical macro-nodes across all three transcriptions. Historical spaces: Finnish Astronomy ~1,818 dimensions, Latin History ~1,678. Isomorphic viability demonstrated.',
  badge:'confirmed', badgeText:'Geometric stability across all transcriptions — isomorphic viability demonstrated'},
 
-{id:'XIV', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'14', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'SVD Topological Clustering & Paper Computer Validation',
  tagline:'"Paper Computer" theory confirmed: vocabulary occupies rigid predefined syntactic slots.',
  objective:'Test whether Voynich words occupy rigid predefined syntax slots (Paper Computer / FSM) by blindly clustering vocabulary via Left-Right adjacency topology + SVD + K-Means.',
  finding:'Authentic clusters: State Modifiers (ar, or, s, r, char), Terminals/Base Substances (daiin, ol, aiin, chedy), Macro-Operators/Nouns (sho, chol, shol, cthy). Hoax: functionally distinct clusters collapsed — topological identity destroyed. FSM syntax demonstrated.',
  badge:'confirmed', badgeText:'"Paper Computer" Finite-State Machine syntax statistically supported'},
 
-{id:'XV', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'15', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Dependency Graph & Directional Flow Analysis',
  tagline:'The syntax flows strictly in one direction: STATE → TERMINAL. Natural language is bidirectional.',
  objective:'Validate the directional execution logic: does Voynich syntax exhibit the directed flow [State Modifier → Terminal] of a deterministic instruction engine?',
@@ -893,21 +901,21 @@ const PHASES = [
               ['ZL3b-n','419 (65.2%)','224 (34.8%)','~1.8:1'],
               ['IT2a-n','331 (63.1%)','194 (37.0%)','~1.7:1']]}},
 
-{id:'XVI', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'16', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Spatial Polymorphism & Pixel-Level Boundary Analysis',
  tagline:'Words physically touching illustrations carry morphologically different tokens than interior words.',
  objective:'Verify that tokens physically touching visual elements carry morphologically distinct signatures compared to non-touching words.',
  finding:'Words bordering illustrations exhibit statistically distinct morphological profiles — specifically elevated Terminal tokens (-aiin, -am) at the collision boundary. This is the pixel-level evidence of Edge Bias: the illustration physically terminates the syntactic chain. Spatial Polymorphism adds a third dimension to Macro- and Micro-Polymorphism.',
  badge:'confirmed', badgeText:'Spatial Polymorphism confirmed — three-tier polymorphism established'},
 
-{id:'XVII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'17', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Predictive Suffix Morphology — Folio-Level Grammar',
  tagline:'Suffix profiles are predictive at folio level — the page tells you which ending to expect.',
  objective:'Test whether suffix frequency profiles alone (without folio label or illustration data) can predict the thematic section of a folio.',
  finding:'Suffix vectors alone achieved above-chance folio-section classification. Balneology and Recipes showed highest suffix distinctiveness. Herbal and Astronomy overlapping — consistent with shared yto-/yp- anchor. Suffix morphology carries section-level information even when prefix information is suppressed.',
  badge:'confirmed', badgeText:'Suffix morphology contains section-predictive information'},
 
-{id:'XVIII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'18', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Spatial Anchor Analysis — Physical Edge Collision Mapping',
  tagline:'Botanical anchors (sho, cho) collide with drawn leaves and roots at statistically impossible rates for random text.',
  objective:'Mathematically verify that semantic roots physically collide with their exact pictorial counterparts on the page.',
@@ -915,14 +923,14 @@ const PHASES = [
  badge:'confirmed', badgeText:'Multimodal semantic alignment demonstrated — 43.1% fluid match rate',
  nums:[{v:'28.3%',l:'Global Match Rate'},{v:'43.1%',l:'Fluid Section'},{v:'21.2%',l:'Botanical'}]},
 
-{id:'XIX', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'19', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Morphological Transition Graph & Community Analysis',
  tagline:'Three isolated functional communities that natural languages cannot produce.',
  objective:'Build the complete morphological transition graph and measure community isolation to quantify functional specialisation.',
  finding:'Three isolated functional communities: (1) Prefix/Command tokens (lk-, yt-/yp-), (2) State/Modifier tokens (s, or, ar, shedy), (3) Terminal/Dose tokens (-aiin, -am, daiin, chedy). Inter-community transitions are unidirectional (Commands → States → Terminals). Graph Modularity Q significantly exceeds natural text values.',
  badge:'confirmed', badgeText:'Three-community functional architecture confirmed'},
 
-{id:'XX', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'20', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'LSA Discourse Coherence (Layfield & Davis Replication)',
  tagline:'The semantic skeleton — with all procedural glue removed — still outperforms random noise by 2.2×.',
  objective:'Cross-validate findings with Layfield & Davis (2026, DHQ) LSA methodology.',
@@ -933,21 +941,21 @@ const PHASES = [
               ['ZL3b-n','0.2670','0.2361','0.1073'],
               ['IT2a-n','0.2727','0.2418','0.1055']]}},
 
-{id:'XXI', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'21', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Label-to-Paragraph Invocation Test (Emlyn-Jones)',
  tagline:'Isolated illustration labels are procedurally invoked in adjacent text at 1.6× above random chance.',
  finding:'Authentic invocation rate: 8.68–9.73% across three transcriptions. Chaos control: 5.92%. Statistically significant 1.6× elevation. Label-Paragraph coupling confirmed — Emlyn-Jones hypothesis validated.',
  badge:'confirmed', badgeText:'Label-Paragraph coupling confirmed',
  nums:[{v:'9.5%',l:'Mean Invocation Rate'},{v:'5.9%',l:'Chaos Control'},{v:'1.6×',l:'Above Random Chance'}]},
 
-{id:'XXII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'22', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Universal Visual-Semantic Alignment (Three-Factor)',
  tagline:'The ultimate test: words physically touching their pictorial counterparts at rates impossible by chance.',
  finding:'Global Match Rate: 27.3–28.3% (stable across all three transcriptions). Fluid/Balneology: 43.1%. Cosmic/Astronomy: 28.6%. Botanical/Herbal: 21.2%. In randomised ciphertext, pixel-level morphological collision at this scale approaches zero probability.',
  badge:'confirmed', badgeText:'Multimodal semantic map demonstrated — 43% fluid domain alignment',
  nums:[{v:'28.3%',l:'Global Match Rate'},{v:'43.1%',l:'Fluid Section'},{v:'21.2%',l:'Botanical Section'}]},
 
-{id:'XXIII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'23', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Orthogonal Vector Alignment & Topological Isomorphism',
  tagline:'Voynich vector topology correlates with alchemical/botanical text networks — but 1:1 word translation was subsequently retracted.',
  objective:'Transition from structural isolation to semantic translation via Unsupervised Cross-Lingual Word Embeddings against Latin Alchemical and German Botanical texts.',
@@ -955,7 +963,7 @@ const PHASES = [
  badge:'partial', badgeText:'Topological isomorphism confirmed; 1:1 translation methodology corrected',
  chain:'<span>lka ol s aiin</span>  →  PROCESS( EXTRACT → STATE → YIELD:DOSE )'},
 
-{id:'XXV', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'25', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Competing Model Benchmarking — The Synthetic Gauntlet',
  tagline:'No standard cipher, hoax, or synthetic generator can simultaneously replicate Voynich perplexity AND valency.',
  finding:'Vigenère (substitution proxy): perplexity >6.0, valency 0 — destroys morphological predictability. Random noise: perplexity >20. Bigram Markov Chain trained on Voynich successfully replicates the footprint locally — defining the mechanical nature as a constrained Finite State Automaton. However, Markov cannot reproduce spatial/domain compartmentalisation.',
@@ -968,14 +976,14 @@ const PHASES = [
               ['Vigenère Cipher (Latin Plaintext)','6.1743','0.0000'],
               ['Constrained Gibberish (Random)','20.0204','100.8438']]}},
 
-{id:'XXVI', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'26', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'MDL Compression Benchmark — 95.5% Parse Rate',
  tagline:'95.5% of all Voynich words conform to a 14-prefix + 14-suffix morphological rule set — with zero hardcoded assumptions.',
  finding:'Morphological Parse Rate = 94.7–96.4%. A rigid 28-affix artificial rule set successfully maps ~95.5% of the entire vocabulary. Natural languages would fail massively under such constraints. Ultimate proof of Lego-block architecture.',
  badge:'confirmed', badgeText:'95.5% morphological parse rate — Lego-block architecture confirmed',
  nums:[{v:'95.5%',l:'Mean Parse Rate'},{v:'28',l:'Total Affixes'},{v:'68%',l:'zlib Savings'}]},
 
-{id:'XXVII', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'27', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Tri-Variant K-Fold Cross-Validation',
  tagline:'F1-Macro 0.80 on unseen folios — the thematic signal survives every layout normalisation attempt.',
  finding:'All variants: permutation p-value = 0.001. Destroying layout (Variant B) boosted F1 by +10.47% — the line structure was noise. Variant C under strict chunk holdout: F1 0.7782, MCC 0.6306 — exceeds pre-registered KPI.',
@@ -985,7 +993,7 @@ const PHASES = [
               ['B — Page-Level Flow','—','0.8009','0.6780'],
               ['C — 50-word Chunks','—','0.7782','0.6306']]}},
 
-{id:'XXVII-B', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'27-B', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Leave-One-Quire-Out (LOQO) Validation',
  tagline:'Quire-level holdout eliminates all physical formatting bias — the signal is real across scribal hands.',
  finding:'Destroying layout (B vs. A): F1 +10.47%, MCC +14.22%. The signal grows stronger as formatting is removed. Strongly Suggests the thematic-structural matrix is a global, manuscript-wide reality.',
@@ -995,7 +1003,7 @@ const PHASES = [
               ['B — Page Flow','0.7908','0.7389','0.6780','✓ PASSED KPI'],
               ['C — 50w Chunks','0.7295','0.6815','0.6306','✓ PASSED KPI']]}},
 
-{id:'XXVIII-B', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'28-B', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'LOQO Structural Validation & Feature Ablation',
  tagline:'Removing word-initial prefixes destroys 8.4% of structural signal — the Taxonomic Anchor is in the prefix.',
  finding:'Prefix ablation: severe F1 drop (-0.0839) and MCC drop (-0.0980). Suffix ablation: moderate drop. BPE terminal ablation: virtually no change (-0.0054). Definitively strongly suggests: PREFIXES = Taxonomic Anchors; SUFFIXES = universal grammatical syntax.',
@@ -1006,7 +1014,7 @@ const PHASES = [
               ['–Suffix (final 3 chars)','0.6337','-0.0478','0.5546'],
               ['–SVD BPE Terminals','0.6761','-0.0054','0.6222']]}},
 
-{id:'XXIX', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'29', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Adversarial Benchmarking Gauntlet',
  tagline:'MCC gap of +0.40 against all three adversarial controls — shattering the pre-registered +0.25 threshold.',
  finding:'Pre-registered success: gap > 0.25. Actual gap: +0.40–0.41 across all adversarial controls. All three controls collapsed to MCC ≤ 0. Critically: the Markovian pseudo-language failed completely. Strongly Suggests the structure requires genuine functional token-space partitioning tied to physical illustration zones.',
@@ -1017,7 +1025,7 @@ const PHASES = [
               ['Medieval Formulaic Recipes','-0.0047','+0.4075','3.0795'],
               ['Markovian Pseudo-Language','-0.0120','+0.4148','2.3050']]}},
 
-{id:'XXX', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'30', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Formal Generative Model — MDL Grammar Induction',
  tagline:'The syntax is flat — like a flowchart, not like a language. Deep recursive grammar rejected.',
  finding:'Voynich parse coverage: 1.9% (vs. 6.9–10.7% for natural compounding languages). Only 25 valid rules. Mirrors Markov control (1.5%, 24 rules). Hurst Exponent (-0.0015) ≈ Markov (-0.0021). Final conclusion: locally Markovian + globally deterministic = Finite-State Pasigraphic Machine.',
@@ -1029,116 +1037,116 @@ const PHASES = [
               ['Ancient Greek','67','6.9%','0.0016'],
               ['German Botany','77','9.8%','-0.0040']]}},
 
-{id:'XXXI', stage:'structural', group:'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
+{id:'31', stage:'structural', group:'Stage 1 — Deeper Structural Layers (Phases 11–31)',
  title:'Transition Graph Topology & Spectral Benchmarking',
  tagline:'Even fully normalised for vocabulary and length, Voynich transition topology remains uniquely anomalous.',
  finding:'After length/vocabulary normalisation, Voynich maintains statistically distinct position in EMD, JSD, and Spectral feature space. H(2) second-order conditional entropy substantially lower than all natural and formulaic corpora — confirming rigid triadic token chains. The anomalous topology is not a size or frequency artefact.',
  badge:'confirmed', badgeText:'Topological anomaly confirmed even under maximum normalisation'},
 
-// ── STAGE II: SEMANTIC GROUNDING ─────────────────────────────────────
-{id:'XXXII', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+// ── STAGE 2: SEMANTIC GROUNDING ─────────────────────────────────────
+{id:'32', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Masked Language Modelling (MLM) Prediction',
  tagline:'Providing semantic class of context tokens dramatically improves masked-token prediction — the Dictionary works.',
  finding:'True Ontology achieved pre-registered perplexity reduction on Voynich masked tokens. True Ontology FAILED to improve predictions on German Botany and Finnish Astronomy — confirming specificity: the gain is not a generic dimensionality-reduction artefact.',
  badge:'confirmed', badgeText:'Ontological Dictionary validated — class labels carry genuine syntactic information'},
 
-{id:'XXXIII', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'33', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Controlled Synthesis Benchmark — Ground Truth Sandbox',
  tagline:'The decoding pipeline correctly recovers ground truth structure and rejects all four adversarial variants.',
  finding:'Parser correctly identified True Encoding within pre-registered GED and UAS thresholds. All four adversarial variants correctly rejected. True Noisy encoding (with realistic EVA transcription noise) still correctly identified. Pipeline is robust to transcription variability.',
  badge:'confirmed', badgeText:'Ground truth recovered — pipeline validated'},
 
-{id:'XXXV', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'35', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'The Final Decipherment — Apriori Taxonomic Pasigraphy',
  tagline:'The manuscript is not a hidden language — it is a classification system encoding botanical and alchemical science in ontological coordinates.',
  finding:'Decoded text reads as a sequence of taxonomic relations. Words ending in -aiin or -edy act as structural Terminals (punctuation embedded in the word). f2r (botanical bisections) vs. f68r (pure [TAXON:ot-] coordination) confirms the system adapts grammar to domain. FINAL VERDICT: The Voynich Manuscript is an early unique example of "A Priori Taxonomic Pasigraphy" — a visual knowledge database where text serves as metadata geometrically anchored to illustrations.',
  badge:'confirmed', badgeText:'Pasigraphic Instruction Engine hypothesis strongly supported',
  chain:'<span>[INITIATOR]</span> + <span>[TAXON]</span> + [MEDIUM] + <span>[TERMINATOR]</span> = procedural taxonomic record'},
 
-{id:'36', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'36', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Experimental Decipherment — Folio f1v (All 10 Loci)',
  tagline:'All 10 bisected loci on f1v decoded: each line terminates against the central stem.',
  finding:'All 10 loci confirmed bisected by the central main stem (x: 455–510). Sample: f1v.2 (yteey.char.or.ochy ↔ dcho.lkody.okodar.chody) → [MIX] → [BASE: yteey] → [YIELD]. Cross-folio validation across 3,267 words: 42.18% contain [INITIATOR/COMMAND] tokens.',
  badge:'confirmed', badgeText:'f1v fully decoded — 10/10 bisections geometrically confirmed',
  nums:[{v:'10/10',l:'Loci Bisected'},{v:'42.18%',l:'Command Token Rate'},{v:'3,267',l:'Words Validated'}]},
 
-{id:'39', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'39', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Multi-Folio Semantic Search & Token Atlas',
  tagline:'Systematic prefix-search establishes the first cross-domain token frequency atlas.',
  finding:'Folio-level command and modifier token rates: f103r (251 commands, 351 modifiers), f104r (189/201), f116r (210/296), f75r (209/266 — highest Balneology density). Astronomical folios label-dominant; Herbal folios procedural-dominant; Recipes folios text-dominant (no bisections).',
  badge:'confirmed', badgeText:'Cross-domain token atlas established'},
 
-{id:'41', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'41', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Cautious Isomorphic Translation — Extended Corpus',
  tagline:'Applying the Ontological Key to a wider corpus with explicit confidence levels and unknown-token tracking.',
  finding:'~60% HIGH confidence, ~20% MEDIUM, ~20% UNKNOWN. UNKNOWN tokens concentrated in Astronomical section — expected given distinct ot-/oteo- vocabulary not yet fully mapped. Dictionary is not artificially inflating coverage.',
  badge:'partial', badgeText:'Extended corpus partially translated — 60% high-confidence coverage'},
 
-{id:'57', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'57', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Folio f69v — 28 Lunar Day Cosmological Analysis',
  tagline:'The astronomical foldout f69v encodes 28 lunar mansion data — textual stems cluster around 28 dominant nodes.',
  finding:'Stem extraction across all three transcriptions for the f69v section. Top 28 stems cover 49.1% of the Astronomical section. t- (6.4%), k- (6.1%), ai- (4.2%), ke- (3.2%), e- (3.1%)… Cluster size distribution follows expected frequency decay for 28 discrete astronomical entities. 28 Lunar Mansions alignment confirmed.',
  badge:'confirmed', badgeText:'28-stem Lunar Mansion alignment at 49.1% coverage confirmed',
  nums:[{v:'2,388',l:'Stems Analysed'},{v:'49.1%',l:'Top 28 Coverage'},{v:'28',l:'Mansion Matches'}]},
 
-{id:'66', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'66', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Blind Morphological Scanning — Unsupervised Discovery',
  tagline:'Zero assumptions: the algorithm discovers prefix–suffix transition rules purely from frequency data.',
  finding:'Top emerging prefixes (blind): lk- (command cluster), ch- (botanical), ok-/qok- (container/astronomical), ot- (stellar), sh-/sho- (plant entity). Top suffixes: -aiin (terminal dose), -edy/-dy (state modifier), -ol (base medium), -ar/-al (liquid state). These EXACTLY match the Ontological Dictionary Key established via months of prior research — derived here with zero priors. Ultimate confirmation.',
  badge:'confirmed', badgeText:'Zero-prior morphological discovery replicates full Ontological Dictionary'},
 
-{id:'67-68', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'67-68', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'New Operational Codes — Transition Matrices',
  tagline:'Blind consensus discovers: qo- = directional outflow; so-/sa- = inflow/collect.',
  finding:'New prefix codes via transition matrix: qo- (DIRECTIONAL OUTFLOW/POUR) appears at pipe outflow points in f82r, f86v; so-/sa- (INFLOW/COLLECT) at collection/basin points. Transition matrix: COMMAND tokens → ENTITY tokens → STATE tokens → DOSE terminals. Three-step chain confirmed independently via transition probabilities.',
  badge:'confirmed', badgeText:'Blind transition matrix confirms full Command→Entity→State→Dose flow',
  chain:'<span>qo-</span> = OUTFLOW/ACTIVE  ·  <span>so-/sa-</span> = INFLOW/COLLECT  ·  <span>lk-</span> = COMMAND'},
 
-{id:'75-77', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'75-77', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Semantic Grounding Iterations A–D',
  tagline:'Four grounding passes anchor botanical, preparatory, state, dose, and object tokens to historical references.',
  finding:'Iteration A: lka-type prefixes grounded to 8 historical operation types (Heat, Mix, Cook, Drink, Apply, Take, Pound, Boil) matching Phase 116 Egyptian Papyri analysis. Iteration C: -edy suffix → dry/powder state; -ol cluster → liquid/extract. Iteration D: sho- → generic plant entity; cho- → specific botanical sub-category; ok-/qok- → container/vessel. All four iterations completed successfully.',
  badge:'confirmed', badgeText:'All four semantic grounding iterations completed'},
 
-{id:'83', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'83', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Cross-Domain Semantic Anchoring — Strict Empirical Analysis',
  tagline:'Semantic anchors validated across Botanical, Balneological, and Astronomical domains simultaneously.',
  finding:'ol (BASE/LIQUID) consistent in Herbal, Balneology, and Pharmaceutical. lk- (COMMAND) appears only in Recipes and Balneology — never in pure star-catalogue folios. ot-/oteo- appears only in Astronomical — zero occurrences in Herbal. Anchors are domain-exclusive or domain-dominant.',
  badge:'confirmed', badgeText:'Cross-domain semantic exclusivity confirmed for key anchors'},
 
-{id:'89', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'89', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Pasigraphic Knowledge Graph — Complete Assembly',
  tagline:'The full Voynich Ontological Dictionary assembled: operations, base substances, states, doses, and entities.',
  finding:'Knowledge Graph nodes: 8 operational codes (lka-/lkc-/lky- families), 5 base substance markers (ol/qol/al/chol/rol families), 12 state modifiers (s/or/ar/shedy/chey/dar/edy families), 6 dose terminators (-aiin/-am/-dy/-edy/-al/-dar), 5 entity categories. Knowledge Graph edges: 47 validated directed transitions with frequency > 5. Most complete formal description of Voynich syntactic architecture produced in any research programme.',
  badge:'confirmed', badgeText:'Complete Pasigraphic Knowledge Graph — 47 validated transitions'},
 
-{id:'97', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'97', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Folio f8v — Comfrey (Kaulažolė) Recipe Translation',
  tagline:'First complete attempted recipe translation: f8v decoded as a comfrey-based compounding instruction.',
  finding:'f8v decoded: plant entity anchor (cho-/sho-) → comfrey identification based on leaf morphology and root structure. Surrounding text: [TAKE comfrey-root] → [BASE: liquid extract] → [STATE: heat/warm] → [YIELD: 1 part/dose]. Translation produces a coherent medieval compounding recipe structurally identical to known Symphytum preparations from German Kräuterbücher of the period. Epistemological status: consistent interpretation, not demonstrated decipherment.',
  badge:'partial', badgeText:'f8v comfrey recipe structurally coherent — consistent with period literature'},
 
-{id:'103', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'103', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Dose–Leaf Count Statistical Correlation (SciPy)',
  tagline:'Drawn leaf count correlates statistically with dose-terminator frequency — direct maths-to-image link.',
  finding:'Statistically significant positive correlation between drawn botanical element count and dose-terminator frequency per folio (p < 0.05). More plant parts = more individual dosing steps = more terminal tokens. Direct mathematical link between visual content and text syntax — not coincidental.',
  badge:'confirmed', badgeText:'Dose–leaf count correlation statistically significant (p<0.05)'},
 
-{id:'116', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'116', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Ancient Recipe Syntax Alignment (Papyri & Picatrix)',
  tagline:'The grammatical structure of Voynich text is an exact isomorphic copy of ancient medical/alchemical grammar.',
  finding:'Ancient recipe grammar: OPERATION + INGREDIENT + DOSE/STATE. Operations: HEAT (6×), MIX (2×), COOK, DRINK, APPLY, TAKE, POUND, BOIL. Voynich FSM: [qo-/ch-] (Operation) + [Taxonomic Index] + [-in/-dy] (Dose/Fraction). Structural isomorphism confirmed — Voynich syntax is an exact mathematical copy of ancient medical instructional grammar encoded via taxonomic pasigraphy.',
  badge:'confirmed', badgeText:'Exact structural isomorphism with ancient recipe grammar confirmed',
  chain:'ANCIENT: <span>OPERATION</span> + INGREDIENT + DOSE  ≡  VMS: <span>[qo-/ch-]</span> + [Taxon] + <span>[-in/-dy]</span>'},
 
-{id:'117', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'117', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Picatrix 28 Lunar Mansions Alignment',
  tagline:'The Astronomical section clusters around exactly 28 dominant stems matching the Arabic Picatrix.',
  finding:'Total stems: 2,388. Top 28 stems: 49.1% coverage — almost exactly the expected ~50% for 28 discrete categories. Cluster size distribution follows expected frequency decay. Stem t provisionally → Mansion 1 (Al-Sharata); k → Mansion 2 (Al-Butain).',
  badge:'confirmed', badgeText:'28 Lunar Mansion alignment at 49.1% coverage confirmed',
  nums:[{v:'2,388',l:'Stems Analysed'},{v:'49.1%',l:'Top 28 Coverage'},{v:'28',l:'Mansion Matches'}]},
 
-{id:'118', stage:'semantic', group:'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
+{id:'118', stage:'semantic', group:'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
  title:'Pharmaceutical Stem Extraction — 3-Transcription Consensus',
  tagline:'34 consensus stems in Top 40 across all three independent transcriptions simultaneously.',
  finding:'Total valid stems: 3,168. 34 consensus stems identified. The ai stem (7.0%) — consistently highest across all transcriptions — is the primary dose/quantity anchor for the Pharmaceutical section.',
@@ -1150,8 +1158,8 @@ const PHASES = [
               ['4','e','165','177','182','5.2%'],
               ['5','ke','155','155','156','4.9%']]}},
 
-// ── STAGE III: MULTIMODAL GROUNDING ──────────────────────────────────
-{id:'XXXIV', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+// ── STAGE 3: MULTIMODAL GROUNDING ──────────────────────────────────
+{id:'34', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Deterministic Spatial Geometry & Bounding Box Collision',
  tagline:'Text gaps correspond with pixel-level precision to illustration bounding boxes — not coincidence.',
  objective:'Demonstrate that IVTFF <-> bisections and @L isolated labels physically collide with the bounding boxes of manuscript illustrations.',
@@ -1160,43 +1168,43 @@ const PHASES = [
  badge:'confirmed', badgeText:'≥75% bisection justification rate — geometric collision demonstrated',
  nums:[{v:'10/10',l:'f1v Loci Verified'},{v:'≥75%',l:'Collision Rate'},{v:'0–1000',l:'Coord System'}]},
 
-{id:'43', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'43', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Global Mapping Audit — All JSON Folio Integrations',
  tagline:'All completed pixel-level JSON mappings integrated into one coherent geometric model.',
  finding:'All completed folio JSON mappings (f1v, f2r, f67r1, f67r2, f68r1, f68r3, f68v3, f72r1, f75r, f75v, f78r, f80v, f82r, f85r2, f86v, f86v5, f86v6, f87r, f87v, f99v, f100r, f103r, f104r, f116r) cross-validated. Normalised coordinate system (0–1000) consistent across all folios. Central stems all fall within x: 440–520. No internal contradiction found.',
  badge:'confirmed', badgeText:'All pixel-level mappings internally consistent'},
 
-{id:'44', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'44', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Dual Isomorphic Translation — f87v & f103r',
  tagline:'Pharmaceutical jar folio vs. Recipes text folio: structural contrast confirms domain grammar.',
  finding:'f87v (Pharmaceutical jar folio): text dominated by -eo/-eor suffix clusters (container state modifiers) and ai-/k- stems (dose quantifiers). Grammar: cataloguing mode — TAXON + QUANTITY. f103r (Recipes): dominated by lk- prefix (command), qok-/cho- entities, -aiin/-dy dose terminators. Grammar: procedural mode — COMMAND + ENTITY + DOSE. The two folios use syntactically opposite grammars.',
  badge:'confirmed', badgeText:'Pharmaceutical cataloguing vs. Recipes procedural grammar distinction confirmed'},
 
-{id:'46', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'46', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Folio f82r — Balneology Pipe Systems Analysis',
  tagline:'f82r is not a bathing scene — the pipe network encodes a distillation/condensation flow diagram.',
  finding:'f82r pipe network: 4 major pipe junctions identified. Text at junction points: elevated qo- prefix (directional outflow/active movement) and qol-/ol- base tokens (liquid medium). Text at basin/collection points: elevated so-/sa- prefixes (inflow/collection). Pipe direction and prefix encode the same directional information in two modalities simultaneously. Interpretation: Athanor-type condensation/distillation circuit.',
  badge:'confirmed', badgeText:'Balneology = distillation/condensation flowchart — not bathing scenes'},
 
-{id:'47', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'47', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Folio f67r1 — 12-Sector Cosmological Wheel',
  tagline:'The 12 radiating sectors of f67r1 align with 12 dominant text anchors — a zodiacal encoding.',
  finding:'f67r1 contains 12 radial sectors. Top 12 text stems cover ~65% of the label vocabulary. Each sector contains a primary ot-/oteo- stem label plus 1–3 modifier labels. Pattern consistent with a 12-unit (zodiacal or calendar) classification system.',
  badge:'partial', badgeText:'12-fold periodicity confirmed — zodiacal/calendar interpretation supported'},
 
-{id:'45', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'45', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Star Colour & Temperature Operations Correlation',
  tagline:'Star colours in the Astronomical section correlate with suffix clusters encoding temperature states.',
  finding:'Red stars: significantly elevated -ar/-al suffix cluster (warm/active state markers). Blue/dark stars: elevated -chy/-edy cluster (cool/passive states). Black/uncoloured stars: mixed profile (base or neutral state). Colour-suffix correlation significant across f67r2 and f68r3. Supports hypothesis that star colour encodes a thermal or procedural state in an alchemical–astronomical system.',
  badge:'partial', badgeText:'Star colour–suffix correlation found — requires broader folio validation'},
 
-{id:'58-61', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'58-61', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'f69v / f70r — Cosmological Foldout Deep Decipherment',
  tagline:'The Trilobe master diagram encodes a three-stage alchemical cycle: three self-contained reactors.',
  finding:'f69v Diagram A: 28 radial labels — 28 Lunar Mansions. f70r2: four concentric rings with ~12 labels per ring — interpreted as 4 stages × 12 phases = 48-point operational matrix. Trilobe junction: three lobes each a self-contained reaction chamber. Pelican-bird motif at centre: historically documents the Pelican flask used in circular distillation (reflux).',
  badge:'partial', badgeText:'Trilobe = three-stage alchemical reactor — Pelican reflux motif confirmed'},
 
-{id:'64', stage:'multimodal', group:'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+{id:'64', stage:'multimodal', group:'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
  title:'Rosettes Foldout (f85–f86) — The Alchemical Macro-Reactor',
  tagline:'The 9-rosette foldout is a complete macro-scale distillation plant — 9 reactors in an interconnected system.',
  finding:'9 rosettes in a 3×3 grid connected by bridges. Bridge texts: elevated qo- tokens (outflow/active). Outer rosettes: botanical-section prefix dominance (input materials). Central rosette: elevated lk- prefix (processing/command). Bottom-right rosettes: elevated -aiin/-am doses (output/yield). Castle/tower structures at corners = collection vessels or condensers.',
@@ -1224,18 +1232,48 @@ const PHASES = [
 {id:'CRITICAL', stage:'critical', group:'Special: Critical Audits & Competing Hypotheses',
  title:'Critical Audit & Epistemological Limits',
  tagline:'What is strongly supported, what is strongly supported, and what remains genuinely unknown.',
- finding:'PROVEN (mathematical): Low entropy (~4.44), extreme morphological valency (~86.5), edge bias (~1.80×), sectoral polymorphism (F1 0.80), directional flow asymmetry (1.8:1), flat generative syntax (1.9% parse coverage), 91.5% blind classification. STRONGLY SUPPORTED: Apriori Taxonomic Pasigraphy encoding botanical/alchemical data. Prefix-anchors are domain-specific taxonomic coordinates. UNCERTAIN: The precise semantic meaning of any individual token. UNKNOWN: The identity of the author. Whether the system was ever used operationally. Phase XXIII Direct Translation formally retracted. "Paper Computer" pseudocode is an analytical metaphor, not a literal claim.',
- badge:'partial', badgeText:'Epistemological tiers established — scientific transparency maintained'}
+ finding:'PROVEN (mathematical): Low entropy (~4.44), extreme morphological valency (~86.5), edge bias (~1.80×), sectoral polymorphism (F1 0.80), directional flow asymmetry (1.8:1), flat generative syntax (1.9% parse coverage), 91.5% blind classification. STRONGLY SUPPORTED: Apriori Taxonomic Pasigraphy encoding botanical/alchemical data. Prefix-anchors are domain-specific taxonomic coordinates. UNCERTAIN: The precise semantic meaning of any individual token. UNKNOWN: The identity of the author. Whether the system was ever used operationally. Phase 23 Direct Translation formally retracted. "Paper Computer" pseudocode is an analytical metaphor, not a literal claim.',
+ badge:'partial', badgeText:'Epistemological tiers established — scientific transparency maintained'},
+
+// ── STAGE 4: ROOT EXTRACTION & TRANSLATION ENGINE ──────────────────
+{id:'127', stage:'semantic', group:'Stage 4 — Root Extraction & Translation Engine (Phases 127–130)',
+ title:'Universal Root Extraction & Language Affinity Mapping',
+ tagline:'2,263 roots extracted via consensus. Phonetic mapping suggests strong Latin affinity.',
+ finding:'A morphological decomposition yielded 2,263 unique potential roots across all three transcriptions (100% consensus). When tested against various historical corpora, phonetic matches overwhelmingly pointed toward Latin (91.52%), with Arabic and Hindi returning no direct matches in this specific test setup. While not definitive proof, it significantly challenges the Arabic origin hypothesis and provides empirical grounding for a Latin substrate.',
+ badge:'partial', badgeText:'Latin substrate strongly indicated',
+ nums:[{v:'2,263',l:'Unique Roots Extracted'},{v:'91.52%',l:'Latin Affinity'},{v:'408,465',l:'Total Phonetic Matches'}]},
+
+{id:'128', stage:'semantic', group:'Stage 4 — Root Extraction & Translation Engine (Phases 127–130)',
+ title:'Latin vs Arabic Phonetic Audit — All 3 Transcriptions',
+ tagline:'Independent phonetic scoring supports Latin prevalence over Arabic.',
+ finding:'Roots were independently scored for Latin and Arabic phonetic affinity. The audit showed a high discrepancy (32,321 Latin vs 14 Arabic matches), yielding an apparent 2,309:1 ratio. The few Arabic matches appear to be shared phonemes. This result strongly reinforces the Latin substrate hypothesis, though further independent validation is encouraged.',
+ badge:'partial', badgeText:'Latin prevalence supported',
+ nums:[{v:'32,321',l:'Latin Matches'},{v:'14',l:'Arabic Matches'},{v:'2,309:1',l:'Latin:Arabic Ratio'}]},
+
+{id:'129', stage:'semantic', group:'Stage 4 — Root Extraction & Translation Engine (Phases 127–130)',
+ title:'Master Voynich Lexicon (Materia Medica)',
+ tagline:'A working dictionary of taxonomic roots with initial attempts at meaning assignment.',
+ finding:'Created an initial lexicon framework using consensus-filtered roots. Two roots present plausible and etymologically grounded interpretations: "tal" (Base Metal/Mineral) and "kal" (Salts/Alkali). Ten more roots are structurally consistent but await rigorous visual or semantic grounding. The prefix-root-suffix structure observed in earlier phases remains remarkably robust.',
+ badge:'partial', badgeText:'Lexicon framework established',
+ nums:[{v:'2',l:'Proposed Interpretations'},{v:'10',l:'Confirmed Unknowns'},{v:'tal',l:'Base Metal/Mineral'},{v:'kal',l:'Salts/Alkali'}]},
+
+{id:'130', stage:'semantic', group:'Stage 4 — Root Extraction & Translation Engine (Phases 127–130)',
+ title:'Experimental Translation Engine',
+ tagline:'A rule-based 4-layer translation algorithm generating provisional glosses.',
+ finding:'Developed a preliminary translation engine mapping words into 4 layers: Anchors, Operators, Roots, and State Modifiers. It assigns hypothetical functions to characters (e.g., k=GRIND, t=HEAT). Applied across the transcriptions, it produces output that structurally resembles a Materia Medica format. While these glosses are not yet confirmed translations, the structural coherence provides interesting support for the alchemical/botanical instruction set hypothesis.',
+ badge:'partial', badgeText:'Experimental translation generated',
+ nums:[{v:'4',l:'Parsing Layers'},{v:'17',l:'Proposed Operators'},{v:'19',l:'Proposed Modifiers'}]}
 ];
 
 // =====================================================================
 // GROUPS
 // =====================================================================
 const GROUPS = [
-  'Stage I — Structural Foundation (Phases I–X)',
-  'Stage I — Deeper Structural Layers (Phases XI–XXXI)',
-  'Stage II — Semantic Grounding (Phases XXXII–XXXV & 36–118)',
-  'Stage III — Multimodal Visual Grounding (Phases XXXIV & 43–90+)',
+  'Stage 1 — Structural Foundation (Phases 1–10)',
+  'Stage 1 — Deeper Structural Layers (Phases 11–31)',
+  'Stage 2 — Semantic Grounding (Phases 32–35 & 36–118)',
+  'Stage 3 — Multimodal Visual Grounding (Phases 34 & 43–90+)',
+  'Stage 4 — Root Extraction & Translation Engine (Phases 127–130)',
   'Special: Critical Audits & Competing Hypotheses'
 ];
 
@@ -1314,9 +1352,6 @@ function showPhase(id) {
 
   document.querySelectorAll('.phase-item').forEach(el => el.classList.toggle('active', el.dataset.id == id));
   const idx = PHASES.findIndex(x => x.id === id);
-  const pct = ((idx + 1) / PHASES.length * 100).toFixed(1);
-  document.getElementById('progressFill').style.width = pct + '%';
-  document.getElementById('progressLabel').textContent = `Phase ${idx+1} of ${PHASES.length} · ${pct}% complete`;
 
   const activeEl = document.querySelector('.phase-item.active');
   if (activeEl) activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
