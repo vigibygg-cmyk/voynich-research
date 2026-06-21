@@ -7,7 +7,7 @@
        SEO & METADATA
   ════════════════════════════════════════════ -->
   <title>Research Phases — Voynich Manuscript Analysis</title>
-  <meta name="description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+  <meta name="description" content="The chronological record of over 130 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
   <meta name="author" content="Vytautas Giedraitis">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
@@ -16,14 +16,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
   <meta property="og:title" content="Research Phases — Voynich Manuscript Analysis">
-  <meta property="og:description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+  <meta property="og:description" content="The chronological record of over 130 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
   <meta property="og:site_name" content="Voynich Research">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://vigibygg-cmyk.github.io/voynich-research/phases.html">
   <meta name="twitter:title" content="Research Phases — Voynich Manuscript Analysis">
-  <meta name="twitter:description" content="The chronological record of over 100 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
+  <meta name="twitter:description" content="The chronological record of over 130 research phases, covering raw data extraction, entropy triangulation, formal grammar induction, and decipherment attempts.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -667,7 +667,7 @@
       pixel-level spatial mapping, and semantic decipherment attempts of Beinecke MS 408.
     </p>
     <div class="hero-stats fade-up delay-4">
-      <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Total Phases</span></div>
+      <div class="stat"><span class="stat-num">130+</span><span class="stat-label">Total Phases</span></div>
       <div class="stat"><span class="stat-num">3</span><span class="stat-label">Transcription Sources</span></div>
       <div class="stat"><span class="stat-num">38 506</span><span class="stat-label">Words Analysed</span></div>
       <div class="stat"><span class="stat-num">~4.44</span><span class="stat-label">Bigram Perplexity</span></div>
@@ -1431,22 +1431,6 @@ document.querySelectorAll('.filter-btn, .pill').forEach(btn => {
     const f = this.dataset.filter;
     if (!f) return;
     // sync both sets
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
-    document.querySelectorAll('.pill').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
-    activeFilter = f;
-    applyFilters();
-  });
-});
-
-document.getElementById('searchInput').addEventListener('input', function() {
-  searchTerm = this.value.toLowerCase().trim();
-  applyFilters();
-});
-
-showPhase(PHASES[0].id);
-</script>
-</body>
-</html>
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
     document.querySelectorAll('.pill').forEach(b => b.classList.toggle('active', b.dataset.filter === f));
     activeFilter = f;
